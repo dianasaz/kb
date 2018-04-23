@@ -1,0 +1,218 @@
+book_Gosudar
+<- book;
+=> nrel_author;
+	author_Makiavelli;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Государь]
+		(* <- lang_ru;; *);;
+
+book_Gosudar
+=> nrel_characters:
+	.book_Gosudar_characters
+		(*
+			-> char_ludovik_book_Gosudar;;
+			-> char_gannibal_book_Gosudar;;
+			-> char_zezar__book_Gosudar;;
+			-> char_aleksandr_velikij_book_Gosudar;;
+			-> char_ulij_book_Gosudar;;
+			-> char_ferdinand_aragonskij_book_Gosudar;;
+			-> char_agatokl_book_Gosudar;;
+			-> char_aleksandr_makedonskij_book_Gosudar;;
+			-> char_aleksandr_book_Gosudar;;
+			-> char_darij_book_Gosudar;;
+			-> char_ahilla_book_Gosudar;;
+			-> char_makiavelli_book_Gosudar;;
+	 	*);;
+
+char_ludovik_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Людовик ]
+		(* <- lang_ru;; *);;
+
+char_gannibal_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Ганнибал ]
+		(* <- lang_ru;; *);;
+
+char_zezar__book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Цезарь ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_velikij_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Александр Великий ]
+		(* <- lang_ru;; *);;
+
+char_ulij_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Юлий ]
+		(* <- lang_ru;; *);;
+
+char_ferdinand_aragonskij_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Фердинанд Арагонский ]
+		(* <- lang_ru;; *);;
+
+char_agatokl_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Агатокл ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_makedonskij_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Александр Македонский ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_darij_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Дарий ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_makiavelli_book_Gosudar
+<- char;
+=> nrel_main_idtf:
+	[ Макиавелли ]
+		(* <- lang_ru;; *);;
+
+book_Gosudar
+=> nrel_locales:
+	.book_Gosudar_locales
+		(*
+			-> locale_bolon_a_book_Gosudar;;
+			-> locale_persia_book_Gosudar;;
+			-> locale_sizilia_book_Gosudar;;
+			-> locale_franzia_book_Gosudar;;
+			-> locale_italia_book_Gosudar;;
+			-> locale_velikoe_book_Gosudar;;
+			-> locale_lubim_book_Gosudar;;
+			-> locale_severnaa_italia_book_Gosudar;;
+			-> locale_ves__velikoe_book_Gosudar;;
+			-> locale_kampania_book_Gosudar;;
+			-> locale_sirakuza_book_Gosudar;;
+			-> locale_to_book_Gosudar;;
+			-> locale_kakoj_oblast__book_Gosudar;;
+			-> locale_rim_book_Gosudar;;
+			-> locale_venezia_book_Gosudar;;
+			-> locale_grezia_book_Gosudar;;
+	 	*);;
+
+locale_bolon_a_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Болонья ]
+		(* <- lang_ru;; *);;
+
+locale_persia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Персия ]
+		(* <- lang_ru;; *);;
+
+locale_sizilia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Сицилия ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_severnaa_italia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Северная Италия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__velikoe_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kampania_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_sirakuza_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Сиракуза ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kakoj_oblast__book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Какой Область ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Gosudar
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

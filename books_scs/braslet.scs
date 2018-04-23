@@ -1,0 +1,113 @@
+book_Braslet
+<- book;
+=> nrel_author;
+	author_Kuprin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Гранатовый Браслет]
+		(* <- lang_ru;; *);;
+
+book_Braslet
+=> nrel_characters:
+	.book_Braslet_characters
+		(*
+			-> char_vasilij_l_vovic_sein_book_Braslet;;
+			-> char_nikolaj_book_Braslet;;
+			-> char_sein_book_Braslet;;
+			-> char_nikolaevna_seina_book_Braslet;;
+			-> char_vasa_sein_book_Braslet;;
+			-> char_bethoven_book_Braslet;;
+			-> char_vera_book_Braslet;;
+			-> char_akov_mihajlovic_anosov_book_Braslet;;
+			-> char_anna_nikolaevna_book_Braslet;;
+			-> char_vasilij_l_vovic_book_Braslet;;
+			-> char_anna_book_Braslet;;
+	 	*);;
+
+char_vasilij_l_vovic_sein_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Василий Львович Шеин ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_sein_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Шеин ]
+		(* <- lang_ru;; *);;
+
+char_nikolaevna_seina_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Николаевна Шеина ]
+		(* <- lang_ru;; *);;
+
+char_vasa_sein_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Вася Шеин ]
+		(* <- lang_ru;; *);;
+
+char_bethoven_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Бетховен ]
+		(* <- lang_ru;; *);;
+
+char_vera_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Вера ]
+		(* <- lang_ru;; *);;
+
+char_akov_mihajlovic_anosov_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Яков Михайлович Аносов ]
+		(* <- lang_ru;; *);;
+
+char_anna_nikolaevna_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Анна Николаевна ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_l_vovic_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Василий Львович ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Braslet
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+book_Braslet
+=> nrel_locales:
+	.book_Braslet_locales
+		(*
+			-> locale_jeltkova_book_Braslet;;
+			-> locale_bol_saa_krasnaa_book_Braslet;;
+	 	*);;
+
+locale_jeltkova_book_Braslet
+<- locale;
+=> nrel_main_idtf:
+	[ Желткова ]
+		(* <- lang_ru;; *);;
+
+locale_bol_saa_krasnaa_book_Braslet
+<- locale;
+=> nrel_main_idtf:
+	[ Большая Красная ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,78 @@
+book_Zhivi_I_Pomni
+<- book;
+=> nrel_author;
+	author_Rasputin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Живи И Помни]
+		(* <- lang_ru;; *);;
+
+book_Zhivi_I_Pomni
+=> nrel_characters:
+	.book_Zhivi_I_Pomni_characters
+		(*
+			-> char_nasten_book_Zhivi_I_Pomni;;
+			-> char_andrej_book_Zhivi_I_Pomni;;
+			-> char_andrej_gus_kov_book_Zhivi_I_Pomni;;
+			-> char_gus_kov_book_Zhivi_I_Pomni;;
+	 	*);;
+
+char_nasten_book_Zhivi_I_Pomni
+<- char;
+=> nrel_main_idtf:
+	[ Настен ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Zhivi_I_Pomni
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_andrej_gus_kov_book_Zhivi_I_Pomni
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Гуськов ]
+		(* <- lang_ru;; *);;
+
+char_gus_kov_book_Zhivi_I_Pomni
+<- char;
+=> nrel_main_idtf:
+	[ Гуськов ]
+		(* <- lang_ru;; *);;
+
+book_Zhivi_I_Pomni
+=> nrel_locales:
+	.book_Zhivi_I_Pomni_locales
+		(*
+			-> locale_to_book_Zhivi_I_Pomni;;
+			-> locale_kotoryj_book_Zhivi_I_Pomni;;
+			-> locale_kuda_book_Zhivi_I_Pomni;;
+			-> locale_angar_book_Zhivi_I_Pomni;;
+	 	*);;
+
+locale_to_book_Zhivi_I_Pomni
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zhivi_I_Pomni
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zhivi_I_Pomni
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_angar_book_Zhivi_I_Pomni
+<- locale;
+=> nrel_main_idtf:
+	[ Ангар ]
+		(* <- lang_ru;; *);;
+

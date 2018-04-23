@@ -1,0 +1,71 @@
+book_Kukushka
+<- book;
+=> nrel_author;
+	author_Bunin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кукушка]
+		(* <- lang_ru;; *);;
+
+book_Kukushka
+=> nrel_characters:
+	.book_Kukushka_characters
+		(*
+			-> char_murzik_book_Kukushka;;
+			-> char_kola_book_Kukushka;;
+			-> char_mita_book_Kukushka;;
+	 	*);;
+
+char_murzik_book_Kukushka
+<- char;
+=> nrel_main_idtf:
+	[ Мурзик ]
+		(* <- lang_ru;; *);;
+
+char_kola_book_Kukushka
+<- char;
+=> nrel_main_idtf:
+	[ Коля ]
+		(* <- lang_ru;; *);;
+
+char_mita_book_Kukushka
+<- char;
+=> nrel_main_idtf:
+	[ Митя ]
+		(* <- lang_ru;; *);;
+
+book_Kukushka
+=> nrel_locales:
+	.book_Kukushka_locales
+		(*
+			-> locale_luga_book_Kukushka;;
+			-> locale_ih_kola_book_Kukushka;;
+			-> locale_kola_book_Kukushka;;
+			-> locale_para_book_Kukushka;;
+	 	*);;
+
+locale_luga_book_Kukushka
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_ih_kola_book_Kukushka
+<- locale;
+=> nrel_main_idtf:
+	[ Их Кола ]
+		(* <- lang_ru;; *);;
+
+locale_kola_book_Kukushka
+<- locale;
+=> nrel_main_idtf:
+	[ Кола ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Kukushka
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

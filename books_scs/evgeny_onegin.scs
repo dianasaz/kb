@@ -1,0 +1,246 @@
+book_Evgeny_Onegin
+<- book;
+=> nrel_author;
+	author_Pushkin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Евгений Онегин]
+		(* <- lang_ru;; *);;
+
+book_Evgeny_Onegin
+=> nrel_characters:
+	.book_Evgeny_Onegin_characters
+		(*
+			-> char_martyn_book_Evgeny_Onegin;;
+			-> char_tana_book_Evgeny_Onegin;;
+			-> char_evgenij_onegin_book_Evgeny_Onegin;;
+			-> char_larin_book_Evgeny_Onegin;;
+			-> char_alin_book_Evgeny_Onegin;;
+			-> char_onegin_book_Evgeny_Onegin;;
+			-> char_tat_ana_book_Evgeny_Onegin;;
+			-> char_vladimir_lenskij_book_Evgeny_Onegin;;
+			-> char_evgenij_book_Evgeny_Onegin;;
+			-> char_dmitrij_larin_book_Evgeny_Onegin;;
+			-> char_trik_book_Evgeny_Onegin;;
+			-> char_buanov_book_Evgeny_Onegin;;
+			-> char_kant_book_Evgeny_Onegin;;
+			-> char_lenskij_book_Evgeny_Onegin;;
+			-> char_vladimir_book_Evgeny_Onegin;;
+			-> char_ol_ga_book_Evgeny_Onegin;;
+			-> char_prihod_book_Evgeny_Onegin;;
+	 	*);;
+
+char_martyn_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Мартын ]
+		(* <- lang_ru;; *);;
+
+char_tana_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Таня ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_onegin_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Евгений Онегин ]
+		(* <- lang_ru;; *);;
+
+char_larin_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Ларин ]
+		(* <- lang_ru;; *);;
+
+char_alin_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Алин ]
+		(* <- lang_ru;; *);;
+
+char_onegin_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Онегин ]
+		(* <- lang_ru;; *);;
+
+char_tat_ana_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Татьяна ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_lenskij_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Ленский ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Евгений ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_larin_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий Ларин ]
+		(* <- lang_ru;; *);;
+
+char_trik_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Трик ]
+		(* <- lang_ru;; *);;
+
+char_buanov_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Буянов ]
+		(* <- lang_ru;; *);;
+
+char_kant_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Кант ]
+		(* <- lang_ru;; *);;
+
+char_lenskij_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Ленский ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_prihod_book_Evgeny_Onegin
+<- char;
+=> nrel_main_idtf:
+	[ Приход ]
+		(* <- lang_ru;; *);;
+
+book_Evgeny_Onegin
+=> nrel_locales:
+	.book_Evgeny_Onegin_locales
+		(*
+			-> locale_germania_book_Evgeny_Onegin;;
+			-> locale_zarezkij_book_Evgeny_Onegin;;
+			-> locale_grebenka_book_Evgeny_Onegin;;
+			-> locale_mirnyj_book_Evgeny_Onegin;;
+			-> locale_kuda_book_Evgeny_Onegin;;
+			-> locale_vladimir_book_Evgeny_Onegin;;
+			-> locale_lubim_book_Evgeny_Onegin;;
+			-> locale_moskva_book_Evgeny_Onegin;;
+			-> locale_ol_gin_book_Evgeny_Onegin;;
+			-> locale_to_book_Evgeny_Onegin;;
+			-> locale_holodnoe_peterburgskoe_book_Evgeny_Onegin;;
+			-> locale_takoe_vremapro_book_Evgeny_Onegin;;
+			-> locale_nea_book_Evgeny_Onegin;;
+			-> locale_tiletnij_vladimir_book_Evgeny_Onegin;;
+			-> locale_peterburg_book_Evgeny_Onegin;;
+	 	*);;
+
+locale_germania_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_zarezkij_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Зарецкий ]
+		(* <- lang_ru;; *);;
+
+locale_grebenka_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Гребенка ]
+		(* <- lang_ru;; *);;
+
+locale_mirnyj_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_ol_gin_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Ольгин ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_holodnoe_peterburgskoe_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Холодное Петербургское ]
+		(* <- lang_ru;; *);;
+
+locale_takoe_vremapro_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Такое Времяпро ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_tiletnij_vladimir_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Тилетний Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Evgeny_Onegin
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,37 @@
+book_Zaklyatie_Daosa
+<- book;
+=> nrel_author;
+	author_Lin_Menchu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Заклятие Даоса]
+		(* <- lang_ru;; *);;
+
+book_Zaklyatie_Daosa
+=> nrel_locales:
+	.book_Zaklyatie_Daosa_locales
+		(*
+			-> locale_kotoryj_book_Zaklyatie_Daosa;;
+			-> locale_to_book_Zaklyatie_Daosa;;
+			-> locale_cjuanzzy_book_Zaklyatie_Daosa;;
+	 	*);;
+
+locale_kotoryj_book_Zaklyatie_Daosa
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zaklyatie_Daosa
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cjuanzzy_book_Zaklyatie_Daosa
+<- locale;
+=> nrel_main_idtf:
+	[ Чжуанцзы ]
+		(* <- lang_ru;; *);;
+

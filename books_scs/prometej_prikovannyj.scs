@@ -1,0 +1,169 @@
+book_Prometej_Prikovannyj
+<- book;
+=> nrel_author;
+	author_Esxil;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Прометей Прикованный]
+		(* <- lang_ru;; *);;
+
+book_Prometej_Prikovannyj
+=> nrel_characters:
+	.book_Prometej_Prikovannyj_characters
+		(*
+			-> char_gerakl_book_Prometej_Prikovannyj;;
+			-> char_germes_book_Prometej_Prikovannyj;;
+			-> char_prometej_book_Prometej_Prikovannyj;;
+			-> char_gera_book_Prometej_Prikovannyj;;
+			-> char_prometeev_book_Prometej_Prikovannyj;;
+			-> char_zevs_book_Prometej_Prikovannyj;;
+			-> char_ahilla_book_Prometej_Prikovannyj;;
+			-> char_fetida_book_Prometej_Prikovannyj;;
+			-> char_skifia_book_Prometej_Prikovannyj;;
+	 	*);;
+
+char_gerakl_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_germes_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Гермес ]
+		(* <- lang_ru;; *);;
+
+char_prometej_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Прометей ]
+		(* <- lang_ru;; *);;
+
+char_gera_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Гера ]
+		(* <- lang_ru;; *);;
+
+char_prometeev_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Прометеев ]
+		(* <- lang_ru;; *);;
+
+char_zevs_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Зевс ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_fetida_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Фетида ]
+		(* <- lang_ru;; *);;
+
+char_skifia_book_Prometej_Prikovannyj
+<- char;
+=> nrel_main_idtf:
+	[ Скифия ]
+		(* <- lang_ru;; *);;
+
+book_Prometej_Prikovannyj
+=> nrel_locales:
+	.book_Prometej_Prikovannyj_locales
+		(*
+			-> locale_bykov_book_Prometej_Prikovannyj;;
+			-> locale_olimp_book_Prometej_Prikovannyj;;
+			-> locale_hudsaa_kara_book_Prometej_Prikovannyj;;
+			-> locale_atlant_book_Prometej_Prikovannyj;;
+			-> locale_etot_orel_book_Prometej_Prikovannyj;;
+			-> locale_azia_book_Prometej_Prikovannyj;;
+			-> locale_kavkaz_book_Prometej_Prikovannyj;;
+			-> locale_evropa_book_Prometej_Prikovannyj;;
+			-> locale_egipet_book_Prometej_Prikovannyj;;
+			-> locale_orel_book_Prometej_Prikovannyj;;
+			-> locale_vostok_book_Prometej_Prikovannyj;;
+			-> locale_jeleznyj_klin_book_Prometej_Prikovannyj;;
+	 	*);;
+
+locale_bykov_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_olimp_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Олимп ]
+		(* <- lang_ru;; *);;
+
+locale_hudsaa_kara_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Худшая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_atlant_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Атлант ]
+		(* <- lang_ru;; *);;
+
+locale_etot_orel_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_azia_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Азия ]
+		(* <- lang_ru;; *);;
+
+locale_kavkaz_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Кавказ ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_jeleznyj_klin_book_Prometej_Prikovannyj
+<- locale;
+=> nrel_main_idtf:
+	[ Железный Клин ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,106 @@
+book_Pohvala_Gluposti
+<- book;
+=> nrel_author;
+	author_Rotterdamskij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Похвала Глупости]
+		(* <- lang_ru;; *);;
+
+book_Pohvala_Gluposti
+=> nrel_characters:
+	.book_Pohvala_Gluposti_characters
+		(*
+			-> char_moria_book_Pohvala_Gluposti;;
+			-> char_trife_book_Pohvala_Gluposti;;
+			-> char_gedone_book_Pohvala_Gluposti;;
+			-> char_kolakiia_book_Pohvala_Gluposti;;
+			-> char_apedia_book_Pohvala_Gluposti;;
+	 	*);;
+
+char_moria_book_Pohvala_Gluposti
+<- char;
+=> nrel_main_idtf:
+	[ Мория ]
+		(* <- lang_ru;; *);;
+
+char_trife_book_Pohvala_Gluposti
+<- char;
+=> nrel_main_idtf:
+	[ Трифэ ]
+		(* <- lang_ru;; *);;
+
+char_gedone_book_Pohvala_Gluposti
+<- char;
+=> nrel_main_idtf:
+	[ Гедонэ ]
+		(* <- lang_ru;; *);;
+
+char_kolakiia_book_Pohvala_Gluposti
+<- char;
+=> nrel_main_idtf:
+	[ Колакиия ]
+		(* <- lang_ru;; *);;
+
+char_apedia_book_Pohvala_Gluposti
+<- char;
+=> nrel_main_idtf:
+	[ Апедия ]
+		(* <- lang_ru;; *);;
+
+book_Pohvala_Gluposti
+=> nrel_locales:
+	.book_Pohvala_Gluposti_locales
+		(*
+			-> locale_samyj_upiter_book_Pohvala_Gluposti;;
+			-> locale_velik_book_Pohvala_Gluposti;;
+			-> locale_negretos_book_Pohvala_Gluposti;;
+			-> locale_venera_book_Pohvala_Gluposti;;
+			-> locale_to_book_Pohvala_Gluposti;;
+			-> locale_upiter_book_Pohvala_Gluposti;;
+			-> locale_gomera_book_Pohvala_Gluposti;;
+	 	*);;
+
+locale_samyj_upiter_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_negretos_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Негретос ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_upiter_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_gomera_book_Pohvala_Gluposti
+<- locale;
+=> nrel_main_idtf:
+	[ Гомера ]
+		(* <- lang_ru;; *);;
+

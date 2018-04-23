@@ -1,0 +1,183 @@
+book_Ippolit
+<- book;
+=> nrel_author;
+	author_Evripid;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ипполит]
+		(* <- lang_ru;; *);;
+
+book_Ippolit
+=> nrel_characters:
+	.book_Ippolit_characters
+		(*
+			-> char_artemida_book_Ippolit;;
+			-> char_gerakl_book_Ippolit;;
+			-> char_ariadna_book_Ippolit;;
+			-> char_afina_book_Ippolit;;
+			-> char_ippolitovyj_book_Ippolit;;
+			-> char_egea_book_Ippolit;;
+			-> char_orfej_book_Ippolit;;
+			-> char_dionis_book_Ippolit;;
+			-> char_artemidina_book_Ippolit;;
+			-> char_afrodita_book_Ippolit;;
+			-> char_ippolit_book_Ippolit;;
+			-> char_teseusij_book_Ippolit;;
+			-> char_posejdon_book_Ippolit;;
+	 	*);;
+
+char_artemida_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Артемида ]
+		(* <- lang_ru;; *);;
+
+char_gerakl_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_ariadna_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Ариадна ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_ippolitovyj_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Ипполитовый ]
+		(* <- lang_ru;; *);;
+
+char_egea_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Эгея ]
+		(* <- lang_ru;; *);;
+
+char_orfej_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Орфей ]
+		(* <- lang_ru;; *);;
+
+char_dionis_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Дионис ]
+		(* <- lang_ru;; *);;
+
+char_artemidina_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Артемидина ]
+		(* <- lang_ru;; *);;
+
+char_afrodita_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Афродита ]
+		(* <- lang_ru;; *);;
+
+char_ippolit_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Ипполит ]
+		(* <- lang_ru;; *);;
+
+char_teseusij_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Тесеющий ]
+		(* <- lang_ru;; *);;
+
+char_posejdon_book_Ippolit
+<- char;
+=> nrel_main_idtf:
+	[ Посейдон ]
+		(* <- lang_ru;; *);;
+
+book_Ippolit
+=> nrel_locales:
+	.book_Ippolit_locales
+		(*
+			-> locale_kritskaa_book_Ippolit;;
+			-> locale_afiny_book_Ippolit;;
+			-> locale_velikoe_book_Ippolit;;
+			-> locale_krit_book_Ippolit;;
+			-> locale_drevnie_afiny_book_Ippolit;;
+			-> locale_morskoj_byk_book_Ippolit;;
+			-> locale_kara_book_Ippolit;;
+			-> locale_amazonka_book_Ippolit;;
+			-> locale_afina_book_Ippolit;;
+			-> locale_nea_book_Ippolit;;
+	 	*);;
+
+locale_kritskaa_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Критская ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_drevnie_afiny_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Древние Афины ]
+		(* <- lang_ru;; *);;
+
+locale_morskoj_byk_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Морской Бык ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_amazonka_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Амазонка ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Ippolit
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

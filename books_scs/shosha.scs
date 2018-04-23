@@ -1,0 +1,350 @@
+book_Shosha
+<- book;
+=> nrel_author;
+	author_Zinger;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шоша]
+		(* <- lang_ru;; *);;
+
+book_Shosha
+=> nrel_characters:
+	.book_Shosha_characters
+		(*
+			-> char_zuzik_book_Shosha;;
+			-> char_arel_book_Shosha;;
+			-> char_drejman_book_Shosha;;
+			-> char_mark_elbinger_book_Shosha;;
+			-> char_aaron_grejdinger_book_Shosha;;
+			-> char_trozkij_book_Shosha;;
+			-> char_cenciner_book_Shosha;;
+			-> char_moris_book_Shosha;;
+			-> char_basasij_book_Shosha;;
+			-> char_sem_book_Shosha;;
+			-> char_basa_book_Shosha;;
+			-> char_betti_slonivsij_book_Shosha;;
+			-> char_betti_book_Shosha;;
+			-> char_landsberg_book_Shosha;;
+			-> char_vol_f_book_Shosha;;
+			-> char_selia_book_Shosha;;
+			-> char_aaron_book_Shosha;;
+			-> char_gena_book_Shosha;;
+			-> char_stalin_book_Shosha;;
+			-> char_sem_drejman_book_Shosha;;
+			-> char_hajml_book_Shosha;;
+			-> char_krohmal_na_book_Shosha;;
+			-> char_elbingera_book_Shosha;;
+	 	*);;
+
+char_zuzik_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Цуцик ]
+		(* <- lang_ru;; *);;
+
+char_arel_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Арел ]
+		(* <- lang_ru;; *);;
+
+char_drejman_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Дрейман ]
+		(* <- lang_ru;; *);;
+
+char_mark_elbinger_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Марк Элбингер ]
+		(* <- lang_ru;; *);;
+
+char_aaron_grejdinger_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Аарон Грейдингер ]
+		(* <- lang_ru;; *);;
+
+char_trozkij_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Троцкий ]
+		(* <- lang_ru;; *);;
+
+char_cenciner_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Ченчинер ]
+		(* <- lang_ru;; *);;
+
+char_moris_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Морис ]
+		(* <- lang_ru;; *);;
+
+char_basasij_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Басящий ]
+		(* <- lang_ru;; *);;
+
+char_sem_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Сэм ]
+		(* <- lang_ru;; *);;
+
+char_basa_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Бася ]
+		(* <- lang_ru;; *);;
+
+char_betti_slonivsij_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Бетти Слонивший ]
+		(* <- lang_ru;; *);;
+
+char_betti_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Бетти ]
+		(* <- lang_ru;; *);;
+
+char_landsberg_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Ландсберг ]
+		(* <- lang_ru;; *);;
+
+char_vol_f_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Вольф ]
+		(* <- lang_ru;; *);;
+
+char_selia_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Селия ]
+		(* <- lang_ru;; *);;
+
+char_aaron_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Аарон ]
+		(* <- lang_ru;; *);;
+
+char_gena_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Геня ]
+		(* <- lang_ru;; *);;
+
+char_stalin_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Сталин ]
+		(* <- lang_ru;; *);;
+
+char_sem_drejman_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Сэм Дрейман ]
+		(* <- lang_ru;; *);;
+
+char_hajml_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Хаймл ]
+		(* <- lang_ru;; *);;
+
+char_krohmal_na_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Крохмальна ]
+		(* <- lang_ru;; *);;
+
+char_elbingera_book_Shosha
+<- char;
+=> nrel_main_idtf:
+	[ Элбингера ]
+		(* <- lang_ru;; *);;
+
+book_Shosha
+=> nrel_locales:
+	.book_Shosha_locales
+		(*
+			-> locale_sibir__book_Shosha;;
+			-> locale_sanhaj_book_Shosha;;
+			-> locale_kippur_book_Shosha;;
+			-> locale_kiev_book_Shosha;;
+			-> locale_otvozk_book_Shosha;;
+			-> locale_pol_sa_book_Shosha;;
+			-> locale_doru_book_Shosha;;
+			-> locale_suprujeskaa_para_book_Shosha;;
+			-> locale_sosa_book_Shosha;;
+			-> locale_izrail__book_Shosha;;
+			-> locale_vil_no_book_Shosha;;
+			-> locale_moskva_book_Shosha;;
+			-> locale_kazahstan_book_Shosha;;
+			-> locale_parij_book_Shosha;;
+			-> locale_london_book_Shosha;;
+			-> locale_drevneevrejski_book_Shosha;;
+			-> locale_rossia_book_Shosha;;
+			-> locale_kuda_book_Shosha;;
+			-> locale_hajml_book_Shosha;;
+			-> locale_to_book_Shosha;;
+			-> locale_amerika_book_Shosha;;
+			-> locale_varsava_book_Shosha;;
+	 	*);;
+
+locale_sibir__book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_sanhaj_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Шанхай ]
+		(* <- lang_ru;; *);;
+
+locale_kippur_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Киппур ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_otvozk_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Отвоцк ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_doru_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Дору ]
+		(* <- lang_ru;; *);;
+
+locale_suprujeskaa_para_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Супружеская Пара ]
+		(* <- lang_ru;; *);;
+
+locale_sosa_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Шоша ]
+		(* <- lang_ru;; *);;
+
+locale_izrail__book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Израиль ]
+		(* <- lang_ru;; *);;
+
+locale_vil_no_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Вильно ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kazahstan_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Казахстан ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_drevneevrejski_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Древнееврейски ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_hajml_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Хаймл ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Shosha
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+
+book_Shosha
+=> nrel_dates:
+	.book_Shosha_dates
+		(*
+			-> date_1914_book_Shosha;;
+	 	*);;
+
+date_1914_book_Shosha
+<- date;
+=> nrel_main_idtf:
+	[ 1914 ]
+		(* <- lang_ru;; *);;
+

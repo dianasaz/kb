@@ -1,0 +1,120 @@
+book_Persten_Rakshasy
+<- book;
+=> nrel_author;
+	author_Vishakhadatta;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Перстень Ракшасы]
+		(* <- lang_ru;; *);;
+
+book_Persten_Rakshasy
+=> nrel_characters:
+	.book_Persten_Rakshasy_characters
+		(*
+			-> char_magadh_book_Persten_Rakshasy;;
+			-> char_siddharthak_book_Persten_Rakshasy;;
+			-> char_candanadas_book_Persten_Rakshasy;;
+			-> char_kaugil_a_book_Persten_Rakshasy;;
+			-> char_raksas_book_Persten_Rakshasy;;
+			-> char_nanda_book_Persten_Rakshasy;;
+			-> char_djivasiddh_book_Persten_Rakshasy;;
+	 	*);;
+
+char_magadh_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Магадх ]
+		(* <- lang_ru;; *);;
+
+char_siddharthak_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Сиддхартхак ]
+		(* <- lang_ru;; *);;
+
+char_candanadas_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Чанданадас ]
+		(* <- lang_ru;; *);;
+
+char_kaugil_a_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Каугилья ]
+		(* <- lang_ru;; *);;
+
+char_raksas_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Ракшас ]
+		(* <- lang_ru;; *);;
+
+char_nanda_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Нанда ]
+		(* <- lang_ru;; *);;
+
+char_djivasiddh_book_Persten_Rakshasy
+<- char;
+=> nrel_main_idtf:
+	[ Дживасиддх ]
+		(* <- lang_ru;; *);;
+
+book_Persten_Rakshasy
+=> nrel_locales:
+	.book_Persten_Rakshasy_locales
+		(*
+			-> locale_kaugil_a_book_Persten_Rakshasy;;
+			-> locale_raksasoa_book_Persten_Rakshasy;;
+			-> locale_nanda_book_Persten_Rakshasy;;
+			-> locale_kotoryj_book_Persten_Rakshasy;;
+			-> locale_nandy_book_Persten_Rakshasy;;
+			-> locale_pataliputra_book_Persten_Rakshasy;;
+			-> locale_raksas_book_Persten_Rakshasy;;
+	 	*);;
+
+locale_kaugil_a_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Каугилья ]
+		(* <- lang_ru;; *);;
+
+locale_raksasoa_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Ракшасоя ]
+		(* <- lang_ru;; *);;
+
+locale_nanda_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Нанда ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_nandy_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Нанды ]
+		(* <- lang_ru;; *);;
+
+locale_pataliputra_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Паталипутра ]
+		(* <- lang_ru;; *);;
+
+locale_raksas_book_Persten_Rakshasy
+<- locale;
+=> nrel_main_idtf:
+	[ Ракшас ]
+		(* <- lang_ru;; *);;
+

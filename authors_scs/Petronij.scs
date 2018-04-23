@@ -1,0 +1,16 @@
+author_Petronij
+<- person;
+=> nrel_main_idtf:
+	[Петроний]
+		(* <- lang_ru;; *);;
+
+author_Petronij
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Petronij.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,85 @@
+book_Podshchipa
+<- book;
+=> nrel_author;
+	author_Krylov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Подщипа]
+		(* <- lang_ru;; *);;
+
+book_Podshchipa
+=> nrel_characters:
+	.book_Podshchipa_characters
+		(*
+			-> char_vakula_book_Podshchipa;;
+			-> char_vakulin_book_Podshchipa;;
+			-> char_vakul__book_Podshchipa;;
+			-> char_trumfoma_book_Podshchipa;;
+	 	*);;
+
+char_vakula_book_Podshchipa
+<- char;
+=> nrel_main_idtf:
+	[ Вакула ]
+		(* <- lang_ru;; *);;
+
+char_vakulin_book_Podshchipa
+<- char;
+=> nrel_main_idtf:
+	[ Вакулин ]
+		(* <- lang_ru;; *);;
+
+char_vakul__book_Podshchipa
+<- char;
+=> nrel_main_idtf:
+	[ Вакуль ]
+		(* <- lang_ru;; *);;
+
+char_trumfoma_book_Podshchipa
+<- char;
+=> nrel_main_idtf:
+	[ Трумфома ]
+		(* <- lang_ru;; *);;
+
+book_Podshchipa
+=> nrel_locales:
+	.book_Podshchipa_locales
+		(*
+			-> locale_slunausij_book_Podshchipa;;
+			-> locale_podsipa_book_Podshchipa;;
+			-> locale_osobaa_kara_book_Podshchipa;;
+			-> locale_zeausij_book_Podshchipa;;
+			-> locale_podsip_book_Podshchipa;;
+	 	*);;
+
+locale_slunausij_book_Podshchipa
+<- locale;
+=> nrel_main_idtf:
+	[ Слюняющий ]
+		(* <- lang_ru;; *);;
+
+locale_podsipa_book_Podshchipa
+<- locale;
+=> nrel_main_idtf:
+	[ Подщипа ]
+		(* <- lang_ru;; *);;
+
+locale_osobaa_kara_book_Podshchipa
+<- locale;
+=> nrel_main_idtf:
+	[ Особая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_zeausij_book_Podshchipa
+<- locale;
+=> nrel_main_idtf:
+	[ Зеяющий ]
+		(* <- lang_ru;; *);;
+
+locale_podsip_book_Podshchipa
+<- locale;
+=> nrel_main_idtf:
+	[ Подщип ]
+		(* <- lang_ru;; *);;
+

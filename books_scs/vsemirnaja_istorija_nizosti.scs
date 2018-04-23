@@ -1,0 +1,85 @@
+book_Vsemirnaja_Istorija_Nizosti
+<- book;
+=> nrel_author;
+	author_Borhes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Всемирная История Низости]
+		(* <- lang_ru;; *);;
+
+book_Vsemirnaja_Istorija_Nizosti
+=> nrel_characters:
+	.book_Vsemirnaja_Istorija_Nizosti_characters
+		(*
+			-> char_horasana_book_Vsemirnaja_Istorija_Nizosti;;
+			-> char_hakim_book_Vsemirnaja_Istorija_Nizosti;;
+	 	*);;
+
+char_horasana_book_Vsemirnaja_Istorija_Nizosti
+<- char;
+=> nrel_main_idtf:
+	[ Хорасана ]
+		(* <- lang_ru;; *);;
+
+char_hakim_book_Vsemirnaja_Istorija_Nizosti
+<- char;
+=> nrel_main_idtf:
+	[ Хаким ]
+		(* <- lang_ru;; *);;
+
+book_Vsemirnaja_Istorija_Nizosti
+=> nrel_locales:
+	.book_Vsemirnaja_Istorija_Nizosti_locales
+		(*
+			-> locale_krasil_nyj_can_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_sanama_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_horasana_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_to_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_oni_usta_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_byk_book_Vsemirnaja_Istorija_Nizosti;;
+			-> locale_razbityj_kotly_book_Vsemirnaja_Istorija_Nizosti;;
+	 	*);;
+
+locale_krasil_nyj_can_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Красильный Чан ]
+		(* <- lang_ru;; *);;
+
+locale_sanama_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Санама ]
+		(* <- lang_ru;; *);;
+
+locale_horasana_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Хорасана ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_oni_usta_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Они Уста ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_razbityj_kotly_book_Vsemirnaja_Istorija_Nizosti
+<- locale;
+=> nrel_main_idtf:
+	[ Разбитый Котлы ]
+		(* <- lang_ru;; *);;
+

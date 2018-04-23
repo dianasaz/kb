@@ -1,0 +1,378 @@
+book_Potop
+<- book;
+=> nrel_author;
+	author_Senkevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Потоп]
+		(* <- lang_ru;; *);;
+
+book_Potop
+=> nrel_characters:
+	.book_Potop_characters
+		(*
+			-> char_til_zita_book_Potop;;
+			-> char_censtohov_book_Potop;;
+			-> char_tykozin_book_Potop;;
+			-> char_basea_book_Potop;;
+			-> char_radzivill_book_Potop;;
+			-> char_anusa_book_Potop;;
+			-> char_elena_book_Potop;;
+			-> char_an_zamojskij_book_Potop;;
+			-> char_babinic_book_Potop;;
+			-> char_olen_ka_book_Potop;;
+			-> char_aleksandr_book_Potop;;
+			-> char_kazimir_book_Potop;;
+			-> char_sorokovoj_book_Potop;;
+			-> char_radzivill_boguslav_book_Potop;;
+			-> char_ketlinga_book_Potop;;
+			-> char_aleksandra_book_Potop;;
+			-> char_vodoktaha_book_Potop;;
+			-> char_ieremij_book_Potop;;
+			-> char_damian_book_Potop;;
+			-> char_andjej_book_Potop;;
+			-> char_mihal_volodyevskij_book_Potop;;
+			-> char_anus_book_Potop;;
+			-> char_anus_radzivill_book_Potop;;
+			-> char_visnevezkij_book_Potop;;
+			-> char_boguslav_book_Potop;;
+			-> char_sapegij_book_Potop;;
+			-> char_grizel_da_book_Potop;;
+			-> char_mihal_book_Potop;;
+			-> char_an_book_Potop;;
+	 	*);;
+
+char_til_zita_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Тильзита ]
+		(* <- lang_ru;; *);;
+
+char_censtohov_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Ченстохов ]
+		(* <- lang_ru;; *);;
+
+char_tykozin_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Тыкоцин ]
+		(* <- lang_ru;; *);;
+
+char_basea_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Басея ]
+		(* <- lang_ru;; *);;
+
+char_radzivill_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Радзивилл ]
+		(* <- lang_ru;; *);;
+
+char_anusa_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Ануся ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_an_zamojskij_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Ян Замойский ]
+		(* <- lang_ru;; *);;
+
+char_babinic_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Бабинич ]
+		(* <- lang_ru;; *);;
+
+char_olen_ka_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Оленька ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_kazimir_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Казимир ]
+		(* <- lang_ru;; *);;
+
+char_sorokovoj_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Сороковой ]
+		(* <- lang_ru;; *);;
+
+char_radzivill_boguslav_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Радзивилл Богуслав ]
+		(* <- lang_ru;; *);;
+
+char_ketlinga_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Кетлинга ]
+		(* <- lang_ru;; *);;
+
+char_aleksandra_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Александра ]
+		(* <- lang_ru;; *);;
+
+char_vodoktaha_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Водоктаха ]
+		(* <- lang_ru;; *);;
+
+char_ieremij_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Иеремий ]
+		(* <- lang_ru;; *);;
+
+char_damian_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Дамиан ]
+		(* <- lang_ru;; *);;
+
+char_andjej_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Анджей ]
+		(* <- lang_ru;; *);;
+
+char_mihal_volodyevskij_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Михал Володыёвский ]
+		(* <- lang_ru;; *);;
+
+char_anus_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Януш ]
+		(* <- lang_ru;; *);;
+
+char_anus_radzivill_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Януш Радзивилл ]
+		(* <- lang_ru;; *);;
+
+char_visnevezkij_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Вишневецкий ]
+		(* <- lang_ru;; *);;
+
+char_boguslav_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Богуслав ]
+		(* <- lang_ru;; *);;
+
+char_sapegij_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Сапегий ]
+		(* <- lang_ru;; *);;
+
+char_grizel_da_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Гризельда ]
+		(* <- lang_ru;; *);;
+
+char_mihal_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Михал ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Potop
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Potop
+=> nrel_locales:
+	.book_Potop_locales
+		(*
+			-> locale_an_book_Potop;;
+			-> locale_prussia_book_Potop;;
+			-> locale_nescastnaa_olen_ka_book_Potop;;
+			-> locale_kotoryj_book_Potop;;
+			-> locale_radzivill_book_Potop;;
+			-> locale_borzobogataa_book_Potop;;
+			-> locale_velikoe_book_Potop;;
+			-> locale_lesna_book_Potop;;
+			-> locale_kara_book_Potop;;
+			-> locale_olen_ka_book_Potop;;
+			-> locale_litva_book_Potop;;
+			-> locale_sapegij_book_Potop;;
+			-> locale_to_book_Potop;;
+			-> locale_l_vov_book_Potop;;
+			-> locale_smolensk_book_Potop;;
+			-> locale_vsa_evropa_book_Potop;;
+			-> locale_varsava_book_Potop;;
+			-> locale_pol_sa_book_Potop;;
+			-> locale_etot_kraj_book_Potop;;
+	 	*);;
+
+locale_an_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_prussia_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_nescastnaa_olen_ka_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Несчастная Оленька ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_radzivill_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Радзивилл ]
+		(* <- lang_ru;; *);;
+
+locale_borzobogataa_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Борзобогатая ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_olen_ka_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Оленька ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_sapegij_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Сапегий ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_l_vov_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Львов ]
+		(* <- lang_ru;; *);;
+
+locale_smolensk_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Смоленск ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_evropa_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Европа ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_etot_kraj_book_Potop
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Край ]
+		(* <- lang_ru;; *);;
+
+book_Potop
+=> nrel_dates:
+	.book_Potop_dates
+		(*
+			-> date_1657_book_Potop;;
+			-> date_1655_book_Potop;;
+	 	*);;
+
+date_1657_book_Potop
+<- date;
+=> nrel_main_idtf:
+	[ 1657 ]
+		(* <- lang_ru;; *);;
+
+date_1655_book_Potop
+<- date;
+=> nrel_main_idtf:
+	[ 1655 ]
+		(* <- lang_ru;; *);;
+

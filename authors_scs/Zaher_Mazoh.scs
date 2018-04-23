@@ -1,0 +1,16 @@
+author_Zaher_Mazoh
+<- person;
+=> nrel_main_idtf:
+	[Леопольд Фон Захер-Мазох]
+		(* <- lang_ru;; *);;
+
+author_Zaher_Mazoh
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Zaher_Mazoh.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

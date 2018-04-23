@@ -1,0 +1,64 @@
+book_Sonia
+<- book;
+=> nrel_author;
+	author_Tolstaia;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Соня]
+		(* <- lang_ru;; *);;
+
+book_Sonia
+=> nrel_characters:
+	.book_Sonia_characters
+		(*
+			-> char_ad_book_Sonia;;
+			-> char_nikolaj_book_Sonia;;
+			-> char_sona_book_Sonia;;
+			-> char_sonin_book_Sonia;;
+			-> char_adol_fovic_lev_book_Sonia;;
+	 	*);;
+
+char_ad_book_Sonia
+<- char;
+=> nrel_main_idtf:
+	[ Ад ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Sonia
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_sona_book_Sonia
+<- char;
+=> nrel_main_idtf:
+	[ Соня ]
+		(* <- lang_ru;; *);;
+
+char_sonin_book_Sonia
+<- char;
+=> nrel_main_idtf:
+	[ Сонин ]
+		(* <- lang_ru;; *);;
+
+char_adol_fovic_lev_book_Sonia
+<- char;
+=> nrel_main_idtf:
+	[ Адольфович Лев ]
+		(* <- lang_ru;; *);;
+
+book_Sonia
+=> nrel_locales:
+	.book_Sonia_locales
+		(*
+			-> locale_ves__leningrad_book_Sonia;;
+	 	*);;
+
+locale_ves__leningrad_book_Sonia
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Ленинград ]
+		(* <- lang_ru;; *);;
+

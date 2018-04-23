@@ -1,0 +1,302 @@
+book_Parmskaja_Obitel
+<- book;
+=> nrel_author;
+	author_Stendal;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пармская Обитель]
+		(* <- lang_ru;; *);;
+
+book_Parmskaja_Obitel
+=> nrel_characters:
+	.book_Parmskaja_Obitel_characters
+		(*
+			-> char_klelia_book_Parmskaja_Obitel;;
+			-> char_konti_fabio_book_Parmskaja_Obitel;;
+			-> char_spil_berg_book_Parmskaja_Obitel;;
+			-> char_lugano_book_Parmskaja_Obitel;;
+			-> char_djina_book_Parmskaja_Obitel;;
+			-> char_juan_book_Parmskaja_Obitel;;
+			-> char_marietta_book_Parmskaja_Obitel;;
+			-> char_p_etraner_book_Parmskaja_Obitel;;
+			-> char_rassa_book_Parmskaja_Obitel;;
+			-> char_fabrizio_book_Parmskaja_Obitel;;
+			-> char_soredzannaa_book_Parmskaja_Obitel;;
+			-> char_cezara_book_Parmskaja_Obitel;;
+			-> char_konti_general_book_Parmskaja_Obitel;;
+			-> char_klelia_konti_book_Parmskaja_Obitel;;
+			-> char_rover_book_Parmskaja_Obitel;;
+			-> char_landriani_book_Parmskaja_Obitel;;
+			-> char_kresenzi_book_Parmskaja_Obitel;;
+			-> char_lodovikoe_book_Parmskaja_Obitel;;
+			-> char_ernest_book_Parmskaja_Obitel;;
+	 	*);;
+
+char_klelia_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Клелия ]
+		(* <- lang_ru;; *);;
+
+char_konti_fabio_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Конти Фабио ]
+		(* <- lang_ru;; *);;
+
+char_spil_berg_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Шпильберг ]
+		(* <- lang_ru;; *);;
+
+char_lugano_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Лугано ]
+		(* <- lang_ru;; *);;
+
+char_djina_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Джина ]
+		(* <- lang_ru;; *);;
+
+char_juan_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Жуан ]
+		(* <- lang_ru;; *);;
+
+char_marietta_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Мариетта ]
+		(* <- lang_ru;; *);;
+
+char_p_etraner_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Пьетранер ]
+		(* <- lang_ru;; *);;
+
+char_rassa_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Расся ]
+		(* <- lang_ru;; *);;
+
+char_fabrizio_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Фабрицио ]
+		(* <- lang_ru;; *);;
+
+char_soredzannaa_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Соредзанная ]
+		(* <- lang_ru;; *);;
+
+char_cezara_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Чезара ]
+		(* <- lang_ru;; *);;
+
+char_konti_general_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Конти Генерал ]
+		(* <- lang_ru;; *);;
+
+char_klelia_konti_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Клелия Конти ]
+		(* <- lang_ru;; *);;
+
+char_rover_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Ровер ]
+		(* <- lang_ru;; *);;
+
+char_landriani_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Ландриани ]
+		(* <- lang_ru;; *);;
+
+char_kresenzi_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Крешенци ]
+		(* <- lang_ru;; *);;
+
+char_lodovikoe_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Лодовикое ]
+		(* <- lang_ru;; *);;
+
+char_ernest_book_Parmskaja_Obitel
+<- char;
+=> nrel_main_idtf:
+	[ Эрнест ]
+		(* <- lang_ru;; *);;
+
+book_Parmskaja_Obitel
+=> nrel_locales:
+	.book_Parmskaja_Obitel_locales
+		(*
+			-> locale_franzuzskij_gorodok_book_Parmskaja_Obitel;;
+			-> locale_kotoryj_book_Parmskaja_Obitel;;
+			-> locale_jeneva_book_Parmskaja_Obitel;;
+			-> locale_svejzaria_book_Parmskaja_Obitel;;
+			-> locale_bolon_a_book_Parmskaja_Obitel;;
+			-> locale_komo_book_Parmskaja_Obitel;;
+			-> locale_franzia_book_Parmskaja_Obitel;;
+			-> locale_don_book_Parmskaja_Obitel;;
+			-> locale_evropa_book_Parmskaja_Obitel;;
+			-> locale_san_book_Parmskaja_Obitel;;
+			-> locale_spil_berg_book_Parmskaja_Obitel;;
+			-> locale_milan_book_Parmskaja_Obitel;;
+			-> locale_cezara_book_Parmskaja_Obitel;;
+			-> locale_vsa_italia_book_Parmskaja_Obitel;;
+			-> locale_nea_book_Parmskaja_Obitel;;
+			-> locale_sandrino_book_Parmskaja_Obitel;;
+			-> locale_parma_book_Parmskaja_Obitel;;
+			-> locale_italia_book_Parmskaja_Obitel;;
+			-> locale_vena_book_Parmskaja_Obitel;;
+			-> locale_sanseverin_book_Parmskaja_Obitel;;
+			-> locale_neapol__book_Parmskaja_Obitel;;
+	 	*);;
+
+locale_franzuzskij_gorodok_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Французский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_jeneva_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Женева ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+locale_bolon_a_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Болонья ]
+		(* <- lang_ru;; *);;
+
+locale_komo_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Комо ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_san_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сан ]
+		(* <- lang_ru;; *);;
+
+locale_spil_berg_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Шпильберг ]
+		(* <- lang_ru;; *);;
+
+locale_milan_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Милан ]
+		(* <- lang_ru;; *);;
+
+locale_cezara_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Чезара ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_italia_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Италия ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_sandrino_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сандрино ]
+		(* <- lang_ru;; *);;
+
+locale_parma_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Парма ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_sanseverin_book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сансеверин ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Parmskaja_Obitel
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+

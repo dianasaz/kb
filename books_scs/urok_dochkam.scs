@@ -1,0 +1,134 @@
+book_Urok_Dochkam
+<- book;
+=> nrel_author;
+	author_Krylov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Урок Дочкам]
+		(* <- lang_ru;; *);;
+
+book_Urok_Dochkam
+=> nrel_characters:
+	.book_Urok_Dochkam_characters
+		(*
+			-> char_semen_book_Urok_Dochkam;;
+			-> char_fekla_book_Urok_Dochkam;;
+			-> char_dasa_book_Urok_Dochkam;;
+			-> char_luker_a_book_Urok_Dochkam;;
+			-> char_vasilisa_book_Urok_Dochkam;;
+			-> char_hoprov_book_Urok_Dochkam;;
+			-> char_grigra_book_Urok_Dochkam;;
+			-> char_vel_karov_book_Urok_Dochkam;;
+	 	*);;
+
+char_semen_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Семён ]
+		(* <- lang_ru;; *);;
+
+char_fekla_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Фёкла ]
+		(* <- lang_ru;; *);;
+
+char_dasa_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Даша ]
+		(* <- lang_ru;; *);;
+
+char_luker_a_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Лукерья ]
+		(* <- lang_ru;; *);;
+
+char_vasilisa_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Василиса ]
+		(* <- lang_ru;; *);;
+
+char_hoprov_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Хопров ]
+		(* <- lang_ru;; *);;
+
+char_grigra_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Григря ]
+		(* <- lang_ru;; *);;
+
+char_vel_karov_book_Urok_Dochkam
+<- char;
+=> nrel_main_idtf:
+	[ Велькаров ]
+		(* <- lang_ru;; *);;
+
+book_Urok_Dochkam
+=> nrel_locales:
+	.book_Urok_Dochkam_locales
+		(*
+			-> locale_terburg_book_Urok_Dochkam;;
+			-> locale_egorka_book_Urok_Dochkam;;
+			-> locale_franzia_book_Urok_Dochkam;;
+			-> locale_novaa_para_book_Urok_Dochkam;;
+			-> locale_ofranzia_book_Urok_Dochkam;;
+			-> locale_kuda_book_Urok_Dochkam;;
+			-> locale_moskva_book_Urok_Dochkam;;
+			-> locale_velikij_book_Urok_Dochkam;;
+	 	*);;
+
+locale_terburg_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Тербург ]
+		(* <- lang_ru;; *);;
+
+locale_egorka_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Егорка ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_para_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Пара ]
+		(* <- lang_ru;; *);;
+
+locale_ofranzia_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Офранция ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Urok_Dochkam
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+

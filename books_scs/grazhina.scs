@@ -1,0 +1,106 @@
+book_Grazhina
+<- book;
+=> nrel_author;
+	author_Mickevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Гражина]
+		(* <- lang_ru;; *);;
+
+book_Grazhina
+=> nrel_characters:
+	.book_Grazhina_characters
+		(*
+			-> char_grajina_book_Grazhina;;
+			-> char_kniproda_book_Grazhina;;
+			-> char_vitovtom_book_Grazhina;;
+			-> char_ditrih_book_Grazhina;;
+	 	*);;
+
+char_grajina_book_Grazhina
+<- char;
+=> nrel_main_idtf:
+	[ Гражина ]
+		(* <- lang_ru;; *);;
+
+char_kniproda_book_Grazhina
+<- char;
+=> nrel_main_idtf:
+	[ Книпродя ]
+		(* <- lang_ru;; *);;
+
+char_vitovtom_book_Grazhina
+<- char;
+=> nrel_main_idtf:
+	[ Витовтом ]
+		(* <- lang_ru;; *);;
+
+char_ditrih_book_Grazhina
+<- char;
+=> nrel_main_idtf:
+	[ Дитрих ]
+		(* <- lang_ru;; *);;
+
+book_Grazhina
+=> nrel_locales:
+	.book_Grazhina_locales
+		(*
+			-> locale_novogrudskij_book_Grazhina;;
+			-> locale_rus__book_Grazhina;;
+			-> locale_lida_book_Grazhina;;
+			-> locale_kuda_book_Grazhina;;
+			-> locale_litva_book_Grazhina;;
+			-> locale_gorod_lida_book_Grazhina;;
+			-> locale_neman_book_Grazhina;;
+			-> locale_pol_sa_book_Grazhina;;
+	 	*);;
+
+locale_novogrudskij_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Новогрудский ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_lida_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Лида ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_lida_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Город Лида ]
+		(* <- lang_ru;; *);;
+
+locale_neman_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Неман ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Grazhina
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+

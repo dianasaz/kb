@@ -1,0 +1,16 @@
+author_Frish
+<- person;
+=> nrel_main_idtf:
+	[Макс Фриш]
+		(* <- lang_ru;; *);;
+
+author_Frish
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Frish.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

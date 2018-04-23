@@ -1,0 +1,155 @@
+book_Sobachie_Serdtse
+<- book;
+=> nrel_author;
+	author_Bulgakov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Собачье Сердце]
+		(* <- lang_ru;; *);;
+
+book_Sobachie_Serdtse
+=> nrel_characters:
+	.book_Sobachie_Serdtse_characters
+		(*
+			-> char_engel_s_book_Sobachie_Serdtse;;
+			-> char_kautskim_book_Sobachie_Serdtse;;
+			-> char_bormental__book_Sobachie_Serdtse;;
+			-> char_filipp_filippovic_preobrajenskij_book_Sobachie_Serdtse;;
+			-> char_fedor_book_Sobachie_Serdtse;;
+			-> char_ivan_arnol_dovic_bormental__book_Sobachie_Serdtse;;
+			-> char_filipp_filippovic_book_Sobachie_Serdtse;;
+			-> char_zina_book_Sobachie_Serdtse;;
+			-> char_klim_cugunkin_book_Sobachie_Serdtse;;
+	 	*);;
+
+char_engel_s_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Энгельс ]
+		(* <- lang_ru;; *);;
+
+char_kautskim_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Каутским ]
+		(* <- lang_ru;; *);;
+
+char_bormental__book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Борменталь ]
+		(* <- lang_ru;; *);;
+
+char_filipp_filippovic_preobrajenskij_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Филипп Филиппович Преображенский ]
+		(* <- lang_ru;; *);;
+
+char_fedor_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор ]
+		(* <- lang_ru;; *);;
+
+char_ivan_arnol_dovic_bormental__book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Иван Арнольдович Борменталь ]
+		(* <- lang_ru;; *);;
+
+char_filipp_filippovic_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Филипп Филиппович ]
+		(* <- lang_ru;; *);;
+
+char_zina_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Зина ]
+		(* <- lang_ru;; *);;
+
+char_klim_cugunkin_book_Sobachie_Serdtse
+<- char;
+=> nrel_main_idtf:
+	[ Клим Чугункин ]
+		(* <- lang_ru;; *);;
+
+book_Sobachie_Serdtse
+=> nrel_locales:
+	.book_Sobachie_Serdtse_locales
+		(*
+			-> locale_karman_book_Sobachie_Serdtse;;
+			-> locale_preobrajenskij_book_Sobachie_Serdtse;;
+			-> locale_kotoryj_book_Sobachie_Serdtse;;
+			-> locale_moskva_book_Sobachie_Serdtse;;
+			-> locale_gorod_moskva_book_Sobachie_Serdtse;;
+			-> locale_to_book_Sobachie_Serdtse;;
+			-> locale_sis_book_Sobachie_Serdtse;;
+			-> locale_sarikova_book_Sobachie_Serdtse;;
+			-> locale_kakoj_sarikov_book_Sobachie_Serdtse;;
+			-> locale_engel_s_book_Sobachie_Serdtse;;
+	 	*);;
+
+locale_karman_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_preobrajenskij_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Преображенский ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_moskva_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Город Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sis_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Шиш ]
+		(* <- lang_ru;; *);;
+
+locale_sarikova_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Шарикова ]
+		(* <- lang_ru;; *);;
+
+locale_kakoj_sarikov_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Какой Шариков ]
+		(* <- lang_ru;; *);;
+
+locale_engel_s_book_Sobachie_Serdtse
+<- locale;
+=> nrel_main_idtf:
+	[ Энгельс ]
+		(* <- lang_ru;; *);;
+

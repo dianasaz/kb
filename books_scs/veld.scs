@@ -1,0 +1,92 @@
+book_Veld
+<- book;
+=> nrel_author;
+	author_Bredberi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вельд]
+		(* <- lang_ru;; *);;
+
+book_Veld
+=> nrel_characters:
+	.book_Veld_characters
+		(*
+			-> char_makklin_book_Veld;;
+			-> char_devid_book_Veld;;
+			-> char_lilia_book_Veld;;
+			-> char_djordj_book_Veld;;
+			-> char_piter_book_Veld;;
+	 	*);;
+
+char_makklin_book_Veld
+<- char;
+=> nrel_main_idtf:
+	[ Макклин ]
+		(* <- lang_ru;; *);;
+
+char_devid_book_Veld
+<- char;
+=> nrel_main_idtf:
+	[ Девид ]
+		(* <- lang_ru;; *);;
+
+char_lilia_book_Veld
+<- char;
+=> nrel_main_idtf:
+	[ Лилия ]
+		(* <- lang_ru;; *);;
+
+char_djordj_book_Veld
+<- char;
+=> nrel_main_idtf:
+	[ Джордж ]
+		(* <- lang_ru;; *);;
+
+char_piter_book_Veld
+<- char;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+book_Veld
+=> nrel_locales:
+	.book_Veld_locales
+		(*
+			-> locale_piter_book_Veld;;
+			-> locale_makklin_book_Veld;;
+			-> locale_to_book_Veld;;
+			-> locale_l_vov_book_Veld;;
+			-> locale_nikakaa_afrika_book_Veld;;
+	 	*);;
+
+locale_piter_book_Veld
+<- locale;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+locale_makklin_book_Veld
+<- locale;
+=> nrel_main_idtf:
+	[ Макклин ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Veld
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_l_vov_book_Veld
+<- locale;
+=> nrel_main_idtf:
+	[ Львов ]
+		(* <- lang_ru;; *);;
+
+locale_nikakaa_afrika_book_Veld
+<- locale;
+=> nrel_main_idtf:
+	[ Никакая Африка ]
+		(* <- lang_ru;; *);;
+

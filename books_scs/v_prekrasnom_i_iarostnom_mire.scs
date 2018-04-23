@@ -1,0 +1,78 @@
+book_V_Prekrasnom_I_Iarostnom_Mire
+<- book;
+=> nrel_author;
+	author_Platonov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[В Прекрасном И Яростном Мире (Машинист Мальцев)]
+		(* <- lang_ru;; *);;
+
+book_V_Prekrasnom_I_Iarostnom_Mire
+=> nrel_characters:
+	.book_V_Prekrasnom_I_Iarostnom_Mire_characters
+		(*
+			-> char_fedor_petrovic_drabanov_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_aleksandr_vasilievic_mal_zev_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_tolumbeev_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_konstantin_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_mal_zev_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_pomosnik_book_V_Prekrasnom_I_Iarostnom_Mire;;
+			-> char_aleksandr_vasilievic_book_V_Prekrasnom_I_Iarostnom_Mire;;
+	 	*);;
+
+char_fedor_petrovic_drabanov_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор Петрович Драбанов ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_vasilievic_mal_zev_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Александр Василиевич Мальцев ]
+		(* <- lang_ru;; *);;
+
+char_tolumbeev_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Толумбеев ]
+		(* <- lang_ru;; *);;
+
+char_konstantin_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Константин ]
+		(* <- lang_ru;; *);;
+
+char_mal_zev_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Мальцев ]
+		(* <- lang_ru;; *);;
+
+char_pomosnik_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Помощник ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_vasilievic_book_V_Prekrasnom_I_Iarostnom_Mire
+<- char;
+=> nrel_main_idtf:
+	[ Александр Василиевич ]
+		(* <- lang_ru;; *);;
+
+book_V_Prekrasnom_I_Iarostnom_Mire
+=> nrel_locales:
+	.book_V_Prekrasnom_I_Iarostnom_Mire_locales
+		(*
+			-> locale_tetskoma_book_V_Prekrasnom_I_Iarostnom_Mire;;
+	 	*);;
+
+locale_tetskoma_book_V_Prekrasnom_I_Iarostnom_Mire
+<- locale;
+=> nrel_main_idtf:
+	[ Тетскома ]
+		(* <- lang_ru;; *);;
+

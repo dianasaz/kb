@@ -1,0 +1,246 @@
+book_Odesskie_Rasskazy
+<- book;
+=> nrel_author;
+	author_Babel;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Одесские Рассказы]
+		(* <- lang_ru;; *);;
+
+book_Odesskie_Rasskazy
+=> nrel_characters:
+	.book_Odesskie_Rasskazy_characters
+		(*
+			-> char_muginstejn_book_Odesskie_Rasskazy;;
+			-> char_froim_book_Odesskie_Rasskazy;;
+			-> char_kantor_book_Odesskie_Rasskazy;;
+			-> char_basasij_book_Odesskie_Rasskazy;;
+			-> char_froimaa_book_Odesskie_Rasskazy;;
+			-> char_bena_krik_book_Odesskie_Rasskazy;;
+			-> char_basa_book_Odesskie_Rasskazy;;
+			-> char_pesa_book_Odesskie_Rasskazy;;
+			-> char_krik_book_Odesskie_Rasskazy;;
+			-> char_savelij_buzis_book_Odesskie_Rasskazy;;
+			-> char_benin_book_Odesskie_Rasskazy;;
+			-> char_iosif_muginstejn_book_Odesskie_Rasskazy;;
+			-> char_monivsij_book_Odesskie_Rasskazy;;
+			-> char_bena_book_Odesskie_Rasskazy;;
+			-> char_bas_ka_book_Odesskie_Rasskazy;;
+			-> char_grac_book_Odesskie_Rasskazy;;
+			-> char_bena_krik_book_Odesskie_Rasskazy;;
+			-> char_buzis_savka_book_Odesskie_Rasskazy;;
+			-> char_dvojra_book_Odesskie_Rasskazy;;
+			-> char_froasij_book_Odesskie_Rasskazy;;
+			-> char_bencik_book_Odesskie_Rasskazy;;
+	 	*);;
+
+char_muginstejn_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Мугинштейн ]
+		(* <- lang_ru;; *);;
+
+char_froim_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Фроим ]
+		(* <- lang_ru;; *);;
+
+char_kantor_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Кантор ]
+		(* <- lang_ru;; *);;
+
+char_basasij_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Басящий ]
+		(* <- lang_ru;; *);;
+
+char_froimaa_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Фроимая ]
+		(* <- lang_ru;; *);;
+
+char_bena_krik_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Бена Крик ]
+		(* <- lang_ru;; *);;
+
+char_basa_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Бася ]
+		(* <- lang_ru;; *);;
+
+char_pesa_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Песя ]
+		(* <- lang_ru;; *);;
+
+char_krik_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Крик ]
+		(* <- lang_ru;; *);;
+
+char_savelij_buzis_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Савелий Буцис ]
+		(* <- lang_ru;; *);;
+
+char_benin_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Бенин ]
+		(* <- lang_ru;; *);;
+
+char_iosif_muginstejn_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф Мугинштейн ]
+		(* <- lang_ru;; *);;
+
+char_monivsij_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Монивший ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Беня ]
+		(* <- lang_ru;; *);;
+
+char_bas_ka_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Баська ]
+		(* <- lang_ru;; *);;
+
+char_grac_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Грач ]
+		(* <- lang_ru;; *);;
+
+char_bena_krik_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Беня Крик ]
+		(* <- lang_ru;; *);;
+
+char_buzis_savka_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Буцис Савка ]
+		(* <- lang_ru;; *);;
+
+char_dvojra_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Двойра ]
+		(* <- lang_ru;; *);;
+
+char_froasij_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Фроящий ]
+		(* <- lang_ru;; *);;
+
+char_bencik_book_Odesskie_Rasskazy
+<- char;
+=> nrel_main_idtf:
+	[ Бенчик ]
+		(* <- lang_ru;; *);;
+
+book_Odesskie_Rasskazy
+=> nrel_locales:
+	.book_Odesskie_Rasskazy_locales
+		(*
+			-> locale_tul_cin_book_Odesskie_Rasskazy;;
+			-> locale_beni_book_Odesskie_Rasskazy;;
+			-> locale_kotoryj_book_Odesskie_Rasskazy;;
+			-> locale_vsa_odessa_book_Odesskie_Rasskazy;;
+			-> locale_mojsejka_book_Odesskie_Rasskazy;;
+			-> locale_upravlausij_zudeckis_book_Odesskie_Rasskazy;;
+			-> locale_krasnyj_book_Odesskie_Rasskazy;;
+			-> locale_zudeckisa_book_Odesskie_Rasskazy;;
+			-> locale_to_book_Odesskie_Rasskazy;;
+			-> locale_monivsij_book_Odesskie_Rasskazy;;
+			-> locale_odessa_book_Odesskie_Rasskazy;;
+	 	*);;
+
+locale_tul_cin_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Тульчин ]
+		(* <- lang_ru;; *);;
+
+locale_beni_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Бени ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_odessa_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Одесса ]
+		(* <- lang_ru;; *);;
+
+locale_mojsejka_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Мойсейка ]
+		(* <- lang_ru;; *);;
+
+locale_upravlausij_zudeckis_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Управляющий Цудечкис ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_zudeckisa_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Цудечкиса ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_monivsij_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Монивший ]
+		(* <- lang_ru;; *);;
+
+locale_odessa_book_Odesskie_Rasskazy
+<- locale;
+=> nrel_main_idtf:
+	[ Одесса ]
+		(* <- lang_ru;; *);;
+

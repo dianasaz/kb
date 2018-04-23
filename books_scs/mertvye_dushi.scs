@@ -1,0 +1,288 @@
+book_Mertvye_Dushi
+<- book;
+=> nrel_author;
+	author_Gogol;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мёртвые Души]
+		(* <- lang_ru;; *);;
+
+book_Mertvye_Dushi
+=> nrel_characters:
+	.book_Mertvye_Dushi_characters
+		(*
+			-> char_pavel_ivanovic_book_Mertvye_Dushi;;
+			-> char_hlobuev_book_Mertvye_Dushi;;
+			-> char_betrisev_book_Mertvye_Dushi;;
+			-> char_napoleon_cicikov_book_Mertvye_Dushi;;
+			-> char_cicikov_book_Mertvye_Dushi;;
+			-> char_nastas_a_petrovna_korobocka_book_Mertvye_Dushi;;
+			-> char_muraz_book_Mertvye_Dushi;;
+			-> char_konstantin_fedorovic_book_Mertvye_Dushi;;
+			-> char_kopejkin_book_Mertvye_Dushi;;
+			-> char_pavel_ivanovic_cicikov_book_Mertvye_Dushi;;
+			-> char_miheev_book_Mertvye_Dushi;;
+			-> char_lenizyn_book_Mertvye_Dushi;;
+			-> char_alkida_book_Mertvye_Dushi;;
+			-> char_selifan_book_Mertvye_Dushi;;
+			-> char_murazov_book_Mertvye_Dushi;;
+			-> char_petr_savel_ev_book_Mertvye_Dushi;;
+			-> char_platonov_book_Mertvye_Dushi;;
+			-> char_mijueva_book_Mertvye_Dushi;;
+			-> char_kuvsinnikov_book_Mertvye_Dushi;;
+			-> char_koskarev_book_Mertvye_Dushi;;
+			-> char_manilov_book_Mertvye_Dushi;;
+			-> char_hlobuev_book_Mertvye_Dushi;;
+			-> char_petr_petrovic_petuh_book_Mertvye_Dushi;;
+			-> char_andrej_ivanovic_tentetnikov_book_Mertvye_Dushi;;
+			-> char_vasilij_book_Mertvye_Dushi;;
+			-> char_sam_book_Mertvye_Dushi;;
+			-> char_sobakevic_book_Mertvye_Dushi;;
+	 	*);;
+
+char_pavel_ivanovic_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Павел Иванович ]
+		(* <- lang_ru;; *);;
+
+char_hlobuev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Хлобуев ]
+		(* <- lang_ru;; *);;
+
+char_betrisev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Бетрищев ]
+		(* <- lang_ru;; *);;
+
+char_napoleon_cicikov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Наполеон Чичиков ]
+		(* <- lang_ru;; *);;
+
+char_cicikov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Чичиков ]
+		(* <- lang_ru;; *);;
+
+char_nastas_a_petrovna_korobocka_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Настасья Петровна Коробочка ]
+		(* <- lang_ru;; *);;
+
+char_muraz_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Мураз ]
+		(* <- lang_ru;; *);;
+
+char_konstantin_fedorovic_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Константин Фёдорович ]
+		(* <- lang_ru;; *);;
+
+char_kopejkin_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Копейкин ]
+		(* <- lang_ru;; *);;
+
+char_pavel_ivanovic_cicikov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Павел Иванович Чичиков ]
+		(* <- lang_ru;; *);;
+
+char_miheev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Михеев ]
+		(* <- lang_ru;; *);;
+
+char_lenizyn_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Леницын ]
+		(* <- lang_ru;; *);;
+
+char_alkida_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Алкида ]
+		(* <- lang_ru;; *);;
+
+char_selifan_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Селифан ]
+		(* <- lang_ru;; *);;
+
+char_murazov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Муразов ]
+		(* <- lang_ru;; *);;
+
+char_petr_savel_ev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Савельев ]
+		(* <- lang_ru;; *);;
+
+char_platonov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Платонов ]
+		(* <- lang_ru;; *);;
+
+char_mijueva_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Мижуева ]
+		(* <- lang_ru;; *);;
+
+char_kuvsinnikov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Кувшинников ]
+		(* <- lang_ru;; *);;
+
+char_koskarev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Кошкарев ]
+		(* <- lang_ru;; *);;
+
+char_manilov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Манилов ]
+		(* <- lang_ru;; *);;
+
+char_hlobuev_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Хлобуев ]
+		(* <- lang_ru;; *);;
+
+char_petr_petrovic_petuh_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Петрович Петух ]
+		(* <- lang_ru;; *);;
+
+char_andrej_ivanovic_tentetnikov_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Иванович Тентетников ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Василий ]
+		(* <- lang_ru;; *);;
+
+char_sam_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Сам ]
+		(* <- lang_ru;; *);;
+
+char_sobakevic_book_Mertvye_Dushi
+<- char;
+=> nrel_main_idtf:
+	[ Собакевич ]
+		(* <- lang_ru;; *);;
+
+book_Mertvye_Dushi
+=> nrel_locales:
+	.book_Mertvye_Dushi_locales
+		(*
+			-> locale_samaa_gubernia_book_Mertvye_Dushi;;
+			-> locale_rus__book_Mertvye_Dushi;;
+			-> locale_rossia_book_Mertvye_Dushi;;
+			-> locale_murazov_book_Mertvye_Dushi;;
+			-> locale_moskva_book_Mertvye_Dushi;;
+			-> locale_ih_gubernia_book_Mertvye_Dushi;;
+			-> locale_hersonskaa_gubernia_book_Mertvye_Dushi;;
+			-> locale_ura_book_Mertvye_Dushi;;
+			-> locale_to_book_Mertvye_Dushi;;
+			-> locale_manilovka_book_Mertvye_Dushi;;
+			-> locale_otradnyj_book_Mertvye_Dushi;;
+	 	*);;
+
+locale_samaa_gubernia_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Самая Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_murazov_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Муразов ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_ih_gubernia_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Их Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_hersonskaa_gubernia_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Херсонская Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_ura_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Юра ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_manilovka_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Маниловка ]
+		(* <- lang_ru;; *);;
+
+locale_otradnyj_book_Mertvye_Dushi
+<- locale;
+=> nrel_main_idtf:
+	[ Отрадный ]
+		(* <- lang_ru;; *);;
+

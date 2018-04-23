@@ -1,0 +1,99 @@
+book_Mecshanin_Vo_Dvorjanstve
+<- book;
+=> nrel_author;
+	author_Moler;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мещанин Во Дворянстве]
+		(* <- lang_ru;; *);;
+
+book_Mecshanin_Vo_Dvorjanstve
+=> nrel_characters:
+	.book_Mecshanin_Vo_Dvorjanstve_characters
+		(*
+			-> char_jurden_book_Mecshanin_Vo_Dvorjanstve;;
+			-> char_seneka_book_Mecshanin_Vo_Dvorjanstve;;
+			-> char_nikol__book_Mecshanin_Vo_Dvorjanstve;;
+			-> char_lusil__book_Mecshanin_Vo_Dvorjanstve;;
+	 	*);;
+
+char_jurden_book_Mecshanin_Vo_Dvorjanstve
+<- char;
+=> nrel_main_idtf:
+	[ Журден ]
+		(* <- lang_ru;; *);;
+
+char_seneka_book_Mecshanin_Vo_Dvorjanstve
+<- char;
+=> nrel_main_idtf:
+	[ Сенека ]
+		(* <- lang_ru;; *);;
+
+char_nikol__book_Mecshanin_Vo_Dvorjanstve
+<- char;
+=> nrel_main_idtf:
+	[ Николь ]
+		(* <- lang_ru;; *);;
+
+char_lusil__book_Mecshanin_Vo_Dvorjanstve
+<- char;
+=> nrel_main_idtf:
+	[ Люсиль ]
+		(* <- lang_ru;; *);;
+
+book_Mecshanin_Vo_Dvorjanstve
+=> nrel_locales:
+	.book_Mecshanin_Vo_Dvorjanstve_locales
+		(*
+			-> locale_dorimena_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_pra_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_parij_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_to_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_drugaa_para_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_nea_book_Mecshanin_Vo_Dvorjanstve;;
+			-> locale_para_book_Mecshanin_Vo_Dvorjanstve;;
+	 	*);;
+
+locale_dorimena_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Доримена ]
+		(* <- lang_ru;; *);;
+
+locale_pra_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Пра ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_drugaa_para_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Другая Пара ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Mecshanin_Vo_Dvorjanstve
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

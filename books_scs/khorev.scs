@@ -1,0 +1,127 @@
+book_Khorev
+<- book;
+=> nrel_author;
+	author_Sumarokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Хорев]
+		(* <- lang_ru;; *);;
+
+book_Khorev
+=> nrel_characters:
+	.book_Khorev_characters
+		(*
+			-> char_kia_book_Khorev;;
+			-> char_horevyj_book_Khorev;;
+			-> char_horevaa_book_Khorev;;
+			-> char_osnel_da_book_Khorev;;
+			-> char_kij_book_Khorev;;
+	 	*);;
+
+char_kia_book_Khorev
+<- char;
+=> nrel_main_idtf:
+	[ Кия ]
+		(* <- lang_ru;; *);;
+
+char_horevyj_book_Khorev
+<- char;
+=> nrel_main_idtf:
+	[ Хорёвый ]
+		(* <- lang_ru;; *);;
+
+char_horevaa_book_Khorev
+<- char;
+=> nrel_main_idtf:
+	[ Хорёвая ]
+		(* <- lang_ru;; *);;
+
+char_osnel_da_book_Khorev
+<- char;
+=> nrel_main_idtf:
+	[ Оснельда ]
+		(* <- lang_ru;; *);;
+
+char_kij_book_Khorev
+<- char;
+=> nrel_main_idtf:
+	[ Кий ]
+		(* <- lang_ru;; *);;
+
+book_Khorev
+=> nrel_locales:
+	.book_Khorev_locales
+		(*
+			-> locale_rus__book_Khorev;;
+			-> locale_kia_book_Khorev;;
+			-> locale_vnemlet_book_Khorev;;
+			-> locale_kiev_book_Khorev;;
+			-> locale_asgrad_book_Khorev;;
+			-> locale_zavloh_book_Khorev;;
+			-> locale_to_book_Khorev;;
+			-> locale_dnepr_book_Khorev;;
+			-> locale_spravedlivaa_kara_book_Khorev;;
+			-> locale_pervyj_kiev_book_Khorev;;
+	 	*);;
+
+locale_rus__book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_kia_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Кия ]
+		(* <- lang_ru;; *);;
+
+locale_vnemlet_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Внемлет ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_asgrad_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Асград ]
+		(* <- lang_ru;; *);;
+
+locale_zavloh_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Завлох ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_dnepr_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Днепр ]
+		(* <- lang_ru;; *);;
+
+locale_spravedlivaa_kara_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Справедливая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_pervyj_kiev_book_Khorev
+<- locale;
+=> nrel_main_idtf:
+	[ Первый Киев ]
+		(* <- lang_ru;; *);;
+

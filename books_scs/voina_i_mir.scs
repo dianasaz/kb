@@ -1,0 +1,966 @@
+book_Voina_I_Mir
+<- book;
+=> nrel_author;
+	author_Tolstoi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Война И Мир]
+		(* <- lang_ru;; *);;
+
+book_Voina_I_Mir
+=> nrel_characters:
+	.book_Voina_I_Mir_characters
+		(*
+			-> char_p_er_book_Voina_I_Mir;;
+			-> char_drubezkaa_book_Voina_I_Mir;;
+			-> char_liza_book_Voina_I_Mir;;
+			-> char_til_zita_book_Voina_I_Mir;;
+			-> char_sona_book_Voina_I_Mir;;
+			-> char_vasilij_kuragin_book_Voina_I_Mir;;
+			-> char_berg_book_Voina_I_Mir;;
+			-> char_barklaj_book_Voina_I_Mir;;
+			-> char_bolkonskij_book_Voina_I_Mir;;
+			-> char_elen_book_Voina_I_Mir;;
+			-> char_bogucarov_book_Voina_I_Mir;;
+			-> char_dolohov_book_Voina_I_Mir;;
+			-> char_bur_en_book_Voina_I_Mir;;
+			-> char_tolli_book_Voina_I_Mir;;
+			-> char_kutuzov_book_Voina_I_Mir;;
+			-> char_borodin_book_Voina_I_Mir;;
+			-> char_rostov_book_Voina_I_Mir;;
+			-> char_natasa_book_Voina_I_Mir;;
+			-> char_serer_book_Voina_I_Mir;;
+			-> char_platon_book_Voina_I_Mir;;
+			-> char_anatol__book_Voina_I_Mir;;
+			-> char_mar_a_book_Voina_I_Mir;;
+			-> char_veresagin_book_Voina_I_Mir;;
+			-> char_nikolaj_andreevic_book_Voina_I_Mir;;
+			-> char_dava_book_Voina_I_Mir;;
+			-> char_ilagin_book_Voina_I_Mir;;
+			-> char_kuragina_book_Voina_I_Mir;;
+			-> char_bezuhov_book_Voina_I_Mir;;
+			-> char_aleksandr_book_Voina_I_Mir;;
+			-> char_napoleon_book_Voina_I_Mir;;
+			-> char_boris_drubezkij_book_Voina_I_Mir;;
+			-> char_anatol__kuragin_book_Voina_I_Mir;;
+			-> char_bazdeev_book_Voina_I_Mir;;
+			-> char_andrej_book_Voina_I_Mir;;
+			-> char_denisov_book_Voina_I_Mir;;
+			-> char_karataj_book_Voina_I_Mir;;
+			-> char_jula_karagina_book_Voina_I_Mir;;
+			-> char_karataev_book_Voina_I_Mir;;
+			-> char_plutarh_book_Voina_I_Mir;;
+			-> char_borodinskij_book_Voina_I_Mir;;
+			-> char_balaseva_book_Voina_I_Mir;;
+			-> char_nikolaj_rostov_book_Voina_I_Mir;;
+			-> char_nikolaj_book_Voina_I_Mir;;
+			-> char_sonin_book_Voina_I_Mir;;
+			-> char_nikolen_ka_book_Voina_I_Mir;;
+			-> char_osip_alekseevic_bazdeev_book_Voina_I_Mir;;
+			-> char_anna_pavlovna_serer_book_Voina_I_Mir;;
+			-> char_andrej_bolkonskij_book_Voina_I_Mir;;
+			-> char_fedora_doloh_book_Voina_I_Mir;;
+			-> char_speranskij_book_Voina_I_Mir;;
+			-> char_mar_a_dmitrievna_book_Voina_I_Mir;;
+			-> char_peta_rostovyj_book_Voina_I_Mir;;
+			-> char_tihon_serbatyj_book_Voina_I_Mir;;
+			-> char_denisov_book_Voina_I_Mir;;
+			-> char_peta_book_Voina_I_Mir;;
+			-> char_p_er_bezuhov_book_Voina_I_Mir;;
+			-> char_vasilij_denisov_book_Voina_I_Mir;;
+			-> char_rambala_book_Voina_I_Mir;;
+			-> char_anna_mihajlovna_drubezkaa_book_Voina_I_Mir;;
+			-> char_raevskij_book_Voina_I_Mir;;
+			-> char_nikolen_ka_bolkonskij_book_Voina_I_Mir;;
+			-> char_vasilij_book_Voina_I_Mir;;
+			-> char_peta_rostov_book_Voina_I_Mir;;
+			-> char_miten_ka_book_Voina_I_Mir;;
+			-> char_kuragin_book_Voina_I_Mir;;
+			-> char_telanina_book_Voina_I_Mir;;
+			-> char_nikolaj_andreevic_bolkonskij_book_Voina_I_Mir;;
+			-> char_tolstoj_book_Voina_I_Mir;;
+			-> char_rostovyj_book_Voina_I_Mir;;
+			-> char_bagration_book_Voina_I_Mir;;
+			-> char_bonapart_book_Voina_I_Mir;;
+			-> char_boris_book_Voina_I_Mir;;
+			-> char_elen_bezuhova_book_Voina_I_Mir;;
+			-> char_georgij_book_Voina_I_Mir;;
+	 	*);;
+
+char_p_er_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Пьер ]
+		(* <- lang_ru;; *);;
+
+char_drubezkaa_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Друбецкая ]
+		(* <- lang_ru;; *);;
+
+char_liza_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Лиза ]
+		(* <- lang_ru;; *);;
+
+char_til_zita_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Тильзита ]
+		(* <- lang_ru;; *);;
+
+char_sona_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Соня ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_kuragin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Василий Курагин ]
+		(* <- lang_ru;; *);;
+
+char_berg_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Берг ]
+		(* <- lang_ru;; *);;
+
+char_barklaj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Барклай ]
+		(* <- lang_ru;; *);;
+
+char_bolkonskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Болконский ]
+		(* <- lang_ru;; *);;
+
+char_elen_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Элен ]
+		(* <- lang_ru;; *);;
+
+char_bogucarov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Богучаров ]
+		(* <- lang_ru;; *);;
+
+char_dolohov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Долохов ]
+		(* <- lang_ru;; *);;
+
+char_bur_en_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Бурьен ]
+		(* <- lang_ru;; *);;
+
+char_tolli_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Толли ]
+		(* <- lang_ru;; *);;
+
+char_kutuzov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Кутузов ]
+		(* <- lang_ru;; *);;
+
+char_borodin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Бородин ]
+		(* <- lang_ru;; *);;
+
+char_rostov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+char_natasa_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Наташа ]
+		(* <- lang_ru;; *);;
+
+char_serer_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Шерер ]
+		(* <- lang_ru;; *);;
+
+char_platon_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_anatol__book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Анатоль ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Марья ]
+		(* <- lang_ru;; *);;
+
+char_veresagin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Верещагин ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_andreevic_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николай Андреевич ]
+		(* <- lang_ru;; *);;
+
+char_dava_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Дава ]
+		(* <- lang_ru;; *);;
+
+char_ilagin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Илагин ]
+		(* <- lang_ru;; *);;
+
+char_kuragina_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Курагина ]
+		(* <- lang_ru;; *);;
+
+char_bezuhov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Безухов ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_napoleon_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Наполеон ]
+		(* <- lang_ru;; *);;
+
+char_boris_drubezkij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Борис Друбецкий ]
+		(* <- lang_ru;; *);;
+
+char_anatol__kuragin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Анатоль Курагин ]
+		(* <- lang_ru;; *);;
+
+char_bazdeev_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Баздеев ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_denisov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Денисов ]
+		(* <- lang_ru;; *);;
+
+char_karataj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Каратай ]
+		(* <- lang_ru;; *);;
+
+char_jula_karagina_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Жюля Карагина ]
+		(* <- lang_ru;; *);;
+
+char_karataev_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Каратаев ]
+		(* <- lang_ru;; *);;
+
+char_plutarh_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Плутарх ]
+		(* <- lang_ru;; *);;
+
+char_borodinskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Бородинский ]
+		(* <- lang_ru;; *);;
+
+char_balaseva_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Балашева ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_rostov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николай Ростов ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_sonin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Сонин ]
+		(* <- lang_ru;; *);;
+
+char_nikolen_ka_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николенька ]
+		(* <- lang_ru;; *);;
+
+char_osip_alekseevic_bazdeev_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Осип Алексеевич Баздеев ]
+		(* <- lang_ru;; *);;
+
+char_anna_pavlovna_serer_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Анна Павловна Шерер ]
+		(* <- lang_ru;; *);;
+
+char_andrej_bolkonskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Болконский ]
+		(* <- lang_ru;; *);;
+
+char_fedora_doloh_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Федора Долох ]
+		(* <- lang_ru;; *);;
+
+char_speranskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Сперанский ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_dmitrievna_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Марья Дмитриевна ]
+		(* <- lang_ru;; *);;
+
+char_peta_rostovyj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Петя Ростовый ]
+		(* <- lang_ru;; *);;
+
+char_tihon_serbatyj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Тихон Щербатый ]
+		(* <- lang_ru;; *);;
+
+char_denisov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Денисов ]
+		(* <- lang_ru;; *);;
+
+char_peta_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Петя ]
+		(* <- lang_ru;; *);;
+
+char_p_er_bezuhov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Пьер Безухов ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_denisov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Василий Денисов ]
+		(* <- lang_ru;; *);;
+
+char_rambala_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Рамбаля ]
+		(* <- lang_ru;; *);;
+
+char_anna_mihajlovna_drubezkaa_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Анна Михайловна Друбецкая ]
+		(* <- lang_ru;; *);;
+
+char_raevskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Раевский ]
+		(* <- lang_ru;; *);;
+
+char_nikolen_ka_bolkonskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николенька Болконский ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Василий ]
+		(* <- lang_ru;; *);;
+
+char_peta_rostov_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Петя Ростов ]
+		(* <- lang_ru;; *);;
+
+char_miten_ka_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Митенька ]
+		(* <- lang_ru;; *);;
+
+char_kuragin_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Курагин ]
+		(* <- lang_ru;; *);;
+
+char_telanina_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Телянина ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_andreevic_bolkonskij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Николай Андреевич Болконский ]
+		(* <- lang_ru;; *);;
+
+char_tolstoj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Толстой ]
+		(* <- lang_ru;; *);;
+
+char_rostovyj_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Ростовый ]
+		(* <- lang_ru;; *);;
+
+char_bagration_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Багратион ]
+		(* <- lang_ru;; *);;
+
+char_bonapart_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Бонапарт ]
+		(* <- lang_ru;; *);;
+
+char_boris_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Борис ]
+		(* <- lang_ru;; *);;
+
+char_elen_bezuhova_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Элен Безухова ]
+		(* <- lang_ru;; *);;
+
+char_georgij_book_Voina_I_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Георгий ]
+		(* <- lang_ru;; *);;
+
+book_Voina_I_Mir
+=> nrel_locales:
+	.book_Voina_I_Mir_locales
+		(*
+			-> locale_peterburgskaa_book_Voina_I_Mir;;
+			-> locale_mojajsk_book_Voina_I_Mir;;
+			-> locale_kotoryj_book_Voina_I_Mir;;
+			-> locale_razocaroe_book_Voina_I_Mir;;
+			-> locale_torjok_book_Voina_I_Mir;;
+			-> locale_velikij_book_Voina_I_Mir;;
+			-> locale_vitebsk_book_Voina_I_Mir;;
+			-> locale_borodin_book_Voina_I_Mir;;
+			-> locale_sabla_book_Voina_I_Mir;;
+			-> locale_glavnoko_book_Voina_I_Mir;;
+			-> locale_razumovskij_book_Voina_I_Mir;;
+			-> locale_jerkova_book_Voina_I_Mir;;
+			-> locale_nikolen_ka_book_Voina_I_Mir;;
+			-> locale_pol_sa_book_Voina_I_Mir;;
+			-> locale_voronej_book_Voina_I_Mir;;
+			-> locale_nastupa_book_Voina_I_Mir;;
+			-> locale_otradnoe_book_Voina_I_Mir;;
+			-> locale_predstoasaa_kampania_book_Voina_I_Mir;;
+			-> locale_krasnyj_book_Voina_I_Mir;;
+			-> locale_bogucarovo_book_Voina_I_Mir;;
+			-> locale_miso_book_Voina_I_Mir;;
+			-> locale_aroslavl__book_Voina_I_Mir;;
+			-> locale_smolensk_book_Voina_I_Mir;;
+			-> locale_orel_book_Voina_I_Mir;;
+			-> locale_vil_no_book_Voina_I_Mir;;
+			-> locale_peterburg_book_Voina_I_Mir;;
+			-> locale_borodinskij_book_Voina_I_Mir;;
+			-> locale_velikoe_book_Voina_I_Mir;;
+			-> locale_avstria_book_Voina_I_Mir;;
+			-> locale_vospol__book_Voina_I_Mir;;
+			-> locale_peterburgskij_book_Voina_I_Mir;;
+			-> locale_drisskoma_book_Voina_I_Mir;;
+			-> locale_moskva_book_Voina_I_Mir;;
+			-> locale_fila_book_Voina_I_Mir;;
+			-> locale_parij_book_Voina_I_Mir;;
+			-> locale_tusino_book_Voina_I_Mir;;
+			-> locale_luga_book_Voina_I_Mir;;
+			-> locale_nea_book_Voina_I_Mir;;
+			-> locale_rambala_book_Voina_I_Mir;;
+			-> locale_prussia_book_Voina_I_Mir;;
+			-> locale_rossia_book_Voina_I_Mir;;
+			-> locale_petrovskij_book_Voina_I_Mir;;
+			-> locale_kuda_book_Voina_I_Mir;;
+			-> locale_rostov_book_Voina_I_Mir;;
+			-> locale_vsa_moskva_book_Voina_I_Mir;;
+			-> locale_borodino_book_Voina_I_Mir;;
+			-> locale_to_book_Voina_I_Mir;;
+			-> locale_zarizyno_book_Voina_I_Mir;;
+			-> locale_kievskaa_gubernia_book_Voina_I_Mir;;
+			-> locale_veresagin_book_Voina_I_Mir;;
+			-> locale_plohoe_obmundi_book_Voina_I_Mir;;
+			-> locale_mytisi_book_Voina_I_Mir;;
+	 	*);;
+
+locale_peterburgskaa_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургская ]
+		(* <- lang_ru;; *);;
+
+locale_mojajsk_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Можайск ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_razocaroe_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Разочарое ]
+		(* <- lang_ru;; *);;
+
+locale_torjok_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Торжок ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_vitebsk_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Витебск ]
+		(* <- lang_ru;; *);;
+
+locale_borodin_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Бородин ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_glavnoko_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Главноко ]
+		(* <- lang_ru;; *);;
+
+locale_razumovskij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Разумовский ]
+		(* <- lang_ru;; *);;
+
+locale_jerkova_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Жеркова ]
+		(* <- lang_ru;; *);;
+
+locale_nikolen_ka_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Николенька ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_voronej_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Воронеж ]
+		(* <- lang_ru;; *);;
+
+locale_nastupa_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Наступа ]
+		(* <- lang_ru;; *);;
+
+locale_otradnoe_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Отрадное ]
+		(* <- lang_ru;; *);;
+
+locale_predstoasaa_kampania_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Предстоящая Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_bogucarovo_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Богучарово ]
+		(* <- lang_ru;; *);;
+
+locale_miso_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Мишо ]
+		(* <- lang_ru;; *);;
+
+locale_aroslavl__book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Ярославль ]
+		(* <- lang_ru;; *);;
+
+locale_smolensk_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Смоленск ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_vil_no_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Вильно ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+locale_borodinskij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Бородинский ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_vospol__book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Восполь ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_drisskoma_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Дрисскома ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_fila_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Филя ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_tusino_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Тушино ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_rambala_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Рамбаля ]
+		(* <- lang_ru;; *);;
+
+locale_prussia_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_petrovskij_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Петровский ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_rostov_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_moskva_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Москва ]
+		(* <- lang_ru;; *);;
+
+locale_borodino_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Бородино ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_zarizyno_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Царицыно ]
+		(* <- lang_ru;; *);;
+
+locale_kievskaa_gubernia_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Киевская Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_veresagin_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Верещагин ]
+		(* <- lang_ru;; *);;
+
+locale_plohoe_obmundi_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Плохое Обмунди ]
+		(* <- lang_ru;; *);;
+
+locale_mytisi_book_Voina_I_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Мытищи ]
+		(* <- lang_ru;; *);;
+
+book_Voina_I_Mir
+=> nrel_dates:
+	.book_Voina_I_Mir_dates
+		(*
+			-> date_1809_book_Voina_I_Mir;;
+			-> date_1805_book_Voina_I_Mir;;
+			-> date_1814_book_Voina_I_Mir;;
+			-> date_1812_6_book_Voina_I_Mir;;
+			-> date_1820_12_book_Voina_I_Mir;;
+			-> date_7_12_book_Voina_I_Mir;;
+			-> date_1805_12_book_Voina_I_Mir;;
+			-> date_1813_book_Voina_I_Mir;;
+	 	*);;
+
+date_1809_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1809 ]
+		(* <- lang_ru;; *);;
+
+date_1805_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1805 ]
+		(* <- lang_ru;; *);;
+
+date_1814_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1814 ]
+		(* <- lang_ru;; *);;
+
+date_1812_6_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1812 6 ]
+		(* <- lang_ru;; *);;
+
+date_1820_12_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1820 12 ]
+		(* <- lang_ru;; *);;
+
+date_7_12_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 7 12 ]
+		(* <- lang_ru;; *);;
+
+date_1805_12_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1805 12 ]
+		(* <- lang_ru;; *);;
+
+date_1813_book_Voina_I_Mir
+<- date;
+=> nrel_main_idtf:
+	[ 1813 ]
+		(* <- lang_ru;; *);;
+

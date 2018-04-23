@@ -1,0 +1,30 @@
+book_Process
+<- book;
+=> nrel_author;
+	author_Kafka;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Процесс]
+		(* <- lang_ru;; *);;
+
+book_Process
+=> nrel_locales:
+	.book_Process_locales
+		(*
+			-> locale_to_book_Process;;
+			-> locale_gustoj_cad_book_Process;;
+	 	*);;
+
+locale_to_book_Process
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gustoj_cad_book_Process
+<- locale;
+=> nrel_main_idtf:
+	[ Густой Чад ]
+		(* <- lang_ru;; *);;
+

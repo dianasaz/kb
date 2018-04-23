@@ -1,0 +1,140 @@
+book_Detstvo
+<- book;
+=> nrel_author;
+	author_Tolstoi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Детство]
+		(* <- lang_ru;; *);;
+
+book_Detstvo
+=> nrel_characters:
+	.book_Detstvo_characters
+		(*
+			-> char_voloda_book_Detstvo;;
+			-> char_sonecka_valahina_book_Detstvo;;
+			-> char_ivan_book_Detstvo;;
+			-> char_nikolen_ka_irten_ev_book_Detstvo;;
+			-> char_ivanyc_book_Detstvo;;
+			-> char_natal_a_book_Detstvo;;
+			-> char_nikolen_ka_book_Detstvo;;
+			-> char_karl_ivanyc_book_Detstvo;;
+			-> char_ivin_book_Detstvo;;
+	 	*);;
+
+char_voloda_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Володя ]
+		(* <- lang_ru;; *);;
+
+char_sonecka_valahina_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Сонечка Валахина ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_nikolen_ka_irten_ev_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Николенька Иртеньев ]
+		(* <- lang_ru;; *);;
+
+char_ivanyc_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_natal_a_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Наталья ]
+		(* <- lang_ru;; *);;
+
+char_nikolen_ka_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Николенька ]
+		(* <- lang_ru;; *);;
+
+char_karl_ivanyc_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Карл Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_ivin_book_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Ивин ]
+		(* <- lang_ru;; *);;
+
+book_Detstvo
+=> nrel_locales:
+	.book_Detstvo_locales
+		(*
+			-> locale_babuskin_book_Detstvo;;
+			-> locale_desatiletnij_nikolen_ka_book_Detstvo;;
+			-> locale_savisn_book_Detstvo;;
+			-> locale_moskva_book_Detstvo;;
+			-> locale_nikolen_ka_book_Detstvo;;
+			-> locale_kornakova_book_Detstvo;;
+	 	*);;
+
+locale_babuskin_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Бабушкин ]
+		(* <- lang_ru;; *);;
+
+locale_desatiletnij_nikolen_ka_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Десятилетний Николенька ]
+		(* <- lang_ru;; *);;
+
+locale_savisn_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Савишн ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_nikolen_ka_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Николенька ]
+		(* <- lang_ru;; *);;
+
+locale_kornakova_book_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Корнакова ]
+		(* <- lang_ru;; *);;
+
+book_Detstvo
+=> nrel_dates:
+	.book_Detstvo_dates
+		(*
+			-> date_8_12_book_Detstvo;;
+	 	*);;
+
+date_8_12_book_Detstvo
+<- date;
+=> nrel_main_idtf:
+	[ 8 12 ]
+		(* <- lang_ru;; *);;
+

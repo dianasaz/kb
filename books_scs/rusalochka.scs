@@ -1,0 +1,37 @@
+book_Rusalochka
+<- book;
+=> nrel_author;
+	author_Andersen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Русалочка]
+		(* <- lang_ru;; *);;
+
+book_Rusalochka
+=> nrel_locales:
+	.book_Rusalochka_locales
+		(*
+			-> locale_krasnyj_book_Rusalochka;;
+			-> locale_to_book_Rusalochka;;
+			-> locale_para_book_Rusalochka;;
+	 	*);;
+
+locale_krasnyj_book_Rusalochka
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Rusalochka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Rusalochka
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

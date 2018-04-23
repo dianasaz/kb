@@ -1,0 +1,51 @@
+book_Zhencshina_V_Peskah
+<- book;
+=> nrel_author;
+	author_Abe;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Женщина В Песках]
+		(* <- lang_ru;; *);;
+
+book_Zhencshina_V_Peskah
+=> nrel_locales:
+	.book_Zhencshina_V_Peskah_locales
+		(*
+			-> locale_kuda_book_Zhencshina_V_Peskah;;
+			-> locale_presledo_book_Zhencshina_V_Peskah;;
+			-> locale_kampania_book_Zhencshina_V_Peskah;;
+			-> locale_to_book_Zhencshina_V_Peskah;;
+			-> locale_nea_book_Zhencshina_V_Peskah;;
+	 	*);;
+
+locale_kuda_book_Zhencshina_V_Peskah
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_presledo_book_Zhencshina_V_Peskah
+<- locale;
+=> nrel_main_idtf:
+	[ Преследо ]
+		(* <- lang_ru;; *);;
+
+locale_kampania_book_Zhencshina_V_Peskah
+<- locale;
+=> nrel_main_idtf:
+	[ Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhencshina_V_Peskah
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Zhencshina_V_Peskah
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

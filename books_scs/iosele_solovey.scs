@@ -1,0 +1,141 @@
+book_Iosele_Solovey
+<- book;
+=> nrel_author;
+	author_Sholom_Aleykhem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Иоселе-Соловей]
+		(* <- lang_ru;; *);;
+
+book_Iosele_Solovey
+=> nrel_characters:
+	.book_Iosele_Solovey_characters
+		(*
+			-> char_gedalij_book_Iosele_Solovey;;
+			-> char_ampol_skij_book_Iosele_Solovey;;
+			-> char_estera_book_Iosele_Solovey;;
+			-> char_mizi_book_Iosele_Solovey;;
+			-> char_gedal_a_book_Iosele_Solovey;;
+			-> char_zlata_book_Iosele_Solovey;;
+			-> char_lejbzin_book_Iosele_Solovey;;
+			-> char_smulik_kantor_book_Iosele_Solovey;;
+	 	*);;
+
+char_gedalij_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Гедалий ]
+		(* <- lang_ru;; *);;
+
+char_ampol_skij_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Ямпольский ]
+		(* <- lang_ru;; *);;
+
+char_estera_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Эстера ]
+		(* <- lang_ru;; *);;
+
+char_mizi_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Мици ]
+		(* <- lang_ru;; *);;
+
+char_gedal_a_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Гедалья ]
+		(* <- lang_ru;; *);;
+
+char_zlata_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Злата ]
+		(* <- lang_ru;; *);;
+
+char_lejbzin_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Лейбцин ]
+		(* <- lang_ru;; *);;
+
+char_smulik_kantor_book_Iosele_Solovey
+<- char;
+=> nrel_main_idtf:
+	[ Шмулик Кантор ]
+		(* <- lang_ru;; *);;
+
+book_Iosele_Solovey
+=> nrel_locales:
+	.book_Iosele_Solovey_locales
+		(*
+			-> locale_rodnaa_mazepovka_book_Iosele_Solovey;;
+			-> locale_gorodok_book_Iosele_Solovey;;
+			-> locale_berdicev_book_Iosele_Solovey;;
+			-> locale_vsa_mazepovka_book_Iosele_Solovey;;
+			-> locale_to_book_Iosele_Solovey;;
+			-> locale_mazepovka_book_Iosele_Solovey;;
+			-> locale_sevsee_makarovka_book_Iosele_Solovey;;
+			-> locale_makarovka_book_Iosele_Solovey;;
+			-> locale_usta_book_Iosele_Solovey;;
+	 	*);;
+
+locale_rodnaa_mazepovka_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Родная Мазеповка ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_berdicev_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Бердичев ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_mazepovka_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Мазеповка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_mazepovka_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Мазеповка ]
+		(* <- lang_ru;; *);;
+
+locale_sevsee_makarovka_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Севшее Макаровка ]
+		(* <- lang_ru;; *);;
+
+locale_makarovka_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Макаровка ]
+		(* <- lang_ru;; *);;
+
+locale_usta_book_Iosele_Solovey
+<- locale;
+=> nrel_main_idtf:
+	[ Уста ]
+		(* <- lang_ru;; *);;
+

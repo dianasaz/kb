@@ -1,0 +1,211 @@
+book_Na_Dne
+<- book;
+=> nrel_author;
+	author_Gorkii;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[На Дне]
+		(* <- lang_ru;; *);;
+
+book_Na_Dne
+=> nrel_characters:
+	.book_Na_Dne_characters
+		(*
+			-> char_andrej_mitric_book_Na_Dne;;
+			-> char_kles_book_Na_Dne;;
+			-> char_medvedev_book_Na_Dne;;
+			-> char_bubnov_book_Na_Dne;;
+			-> char_nasta_book_Na_Dne;;
+			-> char_satina_book_Na_Dne;;
+			-> char_alesa_book_Na_Dne;;
+			-> char_vas_ka_pepel_book_Na_Dne;;
+			-> char_kostyleva_book_Na_Dne;;
+			-> char_pepel_book_Na_Dne;;
+			-> char_bubnovaa_book_Na_Dne;;
+			-> char_anne_book_Na_Dne;;
+			-> char_kvasna_book_Na_Dne;;
+			-> char_vasilisa_book_Na_Dne;;
+			-> char_vas_ka_book_Na_Dne;;
+			-> char_bubnovyj_book_Na_Dne;;
+			-> char_natasa_book_Na_Dne;;
+			-> char_anna_book_Na_Dne;;
+	 	*);;
+
+char_andrej_mitric_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Митрич ]
+		(* <- lang_ru;; *);;
+
+char_kles_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Клещ ]
+		(* <- lang_ru;; *);;
+
+char_medvedev_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Медведев ]
+		(* <- lang_ru;; *);;
+
+char_bubnov_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Бубнов ]
+		(* <- lang_ru;; *);;
+
+char_nasta_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Настя ]
+		(* <- lang_ru;; *);;
+
+char_satina_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Сатина ]
+		(* <- lang_ru;; *);;
+
+char_alesa_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Алёша ]
+		(* <- lang_ru;; *);;
+
+char_vas_ka_pepel_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Васька Пепел ]
+		(* <- lang_ru;; *);;
+
+char_kostyleva_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Костылёва ]
+		(* <- lang_ru;; *);;
+
+char_pepel_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Пепел ]
+		(* <- lang_ru;; *);;
+
+char_bubnovaa_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Бубновая ]
+		(* <- lang_ru;; *);;
+
+char_anne_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Анне ]
+		(* <- lang_ru;; *);;
+
+char_kvasna_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Квашня ]
+		(* <- lang_ru;; *);;
+
+char_vasilisa_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Василиса ]
+		(* <- lang_ru;; *);;
+
+char_vas_ka_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Васька ]
+		(* <- lang_ru;; *);;
+
+char_bubnovyj_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Бубновый ]
+		(* <- lang_ru;; *);;
+
+char_natasa_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Наташа ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Na_Dne
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+book_Na_Dne
+=> nrel_locales:
+	.book_Na_Dne_locales
+		(*
+			-> locale_sibir__book_Na_Dne;;
+			-> locale_tel_sk_book_Na_Dne;;
+			-> locale_franzia_book_Na_Dne;;
+			-> locale_kuda_book_Na_Dne;;
+			-> locale_lubim_book_Na_Dne;;
+			-> locale_nary_book_Na_Dne;;
+			-> locale_tomskij_book_Na_Dne;;
+			-> locale_mitric_book_Na_Dne;;
+			-> locale_mirovavsij_book_Na_Dne;;
+	 	*);;
+
+locale_sibir__book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_tel_sk_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Тельск ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_nary_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Нары ]
+		(* <- lang_ru;; *);;
+
+locale_tomskij_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Томский ]
+		(* <- lang_ru;; *);;
+
+locale_mitric_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Митрич ]
+		(* <- lang_ru;; *);;
+
+locale_mirovavsij_book_Na_Dne
+<- locale;
+=> nrel_main_idtf:
+	[ Мировавший ]
+		(* <- lang_ru;; *);;
+

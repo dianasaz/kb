@@ -1,0 +1,371 @@
+book_Zhizn_I_Sudba
+<- book;
+=> nrel_author;
+	author_Grossman;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Жизнь И Судьба]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Sudba
+=> nrel_characters:
+	.book_Zhizn_I_Sudba_characters
+		(*
+			-> char_ersovaa_book_Zhizn_I_Sudba;;
+			-> char_mihail_mostovskoj_book_Zhizn_I_Sudba;;
+			-> char_viktor_pavlovic_strum_book_Zhizn_I_Sudba;;
+			-> char_gardi_book_Zhizn_I_Sudba;;
+			-> char_vladimirovna_book_Zhizn_I_Sudba;;
+			-> char_novikov_book_Zhizn_I_Sudba;;
+			-> char_strum_book_Zhizn_I_Sudba;;
+			-> char_getmanov_book_Zhizn_I_Sudba;;
+			-> char_mar_a_ivanovna_sokolova_book_Zhizn_I_Sudba;;
+			-> char_cujkov_book_Zhizn_I_Sudba;;
+			-> char_krymov_book_Zhizn_I_Sudba;;
+			-> char_cernezov_book_Zhizn_I_Sudba;;
+			-> char_anna_semenovna_book_Zhizn_I_Sudba;;
+			-> char_sof_a_osipovna_book_Zhizn_I_Sudba;;
+			-> char_sof_a_osipovna_levinton_book_Zhizn_I_Sudba;;
+			-> char_jena_saposnikova_book_Zhizn_I_Sudba;;
+			-> char_mar_a_ivanovna_book_Zhizn_I_Sudba;;
+			-> char_grekov_book_Zhizn_I_Sudba;;
+			-> char_sereja_saposnikov_book_Zhizn_I_Sudba;;
+			-> char_ikonnikov_book_Zhizn_I_Sudba;;
+			-> char_osipov_book_Zhizn_I_Sudba;;
+			-> char_revekka_buhman_book_Zhizn_I_Sudba;;
+			-> char_kata_vengrova_book_Zhizn_I_Sudba;;
+			-> char_ludmila_book_Zhizn_I_Sudba;;
+			-> char_stalin_book_Zhizn_I_Sudba;;
+			-> char_jena_book_Zhizn_I_Sudba;;
+			-> char_nada_book_Zhizn_I_Sudba;;
+			-> char_david_book_Zhizn_I_Sudba;;
+			-> char_aleksandr_strum_book_Zhizn_I_Sudba;;
+	 	*);;
+
+char_ersovaa_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Ершовая ]
+		(* <- lang_ru;; *);;
+
+char_mihail_mostovskoj_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Михаил Мостовской ]
+		(* <- lang_ru;; *);;
+
+char_viktor_pavlovic_strum_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Виктор Павлович Штрум ]
+		(* <- lang_ru;; *);;
+
+char_gardi_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Гарди ]
+		(* <- lang_ru;; *);;
+
+char_vladimirovna_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Владимировна ]
+		(* <- lang_ru;; *);;
+
+char_novikov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Новиков ]
+		(* <- lang_ru;; *);;
+
+char_strum_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Штрум ]
+		(* <- lang_ru;; *);;
+
+char_getmanov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Гетманов ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_ivanovna_sokolova_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Марья Ивановна Соколова ]
+		(* <- lang_ru;; *);;
+
+char_cujkov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Чуйков ]
+		(* <- lang_ru;; *);;
+
+char_krymov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Крымов ]
+		(* <- lang_ru;; *);;
+
+char_cernezov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Чернецов ]
+		(* <- lang_ru;; *);;
+
+char_anna_semenovna_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Анна Семёновна ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_osipovna_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Софья Осиповна ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_osipovna_levinton_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Софья Осиповна Левинтон ]
+		(* <- lang_ru;; *);;
+
+char_jena_saposnikova_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Женя Шапошникова ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_ivanovna_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Марья Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_grekov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Греков ]
+		(* <- lang_ru;; *);;
+
+char_sereja_saposnikov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Сережа Шапошников ]
+		(* <- lang_ru;; *);;
+
+char_ikonnikov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Иконников ]
+		(* <- lang_ru;; *);;
+
+char_osipov_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Осипов ]
+		(* <- lang_ru;; *);;
+
+char_revekka_buhman_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Ревекка Бухман ]
+		(* <- lang_ru;; *);;
+
+char_kata_vengrova_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Катя Венгрова ]
+		(* <- lang_ru;; *);;
+
+char_ludmila_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Людмила ]
+		(* <- lang_ru;; *);;
+
+char_stalin_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Сталин ]
+		(* <- lang_ru;; *);;
+
+char_jena_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Женя ]
+		(* <- lang_ru;; *);;
+
+char_nada_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Надя ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_strum_book_Zhizn_I_Sudba
+<- char;
+=> nrel_main_idtf:
+	[ Александр Штрум ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Sudba
+=> nrel_locales:
+	.book_Zhizn_I_Sudba_locales
+		(*
+			-> locale_zapadnaa_germania_book_Zhizn_I_Sudba;;
+			-> locale_kazan__book_Zhizn_I_Sudba;;
+			-> locale_sereja_book_Zhizn_I_Sudba;;
+			-> locale_ersovaa_book_Zhizn_I_Sudba;;
+			-> locale_ukrainskij_gorodok_book_Zhizn_I_Sudba;;
+			-> locale_ersov_book_Zhizn_I_Sudba;;
+			-> locale_kujbysev_book_Zhizn_I_Sudba;;
+			-> locale_poradocnyj_ersov_book_Zhizn_I_Sudba;;
+			-> locale_ukraina_book_Zhizn_I_Sudba;;
+			-> locale_kuda_book_Zhizn_I_Sudba;;
+			-> locale_kotoryj_book_Zhizn_I_Sudba;;
+			-> locale_lubim_book_Zhizn_I_Sudba;;
+			-> locale_moskva_book_Zhizn_I_Sudba;;
+			-> locale_stalingradskij_book_Zhizn_I_Sudba;;
+			-> locale_stalingradskaa_book_Zhizn_I_Sudba;;
+			-> locale_stalingrad_book_Zhizn_I_Sudba;;
+			-> locale_bityj_stalingradskij_book_Zhizn_I_Sudba;;
+			-> locale_buhenval_d_book_Zhizn_I_Sudba;;
+			-> locale_krymovskij_book_Zhizn_I_Sudba;;
+	 	*);;
+
+locale_zapadnaa_germania_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Западная Германия ]
+		(* <- lang_ru;; *);;
+
+locale_kazan__book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Казань ]
+		(* <- lang_ru;; *);;
+
+locale_sereja_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Сережа ]
+		(* <- lang_ru;; *);;
+
+locale_ersovaa_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Ершовая ]
+		(* <- lang_ru;; *);;
+
+locale_ukrainskij_gorodok_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Украинский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_ersov_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Ершов ]
+		(* <- lang_ru;; *);;
+
+locale_kujbysev_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Куйбышев ]
+		(* <- lang_ru;; *);;
+
+locale_poradocnyj_ersov_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Порядочный Ершов ]
+		(* <- lang_ru;; *);;
+
+locale_ukraina_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Украина ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_stalingradskij_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Сталинградский ]
+		(* <- lang_ru;; *);;
+
+locale_stalingradskaa_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Сталинградская ]
+		(* <- lang_ru;; *);;
+
+locale_stalingrad_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Сталинград ]
+		(* <- lang_ru;; *);;
+
+locale_bityj_stalingradskij_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Битый Сталинградский ]
+		(* <- lang_ru;; *);;
+
+locale_buhenval_d_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Бухенвальд ]
+		(* <- lang_ru;; *);;
+
+locale_krymovskij_book_Zhizn_I_Sudba
+<- locale;
+=> nrel_main_idtf:
+	[ Крымовский ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Sudba
+=> nrel_dates:
+	.book_Zhizn_I_Sudba_dates
+		(*
+			-> date_1937_book_Zhizn_I_Sudba;;
+	 	*);;
+
+date_1937_book_Zhizn_I_Sudba
+<- date;
+=> nrel_main_idtf:
+	[ 1937 ]
+		(* <- lang_ru;; *);;
+

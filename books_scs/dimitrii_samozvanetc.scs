@@ -1,0 +1,133 @@
+book_Dimitrii_Samozvanetc
+<- book;
+=> nrel_author;
+	author_Sumarokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Димитрий Самозванец]
+		(* <- lang_ru;; *);;
+
+book_Dimitrii_Samozvanetc
+=> nrel_characters:
+	.book_Dimitrii_Samozvanetc_characters
+		(*
+			-> char_dimitrij_book_Dimitrii_Samozvanetc;;
+			-> char_ksenia_book_Dimitrii_Samozvanetc;;
+			-> char_dimitriev_book_Dimitrii_Samozvanetc;;
+			-> char_parmen_book_Dimitrii_Samozvanetc;;
+			-> char_georgij_book_Dimitrii_Samozvanetc;;
+	 	*);;
+
+char_dimitrij_book_Dimitrii_Samozvanetc
+<- char;
+=> nrel_main_idtf:
+	[ Димитрий ]
+		(* <- lang_ru;; *);;
+
+char_ksenia_book_Dimitrii_Samozvanetc
+<- char;
+=> nrel_main_idtf:
+	[ Ксения ]
+		(* <- lang_ru;; *);;
+
+char_dimitriev_book_Dimitrii_Samozvanetc
+<- char;
+=> nrel_main_idtf:
+	[ Димитриев ]
+		(* <- lang_ru;; *);;
+
+char_parmen_book_Dimitrii_Samozvanetc
+<- char;
+=> nrel_main_idtf:
+	[ Пармен ]
+		(* <- lang_ru;; *);;
+
+char_georgij_book_Dimitrii_Samozvanetc
+<- char;
+=> nrel_main_idtf:
+	[ Георгий ]
+		(* <- lang_ru;; *);;
+
+book_Dimitrii_Samozvanetc
+=> nrel_locales:
+	.book_Dimitrii_Samozvanetc_locales
+		(*
+			-> locale_rosska_book_Dimitrii_Samozvanetc;;
+			-> locale_tirana_book_Dimitrii_Samozvanetc;;
+			-> locale_premenil_book_Dimitrii_Samozvanetc;;
+			-> locale_moskva_book_Dimitrii_Samozvanetc;;
+			-> locale_to_book_Dimitrii_Samozvanetc;;
+			-> locale_san_book_Dimitrii_Samozvanetc;;
+			-> locale_zarska_book_Dimitrii_Samozvanetc;;
+			-> locale_lut_book_Dimitrii_Samozvanetc;;
+			-> locale_cad_book_Dimitrii_Samozvanetc;;
+	 	*);;
+
+locale_rosska_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Росска ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_premenil_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Пременил ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_san_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Сан ]
+		(* <- lang_ru;; *);;
+
+locale_zarska_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Царска ]
+		(* <- lang_ru;; *);;
+
+locale_lut_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Лют ]
+		(* <- lang_ru;; *);;
+
+locale_cad_book_Dimitrii_Samozvanetc
+<- locale;
+=> nrel_main_idtf:
+	[ Чад ]
+		(* <- lang_ru;; *);;
+
+book_Dimitrii_Samozvanetc
+=> nrel_dates:
+	.book_Dimitrii_Samozvanetc_dates
+		(*
+			-> date_1606_book_Dimitrii_Samozvanetc;;
+	 	*);;
+
+date_1606_book_Dimitrii_Samozvanetc
+<- date;
+=> nrel_main_idtf:
+	[ 1606 ]
+		(* <- lang_ru;; *);;
+

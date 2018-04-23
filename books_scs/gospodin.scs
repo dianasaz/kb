@@ -1,0 +1,44 @@
+book_Gospodin
+<- book;
+=> nrel_author;
+	author_Bunin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Господин Из Сан-Франциско]
+		(* <- lang_ru;; *);;
+
+book_Gospodin
+=> nrel_locales:
+	.book_Gospodin_locales
+		(*
+			-> locale_kamennyj_gorodok_book_Gospodin;;
+			-> locale_atlantida_book_Gospodin;;
+			-> locale_krasnyh_book_Gospodin;;
+			-> locale_neapol__book_Gospodin;;
+	 	*);;
+
+locale_kamennyj_gorodok_book_Gospodin
+<- locale;
+=> nrel_main_idtf:
+	[ Каменный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_atlantida_book_Gospodin
+<- locale;
+=> nrel_main_idtf:
+	[ Атлантида ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Gospodin
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Gospodin
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+

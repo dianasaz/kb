@@ -1,0 +1,78 @@
+book_Postoronnij
+<- book;
+=> nrel_author;
+	author_Kamju;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Посторонний]
+		(* <- lang_ru;; *);;
+
+book_Postoronnij
+=> nrel_characters:
+	.book_Postoronnij_characters
+		(*
+			-> char_rajmon_sintes_book_Postoronnij;;
+			-> char_salamano_book_Postoronnij;;
+			-> char_rajmona_book_Postoronnij;;
+	 	*);;
+
+char_rajmon_sintes_book_Postoronnij
+<- char;
+=> nrel_main_idtf:
+	[ Раймон Синтёс ]
+		(* <- lang_ru;; *);;
+
+char_salamano_book_Postoronnij
+<- char;
+=> nrel_main_idtf:
+	[ Саламано ]
+		(* <- lang_ru;; *);;
+
+char_rajmona_book_Postoronnij
+<- char;
+=> nrel_main_idtf:
+	[ Раймона ]
+		(* <- lang_ru;; *);;
+
+book_Postoronnij
+=> nrel_locales:
+	.book_Postoronnij_locales
+		(*
+			-> locale_tagcajsaa_kara_book_Postoronnij;;
+			-> locale_aljir_book_Postoronnij;;
+			-> locale_parij_book_Postoronnij;;
+			-> locale_to_book_Postoronnij;;
+			-> locale_kardon_book_Postoronnij;;
+	 	*);;
+
+locale_tagcajsaa_kara_book_Postoronnij
+<- locale;
+=> nrel_main_idtf:
+	[ Тягчайшая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_aljir_book_Postoronnij
+<- locale;
+=> nrel_main_idtf:
+	[ Алжир ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Postoronnij
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Postoronnij
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kardon_book_Postoronnij
+<- locale;
+=> nrel_main_idtf:
+	[ Кардон ]
+		(* <- lang_ru;; *);;
+

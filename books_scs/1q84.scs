@@ -1,0 +1,189 @@
+book_1Q84
+<- book;
+=> nrel_author;
+	author_Murakami;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[1Q84]
+		(* <- lang_ru;; *);;
+
+book_1Q84
+=> nrel_characters:
+	.book_1Q84_characters
+		(*
+			-> char_golos_book_1Q84;;
+			-> char_eri_book_1Q84;;
+			-> char_eriko_book_1Q84;;
+			-> char_kavan_book_1Q84;;
+			-> char_lider_book_1Q84;;
+			-> char_aomame_book_1Q84;;
+			-> char_fukad_eriko_book_1Q84;;
+			-> char_tengo_book_1Q84;;
+	 	*);;
+
+char_golos_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Голос ]
+		(* <- lang_ru;; *);;
+
+char_eri_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Эри ]
+		(* <- lang_ru;; *);;
+
+char_eriko_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Эрико ]
+		(* <- lang_ru;; *);;
+
+char_kavan_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Каван ]
+		(* <- lang_ru;; *);;
+
+char_lider_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Лидер ]
+		(* <- lang_ru;; *);;
+
+char_aomame_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Аомамэ ]
+		(* <- lang_ru;; *);;
+
+char_fukad_eriko_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Фукад Эрико ]
+		(* <- lang_ru;; *);;
+
+char_tengo_book_1Q84
+<- char;
+=> nrel_main_idtf:
+	[ Тенго ]
+		(* <- lang_ru;; *);;
+
+book_1Q84
+=> nrel_locales:
+	.book_1Q84_locales
+		(*
+			-> locale_detskaa_gorka_book_1Q84;;
+			-> locale_tamaki_book_1Q84;;
+			-> locale_gorka_book_1Q84;;
+			-> locale_kotoryj_book_1Q84;;
+			-> locale_kuda_book_1Q84;;
+			-> locale_eri_book_1Q84;;
+			-> locale_sensej_book_1Q84;;
+			-> locale_n_kavana_book_1Q84;;
+			-> locale_to_book_1Q84;;
+			-> locale_tengo_eri_book_1Q84;;
+			-> locale_tengo_kavan_book_1Q84;;
+			-> locale_kavan_book_1Q84;;
+			-> locale_desatiletnaa_zubasa_book_1Q84;;
+			-> locale_para_book_1Q84;;
+	 	*);;
+
+locale_detskaa_gorka_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Детская Горка ]
+		(* <- lang_ru;; *);;
+
+locale_tamaki_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Тамаки ]
+		(* <- lang_ru;; *);;
+
+locale_gorka_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Горка ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_eri_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Эри ]
+		(* <- lang_ru;; *);;
+
+locale_sensej_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Сэнсэй ]
+		(* <- lang_ru;; *);;
+
+locale_n_kavana_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Н Кавана ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tengo_eri_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Тэнго Эри ]
+		(* <- lang_ru;; *);;
+
+locale_tengo_kavan_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Тэнго Каван ]
+		(* <- lang_ru;; *);;
+
+locale_kavan_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Каван ]
+		(* <- lang_ru;; *);;
+
+locale_desatiletnaa_zubasa_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Десятилетняя Цубаса ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_1Q84
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+book_1Q84
+=> nrel_dates:
+	.book_1Q84_dates
+		(*
+			-> date_1984_book_1Q84;;
+	 	*);;
+
+date_1984_book_1Q84
+<- date;
+=> nrel_main_idtf:
+	[ 1984 ]
+		(* <- lang_ru;; *);;
+

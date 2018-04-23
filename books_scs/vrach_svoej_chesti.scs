@@ -1,0 +1,175 @@
+book_Vrach_Svoej_Chesti
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Врач Своей Чести]
+		(* <- lang_ru;; *);;
+
+book_Vrach_Svoej_Chesti
+=> nrel_characters:
+	.book_Vrach_Svoej_Chesti_characters
+		(*
+			-> char_ludovikoe_book_Vrach_Svoej_Chesti;;
+			-> char_diego_book_Vrach_Svoej_Chesti;;
+			-> char_arias_book_Vrach_Svoej_Chesti;;
+			-> char_pedro_spravedlivyj_book_Vrach_Svoej_Chesti;;
+			-> char_leonora_book_Vrach_Svoej_Chesti;;
+			-> char_don_book_Vrach_Svoej_Chesti;;
+			-> char_mensia_book_Vrach_Svoej_Chesti;;
+			-> char_al_fonso_book_Vrach_Svoej_Chesti;;
+			-> char_pedro_book_Vrach_Svoej_Chesti;;
+			-> char_kokin_book_Vrach_Svoej_Chesti;;
+			-> char_enrike_book_Vrach_Svoej_Chesti;;
+	 	*);;
+
+char_ludovikoe_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Людовикое ]
+		(* <- lang_ru;; *);;
+
+char_diego_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Диего ]
+		(* <- lang_ru;; *);;
+
+char_arias_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Ариас ]
+		(* <- lang_ru;; *);;
+
+char_pedro_spravedlivyj_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Педро Справедливый ]
+		(* <- lang_ru;; *);;
+
+char_leonora_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Леонора ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_mensia_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Менсия ]
+		(* <- lang_ru;; *);;
+
+char_al_fonso_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Альфонсо ]
+		(* <- lang_ru;; *);;
+
+char_pedro_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Педро ]
+		(* <- lang_ru;; *);;
+
+char_kokin_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Кокин ]
+		(* <- lang_ru;; *);;
+
+char_enrike_book_Vrach_Svoej_Chesti
+<- char;
+=> nrel_main_idtf:
+	[ Энрике ]
+		(* <- lang_ru;; *);;
+
+book_Vrach_Svoej_Chesti
+=> nrel_locales:
+	.book_Vrach_Svoej_Chesti_locales
+		(*
+			-> locale_vosprepatstvuusij_book_Vrach_Svoej_Chesti;;
+			-> locale_lubim_book_Vrach_Svoej_Chesti;;
+			-> locale_opal_book_Vrach_Svoej_Chesti;;
+			-> locale_mensia_book_Vrach_Svoej_Chesti;;
+			-> locale_ispania_book_Vrach_Svoej_Chesti;;
+			-> locale_don_book_Vrach_Svoej_Chesti;;
+			-> locale_to_book_Vrach_Svoej_Chesti;;
+			-> locale_sevil_a_book_Vrach_Svoej_Chesti;;
+			-> locale_hasinta_book_Vrach_Svoej_Chesti;;
+	 	*);;
+
+locale_vosprepatstvuusij_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Воспрепятствующий ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_opal_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Опал ]
+		(* <- lang_ru;; *);;
+
+locale_mensia_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Менсия ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_hasinta_book_Vrach_Svoej_Chesti
+<- locale;
+=> nrel_main_idtf:
+	[ Хасинта ]
+		(* <- lang_ru;; *);;
+
+book_Vrach_Svoej_Chesti
+=> nrel_dates:
+	.book_Vrach_Svoej_Chesti_dates
+		(*
+			-> date_1369_book_Vrach_Svoej_Chesti;;
+	 	*);;
+
+date_1369_book_Vrach_Svoej_Chesti
+<- date;
+=> nrel_main_idtf:
+	[ 1369 ]
+		(* <- lang_ru;; *);;
+

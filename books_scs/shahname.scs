@@ -1,0 +1,365 @@
+book_Shahname
+<- book;
+=> nrel_author;
+	author_Firdousi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шахнаме]
+		(* <- lang_ru;; *);;
+
+book_Shahname
+=> nrel_characters:
+	.book_Shahname_characters
+		(*
+			-> char_tahmina_book_Shahname;;
+			-> char_humannyj_book_Shahname;;
+			-> char_giv_book_Shahname;;
+			-> char_ferengiz_book_Shahname;;
+			-> char_hoten_book_Shahname;;
+			-> char_bela_book_Shahname;;
+			-> char_barman_book_Shahname;;
+			-> char_feridun_book_Shahname;;
+			-> char_turan_book_Shahname;;
+			-> char_balha_book_Shahname;;
+			-> char_farid_book_Shahname;;
+			-> char_siavus_book_Shahname;;
+			-> char_sudabe_book_Shahname;;
+			-> char_garsivaz_book_Shahname;;
+	 	*);;
+
+char_tahmina_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Тахмина ]
+		(* <- lang_ru;; *);;
+
+char_humannyj_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Хуманный ]
+		(* <- lang_ru;; *);;
+
+char_giv_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Гив ]
+		(* <- lang_ru;; *);;
+
+char_ferengiz_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Ференгиз ]
+		(* <- lang_ru;; *);;
+
+char_hoten_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Хотен ]
+		(* <- lang_ru;; *);;
+
+char_bela_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Бела ]
+		(* <- lang_ru;; *);;
+
+char_barman_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Барман ]
+		(* <- lang_ru;; *);;
+
+char_feridun_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Феридун ]
+		(* <- lang_ru;; *);;
+
+char_turan_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Туран ]
+		(* <- lang_ru;; *);;
+
+char_balha_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Балха ]
+		(* <- lang_ru;; *);;
+
+char_farid_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Фарид ]
+		(* <- lang_ru;; *);;
+
+char_siavus_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Сиавуш ]
+		(* <- lang_ru;; *);;
+
+char_sudabe_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Судабе ]
+		(* <- lang_ru;; *);;
+
+char_garsivaz_book_Shahname
+<- char;
+=> nrel_main_idtf:
+	[ Гарсиваз ]
+		(* <- lang_ru;; *);;
+
+book_Shahname
+=> nrel_locales:
+	.book_Shahname_locales
+		(*
+			-> locale_djerir_book_Shahname;;
+			-> locale_ee_kos_book_Shahname;;
+			-> locale_bogatejsij_oblast__book_Shahname;;
+			-> locale_kotoryj_book_Shahname;;
+			-> locale_semengan_book_Shahname;;
+			-> locale_turan_book_Shahname;;
+			-> locale_bahram_book_Shahname;;
+			-> locale_rahs_book_Shahname;;
+			-> locale_afras_absij_book_Shahname;;
+			-> locale_sam_afras_ab_book_Shahname;;
+			-> locale_tusa_book_Shahname;;
+			-> locale_afras_ab_book_Shahname;;
+			-> locale_svoj_kos_book_Shahname;;
+			-> locale_zabulistannaa_book_Shahname;;
+			-> locale_kos_book_Shahname;;
+			-> locale_sohrab_book_Shahname;;
+			-> locale_iran_book_Shahname;;
+			-> locale_humannyj_book_Shahname;;
+			-> locale_ojerel_e_book_Shahname;;
+			-> locale_piran_book_Shahname;;
+			-> locale_dagovavsij_book_Shahname;;
+			-> locale_ee_tehmin__book_Shahname;;
+			-> locale_nea_book_Shahname;;
+			-> locale_zabulistannyj_book_Shahname;;
+			-> locale_pal_ma_book_Shahname;;
+			-> locale_kuda_book_Shahname;;
+			-> locale_svoj_kraj_book_Shahname;;
+			-> locale_kavusa_book_Shahname;;
+			-> locale_tvoj_rehs_book_Shahname;;
+			-> locale_zabula_book_Shahname;;
+			-> locale_to_book_Shahname;;
+			-> locale_zaratustra_book_Shahname;;
+			-> locale_barman_book_Shahname;;
+			-> locale_humana_book_Shahname;;
+			-> locale_zenga_book_Shahname;;
+	 	*);;
+
+locale_djerir_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Джерир ]
+		(* <- lang_ru;; *);;
+
+locale_ee_kos_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Её Кос ]
+		(* <- lang_ru;; *);;
+
+locale_bogatejsij_oblast__book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Богатейший Область ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_semengan_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Семенган ]
+		(* <- lang_ru;; *);;
+
+locale_turan_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Туран ]
+		(* <- lang_ru;; *);;
+
+locale_bahram_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Бахрам ]
+		(* <- lang_ru;; *);;
+
+locale_rahs_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Рахш ]
+		(* <- lang_ru;; *);;
+
+locale_afras_absij_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Афрасьябший ]
+		(* <- lang_ru;; *);;
+
+locale_sam_afras_ab_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Афрасьяб ]
+		(* <- lang_ru;; *);;
+
+locale_tusa_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Туса ]
+		(* <- lang_ru;; *);;
+
+locale_afras_ab_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Афрасьяб ]
+		(* <- lang_ru;; *);;
+
+locale_svoj_kos_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Свой Кос ]
+		(* <- lang_ru;; *);;
+
+locale_zabulistannaa_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Забулистанная ]
+		(* <- lang_ru;; *);;
+
+locale_kos_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Кос ]
+		(* <- lang_ru;; *);;
+
+locale_sohrab_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Сохраб ]
+		(* <- lang_ru;; *);;
+
+locale_iran_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Иран ]
+		(* <- lang_ru;; *);;
+
+locale_humannyj_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Хуманный ]
+		(* <- lang_ru;; *);;
+
+locale_ojerel_e_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Ожерелье ]
+		(* <- lang_ru;; *);;
+
+locale_piran_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Пиран ]
+		(* <- lang_ru;; *);;
+
+locale_dagovavsij_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Даговавший ]
+		(* <- lang_ru;; *);;
+
+locale_ee_tehmin__book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Её Техминь ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_zabulistannyj_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Забулистанный ]
+		(* <- lang_ru;; *);;
+
+locale_pal_ma_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_svoj_kraj_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Свой Край ]
+		(* <- lang_ru;; *);;
+
+locale_kavusa_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Кавуса ]
+		(* <- lang_ru;; *);;
+
+locale_tvoj_rehs_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Твой Рехш ]
+		(* <- lang_ru;; *);;
+
+locale_zabula_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Забула ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_zaratustra_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Заратуштра ]
+		(* <- lang_ru;; *);;
+
+locale_barman_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Барман ]
+		(* <- lang_ru;; *);;
+
+locale_humana_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Хумана ]
+		(* <- lang_ru;; *);;
+
+locale_zenga_book_Shahname
+<- locale;
+=> nrel_main_idtf:
+	[ Зенга ]
+		(* <- lang_ru;; *);;
+

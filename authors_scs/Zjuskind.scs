@@ -1,0 +1,16 @@
+author_Zjuskind
+<- person;
+=> nrel_main_idtf:
+	[Патрик Зюскинд]
+		(* <- lang_ru;; *);;
+
+author_Zjuskind
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Zjuskind.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

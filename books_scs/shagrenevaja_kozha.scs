@@ -1,0 +1,239 @@
+book_Shagrenevaja_Kozha
+<- book;
+=> nrel_author;
+	author_Balzak;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шагреневая Кожа]
+		(* <- lang_ru;; *);;
+
+book_Shagrenevaja_Kozha
+=> nrel_characters:
+	.book_Shagrenevaja_Kozha_characters
+		(*
+			-> char_elena_book_Shagrenevaja_Kozha;;
+			-> char_feodora_book_Shagrenevaja_Kozha;;
+			-> char_evfrasij_book_Shagrenevaja_Kozha;;
+			-> char_polina_book_Shagrenevaja_Kozha;;
+			-> char_rafael__book_Shagrenevaja_Kozha;;
+			-> char_galatea_book_Shagrenevaja_Kozha;;
+			-> char_kardo_book_Shagrenevaja_Kozha;;
+			-> char_ionafan_book_Shagrenevaja_Kozha;;
+			-> char_antuan_book_Shagrenevaja_Kozha;;
+			-> char_jaf_book_Shagrenevaja_Kozha;;
+			-> char_rafael_book_Shagrenevaja_Kozha;;
+			-> char_tajfer_book_Shagrenevaja_Kozha;;
+			-> char_porrik_book_Shagrenevaja_Kozha;;
+			-> char_kanten_book_Shagrenevaja_Kozha;;
+			-> char_akilina_book_Shagrenevaja_Kozha;;
+			-> char_goden_book_Shagrenevaja_Kozha;;
+			-> char_emil__book_Shagrenevaja_Kozha;;
+			-> char_valanten_book_Shagrenevaja_Kozha;;
+	 	*);;
+
+char_elena_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_feodora_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Феодора ]
+		(* <- lang_ru;; *);;
+
+char_evfrasij_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Евфрасий ]
+		(* <- lang_ru;; *);;
+
+char_polina_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Полина ]
+		(* <- lang_ru;; *);;
+
+char_rafael__book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Рафаэль ]
+		(* <- lang_ru;; *);;
+
+char_galatea_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Галатея ]
+		(* <- lang_ru;; *);;
+
+char_kardo_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Кардо ]
+		(* <- lang_ru;; *);;
+
+char_ionafan_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Ионафан ]
+		(* <- lang_ru;; *);;
+
+char_antuan_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Антуан ]
+		(* <- lang_ru;; *);;
+
+char_jaf_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Жаф ]
+		(* <- lang_ru;; *);;
+
+char_rafael_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Рафаэл ]
+		(* <- lang_ru;; *);;
+
+char_tajfer_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Тайфер ]
+		(* <- lang_ru;; *);;
+
+char_porrik_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Поррик ]
+		(* <- lang_ru;; *);;
+
+char_kanten_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Кантен ]
+		(* <- lang_ru;; *);;
+
+char_akilina_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Акилина ]
+		(* <- lang_ru;; *);;
+
+char_goden_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Годэн ]
+		(* <- lang_ru;; *);;
+
+char_emil__book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Эмиль ]
+		(* <- lang_ru;; *);;
+
+char_valanten_book_Shagrenevaja_Kozha
+<- char;
+=> nrel_main_idtf:
+	[ Валантен ]
+		(* <- lang_ru;; *);;
+
+book_Shagrenevaja_Kozha
+=> nrel_locales:
+	.book_Shagrenevaja_Kozha_locales
+		(*
+			-> locale_india_book_Shagrenevaja_Kozha;;
+			-> locale_karman_book_Shagrenevaja_Kozha;;
+			-> locale_ves__parij_book_Shagrenevaja_Kozha;;
+			-> locale_kotoryj_book_Shagrenevaja_Kozha;;
+			-> locale_gorod_anjer_book_Shagrenevaja_Kozha;;
+			-> locale_luara_book_Shagrenevaja_Kozha;;
+			-> locale_sarkasticeski_book_Shagrenevaja_Kozha;;
+			-> locale_parij_book_Shagrenevaja_Kozha;;
+			-> locale_to_book_Shagrenevaja_Kozha;;
+			-> locale_strannaa_nahodka_book_Shagrenevaja_Kozha;;
+			-> locale_sena_book_Shagrenevaja_Kozha;;
+			-> locale_gomera_book_Shagrenevaja_Kozha;;
+			-> locale_materinsk_book_Shagrenevaja_Kozha;;
+	 	*);;
+
+locale_india_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_ves__parij_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Париж ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_anjer_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Город Анжер ]
+		(* <- lang_ru;; *);;
+
+locale_luara_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Луара ]
+		(* <- lang_ru;; *);;
+
+locale_sarkasticeski_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Саркастически ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_strannaa_nahodka_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Странная Находка ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+
+locale_gomera_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Гомера ]
+		(* <- lang_ru;; *);;
+
+locale_materinsk_book_Shagrenevaja_Kozha
+<- locale;
+=> nrel_main_idtf:
+	[ Материнск ]
+		(* <- lang_ru;; *);;
+

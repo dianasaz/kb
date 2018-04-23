@@ -1,0 +1,78 @@
+book_Legkoe_Dyhanie
+<- book;
+=> nrel_author;
+	author_Bunin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лёгкое Дыхание]
+		(* <- lang_ru;; *);;
+
+book_Legkoe_Dyhanie
+=> nrel_characters:
+	.book_Legkoe_Dyhanie_characters
+		(*
+			-> char_margarita_book_Legkoe_Dyhanie;;
+			-> char_ola_meserskaa_book_Legkoe_Dyhanie;;
+			-> char_malutin_book_Legkoe_Dyhanie;;
+			-> char_ola_book_Legkoe_Dyhanie;;
+			-> char_aleksej_mihajlovic_malutin_book_Legkoe_Dyhanie;;
+			-> char_faust_book_Legkoe_Dyhanie;;
+	 	*);;
+
+char_margarita_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Маргарита ]
+		(* <- lang_ru;; *);;
+
+char_ola_meserskaa_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Оля Мещерская ]
+		(* <- lang_ru;; *);;
+
+char_malutin_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Малютин ]
+		(* <- lang_ru;; *);;
+
+char_ola_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Оля ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_mihajlovic_malutin_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Михайлович Малютин ]
+		(* <- lang_ru;; *);;
+
+char_faust_book_Legkoe_Dyhanie
+<- char;
+=> nrel_main_idtf:
+	[ Фауст ]
+		(* <- lang_ru;; *);;
+
+book_Legkoe_Dyhanie
+=> nrel_locales:
+	.book_Legkoe_Dyhanie_locales
+		(*
+			-> locale_kuda_book_Legkoe_Dyhanie;;
+			-> locale_to_book_Legkoe_Dyhanie;;
+	 	*);;
+
+locale_kuda_book_Legkoe_Dyhanie
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Legkoe_Dyhanie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

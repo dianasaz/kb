@@ -1,0 +1,127 @@
+book_Rozhdenie_Kumary
+<- book;
+=> nrel_author;
+	author_Kalidasa;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Рождение Кумары]
+		(* <- lang_ru;; *);;
+
+book_Rozhdenie_Kumary
+=> nrel_characters:
+	.book_Rozhdenie_Kumary_characters
+		(*
+			-> char_karttikej_book_Rozhdenie_Kumary;;
+			-> char_laksmi_book_Rozhdenie_Kumary;;
+			-> char_skanda_book_Rozhdenie_Kumary;;
+			-> char_himalaj_book_Rozhdenie_Kumary;;
+			-> char_kumar_book_Rozhdenie_Kumary;;
+			-> char_siv_book_Rozhdenie_Kumary;;
+	 	*);;
+
+char_karttikej_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Карттикей ]
+		(* <- lang_ru;; *);;
+
+char_laksmi_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Лакшми ]
+		(* <- lang_ru;; *);;
+
+char_skanda_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Сканда ]
+		(* <- lang_ru;; *);;
+
+char_himalaj_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Хималай ]
+		(* <- lang_ru;; *);;
+
+char_kumar_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Кумар ]
+		(* <- lang_ru;; *);;
+
+char_siv_book_Rozhdenie_Kumary
+<- char;
+=> nrel_main_idtf:
+	[ Шив ]
+		(* <- lang_ru;; *);;
+
+book_Rozhdenie_Kumary
+=> nrel_locales:
+	.book_Rozhdenie_Kumary_locales
+		(*
+			-> locale_gandhamadan_book_Rozhdenie_Kumary;;
+			-> locale_kama_book_Rozhdenie_Kumary;;
+			-> locale_sarasvativsij_book_Rozhdenie_Kumary;;
+			-> locale_risa_book_Rozhdenie_Kumary;;
+			-> locale_parvativsij_book_Rozhdenie_Kumary;;
+			-> locale_skanda_book_Rozhdenie_Kumary;;
+			-> locale_himalaj_parvati_book_Rozhdenie_Kumary;;
+			-> locale_gandharva_book_Rozhdenie_Kumary;;
+			-> locale_visn_book_Rozhdenie_Kumary;;
+	 	*);;
+
+locale_gandhamadan_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Гандхамадан ]
+		(* <- lang_ru;; *);;
+
+locale_kama_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Кама ]
+		(* <- lang_ru;; *);;
+
+locale_sarasvativsij_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Сарасвативший ]
+		(* <- lang_ru;; *);;
+
+locale_risa_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Риша ]
+		(* <- lang_ru;; *);;
+
+locale_parvativsij_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Парвативший ]
+		(* <- lang_ru;; *);;
+
+locale_skanda_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Сканда ]
+		(* <- lang_ru;; *);;
+
+locale_himalaj_parvati_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Хималай Парвати ]
+		(* <- lang_ru;; *);;
+
+locale_gandharva_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Гандхарва ]
+		(* <- lang_ru;; *);;
+
+locale_visn_book_Rozhdenie_Kumary
+<- locale;
+=> nrel_main_idtf:
+	[ Вишн ]
+		(* <- lang_ru;; *);;
+

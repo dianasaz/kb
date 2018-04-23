@@ -1,0 +1,462 @@
+book_Ody
+<- book;
+=> nrel_author;
+	author_Lomonosov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Оды]
+		(* <- lang_ru;; *);;
+
+book_Ody
+=> nrel_characters:
+	.book_Ody_characters
+		(*
+			-> char_pavel_petrovic_book_Ody;;
+			-> char_petrova_book_Ody;;
+			-> char_ioann_book_Ody;;
+			-> char_fedorovic_petr_book_Ody;;
+			-> char_elisaveta_petrovna_book_Ody;;
+			-> char_petr_book_Ody;;
+			-> char_anne_ioannovna_book_Ody;;
+			-> char_elizaveta_petrovna_book_Ody;;
+			-> char_elizaveta_book_Ody;;
+			-> char_petrov_book_Ody;;
+			-> char_sekvan_book_Ody;;
+			-> char_elisaveta_book_Ody;;
+			-> char_ekaterina_alekseevna_book_Ody;;
+			-> char_annin_book_Ody;;
+			-> char_feodorovic_petr_book_Ody;;
+			-> char_gerakl_book_Ody;;
+			-> char_petrov_book_Ody;;
+			-> char_petra_velik_book_Ody;;
+			-> char_M_V_lomonosov_book_Ody;;
+			-> char_ivan_antonovic_book_Ody;;
+			-> char_iov_book_Ody;;
+			-> char_semiramidin_book_Ody;;
+			-> char_ekaterina_book_Ody;;
+			-> char_ioann_groznyj_book_Ody;;
+			-> char_petra_book_Ody;;
+			-> char_kolumb_book_Ody;;
+			-> char_anna_ioannovna_book_Ody;;
+			-> char_rosskago_book_Ody;;
+			-> char_rosskim_book_Ody;;
+			-> char_anna_petrovna_book_Ody;;
+			-> char_biron_book_Ody;;
+			-> char_petr_velikij_book_Ody;;
+			-> char_aleksej_book_Ody;;
+			-> char_lomonosov_book_Ody;;
+			-> char_rossijskij_book_Ody;;
+	 	*);;
+
+char_pavel_petrovic_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Павел Петрович ]
+		(* <- lang_ru;; *);;
+
+char_petrova_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Петрова ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_fedorovic_petr_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Фёдорович Пётр ]
+		(* <- lang_ru;; *);;
+
+char_elisaveta_petrovna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Елисавета Петровна ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_anne_ioannovna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Анне Иоанновна ]
+		(* <- lang_ru;; *);;
+
+char_elizaveta_petrovna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Елизавета Петровна ]
+		(* <- lang_ru;; *);;
+
+char_elizaveta_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Елизавета ]
+		(* <- lang_ru;; *);;
+
+char_petrov_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Петров ]
+		(* <- lang_ru;; *);;
+
+char_sekvan_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Секван ]
+		(* <- lang_ru;; *);;
+
+char_elisaveta_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Елисавета ]
+		(* <- lang_ru;; *);;
+
+char_ekaterina_alekseevna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Екатерина Алексеевна ]
+		(* <- lang_ru;; *);;
+
+char_annin_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Аннин ]
+		(* <- lang_ru;; *);;
+
+char_feodorovic_petr_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Феодорович Пётр ]
+		(* <- lang_ru;; *);;
+
+char_gerakl_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_petrov_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Петров ]
+		(* <- lang_ru;; *);;
+
+char_petra_velik_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Петра Велик ]
+		(* <- lang_ru;; *);;
+
+char_M_V_lomonosov_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ М В Ломоносов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_antonovic_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Иван Антонович ]
+		(* <- lang_ru;; *);;
+
+char_iov_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Иов ]
+		(* <- lang_ru;; *);;
+
+char_semiramidin_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Семирамидин ]
+		(* <- lang_ru;; *);;
+
+char_ekaterina_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Екатерина ]
+		(* <- lang_ru;; *);;
+
+char_ioann_groznyj_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн Грозный ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_kolumb_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Колумб ]
+		(* <- lang_ru;; *);;
+
+char_anna_ioannovna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Анна Иоанновна ]
+		(* <- lang_ru;; *);;
+
+char_rosskago_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Росскаго ]
+		(* <- lang_ru;; *);;
+
+char_rosskim_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Росским ]
+		(* <- lang_ru;; *);;
+
+char_anna_petrovna_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Анна Петровна ]
+		(* <- lang_ru;; *);;
+
+char_biron_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Бирон ]
+		(* <- lang_ru;; *);;
+
+char_petr_velikij_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Великий ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Алексей ]
+		(* <- lang_ru;; *);;
+
+char_lomonosov_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Ломоносов ]
+		(* <- lang_ru;; *);;
+
+char_rossijskij_book_Ody
+<- char;
+=> nrel_main_idtf:
+	[ Российский ]
+		(* <- lang_ru;; *);;
+
+book_Ody
+=> nrel_locales:
+	.book_Ody_locales
+		(*
+			-> locale_india_book_Ody;;
+			-> locale_hotin_book_Ody;;
+			-> locale_kair_book_Ody;;
+			-> locale_groznyj_book_Ody;;
+			-> locale_damask_book_Ody;;
+			-> locale_rossia_book_Ody;;
+			-> locale_velikoe_book_Ody;;
+			-> locale_krit_book_Ody;;
+			-> locale_moskva_book_Ody;;
+			-> locale_alepp_book_Ody;;
+			-> locale_velik_book_Ody;;
+			-> locale_visla_book_Ody;;
+			-> locale_vostok_book_Ody;;
+			-> locale_zlobnaa_turzia_book_Ody;;
+			-> locale_kitaj_book_Ody;;
+			-> locale_kavkaz_book_Ody;;
+			-> locale_neva_book_Ody;;
+			-> locale_sekvan_book_Ody;;
+			-> locale_rosskago_book_Ody;;
+			-> locale_efrat_book_Ody;;
+	 	*);;
+
+locale_india_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_hotin_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Хотин ]
+		(* <- lang_ru;; *);;
+
+locale_kair_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Каир ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_damask_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Дамаск ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_alepp_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Алепп ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_visla_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Висла ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_zlobnaa_turzia_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Злобная Турция ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_kavkaz_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Кавказ ]
+		(* <- lang_ru;; *);;
+
+locale_neva_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Нева ]
+		(* <- lang_ru;; *);;
+
+locale_sekvan_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Секван ]
+		(* <- lang_ru;; *);;
+
+locale_rosskago_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Росскаго ]
+		(* <- lang_ru;; *);;
+
+locale_efrat_book_Ody
+<- locale;
+=> nrel_main_idtf:
+	[ Ефрат ]
+		(* <- lang_ru;; *);;
+
+book_Ody
+=> nrel_dates:
+	.book_Ody_dates
+		(*
+			-> date_1752_book_Ody;;
+			-> date_1747_book_Ody;;
+			-> date_1750_book_Ody;;
+			-> date_1746_book_Ody;;
+			-> date_1742_book_Ody;;
+			-> date_1761_book_Ody;;
+			-> date_1748_book_Ody;;
+	 	*);;
+
+date_1752_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1752 ]
+		(* <- lang_ru;; *);;
+
+date_1747_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1747 ]
+		(* <- lang_ru;; *);;
+
+date_1750_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1750 ]
+		(* <- lang_ru;; *);;
+
+date_1746_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1746 ]
+		(* <- lang_ru;; *);;
+
+date_1742_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1742 ]
+		(* <- lang_ru;; *);;
+
+date_1761_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1761 ]
+		(* <- lang_ru;; *);;
+
+date_1748_book_Ody
+<- date;
+=> nrel_main_idtf:
+	[ 1748 ]
+		(* <- lang_ru;; *);;
+

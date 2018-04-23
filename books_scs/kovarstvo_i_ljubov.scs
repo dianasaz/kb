@@ -1,0 +1,106 @@
+book_Kovarstvo_I_Ljubov
+<- book;
+=> nrel_author;
+	author_Shiller;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Коварство И Любовь]
+		(* <- lang_ru;; *);;
+
+book_Kovarstvo_I_Ljubov
+=> nrel_characters:
+	.book_Kovarstvo_I_Ljubov_characters
+		(*
+			-> char_luiza_miller_book_Kovarstvo_I_Ljubov;;
+			-> char_luiza_book_Kovarstvo_I_Ljubov;;
+			-> char_val_ter_book_Kovarstvo_I_Ljubov;;
+			-> char_emilij_book_Kovarstvo_I_Ljubov;;
+			-> char_luiz_book_Kovarstvo_I_Ljubov;;
+			-> char_ferdinand_book_Kovarstvo_I_Ljubov;;
+			-> char_miller_book_Kovarstvo_I_Ljubov;;
+	 	*);;
+
+char_luiza_miller_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Луиза Миллер ]
+		(* <- lang_ru;; *);;
+
+char_luiza_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Луиза ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_emilij_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Эмилий ]
+		(* <- lang_ru;; *);;
+
+char_luiz_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Луиз ]
+		(* <- lang_ru;; *);;
+
+char_ferdinand_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Фердинанд ]
+		(* <- lang_ru;; *);;
+
+char_miller_book_Kovarstvo_I_Ljubov
+<- char;
+=> nrel_main_idtf:
+	[ Миллер ]
+		(* <- lang_ru;; *);;
+
+book_Kovarstvo_I_Ljubov
+=> nrel_locales:
+	.book_Kovarstvo_I_Ljubov_locales
+		(*
+			-> locale_ostrog_book_Kovarstvo_I_Ljubov;;
+			-> locale_ostgejm_book_Kovarstvo_I_Ljubov;;
+			-> locale_mil_ford_book_Kovarstvo_I_Ljubov;;
+			-> locale_anglia_book_Kovarstvo_I_Ljubov;;
+			-> locale_germania_book_Kovarstvo_I_Ljubov;;
+	 	*);;
+
+locale_ostrog_book_Kovarstvo_I_Ljubov
+<- locale;
+=> nrel_main_idtf:
+	[ Острог ]
+		(* <- lang_ru;; *);;
+
+locale_ostgejm_book_Kovarstvo_I_Ljubov
+<- locale;
+=> nrel_main_idtf:
+	[ Остгейм ]
+		(* <- lang_ru;; *);;
+
+locale_mil_ford_book_Kovarstvo_I_Ljubov
+<- locale;
+=> nrel_main_idtf:
+	[ Мильфорд ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Kovarstvo_I_Ljubov
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Kovarstvo_I_Ljubov
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+

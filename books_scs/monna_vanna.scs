@@ -1,0 +1,155 @@
+book_Monna_Vanna
+<- book;
+=> nrel_author;
+	author_Meterlink;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Монна Ванна]
+		(* <- lang_ru;; *);;
+
+book_Monna_Vanna
+=> nrel_characters:
+	.book_Monna_Vanna_characters
+		(*
+			-> char_platon_book_Monna_Vanna;;
+			-> char_torello_book_Monna_Vanna;;
+			-> char_djovanna_book_Monna_Vanna;;
+			-> char_monna_vanna_book_Monna_Vanna;;
+			-> char_gvido_book_Monna_Vanna;;
+			-> char_djanello_book_Monna_Vanna;;
+			-> char_markoe_book_Monna_Vanna;;
+			-> char_trivul_zio_book_Monna_Vanna;;
+	 	*);;
+
+char_platon_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_torello_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Торелло ]
+		(* <- lang_ru;; *);;
+
+char_djovanna_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Джованна ]
+		(* <- lang_ru;; *);;
+
+char_monna_vanna_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Монна Ванна ]
+		(* <- lang_ru;; *);;
+
+char_gvido_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Гвидо ]
+		(* <- lang_ru;; *);;
+
+char_djanello_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Джанелло ]
+		(* <- lang_ru;; *);;
+
+char_markoe_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Маркое ]
+		(* <- lang_ru;; *);;
+
+char_trivul_zio_book_Monna_Vanna
+<- char;
+=> nrel_main_idtf:
+	[ Тривульцио ]
+		(* <- lang_ru;; *);;
+
+book_Monna_Vanna
+=> nrel_locales:
+	.book_Monna_Vanna_locales
+		(*
+			-> locale_piza_book_Monna_Vanna;;
+			-> locale_rodnaa_florenzia_book_Monna_Vanna;;
+			-> locale_borso_book_Monna_Vanna;;
+			-> locale_florentijskaa_respublika_book_Monna_Vanna;;
+			-> locale_ucenyj_ficina_book_Monna_Vanna;;
+			-> locale_gorod_piza_book_Monna_Vanna;;
+			-> locale_florenzia_book_Monna_Vanna;;
+			-> locale_afrika_book_Monna_Vanna;;
+			-> locale_nea_book_Monna_Vanna;;
+			-> locale_trivul_zio_book_Monna_Vanna;;
+			-> locale_venezia_book_Monna_Vanna;;
+	 	*);;
+
+locale_piza_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Пиза ]
+		(* <- lang_ru;; *);;
+
+locale_rodnaa_florenzia_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Родная Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_borso_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Борсо ]
+		(* <- lang_ru;; *);;
+
+locale_florentijskaa_respublika_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Флорентийская Республика ]
+		(* <- lang_ru;; *);;
+
+locale_ucenyj_ficina_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Учёный Фичина ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_piza_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Город Пиза ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_trivul_zio_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Тривульцио ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Monna_Vanna
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+

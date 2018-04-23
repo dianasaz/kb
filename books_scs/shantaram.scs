@@ -1,0 +1,253 @@
+book_Shantaram
+<- book;
+=> nrel_author;
+	author_Roberts;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шантарам]
+		(* <- lang_ru;; *);;
+
+book_Shantaram
+=> nrel_characters:
+	.book_Shantaram_characters
+		(*
+			-> char_abdulla_book_Shantaram;;
+			-> char_liza_book_Shantaram;;
+			-> char_rahman_book_Shantaram;;
+			-> char_abdur_book_Shantaram;;
+			-> char_kader_abdel__book_Shantaram;;
+			-> char_santaram_book_Shantaram;;
+			-> char_kaderbhaj_book_Shantaram;;
+			-> char_karter_book_Shantaram;;
+			-> char_gana_book_Shantaram;;
+			-> char_karl_book_Shantaram;;
+			-> char_nazir_book_Shantaram;;
+			-> char_habib_book_Shantaram;;
+			-> char_han_book_Shantaram;;
+			-> char_karla_book_Shantaram;;
+			-> char_abdula_book_Shantaram;;
+			-> char_ulla_book_Shantaram;;
+			-> char_ford_book_Shantaram;;
+			-> char_indira_gandi_book_Shantaram;;
+	 	*);;
+
+char_abdulla_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Абдулла ]
+		(* <- lang_ru;; *);;
+
+char_liza_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Лиза ]
+		(* <- lang_ru;; *);;
+
+char_rahman_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Рахман ]
+		(* <- lang_ru;; *);;
+
+char_abdur_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Абдур ]
+		(* <- lang_ru;; *);;
+
+char_kader_abdel__book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Кадер Абдель ]
+		(* <- lang_ru;; *);;
+
+char_santaram_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Шантарам ]
+		(* <- lang_ru;; *);;
+
+char_kaderbhaj_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Кадербхай ]
+		(* <- lang_ru;; *);;
+
+char_karter_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Картер ]
+		(* <- lang_ru;; *);;
+
+char_gana_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Ганя ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_nazir_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Назир ]
+		(* <- lang_ru;; *);;
+
+char_habib_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Хабиб ]
+		(* <- lang_ru;; *);;
+
+char_han_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Хан ]
+		(* <- lang_ru;; *);;
+
+char_karla_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Карла ]
+		(* <- lang_ru;; *);;
+
+char_abdula_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Абдула ]
+		(* <- lang_ru;; *);;
+
+char_ulla_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Улла ]
+		(* <- lang_ru;; *);;
+
+char_ford_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Форд ]
+		(* <- lang_ru;; *);;
+
+char_indira_gandi_book_Shantaram
+<- char;
+=> nrel_main_idtf:
+	[ Индира Ганди ]
+		(* <- lang_ru;; *);;
+
+book_Shantaram
+=> nrel_locales:
+	.book_Shantaram_locales
+		(*
+			-> locale_india_book_Shantaram;;
+			-> locale_afganistan_book_Shantaram;;
+			-> locale_singapur_book_Shantaram;;
+			-> locale_mirnyj_book_Shantaram;;
+			-> locale_kuda_book_Shantaram;;
+			-> locale_bombej_book_Shantaram;;
+			-> locale_modjahet_book_Shantaram;;
+			-> locale_ssa_book_Shantaram;;
+			-> locale_nastoasij_bombej_book_Shantaram;;
+			-> locale_on_santaram_book_Shantaram;;
+			-> locale_to_book_Shantaram;;
+			-> locale_ves__bombej_book_Shantaram;;
+			-> locale_deli_book_Shantaram;;
+			-> locale_bazel__book_Shantaram;;
+			-> locale_kandagar_book_Shantaram;;
+	 	*);;
+
+locale_india_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_afganistan_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Афганистан ]
+		(* <- lang_ru;; *);;
+
+locale_singapur_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Сингапур ]
+		(* <- lang_ru;; *);;
+
+locale_mirnyj_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_bombej_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Бомбей ]
+		(* <- lang_ru;; *);;
+
+locale_modjahet_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Моджахет ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_nastoasij_bombej_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Настоящий Бомбей ]
+		(* <- lang_ru;; *);;
+
+locale_on_santaram_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Он Шантарам ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ves__bombej_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Бомбей ]
+		(* <- lang_ru;; *);;
+
+locale_deli_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Дели ]
+		(* <- lang_ru;; *);;
+
+locale_bazel__book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Базель ]
+		(* <- lang_ru;; *);;
+
+locale_kandagar_book_Shantaram
+<- locale;
+=> nrel_main_idtf:
+	[ Кандагар ]
+		(* <- lang_ru;; *);;
+

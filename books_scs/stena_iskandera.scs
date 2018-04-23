@@ -1,0 +1,155 @@
+book_Stena_Iskandera
+<- book;
+=> nrel_author;
+	author_Navoi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Стена Искандера]
+		(* <- lang_ru;; *);;
+
+book_Stena_Iskandera
+=> nrel_characters:
+	.book_Stena_Iskandera_characters
+		(*
+			-> char_adjudj_book_Stena_Iskandera;;
+			-> char_iran_book_Stena_Iskandera;;
+			-> char_adan_book_Stena_Iskandera;;
+			-> char_aristotel__book_Stena_Iskandera;;
+			-> char_iskander_book_Stena_Iskandera;;
+			-> char_darij_book_Stena_Iskandera;;
+	 	*);;
+
+char_adjudj_book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Яджудж ]
+		(* <- lang_ru;; *);;
+
+char_iran_book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Иран ]
+		(* <- lang_ru;; *);;
+
+char_adan_book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Адан ]
+		(* <- lang_ru;; *);;
+
+char_aristotel__book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Аристотель ]
+		(* <- lang_ru;; *);;
+
+char_iskander_book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Искандер ]
+		(* <- lang_ru;; *);;
+
+char_darij_book_Stena_Iskandera
+<- char;
+=> nrel_main_idtf:
+	[ Дарий ]
+		(* <- lang_ru;; *);;
+
+book_Stena_Iskandera
+=> nrel_locales:
+	.book_Stena_Iskandera_locales
+		(*
+			-> locale_iran_book_Stena_Iskandera;;
+			-> locale_zapad_book_Stena_Iskandera;;
+			-> locale_rus__book_Stena_Iskandera;;
+			-> locale_fajlakusa_book_Stena_Iskandera;;
+			-> locale_aleksandria_book_Stena_Iskandera;;
+			-> locale_car_book_Stena_Iskandera;;
+			-> locale_adjudjej_book_Stena_Iskandera;;
+			-> locale_kitaj_book_Stena_Iskandera;;
+			-> locale_adjudji_book_Stena_Iskandera;;
+			-> locale_kasmir_book_Stena_Iskandera;;
+			-> locale_mnogij_oblast__book_Stena_Iskandera;;
+			-> locale_siria_book_Stena_Iskandera;;
+			-> locale_grezia_book_Stena_Iskandera;;
+	 	*);;
+
+locale_iran_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Иран ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_fajlakusa_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Файлакуса ]
+		(* <- lang_ru;; *);;
+
+locale_aleksandria_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Александрия ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_adjudjej_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Яджуджей ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_adjudji_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Яджуджи ]
+		(* <- lang_ru;; *);;
+
+locale_kasmir_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Кашмир ]
+		(* <- lang_ru;; *);;
+
+locale_mnogij_oblast__book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Многий Область ]
+		(* <- lang_ru;; *);;
+
+locale_siria_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Сирия ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Stena_Iskandera
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

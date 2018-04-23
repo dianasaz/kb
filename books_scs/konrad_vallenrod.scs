@@ -1,0 +1,154 @@
+book_Konrad_Vallenrod
+<- book;
+=> nrel_author;
+	author_Mickevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Конрад Валленрод]
+		(* <- lang_ru;; *);;
+
+book_Konrad_Vallenrod
+=> nrel_characters:
+	.book_Konrad_Vallenrod_characters
+		(*
+			-> char_val_ter_book_Konrad_Vallenrod;;
+			-> char_vinrih_book_Konrad_Vallenrod;;
+			-> char_vitol_d_book_Konrad_Vallenrod;;
+			-> char_konrad_book_Konrad_Vallenrod;;
+			-> char_al_f_book_Konrad_Vallenrod;;
+			-> char_mizkevic_book_Konrad_Vallenrod;;
+			-> char_al_don_book_Konrad_Vallenrod;;
+			-> char_al_dona_book_Konrad_Vallenrod;;
+	 	*);;
+
+char_val_ter_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_vinrih_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Винрих ]
+		(* <- lang_ru;; *);;
+
+char_vitol_d_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Витольд ]
+		(* <- lang_ru;; *);;
+
+char_konrad_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Конрад ]
+		(* <- lang_ru;; *);;
+
+char_al_f_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Альф ]
+		(* <- lang_ru;; *);;
+
+char_mizkevic_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Мицкевич ]
+		(* <- lang_ru;; *);;
+
+char_al_don_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Альдон ]
+		(* <- lang_ru;; *);;
+
+char_al_dona_book_Konrad_Vallenrod
+<- char;
+=> nrel_main_idtf:
+	[ Альдона ]
+		(* <- lang_ru;; *);;
+
+book_Konrad_Vallenrod
+=> nrel_locales:
+	.book_Konrad_Vallenrod_locales
+		(*
+			-> locale_prussia_book_Konrad_Vallenrod;;
+			-> locale_velikoe_book_Konrad_Vallenrod;;
+			-> locale_marienburg_book_Konrad_Vallenrod;;
+			-> locale_litva_book_Konrad_Vallenrod;;
+			-> locale_ispania_book_Konrad_Vallenrod;;
+			-> locale_palestina_book_Konrad_Vallenrod;;
+			-> locale_vsa_evropa_book_Konrad_Vallenrod;;
+			-> locale_vsa_litva_book_Konrad_Vallenrod;;
+			-> locale_nea_book_Konrad_Vallenrod;;
+	 	*);;
+
+locale_prussia_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_marienburg_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Мариенбург ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_evropa_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Европа ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_litva_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Литва ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Konrad_Vallenrod
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+book_Konrad_Vallenrod
+=> nrel_dates:
+	.book_Konrad_Vallenrod_dates
+		(*
+			-> date_1391_book_Konrad_Vallenrod;;
+	 	*);;
+
+date_1391_book_Konrad_Vallenrod
+<- date;
+=> nrel_main_idtf:
+	[ 1391 ]
+		(* <- lang_ru;; *);;
+

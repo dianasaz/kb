@@ -1,0 +1,385 @@
+book_Hozhdenie_Za_Tri_Morja
+<- book;
+=> nrel_author;
+	author_Nikitin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Хождение За Три Моря]
+		(* <- lang_ru;; *);;
+
+book_Hozhdenie_Za_Tri_Morja
+=> nrel_characters:
+	.book_Hozhdenie_Za_Tri_Morja_characters
+		(*
+			-> char_muhammed_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_muhamed_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_vasilij_panin_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_filippov_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_ivan_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_balaklava_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_mihail_borisovic_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_afanasij_nikitin_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_boguna_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_amal__book_Hozhdenie_Za_Tri_Morja;;
+			-> char_rojdestvo_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_nikitin_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_hasan_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_afanasij_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_uspenskij_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_hristov_book_Hozhdenie_Za_Tri_Morja;;
+			-> char_kupzov_book_Hozhdenie_Za_Tri_Morja;;
+	 	*);;
+
+char_muhammed_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Мухаммед ]
+		(* <- lang_ru;; *);;
+
+char_muhamed_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Мухамед ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_panin_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Василий Панин ]
+		(* <- lang_ru;; *);;
+
+char_filippov_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Филиппов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_balaklava_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Балаклава ]
+		(* <- lang_ru;; *);;
+
+char_mihail_borisovic_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Михаил Борисович ]
+		(* <- lang_ru;; *);;
+
+char_afanasij_nikitin_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Афанасий Никитин ]
+		(* <- lang_ru;; *);;
+
+char_boguna_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Богуна ]
+		(* <- lang_ru;; *);;
+
+char_amal__book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Амаль ]
+		(* <- lang_ru;; *);;
+
+char_rojdestvo_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Рождество ]
+		(* <- lang_ru;; *);;
+
+char_nikitin_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Никитин ]
+		(* <- lang_ru;; *);;
+
+char_hasan_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Хасан ]
+		(* <- lang_ru;; *);;
+
+char_afanasij_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Афанасий ]
+		(* <- lang_ru;; *);;
+
+char_uspenskij_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Успенский ]
+		(* <- lang_ru;; *);;
+
+char_hristov_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Христов ]
+		(* <- lang_ru;; *);;
+
+char_kupzov_book_Hozhdenie_Za_Tri_Morja
+<- char;
+=> nrel_main_idtf:
+	[ Купцов ]
+		(* <- lang_ru;; *);;
+
+book_Hozhdenie_Za_Tri_Morja
+=> nrel_locales:
+	.book_Hozhdenie_Za_Tri_Morja_locales
+		(*
+			-> locale_kaspij_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_derbent_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kotoryj_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_baku_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_volga_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_trabzon_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_sari_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_teperesnij_azerbajdjan_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_egipet_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_bidar_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kombej_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_stambul_skaa_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_efiopia_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_djunnara_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_krym_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_india_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kazan__book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_velikoe_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_dal_nij_vostok_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_rodnaa_tver__book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_ih_ierusalim_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_uglic_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_odna_kosa_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_rus__book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_berenzan__book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kuda_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_sirvan_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kostroma_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_hasan_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_semaha_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_mekka_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_gurzuf_book_Hozhdenie_Za_Tri_Morja;;
+			-> locale_kasan_book_Hozhdenie_Za_Tri_Morja;;
+	 	*);;
+
+locale_kaspij_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Каспий ]
+		(* <- lang_ru;; *);;
+
+locale_derbent_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Дербент ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_baku_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Баку ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_trabzon_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Трабзон ]
+		(* <- lang_ru;; *);;
+
+locale_sari_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Сари ]
+		(* <- lang_ru;; *);;
+
+locale_teperesnij_azerbajdjan_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Теперешний Азербайджан ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_bidar_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Бидар ]
+		(* <- lang_ru;; *);;
+
+locale_kombej_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Комбей ]
+		(* <- lang_ru;; *);;
+
+locale_stambul_skaa_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Стамбульская ]
+		(* <- lang_ru;; *);;
+
+locale_efiopia_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Эфиопия ]
+		(* <- lang_ru;; *);;
+
+locale_djunnara_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Джуннара ]
+		(* <- lang_ru;; *);;
+
+locale_krym_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_india_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_kazan__book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Казань ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_dal_nij_vostok_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Дальний Восток ]
+		(* <- lang_ru;; *);;
+
+locale_rodnaa_tver__book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Родная Тверь ]
+		(* <- lang_ru;; *);;
+
+locale_ih_ierusalim_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Их Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_uglic_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Углич ]
+		(* <- lang_ru;; *);;
+
+locale_odna_kosa_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Одна Коса ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_berenzan__book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Берензань ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_sirvan_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Ширван ]
+		(* <- lang_ru;; *);;
+
+locale_kostroma_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Кострома ]
+		(* <- lang_ru;; *);;
+
+locale_hasan_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Хасан ]
+		(* <- lang_ru;; *);;
+
+locale_semaha_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Шемаха ]
+		(* <- lang_ru;; *);;
+
+locale_mekka_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Мекка ]
+		(* <- lang_ru;; *);;
+
+locale_gurzuf_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Гурзуф ]
+		(* <- lang_ru;; *);;
+
+locale_kasan_book_Hozhdenie_Za_Tri_Morja
+<- locale;
+=> nrel_main_idtf:
+	[ Кашан ]
+		(* <- lang_ru;; *);;
+
+book_Hozhdenie_Za_Tri_Morja
+=> nrel_dates:
+	.book_Hozhdenie_Za_Tri_Morja_dates
+		(*
+			-> date_1458_book_Hozhdenie_Za_Tri_Morja;;
+	 	*);;
+
+date_1458_book_Hozhdenie_Za_Tri_Morja
+<- date;
+=> nrel_main_idtf:
+	[ 1458 ]
+		(* <- lang_ru;; *);;
+

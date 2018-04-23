@@ -1,0 +1,98 @@
+book_Stantcionnyy_Smotritel
+<- book;
+=> nrel_author;
+	author_Pushkin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Станционный Смотритель]
+		(* <- lang_ru;; *);;
+
+book_Stantcionnyy_Smotritel
+=> nrel_characters:
+	.book_Stantcionnyy_Smotritel_characters
+		(*
+			-> char_samson_vyrin_book_Stantcionnyy_Smotritel;;
+			-> char_samson_book_Stantcionnyy_Smotritel;;
+			-> char_duna_book_Stantcionnyy_Smotritel;;
+			-> char_dun_book_Stantcionnyy_Smotritel;;
+			-> char_samsonova_book_Stantcionnyy_Smotritel;;
+			-> char_minskij_book_Stantcionnyy_Smotritel;;
+	 	*);;
+
+char_samson_vyrin_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Самсон Вырин ]
+		(* <- lang_ru;; *);;
+
+char_samson_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Самсон ]
+		(* <- lang_ru;; *);;
+
+char_duna_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Дуня ]
+		(* <- lang_ru;; *);;
+
+char_dun_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Дун ]
+		(* <- lang_ru;; *);;
+
+char_samsonova_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Самсонова ]
+		(* <- lang_ru;; *);;
+
+char_minskij_book_Stantcionnyy_Smotritel
+<- char;
+=> nrel_main_idtf:
+	[ Минский ]
+		(* <- lang_ru;; *);;
+
+book_Stantcionnyy_Smotritel
+=> nrel_locales:
+	.book_Stantcionnyy_Smotritel_locales
+		(*
+			-> locale_peterburg_book_Stantcionnyy_Smotritel;;
+			-> locale_kuda_book_Stantcionnyy_Smotritel;;
+			-> locale_dzatogo_book_Stantcionnyy_Smotritel;;
+	 	*);;
+
+locale_peterburg_book_Stantcionnyy_Smotritel
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Stantcionnyy_Smotritel
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dzatogo_book_Stantcionnyy_Smotritel
+<- locale;
+=> nrel_main_idtf:
+	[ Дцатого ]
+		(* <- lang_ru;; *);;
+
+book_Stantcionnyy_Smotritel
+=> nrel_dates:
+	.book_Stantcionnyy_Smotritel_dates
+		(*
+			-> date_1816_book_Stantcionnyy_Smotritel;;
+	 	*);;
+
+date_1816_book_Stantcionnyy_Smotritel
+<- date;
+=> nrel_main_idtf:
+	[ 1816 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,85 @@
+book_Rodinka
+<- book;
+=> nrel_author;
+	author_Sholohov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Родинка]
+		(* <- lang_ru;; *);;
+
+book_Rodinka
+=> nrel_characters:
+	.book_Rodinka_characters
+		(*
+			-> char_nikolka_book_Rodinka;;
+			-> char_koseva_book_Rodinka;;
+			-> char_nikolaj_kosevoj_book_Rodinka;;
+			-> char_don_book_Rodinka;;
+			-> char_vrangela_book_Rodinka;;
+	 	*);;
+
+char_nikolka_book_Rodinka
+<- char;
+=> nrel_main_idtf:
+	[ Николка ]
+		(* <- lang_ru;; *);;
+
+char_koseva_book_Rodinka
+<- char;
+=> nrel_main_idtf:
+	[ Кошева ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_kosevoj_book_Rodinka
+<- char;
+=> nrel_main_idtf:
+	[ Николай Кошевой ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Rodinka
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_vrangela_book_Rodinka
+<- char;
+=> nrel_main_idtf:
+	[ Врангеля ]
+		(* <- lang_ru;; *);;
+
+book_Rodinka
+=> nrel_locales:
+	.book_Rodinka_locales
+		(*
+			-> locale_krasnyj_book_Rodinka;;
+			-> locale_krasnyh_book_Rodinka;;
+			-> locale_rodnoj_kraj_book_Rodinka;;
+			-> locale_samyj_don_book_Rodinka;;
+	 	*);;
+
+locale_krasnyj_book_Rodinka
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Rodinka
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_kraj_book_Rodinka
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Край ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_don_book_Rodinka
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Дон ]
+		(* <- lang_ru;; *);;
+

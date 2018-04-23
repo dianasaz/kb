@@ -1,0 +1,57 @@
+book_Persiki
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Персики]
+		(* <- lang_ru;; *);;
+
+book_Persiki
+=> nrel_characters:
+	.book_Persiki_characters
+		(*
+			-> char_malys_book_Persiki;;
+			-> char_dik_denver_book_Persiki;;
+			-> char_dik_book_Persiki;;
+	 	*);;
+
+char_malys_book_Persiki
+<- char;
+=> nrel_main_idtf:
+	[ Малыш ]
+		(* <- lang_ru;; *);;
+
+char_dik_denver_book_Persiki
+<- char;
+=> nrel_main_idtf:
+	[ Дик Денвер ]
+		(* <- lang_ru;; *);;
+
+char_dik_book_Persiki
+<- char;
+=> nrel_main_idtf:
+	[ Дик ]
+		(* <- lang_ru;; *);;
+
+book_Persiki
+=> nrel_locales:
+	.book_Persiki_locales
+		(*
+			-> locale_jork_book_Persiki;;
+			-> locale_denver_book_Persiki;;
+	 	*);;
+
+locale_jork_book_Persiki
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_denver_book_Persiki
+<- locale;
+=> nrel_main_idtf:
+	[ Денвер ]
+		(* <- lang_ru;; *);;
+

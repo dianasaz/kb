@@ -1,0 +1,120 @@
+book_Martin_Iden
+<- book;
+=> nrel_author;
+	author_London;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мартин Иден]
+		(* <- lang_ru;; *);;
+
+book_Martin_Iden
+=> nrel_characters:
+	.book_Martin_Iden_characters
+		(*
+			-> char_iden_book_Martin_Iden;;
+			-> char_artur_book_Martin_Iden;;
+			-> char_brissenden_book_Martin_Iden;;
+			-> char_ruf__book_Martin_Iden;;
+			-> char_konolli_book_Martin_Iden;;
+			-> char_maria_book_Martin_Iden;;
+			-> char_martin_iden_book_Martin_Iden;;
+			-> char_gerbert_spenser_book_Martin_Iden;;
+			-> char_sil_va_book_Martin_Iden;;
+			-> char_morzaa_book_Martin_Iden;;
+			-> char_lizz__book_Martin_Iden;;
+			-> char_martin_book_Martin_Iden;;
+	 	*);;
+
+char_iden_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Иден ]
+		(* <- lang_ru;; *);;
+
+char_artur_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Артур ]
+		(* <- lang_ru;; *);;
+
+char_brissenden_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Бриссенден ]
+		(* <- lang_ru;; *);;
+
+char_ruf__book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Руфь ]
+		(* <- lang_ru;; *);;
+
+char_konolli_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Конолли ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_martin_iden_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Мартин Иден ]
+		(* <- lang_ru;; *);;
+
+char_gerbert_spenser_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Герберт Спенсер ]
+		(* <- lang_ru;; *);;
+
+char_sil_va_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Сильва ]
+		(* <- lang_ru;; *);;
+
+char_morzaa_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Морзая ]
+		(* <- lang_ru;; *);;
+
+char_lizz__book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Лиззь ]
+		(* <- lang_ru;; *);;
+
+char_martin_book_Martin_Iden
+<- char;
+=> nrel_main_idtf:
+	[ Мартин ]
+		(* <- lang_ru;; *);;
+
+book_Martin_Iden
+=> nrel_locales:
+	.book_Martin_Iden_locales
+		(*
+			-> locale_oklend_book_Martin_Iden;;
+			-> locale_spenser_book_Martin_Iden;;
+	 	*);;
+
+locale_oklend_book_Martin_Iden
+<- locale;
+=> nrel_main_idtf:
+	[ Окленд ]
+		(* <- lang_ru;; *);;
+
+locale_spenser_book_Martin_Iden
+<- locale;
+=> nrel_main_idtf:
+	[ Спенсер ]
+		(* <- lang_ru;; *);;
+

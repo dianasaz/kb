@@ -1,0 +1,85 @@
+book_Oblaka
+<- book;
+=> nrel_author;
+	author_Aristofan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Облака]
+		(* <- lang_ru;; *);;
+
+book_Oblaka
+=> nrel_characters:
+	.book_Oblaka_characters
+		(*
+			-> char_evripida_book_Oblaka;;
+			-> char_afina_book_Oblaka;;
+			-> char_sokrat_book_Oblaka;;
+			-> char_strepsiada_book_Oblaka;;
+	 	*);;
+
+char_evripida_book_Oblaka
+<- char;
+=> nrel_main_idtf:
+	[ Еврипида ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Oblaka
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Oblaka
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_strepsiada_book_Oblaka
+<- char;
+=> nrel_main_idtf:
+	[ Стрепсиада ]
+		(* <- lang_ru;; *);;
+
+book_Oblaka
+=> nrel_locales:
+	.book_Oblaka_locales
+		(*
+			-> locale_afiny_book_Oblaka;;
+			-> locale_kuda_book_Oblaka;;
+			-> locale_eshilovoe_book_Oblaka;;
+			-> locale_zevsom_book_Oblaka;;
+			-> locale_afina_book_Oblaka;;
+	 	*);;
+
+locale_afiny_book_Oblaka
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Oblaka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_eshilovoe_book_Oblaka
+<- locale;
+=> nrel_main_idtf:
+	[ Эсхиловое ]
+		(* <- lang_ru;; *);;
+
+locale_zevsom_book_Oblaka
+<- locale;
+=> nrel_main_idtf:
+	[ Зевсом ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Oblaka
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+

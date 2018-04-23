@@ -1,0 +1,106 @@
+book_Matteo_Falkone
+<- book;
+=> nrel_author;
+	author_Merime;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Маттео Фальконе]
+		(* <- lang_ru;; *);;
+
+book_Matteo_Falkone
+=> nrel_characters:
+	.book_Matteo_Falkone_characters
+		(*
+			-> char_gamb_book_Matteo_Falkone;;
+			-> char_teodor_book_Matteo_Falkone;;
+			-> char_fal_kon_book_Matteo_Falkone;;
+			-> char_teodor_b_anki_book_Matteo_Falkone;;
+			-> char_gambe_book_Matteo_Falkone;;
+			-> char_djuzeppe_book_Matteo_Falkone;;
+	 	*);;
+
+char_gamb_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Гамб ]
+		(* <- lang_ru;; *);;
+
+char_teodor_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Теодор ]
+		(* <- lang_ru;; *);;
+
+char_fal_kon_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Фалькон ]
+		(* <- lang_ru;; *);;
+
+char_teodor_b_anki_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Теодор Бьянки ]
+		(* <- lang_ru;; *);;
+
+char_gambe_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Гамбе ]
+		(* <- lang_ru;; *);;
+
+char_djuzeppe_book_Matteo_Falkone
+<- char;
+=> nrel_main_idtf:
+	[ Джузеппе ]
+		(* <- lang_ru;; *);;
+
+book_Matteo_Falkone
+=> nrel_locales:
+	.book_Matteo_Falkone_locales
+		(*
+			-> locale_matteo_book_Matteo_Falkone;;
+			-> locale_karman_book_Matteo_Falkone;;
+			-> locale_djuzepp_book_Matteo_Falkone;;
+			-> locale_korsika_book_Matteo_Falkone;;
+			-> locale_sena_book_Matteo_Falkone;;
+			-> locale_etot_kraj_book_Matteo_Falkone;;
+	 	*);;
+
+locale_matteo_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Маттео ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_djuzepp_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Джузепп ]
+		(* <- lang_ru;; *);;
+
+locale_korsika_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Корсика ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+
+locale_etot_kraj_book_Matteo_Falkone
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Край ]
+		(* <- lang_ru;; *);;
+

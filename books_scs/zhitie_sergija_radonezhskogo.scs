@@ -1,0 +1,406 @@
+book_Zhitie_Sergija_Radonezhskogo
+<- book;
+=> nrel_author;
+	author_Premudryy;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Житие Сергия Радонежского]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Sergija_Radonezhskogo
+=> nrel_characters:
+	.book_Zhitie_Sergija_Radonezhskogo_characters
+		(*
+			-> char_ivan_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_dmitrij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_sergij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_ioann_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_maria_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_danil_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_dmitria_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_vladimir_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_uspenskij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_petr_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_aleksij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_savva_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_koceva_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_varfolomej_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_fedor_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_aleksandr_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_kirill_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_andrej_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_kiprian_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_simon_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_dmitrij_serpuhovskij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_andronik_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_stefan_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_mitrofan_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_mamaj_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_petra_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_grigorij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_vasilij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_nikon_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_afanasij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_troizkij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> char_mihail_book_Zhitie_Sergija_Radonezhskogo;;
+	 	*);;
+
+char_ivan_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий ]
+		(* <- lang_ru;; *);;
+
+char_sergij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Сергий ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_danil_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Данил ]
+		(* <- lang_ru;; *);;
+
+char_dmitria_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрия ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_uspenskij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Успенский ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_aleksij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Алексий ]
+		(* <- lang_ru;; *);;
+
+char_savva_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Савва ]
+		(* <- lang_ru;; *);;
+
+char_koceva_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Кочева ]
+		(* <- lang_ru;; *);;
+
+char_varfolomej_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Варфоломей ]
+		(* <- lang_ru;; *);;
+
+char_fedor_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_kirill_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Кирилл ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_kiprian_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Киприан ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_serpuhovskij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий Серпуховский ]
+		(* <- lang_ru;; *);;
+
+char_andronik_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Андроник ]
+		(* <- lang_ru;; *);;
+
+char_stefan_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Стефан ]
+		(* <- lang_ru;; *);;
+
+char_mitrofan_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Митрофан ]
+		(* <- lang_ru;; *);;
+
+char_mamaj_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Мамай ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Василий ]
+		(* <- lang_ru;; *);;
+
+char_nikon_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Никон ]
+		(* <- lang_ru;; *);;
+
+char_afanasij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Афанасий ]
+		(* <- lang_ru;; *);;
+
+char_troizkij_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Троицкий ]
+		(* <- lang_ru;; *);;
+
+char_mihail_book_Zhitie_Sergija_Radonezhskogo
+<- char;
+=> nrel_main_idtf:
+	[ Михаил ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Sergija_Radonezhskogo
+=> nrel_locales:
+	.book_Zhitie_Sergija_Radonezhskogo_locales
+		(*
+			-> locale_arhimanda_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_volga_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_golutvino_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_stivym__book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_auza_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_hot_kovo_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_pereaslavl__book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_vladimir_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_stvovavsij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_moskva_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_tverskaa_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_pokrovskij_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_zar_grad_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_nea_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_rus__book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_rostov_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_velik_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_to_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_kirjac_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_konstan_book_Zhitie_Sergija_Radonezhskogo;;
+			-> locale_radonej_book_Zhitie_Sergija_Radonezhskogo;;
+	 	*);;
+
+locale_arhimanda_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Архиманда ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_golutvino_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Голутвино ]
+		(* <- lang_ru;; *);;
+
+locale_stivym__book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Стивымь ]
+		(* <- lang_ru;; *);;
+
+locale_auza_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Яуза ]
+		(* <- lang_ru;; *);;
+
+locale_hot_kovo_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Хотьково ]
+		(* <- lang_ru;; *);;
+
+locale_pereaslavl__book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Переяславль ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_stvovavsij_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Ствовавший ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_tverskaa_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Тверская ]
+		(* <- lang_ru;; *);;
+
+locale_pokrovskij_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Покровский ]
+		(* <- lang_ru;; *);;
+
+locale_zar_grad_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Царьград ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_rostov_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kirjac_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Киржач ]
+		(* <- lang_ru;; *);;
+
+locale_konstan_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Констан ]
+		(* <- lang_ru;; *);;
+
+locale_radonej_book_Zhitie_Sergija_Radonezhskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Радонеж ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Sergija_Radonezhskogo
+=> nrel_dates:
+	.book_Zhitie_Sergija_Radonezhskogo_dates
+		(*
+			-> date_9_25_book_Zhitie_Sergija_Radonezhskogo;;
+	 	*);;
+
+date_9_25_book_Zhitie_Sergija_Radonezhskogo
+<- date;
+=> nrel_main_idtf:
+	[ 9 25 ]
+		(* <- lang_ru;; *);;
+

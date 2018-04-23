@@ -1,0 +1,274 @@
+book_Vishevyi_Sad
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вишнёвый Сад]
+		(* <- lang_ru;; *);;
+
+book_Vishevyi_Sad
+=> nrel_characters:
+	.book_Vishevyi_Sad_characters
+		(*
+			-> char_asa_book_Vishevyi_Sad;;
+			-> char_leonid_andreevic_gaev_book_Vishevyi_Sad;;
+			-> char_deriganovaa_book_Vishevyi_Sad;;
+			-> char_ermolaj_lopahin_book_Vishevyi_Sad;;
+			-> char_gaev_book_Vishevyi_Sad;;
+			-> char_simeon_book_Vishevyi_Sad;;
+			-> char_grisa_book_Vishevyi_Sad;;
+			-> char_sarlotta_book_Vishevyi_Sad;;
+			-> char_lopahin_book_Vishevyi_Sad;;
+			-> char_gaev_book_Vishevyi_Sad;;
+			-> char_trofimov_book_Vishevyi_Sad;;
+			-> char_lubov__andreevna_book_Vishevyi_Sad;;
+			-> char_vara_book_Vishevyi_Sad;;
+			-> char_ana_book_Vishevyi_Sad;;
+			-> char_leonid_andreevic_book_Vishevyi_Sad;;
+			-> char_ragulin_book_Vishevyi_Sad;;
+			-> char_lubov__andreevna_ranevskaa_book_Vishevyi_Sad;;
+			-> char_trofim_book_Vishevyi_Sad;;
+			-> char_peta_book_Vishevyi_Sad;;
+			-> char_ranevskaa_book_Vishevyi_Sad;;
+			-> char_peta_trofimov_book_Vishevyi_Sad;;
+			-> char_ermolaj_alekseevic_lopahin_book_Vishevyi_Sad;;
+			-> char_firs_book_Vishevyi_Sad;;
+			-> char_epihodov_book_Vishevyi_Sad;;
+			-> char_sarlotta_ivanovna_book_Vishevyi_Sad;;
+			-> char_dunasa_book_Vishevyi_Sad;;
+			-> char_ermolaj_alekseevic_book_Vishevyi_Sad;;
+	 	*);;
+
+char_asa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Яша ]
+		(* <- lang_ru;; *);;
+
+char_leonid_andreevic_gaev_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Леонид Андреевич Гаев ]
+		(* <- lang_ru;; *);;
+
+char_deriganovaa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Деригановая ]
+		(* <- lang_ru;; *);;
+
+char_ermolaj_lopahin_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Ермолай Лопахин ]
+		(* <- lang_ru;; *);;
+
+char_gaev_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Гаев ]
+		(* <- lang_ru;; *);;
+
+char_simeon_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Симеон ]
+		(* <- lang_ru;; *);;
+
+char_grisa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Гриша ]
+		(* <- lang_ru;; *);;
+
+char_sarlotta_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Шарлотта ]
+		(* <- lang_ru;; *);;
+
+char_lopahin_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Лопахин ]
+		(* <- lang_ru;; *);;
+
+char_gaev_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Гаев ]
+		(* <- lang_ru;; *);;
+
+char_trofimov_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Трофимов ]
+		(* <- lang_ru;; *);;
+
+char_lubov__andreevna_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Любовь Андреевна ]
+		(* <- lang_ru;; *);;
+
+char_vara_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Варя ]
+		(* <- lang_ru;; *);;
+
+char_ana_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Аня ]
+		(* <- lang_ru;; *);;
+
+char_leonid_andreevic_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Леонид Андреевич ]
+		(* <- lang_ru;; *);;
+
+char_ragulin_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Рагулин ]
+		(* <- lang_ru;; *);;
+
+char_lubov__andreevna_ranevskaa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Любовь Андреевна Раневская ]
+		(* <- lang_ru;; *);;
+
+char_trofim_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Трофим ]
+		(* <- lang_ru;; *);;
+
+char_peta_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Петя ]
+		(* <- lang_ru;; *);;
+
+char_ranevskaa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Раневская ]
+		(* <- lang_ru;; *);;
+
+char_peta_trofimov_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Петя Трофимов ]
+		(* <- lang_ru;; *);;
+
+char_ermolaj_alekseevic_lopahin_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Ермолай Алексеевич Лопахин ]
+		(* <- lang_ru;; *);;
+
+char_firs_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Фирс ]
+		(* <- lang_ru;; *);;
+
+char_epihodov_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Епиходов ]
+		(* <- lang_ru;; *);;
+
+char_sarlotta_ivanovna_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Шарлотта Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_dunasa_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Дуняша ]
+		(* <- lang_ru;; *);;
+
+char_ermolaj_alekseevic_book_Vishevyi_Sad
+<- char;
+=> nrel_main_idtf:
+	[ Ермолай Алексеевич ]
+		(* <- lang_ru;; *);;
+
+book_Vishevyi_Sad
+=> nrel_locales:
+	.book_Vishevyi_Sad_locales
+		(*
+			-> locale_serditaa_ranevskaa_book_Vishevyi_Sad;;
+			-> locale_kotoryj_book_Vishevyi_Sad;;
+			-> locale_ranevskaa_book_Vishevyi_Sad;;
+			-> locale_moskva_book_Vishevyi_Sad;;
+			-> locale_parij_book_Vishevyi_Sad;;
+			-> locale_aroslavl__book_Vishevyi_Sad;;
+			-> locale_vsa_rossia_book_Vishevyi_Sad;;
+			-> locale_to_book_Vishevyi_Sad;;
+			-> locale_har_kov_book_Vishevyi_Sad;;
+	 	*);;
+
+locale_serditaa_ranevskaa_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Сердитая Раневская ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ranevskaa_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Раневская ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_aroslavl__book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Ярославль ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_rossia_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Россия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_har_kov_book_Vishevyi_Sad
+<- locale;
+=> nrel_main_idtf:
+	[ Харьков ]
+		(* <- lang_ru;; *);;
+

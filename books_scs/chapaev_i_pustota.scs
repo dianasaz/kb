@@ -1,0 +1,266 @@
+book_Chapaev_I_Pustota
+<- book;
+=> nrel_author;
+	author_Pelevin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чапаев И Пустота]
+		(* <- lang_ru;; *);;
+
+book_Chapaev_I_Pustota
+=> nrel_characters:
+	.book_Chapaev_I_Pustota_characters
+		(*
+			-> char_petr_book_Chapaev_I_Pustota;;
+			-> char_volodin_book_Chapaev_I_Pustota;;
+			-> char_kotovskij_book_Chapaev_I_Pustota;;
+			-> char_kavabata_book_Chapaev_I_Pustota;;
+			-> char_arnol_d_svarzenegger_book_Chapaev_I_Pustota;;
+			-> char_arnol_d_book_Chapaev_I_Pustota;;
+			-> char_capaev_book_Chapaev_I_Pustota;;
+			-> char_fon_book_Chapaev_I_Pustota;;
+			-> char_maria_book_Chapaev_I_Pustota;;
+			-> char_aristotel__book_Chapaev_I_Pustota;;
+			-> char_kavabat_book_Chapaev_I_Pustota;;
+			-> char_petra_book_Chapaev_I_Pustota;;
+			-> char_anna_book_Chapaev_I_Pustota;;
+			-> char_svarzenegger_book_Chapaev_I_Pustota;;
+	 	*);;
+
+char_petr_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_volodin_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Володин ]
+		(* <- lang_ru;; *);;
+
+char_kotovskij_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Котовский ]
+		(* <- lang_ru;; *);;
+
+char_kavabata_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Кавабата ]
+		(* <- lang_ru;; *);;
+
+char_arnol_d_svarzenegger_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Арнольд Шварценеггер ]
+		(* <- lang_ru;; *);;
+
+char_arnol_d_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Арнольд ]
+		(* <- lang_ru;; *);;
+
+char_capaev_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Чапаев ]
+		(* <- lang_ru;; *);;
+
+char_fon_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Фон ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_aristotel__book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Аристотель ]
+		(* <- lang_ru;; *);;
+
+char_kavabat_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Кавабат ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+char_svarzenegger_book_Chapaev_I_Pustota
+<- char;
+=> nrel_main_idtf:
+	[ Шварценеггер ]
+		(* <- lang_ru;; *);;
+
+book_Chapaev_I_Pustota
+=> nrel_locales:
+	.book_Chapaev_I_Pustota_locales
+		(*
+			-> locale_poeticeski_book_Chapaev_I_Pustota;;
+			-> locale_zapad_book_Chapaev_I_Pustota;;
+			-> locale_rossia_book_Chapaev_I_Pustota;;
+			-> locale_kotoryj_book_Chapaev_I_Pustota;;
+			-> locale_krasnaa_book_Chapaev_I_Pustota;;
+			-> locale_kavabat_book_Chapaev_I_Pustota;;
+			-> locale_kuda_book_Chapaev_I_Pustota;;
+			-> locale_samanskij_grib_book_Chapaev_I_Pustota;;
+			-> locale_moskva_book_Chapaev_I_Pustota;;
+			-> locale_prodemonstirovavsij_book_Chapaev_I_Pustota;;
+			-> locale_ural_book_Chapaev_I_Pustota;;
+			-> locale_poslerevoluzionnaa_moskva_book_Chapaev_I_Pustota;;
+			-> locale_to_book_Chapaev_I_Pustota;;
+			-> locale_sena_book_Chapaev_I_Pustota;;
+			-> locale_vnutrennaa_mongolia_book_Chapaev_I_Pustota;;
+			-> locale_psihogennyj_grib_book_Chapaev_I_Pustota;;
+			-> locale_vostok_book_Chapaev_I_Pustota;;
+			-> locale_para_book_Chapaev_I_Pustota;;
+			-> locale_peterburg_book_Chapaev_I_Pustota;;
+	 	*);;
+
+locale_poeticeski_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Поэтически ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_kavabat_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Кавабат ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_samanskij_grib_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Шаманский Гриб ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_prodemonstirovavsij_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Продемонстировавший ]
+		(* <- lang_ru;; *);;
+
+locale_ural_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Урал ]
+		(* <- lang_ru;; *);;
+
+locale_poslerevoluzionnaa_moskva_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Послереволюционная Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+
+locale_vnutrennaa_mongolia_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Внутренняя Монголия ]
+		(* <- lang_ru;; *);;
+
+locale_psihogennyj_grib_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Психогенный Гриб ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Chapaev_I_Pustota
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Chapaev_I_Pustota
+=> nrel_dates:
+	.book_Chapaev_I_Pustota_dates
+		(*
+			-> date_1918_book_Chapaev_I_Pustota;;
+	 	*);;
+
+date_1918_book_Chapaev_I_Pustota
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+

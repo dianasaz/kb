@@ -1,0 +1,260 @@
+book_Oresteja
+<- book;
+=> nrel_author;
+	author_Esxil;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Орестея]
+		(* <- lang_ru;; *);;
+
+book_Oresteja
+=> nrel_characters:
+	.book_Oresteja_characters
+		(*
+			-> char_kassandra_book_Oresteja;;
+			-> char_afina_book_Oresteja;;
+			-> char_pilada_book_Oresteja;;
+			-> char_elektra_book_Oresteja;;
+			-> char_eshilyj_book_Oresteja;;
+			-> char_elena_book_Oresteja;;
+			-> char_artemida_book_Oresteja;;
+			-> char_atrej_book_Oresteja;;
+			-> char_apollon_book_Oresteja;;
+			-> char_evmenida_book_Oresteja;;
+			-> char_skilla_book_Oresteja;;
+			-> char_paris_book_Oresteja;;
+			-> char_orest_book_Oresteja;;
+			-> char_agamemnon_book_Oresteja;;
+			-> char_seneka_book_Oresteja;;
+			-> char_troa_book_Oresteja;;
+			-> char_alfej_book_Oresteja;;
+			-> char_fokida_book_Oresteja;;
+			-> char_argos_book_Oresteja;;
+			-> char_ifigenia_book_Oresteja;;
+			-> char_aida_book_Oresteja;;
+			-> char_gea_book_Oresteja;;
+	 	*);;
+
+char_kassandra_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Кассандра ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_pilada_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Пилада ]
+		(* <- lang_ru;; *);;
+
+char_elektra_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Электра ]
+		(* <- lang_ru;; *);;
+
+char_eshilyj_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилый ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_artemida_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Артемида ]
+		(* <- lang_ru;; *);;
+
+char_atrej_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Атрей ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_evmenida_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Евменида ]
+		(* <- lang_ru;; *);;
+
+char_skilla_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Скилла ]
+		(* <- lang_ru;; *);;
+
+char_paris_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_orest_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Орест ]
+		(* <- lang_ru;; *);;
+
+char_agamemnon_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Агамемнон ]
+		(* <- lang_ru;; *);;
+
+char_seneka_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Сенека ]
+		(* <- lang_ru;; *);;
+
+char_troa_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Троя ]
+		(* <- lang_ru;; *);;
+
+char_alfej_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Алфей ]
+		(* <- lang_ru;; *);;
+
+char_fokida_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Фокида ]
+		(* <- lang_ru;; *);;
+
+char_argos_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Аргос ]
+		(* <- lang_ru;; *);;
+
+char_ifigenia_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Ифигения ]
+		(* <- lang_ru;; *);;
+
+char_aida_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Аида ]
+		(* <- lang_ru;; *);;
+
+char_gea_book_Oresteja
+<- char;
+=> nrel_main_idtf:
+	[ Гея ]
+		(* <- lang_ru;; *);;
+
+book_Oresteja
+=> nrel_locales:
+	.book_Oresteja_locales
+		(*
+			-> locale_del_fy_book_Oresteja;;
+			-> locale_afiny_book_Oresteja;;
+			-> locale_avlida_book_Oresteja;;
+			-> locale_velik_book_Oresteja;;
+			-> locale_vsa_grezia_book_Oresteja;;
+			-> locale_afina_book_Oresteja;;
+			-> locale_cujoj_kraj_book_Oresteja;;
+			-> locale_atrej_book_Oresteja;;
+			-> locale_argosa_book_Oresteja;;
+			-> locale_orel_book_Oresteja;;
+			-> locale_nea_book_Oresteja;;
+			-> locale_lemnos_book_Oresteja;;
+	 	*);;
+
+locale_del_fy_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Дельфы ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_avlida_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Авлида ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_cujoj_kraj_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Чужой Край ]
+		(* <- lang_ru;; *);;
+
+locale_atrej_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Атрей ]
+		(* <- lang_ru;; *);;
+
+locale_argosa_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Аргоса ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_lemnos_book_Oresteja
+<- locale;
+=> nrel_main_idtf:
+	[ Лемнос ]
+		(* <- lang_ru;; *);;
+

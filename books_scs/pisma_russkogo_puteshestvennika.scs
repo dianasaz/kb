@@ -1,0 +1,567 @@
+book_Pisma_Russkogo_Puteshestvennika
+<- book;
+=> nrel_author;
+	author_Karamzin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Письма Русского Путешественника]
+		(* <- lang_ru;; *);;
+
+book_Pisma_Russkogo_Puteshestvennika
+=> nrel_characters:
+	.book_Pisma_Russkogo_Puteshestvennika_characters
+		(*
+			-> char_robertson_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_ludovik_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_fernej_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_ioann_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_kant_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_vladimir_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_evripida_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_petr_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_mattea_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_sekspir_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_genrih_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_sal_vator_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_ricardson_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_bulonskoj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_lafater_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_nikolaj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_pavel_svatoj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_filipp_krasivyj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_lion_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_eloiza_novaa_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_grandison_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_rubens_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_podarennoe_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_tazit_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_safo_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_vol_ter_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_petr_velikij_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_lovelas_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_djulio_romano_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_fildinga_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_fridrih_book_Pisma_Russkogo_Puteshestvennika;;
+			-> char_roza_book_Pisma_Russkogo_Puteshestvennika;;
+	 	*);;
+
+char_robertson_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Робертсон ]
+		(* <- lang_ru;; *);;
+
+char_ludovik_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Людовик ]
+		(* <- lang_ru;; *);;
+
+char_fernej_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Ферней ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_kant_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Кант ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_evripida_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Эврипида ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_mattea_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Маттея ]
+		(* <- lang_ru;; *);;
+
+char_sekspir_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Шекспир ]
+		(* <- lang_ru;; *);;
+
+char_genrih_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Генрих ]
+		(* <- lang_ru;; *);;
+
+char_sal_vator_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Сальватор ]
+		(* <- lang_ru;; *);;
+
+char_ricardson_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Ричардсон ]
+		(* <- lang_ru;; *);;
+
+char_bulonskoj_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Булонской ]
+		(* <- lang_ru;; *);;
+
+char_lafater_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Лафатер ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_pavel_svatoj_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Павел Святой ]
+		(* <- lang_ru;; *);;
+
+char_filipp_krasivyj_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Филипп Красивый ]
+		(* <- lang_ru;; *);;
+
+char_lion_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+char_eloiza_novaa_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Элоиза Новая ]
+		(* <- lang_ru;; *);;
+
+char_grandison_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Грандисон ]
+		(* <- lang_ru;; *);;
+
+char_rubens_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Рубенс ]
+		(* <- lang_ru;; *);;
+
+char_podarennoe_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Подарённое ]
+		(* <- lang_ru;; *);;
+
+char_tazit_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Тацит ]
+		(* <- lang_ru;; *);;
+
+char_safo_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Сафо ]
+		(* <- lang_ru;; *);;
+
+char_vol_ter_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Вольтер ]
+		(* <- lang_ru;; *);;
+
+char_petr_velikij_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Великий ]
+		(* <- lang_ru;; *);;
+
+char_lovelas_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Ловелас ]
+		(* <- lang_ru;; *);;
+
+char_djulio_romano_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Джулио Романо ]
+		(* <- lang_ru;; *);;
+
+char_fildinga_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Филдинга ]
+		(* <- lang_ru;; *);;
+
+char_fridrih_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Фридрих ]
+		(* <- lang_ru;; *);;
+
+char_roza_book_Pisma_Russkogo_Puteshestvennika
+<- char;
+=> nrel_main_idtf:
+	[ Роза ]
+		(* <- lang_ru;; *);;
+
+book_Pisma_Russkogo_Puteshestvennika
+=> nrel_locales:
+	.book_Pisma_Russkogo_Puteshestvennika_locales
+		(*
+			-> locale_versal__book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_gorod_bazel__book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_kotoryj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_kale_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_majn_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_palanga_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_lion_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_svejzaria_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_sovremennaa_franzia_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_pussena_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_leveko_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_zurih_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_kenigsberg_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_franzia_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_lozanna_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_grinvic_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_bul_a_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_narva_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_kronstadt_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_evropa_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_lejpzig_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_anglia_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_peterburg_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_korredjo_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_vejmar_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_velikoe_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_vladimir_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_moskva_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_parij_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_london_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_berlin_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_drezden_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_rossia_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_italia_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_frankfurt_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_riga_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_velik_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_to_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_maj_book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_tver__book_Pisma_Russkogo_Puteshestvennika;;
+			-> locale_drugoj_kraj_book_Pisma_Russkogo_Puteshestvennika;;
+	 	*);;
+
+locale_versal__book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Версаль ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_bazel__book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Город Базель ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kale_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Кале ]
+		(* <- lang_ru;; *);;
+
+locale_majn_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Майн ]
+		(* <- lang_ru;; *);;
+
+locale_palanga_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Паланга ]
+		(* <- lang_ru;; *);;
+
+locale_lion_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+locale_sovremennaa_franzia_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Современная Франция ]
+		(* <- lang_ru;; *);;
+
+locale_pussena_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Пуссена ]
+		(* <- lang_ru;; *);;
+
+locale_leveko_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Левеко ]
+		(* <- lang_ru;; *);;
+
+locale_zurih_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Цюрих ]
+		(* <- lang_ru;; *);;
+
+locale_kenigsberg_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Кенигсберг ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_lozanna_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Лозанна ]
+		(* <- lang_ru;; *);;
+
+locale_grinvic_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Гринвич ]
+		(* <- lang_ru;; *);;
+
+locale_bul_a_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Булья ]
+		(* <- lang_ru;; *);;
+
+locale_narva_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Нарва ]
+		(* <- lang_ru;; *);;
+
+locale_kronstadt_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Кронштадт ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_lejpzig_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Лейпциг ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+locale_korredjo_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Корреджо ]
+		(* <- lang_ru;; *);;
+
+locale_vejmar_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Веймар ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+
+locale_drezden_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Дрезден ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_frankfurt_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Франкфурт ]
+		(* <- lang_ru;; *);;
+
+locale_riga_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Рига ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_tver__book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Тверь ]
+		(* <- lang_ru;; *);;
+
+locale_drugoj_kraj_book_Pisma_Russkogo_Puteshestvennika
+<- locale;
+=> nrel_main_idtf:
+	[ Другой Край ]
+		(* <- lang_ru;; *);;
+
+book_Pisma_Russkogo_Puteshestvennika
+=> nrel_dates:
+	.book_Pisma_Russkogo_Puteshestvennika_dates
+		(*
+			-> date_1793_book_Pisma_Russkogo_Puteshestvennika;;
+			-> date_1789_12_book_Pisma_Russkogo_Puteshestvennika;;
+			-> date_1789_5_book_Pisma_Russkogo_Puteshestvennika;;
+			-> date_1790_5_book_Pisma_Russkogo_Puteshestvennika;;
+	 	*);;
+
+date_1793_book_Pisma_Russkogo_Puteshestvennika
+<- date;
+=> nrel_main_idtf:
+	[ 1793 ]
+		(* <- lang_ru;; *);;
+
+date_1789_12_book_Pisma_Russkogo_Puteshestvennika
+<- date;
+=> nrel_main_idtf:
+	[ 1789 12 ]
+		(* <- lang_ru;; *);;
+
+date_1789_5_book_Pisma_Russkogo_Puteshestvennika
+<- date;
+=> nrel_main_idtf:
+	[ 1789 5 ]
+		(* <- lang_ru;; *);;
+
+date_1790_5_book_Pisma_Russkogo_Puteshestvennika
+<- date;
+=> nrel_main_idtf:
+	[ 1790 5 ]
+		(* <- lang_ru;; *);;
+

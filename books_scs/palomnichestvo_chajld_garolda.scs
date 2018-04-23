@@ -1,0 +1,329 @@
+book_Palomnichestvo_Chajld_Garolda
+<- book;
+=> nrel_author;
+	author_Bajron;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Паломничество Чайльд-Гарольда]
+		(* <- lang_ru;; *);;
+
+book_Palomnichestvo_Chajld_Garolda
+=> nrel_characters:
+	.book_Palomnichestvo_Chajld_Garolda_characters
+		(*
+			-> char_cajl_d_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_M_U_lermontov_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_jan_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_edmund_spenser_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_evgenij_onegin_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_salamin_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_bajron_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_djon_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_vol_ter_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_dante_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_garol_d_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_jak_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_russo_book_Palomnichestvo_Chajld_Garolda;;
+			-> char_petrarka_book_Palomnichestvo_Chajld_Garolda;;
+	 	*);;
+
+char_cajl_d_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Чайльд ]
+		(* <- lang_ru;; *);;
+
+char_M_U_lermontov_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ М Ю Лермонтов ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_edmund_spenser_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Эдмунд Спенсер ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_onegin_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Евгений Онегин ]
+		(* <- lang_ru;; *);;
+
+char_salamin_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Саламин ]
+		(* <- lang_ru;; *);;
+
+char_bajron_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Байрон ]
+		(* <- lang_ru;; *);;
+
+char_djon_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Джон ]
+		(* <- lang_ru;; *);;
+
+char_vol_ter_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Вольтер ]
+		(* <- lang_ru;; *);;
+
+char_dante_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Данте ]
+		(* <- lang_ru;; *);;
+
+char_garol_d_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Гарольд ]
+		(* <- lang_ru;; *);;
+
+char_jak_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Жак ]
+		(* <- lang_ru;; *);;
+
+char_russo_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Руссо ]
+		(* <- lang_ru;; *);;
+
+char_petrarka_book_Palomnichestvo_Chajld_Garolda
+<- char;
+=> nrel_main_idtf:
+	[ Петрарка ]
+		(* <- lang_ru;; *);;
+
+book_Palomnichestvo_Chajld_Garolda
+=> nrel_locales:
+	.book_Palomnichestvo_Chajld_Garolda_locales
+		(*
+			-> locale_razocaroe_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_puskin_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_sooteca_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_ispania_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_germania_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_svejzaria_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_rizovavsij_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_car_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_evropa_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_proniza_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_stambul_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_orel_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_grezia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_pejskij_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_spenser_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_tirana_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_bel_gia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_portugalia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_nepredubej_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_gorod_italia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_kolizej_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_kajdodnevnyj_krovopro_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_rossia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_italia_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_etot_cara_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_cara_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_albania_book_Palomnichestvo_Chajld_Garolda;;
+			-> locale_vostocnaa_evropa_book_Palomnichestvo_Chajld_Garolda;;
+	 	*);;
+
+locale_razocaroe_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Разочарое ]
+		(* <- lang_ru;; *);;
+
+locale_puskin_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Пушкин ]
+		(* <- lang_ru;; *);;
+
+locale_sooteca_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Соотеча ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+locale_rizovavsij_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Ризовавший ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_proniza_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Проница ]
+		(* <- lang_ru;; *);;
+
+locale_stambul_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Стамбул ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+
+locale_pejskij_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Пейский ]
+		(* <- lang_ru;; *);;
+
+locale_spenser_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Спенсер ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_bel_gia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Бельгия ]
+		(* <- lang_ru;; *);;
+
+locale_portugalia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Португалия ]
+		(* <- lang_ru;; *);;
+
+locale_nepredubej_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Непредубеж ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_italia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Город Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kolizej_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Колизей ]
+		(* <- lang_ru;; *);;
+
+locale_kajdodnevnyj_krovopro_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Каждодневный Кровопро ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_etot_cara_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Чара ]
+		(* <- lang_ru;; *);;
+
+locale_cara_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Чара ]
+		(* <- lang_ru;; *);;
+
+locale_albania_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Албания ]
+		(* <- lang_ru;; *);;
+
+locale_vostocnaa_evropa_book_Palomnichestvo_Chajld_Garolda
+<- locale;
+=> nrel_main_idtf:
+	[ Восточная Европа ]
+		(* <- lang_ru;; *);;
+
+book_Palomnichestvo_Chajld_Garolda
+=> nrel_dates:
+	.book_Palomnichestvo_Chajld_Garolda_dates
+		(*
+			-> date_1811_book_Palomnichestvo_Chajld_Garolda;;
+	 	*);;
+
+date_1811_book_Palomnichestvo_Chajld_Garolda
+<- date;
+=> nrel_main_idtf:
+	[ 1811 ]
+		(* <- lang_ru;; *);;
+

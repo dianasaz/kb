@@ -1,0 +1,58 @@
+book_Srezal
+<- book;
+=> nrel_author;
+	author_Shukshin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Срезал]
+		(* <- lang_ru;; *);;
+
+book_Srezal
+=> nrel_characters:
+	.book_Srezal_characters
+		(*
+			-> char_juravlev_book_Srezal;;
+			-> char_gleb_kapustin_book_Srezal;;
+			-> char_konstantin_ivanovic_book_Srezal;;
+			-> char_kapustin_book_Srezal;;
+			-> char_agaf_a_book_Srezal;;
+			-> char_gleb_book_Srezal;;
+	 	*);;
+
+char_juravlev_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Журавлев ]
+		(* <- lang_ru;; *);;
+
+char_gleb_kapustin_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Глеб Капустин ]
+		(* <- lang_ru;; *);;
+
+char_konstantin_ivanovic_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Константин Иванович ]
+		(* <- lang_ru;; *);;
+
+char_kapustin_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Капустин ]
+		(* <- lang_ru;; *);;
+
+char_agaf_a_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Агафья ]
+		(* <- lang_ru;; *);;
+
+char_gleb_book_Srezal
+<- char;
+=> nrel_main_idtf:
+	[ Глеб ]
+		(* <- lang_ru;; *);;
+

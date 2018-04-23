@@ -1,0 +1,232 @@
+book_Vyigryshi
+<- book;
+=> nrel_author;
+	author_Kortasar;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Выигрыши]
+		(* <- lang_ru;; *);;
+
+book_Vyigryshi
+=> nrel_characters:
+	.book_Vyigryshi_characters
+		(*
+			-> char_karlos_book_Vyigryshi;;
+			-> char_paula_book_Vyigryshi;;
+			-> char_klaudia_book_Vyigryshi;;
+			-> char_medranoe_book_Vyigryshi;;
+			-> char_nelli_book_Vyigryshi;;
+			-> char_trehoe_book_Vyigryshi;;
+			-> char_lusio_book_Vyigryshi;;
+			-> char_don_book_Vyigryshi;;
+			-> char_persio_book_Vyigryshi;;
+			-> char_raul__book_Vyigryshi;;
+			-> char_restelli_book_Vyigryshi;;
+			-> char_klaudia_book_Vyigryshi;;
+			-> char_lopes_book_Vyigryshi;;
+			-> char_atilio_book_Vyigryshi;;
+			-> char_felila_book_Vyigryshi;;
+			-> char_gabriel__book_Vyigryshi;;
+			-> char_felip_treho_book_Vyigryshi;;
+			-> char_paul__book_Vyigryshi;;
+	 	*);;
+
+char_karlos_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Карлос ]
+		(* <- lang_ru;; *);;
+
+char_paula_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Паула ]
+		(* <- lang_ru;; *);;
+
+char_klaudia_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Клаудия ]
+		(* <- lang_ru;; *);;
+
+char_medranoe_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Медраное ]
+		(* <- lang_ru;; *);;
+
+char_nelli_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Нелли ]
+		(* <- lang_ru;; *);;
+
+char_trehoe_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Трехое ]
+		(* <- lang_ru;; *);;
+
+char_lusio_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Лусио ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_persio_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Персио ]
+		(* <- lang_ru;; *);;
+
+char_raul__book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Рауль ]
+		(* <- lang_ru;; *);;
+
+char_restelli_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Рестелли ]
+		(* <- lang_ru;; *);;
+
+char_klaudia_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Клаудиа ]
+		(* <- lang_ru;; *);;
+
+char_lopes_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Лопёс ]
+		(* <- lang_ru;; *);;
+
+char_atilio_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Атилио ]
+		(* <- lang_ru;; *);;
+
+char_felila_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Фелила ]
+		(* <- lang_ru;; *);;
+
+char_gabriel__book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Габриэль ]
+		(* <- lang_ru;; *);;
+
+char_felip_treho_book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Фелип Трехо ]
+		(* <- lang_ru;; *);;
+
+char_paul__book_Vyigryshi
+<- char;
+=> nrel_main_idtf:
+	[ Пауль ]
+		(* <- lang_ru;; *);;
+
+book_Vyigryshi
+=> nrel_locales:
+	.book_Vyigryshi_locales
+		(*
+			-> locale_felipa_book_Vyigryshi;;
+			-> locale_portu_book_Vyigryshi;;
+			-> locale_dakar_book_Vyigryshi;;
+			-> locale_kotoryj_book_Vyigryshi;;
+			-> locale_mal_kol_m_book_Vyigryshi;;
+			-> locale_buenos_book_Vyigryshi;;
+			-> locale_don_book_Vyigryshi;;
+			-> locale_to_book_Vyigryshi;;
+			-> locale_janejro_book_Vyigryshi;;
+			-> locale_trehoe_book_Vyigryshi;;
+			-> locale_jokogama_book_Vyigryshi;;
+			-> locale_kejptaun_book_Vyigryshi;;
+	 	*);;
+
+locale_felipa_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Фелипа ]
+		(* <- lang_ru;; *);;
+
+locale_portu_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_dakar_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Дакар ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_mal_kol_m_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Малькольм ]
+		(* <- lang_ru;; *);;
+
+locale_buenos_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Буэнос ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_janejro_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Жанейро ]
+		(* <- lang_ru;; *);;
+
+locale_trehoe_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Трехое ]
+		(* <- lang_ru;; *);;
+
+locale_jokogama_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Йокогама ]
+		(* <- lang_ru;; *);;
+
+locale_kejptaun_book_Vyigryshi
+<- locale;
+=> nrel_main_idtf:
+	[ Кейптаун ]
+		(* <- lang_ru;; *);;
+

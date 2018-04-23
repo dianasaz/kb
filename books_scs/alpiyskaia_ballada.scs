@@ -1,0 +1,148 @@
+book_Alpiyskaia_Ballada
+<- book;
+=> nrel_author;
+	author_Bykov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Альпийская Баллада]
+		(* <- lang_ru;; *);;
+
+book_Alpiyskaia_Ballada
+=> nrel_characters:
+	.book_Alpiyskaia_Ballada_characters
+		(*
+			-> char_djulia_book_Alpiyskaia_Ballada;;
+			-> char_al_p_book_Alpiyskaia_Ballada;;
+			-> char_ivan_book_Alpiyskaia_Ballada;;
+			-> char_djovanni_book_Alpiyskaia_Ballada;;
+			-> char_tereska_book_Alpiyskaia_Ballada;;
+			-> char_al_p_lahtal_skij_book_Alpiyskaia_Ballada;;
+			-> char_novelli_book_Alpiyskaia_Ballada;;
+	 	*);;
+
+char_djulia_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Джулия ]
+		(* <- lang_ru;; *);;
+
+char_al_p_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Альп ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_djovanni_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Джованни ]
+		(* <- lang_ru;; *);;
+
+char_tereska_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Терешка ]
+		(* <- lang_ru;; *);;
+
+char_al_p_lahtal_skij_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Альп Лахтальский ]
+		(* <- lang_ru;; *);;
+
+char_novelli_book_Alpiyskaia_Ballada
+<- char;
+=> nrel_main_idtf:
+	[ Новелли ]
+		(* <- lang_ru;; *);;
+
+book_Alpiyskaia_Ballada
+=> nrel_locales:
+	.book_Alpiyskaia_Ballada_locales
+		(*
+			-> locale_al_p_book_Alpiyskaia_Ballada;;
+			-> locale_avstria_book_Alpiyskaia_Ballada;;
+			-> locale_ukraina_book_Alpiyskaia_Ballada;;
+			-> locale_sovetskij_book_Alpiyskaia_Ballada;;
+			-> locale_lahtal_skij_al_py_book_Alpiyskaia_Ballada;;
+			-> locale_to_book_Alpiyskaia_Ballada;;
+			-> locale_triest_book_Alpiyskaia_Ballada;;
+			-> locale_luga_book_Alpiyskaia_Ballada;;
+			-> locale_lahtal_skij_al_p_book_Alpiyskaia_Ballada;;
+			-> locale_germania_book_Alpiyskaia_Ballada;;
+			-> locale_har_kov_book_Alpiyskaia_Ballada;;
+	 	*);;
+
+locale_al_p_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Альп ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_ukraina_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Украина ]
+		(* <- lang_ru;; *);;
+
+locale_sovetskij_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Советский ]
+		(* <- lang_ru;; *);;
+
+locale_lahtal_skij_al_py_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Лахтальский Альпы ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_triest_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Триест ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_lahtal_skij_al_p_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Лахтальский Альп ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_har_kov_book_Alpiyskaia_Ballada
+<- locale;
+=> nrel_main_idtf:
+	[ Харьков ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,133 @@
+book_Pan
+<- book;
+=> nrel_author;
+	author_Gamsun;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пан]
+		(* <- lang_ru;; *);;
+
+book_Pan
+=> nrel_characters:
+	.book_Pan_characters
+		(*
+			-> char_ezop_book_Pan;;
+			-> char_nurlanna_book_Pan;;
+			-> char_edvard_book_Pan;;
+			-> char_glana_book_Pan;;
+			-> char_tomas_book_Pan;;
+			-> char_eva_book_Pan;;
+			-> char_edvarda_book_Pan;;
+	 	*);;
+
+char_ezop_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Эзоп ]
+		(* <- lang_ru;; *);;
+
+char_nurlanna_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Нурланна ]
+		(* <- lang_ru;; *);;
+
+char_edvard_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Эдвард ]
+		(* <- lang_ru;; *);;
+
+char_glana_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Глана ]
+		(* <- lang_ru;; *);;
+
+char_tomas_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Томас ]
+		(* <- lang_ru;; *);;
+
+char_eva_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Ева ]
+		(* <- lang_ru;; *);;
+
+char_edvarda_book_Pan
+<- char;
+=> nrel_main_idtf:
+	[ Эдварда ]
+		(* <- lang_ru;; *);;
+
+book_Pan
+=> nrel_locales:
+	.book_Pan_locales
+		(*
+			-> locale_india_book_Pan;;
+			-> locale_norvegia_book_Pan;;
+			-> locale_lesna_book_Pan;;
+			-> locale_to_book_Pan;;
+			-> locale_afrika_book_Pan;;
+			-> locale_hroma_book_Pan;;
+	 	*);;
+
+locale_india_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_hroma_book_Pan
+<- locale;
+=> nrel_main_idtf:
+	[ Хрома ]
+		(* <- lang_ru;; *);;
+
+book_Pan
+=> nrel_dates:
+	.book_Pan_dates
+		(*
+			-> date_1861_book_Pan;;
+			-> date_1855_book_Pan;;
+	 	*);;
+
+date_1861_book_Pan
+<- date;
+=> nrel_main_idtf:
+	[ 1861 ]
+		(* <- lang_ru;; *);;
+
+date_1855_book_Pan
+<- date;
+=> nrel_main_idtf:
+	[ 1855 ]
+		(* <- lang_ru;; *);;
+

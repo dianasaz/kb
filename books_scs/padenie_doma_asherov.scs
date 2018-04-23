@@ -1,0 +1,44 @@
+book_Padenie_Doma_Asherov
+<- book;
+=> nrel_author;
+	author_Po;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Падение Дома Ашеров]
+		(* <- lang_ru;; *);;
+
+book_Padenie_Doma_Asherov
+=> nrel_characters:
+	.book_Padenie_Doma_Asherov_characters
+		(*
+			-> char_roderik_book_Padenie_Doma_Asherov;;
+			-> char_medilejn_book_Padenie_Doma_Asherov;;
+			-> char_roderik_aser_book_Padenie_Doma_Asherov;;
+			-> char_aser_book_Padenie_Doma_Asherov;;
+	 	*);;
+
+char_roderik_book_Padenie_Doma_Asherov
+<- char;
+=> nrel_main_idtf:
+	[ Родерик ]
+		(* <- lang_ru;; *);;
+
+char_medilejn_book_Padenie_Doma_Asherov
+<- char;
+=> nrel_main_idtf:
+	[ Мэдилейн ]
+		(* <- lang_ru;; *);;
+
+char_roderik_aser_book_Padenie_Doma_Asherov
+<- char;
+=> nrel_main_idtf:
+	[ Родерик Ашер ]
+		(* <- lang_ru;; *);;
+
+char_aser_book_Padenie_Doma_Asherov
+<- char;
+=> nrel_main_idtf:
+	[ Ашер ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,162 @@
+book_Blagochestivaja_Marta
+<- book;
+=> nrel_author;
+	author_Molina;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Благочестивая Марта]
+		(* <- lang_ru;; *);;
+
+book_Blagochestivaja_Marta
+=> nrel_characters:
+	.book_Blagochestivaja_Marta_characters
+		(*
+			-> char_il_eskas_book_Blagochestivaja_Marta;;
+			-> char_mamor_book_Blagochestivaja_Marta;;
+			-> char_gomes_book_Blagochestivaja_Marta;;
+			-> char_huan_book_Blagochestivaja_Marta;;
+			-> char_porucik_book_Blagochestivaja_Marta;;
+			-> char_mart_book_Blagochestivaja_Marta;;
+			-> char_marta_book_Blagochestivaja_Marta;;
+			-> char_don_gomes_book_Blagochestivaja_Marta;;
+			-> char_felila_book_Blagochestivaja_Marta;;
+	 	*);;
+
+char_il_eskas_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Ильескас ]
+		(* <- lang_ru;; *);;
+
+char_mamor_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Мамор ]
+		(* <- lang_ru;; *);;
+
+char_gomes_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Гомес ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_porucik_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Поручик ]
+		(* <- lang_ru;; *);;
+
+char_mart_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Март ]
+		(* <- lang_ru;; *);;
+
+char_marta_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Марта ]
+		(* <- lang_ru;; *);;
+
+char_don_gomes_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Дон Гомес ]
+		(* <- lang_ru;; *);;
+
+char_felila_book_Blagochestivaja_Marta
+<- char;
+=> nrel_main_idtf:
+	[ Фелила ]
+		(* <- lang_ru;; *);;
+
+book_Blagochestivaja_Marta
+=> nrel_locales:
+	.book_Blagochestivaja_Marta_locales
+		(*
+			-> locale_india_book_Blagochestivaja_Marta;;
+			-> locale_felipa_book_Blagochestivaja_Marta;;
+			-> locale_nibenimedo_book_Blagochestivaja_Marta;;
+			-> locale_prad_book_Blagochestivaja_Marta;;
+			-> locale_il_eskas_book_Blagochestivaja_Marta;;
+			-> locale_urbina_book_Blagochestivaja_Marta;;
+			-> locale_don_book_Blagochestivaja_Marta;;
+			-> locale_madrid_book_Blagochestivaja_Marta;;
+			-> locale_sevil_a_book_Blagochestivaja_Marta;;
+			-> locale_byk_book_Blagochestivaja_Marta;;
+			-> locale_fedipa_book_Blagochestivaja_Marta;;
+	 	*);;
+
+locale_india_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_felipa_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Фелипа ]
+		(* <- lang_ru;; *);;
+
+locale_nibenimedo_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Нибенимедо ]
+		(* <- lang_ru;; *);;
+
+locale_prad_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Прад ]
+		(* <- lang_ru;; *);;
+
+locale_il_eskas_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Ильескас ]
+		(* <- lang_ru;; *);;
+
+locale_urbina_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Урбиня ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_fedipa_book_Blagochestivaja_Marta
+<- locale;
+=> nrel_main_idtf:
+	[ Федипа ]
+		(* <- lang_ru;; *);;
+

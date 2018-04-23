@@ -1,0 +1,308 @@
+book_Ognem_I_Mechom
+<- book;
+=> nrel_author;
+	author_Senkevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Огнём И Мечом]
+		(* <- lang_ru;; *);;
+
+book_Ognem_I_Mechom
+=> nrel_characters:
+	.book_Ognem_I_Mechom_characters
+		(*
+			-> char_elena_boguna_book_Ognem_I_Mechom;;
+			-> char_zinovij_hmel_nizkij_book_Ognem_I_Mechom;;
+			-> char_boguna_book_Ognem_I_Mechom;;
+			-> char_sksetuskij_book_Ognem_I_Mechom;;
+			-> char_anusa_book_Ognem_I_Mechom;;
+			-> char_razlogov_book_Ognem_I_Mechom;;
+			-> char_elena_book_Ognem_I_Mechom;;
+			-> char_bogdan_book_Ognem_I_Mechom;;
+			-> char_kurzevic_book_Ognem_I_Mechom;;
+			-> char_razlogij_book_Ognem_I_Mechom;;
+			-> char_volodyevskij_book_Ognem_I_Mechom;;
+			-> char_kazimir_book_Ognem_I_Mechom;;
+			-> char_ieremij_book_Ognem_I_Mechom;;
+			-> char_toporov_book_Ognem_I_Mechom;;
+			-> char_gorpyna_book_Ognem_I_Mechom;;
+			-> char_redzan_book_Ognem_I_Mechom;;
+			-> char_vasil__book_Ognem_I_Mechom;;
+			-> char_mihal_volodyevskij_book_Ognem_I_Mechom;;
+			-> char_gorpynina_book_Ognem_I_Mechom;;
+			-> char_visnevezkaa_book_Ognem_I_Mechom;;
+			-> char_visnevezkij_book_Ognem_I_Mechom;;
+			-> char_an_book_Ognem_I_Mechom;;
+	 	*);;
+
+char_elena_boguna_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Елена Богуна ]
+		(* <- lang_ru;; *);;
+
+char_zinovij_hmel_nizkij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Зиновий Хмельницкий ]
+		(* <- lang_ru;; *);;
+
+char_boguna_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Богуна ]
+		(* <- lang_ru;; *);;
+
+char_sksetuskij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Скшетуский ]
+		(* <- lang_ru;; *);;
+
+char_anusa_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Ануся ]
+		(* <- lang_ru;; *);;
+
+char_razlogov_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Разлогов ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_bogdan_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Богдан ]
+		(* <- lang_ru;; *);;
+
+char_kurzevic_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Курцевич ]
+		(* <- lang_ru;; *);;
+
+char_razlogij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Разлогий ]
+		(* <- lang_ru;; *);;
+
+char_volodyevskij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Володыёвский ]
+		(* <- lang_ru;; *);;
+
+char_kazimir_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Казимир ]
+		(* <- lang_ru;; *);;
+
+char_ieremij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Иеремий ]
+		(* <- lang_ru;; *);;
+
+char_toporov_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Топоров ]
+		(* <- lang_ru;; *);;
+
+char_gorpyna_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Горпына ]
+		(* <- lang_ru;; *);;
+
+char_redzan_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Редзян ]
+		(* <- lang_ru;; *);;
+
+char_vasil__book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Василь ]
+		(* <- lang_ru;; *);;
+
+char_mihal_volodyevskij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Михал Володыёвский ]
+		(* <- lang_ru;; *);;
+
+char_gorpynina_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Горпынина ]
+		(* <- lang_ru;; *);;
+
+char_visnevezkaa_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Вишневецкая ]
+		(* <- lang_ru;; *);;
+
+char_visnevezkij_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Вишневецкий ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Ognem_I_Mechom
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Ognem_I_Mechom
+=> nrel_locales:
+	.book_Ognem_I_Mechom_locales
+		(*
+			-> locale_an_book_Ognem_I_Mechom;;
+			-> locale_zbaraj_book_Ognem_I_Mechom;;
+			-> locale_ranenyj_an_book_Ognem_I_Mechom;;
+			-> locale_breda_book_Ognem_I_Mechom;;
+			-> locale_lubny_book_Ognem_I_Mechom;;
+			-> locale_velikoe_book_Ognem_I_Mechom;;
+			-> locale_borzobogataa_book_Ognem_I_Mechom;;
+			-> locale_rogatin_book_Ognem_I_Mechom;;
+			-> locale_redzan_book_Ognem_I_Mechom;;
+			-> locale_kiev_book_Ognem_I_Mechom;;
+			-> locale_velik_book_Ognem_I_Mechom;;
+			-> locale_gorod_cigirin_book_Ognem_I_Mechom;;
+			-> locale_hmel_nizkij_book_Ognem_I_Mechom;;
+			-> locale_zborov_book_Ognem_I_Mechom;;
+			-> locale_dnepr_book_Ognem_I_Mechom;;
+			-> locale_ukrainskij_book_Ognem_I_Mechom;;
+			-> locale_donez_book_Ognem_I_Mechom;;
+	 	*);;
+
+locale_an_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_zbaraj_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Збараж ]
+		(* <- lang_ru;; *);;
+
+locale_ranenyj_an_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Раненый Ян ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_lubny_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Лубны ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_borzobogataa_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Борзобогатая ]
+		(* <- lang_ru;; *);;
+
+locale_rogatin_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Рогатин ]
+		(* <- lang_ru;; *);;
+
+locale_redzan_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Редзян ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_cigirin_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Город Чигирин ]
+		(* <- lang_ru;; *);;
+
+locale_hmel_nizkij_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Хмельницкий ]
+		(* <- lang_ru;; *);;
+
+locale_zborov_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Зборов ]
+		(* <- lang_ru;; *);;
+
+locale_dnepr_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Днепр ]
+		(* <- lang_ru;; *);;
+
+locale_ukrainskij_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Украинский ]
+		(* <- lang_ru;; *);;
+
+locale_donez_book_Ognem_I_Mechom
+<- locale;
+=> nrel_main_idtf:
+	[ Донец ]
+		(* <- lang_ru;; *);;
+
+book_Ognem_I_Mechom
+=> nrel_dates:
+	.book_Ognem_I_Mechom_dates
+		(*
+			-> date_1647_book_Ognem_I_Mechom;;
+	 	*);;
+
+date_1647_book_Ognem_I_Mechom
+<- date;
+=> nrel_main_idtf:
+	[ 1647 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,134 @@
+book_Rosslav
+<- book;
+=> nrel_author;
+	author_Kniazhnin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Росслав]
+		(* <- lang_ru;; *);;
+
+book_Rosslav
+=> nrel_characters:
+	.book_Rosslav_characters
+		(*
+			-> char_adel__book_Rosslav;;
+			-> char_gustav_book_Rosslav;;
+			-> char_zafira_book_Rosslav;;
+			-> char_lubomir_book_Rosslav;;
+			-> char_rosslav_book_Rosslav;;
+			-> char_adelasij_book_Rosslav;;
+	 	*);;
+
+char_adel__book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Адель ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_zafira_book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Зафира ]
+		(* <- lang_ru;; *);;
+
+char_lubomir_book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Любомир ]
+		(* <- lang_ru;; *);;
+
+char_rosslav_book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Росслав ]
+		(* <- lang_ru;; *);;
+
+char_adelasij_book_Rosslav
+<- char;
+=> nrel_main_idtf:
+	[ Аделящий ]
+		(* <- lang_ru;; *);;
+
+book_Rosslav
+=> nrel_locales:
+	.book_Rosslav_locales
+		(*
+			-> locale_rossia_book_Rosslav;;
+			-> locale_tirana_book_Rosslav;;
+			-> locale_kuda_book_Rosslav;;
+			-> locale_dania_book_Rosslav;;
+			-> locale_velik_book_Rosslav;;
+			-> locale_svezia_book_Rosslav;;
+			-> locale_adelasij_book_Rosslav;;
+			-> locale_to_book_Rosslav;;
+			-> locale_stokgol_m_book_Rosslav;;
+			-> locale_nea_book_Rosslav;;
+	 	*);;
+
+locale_rossia_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dania_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Дания ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_svezia_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_adelasij_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Аделящий ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_stokgol_m_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Стокгольм ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Rosslav
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Molina
+<- person;
+=> nrel_main_idtf:
+	[Тирсо Де Молина]
+		(* <- lang_ru;; *);;
+
+author_Molina
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Molina.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

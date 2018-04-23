@@ -1,0 +1,133 @@
+book_Dnevnik_Obolstitelja
+<- book;
+=> nrel_author;
+	author_Kerkegor;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дневник Обольстителя]
+		(* <- lang_ru;; *);;
+
+book_Dnevnik_Obolstitelja
+=> nrel_characters:
+	.book_Dnevnik_Obolstitelja_characters
+		(*
+			-> char_viktor_book_Dnevnik_Obolstitelja;;
+			-> char_kordelij_book_Dnevnik_Obolstitelja;;
+			-> char_k_erkegor_book_Dnevnik_Obolstitelja;;
+			-> char_serennaa_book_Dnevnik_Obolstitelja;;
+			-> char_vil_hel_ma_book_Dnevnik_Obolstitelja;;
+			-> char_edvard_book_Dnevnik_Obolstitelja;;
+			-> char_kordelia_book_Dnevnik_Obolstitelja;;
+			-> char_alfej_book_Dnevnik_Obolstitelja;;
+			-> char_johannes_book_Dnevnik_Obolstitelja;;
+	 	*);;
+
+char_viktor_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Виктор ]
+		(* <- lang_ru;; *);;
+
+char_kordelij_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Корделий ]
+		(* <- lang_ru;; *);;
+
+char_k_erkegor_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Кьеркегор ]
+		(* <- lang_ru;; *);;
+
+char_serennaa_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Серенная ]
+		(* <- lang_ru;; *);;
+
+char_vil_hel_ma_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Вильхельма ]
+		(* <- lang_ru;; *);;
+
+char_edvard_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Эдвард ]
+		(* <- lang_ru;; *);;
+
+char_kordelia_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Корделия ]
+		(* <- lang_ru;; *);;
+
+char_alfej_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Алфей ]
+		(* <- lang_ru;; *);;
+
+char_johannes_book_Dnevnik_Obolstitelja
+<- char;
+=> nrel_main_idtf:
+	[ Йоханнес ]
+		(* <- lang_ru;; *);;
+
+book_Dnevnik_Obolstitelja
+=> nrel_locales:
+	.book_Dnevnik_Obolstitelja_locales
+		(*
+			-> locale_poeticeski_book_Dnevnik_Obolstitelja;;
+			-> locale_kotoryj_book_Dnevnik_Obolstitelja;;
+			-> locale_peru_book_Dnevnik_Obolstitelja;;
+			-> locale_kopengagen_book_Dnevnik_Obolstitelja;;
+			-> locale_to_book_Dnevnik_Obolstitelja;;
+	 	*);;
+
+locale_poeticeski_book_Dnevnik_Obolstitelja
+<- locale;
+=> nrel_main_idtf:
+	[ Поэтически ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Dnevnik_Obolstitelja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_peru_book_Dnevnik_Obolstitelja
+<- locale;
+=> nrel_main_idtf:
+	[ Перу ]
+		(* <- lang_ru;; *);;
+
+locale_kopengagen_book_Dnevnik_Obolstitelja
+<- locale;
+=> nrel_main_idtf:
+	[ Копенгаген ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dnevnik_Obolstitelja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+book_Dnevnik_Obolstitelja
+=> nrel_dates:
+	.book_Dnevnik_Obolstitelja_dates
+		(*
+			-> date_9_25_book_Dnevnik_Obolstitelja;;
+	 	*);;
+
+date_9_25_book_Dnevnik_Obolstitelja
+<- date;
+=> nrel_main_idtf:
+	[ 9 25 ]
+		(* <- lang_ru;; *);;
+

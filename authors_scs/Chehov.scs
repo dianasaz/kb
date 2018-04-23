@@ -1,0 +1,16 @@
+author_Chehov
+<- person;
+=> nrel_main_idtf:
+	[Антон Чехов]
+		(* <- lang_ru;; *);;
+
+author_Chehov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Chehov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

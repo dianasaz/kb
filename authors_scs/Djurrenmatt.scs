@@ -1,0 +1,16 @@
+author_Djurrenmatt
+<- person;
+=> nrel_main_idtf:
+	[Фридрих Дюрренматт]
+		(* <- lang_ru;; *);;
+
+author_Djurrenmatt
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Djurrenmatt.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

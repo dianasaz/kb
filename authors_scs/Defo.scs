@@ -1,0 +1,16 @@
+author_Defo
+<- person;
+=> nrel_main_idtf:
+	[Даниэль Дефо]
+		(* <- lang_ru;; *);;
+
+author_Defo
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Defo.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

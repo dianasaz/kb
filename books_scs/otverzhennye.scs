@@ -1,0 +1,273 @@
+book_Otverzhennye
+<- book;
+=> nrel_author;
+	author_Gugo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Отверженные]
+		(* <- lang_ru;; *);;
+
+book_Otverzhennye
+=> nrel_characters:
+	.book_Otverzhennye_characters
+		(*
+			-> char_madlena_book_Otverzhennye;;
+			-> char_jan_val_jan_book_Otverzhennye;;
+			-> char_fransua_book_Otverzhennye;;
+			-> char_jil_norman_book_Otverzhennye;;
+			-> char_bol_soe_book_Otverzhennye;;
+			-> char_javer_book_Otverzhennye;;
+			-> char_marius_book_Otverzhennye;;
+			-> char_b_envena_book_Otverzhennye;;
+			-> char_sarl__book_Otverzhennye;;
+			-> char_val_jan_book_Otverzhennye;;
+			-> char_madlen_book_Otverzhennye;;
+			-> char_miriel__book_Otverzhennye;;
+			-> char_jorj_book_Otverzhennye;;
+	 	*);;
+
+char_madlena_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Мадлена ]
+		(* <- lang_ru;; *);;
+
+char_jan_val_jan_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Жан Вальжан ]
+		(* <- lang_ru;; *);;
+
+char_fransua_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Франсуа ]
+		(* <- lang_ru;; *);;
+
+char_jil_norman_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Жильнорман ]
+		(* <- lang_ru;; *);;
+
+char_bol_soe_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Большое ]
+		(* <- lang_ru;; *);;
+
+char_javer_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Жавер ]
+		(* <- lang_ru;; *);;
+
+char_marius_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Мариус ]
+		(* <- lang_ru;; *);;
+
+char_b_envena_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Бьенвеня ]
+		(* <- lang_ru;; *);;
+
+char_sarl__book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Шарль ]
+		(* <- lang_ru;; *);;
+
+char_val_jan_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Вальжан ]
+		(* <- lang_ru;; *);;
+
+char_madlen_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Мадлен ]
+		(* <- lang_ru;; *);;
+
+char_miriel__book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Мириэль ]
+		(* <- lang_ru;; *);;
+
+char_jorj_book_Otverzhennye
+<- char;
+=> nrel_main_idtf:
+	[ Жорж ]
+		(* <- lang_ru;; *);;
+
+book_Otverzhennye
+=> nrel_locales:
+	.book_Otverzhennye_locales
+		(*
+			-> locale_mariusa_book_Otverzhennye;;
+			-> locale_gorod_arras_book_Otverzhennye;;
+			-> locale_karman_book_Otverzhennye;;
+			-> locale_tulon_book_Otverzhennye;;
+			-> locale_italia_book_Otverzhennye;;
+			-> locale_ponmersi_book_Otverzhennye;;
+			-> locale_luara_book_Otverzhennye;;
+			-> locale_kuda_book_Otverzhennye;;
+			-> locale_arras_book_Otverzhennye;;
+			-> locale_din__book_Otverzhennye;;
+			-> locale_gorod_dina_book_Otverzhennye;;
+			-> locale_gorodok_book_Otverzhennye;;
+			-> locale_parij_book_Otverzhennye;;
+			-> locale_to_book_Otverzhennye;;
+			-> locale_molodaa_ponmersi_book_Otverzhennye;;
+	 	*);;
+
+locale_mariusa_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Мариуса ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_arras_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Город Аррас ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_tulon_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Тулон ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_ponmersi_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Понмерси ]
+		(* <- lang_ru;; *);;
+
+locale_luara_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Луара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_arras_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Аррас ]
+		(* <- lang_ru;; *);;
+
+locale_din__book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Динь ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_dina_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Город Диня ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_molodaa_ponmersi_book_Otverzhennye
+<- locale;
+=> nrel_main_idtf:
+	[ Молодая Понмерси ]
+		(* <- lang_ru;; *);;
+
+book_Otverzhennye
+=> nrel_dates:
+	.book_Otverzhennye_dates
+		(*
+			-> date_1818_book_Otverzhennye;;
+			-> date_1833_2_16_book_Otverzhennye;;
+			-> date_1815_10_book_Otverzhennye;;
+			-> date_6_4_book_Otverzhennye;;
+			-> date_1820_book_Otverzhennye;;
+			-> date_1832_book_Otverzhennye;;
+			-> date_1815_book_Otverzhennye;;
+	 	*);;
+
+date_1818_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1818 ]
+		(* <- lang_ru;; *);;
+
+date_1833_2_16_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1833 2 16 ]
+		(* <- lang_ru;; *);;
+
+date_1815_10_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1815 10 ]
+		(* <- lang_ru;; *);;
+
+date_6_4_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 6 4 ]
+		(* <- lang_ru;; *);;
+
+date_1820_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1820 ]
+		(* <- lang_ru;; *);;
+
+date_1832_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1832 ]
+		(* <- lang_ru;; *);;
+
+date_1815_book_Otverzhennye
+<- date;
+=> nrel_main_idtf:
+	[ 1815 ]
+		(* <- lang_ru;; *);;
+

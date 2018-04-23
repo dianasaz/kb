@@ -1,0 +1,64 @@
+book_Mif_O_Sizife
+<- book;
+=> nrel_author;
+	author_Kamju;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Миф О Сизифе: Эссе Об Абсурде]
+		(* <- lang_ru;; *);;
+
+book_Mif_O_Sizife
+=> nrel_characters:
+	.book_Mif_O_Sizife_characters
+		(*
+			-> char_dostoevskij_book_Mif_O_Sizife;;
+			-> char_don_juan_book_Mif_O_Sizife;;
+	 	*);;
+
+char_dostoevskij_book_Mif_O_Sizife
+<- char;
+=> nrel_main_idtf:
+	[ Достоевский ]
+		(* <- lang_ru;; *);;
+
+char_don_juan_book_Mif_O_Sizife
+<- char;
+=> nrel_main_idtf:
+	[ Дон Жуан ]
+		(* <- lang_ru;; *);;
+
+book_Mif_O_Sizife
+=> nrel_locales:
+	.book_Mif_O_Sizife_locales
+		(*
+			-> locale_kotoryj_book_Mif_O_Sizife;;
+			-> locale_don_book_Mif_O_Sizife;;
+			-> locale_to_book_Mif_O_Sizife;;
+			-> locale_kara_book_Mif_O_Sizife;;
+	 	*);;
+
+locale_kotoryj_book_Mif_O_Sizife
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Mif_O_Sizife
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Mif_O_Sizife
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Mif_O_Sizife
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,127 @@
+book_Traxinjanki
+<- book;
+=> nrel_author;
+	author_Sofokl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Трахинянки]
+		(* <- lang_ru;; *);;
+
+book_Traxinjanki
+=> nrel_characters:
+	.book_Traxinjanki_characters
+		(*
+			-> char_gerakl_book_Traxinjanki;;
+			-> char_gilla_book_Traxinjanki;;
+			-> char_ehalij_book_Traxinjanki;;
+			-> char_aida_book_Traxinjanki;;
+			-> char_nessa_book_Traxinjanki;;
+	 	*);;
+
+char_gerakl_book_Traxinjanki
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_gilla_book_Traxinjanki
+<- char;
+=> nrel_main_idtf:
+	[ Гилла ]
+		(* <- lang_ru;; *);;
+
+char_ehalij_book_Traxinjanki
+<- char;
+=> nrel_main_idtf:
+	[ Эхалий ]
+		(* <- lang_ru;; *);;
+
+char_aida_book_Traxinjanki
+<- char;
+=> nrel_main_idtf:
+	[ Аида ]
+		(* <- lang_ru;; *);;
+
+char_nessa_book_Traxinjanki
+<- char;
+=> nrel_main_idtf:
+	[ Несса ]
+		(* <- lang_ru;; *);;
+
+book_Traxinjanki
+=> nrel_locales:
+	.book_Traxinjanki_locales
+		(*
+			-> locale_ujnaa_grezia_book_Traxinjanki;;
+			-> locale_nessova_book_Traxinjanki;;
+			-> locale_geraklov_book_Traxinjanki;;
+			-> locale_malen_kij_gorodok_book_Traxinjanki;;
+			-> locale_meleagra_book_Traxinjanki;;
+			-> locale_to_book_Traxinjanki;;
+			-> locale_trahina_book_Traxinjanki;;
+			-> locale_byk_book_Traxinjanki;;
+			-> locale_jertvennyj_byk_book_Traxinjanki;;
+			-> locale_grezia_book_Traxinjanki;;
+	 	*);;
+
+locale_ujnaa_grezia_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Греция ]
+		(* <- lang_ru;; *);;
+
+locale_nessova_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Нессова ]
+		(* <- lang_ru;; *);;
+
+locale_geraklov_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Гераклов ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_meleagra_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Мелеагра ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_trahina_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Трахина ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_jertvennyj_byk_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Жертвенный Бык ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Traxinjanki
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

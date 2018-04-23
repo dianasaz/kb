@@ -1,0 +1,99 @@
+book_Chuma
+<- book;
+=> nrel_author;
+	author_Kamju;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чума]
+		(* <- lang_ru;; *);;
+
+book_Chuma
+=> nrel_characters:
+	.book_Chuma_characters
+		(*
+			-> char_tarra_book_Chuma;;
+			-> char_roman_book_Chuma;;
+			-> char_jan_book_Chuma;;
+			-> char_bernar_book_Chuma;;
+	 	*);;
+
+char_tarra_book_Chuma
+<- char;
+=> nrel_main_idtf:
+	[ Тарра ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Chuma
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Chuma
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_bernar_book_Chuma
+<- char;
+=> nrel_main_idtf:
+	[ Бернар ]
+		(* <- lang_ru;; *);;
+
+book_Chuma
+=> nrel_locales:
+	.book_Chuma_locales
+		(*
+			-> locale_franzia_book_Chuma;;
+			-> locale_kuda_book_Chuma;;
+			-> locale_samyj_oran_book_Chuma;;
+			-> locale_oran_book_Chuma;;
+			-> locale_gorod_oran_book_Chuma;;
+			-> locale_parij_book_Chuma;;
+			-> locale_to_book_Chuma;;
+	 	*);;
+
+locale_franzia_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_oran_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Оран ]
+		(* <- lang_ru;; *);;
+
+locale_oran_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Оран ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_oran_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Город Оран ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chuma
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

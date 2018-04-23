@@ -1,0 +1,16 @@
+author_Zinger
+<- person;
+=> nrel_main_idtf:
+	[Исаак Башевис-Зингер]
+		(* <- lang_ru;; *);;
+
+author_Zinger
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Zinger.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

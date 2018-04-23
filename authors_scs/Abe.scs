@@ -1,0 +1,16 @@
+author_Abe
+<- person;
+=> nrel_main_idtf:
+	[Кобо Абэ]
+		(* <- lang_ru;; *);;
+
+author_Abe
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Abe.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

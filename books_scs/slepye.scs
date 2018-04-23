@@ -1,0 +1,44 @@
+book_Slepye
+<- book;
+=> nrel_author;
+	author_Meterlink;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Слепые]
+		(* <- lang_ru;; *);;
+
+book_Slepye
+=> nrel_locales:
+	.book_Slepye_locales
+		(*
+			-> locale_kotoryj_book_Slepye;;
+			-> locale_tis_book_Slepye;;
+			-> locale_to_book_Slepye;;
+			-> locale_asfodevsij_book_Slepye;;
+	 	*);;
+
+locale_kotoryj_book_Slepye
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_tis_book_Slepye
+<- locale;
+=> nrel_main_idtf:
+	[ Тис ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Slepye
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_asfodevsij_book_Slepye
+<- locale;
+=> nrel_main_idtf:
+	[ Асфодевший ]
+		(* <- lang_ru;; *);;
+

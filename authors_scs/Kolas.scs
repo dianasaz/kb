@@ -1,0 +1,16 @@
+author_Kolas
+<- person;
+=> nrel_main_idtf:
+	[Якуб Колас]
+		(* <- lang_ru;; *);;
+
+author_Kolas
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kolas.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,148 @@
+book_Sobaka_Baskervilej
+<- book;
+=> nrel_author;
+	author_Dojl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Собака Баскервилей]
+		(* <- lang_ru;; *);;
+
+book_Sobaka_Baskervilej
+=> nrel_characters:
+	.book_Sobaka_Baskervilej_characters
+		(*
+			-> char_lajons_book_Sobaka_Baskervilej;;
+			-> char_baskervil__book_Sobaka_Baskervilej;;
+			-> char_serlok_holms_book_Sobaka_Baskervilej;;
+			-> char_carl_z_baskervil__book_Sobaka_Baskervilej;;
+			-> char_vatson_book_Sobaka_Baskervilej;;
+			-> char_gugo_baskervil__book_Sobaka_Baskervilej;;
+			-> char_gugo_book_Sobaka_Baskervilej;;
+			-> char_genri_book_Sobaka_Baskervilej;;
+			-> char_djejms_mortimer_book_Sobaka_Baskervilej;;
+			-> char_carl_z_book_Sobaka_Baskervilej;;
+			-> char_holms_book_Sobaka_Baskervilej;;
+			-> char_laura_book_Sobaka_Baskervilej;;
+			-> char_genri_baskervil__book_Sobaka_Baskervilej;;
+	 	*);;
+
+char_lajons_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Лайонс ]
+		(* <- lang_ru;; *);;
+
+char_baskervil__book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Баскервиль ]
+		(* <- lang_ru;; *);;
+
+char_serlok_holms_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Шерлок Холмс ]
+		(* <- lang_ru;; *);;
+
+char_carl_z_baskervil__book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Чарльз Баскервиль ]
+		(* <- lang_ru;; *);;
+
+char_vatson_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Ватсон ]
+		(* <- lang_ru;; *);;
+
+char_gugo_baskervil__book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Гуго Баскервиль ]
+		(* <- lang_ru;; *);;
+
+char_gugo_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Гуго ]
+		(* <- lang_ru;; *);;
+
+char_genri_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Генри ]
+		(* <- lang_ru;; *);;
+
+char_djejms_mortimer_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс Мортимер ]
+		(* <- lang_ru;; *);;
+
+char_carl_z_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Чарльз ]
+		(* <- lang_ru;; *);;
+
+char_holms_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Холмс ]
+		(* <- lang_ru;; *);;
+
+char_laura_book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Лаура ]
+		(* <- lang_ru;; *);;
+
+char_genri_baskervil__book_Sobaka_Baskervilej
+<- char;
+=> nrel_main_idtf:
+	[ Генри Баскервиль ]
+		(* <- lang_ru;; *);;
+
+book_Sobaka_Baskervilej
+=> nrel_locales:
+	.book_Sobaka_Baskervilej_locales
+		(*
+			-> locale_to_book_Sobaka_Baskervilej;;
+			-> locale_amerika_book_Sobaka_Baskervilej;;
+			-> locale_london_book_Sobaka_Baskervilej;;
+			-> locale_baskervil__book_Sobaka_Baskervilej;;
+			-> locale_ujnaa_amerika_book_Sobaka_Baskervilej;;
+	 	*);;
+
+locale_to_book_Sobaka_Baskervilej
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Sobaka_Baskervilej
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Sobaka_Baskervilej
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_baskervil__book_Sobaka_Baskervilej
+<- locale;
+=> nrel_main_idtf:
+	[ Баскервиль ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_amerika_book_Sobaka_Baskervilej
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Америка ]
+		(* <- lang_ru;; *);;
+

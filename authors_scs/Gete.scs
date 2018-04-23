@@ -1,0 +1,16 @@
+author_Gete
+<- person;
+=> nrel_main_idtf:
+	[Иоганн Вольфганг Гёте]
+		(* <- lang_ru;; *);;
+
+author_Gete
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gete.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

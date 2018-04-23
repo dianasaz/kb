@@ -1,0 +1,113 @@
+book_Sonata_Prizrakov
+<- book;
+=> nrel_author;
+	author_Strindberg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Соната Призраков]
+		(* <- lang_ru;; *);;
+
+book_Sonata_Prizrakov
+=> nrel_characters:
+	.book_Sonata_Prizrakov_characters
+		(*
+			-> char_freken_book_Sonata_Prizrakov;;
+			-> char_benggson_book_Sonata_Prizrakov;;
+			-> char_student_book_Sonata_Prizrakov;;
+			-> char_uhanson_book_Sonata_Prizrakov;;
+			-> char_bengtson_book_Sonata_Prizrakov;;
+			-> char_polkovnik_book_Sonata_Prizrakov;;
+			-> char_amalia_book_Sonata_Prizrakov;;
+			-> char_iisus_hristos_book_Sonata_Prizrakov;;
+	 	*);;
+
+char_freken_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Фрёкен ]
+		(* <- lang_ru;; *);;
+
+char_benggson_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Бенггсон ]
+		(* <- lang_ru;; *);;
+
+char_student_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Студент ]
+		(* <- lang_ru;; *);;
+
+char_uhanson_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Юхансон ]
+		(* <- lang_ru;; *);;
+
+char_bengtson_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Бенгтсон ]
+		(* <- lang_ru;; *);;
+
+char_polkovnik_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Полковник ]
+		(* <- lang_ru;; *);;
+
+char_amalia_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Амалия ]
+		(* <- lang_ru;; *);;
+
+char_iisus_hristos_book_Sonata_Prizrakov
+<- char;
+=> nrel_main_idtf:
+	[ Иисус Христос ]
+		(* <- lang_ru;; *);;
+
+book_Sonata_Prizrakov
+=> nrel_locales:
+	.book_Sonata_Prizrakov_locales
+		(*
+			-> locale_karman_book_Sonata_Prizrakov;;
+			-> locale_kub_book_Sonata_Prizrakov;;
+			-> locale_uhanson_book_Sonata_Prizrakov;;
+			-> locale_to_book_Sonata_Prizrakov;;
+			-> locale_gamburg_book_Sonata_Prizrakov;;
+	 	*);;
+
+locale_karman_book_Sonata_Prizrakov
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_kub_book_Sonata_Prizrakov
+<- locale;
+=> nrel_main_idtf:
+	[ Куб ]
+		(* <- lang_ru;; *);;
+
+locale_uhanson_book_Sonata_Prizrakov
+<- locale;
+=> nrel_main_idtf:
+	[ Юхансон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sonata_Prizrakov
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gamburg_book_Sonata_Prizrakov
+<- locale;
+=> nrel_main_idtf:
+	[ Гамбург ]
+		(* <- lang_ru;; *);;
+

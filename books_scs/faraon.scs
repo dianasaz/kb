@@ -1,0 +1,204 @@
+book_Faraon
+<- book;
+=> nrel_author;
+	author_Prus;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фараон]
+		(* <- lang_ru;; *);;
+
+book_Faraon
+=> nrel_characters:
+	.book_Faraon_characters
+		(*
+			-> char_sarra_book_Faraon;;
+			-> char_mefres_book_Faraon;;
+			-> char_bubasta_book_Faraon;;
+			-> char_hebron_book_Faraon;;
+			-> char_ennan_book_Faraon;;
+			-> char_amon_book_Faraon;;
+			-> char_mentesufis_book_Faraon;;
+			-> char_sargon_book_Faraon;;
+			-> char_kama_book_Faraon;;
+			-> char_menfi_book_Faraon;;
+			-> char_gedeon_book_Faraon;;
+	 	*);;
+
+char_sarra_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Сарра ]
+		(* <- lang_ru;; *);;
+
+char_mefres_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Мефрес ]
+		(* <- lang_ru;; *);;
+
+char_bubasta_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Бубаста ]
+		(* <- lang_ru;; *);;
+
+char_hebron_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Хеброн ]
+		(* <- lang_ru;; *);;
+
+char_ennan_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Эннан ]
+		(* <- lang_ru;; *);;
+
+char_amon_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Амон ]
+		(* <- lang_ru;; *);;
+
+char_mentesufis_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Ментесуфис ]
+		(* <- lang_ru;; *);;
+
+char_sargon_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Саргон ]
+		(* <- lang_ru;; *);;
+
+char_kama_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Кама ]
+		(* <- lang_ru;; *);;
+
+char_menfi_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Менфи ]
+		(* <- lang_ru;; *);;
+
+char_gedeon_book_Faraon
+<- char;
+=> nrel_main_idtf:
+	[ Гедеон ]
+		(* <- lang_ru;; *);;
+
+book_Faraon
+=> nrel_locales:
+	.book_Faraon_locales
+		(*
+			-> locale_vsa_finikia_book_Faraon;;
+			-> locale_kotoryj_book_Faraon;;
+			-> locale_nijnij_egipet_book_Faraon;;
+			-> locale_hir_book_Faraon;;
+			-> locale_kama_book_Faraon;;
+			-> locale_nil_book_Faraon;;
+			-> locale_finikia_book_Faraon;;
+			-> locale_hiram_book_Faraon;;
+			-> locale_ves__egipet_book_Faraon;;
+			-> locale_to_book_Faraon;;
+			-> locale_memfis_book_Faraon;;
+			-> locale_egipet_book_Faraon;;
+			-> locale_kotoraa_kuda_book_Faraon;;
+			-> locale_assiria_book_Faraon;;
+			-> locale_krasnoe_book_Faraon;;
+	 	*);;
+
+locale_vsa_finikia_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Финикия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_nijnij_egipet_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Нижний Египет ]
+		(* <- lang_ru;; *);;
+
+locale_hir_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Хир ]
+		(* <- lang_ru;; *);;
+
+locale_kama_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Кама ]
+		(* <- lang_ru;; *);;
+
+locale_nil_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Нил ]
+		(* <- lang_ru;; *);;
+
+locale_finikia_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Финикия ]
+		(* <- lang_ru;; *);;
+
+locale_hiram_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Хирам ]
+		(* <- lang_ru;; *);;
+
+locale_ves__egipet_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Египет ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_memfis_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Мемфис ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_kotoraa_kuda_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Которая Куда ]
+		(* <- lang_ru;; *);;
+
+locale_assiria_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Ассирия ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Faraon
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+

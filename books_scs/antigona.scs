@@ -1,0 +1,134 @@
+book_Antigona
+<- book;
+=> nrel_author;
+	author_Sofokl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Антигона]
+		(* <- lang_ru;; *);;
+
+book_Antigona
+=> nrel_characters:
+	.book_Antigona_characters
+		(*
+			-> char_polinik_book_Antigona;;
+			-> char_edip_book_Antigona;;
+			-> char_antigona_book_Antigona;;
+			-> char_sofokl_book_Antigona;;
+			-> char_eteokla_book_Antigona;;
+			-> char_eshilyj_book_Antigona;;
+			-> char_edipov_book_Antigona;;
+			-> char_dionis_book_Antigona;;
+			-> char_aida_book_Antigona;;
+			-> char_tiresia_book_Antigona;;
+	 	*);;
+
+char_polinik_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Полиник ]
+		(* <- lang_ru;; *);;
+
+char_edip_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Эдип ]
+		(* <- lang_ru;; *);;
+
+char_antigona_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Антигона ]
+		(* <- lang_ru;; *);;
+
+char_sofokl_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Софокл ]
+		(* <- lang_ru;; *);;
+
+char_eteokla_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Этеокла ]
+		(* <- lang_ru;; *);;
+
+char_eshilyj_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилый ]
+		(* <- lang_ru;; *);;
+
+char_edipov_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Эдипов ]
+		(* <- lang_ru;; *);;
+
+char_dionis_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Дионис ]
+		(* <- lang_ru;; *);;
+
+char_aida_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Аида ]
+		(* <- lang_ru;; *);;
+
+char_tiresia_book_Antigona
+<- char;
+=> nrel_main_idtf:
+	[ Тиресия ]
+		(* <- lang_ru;; *);;
+
+book_Antigona
+=> nrel_locales:
+	.book_Antigona_locales
+		(*
+			-> locale_afiny_book_Antigona;;
+			-> locale_kotoryj_book_Antigona;;
+			-> locale_kolon_book_Antigona;;
+			-> locale_simvoliceski_book_Antigona;;
+			-> locale_ismena_book_Antigona;;
+			-> locale_fivy_book_Antigona;;
+	 	*);;
+
+locale_afiny_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kolon_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Колон ]
+		(* <- lang_ru;; *);;
+
+locale_simvoliceski_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Символически ]
+		(* <- lang_ru;; *);;
+
+locale_ismena_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Исмена ]
+		(* <- lang_ru;; *);;
+
+locale_fivy_book_Antigona
+<- locale;
+=> nrel_main_idtf:
+	[ Фивы ]
+		(* <- lang_ru;; *);;
+

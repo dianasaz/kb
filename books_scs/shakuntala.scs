@@ -1,0 +1,71 @@
+book_Shakuntala
+<- book;
+=> nrel_author;
+	author_Kalidasa;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шакунтала]
+		(* <- lang_ru;; *);;
+
+book_Shakuntala
+=> nrel_characters:
+	.book_Shakuntala_characters
+		(*
+			-> char_durvasas_book_Shakuntala;;
+			-> char_sakuntalaa_book_Shakuntala;;
+			-> char_sakuntalyj_book_Shakuntala;;
+			-> char_sakuntala_book_Shakuntala;;
+	 	*);;
+
+char_durvasas_book_Shakuntala
+<- char;
+=> nrel_main_idtf:
+	[ Дурвасас ]
+		(* <- lang_ru;; *);;
+
+char_sakuntalaa_book_Shakuntala
+<- char;
+=> nrel_main_idtf:
+	[ Шакунталая ]
+		(* <- lang_ru;; *);;
+
+char_sakuntalyj_book_Shakuntala
+<- char;
+=> nrel_main_idtf:
+	[ Шакунталый ]
+		(* <- lang_ru;; *);;
+
+char_sakuntala_book_Shakuntala
+<- char;
+=> nrel_main_idtf:
+	[ Шакунтала ]
+		(* <- lang_ru;; *);;
+
+book_Shakuntala
+=> nrel_locales:
+	.book_Shakuntala_locales
+		(*
+			-> locale_hemakuta_book_Shakuntala;;
+			-> locale_raksas_book_Shakuntala;;
+			-> locale_gazeleokaa_book_Shakuntala;;
+	 	*);;
+
+locale_hemakuta_book_Shakuntala
+<- locale;
+=> nrel_main_idtf:
+	[ Хемакута ]
+		(* <- lang_ru;; *);;
+
+locale_raksas_book_Shakuntala
+<- locale;
+=> nrel_main_idtf:
+	[ Ракшас ]
+		(* <- lang_ru;; *);;
+
+locale_gazeleokaa_book_Shakuntala
+<- locale;
+=> nrel_main_idtf:
+	[ Газелеокая ]
+		(* <- lang_ru;; *);;
+

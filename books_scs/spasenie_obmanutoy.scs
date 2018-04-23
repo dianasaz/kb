@@ -1,0 +1,85 @@
+book_Spasenie_Obmanutoy
+<- book;
+=> nrel_author;
+	author_Guan_Hancin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чжао Пань-Эр Обманом Спасает Обманутую]
+		(* <- lang_ru;; *);;
+
+book_Spasenie_Obmanutoy
+=> nrel_characters:
+	.book_Spasenie_Obmanutoy_characters
+		(*
+			-> char_pana_book_Spasenie_Obmanutoy;;
+			-> char_ana_book_Spasenie_Obmanutoy;;
+			-> char_cjao_book_Spasenie_Obmanutoy;;
+			-> char_su_book_Spasenie_Obmanutoy;;
+	 	*);;
+
+char_pana_book_Spasenie_Obmanutoy
+<- char;
+=> nrel_main_idtf:
+	[ Паня ]
+		(* <- lang_ru;; *);;
+
+char_ana_book_Spasenie_Obmanutoy
+<- char;
+=> nrel_main_idtf:
+	[ Аня ]
+		(* <- lang_ru;; *);;
+
+char_cjao_book_Spasenie_Obmanutoy
+<- char;
+=> nrel_main_idtf:
+	[ Чжао ]
+		(* <- lang_ru;; *);;
+
+char_su_book_Spasenie_Obmanutoy
+<- char;
+=> nrel_main_idtf:
+	[ Сю ]
+		(* <- lang_ru;; *);;
+
+book_Spasenie_Obmanutoy
+=> nrel_locales:
+	.book_Spasenie_Obmanutoy_locales
+		(*
+			-> locale_to_book_Spasenie_Obmanutoy;;
+			-> locale_cjao_book_Spasenie_Obmanutoy;;
+			-> locale_sanivsij_book_Spasenie_Obmanutoy;;
+			-> locale_cjou_book_Spasenie_Obmanutoy;;
+			-> locale_cjencjou_book_Spasenie_Obmanutoy;;
+	 	*);;
+
+locale_to_book_Spasenie_Obmanutoy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cjao_book_Spasenie_Obmanutoy
+<- locale;
+=> nrel_main_idtf:
+	[ Чжао ]
+		(* <- lang_ru;; *);;
+
+locale_sanivsij_book_Spasenie_Obmanutoy
+<- locale;
+=> nrel_main_idtf:
+	[ Сянивший ]
+		(* <- lang_ru;; *);;
+
+locale_cjou_book_Spasenie_Obmanutoy
+<- locale;
+=> nrel_main_idtf:
+	[ Чжоу ]
+		(* <- lang_ru;; *);;
+
+locale_cjencjou_book_Spasenie_Obmanutoy
+<- locale;
+=> nrel_main_idtf:
+	[ Чжэнчжоу ]
+		(* <- lang_ru;; *);;
+

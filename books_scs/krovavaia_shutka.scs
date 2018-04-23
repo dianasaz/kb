@@ -1,0 +1,323 @@
+book_Krovavaia_Shutka
+<- book;
+=> nrel_author;
+	author_Sholom_Aleykhem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кровавая Шутка]
+		(* <- lang_ru;; *);;
+
+book_Krovavaia_Shutka
+=> nrel_characters:
+	.book_Krovavaia_Shutka_characters
+		(*
+			-> char_p_er_book_Krovavaia_Shutka;;
+			-> char_grigorij_ivanovic_popov_book_Krovavaia_Shutka;;
+			-> char_p_er_siraev_book_Krovavaia_Shutka;;
+			-> char_gers_book_Krovavaia_Shutka;;
+			-> char_semkaa_book_Krovavaia_Shutka;;
+			-> char_fektist_feodosievic_bardo_book_Krovavaia_Shutka;;
+			-> char_bradovskij_book_Krovavaia_Shutka;;
+			-> char_gers_rabinovic_book_Krovavaia_Shutka;;
+			-> char_grisa_book_Krovavaia_Shutka;;
+			-> char_sarra_book_Krovavaia_Shutka;;
+			-> char_grigorij_popov_book_Krovavaia_Shutka;;
+			-> char_rabinovic_book_Krovavaia_Shutka;;
+			-> char_griska_popov_book_Krovavaia_Shutka;;
+			-> char_popov_book_Krovavaia_Shutka;;
+			-> char_lapidus_book_Krovavaia_Shutka;;
+			-> char_siraev_book_Krovavaia_Shutka;;
+			-> char_volod_ka_cigirinskij_book_Krovavaia_Shutka;;
+			-> char_kezala_book_Krovavaia_Shutka;;
+			-> char_griska_book_Krovavaia_Shutka;;
+			-> char_tumarkin_book_Krovavaia_Shutka;;
+			-> char_sapiro_book_Krovavaia_Shutka;;
+			-> char_volod_ka_book_Krovavaia_Shutka;;
+			-> char_feodosievic_feoktist_book_Krovavaia_Shutka;;
+			-> char_tojba_book_Krovavaia_Shutka;;
+			-> char_avraam_book_Krovavaia_Shutka;;
+			-> char_bena_gurvic_book_Krovavaia_Shutka;;
+			-> char_sasa_book_Krovavaia_Shutka;;
+			-> char_peta_book_Krovavaia_Shutka;;
+			-> char_mojsa_book_Krovavaia_Shutka;;
+			-> char_sarra_pejsaha_book_Krovavaia_Shutka;;
+			-> char_david_sapiro_book_Krovavaia_Shutka;;
+			-> char_bardo_book_Krovavaia_Shutka;;
+			-> char_ivan_ivanovic_book_Krovavaia_Shutka;;
+			-> char_betti_sapiro_book_Krovavaia_Shutka;;
+			-> char_gersk_book_Krovavaia_Shutka;;
+			-> char_david_book_Krovavaia_Shutka;;
+			-> char_nadejda_fedorovna_book_Krovavaia_Shutka;;
+	 	*);;
+
+char_p_er_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Пьер ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_ivanovic_popov_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Григорий Иванович Попов ]
+		(* <- lang_ru;; *);;
+
+char_p_er_siraev_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Пьер Ширяев ]
+		(* <- lang_ru;; *);;
+
+char_gers_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Герш ]
+		(* <- lang_ru;; *);;
+
+char_semkaa_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Сёмкая ]
+		(* <- lang_ru;; *);;
+
+char_fektist_feodosievic_bardo_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Фектист Феодосиевич Бардо ]
+		(* <- lang_ru;; *);;
+
+char_bradovskij_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Брадовский ]
+		(* <- lang_ru;; *);;
+
+char_gers_rabinovic_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Герш Рабинович ]
+		(* <- lang_ru;; *);;
+
+char_grisa_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Гриша ]
+		(* <- lang_ru;; *);;
+
+char_sarra_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Сарра ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_popov_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Григорий Попов ]
+		(* <- lang_ru;; *);;
+
+char_rabinovic_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Рабинович ]
+		(* <- lang_ru;; *);;
+
+char_griska_popov_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Гришка Попов ]
+		(* <- lang_ru;; *);;
+
+char_popov_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Попов ]
+		(* <- lang_ru;; *);;
+
+char_lapidus_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Лапидус ]
+		(* <- lang_ru;; *);;
+
+char_siraev_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Ширяев ]
+		(* <- lang_ru;; *);;
+
+char_volod_ka_cigirinskij_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Володька Чигиринский ]
+		(* <- lang_ru;; *);;
+
+char_kezala_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Кецала ]
+		(* <- lang_ru;; *);;
+
+char_griska_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Гришка ]
+		(* <- lang_ru;; *);;
+
+char_tumarkin_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Тумаркин ]
+		(* <- lang_ru;; *);;
+
+char_sapiro_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Шапиро ]
+		(* <- lang_ru;; *);;
+
+char_volod_ka_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Володька ]
+		(* <- lang_ru;; *);;
+
+char_feodosievic_feoktist_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Феодосиевич Феоктист ]
+		(* <- lang_ru;; *);;
+
+char_tojba_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Тойба ]
+		(* <- lang_ru;; *);;
+
+char_avraam_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Авраам ]
+		(* <- lang_ru;; *);;
+
+char_bena_gurvic_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Беня Гурвич ]
+		(* <- lang_ru;; *);;
+
+char_sasa_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Саша ]
+		(* <- lang_ru;; *);;
+
+char_peta_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Петя ]
+		(* <- lang_ru;; *);;
+
+char_mojsa_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Мойша ]
+		(* <- lang_ru;; *);;
+
+char_sarra_pejsaha_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Сарра Пейсаха ]
+		(* <- lang_ru;; *);;
+
+char_david_sapiro_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Давид Шапиро ]
+		(* <- lang_ru;; *);;
+
+char_bardo_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Бардо ]
+		(* <- lang_ru;; *);;
+
+char_ivan_ivanovic_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Иван Иванович ]
+		(* <- lang_ru;; *);;
+
+char_betti_sapiro_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Бетти Шапиро ]
+		(* <- lang_ru;; *);;
+
+char_gersk_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Гершк ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_nadejda_fedorovna_book_Krovavaia_Shutka
+<- char;
+=> nrel_main_idtf:
+	[ Надежда Фёдоровна ]
+		(* <- lang_ru;; *);;
+
+book_Krovavaia_Shutka
+=> nrel_locales:
+	.book_Krovavaia_Shutka_locales
+		(*
+			-> locale_pesaha_book_Krovavaia_Shutka;;
+			-> locale_beni_book_Krovavaia_Shutka;;
+			-> locale_kotoryj_book_Krovavaia_Shutka;;
+			-> locale_pejsaha_book_Krovavaia_Shutka;;
+			-> locale_kuda_book_Krovavaia_Shutka;;
+			-> locale_sklov_book_Krovavaia_Shutka;;
+	 	*);;
+
+locale_pesaha_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Песаха ]
+		(* <- lang_ru;; *);;
+
+locale_beni_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Бени ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_pejsaha_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Пейсаха ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_sklov_book_Krovavaia_Shutka
+<- locale;
+=> nrel_main_idtf:
+	[ Шклов ]
+		(* <- lang_ru;; *);;
+

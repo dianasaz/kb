@@ -1,0 +1,37 @@
+book_Vavilonskaja_Biblioteka
+<- book;
+=> nrel_author;
+	author_Borhes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вавилонская Библиотека]
+		(* <- lang_ru;; *);;
+
+book_Vavilonskaja_Biblioteka
+=> nrel_locales:
+	.book_Vavilonskaja_Biblioteka_locales
+		(*
+			-> locale_raznyj_kraj_book_Vavilonskaja_Biblioteka;;
+			-> locale_to_book_Vavilonskaja_Biblioteka;;
+			-> locale_nekij_groznyj_book_Vavilonskaja_Biblioteka;;
+	 	*);;
+
+locale_raznyj_kraj_book_Vavilonskaja_Biblioteka
+<- locale;
+=> nrel_main_idtf:
+	[ Разный Край ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vavilonskaja_Biblioteka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nekij_groznyj_book_Vavilonskaja_Biblioteka
+<- locale;
+=> nrel_main_idtf:
+	[ Некий Грозный ]
+		(* <- lang_ru;; *);;
+

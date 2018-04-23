@@ -1,0 +1,16 @@
+author_Neruda
+<- person;
+=> nrel_main_idtf:
+	[Пабло Неруда]
+		(* <- lang_ru;; *);;
+
+author_Neruda
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Neruda.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

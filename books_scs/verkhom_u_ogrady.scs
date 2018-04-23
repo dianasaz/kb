@@ -1,0 +1,64 @@
+book_Verkhom_U_Ogrady
+<- book;
+=> nrel_author;
+	author_Bo_Pu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пэй Шаоцзюнь Верхом У Ограды]
+		(* <- lang_ru;; *);;
+
+book_Verkhom_U_Ogrady
+=> nrel_characters:
+	.book_Verkhom_U_Ogrady_characters
+		(*
+			-> char_loan_book_Verkhom_U_Ogrady;;
+			-> char_loan_book_Verkhom_U_Ogrady;;
+			-> char_li_book_Verkhom_U_Ogrady;;
+	 	*);;
+
+char_loan_book_Verkhom_U_Ogrady
+<- char;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+char_loan_book_Verkhom_U_Ogrady
+<- char;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+char_li_book_Verkhom_U_Ogrady
+<- char;
+=> nrel_main_idtf:
+	[ Ли ]
+		(* <- lang_ru;; *);;
+
+book_Verkhom_U_Ogrady
+=> nrel_locales:
+	.book_Verkhom_U_Ogrady_locales
+		(*
+			-> locale_loan_book_Verkhom_U_Ogrady;;
+			-> locale_zzin__book_Verkhom_U_Ogrady;;
+			-> locale_zanivsij_book_Verkhom_U_Ogrady;;
+	 	*);;
+
+locale_loan_book_Verkhom_U_Ogrady
+<- locale;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+locale_zzin__book_Verkhom_U_Ogrady
+<- locale;
+=> nrel_main_idtf:
+	[ Цзинь ]
+		(* <- lang_ru;; *);;
+
+locale_zanivsij_book_Verkhom_U_Ogrady
+<- locale;
+=> nrel_main_idtf:
+	[ Цянивший ]
+		(* <- lang_ru;; *);;
+

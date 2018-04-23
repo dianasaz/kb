@@ -1,0 +1,183 @@
+book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- book;
+=> nrel_author;
+	author_Marshall;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Я Умею Прыгать Через Лужи]
+		(* <- lang_ru;; *);;
+
+book_Ia_Umeiu_Prygat_Cherez_Luzhi
+=> nrel_characters:
+	.book_Ia_Umeiu_Prygat_Cherez_Luzhi_characters
+		(*
+			-> char_robertson_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_djo_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_obrazzov_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_stiv_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_makdonal_d_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_karmajkl_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_alan_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_turalle_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> char_piter_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+	 	*);;
+
+char_robertson_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Робертсон ]
+		(* <- lang_ru;; *);;
+
+char_djo_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Джо ]
+		(* <- lang_ru;; *);;
+
+char_obrazzov_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Образцов ]
+		(* <- lang_ru;; *);;
+
+char_stiv_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Стив ]
+		(* <- lang_ru;; *);;
+
+char_makdonal_d_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Макдональд ]
+		(* <- lang_ru;; *);;
+
+char_karmajkl_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Кармайкл ]
+		(* <- lang_ru;; *);;
+
+char_alan_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Алан ]
+		(* <- lang_ru;; *);;
+
+char_turalle_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Туралле ]
+		(* <- lang_ru;; *);;
+
+char_piter_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- char;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+book_Ia_Umeiu_Prygat_Cherez_Luzhi
+=> nrel_locales:
+	.book_Ia_Umeiu_Prygat_Cherez_Luzhi_locales
+		(*
+			-> locale_karman_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_piter_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_breda_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_avstralia_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_marsall_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_vsa_avstralia_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_kotoryj_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_mel_burn_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_angusa_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_to_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_sosednij_gorodok_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_avstralijskij_stat_viktorij_iza_gluhoe_kvislend_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_tural_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+			-> locale_para_book_Ia_Umeiu_Prygat_Cherez_Luzhi;;
+	 	*);;
+
+locale_karman_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_piter_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_marsall_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Маршалл ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_avstralia_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_mel_burn_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Мельбурн ]
+		(* <- lang_ru;; *);;
+
+locale_angusa_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Ангуса ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sosednij_gorodok_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Соседний Городок ]
+		(* <- lang_ru;; *);;
+
+locale_avstralijskij_stat_viktorij_iza_gluhoe_kvislend_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Австралийский Штат Викторий Иза Глухое Квисленд ]
+		(* <- lang_ru;; *);;
+
+locale_tural_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Турал ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Ia_Umeiu_Prygat_Cherez_Luzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,455 @@
+book_20000_Le_Pod_Vodoy
+<- book;
+=> nrel_author;
+	author_Vern;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Двадцать Тысяч Льё Под Водой]
+		(* <- lang_ru;; *);;
+
+book_20000_Le_Pod_Vodoy
+=> nrel_characters:
+	.book_20000_Le_Pod_Vodoy_characters
+		(*
+			-> char_p_er_book_20000_Le_Pod_Vodoy;;
+			-> char_kons_book_20000_Le_Pod_Vodoy;;
+			-> char_aronaka_book_20000_Le_Pod_Vodoy;;
+			-> char_avraam_linkol_n_book_20000_Le_Pod_Vodoy;;
+			-> char_sandvicev_book_20000_Le_Pod_Vodoy;;
+			-> char_aron_book_20000_Le_Pod_Vodoy;;
+	 	*);;
+
+char_p_er_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Пьер ]
+		(* <- lang_ru;; *);;
+
+char_kons_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Конс ]
+		(* <- lang_ru;; *);;
+
+char_aronaka_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Аронака ]
+		(* <- lang_ru;; *);;
+
+char_avraam_linkol_n_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Авраам Линкольн ]
+		(* <- lang_ru;; *);;
+
+char_sandvicev_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Сандвичев ]
+		(* <- lang_ru;; *);;
+
+char_aron_book_20000_Le_Pod_Vodoy
+<- char;
+=> nrel_main_idtf:
+	[ Арон ]
+		(* <- lang_ru;; *);;
+
+book_20000_Le_Pod_Vodoy
+=> nrel_locales:
+	.book_20000_Le_Pod_Vodoy_locales
+		(*
+			-> locale_radom_book_20000_Le_Pod_Vodoy;;
+			-> locale_kotoryj_book_20000_Le_Pod_Vodoy;;
+			-> locale_zejlon_book_20000_Le_Pod_Vodoy;;
+			-> locale_gveboroara_book_20000_Le_Pod_Vodoy;;
+			-> locale_mal_strivsij_book_20000_Le_Pod_Vodoy;;
+			-> locale_gol_fstrim_book_20000_Le_Pod_Vodoy;;
+			-> locale_gavaji_book_20000_Le_Pod_Vodoy;;
+			-> locale_faraguta_book_20000_Le_Pod_Vodoy;;
+			-> locale_franzuzskaa_respublika_book_20000_Le_Pod_Vodoy;;
+			-> locale_franzuzskaa_gviana_book_20000_Le_Pod_Vodoy;;
+			-> locale_aronaksu_book_20000_Le_Pod_Vodoy;;
+			-> locale_krasnyj_book_20000_Le_Pod_Vodoy;;
+			-> locale_novaa_gvinea_book_20000_Le_Pod_Vodoy;;
+			-> locale_evropa_book_20000_Le_Pod_Vodoy;;
+			-> locale_krasnoe_book_20000_Le_Pod_Vodoy;;
+			-> locale_gigantskij_kal_mar_book_20000_Le_Pod_Vodoy;;
+			-> locale_avstralia_book_20000_Le_Pod_Vodoy;;
+			-> locale_brazilia_book_20000_Le_Pod_Vodoy;;
+			-> locale_gorn_book_20000_Le_Pod_Vodoy;;
+			-> locale_ajlend_book_20000_Le_Pod_Vodoy;;
+			-> locale_taiti_book_20000_Le_Pod_Vodoy;;
+			-> locale_lend_book_20000_Le_Pod_Vodoy;;
+			-> locale_vostok_book_20000_Le_Pod_Vodoy;;
+			-> locale_zapad_book_20000_Le_Pod_Vodoy;;
+			-> locale_norvegia_book_20000_Le_Pod_Vodoy;;
+			-> locale_velik_book_20000_Le_Pod_Vodoy;;
+			-> locale_maj_book_20000_Le_Pod_Vodoy;;
+			-> locale_atlantida_book_20000_Le_Pod_Vodoy;;
+	 	*);;
+
+locale_radom_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Радом ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_zejlon_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Цейлон ]
+		(* <- lang_ru;; *);;
+
+locale_gveboroara_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Гвебороара ]
+		(* <- lang_ru;; *);;
+
+locale_mal_strivsij_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Мальстривший ]
+		(* <- lang_ru;; *);;
+
+locale_gol_fstrim_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Гольфстрим ]
+		(* <- lang_ru;; *);;
+
+locale_gavaji_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Гавайи ]
+		(* <- lang_ru;; *);;
+
+locale_faraguta_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Фарагута ]
+		(* <- lang_ru;; *);;
+
+locale_franzuzskaa_respublika_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Французская Республика ]
+		(* <- lang_ru;; *);;
+
+locale_franzuzskaa_gviana_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Французская Гвиана ]
+		(* <- lang_ru;; *);;
+
+locale_aronaksu_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Аронаксу ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_gvinea_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Гвинея ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_gigantskij_kal_mar_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Гигантский Кальмар ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_brazilia_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Бразилия ]
+		(* <- lang_ru;; *);;
+
+locale_gorn_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Горн ]
+		(* <- lang_ru;; *);;
+
+locale_ajlend_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Айленд ]
+		(* <- lang_ru;; *);;
+
+locale_taiti_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Таити ]
+		(* <- lang_ru;; *);;
+
+locale_lend_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Ленд ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_atlantida_book_20000_Le_Pod_Vodoy
+<- locale;
+=> nrel_main_idtf:
+	[ Атлантида ]
+		(* <- lang_ru;; *);;
+
+book_20000_Le_Pod_Vodoy
+=> nrel_dates:
+	.book_20000_Le_Pod_Vodoy_dates
+		(*
+			-> date_2_14_book_20000_Le_Pod_Vodoy;;
+			-> date_2_18_book_20000_Le_Pod_Vodoy;;
+			-> date_2_21_book_20000_Le_Pod_Vodoy;;
+			-> date_11_10_book_20000_Le_Pod_Vodoy;;
+			-> date_3_18_book_20000_Le_Pod_Vodoy;;
+			-> date_2_7_book_20000_Le_Pod_Vodoy;;
+			-> date_3_13_book_20000_Le_Pod_Vodoy;;
+			-> date_2_11_book_20000_Le_Pod_Vodoy;;
+			-> date_4_20_book_20000_Le_Pod_Vodoy;;
+			-> date_1_28_book_20000_Le_Pod_Vodoy;;
+			-> date_1867_book_20000_Le_Pod_Vodoy;;
+			-> date_11_26_book_20000_Le_Pod_Vodoy;;
+			-> date_1_18_book_20000_Le_Pod_Vodoy;;
+			-> date_1_26_book_20000_Le_Pod_Vodoy;;
+			-> date_11_5_book_20000_Le_Pod_Vodoy;;
+			-> date_3_31_book_20000_Le_Pod_Vodoy;;
+			-> date_2_19_book_20000_Le_Pod_Vodoy;;
+			-> date_1866_book_20000_Le_Pod_Vodoy;;
+			-> date_1_9_book_20000_Le_Pod_Vodoy;;
+			-> date_11_6_book_20000_Le_Pod_Vodoy;;
+			-> date_11_8_book_20000_Le_Pod_Vodoy;;
+			-> date_3_19_book_20000_Le_Pod_Vodoy;;
+			-> date_3_14_book_20000_Le_Pod_Vodoy;;
+			-> date_5_1_book_20000_Le_Pod_Vodoy;;
+			-> date_1_4_book_20000_Le_Pod_Vodoy;;
+			-> date_6_1_book_20000_Le_Pod_Vodoy;;
+			-> date_3_21_book_20000_Le_Pod_Vodoy;;
+	 	*);;
+
+date_2_14_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 14 ]
+		(* <- lang_ru;; *);;
+
+date_2_18_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 18 ]
+		(* <- lang_ru;; *);;
+
+date_2_21_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 21 ]
+		(* <- lang_ru;; *);;
+
+date_11_10_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 11 10 ]
+		(* <- lang_ru;; *);;
+
+date_3_18_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 18 ]
+		(* <- lang_ru;; *);;
+
+date_2_7_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 7 ]
+		(* <- lang_ru;; *);;
+
+date_3_13_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 13 ]
+		(* <- lang_ru;; *);;
+
+date_2_11_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 11 ]
+		(* <- lang_ru;; *);;
+
+date_4_20_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 4 20 ]
+		(* <- lang_ru;; *);;
+
+date_1_28_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1 28 ]
+		(* <- lang_ru;; *);;
+
+date_1867_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1867 ]
+		(* <- lang_ru;; *);;
+
+date_11_26_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 11 26 ]
+		(* <- lang_ru;; *);;
+
+date_1_18_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1 18 ]
+		(* <- lang_ru;; *);;
+
+date_1_26_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1 26 ]
+		(* <- lang_ru;; *);;
+
+date_11_5_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 11 5 ]
+		(* <- lang_ru;; *);;
+
+date_3_31_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 31 ]
+		(* <- lang_ru;; *);;
+
+date_2_19_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 2 19 ]
+		(* <- lang_ru;; *);;
+
+date_1866_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1866 ]
+		(* <- lang_ru;; *);;
+
+date_1_9_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1 9 ]
+		(* <- lang_ru;; *);;
+
+date_11_6_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 11 6 ]
+		(* <- lang_ru;; *);;
+
+date_11_8_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 11 8 ]
+		(* <- lang_ru;; *);;
+
+date_3_19_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 19 ]
+		(* <- lang_ru;; *);;
+
+date_3_14_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 14 ]
+		(* <- lang_ru;; *);;
+
+date_5_1_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 5 1 ]
+		(* <- lang_ru;; *);;
+
+date_1_4_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 1 4 ]
+		(* <- lang_ru;; *);;
+
+date_6_1_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 6 1 ]
+		(* <- lang_ru;; *);;
+
+date_3_21_book_20000_Le_Pod_Vodoy
+<- date;
+=> nrel_main_idtf:
+	[ 3 21 ]
+		(* <- lang_ru;; *);;
+

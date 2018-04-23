@@ -1,0 +1,71 @@
+book_Osen_V_Hanskom_Dvorce
+<- book;
+=> nrel_author;
+	author_Ma_Chzhijuan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Крик Одинокого Гуся Отгоняет Сны Осенней Порою В Ханьском Дворце]
+		(* <- lang_ru;; *);;
+
+book_Osen_V_Hanskom_Dvorce
+=> nrel_characters:
+	.book_Osen_V_Hanskom_Dvorce_characters
+		(*
+			-> char_van_book_Osen_V_Hanskom_Dvorce;;
+			-> char_cjao_book_Osen_V_Hanskom_Dvorce;;
+			-> char_cjaozzunuvsij_book_Osen_V_Hanskom_Dvorce;;
+			-> char_mao_book_Osen_V_Hanskom_Dvorce;;
+	 	*);;
+
+char_van_book_Osen_V_Hanskom_Dvorce
+<- char;
+=> nrel_main_idtf:
+	[ Ван ]
+		(* <- lang_ru;; *);;
+
+char_cjao_book_Osen_V_Hanskom_Dvorce
+<- char;
+=> nrel_main_idtf:
+	[ Чжао ]
+		(* <- lang_ru;; *);;
+
+char_cjaozzunuvsij_book_Osen_V_Hanskom_Dvorce
+<- char;
+=> nrel_main_idtf:
+	[ Чжаоцзюнувший ]
+		(* <- lang_ru;; *);;
+
+char_mao_book_Osen_V_Hanskom_Dvorce
+<- char;
+=> nrel_main_idtf:
+	[ Мао ]
+		(* <- lang_ru;; *);;
+
+book_Osen_V_Hanskom_Dvorce
+=> nrel_locales:
+	.book_Osen_V_Hanskom_Dvorce_locales
+		(*
+			-> locale_balinzao_book_Osen_V_Hanskom_Dvorce;;
+			-> locale_minfej_book_Osen_V_Hanskom_Dvorce;;
+			-> locale_cjao_book_Osen_V_Hanskom_Dvorce;;
+	 	*);;
+
+locale_balinzao_book_Osen_V_Hanskom_Dvorce
+<- locale;
+=> nrel_main_idtf:
+	[ Балинцяо ]
+		(* <- lang_ru;; *);;
+
+locale_minfej_book_Osen_V_Hanskom_Dvorce
+<- locale;
+=> nrel_main_idtf:
+	[ Минфэй ]
+		(* <- lang_ru;; *);;
+
+locale_cjao_book_Osen_V_Hanskom_Dvorce
+<- locale;
+=> nrel_main_idtf:
+	[ Чжао ]
+		(* <- lang_ru;; *);;
+

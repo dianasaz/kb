@@ -1,0 +1,16 @@
+author_Sofokl
+<- person;
+=> nrel_main_idtf:
+	[Софокл]
+		(* <- lang_ru;; *);;
+
+author_Sofokl
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Sofokl.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

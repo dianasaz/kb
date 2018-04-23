@@ -1,0 +1,56 @@
+book_Golod
+<- book;
+=> nrel_author;
+	author_Gamsun;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Голод]
+		(* <- lang_ru;; *);;
+
+book_Golod
+=> nrel_characters:
+	.book_Golod_characters
+		(*
+			-> char_gamsun_book_Golod;;
+	 	*);;
+
+char_gamsun_book_Golod
+<- char;
+=> nrel_main_idtf:
+	[ Гамсун ]
+		(* <- lang_ru;; *);;
+
+book_Golod
+=> nrel_locales:
+	.book_Golod_locales
+		(*
+			-> locale_to_book_Golod;;
+			-> locale_nynesnij_oslo_book_Golod;;
+	 	*);;
+
+locale_to_book_Golod
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nynesnij_oslo_book_Golod
+<- locale;
+=> nrel_main_idtf:
+	[ Нынешний Осло ]
+		(* <- lang_ru;; *);;
+
+book_Golod
+=> nrel_dates:
+	.book_Golod_dates
+		(*
+			-> date_1886_book_Golod;;
+	 	*);;
+
+date_1886_book_Golod
+<- date;
+=> nrel_main_idtf:
+	[ 1886 ]
+		(* <- lang_ru;; *);;
+

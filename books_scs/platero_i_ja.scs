@@ -1,0 +1,155 @@
+book_Platero_I_Ja
+<- book;
+=> nrel_author;
+	author_Himenes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Платеро И Я]
+		(* <- lang_ru;; *);;
+
+book_Platero_I_Ja
+=> nrel_characters:
+	.book_Platero_I_Ja_characters
+		(*
+			-> char_leon_book_Platero_I_Ja;;
+			-> char_leon_mogera_book_Platero_I_Ja;;
+			-> char_himenes_book_Platero_I_Ja;;
+			-> char_mogera_book_Platero_I_Ja;;
+			-> char_huan_book_Platero_I_Ja;;
+			-> char_ramon_himenes_book_Platero_I_Ja;;
+			-> char_kampoamor_book_Platero_I_Ja;;
+	 	*);;
+
+char_leon_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Леон ]
+		(* <- lang_ru;; *);;
+
+char_leon_mogera_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Леон Могёра ]
+		(* <- lang_ru;; *);;
+
+char_himenes_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Хименес ]
+		(* <- lang_ru;; *);;
+
+char_mogera_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Могера ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_ramon_himenes_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Рамон Хименес ]
+		(* <- lang_ru;; *);;
+
+char_kampoamor_book_Platero_I_Ja
+<- char;
+=> nrel_main_idtf:
+	[ Кампоамор ]
+		(* <- lang_ru;; *);;
+
+book_Platero_I_Ja
+=> nrel_locales:
+	.book_Platero_I_Ja_locales
+		(*
+			-> locale_bykov_book_Platero_I_Ja;;
+			-> locale_krasnyh_book_Platero_I_Ja;;
+			-> locale_breda_book_Platero_I_Ja;;
+			-> locale_zaholustnaa_andaluzia_book_Platero_I_Ja;;
+			-> locale_andaluzia_book_Platero_I_Ja;;
+			-> locale_kotoryj_book_Platero_I_Ja;;
+			-> locale_leon_book_Platero_I_Ja;;
+			-> locale_krasnyj_book_Platero_I_Ja;;
+			-> locale_to_book_Platero_I_Ja;;
+			-> locale_sevil_a_book_Platero_I_Ja;;
+			-> locale_rodnoj_kraj_book_Platero_I_Ja;;
+			-> locale_rodnoj_gorodok_book_Platero_I_Ja;;
+	 	*);;
+
+locale_bykov_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_zaholustnaa_andaluzia_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Захолустная Андалузия ]
+		(* <- lang_ru;; *);;
+
+locale_andaluzia_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Андалузия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_leon_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Леон ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_kraj_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Край ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_gorodok_book_Platero_I_Ja
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Городок ]
+		(* <- lang_ru;; *);;
+

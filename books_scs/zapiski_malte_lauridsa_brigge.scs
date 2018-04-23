@@ -1,0 +1,113 @@
+book_Zapiski_Malte_Lauridsa_Brigge
+<- book;
+=> nrel_author;
+	author_Rilke;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Записки Мальте Лауридса Бригге]
+		(* <- lang_ru;; *);;
+
+book_Zapiski_Malte_Lauridsa_Brigge
+=> nrel_characters:
+	.book_Zapiski_Malte_Lauridsa_Brigge_characters
+		(*
+			-> char_ulian_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> char_gaspar_stamp_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> char_ivan_kuz_mic_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> char_marianna_book_Zapiski_Malte_Lauridsa_Brigge;;
+	 	*);;
+
+char_ulian_book_Zapiski_Malte_Lauridsa_Brigge
+<- char;
+=> nrel_main_idtf:
+	[ Юлиан ]
+		(* <- lang_ru;; *);;
+
+char_gaspar_stamp_book_Zapiski_Malte_Lauridsa_Brigge
+<- char;
+=> nrel_main_idtf:
+	[ Гаспар Стамп ]
+		(* <- lang_ru;; *);;
+
+char_ivan_kuz_mic_book_Zapiski_Malte_Lauridsa_Brigge
+<- char;
+=> nrel_main_idtf:
+	[ Иван Кузьмич ]
+		(* <- lang_ru;; *);;
+
+char_marianna_book_Zapiski_Malte_Lauridsa_Brigge
+<- char;
+=> nrel_main_idtf:
+	[ Марианна ]
+		(* <- lang_ru;; *);;
+
+book_Zapiski_Malte_Lauridsa_Brigge
+=> nrel_locales:
+	.book_Zapiski_Malte_Lauridsa_Brigge_locales
+		(*
+			-> locale_velikoe_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_dania_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_laurids_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_mal_ta_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_brigge_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_to_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_parij_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_al_koforado_book_Zapiski_Malte_Lauridsa_Brigge;;
+			-> locale_pafos_book_Zapiski_Malte_Lauridsa_Brigge;;
+	 	*);;
+
+locale_velikoe_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_dania_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Дания ]
+		(* <- lang_ru;; *);;
+
+locale_laurids_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Лауридс ]
+		(* <- lang_ru;; *);;
+
+locale_mal_ta_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Мальта ]
+		(* <- lang_ru;; *);;
+
+locale_brigge_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Бригге ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_al_koforado_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Алькофорадо ]
+		(* <- lang_ru;; *);;
+
+locale_pafos_book_Zapiski_Malte_Lauridsa_Brigge
+<- locale;
+=> nrel_main_idtf:
+	[ Пафос ]
+		(* <- lang_ru;; *);;
+

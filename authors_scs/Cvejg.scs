@@ -1,0 +1,16 @@
+author_Cvejg
+<- person;
+=> nrel_main_idtf:
+	[Стефан Цвейг]
+		(* <- lang_ru;; *);;
+
+author_Cvejg
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Cvejg.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

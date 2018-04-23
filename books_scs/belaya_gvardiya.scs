@@ -1,0 +1,329 @@
+book_Belaya_Gvardiya
+<- book;
+=> nrel_author;
+	author_Bulgakov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Белая Гвардия]
+		(* <- lang_ru;; *);;
+
+book_Belaya_Gvardiya
+=> nrel_characters:
+	.book_Belaya_Gvardiya_characters
+		(*
+			-> char_nikolka_book_Belaya_Gvardiya;;
+			-> char_vanda_mihajlovna_book_Belaya_Gvardiya;;
+			-> char_sergej_book_Belaya_Gvardiya;;
+			-> char_stepanov_book_Belaya_Gvardiya;;
+			-> char_tal_berg_book_Belaya_Gvardiya;;
+			-> char_belorukov_book_Belaya_Gvardiya;;
+			-> char_vasilisa_book_Belaya_Gvardiya;;
+			-> char_ulia_book_Belaya_Gvardiya;;
+			-> char_elena_book_Belaya_Gvardiya;;
+			-> char_naj_book_Belaya_Gvardiya;;
+			-> char_sergej_ivanovic_tal_berg_book_Belaya_Gvardiya;;
+			-> char_vasilij_ivanovic_lisovic_book_Belaya_Gvardiya;;
+			-> char_malysev_book_Belaya_Gvardiya;;
+			-> char_ulij_book_Belaya_Gvardiya;;
+			-> char_larion_book_Belaya_Gvardiya;;
+			-> char_rejs_book_Belaya_Gvardiya;;
+			-> char_nikolaj_turbin_book_Belaya_Gvardiya;;
+			-> char_turbin_book_Belaya_Gvardiya;;
+			-> char_irina_book_Belaya_Gvardiya;;
+			-> char_aleksej_turbin_book_Belaya_Gvardiya;;
+			-> char_denikin_book_Belaya_Gvardiya;;
+			-> char_ulij_rejs_book_Belaya_Gvardiya;;
+			-> char_turs_book_Belaya_Gvardiya;;
+			-> char_aleksej_book_Belaya_Gvardiya;;
+	 	*);;
+
+char_nikolka_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Николка ]
+		(* <- lang_ru;; *);;
+
+char_vanda_mihajlovna_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Ванда Михайловна ]
+		(* <- lang_ru;; *);;
+
+char_sergej_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Сергей ]
+		(* <- lang_ru;; *);;
+
+char_stepanov_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Степанов ]
+		(* <- lang_ru;; *);;
+
+char_tal_berg_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Тальберг ]
+		(* <- lang_ru;; *);;
+
+char_belorukov_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Белоруков ]
+		(* <- lang_ru;; *);;
+
+char_vasilisa_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Василиса ]
+		(* <- lang_ru;; *);;
+
+char_ulia_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Юлия ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_naj_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Най ]
+		(* <- lang_ru;; *);;
+
+char_sergej_ivanovic_tal_berg_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Сергей Иванович Тальберг ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_ivanovic_lisovic_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Василий Иванович Лисович ]
+		(* <- lang_ru;; *);;
+
+char_malysev_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Малышев ]
+		(* <- lang_ru;; *);;
+
+char_ulij_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Юлий ]
+		(* <- lang_ru;; *);;
+
+char_larion_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Ларион ]
+		(* <- lang_ru;; *);;
+
+char_rejs_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Рейс ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_turbin_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Николай Турбин ]
+		(* <- lang_ru;; *);;
+
+char_turbin_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Турбин ]
+		(* <- lang_ru;; *);;
+
+char_irina_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Ирина ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_turbin_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Турбин ]
+		(* <- lang_ru;; *);;
+
+char_denikin_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Деникин ]
+		(* <- lang_ru;; *);;
+
+char_ulij_rejs_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Юлий Рейс ]
+		(* <- lang_ru;; *);;
+
+char_turs_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Турс ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_book_Belaya_Gvardiya
+<- char;
+=> nrel_main_idtf:
+	[ Алексей ]
+		(* <- lang_ru;; *);;
+
+book_Belaya_Gvardiya
+=> nrel_locales:
+	.book_Belaya_Gvardiya_locales
+		(*
+			-> locale_rossia_book_Belaya_Gvardiya;;
+			-> locale_kotoryj_book_Belaya_Gvardiya;;
+			-> locale_ukraina_book_Belaya_Gvardiya;;
+			-> locale_vsa_ukraina_book_Belaya_Gvardiya;;
+			-> locale_petlur_book_Belaya_Gvardiya;;
+			-> locale_moskva_book_Belaya_Gvardiya;;
+			-> locale_kiev_book_Belaya_Gvardiya;;
+			-> locale_malorossia_book_Belaya_Gvardiya;;
+			-> locale_tal_berg_book_Belaya_Gvardiya;;
+			-> locale_don_book_Belaya_Gvardiya;;
+			-> locale_jitomir_book_Belaya_Gvardiya;;
+			-> locale_to_book_Belaya_Gvardiya;;
+			-> locale_varsava_book_Belaya_Gvardiya;;
+			-> locale_peterburg_book_Belaya_Gvardiya;;
+	 	*);;
+
+locale_rossia_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ukraina_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Украина ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_ukraina_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Украина ]
+		(* <- lang_ru;; *);;
+
+locale_petlur_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Петлюр ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_malorossia_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Малороссия ]
+		(* <- lang_ru;; *);;
+
+locale_tal_berg_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Тальберг ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_jitomir_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Житомир ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Belaya_Gvardiya
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Belaya_Gvardiya
+=> nrel_dates:
+	.book_Belaya_Gvardiya_dates
+		(*
+			-> date_1918_book_Belaya_Gvardiya;;
+			-> date_2_3_book_Belaya_Gvardiya;;
+			-> date_12_10_book_Belaya_Gvardiya;;
+			-> date_12_14_book_Belaya_Gvardiya;;
+			-> date_12_22_book_Belaya_Gvardiya;;
+	 	*);;
+
+date_1918_book_Belaya_Gvardiya
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+
+date_2_3_book_Belaya_Gvardiya
+<- date;
+=> nrel_main_idtf:
+	[ 2 3 ]
+		(* <- lang_ru;; *);;
+
+date_12_10_book_Belaya_Gvardiya
+<- date;
+=> nrel_main_idtf:
+	[ 12 10 ]
+		(* <- lang_ru;; *);;
+
+date_12_14_book_Belaya_Gvardiya
+<- date;
+=> nrel_main_idtf:
+	[ 12 14 ]
+		(* <- lang_ru;; *);;
+
+date_12_22_book_Belaya_Gvardiya
+<- date;
+=> nrel_main_idtf:
+	[ 12 22 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,148 @@
+book_Geroj_Nashego_Vremeni
+<- book;
+=> nrel_author;
+	author_Lermontov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Герой Нашего Времени]
+		(* <- lang_ru;; *);;
+
+book_Geroj_Nashego_Vremeni
+=> nrel_characters:
+	.book_Geroj_Nashego_Vremeni_characters
+		(*
+			-> char_grigorij_book_Geroj_Nashego_Vremeni;;
+			-> char_meri_book_Geroj_Nashego_Vremeni;;
+			-> char_pecorin_book_Geroj_Nashego_Vremeni;;
+			-> char_bela_book_Geroj_Nashego_Vremeni;;
+			-> char_grigorij_pecorin_book_Geroj_Nashego_Vremeni;;
+			-> char_bela_book_Geroj_Nashego_Vremeni;;
+			-> char_grusnizkij_book_Geroj_Nashego_Vremeni;;
+			-> char_maksim_maksimyc_book_Geroj_Nashego_Vremeni;;
+			-> char_vulic_book_Geroj_Nashego_Vremeni;;
+			-> char_verner_book_Geroj_Nashego_Vremeni;;
+	 	*);;
+
+char_grigorij_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Мери ]
+		(* <- lang_ru;; *);;
+
+char_pecorin_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Печорин ]
+		(* <- lang_ru;; *);;
+
+char_bela_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Бэля ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_pecorin_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Григорий Печорин ]
+		(* <- lang_ru;; *);;
+
+char_bela_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Бэла ]
+		(* <- lang_ru;; *);;
+
+char_grusnizkij_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Грушницкий ]
+		(* <- lang_ru;; *);;
+
+char_maksim_maksimyc_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Максим Максимыч ]
+		(* <- lang_ru;; *);;
+
+char_vulic_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Вулич ]
+		(* <- lang_ru;; *);;
+
+char_verner_book_Geroj_Nashego_Vremeni
+<- char;
+=> nrel_main_idtf:
+	[ Вернер ]
+		(* <- lang_ru;; *);;
+
+book_Geroj_Nashego_Vremeni
+=> nrel_locales:
+	.book_Geroj_Nashego_Vremeni_locales
+		(*
+			-> locale_persia_book_Geroj_Nashego_Vremeni;;
+			-> locale_patigorsk_book_Geroj_Nashego_Vremeni;;
+			-> locale_rossia_book_Geroj_Nashego_Vremeni;;
+			-> locale_taman__book_Geroj_Nashego_Vremeni;;
+			-> locale_kotoryj_book_Geroj_Nashego_Vremeni;;
+			-> locale_kavkaz_book_Geroj_Nashego_Vremeni;;
+			-> locale_provinzial_nyj_gorodok_book_Geroj_Nashego_Vremeni;;
+			-> locale_vsa_kabarda_book_Geroj_Nashego_Vremeni;;
+	 	*);;
+
+locale_persia_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Персия ]
+		(* <- lang_ru;; *);;
+
+locale_patigorsk_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Пятигорск ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_taman__book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Тамань ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kavkaz_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Кавказ ]
+		(* <- lang_ru;; *);;
+
+locale_provinzial_nyj_gorodok_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Провинциальный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_kabarda_book_Geroj_Nashego_Vremeni
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Кабарда ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Amadu
+<- person;
+=> nrel_main_idtf:
+	[Жоржи Амаду]
+		(* <- lang_ru;; *);;
+
+author_Amadu
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Amadu.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,16 @@
+author_Shou
+<- person;
+=> nrel_main_idtf:
+	[Бернард Шоу]
+		(* <- lang_ru;; *);;
+
+author_Shou
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Shou.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

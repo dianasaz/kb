@@ -1,0 +1,71 @@
+book_Ozarenie
+<- book;
+=> nrel_author;
+	author_Gladuell;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сила Мгновенных Решений: Интуиция Как Навык]
+		(* <- lang_ru;; *);;
+
+book_Ozarenie
+=> nrel_characters:
+	.book_Ozarenie_characters
+		(*
+			-> char_harding_uorren_book_Ozarenie;;
+	 	*);;
+
+char_harding_uorren_book_Ozarenie
+<- char;
+=> nrel_main_idtf:
+	[ Хардинг Уоррен ]
+		(* <- lang_ru;; *);;
+
+book_Ozarenie
+=> nrel_locales:
+	.book_Ozarenie_locales
+		(*
+			-> locale_prezidentski_book_Ozarenie;;
+			-> locale_spezificeska_book_Ozarenie;;
+			-> locale_ssa_book_Ozarenie;;
+			-> locale_to_book_Ozarenie;;
+			-> locale_soedinennyj_stat_book_Ozarenie;;
+			-> locale_para_book_Ozarenie;;
+	 	*);;
+
+locale_prezidentski_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ Президентски ]
+		(* <- lang_ru;; *);;
+
+locale_spezificeska_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ Специфичёска ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_soedinennyj_stat_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ Соединённый Штат ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Ozarenie
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

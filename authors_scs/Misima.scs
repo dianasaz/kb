@@ -1,0 +1,16 @@
+author_Misima
+<- person;
+=> nrel_main_idtf:
+	[Юкио Мисима]
+		(* <- lang_ru;; *);;
+
+author_Misima
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Misima.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,190 @@
+book_Vsadniki
+<- book;
+=> nrel_author;
+	author_Aristofan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Всадники]
+		(* <- lang_ru;; *);;
+
+book_Vsadniki
+=> nrel_characters:
+	.book_Vsadniki_characters
+		(*
+			-> char_kleonov_book_Vsadniki;;
+			-> char_afina_book_Vsadniki;;
+			-> char_salamin_book_Vsadniki;;
+			-> char_medea_book_Vsadniki;;
+			-> char_kleon_book_Vsadniki;;
+			-> char_aristofanov_book_Vsadniki;;
+	 	*);;
+
+char_kleonov_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Клеонов ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_salamin_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Саламин ]
+		(* <- lang_ru;; *);;
+
+char_medea_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Медея ]
+		(* <- lang_ru;; *);;
+
+char_kleon_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+char_aristofanov_book_Vsadniki
+<- char;
+=> nrel_main_idtf:
+	[ Аристофанов ]
+		(* <- lang_ru;; *);;
+
+book_Vsadniki
+=> nrel_locales:
+	.book_Vsadniki_locales
+		(*
+			-> locale_etot_kleonov_book_Vsadniki;;
+			-> locale_pilosa_book_Vsadniki;;
+			-> locale_afiny_book_Vsadniki;;
+			-> locale_zelyj_pilos_book_Vsadniki;;
+			-> locale_mirnyj_book_Vsadniki;;
+			-> locale_oni_kleona_book_Vsadniki;;
+			-> locale_salamin_book_Vsadniki;;
+			-> locale_gorod_pilosa_book_Vsadniki;;
+			-> locale_pilos_book_Vsadniki;;
+			-> locale_azia_book_Vsadniki;;
+			-> locale_kleon_book_Vsadniki;;
+			-> locale_vsa_grezia_book_Vsadniki;;
+			-> locale_tvoj_afina_book_Vsadniki;;
+			-> locale_nikia_book_Vsadniki;;
+			-> locale_afina_book_Vsadniki;;
+			-> locale_afrika_book_Vsadniki;;
+			-> locale_pilos__book_Vsadniki;;
+			-> locale_grezia_book_Vsadniki;;
+	 	*);;
+
+locale_etot_kleonov_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Клеонов ]
+		(* <- lang_ru;; *);;
+
+locale_pilosa_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Пилоса ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_zelyj_pilos_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Целый Пилос ]
+		(* <- lang_ru;; *);;
+
+locale_mirnyj_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_oni_kleona_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Они Клеона ]
+		(* <- lang_ru;; *);;
+
+locale_salamin_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Саламин ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_pilosa_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Город Пилоса ]
+		(* <- lang_ru;; *);;
+
+locale_pilos_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Пилос ]
+		(* <- lang_ru;; *);;
+
+locale_azia_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Азия ]
+		(* <- lang_ru;; *);;
+
+locale_kleon_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_tvoj_afina_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Твой Афина ]
+		(* <- lang_ru;; *);;
+
+locale_nikia_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Никия ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_pilos__book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Пилось ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Vsadniki
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,266 @@
+book_Homo_Faber
+<- book;
+=> nrel_author;
+	author_Frish;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Хомо Фабер]
+		(* <- lang_ru;; *);;
+
+book_Homo_Faber
+=> nrel_characters:
+	.book_Homo_Faber_characters
+		(*
+			-> char_ioahim_book_Homo_Faber;;
+			-> char_val_ter_faber_book_Homo_Faber;;
+			-> char_val_ter_book_Homo_Faber;;
+			-> char_afina_book_Homo_Faber;;
+			-> char_ganna_book_Homo_Faber;;
+			-> char_faber_book_Homo_Faber;;
+			-> char_sabet_book_Homo_Faber;;
+			-> char_elisabet_piper_book_Homo_Faber;;
+			-> char_suniona_book_Homo_Faber;;
+			-> char_elisabet_book_Homo_Faber;;
+			-> char_gerbert_book_Homo_Faber;;
+			-> char_ioahim_fabera_book_Homo_Faber;;
+	 	*);;
+
+char_ioahim_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Иоахим ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_faber_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер Фабер ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_ganna_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Ганна ]
+		(* <- lang_ru;; *);;
+
+char_faber_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Фабер ]
+		(* <- lang_ru;; *);;
+
+char_sabet_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Сабет ]
+		(* <- lang_ru;; *);;
+
+char_elisabet_piper_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Элисабет Пипер ]
+		(* <- lang_ru;; *);;
+
+char_suniona_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Суниона ]
+		(* <- lang_ru;; *);;
+
+char_elisabet_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Элисабет ]
+		(* <- lang_ru;; *);;
+
+char_gerbert_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Герберт ]
+		(* <- lang_ru;; *);;
+
+char_ioahim_fabera_book_Homo_Faber
+<- char;
+=> nrel_main_idtf:
+	[ Иоахим Фабёра ]
+		(* <- lang_ru;; *);;
+
+book_Homo_Faber
+=> nrel_locales:
+	.book_Homo_Faber_locales
+		(*
+			-> locale_piza_book_Homo_Faber;;
+			-> locale_grezia_book_Homo_Faber;;
+			-> locale_florenzia_book_Homo_Faber;;
+			-> locale_siena_book_Homo_Faber;;
+			-> locale_avstralia_book_Homo_Faber;;
+			-> locale_kotoryj_book_Homo_Faber;;
+			-> locale_lissabon_book_Homo_Faber;;
+			-> locale_kub_book_Homo_Faber;;
+			-> locale_jork_book_Homo_Faber;;
+			-> locale_bagdad_book_Homo_Faber;;
+			-> locale_karakas_book_Homo_Faber;;
+			-> locale_kanada_book_Homo_Faber;;
+			-> locale_parij_book_Homo_Faber;;
+			-> locale_evropa_book_Homo_Faber;;
+			-> locale_gvatemala_book_Homo_Faber;;
+			-> locale_dussel_dorf_book_Homo_Faber;;
+			-> locale_afina_book_Homo_Faber;;
+			-> locale_rim_book_Homo_Faber;;
+			-> locale_meksika_book_Homo_Faber;;
+			-> locale_svejzaria_book_Homo_Faber;;
+	 	*);;
+
+locale_piza_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Пиза ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_siena_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Сиена ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_lissabon_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Лиссабон ]
+		(* <- lang_ru;; *);;
+
+locale_kub_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Куб ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_bagdad_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Багдад ]
+		(* <- lang_ru;; *);;
+
+locale_karakas_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Каракас ]
+		(* <- lang_ru;; *);;
+
+locale_kanada_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Канада ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_gvatemala_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Гватемала ]
+		(* <- lang_ru;; *);;
+
+locale_dussel_dorf_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Дюссельдорф ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_meksika_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Мексика ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Homo_Faber
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Homo_Faber
+=> nrel_dates:
+	.book_Homo_Faber_dates
+		(*
+			-> date_1936_book_Homo_Faber;;
+			-> date_1957_book_Homo_Faber;;
+	 	*);;
+
+date_1936_book_Homo_Faber
+<- date;
+=> nrel_main_idtf:
+	[ 1936 ]
+		(* <- lang_ru;; *);;
+
+date_1957_book_Homo_Faber
+<- date;
+=> nrel_main_idtf:
+	[ 1957 ]
+		(* <- lang_ru;; *);;
+

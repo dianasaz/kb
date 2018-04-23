@@ -1,0 +1,113 @@
+book_Belyj_Klyk
+<- book;
+=> nrel_author;
+	author_London;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Белый Клык]
+		(* <- lang_ru;; *);;
+
+book_Belyj_Klyk
+=> nrel_characters:
+	.book_Belyj_Klyk_characters
+		(*
+			-> char_beloe_book_Belyj_Klyk;;
+			-> char_uidon_skott_book_Belyj_Klyk;;
+			-> char_smit_krasavcik_book_Belyj_Klyk;;
+			-> char_djim_holl_book_Belyj_Klyk;;
+			-> char_smit_book_Belyj_Klyk;;
+			-> char_klyk_book_Belyj_Klyk;;
+			-> char_skott_book_Belyj_Klyk;;
+			-> char_uidon_book_Belyj_Klyk;;
+	 	*);;
+
+char_beloe_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Белое ]
+		(* <- lang_ru;; *);;
+
+char_uidon_skott_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Уидон Скотт ]
+		(* <- lang_ru;; *);;
+
+char_smit_krasavcik_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Смит Красавчик ]
+		(* <- lang_ru;; *);;
+
+char_djim_holl_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Джим Холл ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_klyk_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Клык ]
+		(* <- lang_ru;; *);;
+
+char_skott_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Скотт ]
+		(* <- lang_ru;; *);;
+
+char_uidon_book_Belyj_Klyk
+<- char;
+=> nrel_main_idtf:
+	[ Уидон ]
+		(* <- lang_ru;; *);;
+
+book_Belyj_Klyk
+=> nrel_locales:
+	.book_Belyj_Klyk_locales
+		(*
+			-> locale_ukon_book_Belyj_Klyk;;
+			-> locale_uidon_book_Belyj_Klyk;;
+			-> locale_kotoryj_book_Belyj_Klyk;;
+			-> locale_kalifornia_book_Belyj_Klyk;;
+			-> locale_to_book_Belyj_Klyk;;
+	 	*);;
+
+locale_ukon_book_Belyj_Klyk
+<- locale;
+=> nrel_main_idtf:
+	[ Юкон ]
+		(* <- lang_ru;; *);;
+
+locale_uidon_book_Belyj_Klyk
+<- locale;
+=> nrel_main_idtf:
+	[ Уидон ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Belyj_Klyk
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kalifornia_book_Belyj_Klyk
+<- locale;
+=> nrel_main_idtf:
+	[ Калифорния ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Belyj_Klyk
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

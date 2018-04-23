@@ -1,0 +1,64 @@
+book_Sotnikov
+<- book;
+=> nrel_author;
+	author_Bykov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сотников]
+		(* <- lang_ru;; *);;
+
+book_Sotnikov
+=> nrel_characters:
+	.book_Sotnikov_characters
+		(*
+			-> char_basa_book_Sotnikov;;
+	 	*);;
+
+char_basa_book_Sotnikov
+<- char;
+=> nrel_main_idtf:
+	[ Бася ]
+		(* <- lang_ru;; *);;
+
+book_Sotnikov
+=> nrel_locales:
+	.book_Sotnikov_locales
+		(*
+			-> locale_varena_book_Sotnikov;;
+			-> locale_kotoryj_book_Sotnikov;;
+			-> locale_kuda_book_Sotnikov;;
+			-> locale_velikaa_germania_book_Sotnikov;;
+			-> locale_sotnikova_book_Sotnikov;;
+	 	*);;
+
+locale_varena_book_Sotnikov
+<- locale;
+=> nrel_main_idtf:
+	[ Варена ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sotnikov
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Sotnikov
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_velikaa_germania_book_Sotnikov
+<- locale;
+=> nrel_main_idtf:
+	[ Великая Германия ]
+		(* <- lang_ru;; *);;
+
+locale_sotnikova_book_Sotnikov
+<- locale;
+=> nrel_main_idtf:
+	[ Сотникова ]
+		(* <- lang_ru;; *);;
+

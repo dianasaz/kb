@@ -1,0 +1,154 @@
+book_Zamok
+<- book;
+=> nrel_author;
+	author_Kafka;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Замок]
+		(* <- lang_ru;; *);;
+
+book_Zamok
+=> nrel_characters:
+	.book_Zamok_characters
+		(*
+			-> char_klamma_book_Zamok;;
+			-> char_varnava_book_Zamok;;
+			-> char_erlangera_book_Zamok;;
+			-> char_ieremij_book_Zamok;;
+			-> char_frid_book_Zamok;;
+			-> char_K_frid_book_Zamok;;
+			-> char_erlanger_klamma_book_Zamok;;
+			-> char_ol_ga_book_Zamok;;
+			-> char_giza_book_Zamok;;
+			-> char_amalia_book_Zamok;;
+			-> char_frida_book_Zamok;;
+	 	*);;
+
+char_klamma_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Кламма ]
+		(* <- lang_ru;; *);;
+
+char_varnava_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Варнава ]
+		(* <- lang_ru;; *);;
+
+char_erlangera_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Эрлангера ]
+		(* <- lang_ru;; *);;
+
+char_ieremij_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Иеремий ]
+		(* <- lang_ru;; *);;
+
+char_frid_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Фрид ]
+		(* <- lang_ru;; *);;
+
+char_K_frid_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ К Фрид ]
+		(* <- lang_ru;; *);;
+
+char_erlanger_klamma_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Эрлангер Кламма ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_giza_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Гиза ]
+		(* <- lang_ru;; *);;
+
+char_amalia_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Амалия ]
+		(* <- lang_ru;; *);;
+
+char_frida_book_Zamok
+<- char;
+=> nrel_main_idtf:
+	[ Фрида ]
+		(* <- lang_ru;; *);;
+
+book_Zamok
+=> nrel_locales:
+	.book_Zamok_locales
+		(*
+			-> locale_kotoryj_book_Zamok;;
+			-> locale_kuda_book_Zamok;;
+			-> locale_tot_tot_book_Zamok;;
+			-> locale_vengria_book_Zamok;;
+			-> locale_sortina_book_Zamok;;
+			-> locale_orel_book_Zamok;;
+	 	*);;
+
+locale_kotoryj_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_tot_tot_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Тот Тот ]
+		(* <- lang_ru;; *);;
+
+locale_vengria_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Венгрия ]
+		(* <- lang_ru;; *);;
+
+locale_sortina_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Сортиня ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Zamok
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+book_Zamok
+=> nrel_dates:
+	.book_Zamok_dates
+		(*
+			-> date_1918_book_Zamok;;
+	 	*);;
+
+date_1918_book_Zamok
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+

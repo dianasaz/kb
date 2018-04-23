@@ -1,0 +1,113 @@
+book_Dobryj_Chelovek_Iz_Sychuani
+<- book;
+=> nrel_author;
+	author_Breht;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Добрый Человек Из Сычуани]
+		(* <- lang_ru;; *);;
+
+book_Dobryj_Chelovek_Iz_Sychuani
+=> nrel_characters:
+	.book_Dobryj_Chelovek_Iz_Sychuani_characters
+		(*
+			-> char_sycuana_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> char_suna_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> char_sun_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> char_su_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> char_sycuani_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> char_an_book_Dobryj_Chelovek_Iz_Sychuani;;
+	 	*);;
+
+char_sycuana_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Сычуаня ]
+		(* <- lang_ru;; *);;
+
+char_suna_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Суна ]
+		(* <- lang_ru;; *);;
+
+char_sun_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Сун ]
+		(* <- lang_ru;; *);;
+
+char_su_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Шу ]
+		(* <- lang_ru;; *);;
+
+char_sycuani_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Сычуани ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Dobryj_Chelovek_Iz_Sychuani
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Dobryj_Chelovek_Iz_Sychuani
+=> nrel_locales:
+	.book_Dobryj_Chelovek_Iz_Sychuani_locales
+		(*
+			-> locale_sycuana_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_suna_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_nevedomyj_oblast__book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_kotoryj_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_ee_hromoj_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_sycuani_book_Dobryj_Chelovek_Iz_Sychuani;;
+			-> locale_cen_book_Dobryj_Chelovek_Iz_Sychuani;;
+	 	*);;
+
+locale_sycuana_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Сычуаня ]
+		(* <- lang_ru;; *);;
+
+locale_suna_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Суна ]
+		(* <- lang_ru;; *);;
+
+locale_nevedomyj_oblast__book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Неведомый Область ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ee_hromoj_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Её Хромой ]
+		(* <- lang_ru;; *);;
+
+locale_sycuani_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Сычуани ]
+		(* <- lang_ru;; *);;
+
+locale_cen_book_Dobryj_Chelovek_Iz_Sychuani
+<- locale;
+=> nrel_main_idtf:
+	[ Чен ]
+		(* <- lang_ru;; *);;
+

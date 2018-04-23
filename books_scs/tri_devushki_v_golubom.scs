@@ -1,0 +1,85 @@
+book_Tri_Devushki_V_Golubom
+<- book;
+=> nrel_author;
+	author_Petrushevskaja;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Три Девушки В Голубом]
+		(* <- lang_ru;; *);;
+
+book_Tri_Devushki_V_Golubom
+=> nrel_characters:
+	.book_Tri_Devushki_V_Golubom_characters
+		(*
+			-> char_svetlana_book_Tri_Devushki_V_Golubom;;
+			-> char_maksim_book_Tri_Devushki_V_Golubom;;
+			-> char_pavlik_book_Tri_Devushki_V_Golubom;;
+			-> char_tat_ana_book_Tri_Devushki_V_Golubom;;
+			-> char_nikolaj_ivanovic_book_Tri_Devushki_V_Golubom;;
+	 	*);;
+
+char_svetlana_book_Tri_Devushki_V_Golubom
+<- char;
+=> nrel_main_idtf:
+	[ Светлана ]
+		(* <- lang_ru;; *);;
+
+char_maksim_book_Tri_Devushki_V_Golubom
+<- char;
+=> nrel_main_idtf:
+	[ Максим ]
+		(* <- lang_ru;; *);;
+
+char_pavlik_book_Tri_Devushki_V_Golubom
+<- char;
+=> nrel_main_idtf:
+	[ Павлик ]
+		(* <- lang_ru;; *);;
+
+char_tat_ana_book_Tri_Devushki_V_Golubom
+<- char;
+=> nrel_main_idtf:
+	[ Татьяна ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_ivanovic_book_Tri_Devushki_V_Golubom
+<- char;
+=> nrel_main_idtf:
+	[ Николай Иванович ]
+		(* <- lang_ru;; *);;
+
+book_Tri_Devushki_V_Golubom
+=> nrel_locales:
+	.book_Tri_Devushki_V_Golubom_locales
+		(*
+			-> locale_simferopol_skij_book_Tri_Devushki_V_Golubom;;
+			-> locale_simferopol__book_Tri_Devushki_V_Golubom;;
+			-> locale_koktebel__book_Tri_Devushki_V_Golubom;;
+			-> locale_moskva_book_Tri_Devushki_V_Golubom;;
+	 	*);;
+
+locale_simferopol_skij_book_Tri_Devushki_V_Golubom
+<- locale;
+=> nrel_main_idtf:
+	[ Симферопольский ]
+		(* <- lang_ru;; *);;
+
+locale_simferopol__book_Tri_Devushki_V_Golubom
+<- locale;
+=> nrel_main_idtf:
+	[ Симферополь ]
+		(* <- lang_ru;; *);;
+
+locale_koktebel__book_Tri_Devushki_V_Golubom
+<- locale;
+=> nrel_main_idtf:
+	[ Коктебель ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Tri_Devushki_V_Golubom
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+

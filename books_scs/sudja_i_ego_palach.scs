@@ -1,0 +1,182 @@
+book_Sudja_I_Ego_Palach
+<- book;
+=> nrel_author;
+	author_Djurrenmatt;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Судья И Его Палач]
+		(* <- lang_ru;; *);;
+
+book_Sudja_I_Ego_Palach
+=> nrel_characters:
+	.book_Sudja_I_Ego_Palach_characters
+		(*
+			-> char_senlera_book_Sudja_I_Ego_Palach;;
+			-> char_berlah_book_Sudja_I_Ego_Palach;;
+			-> char_al_fons_book_Sudja_I_Ego_Palach;;
+			-> char_smid_ul_rih_book_Sudja_I_Ego_Palach;;
+			-> char_gastman_book_Sudja_I_Ego_Palach;;
+			-> char_berlahoma_book_Sudja_I_Ego_Palach;;
+			-> char_lambuen_book_Sudja_I_Ego_Palach;;
+			-> char_bah_book_Sudja_I_Ego_Palach;;
+			-> char_aambuen_book_Sudja_I_Ego_Palach;;
+	 	*);;
+
+char_senlera_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Шенлера ]
+		(* <- lang_ru;; *);;
+
+char_berlah_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Берлах ]
+		(* <- lang_ru;; *);;
+
+char_al_fons_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Альфонс ]
+		(* <- lang_ru;; *);;
+
+char_smid_ul_rih_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Шмид Ульрих ]
+		(* <- lang_ru;; *);;
+
+char_gastman_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Гастман ]
+		(* <- lang_ru;; *);;
+
+char_berlahoma_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Берлахома ]
+		(* <- lang_ru;; *);;
+
+char_lambuen_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Ламбуэн ]
+		(* <- lang_ru;; *);;
+
+char_bah_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Бах ]
+		(* <- lang_ru;; *);;
+
+char_aambuen_book_Sudja_I_Ego_Palach
+<- char;
+=> nrel_main_idtf:
+	[ Аамбуэн ]
+		(* <- lang_ru;; *);;
+
+book_Sudja_I_Ego_Palach
+=> nrel_locales:
+	.book_Sudja_I_Ego_Palach_locales
+		(*
+			-> locale_karman_book_Sudja_I_Ego_Palach;;
+			-> locale_turzia_book_Sudja_I_Ego_Palach;;
+			-> locale_nekij_gastman_book_Sudja_I_Ego_Palach;;
+			-> locale_gastmane_book_Sudja_I_Ego_Palach;;
+			-> locale_gastmana_book_Sudja_I_Ego_Palach;;
+			-> locale_konstantinopol__book_Sudja_I_Ego_Palach;;
+			-> locale_to_book_Sudja_I_Ego_Palach;;
+			-> locale_gorod_bern_book_Sudja_I_Ego_Palach;;
+			-> locale_bern_book_Sudja_I_Ego_Palach;;
+			-> locale_germania_book_Sudja_I_Ego_Palach;;
+			-> locale_svejzaria_book_Sudja_I_Ego_Palach;;
+	 	*);;
+
+locale_karman_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_turzia_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Турция ]
+		(* <- lang_ru;; *);;
+
+locale_nekij_gastman_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Некий Гастман ]
+		(* <- lang_ru;; *);;
+
+locale_gastmane_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Гастмане ]
+		(* <- lang_ru;; *);;
+
+locale_gastmana_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Гастмана ]
+		(* <- lang_ru;; *);;
+
+locale_konstantinopol__book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Константинополь ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_bern_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Город Берн ]
+		(* <- lang_ru;; *);;
+
+locale_bern_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Берн ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Sudja_I_Ego_Palach
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Sudja_I_Ego_Palach
+=> nrel_dates:
+	.book_Sudja_I_Ego_Palach_dates
+		(*
+			-> date_1948_11_3_book_Sudja_I_Ego_Palach;;
+			-> date_1933_book_Sudja_I_Ego_Palach;;
+	 	*);;
+
+date_1948_11_3_book_Sudja_I_Ego_Palach
+<- date;
+=> nrel_main_idtf:
+	[ 1948 11 3 ]
+		(* <- lang_ru;; *);;
+
+date_1933_book_Sudja_I_Ego_Palach
+<- date;
+=> nrel_main_idtf:
+	[ 1933 ]
+		(* <- lang_ru;; *);;
+

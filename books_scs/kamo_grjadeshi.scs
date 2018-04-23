@@ -1,0 +1,190 @@
+book_Kamo_Grjadeshi
+<- book;
+=> nrel_author;
+	author_Senkevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Камо Грядеши?]
+		(* <- lang_ru;; *);;
+
+book_Kamo_Grjadeshi
+=> nrel_characters:
+	.book_Kamo_Grjadeshi_characters
+		(*
+			-> char_petr_book_Kamo_Grjadeshi;;
+			-> char_neron_book_Kamo_Grjadeshi;;
+			-> char_hilona_book_Kamo_Grjadeshi;;
+			-> char_ligia_book_Kamo_Grjadeshi;;
+			-> char_kallina_book_Kamo_Grjadeshi;;
+			-> char_mark_book_Kamo_Grjadeshi;;
+			-> char_pavla_book_Kamo_Grjadeshi;;
+			-> char_pavel_book_Kamo_Grjadeshi;;
+			-> char_urs_book_Kamo_Grjadeshi;;
+			-> char_tars_book_Kamo_Grjadeshi;;
+			-> char_hristiana_book_Kamo_Grjadeshi;;
+			-> char_petronia_book_Kamo_Grjadeshi;;
+			-> char_appieva_book_Kamo_Grjadeshi;;
+			-> char_petra_book_Kamo_Grjadeshi;;
+	 	*);;
+
+char_petr_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_neron_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Нерон ]
+		(* <- lang_ru;; *);;
+
+char_hilona_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Хилона ]
+		(* <- lang_ru;; *);;
+
+char_ligia_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Лигия ]
+		(* <- lang_ru;; *);;
+
+char_kallina_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Каллина ]
+		(* <- lang_ru;; *);;
+
+char_mark_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Марк ]
+		(* <- lang_ru;; *);;
+
+char_pavla_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Павля ]
+		(* <- lang_ru;; *);;
+
+char_pavel_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Павел ]
+		(* <- lang_ru;; *);;
+
+char_urs_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Урс ]
+		(* <- lang_ru;; *);;
+
+char_tars_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Тарс ]
+		(* <- lang_ru;; *);;
+
+char_hristiana_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Христиана ]
+		(* <- lang_ru;; *);;
+
+char_petronia_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Петрония ]
+		(* <- lang_ru;; *);;
+
+char_appieva_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Аппиева ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Kamo_Grjadeshi
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+book_Kamo_Grjadeshi
+=> nrel_locales:
+	.book_Kamo_Grjadeshi_locales
+		(*
+			-> locale_sizilia_book_Kamo_Grjadeshi;;
+			-> locale_ves__rim_book_Kamo_Grjadeshi;;
+			-> locale_kotoryj_book_Kamo_Grjadeshi;;
+			-> locale_kuda_book_Kamo_Grjadeshi;;
+			-> locale_velik_book_Kamo_Grjadeshi;;
+			-> locale_pomponii_book_Kamo_Grjadeshi;;
+			-> locale_vena_book_Kamo_Grjadeshi;;
+			-> locale_tur_book_Kamo_Grjadeshi;;
+			-> locale_rim_book_Kamo_Grjadeshi;;
+			-> locale_ogromnyj_tur_book_Kamo_Grjadeshi;;
+	 	*);;
+
+locale_sizilia_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Сицилия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__rim_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Рим ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_pomponii_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Помпонии ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_tur_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Тур ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_ogromnyj_tur_book_Kamo_Grjadeshi
+<- locale;
+=> nrel_main_idtf:
+	[ Огромный Тур ]
+		(* <- lang_ru;; *);;
+

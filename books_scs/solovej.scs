@@ -1,0 +1,10 @@
+book_Solovej
+<- book;
+=> nrel_author;
+	author_Andersen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Соловей]
+		(* <- lang_ru;; *);;
+

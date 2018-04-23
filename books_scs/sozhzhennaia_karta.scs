@@ -1,0 +1,105 @@
+book_Sozhzhennaia_Karta
+<- book;
+=> nrel_author;
+	author_Abe;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сожжённая Карта]
+		(* <- lang_ru;; *);;
+
+book_Sozhzhennaia_Karta
+=> nrel_characters:
+	.book_Sozhzhennaia_Karta_characters
+		(*
+			-> char_saeko_book_Sozhzhennaia_Karta;;
+	 	*);;
+
+char_saeko_book_Sozhzhennaia_Karta
+<- char;
+=> nrel_main_idtf:
+	[ Саэко ]
+		(* <- lang_ru;; *);;
+
+book_Sozhzhennaia_Karta
+=> nrel_locales:
+	.book_Sozhzhennaia_Karta_locales
+		(*
+			-> locale_letnij_hirosa_book_Sozhzhennaia_Karta;;
+			-> locale_semiznacnaa_book_Sozhzhennaia_Karta;;
+			-> locale_kotoryj_book_Sozhzhennaia_Karta;;
+			-> locale_kuda_book_Sozhzhennaia_Karta;;
+			-> locale_krasnyj_book_Sozhzhennaia_Karta;;
+			-> locale_to_book_Sozhzhennaia_Karta;;
+			-> locale_san_book_Sozhzhennaia_Karta;;
+	 	*);;
+
+locale_letnij_hirosa_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Летний Хирося ]
+		(* <- lang_ru;; *);;
+
+locale_semiznacnaa_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Семизначная ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_san_book_Sozhzhennaia_Karta
+<- locale;
+=> nrel_main_idtf:
+	[ Сан ]
+		(* <- lang_ru;; *);;
+
+book_Sozhzhennaia_Karta
+=> nrel_dates:
+	.book_Sozhzhennaia_Karta_dates
+		(*
+			-> date_2_14_book_Sozhzhennaia_Karta;;
+			-> date_2_13_book_Sozhzhennaia_Karta;;
+			-> date_2_12_book_Sozhzhennaia_Karta;;
+	 	*);;
+
+date_2_14_book_Sozhzhennaia_Karta
+<- date;
+=> nrel_main_idtf:
+	[ 2 14 ]
+		(* <- lang_ru;; *);;
+
+date_2_13_book_Sozhzhennaia_Karta
+<- date;
+=> nrel_main_idtf:
+	[ 2 13 ]
+		(* <- lang_ru;; *);;
+
+date_2_12_book_Sozhzhennaia_Karta
+<- date;
+=> nrel_main_idtf:
+	[ 2 12 ]
+		(* <- lang_ru;; *);;
+

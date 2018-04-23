@@ -1,0 +1,337 @@
+book_Vitjaz_V_Tigrovoj_Shkure
+<- book;
+=> nrel_author;
+	author_Rustaveli;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Витязь В Тигровой Шкуре]
+		(* <- lang_ru;; *);;
+
+book_Vitjaz_V_Tigrovoj_Shkure
+=> nrel_characters:
+	.book_Vitjaz_V_Tigrovoj_Shkure_characters
+		(*
+			-> char_usama_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_usnyj_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_asmat_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_mul_gazanzar_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_daredjan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_gulansaro_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_farsadan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_rostevan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_avtandil_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_sermadina_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_tariel_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_fridon_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_tinatin_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_dularduht_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> char_cacnagir_book_Vitjaz_V_Tigrovoj_Shkure;;
+	 	*);;
+
+char_usama_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Усама ]
+		(* <- lang_ru;; *);;
+
+char_usnyj_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Усный ]
+		(* <- lang_ru;; *);;
+
+char_asmat_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Асмат ]
+		(* <- lang_ru;; *);;
+
+char_mul_gazanzar_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Мульгазанзар ]
+		(* <- lang_ru;; *);;
+
+char_daredjan_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Дареджан ]
+		(* <- lang_ru;; *);;
+
+char_gulansaro_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Гуланшаро ]
+		(* <- lang_ru;; *);;
+
+char_farsadan_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Фарсадан ]
+		(* <- lang_ru;; *);;
+
+char_rostevan_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Ростеван ]
+		(* <- lang_ru;; *);;
+
+char_avtandil_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Автандил ]
+		(* <- lang_ru;; *);;
+
+char_sermadina_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Шермадина ]
+		(* <- lang_ru;; *);;
+
+char_tariel_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Тариэл ]
+		(* <- lang_ru;; *);;
+
+char_fridon_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Фридон ]
+		(* <- lang_ru;; *);;
+
+char_tinatin_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Тинатин ]
+		(* <- lang_ru;; *);;
+
+char_dularduht_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Дулардухт ]
+		(* <- lang_ru;; *);;
+
+char_cacnagir_book_Vitjaz_V_Tigrovoj_Shkure
+<- char;
+=> nrel_main_idtf:
+	[ Чачнагир ]
+		(* <- lang_ru;; *);;
+
+book_Vitjaz_V_Tigrovoj_Shkure
+=> nrel_locales:
+	.book_Vitjaz_V_Tigrovoj_Shkure_locales
+		(*
+			-> locale_groznyj_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_kotoryj_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_ind_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_kadjetskij_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_horezm_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_on_fridon_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_fat_ma_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_farsadanuvsij_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_indostavsij_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_egipet_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_fridon_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_aravia_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_hatav_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_farsadan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_indostan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_evfrat_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_doblestnyj_fridon_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_usena_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_velikoe_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_mudryj_rostevan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_bagdad_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_velikaa_kara_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_nea_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_rostevan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_vsa_aravia_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_primorskij_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_sam_rostevan_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_eta_para_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_to_book_Vitjaz_V_Tigrovoj_Shkure;;
+			-> locale_usta_book_Vitjaz_V_Tigrovoj_Shkure;;
+	 	*);;
+
+locale_groznyj_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ind_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Инд ]
+		(* <- lang_ru;; *);;
+
+locale_kadjetskij_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Каджетский ]
+		(* <- lang_ru;; *);;
+
+locale_horezm_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Хорезм ]
+		(* <- lang_ru;; *);;
+
+locale_on_fridon_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Он Фридон ]
+		(* <- lang_ru;; *);;
+
+locale_fat_ma_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Фатьма ]
+		(* <- lang_ru;; *);;
+
+locale_farsadanuvsij_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Фарсаданувший ]
+		(* <- lang_ru;; *);;
+
+locale_indostavsij_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Индоставший ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_fridon_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Фридон ]
+		(* <- lang_ru;; *);;
+
+locale_aravia_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Аравия ]
+		(* <- lang_ru;; *);;
+
+locale_hatav_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Хатав ]
+		(* <- lang_ru;; *);;
+
+locale_farsadan_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Фарсадан ]
+		(* <- lang_ru;; *);;
+
+locale_indostan_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Индостан ]
+		(* <- lang_ru;; *);;
+
+locale_evfrat_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Евфрат ]
+		(* <- lang_ru;; *);;
+
+locale_doblestnyj_fridon_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Доблестный Фридон ]
+		(* <- lang_ru;; *);;
+
+locale_usena_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Усена ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_mudryj_rostevan_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Мудрый Ростеван ]
+		(* <- lang_ru;; *);;
+
+locale_bagdad_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Багдад ]
+		(* <- lang_ru;; *);;
+
+locale_velikaa_kara_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Великая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_rostevan_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Ростеван ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_aravia_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Аравия ]
+		(* <- lang_ru;; *);;
+
+locale_primorskij_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Приморский ]
+		(* <- lang_ru;; *);;
+
+locale_sam_rostevan_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Ростеван ]
+		(* <- lang_ru;; *);;
+
+locale_eta_para_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Эта Пара ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_usta_book_Vitjaz_V_Tigrovoj_Shkure
+<- locale;
+=> nrel_main_idtf:
+	[ Уста ]
+		(* <- lang_ru;; *);;
+

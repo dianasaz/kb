@@ -1,0 +1,140 @@
+book_Matrenin_Dvor
+<- book;
+=> nrel_author;
+	author_Solzhenitsyn;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Матрёнин Двор]
+		(* <- lang_ru;; *);;
+
+book_Matrenin_Dvor
+=> nrel_characters:
+	.book_Matrenin_Dvor_characters
+		(*
+			-> char_faddej_book_Matrenin_Dvor;;
+			-> char_pole_vysokoe_book_Matrenin_Dvor;;
+			-> char_vasilievna_grigor_eva_book_Matrenin_Dvor;;
+			-> char_mur_book_Matrenin_Dvor;;
+			-> char_soljenizyn_book_Matrenin_Dvor;;
+			-> char_efim_book_Matrenin_Dvor;;
+			-> char_kira_book_Matrenin_Dvor;;
+	 	*);;
+
+char_faddej_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Фаддей ]
+		(* <- lang_ru;; *);;
+
+char_pole_vysokoe_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Поле Высокое ]
+		(* <- lang_ru;; *);;
+
+char_vasilievna_grigor_eva_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Василиевна Григорьева ]
+		(* <- lang_ru;; *);;
+
+char_mur_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Мур ]
+		(* <- lang_ru;; *);;
+
+char_soljenizyn_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Солженицын ]
+		(* <- lang_ru;; *);;
+
+char_efim_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Ефим ]
+		(* <- lang_ru;; *);;
+
+char_kira_book_Matrenin_Dvor
+<- char;
+=> nrel_main_idtf:
+	[ Кира ]
+		(* <- lang_ru;; *);;
+
+book_Matrenin_Dvor
+=> nrel_locales:
+	.book_Matrenin_Dvor_locales
+		(*
+			-> locale_kazan__book_Matrenin_Dvor;;
+			-> locale_rossia_book_Matrenin_Dvor;;
+			-> locale_moskva_book_Matrenin_Dvor;;
+			-> locale_tal_novo_book_Matrenin_Dvor;;
+			-> locale_mur_book_Matrenin_Dvor;;
+			-> locale_cerusti_book_Matrenin_Dvor;;
+			-> locale_sestimirovoe_book_Matrenin_Dvor;;
+			-> locale_kondovaa_rossia_book_Matrenin_Dvor;;
+	 	*);;
+
+locale_kazan__book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Казань ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_tal_novo_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Тальново ]
+		(* <- lang_ru;; *);;
+
+locale_mur_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Мур ]
+		(* <- lang_ru;; *);;
+
+locale_cerusti_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Черусти ]
+		(* <- lang_ru;; *);;
+
+locale_sestimirovoe_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Шестимировое ]
+		(* <- lang_ru;; *);;
+
+locale_kondovaa_rossia_book_Matrenin_Dvor
+<- locale;
+=> nrel_main_idtf:
+	[ Кондовая Россия ]
+		(* <- lang_ru;; *);;
+
+book_Matrenin_Dvor
+=> nrel_dates:
+	.book_Matrenin_Dvor_dates
+		(*
+			-> date_1956_book_Matrenin_Dvor;;
+	 	*);;
+
+date_1956_book_Matrenin_Dvor
+<- date;
+=> nrel_main_idtf:
+	[ 1956 ]
+		(* <- lang_ru;; *);;
+

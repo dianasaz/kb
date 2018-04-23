@@ -1,0 +1,225 @@
+book_Prikljuchenija_Olivera_Tvista
+<- book;
+=> nrel_author;
+	author_Dikkens;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Приключения Оливера Твиста]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Olivera_Tvista
+=> nrel_characters:
+	.book_Prikljuchenija_Olivera_Tvista_characters
+		(*
+			-> char_salli_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_djek_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_oliver_tvist_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_daukins_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_carli_bejts_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_oliver_barnet_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_braunlou_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_bill_sajks_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_nensi_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_agnesa_fleminga_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_agnes_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_fedjina_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_edvin_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_garri_book_Prikljuchenija_Olivera_Tvista;;
+			-> char_oliver_book_Prikljuchenija_Olivera_Tvista;;
+	 	*);;
+
+char_salli_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Салли ]
+		(* <- lang_ru;; *);;
+
+char_djek_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Джек ]
+		(* <- lang_ru;; *);;
+
+char_oliver_tvist_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Оливер Твист ]
+		(* <- lang_ru;; *);;
+
+char_daukins_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Даукинс ]
+		(* <- lang_ru;; *);;
+
+char_carli_bejts_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Чарли Бейтс ]
+		(* <- lang_ru;; *);;
+
+char_oliver_barnet_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Оливер Барнет ]
+		(* <- lang_ru;; *);;
+
+char_braunlou_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Браунлоу ]
+		(* <- lang_ru;; *);;
+
+char_bill_sajks_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Билл Сайкс ]
+		(* <- lang_ru;; *);;
+
+char_nensi_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Нэнси ]
+		(* <- lang_ru;; *);;
+
+char_agnesa_fleminga_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Агнеса Флеминга ]
+		(* <- lang_ru;; *);;
+
+char_agnes_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Агнес ]
+		(* <- lang_ru;; *);;
+
+char_fedjina_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Феджина ]
+		(* <- lang_ru;; *);;
+
+char_edvin_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Эдвин ]
+		(* <- lang_ru;; *);;
+
+char_garri_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Гарри ]
+		(* <- lang_ru;; *);;
+
+char_oliver_book_Prikljuchenija_Olivera_Tvista
+<- char;
+=> nrel_main_idtf:
+	[ Оливер ]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Olivera_Tvista
+=> nrel_locales:
+	.book_Prikljuchenija_Olivera_Tvista_locales
+		(*
+			-> locale_india_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_karman_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_isk_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_kotoryj_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_kuda_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_anglia_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_gorodok_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_uel_s_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_london_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_to_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_sena_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_liford_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_losbern_book_Prikljuchenija_Olivera_Tvista;;
+			-> locale_rim_book_Prikljuchenija_Olivera_Tvista;;
+	 	*);;
+
+locale_india_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_isk_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Иск ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_uel_s_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Уэльс ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+
+locale_liford_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Лифорд ]
+		(* <- lang_ru;; *);;
+
+locale_losbern_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Лосберн ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Prikljuchenija_Olivera_Tvista
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,168 @@
+book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- book;
+=> nrel_author;
+	author_Defo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Радости И Горести Знаменитой Молль Флендерс]
+		(* <- lang_ru;; *);;
+
+book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+=> nrel_characters:
+	.book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders_characters
+		(*
+			-> char_lankasir_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_roksana_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_elizabet_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_n_ugejt_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_molla_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_defo_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_nyogete_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> char_robin_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+	 	*);;
+
+char_lankasir_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Ланкашир ]
+		(* <- lang_ru;; *);;
+
+char_roksana_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Роксана ]
+		(* <- lang_ru;; *);;
+
+char_elizabet_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Элизабет ]
+		(* <- lang_ru;; *);;
+
+char_n_ugejt_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Ньюгейт ]
+		(* <- lang_ru;; *);;
+
+char_molla_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Молля ]
+		(* <- lang_ru;; *);;
+
+char_defo_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Дефо ]
+		(* <- lang_ru;; *);;
+
+char_nyogete_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Ныогете ]
+		(* <- lang_ru;; *);;
+
+char_robin_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- char;
+=> nrel_main_idtf:
+	[ Робин ]
+		(* <- lang_ru;; *);;
+
+book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+=> nrel_locales:
+	.book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders_locales
+		(*
+			-> locale_franzia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_liverpul__book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_kola_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_rej_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_hartford_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_london_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_amerika_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_anglia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_irlandia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> locale_nea_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+	 	*);;
+
+locale_franzia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_liverpul__book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Ливерпуль ]
+		(* <- lang_ru;; *);;
+
+locale_kola_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Кола ]
+		(* <- lang_ru;; *);;
+
+locale_rej_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Реж ]
+		(* <- lang_ru;; *);;
+
+locale_hartford_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Хартфорд ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_irlandia_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Ирландия ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+=> nrel_dates:
+	.book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders_dates
+		(*
+			-> date_1683_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+			-> date_1613_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders;;
+	 	*);;
+
+date_1683_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- date;
+=> nrel_main_idtf:
+	[ 1683 ]
+		(* <- lang_ru;; *);;
+
+date_1613_book_Radosti_I_Goresti_Znamenitoj_Moll_Flenders
+<- date;
+=> nrel_main_idtf:
+	[ 1613 ]
+		(* <- lang_ru;; *);;
+

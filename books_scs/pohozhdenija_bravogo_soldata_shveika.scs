@@ -1,0 +1,231 @@
+book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- book;
+=> nrel_author;
+	author_Gashek;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Похождения Бравого Солдата Швейка]
+		(* <- lang_ru;; *);;
+
+book_Pohozhdenija_Bravogo_Soldata_Shveika
+=> nrel_characters:
+	.book_Pohozhdenija_Bravogo_Soldata_Shveika_characters
+		(*
+			-> char_lazinoj_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_marek_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_martinez_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_vol_f_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_balouna_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_lukas_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_biglera_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_muller_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_vanek_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_svejk_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_otto_kaz_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_kaz_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_bretsnejder_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_ferdinand_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> char_keti_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+	 	*);;
+
+char_lazinoj_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Лациной ]
+		(* <- lang_ru;; *);;
+
+char_marek_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Марек ]
+		(* <- lang_ru;; *);;
+
+char_martinez_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Мартинец ]
+		(* <- lang_ru;; *);;
+
+char_vol_f_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Вольф ]
+		(* <- lang_ru;; *);;
+
+char_balouna_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Балоуна ]
+		(* <- lang_ru;; *);;
+
+char_lukas_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Лукаш ]
+		(* <- lang_ru;; *);;
+
+char_biglera_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Биглера ]
+		(* <- lang_ru;; *);;
+
+char_muller_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Мюллер ]
+		(* <- lang_ru;; *);;
+
+char_vanek_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Ванек ]
+		(* <- lang_ru;; *);;
+
+char_svejk_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Швейк ]
+		(* <- lang_ru;; *);;
+
+char_otto_kaz_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Отто Кац ]
+		(* <- lang_ru;; *);;
+
+char_kaz_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Кац ]
+		(* <- lang_ru;; *);;
+
+char_bretsnejder_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Бретшнейдер ]
+		(* <- lang_ru;; *);;
+
+char_ferdinand_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Фердинанд ]
+		(* <- lang_ru;; *);;
+
+char_keti_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- char;
+=> nrel_main_idtf:
+	[ Кэти ]
+		(* <- lang_ru;; *);;
+
+book_Pohozhdenija_Bravogo_Soldata_Shveika
+=> nrel_locales:
+	.book_Pohozhdenija_Bravogo_Soldata_Shveika_locales
+		(*
+			-> locale_bozengejm_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_belgrad_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_kalousa_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_kotoryj_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_italia_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_avstria_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_kuda_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_balkany_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_zillergut_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_putim_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_to_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_budapest_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+			-> locale_praga_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+	 	*);;
+
+locale_bozengejm_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Боценгейм ]
+		(* <- lang_ru;; *);;
+
+locale_belgrad_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Белград ]
+		(* <- lang_ru;; *);;
+
+locale_kalousa_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Калоуса ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_balkany_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Балканы ]
+		(* <- lang_ru;; *);;
+
+locale_zillergut_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Циллергут ]
+		(* <- lang_ru;; *);;
+
+locale_putim_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Путим ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_budapest_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Будапешт ]
+		(* <- lang_ru;; *);;
+
+locale_praga_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- locale;
+=> nrel_main_idtf:
+	[ Прага ]
+		(* <- lang_ru;; *);;
+
+book_Pohozhdenija_Bravogo_Soldata_Shveika
+=> nrel_dates:
+	.book_Pohozhdenija_Bravogo_Soldata_Shveika_dates
+		(*
+			-> date_1914_6_book_Pohozhdenija_Bravogo_Soldata_Shveika;;
+	 	*);;
+
+date_1914_6_book_Pohozhdenija_Bravogo_Soldata_Shveika
+<- date;
+=> nrel_main_idtf:
+	[ 1914 6 ]
+		(* <- lang_ru;; *);;
+

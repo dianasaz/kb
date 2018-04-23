@@ -1,0 +1,16 @@
+author_Kundera
+<- person;
+=> nrel_main_idtf:
+	[Милан Кундера]
+		(* <- lang_ru;; *);;
+
+author_Kundera
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kundera.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

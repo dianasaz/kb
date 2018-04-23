@@ -1,0 +1,106 @@
+book_11_Minut
+<- book;
+=> nrel_author;
+	author_Koelo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Одиннадцать Минут]
+		(* <- lang_ru;; *);;
+
+book_11_Minut
+=> nrel_characters:
+	.book_11_Minut_characters
+		(*
+			-> char_ral_f_hart_book_11_Minut;;
+			-> char_ral_f_book_11_Minut;;
+			-> char_maria_book_11_Minut;;
+			-> char_terens_book_11_Minut;;
+	 	*);;
+
+char_ral_f_hart_book_11_Minut
+<- char;
+=> nrel_main_idtf:
+	[ Ральф Харт ]
+		(* <- lang_ru;; *);;
+
+char_ral_f_book_11_Minut
+<- char;
+=> nrel_main_idtf:
+	[ Ральф ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_11_Minut
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_terens_book_11_Minut
+<- char;
+=> nrel_main_idtf:
+	[ Теренс ]
+		(* <- lang_ru;; *);;
+
+book_11_Minut
+=> nrel_locales:
+	.book_11_Minut_locales
+		(*
+			-> locale_brazilia_book_11_Minut;;
+			-> locale_lozanna_book_11_Minut;;
+			-> locale_kotoryj_book_11_Minut;;
+			-> locale_kuda_book_11_Minut;;
+			-> locale_malen_kij_gorodok_book_11_Minut;;
+			-> locale_parij_book_11_Minut;;
+			-> locale_janejro_book_11_Minut;;
+			-> locale_svejzaria_book_11_Minut;;
+	 	*);;
+
+locale_brazilia_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Бразилия ]
+		(* <- lang_ru;; *);;
+
+locale_lozanna_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Лозанна ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_janejro_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Жанейро ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_11_Minut
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+

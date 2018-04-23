@@ -1,0 +1,16 @@
+author_Strindberg
+<- person;
+=> nrel_main_idtf:
+	[Август Стриндберг]
+		(* <- lang_ru;; *);;
+
+author_Strindberg
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Strindberg.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

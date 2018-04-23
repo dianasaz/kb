@@ -1,0 +1,99 @@
+book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- book;
+=> nrel_author;
+	author_Gofman;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Крошка Цахес, По Прозванию Циннобер]
+		(* <- lang_ru;; *);;
+
+book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+=> nrel_characters:
+	.book_Kroshka_Cahes_Po_Prozvaniju_Cinnober_characters
+		(*
+			-> char_fabian_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> char_pafnutij_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> char_liza_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> char_bal_tazar_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> char_kandida_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+	 	*);;
+
+char_fabian_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- char;
+=> nrel_main_idtf:
+	[ Фабиан ]
+		(* <- lang_ru;; *);;
+
+char_pafnutij_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- char;
+=> nrel_main_idtf:
+	[ Пафнутий ]
+		(* <- lang_ru;; *);;
+
+char_liza_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- char;
+=> nrel_main_idtf:
+	[ Лиза ]
+		(* <- lang_ru;; *);;
+
+char_bal_tazar_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- char;
+=> nrel_main_idtf:
+	[ Бальтазар ]
+		(* <- lang_ru;; *);;
+
+char_kandida_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- char;
+=> nrel_main_idtf:
+	[ Кандида ]
+		(* <- lang_ru;; *);;
+
+book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+=> nrel_locales:
+	.book_Kroshka_Cahes_Po_Prozvaniju_Cinnober_locales
+		(*
+			-> locale_zvetusij_kraj_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> locale_mos_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> locale_terpin_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> locale_djinnistan_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> locale_kerepesskij_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+			-> locale_rozabel_verde_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober;;
+	 	*);;
+
+locale_zvetusij_kraj_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Цветущий Край ]
+		(* <- lang_ru;; *);;
+
+locale_mos_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Мош ]
+		(* <- lang_ru;; *);;
+
+locale_terpin_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Терпин ]
+		(* <- lang_ru;; *);;
+
+locale_djinnistan_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Джиннистан ]
+		(* <- lang_ru;; *);;
+
+locale_kerepesskij_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Керепесский ]
+		(* <- lang_ru;; *);;
+
+locale_rozabel_verde_book_Kroshka_Cahes_Po_Prozvaniju_Cinnober
+<- locale;
+=> nrel_main_idtf:
+	[ Розабельверде ]
+		(* <- lang_ru;; *);;
+

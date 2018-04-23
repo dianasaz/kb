@@ -1,0 +1,16 @@
+author_Himenes
+<- person;
+=> nrel_main_idtf:
+	[Хуан Рамон Хименес]
+		(* <- lang_ru;; *);;
+
+author_Himenes
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Himenes.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

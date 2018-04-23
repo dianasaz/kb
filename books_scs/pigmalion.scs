@@ -1,0 +1,127 @@
+book_Pigmalion
+<- book;
+=> nrel_author;
+	author_Shou;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пигмалион]
+		(* <- lang_ru;; *);;
+
+book_Pigmalion
+=> nrel_characters:
+	.book_Pigmalion_characters
+		(*
+			-> char_higgins_book_Pigmalion;;
+			-> char_eliza_book_Pigmalion;;
+			-> char_freddi_book_Pigmalion;;
+			-> char_genri_higgins_book_Pigmalion;;
+			-> char_hilla_book_Pigmalion;;
+	 	*);;
+
+char_higgins_book_Pigmalion
+<- char;
+=> nrel_main_idtf:
+	[ Хиггинс ]
+		(* <- lang_ru;; *);;
+
+char_eliza_book_Pigmalion
+<- char;
+=> nrel_main_idtf:
+	[ Элиза ]
+		(* <- lang_ru;; *);;
+
+char_freddi_book_Pigmalion
+<- char;
+=> nrel_main_idtf:
+	[ Фредди ]
+		(* <- lang_ru;; *);;
+
+char_genri_higgins_book_Pigmalion
+<- char;
+=> nrel_main_idtf:
+	[ Генри Хиггинс ]
+		(* <- lang_ru;; *);;
+
+char_hilla_book_Pigmalion
+<- char;
+=> nrel_main_idtf:
+	[ Хилла ]
+		(* <- lang_ru;; *);;
+
+book_Pigmalion
+=> nrel_locales:
+	.book_Pigmalion_locales
+		(*
+			-> locale_india_book_Pigmalion;;
+			-> locale_dulittlaa_book_Pigmalion;;
+			-> locale_nepin_book_Pigmalion;;
+			-> locale_vsa_anglia_book_Pigmalion;;
+			-> locale_london_book_Pigmalion;;
+			-> locale_amerika_book_Pigmalion;;
+			-> locale_to_book_Pigmalion;;
+			-> locale_dulittl_book_Pigmalion;;
+			-> locale_ejnsford_book_Pigmalion;;
+			-> locale_para_book_Pigmalion;;
+	 	*);;
+
+locale_india_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_dulittlaa_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Дулиттлая ]
+		(* <- lang_ru;; *);;
+
+locale_nepin_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Непин ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_anglia_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Англия ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_dulittl_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Дулиттл ]
+		(* <- lang_ru;; *);;
+
+locale_ejnsford_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Эйнсфорд ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Pigmalion
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

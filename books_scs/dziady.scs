@@ -1,0 +1,239 @@
+book_Dziady
+<- book;
+=> nrel_author;
+	author_Mickevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дзяды]
+		(* <- lang_ru;; *);;
+
+book_Dziady
+=> nrel_characters:
+	.book_Dziady_characters
+		(*
+			-> char_zosa_book_Dziady;;
+			-> char_petr_book_Dziady;;
+			-> char_marzelina_book_Dziady;;
+			-> char_adol_f_book_Dziady;;
+			-> char_brazilian_book_Dziady;;
+			-> char_gustav_book_Dziady;;
+			-> char_siller_book_Dziady;;
+			-> char_novosil_zev_book_Dziady;;
+			-> char_petra_book_Dziady;;
+			-> char_konrad_book_Dziady;;
+			-> char_an_sobeskij_book_Dziady;;
+			-> char_aleksandr_book_Dziady;;
+			-> char_feliks_kulakovskij_book_Dziady;;
+			-> char_tomas_book_Dziady;;
+			-> char_rollison_book_Dziady;;
+			-> char_mizkevic_book_Dziady;;
+			-> char_ziprian_daskevic_book_Dziady;;
+			-> char_eva_book_Dziady;;
+			-> char_an_sobolevskij_book_Dziady;;
+	 	*);;
+
+char_zosa_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Зося ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_marzelina_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Марцелина ]
+		(* <- lang_ru;; *);;
+
+char_adol_f_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Адольф ]
+		(* <- lang_ru;; *);;
+
+char_brazilian_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Бразилиан ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_siller_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Шиллер ]
+		(* <- lang_ru;; *);;
+
+char_novosil_zev_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Новосильцев ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_konrad_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Конрад ]
+		(* <- lang_ru;; *);;
+
+char_an_sobeskij_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Ян Собеский ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_feliks_kulakovskij_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Феликс Кулаковский ]
+		(* <- lang_ru;; *);;
+
+char_tomas_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Томаш ]
+		(* <- lang_ru;; *);;
+
+char_rollison_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Роллисон ]
+		(* <- lang_ru;; *);;
+
+char_mizkevic_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Мицкевич ]
+		(* <- lang_ru;; *);;
+
+char_ziprian_daskevic_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Циприан Дашкевич ]
+		(* <- lang_ru;; *);;
+
+char_eva_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Ева ]
+		(* <- lang_ru;; *);;
+
+char_an_sobolevskij_book_Dziady
+<- char;
+=> nrel_main_idtf:
+	[ Ян Соболевский ]
+		(* <- lang_ru;; *);;
+
+book_Dziady
+=> nrel_locales:
+	.book_Dziady_locales
+		(*
+			-> locale_an_book_Dziady;;
+			-> locale_breda_book_Dziady;;
+			-> locale_sibir__book_Dziady;;
+			-> locale_kotoryj_book_Dziady;;
+			-> locale_vidnyj_book_Dziady;;
+			-> locale_gorod_vil_no_book_Dziady;;
+			-> locale_litva_book_Dziady;;
+			-> locale_to_book_Dziady;;
+			-> locale_l_vov_book_Dziady;;
+			-> locale_vil_no_book_Dziady;;
+			-> locale_pol_sa_book_Dziady;;
+			-> locale_varsava_book_Dziady;;
+	 	*);;
+
+locale_an_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_vidnyj_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Видный ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_vil_no_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Город Вильно ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_l_vov_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Львов ]
+		(* <- lang_ru;; *);;
+
+locale_vil_no_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Вильно ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Dziady
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+

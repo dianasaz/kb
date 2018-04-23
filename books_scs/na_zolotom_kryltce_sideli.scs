@@ -1,0 +1,57 @@
+book_Na_Zolotom_Kryltce_Sideli
+<- book;
+=> nrel_author;
+	author_Tolstaia;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[На Золотом Крыльце Сидели]
+		(* <- lang_ru;; *);;
+
+book_Na_Zolotom_Kryltce_Sideli
+=> nrel_characters:
+	.book_Na_Zolotom_Kryltce_Sideli_characters
+		(*
+			-> char_veronika_vikentievna_book_Na_Zolotom_Kryltce_Sideli;;
+			-> char_pasa_book_Na_Zolotom_Kryltce_Sideli;;
+			-> char_veronika_book_Na_Zolotom_Kryltce_Sideli;;
+			-> char_margaritina_book_Na_Zolotom_Kryltce_Sideli;;
+	 	*);;
+
+char_veronika_vikentievna_book_Na_Zolotom_Kryltce_Sideli
+<- char;
+=> nrel_main_idtf:
+	[ Вероника Викентиевна ]
+		(* <- lang_ru;; *);;
+
+char_pasa_book_Na_Zolotom_Kryltce_Sideli
+<- char;
+=> nrel_main_idtf:
+	[ Паша ]
+		(* <- lang_ru;; *);;
+
+char_veronika_book_Na_Zolotom_Kryltce_Sideli
+<- char;
+=> nrel_main_idtf:
+	[ Вероника ]
+		(* <- lang_ru;; *);;
+
+char_margaritina_book_Na_Zolotom_Kryltce_Sideli
+<- char;
+=> nrel_main_idtf:
+	[ Маргаритина ]
+		(* <- lang_ru;; *);;
+
+book_Na_Zolotom_Kryltce_Sideli
+=> nrel_locales:
+	.book_Na_Zolotom_Kryltce_Sideli_locales
+		(*
+			-> locale_belye_kura_book_Na_Zolotom_Kryltce_Sideli;;
+	 	*);;
+
+locale_belye_kura_book_Na_Zolotom_Kryltce_Sideli
+<- locale;
+=> nrel_main_idtf:
+	[ Белые Кура ]
+		(* <- lang_ru;; *);;
+

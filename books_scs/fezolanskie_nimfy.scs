@@ -1,0 +1,113 @@
+book_Fezolanskie_Nimfy
+<- book;
+=> nrel_author;
+	author_Bokkachcho;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фьезоланские Нимфы]
+		(* <- lang_ru;; *);;
+
+book_Fezolanskie_Nimfy
+=> nrel_characters:
+	.book_Fezolanskie_Nimfy_characters
+		(*
+			-> char_afriko_book_Fezolanskie_Nimfy;;
+			-> char_rimlana_book_Fezolanskie_Nimfy;;
+			-> char_diana_book_Fezolanskie_Nimfy;;
+	 	*);;
+
+char_afriko_book_Fezolanskie_Nimfy
+<- char;
+=> nrel_main_idtf:
+	[ Африко ]
+		(* <- lang_ru;; *);;
+
+char_rimlana_book_Fezolanskie_Nimfy
+<- char;
+=> nrel_main_idtf:
+	[ Римляна ]
+		(* <- lang_ru;; *);;
+
+char_diana_book_Fezolanskie_Nimfy
+<- char;
+=> nrel_main_idtf:
+	[ Диана ]
+		(* <- lang_ru;; *);;
+
+book_Fezolanskie_Nimfy
+=> nrel_locales:
+	.book_Fezolanskie_Nimfy_locales
+		(*
+			-> locale_ves__kraj_book_Fezolanskie_Nimfy;;
+			-> locale_lesna_book_Fezolanskie_Nimfy;;
+			-> locale_pruneo_book_Fezolanskie_Nimfy;;
+			-> locale_venera_book_Fezolanskie_Nimfy;;
+			-> locale_evropa_book_Fezolanskie_Nimfy;;
+			-> locale_maj_book_Fezolanskie_Nimfy;;
+			-> locale_cara_book_Fezolanskie_Nimfy;;
+			-> locale_florenzia_book_Fezolanskie_Nimfy;;
+			-> locale_afrika_book_Fezolanskie_Nimfy;;
+			-> locale_amur_book_Fezolanskie_Nimfy;;
+	 	*);;
+
+locale_ves__kraj_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Край ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_pruneo_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Прунео ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_cara_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Чара ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_amur_book_Fezolanskie_Nimfy
+<- locale;
+=> nrel_main_idtf:
+	[ Амур ]
+		(* <- lang_ru;; *);;
+

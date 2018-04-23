@@ -1,0 +1,16 @@
+author_Ajtmatov
+<- person;
+=> nrel_main_idtf:
+	[Чингиз Айтматов]
+		(* <- lang_ru;; *);;
+
+author_Ajtmatov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Ajtmatov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

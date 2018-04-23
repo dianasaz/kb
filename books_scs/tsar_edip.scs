@@ -1,0 +1,127 @@
+book_Tsar_Edip
+<- book;
+=> nrel_author;
+	author_Sofokl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Царь Эдип]
+		(* <- lang_ru;; *);;
+
+book_Tsar_Edip
+=> nrel_characters:
+	.book_Tsar_Edip_characters
+		(*
+			-> char_laieva_book_Tsar_Edip;;
+			-> char_sfinks_book_Tsar_Edip;;
+			-> char_kiferon_book_Tsar_Edip;;
+			-> char_edip_book_Tsar_Edip;;
+			-> char_laij_book_Tsar_Edip;;
+			-> char_tiresia_book_Tsar_Edip;;
+	 	*);;
+
+char_laieva_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Лаиева ]
+		(* <- lang_ru;; *);;
+
+char_sfinks_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Сфинкс ]
+		(* <- lang_ru;; *);;
+
+char_kiferon_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Киферон ]
+		(* <- lang_ru;; *);;
+
+char_edip_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Эдип ]
+		(* <- lang_ru;; *);;
+
+char_laij_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Лаий ]
+		(* <- lang_ru;; *);;
+
+char_tiresia_book_Tsar_Edip
+<- char;
+=> nrel_main_idtf:
+	[ Тиресия ]
+		(* <- lang_ru;; *);;
+
+book_Tsar_Edip
+=> nrel_locales:
+	.book_Tsar_Edip_locales
+		(*
+			-> locale_korinf_book_Tsar_Edip;;
+			-> locale_del_fy_book_Tsar_Edip;;
+			-> locale_kuda_book_Tsar_Edip;;
+			-> locale_kiferon_book_Tsar_Edip;;
+			-> locale_gorod_fivy_book_Tsar_Edip;;
+			-> locale_bojia_kara_book_Tsar_Edip;;
+			-> locale_fivy_book_Tsar_Edip;;
+			-> locale_to_book_Tsar_Edip;;
+			-> locale_sosednij_korinf_book_Tsar_Edip;;
+	 	*);;
+
+locale_korinf_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Коринф ]
+		(* <- lang_ru;; *);;
+
+locale_del_fy_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Дельфы ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kiferon_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Киферон ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_fivy_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Город Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_bojia_kara_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Божия Кара ]
+		(* <- lang_ru;; *);;
+
+locale_fivy_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sosednij_korinf_book_Tsar_Edip
+<- locale;
+=> nrel_main_idtf:
+	[ Соседний Коринф ]
+		(* <- lang_ru;; *);;
+

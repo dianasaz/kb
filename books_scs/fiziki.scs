@@ -1,0 +1,141 @@
+book_Fiziki
+<- book;
+=> nrel_author;
+	author_Djurrenmatt;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Физики]
+		(* <- lang_ru;; *);;
+
+book_Fiziki
+=> nrel_characters:
+	.book_Fiziki_characters
+		(*
+			-> char_mebius_book_Fiziki;;
+			-> char_ejslera_book_Fiziki;;
+			-> char_ejnstejn_book_Fiziki;;
+			-> char_kilton_book_Fiziki;;
+			-> char_fos_book_Fiziki;;
+			-> char_matil_da_book_Fiziki;;
+			-> char_vil_gel_m_mebius_book_Fiziki;;
+			-> char_zanga_book_Fiziki;;
+			-> char_monika_book_Fiziki;;
+			-> char_iosif_ejsler_book_Fiziki;;
+			-> char_solomon_book_Fiziki;;
+			-> char_rihard_book_Fiziki;;
+			-> char_alek_book_Fiziki;;
+	 	*);;
+
+char_mebius_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Мёбиус ]
+		(* <- lang_ru;; *);;
+
+char_ejslera_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Эйслера ]
+		(* <- lang_ru;; *);;
+
+char_ejnstejn_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Эйнштейн ]
+		(* <- lang_ru;; *);;
+
+char_kilton_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Килтон ]
+		(* <- lang_ru;; *);;
+
+char_fos_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Фос ]
+		(* <- lang_ru;; *);;
+
+char_matil_da_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Матильда ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_mebius_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм Мёбиус ]
+		(* <- lang_ru;; *);;
+
+char_zanga_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Цанга ]
+		(* <- lang_ru;; *);;
+
+char_monika_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Моника ]
+		(* <- lang_ru;; *);;
+
+char_iosif_ejsler_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф Эйслер ]
+		(* <- lang_ru;; *);;
+
+char_solomon_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Соломон ]
+		(* <- lang_ru;; *);;
+
+char_rihard_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Рихард ]
+		(* <- lang_ru;; *);;
+
+char_alek_book_Fiziki
+<- char;
+=> nrel_main_idtf:
+	[ Алек ]
+		(* <- lang_ru;; *);;
+
+book_Fiziki
+=> nrel_locales:
+	.book_Fiziki_locales
+		(*
+			-> locale_iogana_book_Fiziki;;
+			-> locale_kuda_book_Fiziki;;
+			-> locale_to_book_Fiziki;;
+			-> locale_svejzaria_book_Fiziki;;
+	 	*);;
+
+locale_iogana_book_Fiziki
+<- locale;
+=> nrel_main_idtf:
+	[ Иогана ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Fiziki
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Fiziki
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Fiziki
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+

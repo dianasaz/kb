@@ -1,0 +1,92 @@
+book_Kirata_I_Ardzhuna
+<- book;
+=> nrel_author;
+	author_Bharavi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кирата И Арджуна]
+		(* <- lang_ru;; *);;
+
+book_Kirata_I_Ardzhuna
+=> nrel_characters:
+	.book_Kirata_I_Ardzhuna_characters
+		(*
+			-> char_indrakil_book_Kirata_I_Ardzhuna;;
+			-> char_ardjuna_book_Kirata_I_Ardzhuna;;
+			-> char_siv_book_Kirata_I_Ardzhuna;;
+			-> char_ardjun_book_Kirata_I_Ardzhuna;;
+			-> char_udhisthir_book_Kirata_I_Ardzhuna;;
+			-> char_indroj_book_Kirata_I_Ardzhuna;;
+	 	*);;
+
+char_indrakil_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Индракил ]
+		(* <- lang_ru;; *);;
+
+char_ardjuna_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Арджуна ]
+		(* <- lang_ru;; *);;
+
+char_siv_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Шив ]
+		(* <- lang_ru;; *);;
+
+char_ardjun_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Арджун ]
+		(* <- lang_ru;; *);;
+
+char_udhisthir_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Юдхиштхир ]
+		(* <- lang_ru;; *);;
+
+char_indroj_book_Kirata_I_Ardzhuna
+<- char;
+=> nrel_main_idtf:
+	[ Индрой ]
+		(* <- lang_ru;; *);;
+
+book_Kirata_I_Ardzhuna
+=> nrel_locales:
+	.book_Kirata_I_Ardzhuna_locales
+		(*
+			-> locale_gana_book_Kirata_I_Ardzhuna;;
+			-> locale_aksa_book_Kirata_I_Ardzhuna;;
+			-> locale_gimalai_book_Kirata_I_Ardzhuna;;
+			-> locale_groznyj_book_Kirata_I_Ardzhuna;;
+	 	*);;
+
+locale_gana_book_Kirata_I_Ardzhuna
+<- locale;
+=> nrel_main_idtf:
+	[ Гана ]
+		(* <- lang_ru;; *);;
+
+locale_aksa_book_Kirata_I_Ardzhuna
+<- locale;
+=> nrel_main_idtf:
+	[ Якша ]
+		(* <- lang_ru;; *);;
+
+locale_gimalai_book_Kirata_I_Ardzhuna
+<- locale;
+=> nrel_main_idtf:
+	[ Гималаи ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Kirata_I_Ardzhuna
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+

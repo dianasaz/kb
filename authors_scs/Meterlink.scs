@@ -1,0 +1,16 @@
+author_Meterlink
+<- person;
+=> nrel_main_idtf:
+	[Морис Метерлинк]
+		(* <- lang_ru;; *);;
+
+author_Meterlink
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Meterlink.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

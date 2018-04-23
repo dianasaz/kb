@@ -1,0 +1,16 @@
+author_Uajt
+<- person;
+=> nrel_main_idtf:
+	[Патрик Уайт]
+		(* <- lang_ru;; *);;
+
+author_Uajt
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Uajt.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

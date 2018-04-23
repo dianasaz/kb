@@ -1,0 +1,99 @@
+book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- book;
+=> nrel_author;
+	author_Lindgren;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пеппи Поселяется В Вилле «Курица»]
+		(* <- lang_ru;; *);;
+
+book_Peppi_Poseliaetsia_V_Ville_Kuritca
+=> nrel_characters:
+	.book_Peppi_Poseliaetsia_V_Ville_Kuritca_characters
+		(*
+			-> char_nil_son_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> char_annik_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> char_annika_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> char_tommi_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+	 	*);;
+
+char_nil_son_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- char;
+=> nrel_main_idtf:
+	[ Нильсон ]
+		(* <- lang_ru;; *);;
+
+char_annik_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- char;
+=> nrel_main_idtf:
+	[ Анник ]
+		(* <- lang_ru;; *);;
+
+char_annika_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- char;
+=> nrel_main_idtf:
+	[ Анника ]
+		(* <- lang_ru;; *);;
+
+char_tommi_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- char;
+=> nrel_main_idtf:
+	[ Томми ]
+		(* <- lang_ru;; *);;
+
+book_Peppi_Poseliaetsia_V_Ville_Kuritca
+=> nrel_locales:
+	.book_Peppi_Poseliaetsia_V_Ville_Kuritca_locales
+		(*
+			-> locale_kuda_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_oko_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_lopatka_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_gorodok_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_byk_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_luga_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+			-> locale_ogromnyj_byk_book_Peppi_Poseliaetsia_V_Ville_Kuritca;;
+	 	*);;
+
+locale_kuda_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_oko_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Око ]
+		(* <- lang_ru;; *);;
+
+locale_lopatka_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Лопатка ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_ogromnyj_byk_book_Peppi_Poseliaetsia_V_Ville_Kuritca
+<- locale;
+=> nrel_main_idtf:
+	[ Огромный Бык ]
+		(* <- lang_ru;; *);;
+

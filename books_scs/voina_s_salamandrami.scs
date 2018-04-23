@@ -1,0 +1,155 @@
+book_Voina_S_Salamandrami
+<- book;
+=> nrel_author;
+	author_Chapek;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Война С Саламандрами]
+		(* <- lang_ru;; *);;
+
+book_Voina_S_Salamandrami
+=> nrel_characters:
+	.book_Voina_S_Salamandrami_characters
+		(*
+			-> char_vantahoma_book_Voina_S_Salamandrami;;
+			-> char_jula_book_Voina_S_Salamandrami;;
+			-> char_vantaha_book_Voina_S_Salamandrami;;
+			-> char_vltava_book_Voina_S_Salamandrami;;
+			-> char_tanamas_book_Voina_S_Salamandrami;;
+	 	*);;
+
+char_vantahoma_book_Voina_S_Salamandrami
+<- char;
+=> nrel_main_idtf:
+	[ Вантахома ]
+		(* <- lang_ru;; *);;
+
+char_jula_book_Voina_S_Salamandrami
+<- char;
+=> nrel_main_idtf:
+	[ Жюля ]
+		(* <- lang_ru;; *);;
+
+char_vantaha_book_Voina_S_Salamandrami
+<- char;
+=> nrel_main_idtf:
+	[ Вантаха ]
+		(* <- lang_ru;; *);;
+
+char_vltava_book_Voina_S_Salamandrami
+<- char;
+=> nrel_main_idtf:
+	[ Влтава ]
+		(* <- lang_ru;; *);;
+
+char_tanamas_book_Voina_S_Salamandrami
+<- char;
+=> nrel_main_idtf:
+	[ Танамас ]
+		(* <- lang_ru;; *);;
+
+book_Voina_S_Salamandrami
+=> nrel_locales:
+	.book_Voina_S_Salamandrami_locales
+		(*
+			-> locale_india_book_Voina_S_Salamandrami;;
+			-> locale_katar_book_Voina_S_Salamandrami;;
+			-> locale_tanamas_book_Voina_S_Salamandrami;;
+			-> locale_baddung_book_Voina_S_Salamandrami;;
+			-> locale_cehia_book_Voina_S_Salamandrami;;
+			-> locale_velikobritania_book_Voina_S_Salamandrami;;
+			-> locale_sumatra_book_Voina_S_Salamandrami;;
+			-> locale_udenburg_book_Voina_S_Salamandrami;;
+			-> locale_kandon_book_Voina_S_Salamandrami;;
+			-> locale_kitaj_book_Voina_S_Salamandrami;;
+			-> locale_amerika_book_Voina_S_Salamandrami;;
+			-> locale_tim_book_Voina_S_Salamandrami;;
+			-> locale_afrika_book_Voina_S_Salamandrami;;
+			-> locale_vltava_book_Voina_S_Salamandrami;;
+	 	*);;
+
+locale_india_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_katar_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Катар ]
+		(* <- lang_ru;; *);;
+
+locale_tanamas_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Танамас ]
+		(* <- lang_ru;; *);;
+
+locale_baddung_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Баддунг ]
+		(* <- lang_ru;; *);;
+
+locale_cehia_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Чехия ]
+		(* <- lang_ru;; *);;
+
+locale_velikobritania_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Великобритания ]
+		(* <- lang_ru;; *);;
+
+locale_sumatra_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Суматра ]
+		(* <- lang_ru;; *);;
+
+locale_udenburg_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Уденбург ]
+		(* <- lang_ru;; *);;
+
+locale_kandon_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Кандон ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_tim_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Тим ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_vltava_book_Voina_S_Salamandrami
+<- locale;
+=> nrel_main_idtf:
+	[ Влтава ]
+		(* <- lang_ru;; *);;
+

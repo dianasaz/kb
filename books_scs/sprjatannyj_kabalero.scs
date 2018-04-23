@@ -1,0 +1,155 @@
+book_Sprjatannyj_Kabalero
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Спрятанный Кабальеро]
+		(* <- lang_ru;; *);;
+
+book_Sprjatannyj_Kabalero
+=> nrel_characters:
+	.book_Sprjatannyj_Kabalero_characters
+		(*
+			-> char_karlos_book_Sprjatannyj_Kabalero;;
+			-> char_diego_book_Sprjatannyj_Kabalero;;
+			-> char_alonso_book_Sprjatannyj_Kabalero;;
+			-> char_beatrisa_book_Sprjatannyj_Kabalero;;
+			-> char_feliks_book_Sprjatannyj_Kabalero;;
+			-> char_huan_book_Sprjatannyj_Kabalero;;
+			-> char_don_karlos_book_Sprjatannyj_Kabalero;;
+			-> char_don_book_Sprjatannyj_Kabalero;;
+			-> char_sel_a_book_Sprjatannyj_Kabalero;;
+	 	*);;
+
+char_karlos_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Карлос ]
+		(* <- lang_ru;; *);;
+
+char_diego_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Диего ]
+		(* <- lang_ru;; *);;
+
+char_alonso_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Алонсо ]
+		(* <- lang_ru;; *);;
+
+char_beatrisa_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Беатриса ]
+		(* <- lang_ru;; *);;
+
+char_feliks_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Феликс ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_don_karlos_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Дон Карлос ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_sel_a_book_Sprjatannyj_Kabalero
+<- char;
+=> nrel_main_idtf:
+	[ Селья ]
+		(* <- lang_ru;; *);;
+
+book_Sprjatannyj_Kabalero
+=> nrel_locales:
+	.book_Sprjatannyj_Kabalero_locales
+		(*
+			-> locale_lisard_book_Sprjatannyj_Kabalero;;
+			-> locale_kotoryj_book_Sprjatannyj_Kabalero;;
+			-> locale_aisard_book_Sprjatannyj_Kabalero;;
+			-> locale_kuda_book_Sprjatannyj_Kabalero;;
+			-> locale_lisarda_book_Sprjatannyj_Kabalero;;
+			-> locale_lubim_book_Sprjatannyj_Kabalero;;
+			-> locale_blagodarnaa_lisarda_book_Sprjatannyj_Kabalero;;
+			-> locale_portugalia_book_Sprjatannyj_Kabalero;;
+			-> locale_don_book_Sprjatannyj_Kabalero;;
+			-> locale_madrid_book_Sprjatannyj_Kabalero;;
+	 	*);;
+
+locale_lisard_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Лисард ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_aisard_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Аисард ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_lisarda_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Лисарда ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_blagodarnaa_lisarda_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Благодарная Лисарда ]
+		(* <- lang_ru;; *);;
+
+locale_portugalia_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Португалия ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Sprjatannyj_Kabalero
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+

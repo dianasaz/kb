@@ -1,0 +1,308 @@
+book_Pochta_Dukhov
+<- book;
+=> nrel_author;
+	author_Krylov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Почта Духов]
+		(* <- lang_ru;; *);;
+
+book_Pochta_Dukhov
+=> nrel_characters:
+	.book_Pochta_Dukhov_characters
+		(*
+			-> char_A_knajnin_book_Pochta_Dukhov;;
+			-> char_brut_book_Pochta_Dukhov;;
+			-> char_vysprepar_book_Pochta_Dukhov;;
+			-> char_furbinia_book_Pochta_Dukhov;;
+			-> char_fetida_book_Pochta_Dukhov;;
+			-> char_platon_book_Pochta_Dukhov;;
+			-> char_tihokrad_book_Pochta_Dukhov;;
+			-> char_plutareza_book_Pochta_Dukhov;;
+			-> char_lizan_ka_book_Pochta_Dukhov;;
+			-> char_svesnikov_book_Pochta_Dukhov;;
+			-> char_gorazij_book_Pochta_Dukhov;;
+			-> char_astarot_book_Pochta_Dukhov;;
+			-> char_rastocitelev_book_Pochta_Dukhov;;
+			-> char_pripryjkin_book_Pochta_Dukhov;;
+			-> char_empedokl_book_Pochta_Dukhov;;
+			-> char_rim_book_Pochta_Dukhov;;
+			-> char_aleksandr_velikij_book_Pochta_Dukhov;;
+			-> char_zora_book_Pochta_Dukhov;;
+			-> char_magomet_book_Pochta_Dukhov;;
+			-> char_prozerpina_book_Pochta_Dukhov;;
+			-> char_boreida_book_Pochta_Dukhov;;
+			-> char_A_krylov_book_Pochta_Dukhov;;
+			-> char_skaligera_book_Pochta_Dukhov;;
+			-> char_neotkaz_pripryjkin_book_Pochta_Dukhov;;
+			-> char_tavrid_book_Pochta_Dukhov;;
+			-> char_prozerpina_book_Pochta_Dukhov;;
+			-> char_ondin_book_Pochta_Dukhov;;
+	 	*);;
+
+char_A_knajnin_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Я Княжнин ]
+		(* <- lang_ru;; *);;
+
+char_brut_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Брут ]
+		(* <- lang_ru;; *);;
+
+char_vysprepar_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Выспрепар ]
+		(* <- lang_ru;; *);;
+
+char_furbinia_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Фурбиния ]
+		(* <- lang_ru;; *);;
+
+char_fetida_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Фетида ]
+		(* <- lang_ru;; *);;
+
+char_platon_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_tihokrad_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Тихокрад ]
+		(* <- lang_ru;; *);;
+
+char_plutareza_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Плутареза ]
+		(* <- lang_ru;; *);;
+
+char_lizan_ka_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Лизанька ]
+		(* <- lang_ru;; *);;
+
+char_svesnikov_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Свешников ]
+		(* <- lang_ru;; *);;
+
+char_gorazij_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Гораций ]
+		(* <- lang_ru;; *);;
+
+char_astarot_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Астарот ]
+		(* <- lang_ru;; *);;
+
+char_rastocitelev_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Расточителев ]
+		(* <- lang_ru;; *);;
+
+char_pripryjkin_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Припрыжкин ]
+		(* <- lang_ru;; *);;
+
+char_empedokl_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Эмпедокл ]
+		(* <- lang_ru;; *);;
+
+char_rim_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_velikij_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Александр Великий ]
+		(* <- lang_ru;; *);;
+
+char_zora_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Зора ]
+		(* <- lang_ru;; *);;
+
+char_magomet_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Магомет ]
+		(* <- lang_ru;; *);;
+
+char_prozerpina_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Прозерпина ]
+		(* <- lang_ru;; *);;
+
+char_boreida_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Бореида ]
+		(* <- lang_ru;; *);;
+
+char_A_krylov_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Я Крылов ]
+		(* <- lang_ru;; *);;
+
+char_skaligera_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Скалигера ]
+		(* <- lang_ru;; *);;
+
+char_neotkaz_pripryjkin_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Неотказ Припрыжкин ]
+		(* <- lang_ru;; *);;
+
+char_tavrid_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Таврид ]
+		(* <- lang_ru;; *);;
+
+char_prozerpina_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Прозерпина ]
+		(* <- lang_ru;; *);;
+
+char_ondin_book_Pochta_Dukhov
+<- char;
+=> nrel_main_idtf:
+	[ Ондин ]
+		(* <- lang_ru;; *);;
+
+book_Pochta_Dukhov
+=> nrel_locales:
+	.book_Pochta_Dukhov_locales
+		(*
+			-> locale_vtoraa_russko_book_Pochta_Dukhov;;
+			-> locale_etna_book_Pochta_Dukhov;;
+			-> locale_pluton_book_Pochta_Dukhov;;
+			-> locale_velikoe_book_Pochta_Dukhov;;
+			-> locale_kuda_book_Pochta_Dukhov;;
+			-> locale_neptun_book_Pochta_Dukhov;;
+			-> locale_velik_book_Pochta_Dukhov;;
+			-> locale_parij_book_Pochta_Dukhov;;
+			-> locale_to_book_Pochta_Dukhov;;
+			-> locale_rim_book_Pochta_Dukhov;;
+			-> locale_plutana_book_Pochta_Dukhov;;
+			-> locale_peterburg_book_Pochta_Dukhov;;
+	 	*);;
+
+locale_vtoraa_russko_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Вторая Русско ]
+		(* <- lang_ru;; *);;
+
+locale_etna_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Этна ]
+		(* <- lang_ru;; *);;
+
+locale_pluton_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Плутон ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_neptun_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Нептун ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_plutana_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Плутана ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Pochta_Dukhov
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Pochta_Dukhov
+=> nrel_dates:
+	.book_Pochta_Dukhov_dates
+		(*
+			-> date_1791_book_Pochta_Dukhov;;
+	 	*);;
+
+date_1791_book_Pochta_Dukhov
+<- date;
+=> nrel_main_idtf:
+	[ 1791 ]
+		(* <- lang_ru;; *);;
+

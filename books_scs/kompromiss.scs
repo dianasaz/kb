@@ -1,0 +1,176 @@
+book_Kompromiss
+<- book;
+=> nrel_author;
+	author_Dovlatov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Компромисс]
+		(* <- lang_ru;; *);;
+
+book_Kompromiss
+=> nrel_characters:
+	.book_Kompromiss_characters
+		(*
+			-> char_bus_book_Kompromiss;;
+			-> char_tijna_book_Kompromiss;;
+			-> char_lembit_book_Kompromiss;;
+			-> char_ivanov_book_Kompromiss;;
+			-> char_hubert_il_ves_book_Kompromiss;;
+			-> char_E_L_bus_book_Kompromiss;;
+			-> char_rudasij_book_Kompromiss;;
+			-> char_brejnev_book_Kompromiss;;
+			-> char_osa_cernov_book_Kompromiss;;
+			-> char_kara_book_Kompromiss;;
+			-> char_paul__book_Kompromiss;;
+	 	*);;
+
+char_bus_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Буш ]
+		(* <- lang_ru;; *);;
+
+char_tijna_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Тийна ]
+		(* <- lang_ru;; *);;
+
+char_lembit_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Лембит ]
+		(* <- lang_ru;; *);;
+
+char_ivanov_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+
+char_hubert_il_ves_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Хуберт Ильвес ]
+		(* <- lang_ru;; *);;
+
+char_E_L_bus_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Э Л Буш ]
+		(* <- lang_ru;; *);;
+
+char_rudasij_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Рудящий ]
+		(* <- lang_ru;; *);;
+
+char_brejnev_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Брежнев ]
+		(* <- lang_ru;; *);;
+
+char_osa_cernov_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Ося Чернов ]
+		(* <- lang_ru;; *);;
+
+char_kara_book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+char_paul__book_Kompromiss
+<- char;
+=> nrel_main_idtf:
+	[ Пауль ]
+		(* <- lang_ru;; *);;
+
+book_Kompromiss
+=> nrel_locales:
+	.book_Kompromiss_locales
+		(*
+			-> locale_tallin_book_Kompromiss;;
+			-> locale_kotoryj_book_Kompromiss;;
+			-> locale_estonskij_book_Kompromiss;;
+			-> locale_kara_book_Kompromiss;;
+			-> locale_dahau_book_Kompromiss;;
+			-> locale_estonskaa_book_Kompromiss;;
+			-> locale_kazahstan_book_Kompromiss;;
+			-> locale_vecernij_tallin_book_Kompromiss;;
+			-> locale_amerika_book_Kompromiss;;
+			-> locale_sovetskaa_estonia_book_Kompromiss;;
+			-> locale_mordovia_book_Kompromiss;;
+	 	*);;
+
+locale_tallin_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Таллин ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_estonskij_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Эстонский ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_dahau_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Дахау ]
+		(* <- lang_ru;; *);;
+
+locale_estonskaa_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Эстонская ]
+		(* <- lang_ru;; *);;
+
+locale_kazahstan_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Казахстан ]
+		(* <- lang_ru;; *);;
+
+locale_vecernij_tallin_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Вечерний Таллин ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_sovetskaa_estonia_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Советская Эстония ]
+		(* <- lang_ru;; *);;
+
+locale_mordovia_book_Kompromiss
+<- locale;
+=> nrel_main_idtf:
+	[ Мордовия ]
+		(* <- lang_ru;; *);;
+

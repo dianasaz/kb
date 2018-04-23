@@ -1,0 +1,16 @@
+author_Platonov
+<- person;
+=> nrel_main_idtf:
+	[Андрей Платонов]
+		(* <- lang_ru;; *);;
+
+author_Platonov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Platonov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

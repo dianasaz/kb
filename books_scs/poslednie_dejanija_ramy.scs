@@ -1,0 +1,148 @@
+book_Poslednie_Dejanija_Ramy
+<- book;
+=> nrel_author;
+	author_Bhavabhuti;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Последние Деяния Рамы]
+		(* <- lang_ru;; *);;
+
+book_Poslednie_Dejanija_Ramy
+=> nrel_characters:
+	.book_Poslednie_Dejanija_Ramy_characters
+		(*
+			-> char_laksmane_book_Poslednie_Dejanija_Ramy;;
+			-> char_ramaan_book_Poslednie_Dejanija_Ramy;;
+			-> char_dandaki_book_Poslednie_Dejanija_Ramy;;
+			-> char_kausal_a_book_Poslednie_Dejanija_Ramy;;
+			-> char_ravan_book_Poslednie_Dejanija_Ramy;;
+			-> char_vasanti_book_Poslednie_Dejanija_Ramy;;
+			-> char_val_mik_book_Poslednie_Dejanija_Ramy;;
+	 	*);;
+
+char_laksmane_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Лакшмане ]
+		(* <- lang_ru;; *);;
+
+char_ramaan_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Рамаян ]
+		(* <- lang_ru;; *);;
+
+char_dandaki_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Дандаки ]
+		(* <- lang_ru;; *);;
+
+char_kausal_a_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Каушалья ]
+		(* <- lang_ru;; *);;
+
+char_ravan_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Раван ]
+		(* <- lang_ru;; *);;
+
+char_vasanti_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Васанти ]
+		(* <- lang_ru;; *);;
+
+char_val_mik_book_Poslednie_Dejanija_Ramy
+<- char;
+=> nrel_main_idtf:
+	[ Вальмик ]
+		(* <- lang_ru;; *);;
+
+book_Poslednie_Dejanija_Ramy
+=> nrel_locales:
+	.book_Poslednie_Dejanija_Ramy_locales
+		(*
+			-> locale_rezvyj_lan__book_Poslednie_Dejanija_Ramy;;
+			-> locale_dandaka_book_Poslednie_Dejanija_Ramy;;
+			-> locale_dandaki_book_Poslednie_Dejanija_Ramy;;
+			-> locale_laksmane_book_Poslednie_Dejanija_Ramy;;
+			-> locale_lesna_book_Poslednie_Dejanija_Ramy;;
+			-> locale_gang_book_Poslednie_Dejanija_Ramy;;
+			-> locale_laksmana_book_Poslednie_Dejanija_Ramy;;
+			-> locale_ravan_book_Poslednie_Dejanija_Ramy;;
+			-> locale_ram_book_Poslednie_Dejanija_Ramy;;
+			-> locale_ramaan_book_Poslednie_Dejanija_Ramy;;
+			-> locale_rama_book_Poslednie_Dejanija_Ramy;;
+	 	*);;
+
+locale_rezvyj_lan__book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Резвый Лань ]
+		(* <- lang_ru;; *);;
+
+locale_dandaka_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Дандака ]
+		(* <- lang_ru;; *);;
+
+locale_dandaki_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Дандаки ]
+		(* <- lang_ru;; *);;
+
+locale_laksmane_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Лакшмане ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_gang_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Ганг ]
+		(* <- lang_ru;; *);;
+
+locale_laksmana_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Лакшмана ]
+		(* <- lang_ru;; *);;
+
+locale_ravan_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Раван ]
+		(* <- lang_ru;; *);;
+
+locale_ram_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Рам ]
+		(* <- lang_ru;; *);;
+
+locale_ramaan_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Рамаян ]
+		(* <- lang_ru;; *);;
+
+locale_rama_book_Poslednie_Dejanija_Ramy
+<- locale;
+=> nrel_main_idtf:
+	[ Рама ]
+		(* <- lang_ru;; *);;
+

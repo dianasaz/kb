@@ -1,0 +1,23 @@
+book_Strategiia_Golubogo_Okeana
+<- book;
+=> nrel_author;
+	author_Kim_Vichan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Стратегия Голубого Океана: Как Найти Или Создать Рынок, Свободный От Других Игроков]
+		(* <- lang_ru;; *);;
+
+book_Strategiia_Golubogo_Okeana
+=> nrel_locales:
+	.book_Strategiia_Golubogo_Okeana_locales
+		(*
+			-> locale_kotoryj_book_Strategiia_Golubogo_Okeana;;
+	 	*);;
+
+locale_kotoryj_book_Strategiia_Golubogo_Okeana
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+

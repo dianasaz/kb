@@ -1,0 +1,148 @@
+book_Razbojniki
+<- book;
+=> nrel_author;
+	author_Shiller;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Разбойники]
+		(* <- lang_ru;; *);;
+
+book_Razbojniki
+=> nrel_characters:
+	.book_Razbojniki_characters
+		(*
+			-> char_bogemia_book_Razbojniki;;
+			-> char_franz_book_Razbojniki;;
+			-> char_german_book_Razbojniki;;
+			-> char_karl_book_Razbojniki;;
+			-> char_moor_book_Razbojniki;;
+			-> char_daniel__book_Razbojniki;;
+			-> char_brand_book_Razbojniki;;
+			-> char_amalia_book_Razbojniki;;
+	 	*);;
+
+char_bogemia_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Богемия ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_german_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Герман ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_moor_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Моор ]
+		(* <- lang_ru;; *);;
+
+char_daniel__book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Даниэль ]
+		(* <- lang_ru;; *);;
+
+char_brand_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Бранд ]
+		(* <- lang_ru;; *);;
+
+char_amalia_book_Razbojniki
+<- char;
+=> nrel_main_idtf:
+	[ Амалия ]
+		(* <- lang_ru;; *);;
+
+book_Razbojniki
+=> nrel_locales:
+	.book_Razbojniki_locales
+		(*
+			-> locale_avstrijskaa_kampania_book_Razbojniki;;
+			-> locale_sam_spigel_berg_book_Razbojniki;;
+			-> locale_kotoryj_book_Razbojniki;;
+			-> locale_meklenburg_book_Razbojniki;;
+			-> locale_spigel_berg_book_Razbojniki;;
+			-> locale_lejpzig_book_Razbojniki;;
+			-> locale_praga_book_Razbojniki;;
+			-> locale_prussko_book_Razbojniki;;
+			-> locale_germania_book_Razbojniki;;
+			-> locale_saksonia_book_Razbojniki;;
+	 	*);;
+
+locale_avstrijskaa_kampania_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Австрийская Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_sam_spigel_berg_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Шпигельберг ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_meklenburg_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Мекленбург ]
+		(* <- lang_ru;; *);;
+
+locale_spigel_berg_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Шпигельберг ]
+		(* <- lang_ru;; *);;
+
+locale_lejpzig_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Лейпциг ]
+		(* <- lang_ru;; *);;
+
+locale_praga_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Прага ]
+		(* <- lang_ru;; *);;
+
+locale_prussko_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Прусско ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_saksonia_book_Razbojniki
+<- locale;
+=> nrel_main_idtf:
+	[ Саксония ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,99 @@
+book_Avarija
+<- book;
+=> nrel_author;
+	author_Djurrenmatt;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Авария]
+		(* <- lang_ru;; *);;
+
+book_Avarija
+=> nrel_characters:
+	.book_Avarija_characters
+		(*
+			-> char_janna_book_Avarija;;
+			-> char_simon_book_Avarija;;
+			-> char_al_fredo_book_Avarija;;
+			-> char_sokrat_book_Avarija;;
+			-> char_tobias_book_Avarija;;
+			-> char_ark_book_Avarija;;
+	 	*);;
+
+char_janna_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Жанна ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_al_fredo_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Альфредо ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_tobias_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Тобиас ]
+		(* <- lang_ru;; *);;
+
+char_ark_book_Avarija
+<- char;
+=> nrel_main_idtf:
+	[ Арк ]
+		(* <- lang_ru;; *);;
+
+book_Avarija
+=> nrel_locales:
+	.book_Avarija_locales
+		(*
+			-> locale_kotoryj_book_Avarija;;
+			-> locale_staryj_gigas_book_Avarija;;
+			-> locale_gigas_book_Avarija;;
+			-> locale_evropa_book_Avarija;;
+			-> locale_drejfusa_book_Avarija;;
+	 	*);;
+
+locale_kotoryj_book_Avarija
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_staryj_gigas_book_Avarija
+<- locale;
+=> nrel_main_idtf:
+	[ Старый Гигас ]
+		(* <- lang_ru;; *);;
+
+locale_gigas_book_Avarija
+<- locale;
+=> nrel_main_idtf:
+	[ Гигас ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Avarija
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_drejfusa_book_Avarija
+<- locale;
+=> nrel_main_idtf:
+	[ Дрейфуса ]
+		(* <- lang_ru;; *);;
+

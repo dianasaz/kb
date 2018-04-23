@@ -1,0 +1,196 @@
+book_Nevynosimaja_Legkost_Bytija
+<- book;
+=> nrel_author;
+	author_Kundera;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Невыносимая Лёгкость Бытия]
+		(* <- lang_ru;; *);;
+
+book_Nevynosimaja_Legkost_Bytija
+=> nrel_characters:
+	.book_Nevynosimaja_Legkost_Bytija_characters
+		(*
+			-> char_bethoven_book_Nevynosimaja_Legkost_Bytija;;
+			-> char_franz_book_Nevynosimaja_Legkost_Bytija;;
+			-> char_sabina_book_Nevynosimaja_Legkost_Bytija;;
+			-> char_tomas_book_Nevynosimaja_Legkost_Bytija;;
+			-> char_tereza_book_Nevynosimaja_Legkost_Bytija;;
+			-> char_karenin_book_Nevynosimaja_Legkost_Bytija;;
+	 	*);;
+
+char_bethoven_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Бетховен ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_sabina_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Сабина ]
+		(* <- lang_ru;; *);;
+
+char_tomas_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Томаш ]
+		(* <- lang_ru;; *);;
+
+char_tereza_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Тереза ]
+		(* <- lang_ru;; *);;
+
+char_karenin_book_Nevynosimaja_Legkost_Bytija
+<- char;
+=> nrel_main_idtf:
+	[ Каренин ]
+		(* <- lang_ru;; *);;
+
+book_Nevynosimaja_Legkost_Bytija
+=> nrel_locales:
+	.book_Nevynosimaja_Legkost_Bytija_locales
+		(*
+			-> locale_kurortnyj_gorodok_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_zurih_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_sibir__book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_kotoryj_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_nocnoj_bangkok_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_moskva_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_kalifornia_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_parij_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_cehoslovakia_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_to_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_zaholustnyj_gorodok_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_jeneva_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_svejzaria_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_amerika_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_kambodja_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_praga_book_Nevynosimaja_Legkost_Bytija;;
+			-> locale_cesskij_gorodok_book_Nevynosimaja_Legkost_Bytija;;
+	 	*);;
+
+locale_kurortnyj_gorodok_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Курортный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_zurih_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Цюрих ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_nocnoj_bangkok_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Ночной Бангкок ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kalifornia_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Калифорния ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_cehoslovakia_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Чехословакия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_zaholustnyj_gorodok_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Захолустный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_jeneva_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Женева ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_kambodja_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Камбоджа ]
+		(* <- lang_ru;; *);;
+
+locale_praga_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Прага ]
+		(* <- lang_ru;; *);;
+
+locale_cesskij_gorodok_book_Nevynosimaja_Legkost_Bytija
+<- locale;
+=> nrel_main_idtf:
+	[ Чешский Городок ]
+		(* <- lang_ru;; *);;
+
+book_Nevynosimaja_Legkost_Bytija
+=> nrel_dates:
+	.book_Nevynosimaja_Legkost_Bytija_dates
+		(*
+			-> date_1968_8_book_Nevynosimaja_Legkost_Bytija;;
+	 	*);;
+
+date_1968_8_book_Nevynosimaja_Legkost_Bytija
+<- date;
+=> nrel_main_idtf:
+	[ 1968 8 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,127 @@
+book_Vizit_Staroj_Damy
+<- book;
+=> nrel_author;
+	author_Djurrenmatt;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Визит Старой Дамы]
+		(* <- lang_ru;; *);;
+
+book_Vizit_Staroj_Damy
+=> nrel_characters:
+	.book_Vizit_Staroj_Damy_characters
+		(*
+			-> char_gullena_book_Vizit_Staroj_Damy;;
+			-> char_zahanass_ana_book_Vizit_Staroj_Damy;;
+			-> char_hofer_book_Vizit_Staroj_Damy;;
+			-> char_kobi_book_Vizit_Staroj_Damy;;
+			-> char_blumhard_book_Vizit_Staroj_Damy;;
+			-> char_matil_da_book_Vizit_Staroj_Damy;;
+			-> char_illa_book_Vizit_Staroj_Damy;;
+			-> char_pukenrid_book_Vizit_Staroj_Damy;;
+			-> char_klara_book_Vizit_Staroj_Damy;;
+	 	*);;
+
+char_gullena_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Гюллена ]
+		(* <- lang_ru;; *);;
+
+char_zahanass_ana_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Цаханассьяна ]
+		(* <- lang_ru;; *);;
+
+char_hofer_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Хофер ]
+		(* <- lang_ru;; *);;
+
+char_kobi_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Коби ]
+		(* <- lang_ru;; *);;
+
+char_blumhard_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Блюмхард ]
+		(* <- lang_ru;; *);;
+
+char_matil_da_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Матильда ]
+		(* <- lang_ru;; *);;
+
+char_illa_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Илла ]
+		(* <- lang_ru;; *);;
+
+char_pukenrid_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Пюкенрид ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Vizit_Staroj_Damy
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Vizit_Staroj_Damy
+=> nrel_locales:
+	.book_Vizit_Staroj_Damy_locales
+		(*
+			-> locale_lob__book_Vizit_Staroj_Damy;;
+			-> locale_kotoryj_book_Vizit_Staroj_Damy;;
+			-> locale_gorod_gullena_book_Vizit_Staroj_Damy;;
+			-> locale_gorodok_book_Vizit_Staroj_Damy;;
+			-> locale_svejzarskij_gorodok_book_Vizit_Staroj_Damy;;
+			-> locale_gullena_book_Vizit_Staroj_Damy;;
+	 	*);;
+
+locale_lob__book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Лобь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_gullena_book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Город Гюллена ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_svejzarskij_gorodok_book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцарский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_gullena_book_Vizit_Staroj_Damy
+<- locale;
+=> nrel_main_idtf:
+	[ Гюллена ]
+		(* <- lang_ru;; *);;
+

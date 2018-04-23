@@ -1,0 +1,176 @@
+book_50_Dney_Do_Moego_Samoubiystva
+<- book;
+=> nrel_author;
+	author_Kramer;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[50 Дней До Моего Самоубийства]
+		(* <- lang_ru;; *);;
+
+book_50_Dney_Do_Moego_Samoubiystva
+=> nrel_characters:
+	.book_50_Dney_Do_Moego_Samoubiystva_characters
+		(*
+			-> char_adam_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_danna_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_mett_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_gloria_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_nik_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_stiv_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_djej_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_aleks_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_lorens_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> char_rebekka_book_50_Dney_Do_Moego_Samoubiystva;;
+	 	*);;
+
+char_adam_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Адам ]
+		(* <- lang_ru;; *);;
+
+char_danna_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Данна ]
+		(* <- lang_ru;; *);;
+
+char_mett_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Мэтт ]
+		(* <- lang_ru;; *);;
+
+char_gloria_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Глория ]
+		(* <- lang_ru;; *);;
+
+char_nik_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Ник ]
+		(* <- lang_ru;; *);;
+
+char_stiv_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Стив ]
+		(* <- lang_ru;; *);;
+
+char_djej_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Джей ]
+		(* <- lang_ru;; *);;
+
+char_aleks_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Алекс ]
+		(* <- lang_ru;; *);;
+
+char_lorens_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Лоренс ]
+		(* <- lang_ru;; *);;
+
+char_rebekka_book_50_Dney_Do_Moego_Samoubiystva
+<- char;
+=> nrel_main_idtf:
+	[ Ребекка ]
+		(* <- lang_ru;; *);;
+
+book_50_Dney_Do_Moego_Samoubiystva
+=> nrel_locales:
+	.book_50_Dney_Do_Moego_Samoubiystva_locales
+		(*
+			-> locale_amerikanskij_gorodok_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_podkara_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_kuda_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_ssa_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_stat_v_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_nijskij_gorodok_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_kanada_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_parij_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_to_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_dja_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_al_bukerka_book_50_Dney_Do_Moego_Samoubiystva;;
+			-> locale_blijajsij_gorodok_book_50_Dney_Do_Moego_Samoubiystva;;
+	 	*);;
+
+locale_amerikanskij_gorodok_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Американский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_podkara_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Подкара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_stat_v_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Штат В ]
+		(* <- lang_ru;; *);;
+
+locale_nijskij_gorodok_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Нийский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_kanada_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Канада ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_dja_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Джа ]
+		(* <- lang_ru;; *);;
+
+locale_al_bukerka_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Альбукерка ]
+		(* <- lang_ru;; *);;
+
+locale_blijajsij_gorodok_book_50_Dney_Do_Moego_Samoubiystva
+<- locale;
+=> nrel_main_idtf:
+	[ Ближайший Городок ]
+		(* <- lang_ru;; *);;
+

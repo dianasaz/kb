@@ -1,0 +1,16 @@
+author_Avvakum
+<- person;
+=> nrel_main_idtf:
+	[Аввакум]
+		(* <- lang_ru;; *);;
+
+author_Avvakum
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Avvakum.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

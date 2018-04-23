@@ -1,0 +1,92 @@
+book_Prevracshenie
+<- book;
+=> nrel_author;
+	author_Kafka;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Превращение]
+		(* <- lang_ru;; *);;
+
+book_Prevracshenie
+=> nrel_characters:
+	.book_Prevracshenie_characters
+		(*
+			-> char_greta_book_Prevracshenie;;
+			-> char_gregor_zamza_book_Prevracshenie;;
+			-> char_zamza_book_Prevracshenie;;
+			-> char_gregor_book_Prevracshenie;;
+	 	*);;
+
+char_greta_book_Prevracshenie
+<- char;
+=> nrel_main_idtf:
+	[ Грета ]
+		(* <- lang_ru;; *);;
+
+char_gregor_zamza_book_Prevracshenie
+<- char;
+=> nrel_main_idtf:
+	[ Грегор Замза ]
+		(* <- lang_ru;; *);;
+
+char_zamza_book_Prevracshenie
+<- char;
+=> nrel_main_idtf:
+	[ Замза ]
+		(* <- lang_ru;; *);;
+
+char_gregor_book_Prevracshenie
+<- char;
+=> nrel_main_idtf:
+	[ Грегор ]
+		(* <- lang_ru;; *);;
+
+book_Prevracshenie
+=> nrel_locales:
+	.book_Prevracshenie_locales
+		(*
+			-> locale_illustrusij_book_Prevracshenie;;
+			-> locale_zamzoa_book_Prevracshenie;;
+			-> locale_zolocenaa_rama_book_Prevracshenie;;
+			-> locale_to_book_Prevracshenie;;
+			-> locale_nirovan_book_Prevracshenie;;
+			-> locale_nea_book_Prevracshenie;;
+	 	*);;
+
+locale_illustrusij_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ Иллюструщий ]
+		(* <- lang_ru;; *);;
+
+locale_zamzoa_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ Замзоя ]
+		(* <- lang_ru;; *);;
+
+locale_zolocenaa_rama_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ Золочёная Рама ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nirovan_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ Нирован ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Prevracshenie
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

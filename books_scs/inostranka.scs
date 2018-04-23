@@ -1,0 +1,204 @@
+book_Inostranka
+<- book;
+=> nrel_author;
+	author_Dovlatov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Иностранка]
+		(* <- lang_ru;; *);;
+
+book_Inostranka
+=> nrel_characters:
+	.book_Inostranka_characters
+		(*
+			-> char_tatarovic_book_Inostranka;;
+			-> char_razudalov_book_Inostranka;;
+			-> char_bronislav_book_Inostranka;;
+			-> char_kennedi_book_Inostranka;;
+			-> char_razudal_book_Inostranka;;
+			-> char_fima_book_Inostranka;;
+			-> char_rafael__book_Inostranka;;
+			-> char_raf_book_Inostranka;;
+			-> char_baranov_book_Inostranka;;
+			-> char_karavaev_book_Inostranka;;
+			-> char_sarafutdinov_book_Inostranka;;
+			-> char_marus_book_Inostranka;;
+			-> char_zama_pivovarov_book_Inostranka;;
+			-> char_marusa_book_Inostranka;;
+			-> char_dima_fedorov_book_Inostranka;;
+			-> char_kajdana_book_Inostranka;;
+			-> char_musa_book_Inostranka;;
+			-> char_mabisa_book_Inostranka;;
+			-> char_fedorov_book_Inostranka;;
+	 	*);;
+
+char_tatarovic_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Татарович ]
+		(* <- lang_ru;; *);;
+
+char_razudalov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Разудалов ]
+		(* <- lang_ru;; *);;
+
+char_bronislav_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Бронислав ]
+		(* <- lang_ru;; *);;
+
+char_kennedi_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Кеннеди ]
+		(* <- lang_ru;; *);;
+
+char_razudal_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Разудал ]
+		(* <- lang_ru;; *);;
+
+char_fima_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Фима ]
+		(* <- lang_ru;; *);;
+
+char_rafael__book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Рафаэль ]
+		(* <- lang_ru;; *);;
+
+char_raf_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Раф ]
+		(* <- lang_ru;; *);;
+
+char_baranov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Баранов ]
+		(* <- lang_ru;; *);;
+
+char_karavaev_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Караваев ]
+		(* <- lang_ru;; *);;
+
+char_sarafutdinov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Шарафутдинов ]
+		(* <- lang_ru;; *);;
+
+char_marus_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Марус ]
+		(* <- lang_ru;; *);;
+
+char_zama_pivovarov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Зяма Пивоваров ]
+		(* <- lang_ru;; *);;
+
+char_marusa_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Маруся ]
+		(* <- lang_ru;; *);;
+
+char_dima_fedorov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Дима Фёдоров ]
+		(* <- lang_ru;; *);;
+
+char_kajdana_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Каждана ]
+		(* <- lang_ru;; *);;
+
+char_musa_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Муся ]
+		(* <- lang_ru;; *);;
+
+char_mabisa_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Мабиса ]
+		(* <- lang_ru;; *);;
+
+char_fedorov_book_Inostranka
+<- char;
+=> nrel_main_idtf:
+	[ Фёдоров ]
+		(* <- lang_ru;; *);;
+
+book_Inostranka
+=> nrel_locales:
+	.book_Inostranka_locales
+		(*
+			-> locale_izrail__book_Inostranka;;
+			-> locale_novaa_rossia_book_Inostranka;;
+			-> locale_avstria_book_Inostranka;;
+			-> locale_kuda_book_Inostranka;;
+			-> locale_jork_book_Inostranka;;
+			-> locale_dnepr_book_Inostranka;;
+			-> locale_amerika_book_Inostranka;;
+	 	*);;
+
+locale_izrail__book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Израиль ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_rossia_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Россия ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_dnepr_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Днепр ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Inostranka
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+

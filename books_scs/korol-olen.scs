@@ -1,0 +1,106 @@
+book_Korol_Olen
+<- book;
+=> nrel_author;
+	author_Gocci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Король-Олень]
+		(* <- lang_ru;; *);;
+
+book_Korol_Olen
+=> nrel_characters:
+	.book_Korol_Olen_characters
+		(*
+			-> char_klaric_book_Korol_Olen;;
+			-> char_andjelo_book_Korol_Olen;;
+			-> char_pantalone_book_Korol_Olen;;
+			-> char_deramo_book_Korol_Olen;;
+			-> char_leandro_book_Korol_Olen;;
+			-> char_brigella_book_Korol_Olen;;
+			-> char_smeral_din_book_Korol_Olen;;
+			-> char_andjela_book_Korol_Olen;;
+	 	*);;
+
+char_klaric_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Кларич ]
+		(* <- lang_ru;; *);;
+
+char_andjelo_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Анджело ]
+		(* <- lang_ru;; *);;
+
+char_pantalone_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_deramo_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Дерамо ]
+		(* <- lang_ru;; *);;
+
+char_leandro_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Леандро ]
+		(* <- lang_ru;; *);;
+
+char_brigella_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Бригелла ]
+		(* <- lang_ru;; *);;
+
+char_smeral_din_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Смеральдин ]
+		(* <- lang_ru;; *);;
+
+char_andjela_book_Korol_Olen
+<- char;
+=> nrel_main_idtf:
+	[ Анджела ]
+		(* <- lang_ru;; *);;
+
+book_Korol_Olen
+=> nrel_locales:
+	.book_Korol_Olen_locales
+		(*
+			-> locale_truffal_dino_book_Korol_Olen;;
+			-> locale_deramo_book_Korol_Olen;;
+			-> locale_to_book_Korol_Olen;;
+			-> locale_dobroserdecnyj_deramo_book_Korol_Olen;;
+	 	*);;
+
+locale_truffal_dino_book_Korol_Olen
+<- locale;
+=> nrel_main_idtf:
+	[ Труффальдино ]
+		(* <- lang_ru;; *);;
+
+locale_deramo_book_Korol_Olen
+<- locale;
+=> nrel_main_idtf:
+	[ Дерамо ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Korol_Olen
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_dobroserdecnyj_deramo_book_Korol_Olen
+<- locale;
+=> nrel_main_idtf:
+	[ Добросердечный Дерамо ]
+		(* <- lang_ru;; *);;
+

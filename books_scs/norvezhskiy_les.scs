@@ -1,0 +1,182 @@
+book_Norvezhskiy_Les
+<- book;
+=> nrel_author;
+	author_Murakami;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Норвежский Лес]
+		(* <- lang_ru;; *);;
+
+book_Norvezhskiy_Les
+=> nrel_characters:
+	.book_Norvezhskiy_Les_characters
+		(*
+			-> char_fizdjeral_d_book_Norvezhskiy_Les;;
+			-> char_vatanabe_midor__book_Norvezhskiy_Les;;
+			-> char_rejkoe_book_Norvezhskiy_Les;;
+			-> char_isida_rejko_book_Norvezhskiy_Les;;
+			-> char_vatanabe_book_Norvezhskiy_Les;;
+			-> char_kobaas__book_Norvezhskiy_Les;;
+			-> char_midor__rejko_book_Norvezhskiy_Les;;
+	 	*);;
+
+char_fizdjeral_d_book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Фицджеральд ]
+		(* <- lang_ru;; *);;
+
+char_vatanabe_midor__book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Ватанабэ Мидорь ]
+		(* <- lang_ru;; *);;
+
+char_rejkoe_book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Рэйкое ]
+		(* <- lang_ru;; *);;
+
+char_isida_rejko_book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Исида Рэйко ]
+		(* <- lang_ru;; *);;
+
+char_vatanabe_book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Ватанабэ ]
+		(* <- lang_ru;; *);;
+
+char_kobaas__book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Кобаясь ]
+		(* <- lang_ru;; *);;
+
+char_midor__rejko_book_Norvezhskiy_Les
+<- char;
+=> nrel_main_idtf:
+	[ Мидорь Рэйко ]
+		(* <- lang_ru;; *);;
+
+book_Norvezhskiy_Les
+=> nrel_locales:
+	.book_Norvezhskiy_Les_locales
+		(*
+			-> locale_hazumevsij_book_Norvezhskiy_Les;;
+			-> locale_sibuj_book_Norvezhskiy_Les;;
+			-> locale_kuda_book_Norvezhskiy_Les;;
+			-> locale_midor__book_Norvezhskiy_Les;;
+			-> locale_velikij_getsbi_book_Norvezhskiy_Les;;
+			-> locale_urugvaj_book_Norvezhskiy_Les;;
+			-> locale_bonn_book_Norvezhskiy_Les;;
+			-> locale_kioto_book_Norvezhskiy_Les;;
+			-> locale_to_book_Norvezhskiy_Les;;
+			-> locale_vena_book_Norvezhskiy_Les;;
+			-> locale_tokio_book_Norvezhskiy_Les;;
+			-> locale_germania_book_Norvezhskiy_Les;;
+			-> locale_para_book_Norvezhskiy_Les;;
+			-> locale_nagasava_book_Norvezhskiy_Les;;
+	 	*);;
+
+locale_hazumevsij_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Хацумевший ]
+		(* <- lang_ru;; *);;
+
+locale_sibuj_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Сибуй ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_midor__book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Мидорь ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_getsbi_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Великий Гэтсби ]
+		(* <- lang_ru;; *);;
+
+locale_urugvaj_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Уругвай ]
+		(* <- lang_ru;; *);;
+
+locale_bonn_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Бонн ]
+		(* <- lang_ru;; *);;
+
+locale_kioto_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_nagasava_book_Norvezhskiy_Les
+<- locale;
+=> nrel_main_idtf:
+	[ Нагасава ]
+		(* <- lang_ru;; *);;
+
+book_Norvezhskiy_Les
+=> nrel_dates:
+	.book_Norvezhskiy_Les_dates
+		(*
+			-> date_1969_book_Norvezhskiy_Les;;
+	 	*);;
+
+date_1969_book_Norvezhskiy_Les
+<- date;
+=> nrel_main_idtf:
+	[ 1969 ]
+		(* <- lang_ru;; *);;
+

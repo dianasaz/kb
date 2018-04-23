@@ -1,0 +1,197 @@
+book_Trehgroshovaja_Opera
+<- book;
+=> nrel_author;
+	author_Breht;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Трёхгрошовая Опера]
+		(* <- lang_ru;; *);;
+
+book_Trehgroshovaja_Opera
+=> nrel_characters:
+	.book_Trehgroshovaja_Opera_characters
+		(*
+			-> char_uolter_book_Trehgroshovaja_Opera;;
+			-> char_braun_book_Trehgroshovaja_Opera;;
+			-> char_iv_book_Trehgroshovaja_Opera;;
+			-> char_lusi_book_Trehgroshovaja_Opera;;
+			-> char_djenni_malina_book_Trehgroshovaja_Opera;;
+			-> char_robert_book_Trehgroshovaja_Opera;;
+			-> char_pila_book_Trehgroshovaja_Opera;;
+			-> char_moneta_book_Trehgroshovaja_Opera;;
+			-> char_lusi_braun_book_Trehgroshovaja_Opera;;
+			-> char_djonatan_book_Trehgroshovaja_Opera;;
+			-> char_djeremi_book_Trehgroshovaja_Opera;;
+			-> char_polli_book_Trehgroshovaja_Opera;;
+			-> char_djenni_book_Trehgroshovaja_Opera;;
+			-> char_polli_pic_book_Trehgroshovaja_Opera;;
+			-> char_todri_book_Trehgroshovaja_Opera;;
+			-> char_mattias_book_Trehgroshovaja_Opera;;
+	 	*);;
+
+char_uolter_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Уолтер ]
+		(* <- lang_ru;; *);;
+
+char_braun_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Браун ]
+		(* <- lang_ru;; *);;
+
+char_iv_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Ив ]
+		(* <- lang_ru;; *);;
+
+char_lusi_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Люси ]
+		(* <- lang_ru;; *);;
+
+char_djenni_malina_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Дженни Малина ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_pila_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Пила ]
+		(* <- lang_ru;; *);;
+
+char_moneta_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Монета ]
+		(* <- lang_ru;; *);;
+
+char_lusi_braun_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Люси Браун ]
+		(* <- lang_ru;; *);;
+
+char_djonatan_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Джонатан ]
+		(* <- lang_ru;; *);;
+
+char_djeremi_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Джереми ]
+		(* <- lang_ru;; *);;
+
+char_polli_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Полли ]
+		(* <- lang_ru;; *);;
+
+char_djenni_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Дженни ]
+		(* <- lang_ru;; *);;
+
+char_polli_pic_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Полли Пич ]
+		(* <- lang_ru;; *);;
+
+char_todri_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Тодри ]
+		(* <- lang_ru;; *);;
+
+char_mattias_book_Trehgroshovaja_Opera
+<- char;
+=> nrel_main_idtf:
+	[ Маттиас ]
+		(* <- lang_ru;; *);;
+
+book_Trehgroshovaja_Opera
+=> nrel_locales:
+	.book_Trehgroshovaja_Opera_locales
+		(*
+			-> locale_afganistan_book_Trehgroshovaja_Opera;;
+			-> locale_india_book_Trehgroshovaja_Opera;;
+			-> locale_piratka_book_Trehgroshovaja_Opera;;
+			-> locale_malin_book_Trehgroshovaja_Opera;;
+			-> locale_otpra_book_Trehgroshovaja_Opera;;
+			-> locale_velik_book_Trehgroshovaja_Opera;;
+			-> locale_tarnbridj_book_Trehgroshovaja_Opera;;
+			-> locale_london_book_Trehgroshovaja_Opera;;
+			-> locale_to_book_Trehgroshovaja_Opera;;
+	 	*);;
+
+locale_afganistan_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Афганистан ]
+		(* <- lang_ru;; *);;
+
+locale_india_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_piratka_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Пиратка ]
+		(* <- lang_ru;; *);;
+
+locale_malin_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Малин ]
+		(* <- lang_ru;; *);;
+
+locale_otpra_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Отпра ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_tarnbridj_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Тарнбридж ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Trehgroshovaja_Opera
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

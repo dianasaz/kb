@@ -1,0 +1,120 @@
+book_Dozhd_V_Platanakh
+<- book;
+=> nrel_author;
+	author_Bo_Pu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ян-Гуйфэй Утром Вкушает Ароматные Ли Чжи; Танский Государь Осенней Ночью Слышит Дождь В Платанах]
+		(* <- lang_ru;; *);;
+
+book_Dozhd_V_Platanakh
+=> nrel_characters:
+	.book_Dozhd_V_Platanakh_characters
+		(*
+			-> char_sycuana_book_Dozhd_V_Platanakh;;
+			-> char_sou_book_Dozhd_V_Platanakh;;
+			-> char_ana_book_Dozhd_V_Platanakh;;
+			-> char_zzu_book_Dozhd_V_Platanakh;;
+			-> char_sycuani_book_Dozhd_V_Platanakh;;
+			-> char_lu_book_Dozhd_V_Platanakh;;
+			-> char_cjan_book_Dozhd_V_Platanakh;;
+			-> char_ana_go_book_Dozhd_V_Platanakh;;
+			-> char_an_book_Dozhd_V_Platanakh;;
+	 	*);;
+
+char_sycuana_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Сычуаня ]
+		(* <- lang_ru;; *);;
+
+char_sou_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Шоу ]
+		(* <- lang_ru;; *);;
+
+char_ana_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Аня ]
+		(* <- lang_ru;; *);;
+
+char_zzu_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Цзю ]
+		(* <- lang_ru;; *);;
+
+char_sycuani_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Сычуани ]
+		(* <- lang_ru;; *);;
+
+char_lu_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Лу ]
+		(* <- lang_ru;; *);;
+
+char_cjan_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Чжан ]
+		(* <- lang_ru;; *);;
+
+char_ana_go_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Яна Го ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Dozhd_V_Platanakh
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Dozhd_V_Platanakh
+=> nrel_locales:
+	.book_Dozhd_V_Platanakh_locales
+		(*
+			-> locale_sycuana_book_Dozhd_V_Platanakh;;
+			-> locale_sana_book_Dozhd_V_Platanakh;;
+			-> locale_gujfej_book_Dozhd_V_Platanakh;;
+			-> locale_to_book_Dozhd_V_Platanakh;;
+			-> locale_sycuani_book_Dozhd_V_Platanakh;;
+	 	*);;
+
+locale_sycuana_book_Dozhd_V_Platanakh
+<- locale;
+=> nrel_main_idtf:
+	[ Сычуаня ]
+		(* <- lang_ru;; *);;
+
+locale_sana_book_Dozhd_V_Platanakh
+<- locale;
+=> nrel_main_idtf:
+	[ Шаня ]
+		(* <- lang_ru;; *);;
+
+locale_gujfej_book_Dozhd_V_Platanakh
+<- locale;
+=> nrel_main_idtf:
+	[ Гуйфэй ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dozhd_V_Platanakh
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sycuani_book_Dozhd_V_Platanakh
+<- locale;
+=> nrel_main_idtf:
+	[ Сычуани ]
+		(* <- lang_ru;; *);;
+

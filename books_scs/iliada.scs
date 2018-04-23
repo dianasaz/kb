@@ -1,0 +1,351 @@
+book_Iliada
+<- book;
+=> nrel_author;
+	author_Gomer;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Илиада]
+		(* <- lang_ru;; *);;
+
+book_Iliada
+=> nrel_characters:
+	.book_Iliada_characters
+		(*
+			-> char_patrokl_book_Iliada;;
+			-> char_afina_book_Iliada;;
+			-> char_dardanella_book_Iliada;;
+			-> char_ahilla_book_Iliada;;
+			-> char_fetida_book_Iliada;;
+			-> char_elena_book_Iliada;;
+			-> char_artemida_book_Iliada;;
+			-> char_sarpedon_book_Iliada;;
+			-> char_vergilij_book_Iliada;;
+			-> char_apollon_book_Iliada;;
+			-> char_gektor_book_Iliada;;
+			-> char_ida_book_Iliada;;
+			-> char_paris_book_Iliada;;
+			-> char_posejdon_book_Iliada;;
+			-> char_agamemnon_book_Iliada;;
+			-> char_odissej_book_Iliada;;
+			-> char_priam_book_Iliada;;
+			-> char_troa_book_Iliada;;
+			-> char_ahillov_book_Iliada;;
+			-> char_zevs_book_Iliada;;
+			-> char_nestor_book_Iliada;;
+			-> char_troasij_book_Iliada;;
+			-> char_ilion_book_Iliada;;
+			-> char_gomer_book_Iliada;;
+			-> char_argos_book_Iliada;;
+			-> char_paris_book_Iliada;;
+			-> char_skamandra_book_Iliada;;
+			-> char_gera_book_Iliada;;
+			-> char_afrodita_book_Iliada;;
+	 	*);;
+
+char_patrokl_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Патрокл ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_dardanella_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Дарданелла ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_fetida_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Фетида ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_artemida_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Артемида ]
+		(* <- lang_ru;; *);;
+
+char_sarpedon_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Сарпедон ]
+		(* <- lang_ru;; *);;
+
+char_vergilij_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Вергилий ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_gektor_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Гектор ]
+		(* <- lang_ru;; *);;
+
+char_ida_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Ида ]
+		(* <- lang_ru;; *);;
+
+char_paris_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_posejdon_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Посейдон ]
+		(* <- lang_ru;; *);;
+
+char_agamemnon_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Агамемнон ]
+		(* <- lang_ru;; *);;
+
+char_odissej_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Одиссей ]
+		(* <- lang_ru;; *);;
+
+char_priam_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Приам ]
+		(* <- lang_ru;; *);;
+
+char_troa_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Троя ]
+		(* <- lang_ru;; *);;
+
+char_ahillov_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Ахиллов ]
+		(* <- lang_ru;; *);;
+
+char_zevs_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Зевс ]
+		(* <- lang_ru;; *);;
+
+char_nestor_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Нестор ]
+		(* <- lang_ru;; *);;
+
+char_troasij_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Троящий ]
+		(* <- lang_ru;; *);;
+
+char_ilion_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Илион ]
+		(* <- lang_ru;; *);;
+
+char_gomer_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Гомер ]
+		(* <- lang_ru;; *);;
+
+char_argos_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Аргос ]
+		(* <- lang_ru;; *);;
+
+char_paris_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_skamandra_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Скамандра ]
+		(* <- lang_ru;; *);;
+
+char_gera_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Гера ]
+		(* <- lang_ru;; *);;
+
+char_afrodita_book_Iliada
+<- char;
+=> nrel_main_idtf:
+	[ Афродита ]
+		(* <- lang_ru;; *);;
+
+book_Iliada
+=> nrel_locales:
+	.book_Iliada_locales
+		(*
+			-> locale_ilion_book_Iliada;;
+			-> locale_dal_naa_efiopia_book_Iliada;;
+			-> locale_vysokij_olimp_book_Iliada;;
+			-> locale_seda_book_Iliada;;
+			-> locale_kurgan_book_Iliada;;
+			-> locale_mirnyj_book_Iliada;;
+			-> locale_kotoryj_book_Iliada;;
+			-> locale_sarpedon_book_Iliada;;
+			-> locale_enea_book_Iliada;;
+			-> locale_gektorovoe_book_Iliada;;
+			-> locale_vsa_grezia_book_Iliada;;
+			-> locale_to_book_Iliada;;
+			-> locale_vsa_azia_book_Iliada;;
+			-> locale_drevnaa_grezia_book_Iliada;;
+			-> locale_nea_book_Iliada;;
+			-> locale_malaa_azia_book_Iliada;;
+			-> locale_hroma_book_Iliada;;
+			-> locale_patroklov_kurgan_book_Iliada;;
+	 	*);;
+
+locale_ilion_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Илион ]
+		(* <- lang_ru;; *);;
+
+locale_dal_naa_efiopia_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Дальняя Эфиопия ]
+		(* <- lang_ru;; *);;
+
+locale_vysokij_olimp_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Высокий Олимп ]
+		(* <- lang_ru;; *);;
+
+locale_seda_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Седа ]
+		(* <- lang_ru;; *);;
+
+locale_kurgan_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Курган ]
+		(* <- lang_ru;; *);;
+
+locale_mirnyj_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_sarpedon_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Сарпедон ]
+		(* <- lang_ru;; *);;
+
+locale_enea_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Энея ]
+		(* <- lang_ru;; *);;
+
+locale_gektorovoe_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Гекторовое ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_azia_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Азия ]
+		(* <- lang_ru;; *);;
+
+locale_drevnaa_grezia_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Древняя Греция ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_malaa_azia_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Малая Азия ]
+		(* <- lang_ru;; *);;
+
+locale_hroma_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Хрома ]
+		(* <- lang_ru;; *);;
+
+locale_patroklov_kurgan_book_Iliada
+<- locale;
+=> nrel_main_idtf:
+	[ Патроклов Курган ]
+		(* <- lang_ru;; *);;
+

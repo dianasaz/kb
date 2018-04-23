@@ -1,0 +1,99 @@
+book_Shinel
+<- book;
+=> nrel_author;
+	author_Gogol;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шинель]
+		(* <- lang_ru;; *);;
+
+book_Shinel
+=> nrel_characters:
+	.book_Shinel_characters
+		(*
+			-> char_akakij_akakievic_book_Shinel;;
+			-> char_basmackin_book_Shinel;;
+			-> char_akakij_akakievic_basmackin_book_Shinel;;
+	 	*);;
+
+char_akakij_akakievic_book_Shinel
+<- char;
+=> nrel_main_idtf:
+	[ Акакий Акакиевич ]
+		(* <- lang_ru;; *);;
+
+char_basmackin_book_Shinel
+<- char;
+=> nrel_main_idtf:
+	[ Башмачкин ]
+		(* <- lang_ru;; *);;
+
+char_akakij_akakievic_basmackin_book_Shinel
+<- char;
+=> nrel_main_idtf:
+	[ Акакий Акакиевич Башмачкин ]
+		(* <- lang_ru;; *);;
+
+book_Shinel
+=> nrel_locales:
+	.book_Shinel_locales
+		(*
+			-> locale_breda_book_Shinel;;
+			-> locale_kuda_book_Shinel;;
+			-> locale_peterburgskij_book_Shinel;;
+			-> locale_rej_book_Shinel;;
+			-> locale_karolina_book_Shinel;;
+			-> locale_preogromnyj_us_book_Shinel;;
+			-> locale_cua_book_Shinel;;
+			-> locale_kolomenskij_book_Shinel;;
+	 	*);;
+
+locale_breda_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_rej_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Реж ]
+		(* <- lang_ru;; *);;
+
+locale_karolina_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Каролина ]
+		(* <- lang_ru;; *);;
+
+locale_preogromnyj_us_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Преогромный Ус ]
+		(* <- lang_ru;; *);;
+
+locale_cua_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Чуя ]
+		(* <- lang_ru;; *);;
+
+locale_kolomenskij_book_Shinel
+<- locale;
+=> nrel_main_idtf:
+	[ Коломенский ]
+		(* <- lang_ru;; *);;
+

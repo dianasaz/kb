@@ -1,0 +1,301 @@
+book_Vino_Iz_Oduvanchikov
+<- book;
+=> nrel_author;
+	author_Bredberi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вино Из Одуванчиков]
+		(* <- lang_ru;; *);;
+
+book_Vino_Iz_Oduvanchikov
+=> nrel_characters:
+	.book_Vino_Iz_Oduvanchikov_characters
+		(*
+			-> char_spolding_duglas_book_Vino_Iz_Oduvanchikov;;
+			-> char_sanderson_book_Vino_Iz_Oduvanchikov;;
+			-> char_djon_haf_book_Vino_Iz_Oduvanchikov;;
+			-> char_elen_book_Vino_Iz_Oduvanchikov;;
+			-> char_hav_book_Vino_Iz_Oduvanchikov;;
+			-> char_djonas_book_Vino_Iz_Oduvanchikov;;
+			-> char_carli_book_Vino_Iz_Oduvanchikov;;
+			-> char_lina_book_Vino_Iz_Oduvanchikov;;
+			-> char_spoldinga_book_Vino_Iz_Oduvanchikov;;
+			-> char_leo_aufman_book_Vino_Iz_Oduvanchikov;;
+			-> char_robert_book_Vino_Iz_Oduvanchikov;;
+			-> char_el_mira_book_Vino_Iz_Oduvanchikov;;
+			-> char_duglas_book_Vino_Iz_Oduvanchikov;;
+			-> char_bill_forester_book_Vino_Iz_Oduvanchikov;;
+			-> char_bill_book_Vino_Iz_Oduvanchikov;;
+			-> char_djejn_book_Vino_Iz_Oduvanchikov;;
+			-> char_carli_vudmen_book_Vino_Iz_Oduvanchikov;;
+			-> char_nad_djonas_book_Vino_Iz_Oduvanchikov;;
+			-> char_vudmenom_book_Vino_Iz_Oduvanchikov;;
+			-> char_lumis_book_Vino_Iz_Oduvanchikov;;
+			-> char_braun_book_Vino_Iz_Oduvanchikov;;
+			-> char_leo_book_Vino_Iz_Oduvanchikov;;
+			-> char_el_mir_book_Vino_Iz_Oduvanchikov;;
+			-> char_tom_book_Vino_Iz_Oduvanchikov;;
+			-> char_lavinia_book_Vino_Iz_Oduvanchikov;;
+			-> char_djon_book_Vino_Iz_Oduvanchikov;;
+			-> char_elen_bentla_book_Vino_Iz_Oduvanchikov;;
+			-> char_el_mira_braun_book_Vino_Iz_Oduvanchikov;;
+			-> char_klara_book_Vino_Iz_Oduvanchikov;;
+	 	*);;
+
+char_spolding_duglas_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Сполдинг Дуглас ]
+		(* <- lang_ru;; *);;
+
+char_sanderson_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Сандерсон ]
+		(* <- lang_ru;; *);;
+
+char_djon_haf_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Джон Хаф ]
+		(* <- lang_ru;; *);;
+
+char_elen_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Элен ]
+		(* <- lang_ru;; *);;
+
+char_hav_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Хав ]
+		(* <- lang_ru;; *);;
+
+char_djonas_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Джонас ]
+		(* <- lang_ru;; *);;
+
+char_carli_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Чарли ]
+		(* <- lang_ru;; *);;
+
+char_lina_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Лина ]
+		(* <- lang_ru;; *);;
+
+char_spoldinga_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Сполдинга ]
+		(* <- lang_ru;; *);;
+
+char_leo_aufman_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Лео Ауфман ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_el_mira_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Эльмира ]
+		(* <- lang_ru;; *);;
+
+char_duglas_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Дуглас ]
+		(* <- lang_ru;; *);;
+
+char_bill_forester_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Билл Форестер ]
+		(* <- lang_ru;; *);;
+
+char_bill_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Билл ]
+		(* <- lang_ru;; *);;
+
+char_djejn_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Джейн ]
+		(* <- lang_ru;; *);;
+
+char_carli_vudmen_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Чарли Вудмен ]
+		(* <- lang_ru;; *);;
+
+char_nad_djonas_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Над Джонас ]
+		(* <- lang_ru;; *);;
+
+char_vudmenom_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Вудменом ]
+		(* <- lang_ru;; *);;
+
+char_lumis_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Лумис ]
+		(* <- lang_ru;; *);;
+
+char_braun_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Браун ]
+		(* <- lang_ru;; *);;
+
+char_leo_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Лео ]
+		(* <- lang_ru;; *);;
+
+char_el_mir_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Эльмир ]
+		(* <- lang_ru;; *);;
+
+char_tom_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Том ]
+		(* <- lang_ru;; *);;
+
+char_lavinia_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Лавиния ]
+		(* <- lang_ru;; *);;
+
+char_djon_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Джон ]
+		(* <- lang_ru;; *);;
+
+char_elen_bentla_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Элен Бентля ]
+		(* <- lang_ru;; *);;
+
+char_el_mira_braun_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Эльмира Браун ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Vino_Iz_Oduvanchikov
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Vino_Iz_Oduvanchikov
+=> nrel_locales:
+	.book_Vino_Iz_Oduvanchikov_locales
+		(*
+			-> locale_cikago_book_Vino_Iz_Oduvanchikov;;
+			-> locale_velikoe_book_Vino_Iz_Oduvanchikov;;
+			-> locale_dikij_zapad_book_Vino_Iz_Oduvanchikov;;
+			-> locale_arktika_book_Vino_Iz_Oduvanchikov;;
+			-> locale_gorodok_book_Vino_Iz_Oduvanchikov;;
+			-> locale_to_book_Vino_Iz_Oduvanchikov;;
+			-> locale_grintaun_book_Vino_Iz_Oduvanchikov;;
+			-> locale_mehiko_book_Vino_Iz_Oduvanchikov;;
+			-> locale_stat_illinojs_book_Vino_Iz_Oduvanchikov;;
+	 	*);;
+
+locale_cikago_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Чикаго ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_dikij_zapad_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Дикий Запад ]
+		(* <- lang_ru;; *);;
+
+locale_arktika_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Арктика ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_grintaun_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Гринтаун ]
+		(* <- lang_ru;; *);;
+
+locale_mehiko_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Мехико ]
+		(* <- lang_ru;; *);;
+
+locale_stat_illinojs_book_Vino_Iz_Oduvanchikov
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Иллинойс ]
+		(* <- lang_ru;; *);;
+
+book_Vino_Iz_Oduvanchikov
+=> nrel_dates:
+	.book_Vino_Iz_Oduvanchikov_dates
+		(*
+			-> date_1928_book_Vino_Iz_Oduvanchikov;;
+	 	*);;
+
+date_1928_book_Vino_Iz_Oduvanchikov
+<- date;
+=> nrel_main_idtf:
+	[ 1928 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,315 @@
+book_Metro_2033
+<- book;
+=> nrel_author;
+	author_Glukhovskiy;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Метро 2033]
+		(* <- lang_ru;; *);;
+
+book_Metro_2033
+=> nrel_characters:
+	.book_Metro_2033_characters
+		(*
+			-> char_sasa_suhoj_book_Metro_2033;;
+			-> char_artem_book_Metro_2033;;
+			-> char_cingiz_book_Metro_2033;;
+			-> char_kalasnikov_book_Metro_2033;;
+			-> char_ganza_book_Metro_2033;;
+			-> char_boeva_book_Metro_2033;;
+			-> char_ul_man_book_Metro_2033;;
+			-> char_artem_book_Metro_2033;;
+			-> char_mihail_porfirievic_book_Metro_2033;;
+			-> char_anton_book_Metro_2033;;
+			-> char_vanecka_book_Metro_2033;;
+			-> char_danil_book_Metro_2033;;
+			-> char_han_book_Metro_2033;;
+			-> char_krasnaa_book_Metro_2033;;
+			-> char_maakovskaa_book_Metro_2033;;
+			-> char_oleg_book_Metro_2033;;
+			-> char_burbon_book_Metro_2033;;
+			-> char_andrej_book_Metro_2033;;
+	 	*);;
+
+char_sasa_suhoj_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Саша Сухой ]
+		(* <- lang_ru;; *);;
+
+char_artem_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Артём ]
+		(* <- lang_ru;; *);;
+
+char_cingiz_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Чингиз ]
+		(* <- lang_ru;; *);;
+
+char_kalasnikov_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Калашников ]
+		(* <- lang_ru;; *);;
+
+char_ganza_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Ганза ]
+		(* <- lang_ru;; *);;
+
+char_boeva_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Боева ]
+		(* <- lang_ru;; *);;
+
+char_ul_man_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Ульман ]
+		(* <- lang_ru;; *);;
+
+char_artem_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Артём ]
+		(* <- lang_ru;; *);;
+
+char_mihail_porfirievic_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Михаил Порфириевич ]
+		(* <- lang_ru;; *);;
+
+char_anton_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Антон ]
+		(* <- lang_ru;; *);;
+
+char_vanecka_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Ванечка ]
+		(* <- lang_ru;; *);;
+
+char_danil_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Данил ]
+		(* <- lang_ru;; *);;
+
+char_han_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Хан ]
+		(* <- lang_ru;; *);;
+
+char_krasnaa_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+char_maakovskaa_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Маяковская ]
+		(* <- lang_ru;; *);;
+
+char_oleg_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Олег ]
+		(* <- lang_ru;; *);;
+
+char_burbon_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Бурбон ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Metro_2033
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+book_Metro_2033
+=> nrel_locales:
+	.book_Metro_2033_locales
+		(*
+			-> locale_vsa_krasnaa_book_Metro_2033;;
+			-> locale_telepaticeska_book_Metro_2033;;
+			-> locale_ul_a_book_Metro_2033;;
+			-> locale_kotoryj_book_Metro_2033;;
+			-> locale_drevnaa_india_book_Metro_2033;;
+			-> locale_sticeska_krasnaa_book_Metro_2033;;
+			-> locale_germodver__book_Metro_2033;;
+			-> locale_bogataa_ganza_book_Metro_2033;;
+			-> locale_kommun__book_Metro_2033;;
+			-> locale_krasnyj_book_Metro_2033;;
+			-> locale_ganzoa_book_Metro_2033;;
+			-> locale_krasnaa_book_Metro_2033;;
+			-> locale_velikoe_book_Metro_2033;;
+			-> locale_moskva_book_Metro_2033;;
+			-> locale_kitaj_book_Metro_2033;;
+			-> locale_ganza_book_Metro_2033;;
+			-> locale_ul_mana_book_Metro_2033;;
+			-> locale_kuznezkij_book_Metro_2033;;
+			-> locale_kuda_book_Metro_2033;;
+			-> locale_nal_na_krasnaa_book_Metro_2033;;
+			-> locale_gennyj_gaz_book_Metro_2033;;
+			-> locale_to_book_Metro_2033;;
+	 	*);;
+
+locale_vsa_krasnaa_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Красная ]
+		(* <- lang_ru;; *);;
+
+locale_telepaticeska_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Телепатичёска ]
+		(* <- lang_ru;; *);;
+
+locale_ul_a_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Улья ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_drevnaa_india_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Древняя Индия ]
+		(* <- lang_ru;; *);;
+
+locale_sticeska_krasnaa_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Стичёска Красная ]
+		(* <- lang_ru;; *);;
+
+locale_germodver__book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Гермодверь ]
+		(* <- lang_ru;; *);;
+
+locale_bogataa_ganza_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Богатая Ганза ]
+		(* <- lang_ru;; *);;
+
+locale_kommun__book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Коммунь ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_ganzoa_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Ганзоя ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_ganza_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Ганза ]
+		(* <- lang_ru;; *);;
+
+locale_ul_mana_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Ульмана ]
+		(* <- lang_ru;; *);;
+
+locale_kuznezkij_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Кузнецкий ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_nal_na_krasnaa_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Нальна Красная ]
+		(* <- lang_ru;; *);;
+
+locale_gennyj_gaz_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ Генный Газ ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Metro_2033
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+book_Metro_2033
+=> nrel_dates:
+	.book_Metro_2033_dates
+		(*
+			-> date_2033_book_Metro_2033;;
+	 	*);;
+
+date_2033_book_Metro_2033
+<- date;
+=> nrel_main_idtf:
+	[ 2033 ]
+		(* <- lang_ru;; *);;
+

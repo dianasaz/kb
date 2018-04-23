@@ -1,0 +1,252 @@
+book_Zhitie_Feodosiia_Pecherskogo
+<- book;
+=> nrel_author;
+	author_Nestor_Letopisetc;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Житие Феодосия Печерского]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Feodosiia_Pecherskogo
+=> nrel_characters:
+	.book_Zhitie_Feodosiia_Pecherskogo_characters
+		(*
+			-> char_varlaa_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_antonij_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_feodosij_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_boar_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_vasil_ev_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_nikon_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_izaslav_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_damian_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_ioann_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_efrem_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_dmitria_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_ilarion_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_stefan_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_varlaam_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_hrista_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> char_svatoslav_book_Zhitie_Feodosiia_Pecherskogo;;
+	 	*);;
+
+char_varlaa_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Варлаа ]
+		(* <- lang_ru;; *);;
+
+char_antonij_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Антоний ]
+		(* <- lang_ru;; *);;
+
+char_feodosij_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Феодосий ]
+		(* <- lang_ru;; *);;
+
+char_boar_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Бояр ]
+		(* <- lang_ru;; *);;
+
+char_vasil_ev_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Васильев ]
+		(* <- lang_ru;; *);;
+
+char_nikon_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Никон ]
+		(* <- lang_ru;; *);;
+
+char_izaslav_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Изяслав ]
+		(* <- lang_ru;; *);;
+
+char_damian_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Дамиан ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_efrem_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Ефрем ]
+		(* <- lang_ru;; *);;
+
+char_dmitria_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрия ]
+		(* <- lang_ru;; *);;
+
+char_ilarion_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Иларион ]
+		(* <- lang_ru;; *);;
+
+char_stefan_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Стефан ]
+		(* <- lang_ru;; *);;
+
+char_varlaam_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Варлаам ]
+		(* <- lang_ru;; *);;
+
+char_hrista_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Христя ]
+		(* <- lang_ru;; *);;
+
+char_svatoslav_book_Zhitie_Feodosiia_Pecherskogo
+<- char;
+=> nrel_main_idtf:
+	[ Святослав ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Feodosiia_Pecherskogo
+=> nrel_locales:
+	.book_Zhitie_Feodosiia_Pecherskogo_locales
+		(*
+			-> locale_varlaa_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_nikola_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_izaslav_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_ierusalim_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_smertnyj_odr_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_velikoe_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_kuda_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_kiev_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_konstantinopol__book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_to_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_gorod_kursk_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_svatoj_feodosij_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_maj_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> locale_feodosij_book_Zhitie_Feodosiia_Pecherskogo;;
+	 	*);;
+
+locale_varlaa_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Варлаа ]
+		(* <- lang_ru;; *);;
+
+locale_nikola_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Никола ]
+		(* <- lang_ru;; *);;
+
+locale_izaslav_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Изяслав ]
+		(* <- lang_ru;; *);;
+
+locale_ierusalim_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_smertnyj_odr_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Смертный Одр ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_konstantinopol__book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Константинополь ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_kursk_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Город Курск ]
+		(* <- lang_ru;; *);;
+
+locale_svatoj_feodosij_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Святой Феодосий ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_feodosij_book_Zhitie_Feodosiia_Pecherskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Феодосий ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Feodosiia_Pecherskogo
+=> nrel_dates:
+	.book_Zhitie_Feodosiia_Pecherskogo_dates
+		(*
+			-> date_1074_book_Zhitie_Feodosiia_Pecherskogo;;
+			-> date_5_3_book_Zhitie_Feodosiia_Pecherskogo;;
+	 	*);;
+
+date_1074_book_Zhitie_Feodosiia_Pecherskogo
+<- date;
+=> nrel_main_idtf:
+	[ 1074 ]
+		(* <- lang_ru;; *);;
+
+date_5_3_book_Zhitie_Feodosiia_Pecherskogo
+<- date;
+=> nrel_main_idtf:
+	[ 5 3 ]
+		(* <- lang_ru;; *);;
+

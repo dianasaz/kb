@@ -1,0 +1,371 @@
+book_Semja_Opperman
+<- book;
+=> nrel_author;
+	author_Fejhtvanger;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Семья Опперман]
+		(* <- lang_ru;; *);;
+
+book_Semja_Opperman
+=> nrel_characters:
+	.book_Semja_Opperman_characters
+		(*
+			-> char_edgar_book_Semja_Opperman;;
+			-> char_bil_finger_book_Semja_Opperman;;
+			-> char_germania_book_Semja_Opperman;;
+			-> char_genrih_vel_s_book_Semja_Opperman;;
+			-> char_klaus_book_Semja_Opperman;;
+			-> char_gitler_book_Semja_Opperman;;
+			-> char_bertol_d_book_Semja_Opperman;;
+			-> char_opperman_book_Semja_Opperman;;
+			-> char_akobi_book_Semja_Opperman;;
+			-> char_artur_book_Semja_Opperman;;
+			-> char_fridrih_book_Semja_Opperman;;
+			-> char_genrih_book_Semja_Opperman;;
+			-> char_gutvetter_book_Semja_Opperman;;
+			-> char_emmanuil_opperman_book_Semja_Opperman;;
+			-> char_vil_gel_m_book_Semja_Opperman;;
+			-> char_anna_book_Semja_Opperman;;
+			-> char_fransua_book_Semja_Opperman;;
+			-> char_edgar_opperman_book_Semja_Opperman;;
+			-> char_gustav_book_Semja_Opperman;;
+			-> char_rauha_book_Semja_Opperman;;
+			-> char_sibilla_book_Semja_Opperman;;
+			-> char_gustav_opperman_book_Semja_Opperman;;
+			-> char_vejnberg_book_Semja_Opperman;;
+			-> char_jak_book_Semja_Opperman;;
+			-> char_martin_bertol_d_book_Semja_Opperman;;
+			-> char_martin_book_Semja_Opperman;;
+			-> char_frislina_book_Semja_Opperman;;
+			-> char_lessing_book_Semja_Opperman;;
+			-> char_lugano_book_Semja_Opperman;;
+			-> char_lorenz_book_Semja_Opperman;;
+			-> char_anne_book_Semja_Opperman;;
+			-> char_klara_book_Semja_Opperman;;
+	 	*);;
+
+char_edgar_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Эдгар ]
+		(* <- lang_ru;; *);;
+
+char_bil_finger_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Бильфингер ]
+		(* <- lang_ru;; *);;
+
+char_germania_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+char_genrih_vel_s_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Генрих Вельс ]
+		(* <- lang_ru;; *);;
+
+char_klaus_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Клаус ]
+		(* <- lang_ru;; *);;
+
+char_gitler_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Гитлер ]
+		(* <- lang_ru;; *);;
+
+char_bertol_d_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Бертольд ]
+		(* <- lang_ru;; *);;
+
+char_opperman_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Опперман ]
+		(* <- lang_ru;; *);;
+
+char_akobi_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Якоби ]
+		(* <- lang_ru;; *);;
+
+char_artur_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Артур ]
+		(* <- lang_ru;; *);;
+
+char_fridrih_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Фридрих ]
+		(* <- lang_ru;; *);;
+
+char_genrih_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Генрих ]
+		(* <- lang_ru;; *);;
+
+char_gutvetter_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Гутветтер ]
+		(* <- lang_ru;; *);;
+
+char_emmanuil_opperman_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Эммануил Опперман ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+char_fransua_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Франсуа ]
+		(* <- lang_ru;; *);;
+
+char_edgar_opperman_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Эдгар Опперман ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_rauha_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Рауха ]
+		(* <- lang_ru;; *);;
+
+char_sibilla_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Сибилла ]
+		(* <- lang_ru;; *);;
+
+char_gustav_opperman_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Густав Опперман ]
+		(* <- lang_ru;; *);;
+
+char_vejnberg_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Вейнберг ]
+		(* <- lang_ru;; *);;
+
+char_jak_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Жак ]
+		(* <- lang_ru;; *);;
+
+char_martin_bertol_d_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Мартин Бертольд ]
+		(* <- lang_ru;; *);;
+
+char_martin_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Мартин ]
+		(* <- lang_ru;; *);;
+
+char_frislina_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Фришлина ]
+		(* <- lang_ru;; *);;
+
+char_lessing_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Лессинг ]
+		(* <- lang_ru;; *);;
+
+char_lugano_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Лугано ]
+		(* <- lang_ru;; *);;
+
+char_lorenz_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Лоренц ]
+		(* <- lang_ru;; *);;
+
+char_anne_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Анне ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Semja_Opperman
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Semja_Opperman
+=> nrel_locales:
+	.book_Semja_Opperman_locales
+		(*
+			-> locale_rossia_book_Semja_Opperman;;
+			-> locale_cehia_book_Semja_Opperman;;
+			-> locale_velikoe_book_Semja_Opperman;;
+			-> locale_akobi_book_Semja_Opperman;;
+			-> locale_otpra_book_Semja_Opperman;;
+			-> locale_parij_book_Semja_Opperman;;
+			-> locale_mul_gejm_book_Semja_Opperman;;
+			-> locale_london_book_Semja_Opperman;;
+			-> locale_stutgart_book_Semja_Opperman;;
+			-> locale_amerika_book_Semja_Opperman;;
+			-> locale_svejzaria_book_Semja_Opperman;;
+			-> locale_rocnyj_book_Semja_Opperman;;
+			-> locale_palestina_book_Semja_Opperman;;
+			-> locale_germania_book_Semja_Opperman;;
+			-> locale_oppermana_book_Semja_Opperman;;
+			-> locale_berlin_book_Semja_Opperman;;
+	 	*);;
+
+locale_rossia_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_cehia_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Чехия ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_akobi_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Якоби ]
+		(* <- lang_ru;; *);;
+
+locale_otpra_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Отпра ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_mul_gejm_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Мюльгейм ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_stutgart_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Штутгарт ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+locale_rocnyj_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Рочный ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_oppermana_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Оппермана ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Semja_Opperman
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+
+book_Semja_Opperman
+=> nrel_dates:
+	.book_Semja_Opperman_dates
+		(*
+			-> date_1932_11_book_Semja_Opperman;;
+	 	*);;
+
+date_1932_11_book_Semja_Opperman
+<- date;
+=> nrel_main_idtf:
+	[ 1932 11 ]
+		(* <- lang_ru;; *);;
+

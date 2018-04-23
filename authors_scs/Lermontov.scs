@@ -1,0 +1,16 @@
+author_Lermontov
+<- person;
+=> nrel_main_idtf:
+	[Михаил Лермонтов]
+		(* <- lang_ru;; *);;
+
+author_Lermontov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Lermontov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,197 @@
+book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- book;
+=> nrel_author;
+	author_Kevedo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[История Жизни Пройдохи По Имени Дон Паблос]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+=> nrel_characters:
+	.book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos_characters
+		(*
+			-> char_felipa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_gusman_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_don_dij_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_tristan_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_koronel__book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_toribio_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_dij_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> char_madrid_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+	 	*);;
+
+char_felipa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Фелипа ]
+		(* <- lang_ru;; *);;
+
+char_gusman_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Гусман ]
+		(* <- lang_ru;; *);;
+
+char_don_dij_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Дон Дий ]
+		(* <- lang_ru;; *);;
+
+char_tristan_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Тристан ]
+		(* <- lang_ru;; *);;
+
+char_koronel__book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Коронель ]
+		(* <- lang_ru;; *);;
+
+char_toribio_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Торибио ]
+		(* <- lang_ru;; *);;
+
+char_dij_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Дий ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_madrid_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- char;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+=> nrel_locales:
+	.book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos_locales
+		(*
+			-> locale_india_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_pablosom_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_felipa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_para_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_pablosa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_ih_blagodarnoe_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_toledo_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_madrid_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_pablosyj_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_to_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_sevil_a_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_luga_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_segovia_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_upravlausij_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+			-> locale_samyj_velikoe_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos;;
+	 	*);;
+
+locale_india_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_pablosom_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Паблосом ]
+		(* <- lang_ru;; *);;
+
+locale_felipa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Фелипа ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_pablosa_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Паблоса ]
+		(* <- lang_ru;; *);;
+
+locale_ih_blagodarnoe_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Их Благодарное ]
+		(* <- lang_ru;; *);;
+
+locale_toledo_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Толедо ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+locale_pablosyj_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Паблосый ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_segovia_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Сеговия ]
+		(* <- lang_ru;; *);;
+
+locale_upravlausij_don_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Управляющий Дон ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_velikoe_book_Istorija_Zhizni_Projdohi_Po_Imeni_Don_Pablos
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Великое ]
+		(* <- lang_ru;; *);;
+

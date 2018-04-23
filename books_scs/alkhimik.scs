@@ -1,0 +1,182 @@
+book_Alkhimik
+<- book;
+=> nrel_author;
+	author_Koelo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Алхимик]
+		(* <- lang_ru;; *);;
+
+book_Alkhimik
+=> nrel_characters:
+	.book_Alkhimik_characters
+		(*
+			-> char_fatima_book_Alkhimik;;
+			-> char_mir_book_Alkhimik;;
+			-> char_melhised_ka_book_Alkhimik;;
+			-> char_salim_book_Alkhimik;;
+			-> char_sant_ago_book_Alkhimik;;
+	 	*);;
+
+char_fatima_book_Alkhimik
+<- char;
+=> nrel_main_idtf:
+	[ Фатима ]
+		(* <- lang_ru;; *);;
+
+char_mir_book_Alkhimik
+<- char;
+=> nrel_main_idtf:
+	[ Мир ]
+		(* <- lang_ru;; *);;
+
+char_melhised_ka_book_Alkhimik
+<- char;
+=> nrel_main_idtf:
+	[ Мелхиседька ]
+		(* <- lang_ru;; *);;
+
+char_salim_book_Alkhimik
+<- char;
+=> nrel_main_idtf:
+	[ Салим ]
+		(* <- lang_ru;; *);;
+
+char_sant_ago_book_Alkhimik
+<- char;
+=> nrel_main_idtf:
+	[ Сантьяго ]
+		(* <- lang_ru;; *);;
+
+book_Alkhimik
+=> nrel_locales:
+	.book_Alkhimik_locales
+		(*
+			-> locale_urim_book_Alkhimik;;
+			-> locale_gorod_tanjer_book_Alkhimik;;
+			-> locale_sant_ago_book_Alkhimik;;
+			-> locale_afrika_book_Alkhimik;;
+			-> locale_sahara_book_Alkhimik;;
+			-> locale_velikoe_book_Alkhimik;;
+			-> locale_kuda_book_Alkhimik;;
+			-> locale_belyj_urim_book_Alkhimik;;
+			-> locale_gorodok_book_Alkhimik;;
+			-> locale_ispania_book_Alkhimik;;
+			-> locale_mekka_book_Alkhimik;;
+			-> locale_to_book_Alkhimik;;
+			-> locale_kotoryj_sant_ago_book_Alkhimik;;
+			-> locale_egipet_book_Alkhimik;;
+			-> locale_svasennaa_mekka_book_Alkhimik;;
+	 	*);;
+
+locale_urim_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Урим ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_tanjer_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Город Танжер ]
+		(* <- lang_ru;; *);;
+
+locale_sant_ago_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Сантьяго ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_sahara_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_belyj_urim_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Белый Урим ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_mekka_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Мекка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_sant_ago_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Который Сантьяго ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_svasennaa_mekka_book_Alkhimik
+<- locale;
+=> nrel_main_idtf:
+	[ Священная Мекка ]
+		(* <- lang_ru;; *);;
+
+book_Alkhimik
+=> nrel_dates:
+	.book_Alkhimik_dates
+		(*
+			-> date_1973_book_Alkhimik;;
+			-> date_1981_book_Alkhimik;;
+	 	*);;
+
+date_1973_book_Alkhimik
+<- date;
+=> nrel_main_idtf:
+	[ 1973 ]
+		(* <- lang_ru;; *);;
+
+date_1981_book_Alkhimik
+<- date;
+=> nrel_main_idtf:
+	[ 1981 ]
+		(* <- lang_ru;; *);;
+

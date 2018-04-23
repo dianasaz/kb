@@ -1,0 +1,99 @@
+book_Osadnoe_Polozhenie
+<- book;
+=> nrel_author;
+	author_Kamju;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Осадное Положение]
+		(* <- lang_ru;; *);;
+
+book_Osadnoe_Polozhenie
+=> nrel_characters:
+	.book_Osadnoe_Polozhenie_characters
+		(*
+			-> char_diego_book_Osadnoe_Polozhenie;;
+			-> char_jan_book_Osadnoe_Polozhenie;;
+			-> char_nada_book_Osadnoe_Polozhenie;;
+			-> char_lui_book_Osadnoe_Polozhenie;;
+			-> char_cuma_book_Osadnoe_Polozhenie;;
+	 	*);;
+
+char_diego_book_Osadnoe_Polozhenie
+<- char;
+=> nrel_main_idtf:
+	[ Диего ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Osadnoe_Polozhenie
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_nada_book_Osadnoe_Polozhenie
+<- char;
+=> nrel_main_idtf:
+	[ Нада ]
+		(* <- lang_ru;; *);;
+
+char_lui_book_Osadnoe_Polozhenie
+<- char;
+=> nrel_main_idtf:
+	[ Луи ]
+		(* <- lang_ru;; *);;
+
+char_cuma_book_Osadnoe_Polozhenie
+<- char;
+=> nrel_main_idtf:
+	[ Чума ]
+		(* <- lang_ru;; *);;
+
+book_Osadnoe_Polozhenie
+=> nrel_locales:
+	.book_Osadnoe_Polozhenie_locales
+		(*
+			-> locale_kuda_book_Osadnoe_Polozhenie;;
+			-> locale_gorod_kadis_book_Osadnoe_Polozhenie;;
+			-> locale_to_book_Osadnoe_Polozhenie;;
+			-> locale_barro_book_Osadnoe_Polozhenie;;
+			-> locale_viktoria_book_Osadnoe_Polozhenie;;
+			-> locale_kadis_book_Osadnoe_Polozhenie;;
+	 	*);;
+
+locale_kuda_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_kadis_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ Город Кадис ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_barro_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ Барро ]
+		(* <- lang_ru;; *);;
+
+locale_viktoria_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ Виктория ]
+		(* <- lang_ru;; *);;
+
+locale_kadis_book_Osadnoe_Polozhenie
+<- locale;
+=> nrel_main_idtf:
+	[ Кадис ]
+		(* <- lang_ru;; *);;
+

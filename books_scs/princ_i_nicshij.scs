@@ -1,0 +1,162 @@
+book_Princ_I_Nicshij
+<- book;
+=> nrel_author;
+	author_Tven;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Принц И Нищий]
+		(* <- lang_ru;; *);;
+
+book_Princ_I_Nicshij
+=> nrel_characters:
+	.book_Princ_I_Nicshij_characters
+		(*
+			-> char_edita_book_Princ_I_Nicshij;;
+			-> char_artur_book_Princ_I_Nicshij;;
+			-> char_djon_kenti_book_Princ_I_Nicshij;;
+			-> char_genrih_book_Princ_I_Nicshij;;
+			-> char_tom_book_Princ_I_Nicshij;;
+			-> char_gendon_book_Princ_I_Nicshij;;
+			-> char_gugo_book_Princ_I_Nicshij;;
+			-> char_kenti_book_Princ_I_Nicshij;;
+			-> char_tom_kenti_book_Princ_I_Nicshij;;
+			-> char_eduard_book_Princ_I_Nicshij;;
+			-> char_gendon_majls_book_Princ_I_Nicshij;;
+	 	*);;
+
+char_edita_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Эдита ]
+		(* <- lang_ru;; *);;
+
+char_artur_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Артур ]
+		(* <- lang_ru;; *);;
+
+char_djon_kenti_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Джон Кенти ]
+		(* <- lang_ru;; *);;
+
+char_genrih_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Генрих ]
+		(* <- lang_ru;; *);;
+
+char_tom_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Том ]
+		(* <- lang_ru;; *);;
+
+char_gendon_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Гендон ]
+		(* <- lang_ru;; *);;
+
+char_gugo_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Гуго ]
+		(* <- lang_ru;; *);;
+
+char_kenti_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Кенти ]
+		(* <- lang_ru;; *);;
+
+char_tom_kenti_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Том Кенти ]
+		(* <- lang_ru;; *);;
+
+char_eduard_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Эдуард ]
+		(* <- lang_ru;; *);;
+
+char_gendon_majls_book_Princ_I_Nicshij
+<- char;
+=> nrel_main_idtf:
+	[ Гендон Майлс ]
+		(* <- lang_ru;; *);;
+
+book_Princ_I_Nicshij
+=> nrel_locales:
+	.book_Princ_I_Nicshij_locales
+		(*
+			-> locale_majls_book_Princ_I_Nicshij;;
+			-> locale_groznyj_book_Princ_I_Nicshij;;
+			-> locale_etot_san_book_Princ_I_Nicshij;;
+			-> locale_kuda_book_Princ_I_Nicshij;;
+			-> locale_vsa_anglia_book_Princ_I_Nicshij;;
+			-> locale_london_book_Princ_I_Nicshij;;
+			-> locale_strasnyj_tiran_book_Princ_I_Nicshij;;
+			-> locale_gendon_book_Princ_I_Nicshij;;
+			-> locale_anglia_book_Princ_I_Nicshij;;
+	 	*);;
+
+locale_majls_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Майлс ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_etot_san_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Сан ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_anglia_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Англия ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_strasnyj_tiran_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Страшный Тиран ]
+		(* <- lang_ru;; *);;
+
+locale_gendon_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Гендон ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Princ_I_Nicshij
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+

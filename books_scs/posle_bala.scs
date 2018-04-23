@@ -1,0 +1,64 @@
+book_Posle_Bala
+<- book;
+=> nrel_author;
+	author_Tolstoi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[После Бала]
+		(* <- lang_ru;; *);;
+
+book_Posle_Bala
+=> nrel_characters:
+	.book_Posle_Bala_characters
+		(*
+			-> char_petr_vladislavic_book_Posle_Bala;;
+			-> char_ivan_vasilievic_book_Posle_Bala;;
+	 	*);;
+
+char_petr_vladislavic_book_Posle_Bala
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Владиславич ]
+		(* <- lang_ru;; *);;
+
+char_ivan_vasilievic_book_Posle_Bala
+<- char;
+=> nrel_main_idtf:
+	[ Иван Василиевич ]
+		(* <- lang_ru;; *);;
+
+book_Posle_Bala
+=> nrel_locales:
+	.book_Posle_Bala_locales
+		(*
+			-> locale_tiletnaa_book_Posle_Bala;;
+			-> locale_eta_para_book_Posle_Bala;;
+			-> locale_para_book_Posle_Bala;;
+			-> locale_krasnaa_book_Posle_Bala;;
+	 	*);;
+
+locale_tiletnaa_book_Posle_Bala
+<- locale;
+=> nrel_main_idtf:
+	[ Тилетняя ]
+		(* <- lang_ru;; *);;
+
+locale_eta_para_book_Posle_Bala
+<- locale;
+=> nrel_main_idtf:
+	[ Эта Пара ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Posle_Bala
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Posle_Bala
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+

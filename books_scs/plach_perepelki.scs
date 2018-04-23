@@ -1,0 +1,525 @@
+book_Plach_Perepelki
+<- book;
+=> nrel_author;
+	author_Chigrinov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Плач Перепёлки]
+		(* <- lang_ru;; *);;
+
+book_Plach_Perepelki
+=> nrel_characters:
+	.book_Plach_Perepelki_characters
+		(*
+			-> char_voronina_book_Plach_Perepelki;;
+			-> char_prokop_book_Plach_Perepelki;;
+			-> char_ganna_book_Plach_Perepelki;;
+			-> char_aleksej_egorovic_skvorzov_book_Plach_Perepelki;;
+			-> char_rodion_book_Plach_Perepelki;;
+			-> char_paraska_ryjenkova_book_Plach_Perepelki;;
+			-> char_agrafena_azarova_book_Plach_Perepelki;;
+			-> char_syrkina_book_Plach_Perepelki;;
+			-> char_mastak_book_Plach_Perepelki;;
+			-> char_budennyj_book_Plach_Perepelki;;
+			-> char_verskovyj_book_Plach_Perepelki;;
+			-> char_holodilovyj_book_Plach_Perepelki;;
+			-> char_masea_book_Plach_Perepelki;;
+			-> char_spassee_book_Plach_Perepelki;;
+			-> char_bravoe_book_Plach_Perepelki;;
+			-> char_faina_book_Plach_Perepelki;;
+			-> char_sunakov_palag_book_Plach_Perepelki;;
+			-> char_marfa_book_Plach_Perepelki;;
+			-> char_rovnagin_book_Plach_Perepelki;;
+			-> char_sors_book_Plach_Perepelki;;
+			-> char_mikit_book_Plach_Perepelki;;
+			-> char_ganna_karpilovaa_book_Plach_Perepelki;;
+			-> char_parfennyj_book_Plach_Perepelki;;
+			-> char_sidor_rovnagin_book_Plach_Perepelki;;
+			-> char_gufel_d_book_Plach_Perepelki;;
+			-> char_roman_semockin_book_Plach_Perepelki;;
+			-> char_girs_book_Plach_Perepelki;;
+			-> char_verskovaa_book_Plach_Perepelki;;
+			-> char_honivsij_book_Plach_Perepelki;;
+			-> char_rahim_book_Plach_Perepelki;;
+			-> char_pavel_book_Plach_Perepelki;;
+			-> char_draniza_book_Plach_Perepelki;;
+			-> char_adol_f_book_Plach_Perepelki;;
+			-> char_semockin_book_Plach_Perepelki;;
+			-> char_rodion_cubar__book_Plach_Perepelki;;
+			-> char_karl_gufel_d_book_Plach_Perepelki;;
+			-> char_stalin_book_Plach_Perepelki;;
+			-> char_denis_book_Plach_Perepelki;;
+			-> char_cubar__book_Plach_Perepelki;;
+			-> char_jurinic_book_Plach_Perepelki;;
+	 	*);;
+
+char_voronina_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Воронина ]
+		(* <- lang_ru;; *);;
+
+char_prokop_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Прокоп ]
+		(* <- lang_ru;; *);;
+
+char_ganna_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Ганна ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_egorovic_skvorzov_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Егорович Скворцов ]
+		(* <- lang_ru;; *);;
+
+char_rodion_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Родион ]
+		(* <- lang_ru;; *);;
+
+char_paraska_ryjenkova_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Параска Рыженкова ]
+		(* <- lang_ru;; *);;
+
+char_agrafena_azarova_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Аграфена Азарова ]
+		(* <- lang_ru;; *);;
+
+char_syrkina_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Сыркина ]
+		(* <- lang_ru;; *);;
+
+char_mastak_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Маштак ]
+		(* <- lang_ru;; *);;
+
+char_budennyj_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Буденный ]
+		(* <- lang_ru;; *);;
+
+char_verskovyj_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Вершковый ]
+		(* <- lang_ru;; *);;
+
+char_holodilovyj_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Холодиловый ]
+		(* <- lang_ru;; *);;
+
+char_masea_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Масея ]
+		(* <- lang_ru;; *);;
+
+char_spassee_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Спасшее ]
+		(* <- lang_ru;; *);;
+
+char_bravoe_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Бравое ]
+		(* <- lang_ru;; *);;
+
+char_faina_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Фаина ]
+		(* <- lang_ru;; *);;
+
+char_sunakov_palag_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Шуняков Палаг ]
+		(* <- lang_ru;; *);;
+
+char_marfa_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Марфа ]
+		(* <- lang_ru;; *);;
+
+char_rovnagin_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Ровнягин ]
+		(* <- lang_ru;; *);;
+
+char_sors_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Щорс ]
+		(* <- lang_ru;; *);;
+
+char_mikit_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Микит ]
+		(* <- lang_ru;; *);;
+
+char_ganna_karpilovaa_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Ганна Карпиловая ]
+		(* <- lang_ru;; *);;
+
+char_parfennyj_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Парфённый ]
+		(* <- lang_ru;; *);;
+
+char_sidor_rovnagin_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Сидор Ровнягин ]
+		(* <- lang_ru;; *);;
+
+char_gufel_d_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Гуфельд ]
+		(* <- lang_ru;; *);;
+
+char_roman_semockin_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Роман Сёмочкин ]
+		(* <- lang_ru;; *);;
+
+char_girs_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Гирш ]
+		(* <- lang_ru;; *);;
+
+char_verskovaa_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Вершковая ]
+		(* <- lang_ru;; *);;
+
+char_honivsij_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Хонивший ]
+		(* <- lang_ru;; *);;
+
+char_rahim_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Рахим ]
+		(* <- lang_ru;; *);;
+
+char_pavel_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Павел ]
+		(* <- lang_ru;; *);;
+
+char_draniza_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Драница ]
+		(* <- lang_ru;; *);;
+
+char_adol_f_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Адольф ]
+		(* <- lang_ru;; *);;
+
+char_semockin_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Сёмочкин ]
+		(* <- lang_ru;; *);;
+
+char_rodion_cubar__book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Родион Чубарь ]
+		(* <- lang_ru;; *);;
+
+char_karl_gufel_d_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Карл Гуфельд ]
+		(* <- lang_ru;; *);;
+
+char_stalin_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Сталин ]
+		(* <- lang_ru;; *);;
+
+char_denis_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Денис ]
+		(* <- lang_ru;; *);;
+
+char_cubar__book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Чубарь ]
+		(* <- lang_ru;; *);;
+
+char_jurinic_book_Plach_Perepelki
+<- char;
+=> nrel_main_idtf:
+	[ Журинич ]
+		(* <- lang_ru;; *);;
+
+book_Plach_Perepelki
+=> nrel_locales:
+	.book_Plach_Perepelki_locales
+		(*
+			-> locale_veremejka_book_Plach_Perepelki;;
+			-> locale_kotoryj_book_Plach_Perepelki;;
+			-> locale_jurinici_book_Plach_Perepelki;;
+			-> locale_siraevka_book_Plach_Perepelki;;
+			-> locale_mahnoe_book_Plach_Perepelki;;
+			-> locale_pol_sa_book_Plach_Perepelki;;
+			-> locale_sverdlovsk_book_Plach_Perepelki;;
+			-> locale_melejkova_book_Plach_Perepelki;;
+			-> locale_krasnyj_book_Plach_Perepelki;;
+			-> locale_ih_rajon_book_Plach_Perepelki;;
+			-> locale_nemezk_book_Plach_Perepelki;;
+			-> locale_latok_book_Plach_Perepelki;;
+			-> locale_baranovic_book_Plach_Perepelki;;
+			-> locale_krasnaa_book_Plach_Perepelki;;
+			-> locale_snovoe_book_Plach_Perepelki;;
+			-> locale_sahta_book_Plach_Perepelki;;
+			-> locale_moskva_book_Plach_Perepelki;;
+			-> locale_besed__book_Plach_Perepelki;;
+			-> locale_gana_book_Plach_Perepelki;;
+			-> locale_palag_book_Plach_Perepelki;;
+			-> locale_vostok_book_Plach_Perepelki;;
+			-> locale_kuda_book_Plach_Perepelki;;
+			-> locale_kuligaevka_book_Plach_Perepelki;;
+			-> locale_krutogorskij_book_Plach_Perepelki;;
+			-> locale_lesna_book_Plach_Perepelki;;
+			-> locale_sarejka_book_Plach_Perepelki;;
+			-> locale_ryjenkova_book_Plach_Perepelki;;
+			-> locale_tot_jurinici_book_Plach_Perepelki;;
+			-> locale_to_book_Plach_Perepelki;;
+			-> locale_sunakov_book_Plach_Perepelki;;
+	 	*);;
+
+locale_veremejka_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Веремейка ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_jurinici_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Журиничи ]
+		(* <- lang_ru;; *);;
+
+locale_siraevka_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Ширяевка ]
+		(* <- lang_ru;; *);;
+
+locale_mahnoe_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Махное ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_sverdlovsk_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Свердловск ]
+		(* <- lang_ru;; *);;
+
+locale_melejkova_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Мележкова ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_ih_rajon_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Их Район ]
+		(* <- lang_ru;; *);;
+
+locale_nemezk_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Немецк ]
+		(* <- lang_ru;; *);;
+
+locale_latok_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Латок ]
+		(* <- lang_ru;; *);;
+
+locale_baranovic_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Баранович ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_snovoe_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Сновое ]
+		(* <- lang_ru;; *);;
+
+locale_sahta_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Шахта ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_besed__book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Беседь ]
+		(* <- lang_ru;; *);;
+
+locale_gana_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Гана ]
+		(* <- lang_ru;; *);;
+
+locale_palag_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Палаг ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kuligaevka_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Кулигаевка ]
+		(* <- lang_ru;; *);;
+
+locale_krutogorskij_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Крутогорский ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_sarejka_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Шарейка ]
+		(* <- lang_ru;; *);;
+
+locale_ryjenkova_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Рыженкова ]
+		(* <- lang_ru;; *);;
+
+locale_tot_jurinici_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Тот Журиничи ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sunakov_book_Plach_Perepelki
+<- locale;
+=> nrel_main_idtf:
+	[ Шуняков ]
+		(* <- lang_ru;; *);;
+
+book_Plach_Perepelki
+=> nrel_dates:
+	.book_Plach_Perepelki_dates
+		(*
+			-> date_1941_8_book_Plach_Perepelki;;
+	 	*);;
+
+date_1941_8_book_Plach_Perepelki
+<- date;
+=> nrel_main_idtf:
+	[ 1941 8 ]
+		(* <- lang_ru;; *);;
+

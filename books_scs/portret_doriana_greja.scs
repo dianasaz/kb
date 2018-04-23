@@ -1,0 +1,169 @@
+book_Portret_Doriana_Greja
+<- book;
+=> nrel_author;
+	author_Uajld;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Портрет Дориана Грея]
+		(* <- lang_ru;; *);;
+
+book_Portret_Doriana_Greja
+=> nrel_characters:
+	.book_Portret_Doriana_Greja_characters
+		(*
+			-> char_gvendolena_book_Portret_Doriana_Greja;;
+			-> char_djejms_vejn_book_Portret_Doriana_Greja;;
+			-> char_oskar_uajled_book_Portret_Doriana_Greja;;
+			-> char_sibilla_book_Portret_Doriana_Greja;;
+			-> char_kempbel_book_Portret_Doriana_Greja;;
+			-> char_genri_book_Portret_Doriana_Greja;;
+			-> char_djul_etta_book_Portret_Doriana_Greja;;
+			-> char_greusij_book_Portret_Doriana_Greja;;
+			-> char_dorian_book_Portret_Doriana_Greja;;
+			-> char_alan_book_Portret_Doriana_Greja;;
+			-> char_djejms_book_Portret_Doriana_Greja;;
+	 	*);;
+
+char_gvendolena_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Гвендолена ]
+		(* <- lang_ru;; *);;
+
+char_djejms_vejn_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс Вэйн ]
+		(* <- lang_ru;; *);;
+
+char_oskar_uajled_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Оскар Уайлёд ]
+		(* <- lang_ru;; *);;
+
+char_sibilla_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Сибилла ]
+		(* <- lang_ru;; *);;
+
+char_kempbel_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Кэмпбел ]
+		(* <- lang_ru;; *);;
+
+char_genri_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Генри ]
+		(* <- lang_ru;; *);;
+
+char_djul_etta_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Джульетта ]
+		(* <- lang_ru;; *);;
+
+char_greusij_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Греющий ]
+		(* <- lang_ru;; *);;
+
+char_dorian_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Дориан ]
+		(* <- lang_ru;; *);;
+
+char_alan_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Алан ]
+		(* <- lang_ru;; *);;
+
+char_djejms_book_Portret_Doriana_Greja
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс ]
+		(* <- lang_ru;; *);;
+
+book_Portret_Doriana_Greja
+=> nrel_locales:
+	.book_Portret_Doriana_Greja_locales
+		(*
+			-> locale_avstralia_book_Portret_Doriana_Greja;;
+			-> locale_ind_book_Portret_Doriana_Greja;;
+			-> locale_temnyj_kos_book_Portret_Doriana_Greja;;
+			-> locale_sibile_vejn_book_Portret_Doriana_Greja;;
+			-> locale_parij_book_Portret_Doriana_Greja;;
+			-> locale_to_book_Portret_Doriana_Greja;;
+			-> locale_vejn_book_Portret_Doriana_Greja;;
+			-> locale_london_book_Portret_Doriana_Greja;;
+			-> locale_vsevidasee_oko_book_Portret_Doriana_Greja;;
+			-> locale_sibil__book_Portret_Doriana_Greja;;
+	 	*);;
+
+locale_avstralia_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_ind_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Инд ]
+		(* <- lang_ru;; *);;
+
+locale_temnyj_kos_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Тёмный Кос ]
+		(* <- lang_ru;; *);;
+
+locale_sibile_vejn_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Сибиле Вэйн ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_vejn_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Вэйн ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_vsevidasee_oko_book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Всевидящее Око ]
+		(* <- lang_ru;; *);;
+
+locale_sibil__book_Portret_Doriana_Greja
+<- locale;
+=> nrel_main_idtf:
+	[ Сибиль ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,239 @@
+book_Strana_Vina
+<- book;
+=> nrel_author;
+	author_Mo_Yan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Страна Вина]
+		(* <- lang_ru;; *);;
+
+book_Strana_Vina
+=> nrel_characters:
+	.book_Strana_Vina_characters
+		(*
+			-> char_losana_book_Strana_Vina;;
+			-> char_zzina_book_Strana_Vina;;
+			-> char_zzugo_book_Strana_Vina;;
+			-> char_ganzzuan_book_Strana_Vina;;
+			-> char_zzina_book_Strana_Vina;;
+			-> char_din_book_Strana_Vina;;
+			-> char_li_book_Strana_Vina;;
+	 	*);;
+
+char_losana_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Лошаня ]
+		(* <- lang_ru;; *);;
+
+char_zzina_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Цзина ]
+		(* <- lang_ru;; *);;
+
+char_zzugo_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Цзюго ]
+		(* <- lang_ru;; *);;
+
+char_ganzzuan_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Ганцзуан ]
+		(* <- lang_ru;; *);;
+
+char_zzina_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Цзиня ]
+		(* <- lang_ru;; *);;
+
+char_din_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Дин ]
+		(* <- lang_ru;; *);;
+
+char_li_book_Strana_Vina
+<- char;
+=> nrel_main_idtf:
+	[ Ли ]
+		(* <- lang_ru;; *);;
+
+book_Strana_Vina
+=> nrel_locales:
+	.book_Strana_Vina_locales
+		(*
+			-> locale_maotaa_book_Strana_Vina;;
+			-> locale_kotoryj_book_Strana_Vina;;
+			-> locale_golaa_soferiza_book_Strana_Vina;;
+			-> locale_zzina_book_Strana_Vina;;
+			-> locale_uan_bao_book_Strana_Vina;;
+			-> locale_losana_book_Strana_Vina;;
+			-> locale_krasnyj_book_Strana_Vina;;
+			-> locale_korolevsk_book_Strana_Vina;;
+			-> locale_zzin__book_Strana_Vina;;
+			-> locale_bajuan_lin_book_Strana_Vina;;
+			-> locale_sahta_book_Strana_Vina;;
+			-> locale_neprevzojdennyj_zzin__book_Strana_Vina;;
+			-> locale_ves__kitaj_book_Strana_Vina;;
+			-> locale_on_rasskazov_book_Strana_Vina;;
+			-> locale_kitaj_book_Strana_Vina;;
+			-> locale_simpaticnaa_soferiza_book_Strana_Vina;;
+			-> locale_zzina_book_Strana_Vina;;
+			-> locale_ganzzuanivsij_book_Strana_Vina;;
+			-> locale_gornyj_book_Strana_Vina;;
+			-> locale_seda_book_Strana_Vina;;
+			-> locale_soferiza_book_Strana_Vina;;
+			-> locale_kuda_book_Strana_Vina;;
+			-> locale_merzlaa_baran_a_book_Strana_Vina;;
+			-> locale_suan_evavsij_book_Strana_Vina;;
+	 	*);;
+
+locale_maotaa_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Маотая ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_golaa_soferiza_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Голая Шоферица ]
+		(* <- lang_ru;; *);;
+
+locale_zzina_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Цзина ]
+		(* <- lang_ru;; *);;
+
+locale_uan_bao_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Юаньбао ]
+		(* <- lang_ru;; *);;
+
+locale_losana_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Лошаня ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_korolevsk_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Королевск ]
+		(* <- lang_ru;; *);;
+
+locale_zzin__book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Цзинь ]
+		(* <- lang_ru;; *);;
+
+locale_bajuan_lin_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Байюаньлин ]
+		(* <- lang_ru;; *);;
+
+locale_sahta_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Шахта ]
+		(* <- lang_ru;; *);;
+
+locale_neprevzojdennyj_zzin__book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Непревзойдённый Цзинь ]
+		(* <- lang_ru;; *);;
+
+locale_ves__kitaj_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Китай ]
+		(* <- lang_ru;; *);;
+
+locale_on_rasskazov_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Он Рассказов ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_simpaticnaa_soferiza_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Симпатичная Шоферица ]
+		(* <- lang_ru;; *);;
+
+locale_zzina_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Цзиня ]
+		(* <- lang_ru;; *);;
+
+locale_ganzzuanivsij_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Ганцзуанивший ]
+		(* <- lang_ru;; *);;
+
+locale_gornyj_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Горный ]
+		(* <- lang_ru;; *);;
+
+locale_seda_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Седа ]
+		(* <- lang_ru;; *);;
+
+locale_soferiza_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Шоферица ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_merzlaa_baran_a_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Мёрзлая Баранья ]
+		(* <- lang_ru;; *);;
+
+locale_suan_evavsij_book_Strana_Vina
+<- locale;
+=> nrel_main_idtf:
+	[ Шуанъевавший ]
+		(* <- lang_ru;; *);;
+

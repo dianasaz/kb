@@ -1,0 +1,120 @@
+book_Zhizn_Buddy
+<- book;
+=> nrel_author;
+	author_Ashvaghosha;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Жизнь Будды]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Buddy
+=> nrel_characters:
+	.book_Zhizn_Buddy_characters
+		(*
+			-> char_magadh_book_Zhizn_Buddy;;
+			-> char_bodh_book_Zhizn_Buddy;;
+			-> char_gaja_book_Zhizn_Buddy;;
+			-> char_kosta_book_Zhizn_Buddy;;
+			-> char_siddharthi_book_Zhizn_Buddy;;
+			-> char_maja_book_Zhizn_Buddy;;
+			-> char_bimbisara_book_Zhizn_Buddy;;
+	 	*);;
+
+char_magadh_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Магадх ]
+		(* <- lang_ru;; *);;
+
+char_bodh_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Бодх ]
+		(* <- lang_ru;; *);;
+
+char_gaja_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Гайя ]
+		(* <- lang_ru;; *);;
+
+char_kosta_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Костя ]
+		(* <- lang_ru;; *);;
+
+char_siddharthi_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Сиддхартхи ]
+		(* <- lang_ru;; *);;
+
+char_maja_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Майя ]
+		(* <- lang_ru;; *);;
+
+char_bimbisara_book_Zhizn_Buddy
+<- char;
+=> nrel_main_idtf:
+	[ Бимбисара ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Buddy
+=> nrel_locales:
+	.book_Zhizn_Buddy_locales
+		(*
+			-> locale_india_book_Zhizn_Buddy;;
+			-> locale_mary_book_Zhizn_Buddy;;
+			-> locale_kusinagar_book_Zhizn_Buddy;;
+			-> locale_asodhara_book_Zhizn_Buddy;;
+			-> locale_gorod_kusinagar_book_Zhizn_Buddy;;
+			-> locale_benares_book_Zhizn_Buddy;;
+			-> locale_gimalai_book_Zhizn_Buddy;;
+	 	*);;
+
+locale_india_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_mary_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Мары ]
+		(* <- lang_ru;; *);;
+
+locale_kusinagar_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Кушинагар ]
+		(* <- lang_ru;; *);;
+
+locale_asodhara_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Яшодхара ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_kusinagar_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Город Кушинагар ]
+		(* <- lang_ru;; *);;
+
+locale_benares_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Бенарес ]
+		(* <- lang_ru;; *);;
+
+locale_gimalai_book_Zhizn_Buddy
+<- locale;
+=> nrel_main_idtf:
+	[ Гималаи ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,169 @@
+book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- book;
+=> nrel_author;
+	author_Sajkaku;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[История Любовных Похождений Одинокой Женщины]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+=> nrel_characters:
+	.book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny_characters
+		(*
+			-> char_sakaj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> char_koken_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+	 	*);;
+
+char_sakaj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- char;
+=> nrel_main_idtf:
+	[ Сакай ]
+		(* <- lang_ru;; *);;
+
+char_koken_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- char;
+=> nrel_main_idtf:
+	[ Кокэн ]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+=> nrel_locales:
+	.book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny_locales
+		(*
+			-> locale_bykov_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_pricesanyj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_zevsaa_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_oreh_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_zapad_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_kuda_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_kan_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_aponia_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_sugorok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_gorodok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_krasnyj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_car_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_to_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_kanagat_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_kioto_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_osaka_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_gorod_osaka_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_vostok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+			-> locale_nas_kraj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny;;
+	 	*);;
+
+locale_bykov_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_pricesanyj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Причёсаный ]
+		(* <- lang_ru;; *);;
+
+locale_zevsaa_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Зевшая ]
+		(* <- lang_ru;; *);;
+
+locale_oreh_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Орех ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kan_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Кан ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_sugorok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Сугорок ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kanagat_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Канагат ]
+		(* <- lang_ru;; *);;
+
+locale_kioto_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_osaka_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Осака ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_osaka_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Город Осака ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_nas_kraj_book_Istorija_Ljubovnyh_Pohozhdenij_Odinokoj_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Наш Край ]
+		(* <- lang_ru;; *);;
+

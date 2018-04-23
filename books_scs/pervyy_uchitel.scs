@@ -1,0 +1,133 @@
+book_Pervyy_Uchitel
+<- book;
+=> nrel_author;
+	author_Ajtmatov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Первый Учитель]
+		(* <- lang_ru;; *);;
+
+book_Pervyy_Uchitel
+=> nrel_characters:
+	.book_Pervyy_Uchitel_characters
+		(*
+			-> char_altynaj_book_Pervyy_Uchitel;;
+			-> char_kurkureu_book_Pervyy_Uchitel;;
+			-> char_kartanbaj_book_Pervyy_Uchitel;;
+			-> char_altynaj_sulajmanovna_sulajmanova_book_Pervyy_Uchitel;;
+			-> char_lenin_book_Pervyy_Uchitel;;
+	 	*);;
+
+char_altynaj_book_Pervyy_Uchitel
+<- char;
+=> nrel_main_idtf:
+	[ Алтынай ]
+		(* <- lang_ru;; *);;
+
+char_kurkureu_book_Pervyy_Uchitel
+<- char;
+=> nrel_main_idtf:
+	[ Куркуреу ]
+		(* <- lang_ru;; *);;
+
+char_kartanbaj_book_Pervyy_Uchitel
+<- char;
+=> nrel_main_idtf:
+	[ Картанбай ]
+		(* <- lang_ru;; *);;
+
+char_altynaj_sulajmanovna_sulajmanova_book_Pervyy_Uchitel
+<- char;
+=> nrel_main_idtf:
+	[ Алтынай Сулаймановна Сулайманова ]
+		(* <- lang_ru;; *);;
+
+char_lenin_book_Pervyy_Uchitel
+<- char;
+=> nrel_main_idtf:
+	[ Ленин ]
+		(* <- lang_ru;; *);;
+
+book_Pervyy_Uchitel
+=> nrel_locales:
+	.book_Pervyy_Uchitel_locales
+		(*
+			-> locale_dujsennaa_book_Pervyy_Uchitel;;
+			-> locale_sibir__book_Pervyy_Uchitel;;
+			-> locale_dujsen_book_Pervyy_Uchitel;;
+			-> locale_velikoe_book_Pervyy_Uchitel;;
+			-> locale_kuda_book_Pervyy_Uchitel;;
+			-> locale_moskva_book_Pervyy_Uchitel;;
+			-> locale_sam_tot_book_Pervyy_Uchitel;;
+			-> locale_sajkavsij_book_Pervyy_Uchitel;;
+			-> locale_taskentskij_book_Pervyy_Uchitel;;
+	 	*);;
+
+locale_dujsennaa_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Дюйшенная ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_dujsen_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Дюйшен ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_sajkavsij_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Сайкавший ]
+		(* <- lang_ru;; *);;
+
+locale_taskentskij_book_Pervyy_Uchitel
+<- locale;
+=> nrel_main_idtf:
+	[ Ташкентский ]
+		(* <- lang_ru;; *);;
+
+book_Pervyy_Uchitel
+=> nrel_dates:
+	.book_Pervyy_Uchitel_dates
+		(*
+			-> date_1924_book_Pervyy_Uchitel;;
+	 	*);;
+
+date_1924_book_Pervyy_Uchitel
+<- date;
+=> nrel_main_idtf:
+	[ 1924 ]
+		(* <- lang_ru;; *);;
+

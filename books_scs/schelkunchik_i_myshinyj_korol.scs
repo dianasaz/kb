@@ -1,0 +1,98 @@
+book_Schelkunchik_I_Myshinyj_Korol
+<- book;
+=> nrel_author;
+	author_Gofman;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Щелкунчик И Мышиный Король]
+		(* <- lang_ru;; *);;
+
+book_Schelkunchik_I_Myshinyj_Korol
+=> nrel_characters:
+	.book_Schelkunchik_I_Myshinyj_Korol_characters
+		(*
+			-> char_stal_baum_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> char_pirlipat_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> char_drossel_majer_book_Schelkunchik_I_Myshinyj_Korol;;
+	 	*);;
+
+char_stal_baum_book_Schelkunchik_I_Myshinyj_Korol
+<- char;
+=> nrel_main_idtf:
+	[ Штальбаум ]
+		(* <- lang_ru;; *);;
+
+char_pirlipat_book_Schelkunchik_I_Myshinyj_Korol
+<- char;
+=> nrel_main_idtf:
+	[ Пирлипат ]
+		(* <- lang_ru;; *);;
+
+char_drossel_majer_book_Schelkunchik_I_Myshinyj_Korol
+<- char;
+=> nrel_main_idtf:
+	[ Дроссельмайер ]
+		(* <- lang_ru;; *);;
+
+book_Schelkunchik_I_Myshinyj_Korol
+=> nrel_locales:
+	.book_Schelkunchik_I_Myshinyj_Korol_locales
+		(*
+			-> locale_okrovavlennaa_sabla_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> locale_oreh_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> locale_kuda_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> locale_sabla_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> locale_smevsaa_book_Schelkunchik_I_Myshinyj_Korol;;
+			-> locale_para_book_Schelkunchik_I_Myshinyj_Korol;;
+	 	*);;
+
+locale_okrovavlennaa_sabla_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Окровавленная Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_oreh_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Орех ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_smevsaa_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Смевшая ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Schelkunchik_I_Myshinyj_Korol
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+book_Schelkunchik_I_Myshinyj_Korol
+=> nrel_dates:
+	.book_Schelkunchik_I_Myshinyj_Korol_dates
+		(*
+			-> date_12_24_book_Schelkunchik_I_Myshinyj_Korol;;
+	 	*);;
+
+date_12_24_book_Schelkunchik_I_Myshinyj_Korol
+<- date;
+=> nrel_main_idtf:
+	[ 12 24 ]
+		(* <- lang_ru;; *);;
+

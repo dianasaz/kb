@@ -1,0 +1,154 @@
+book_Holjushino_Podvore
+<- book;
+=> nrel_author;
+	author_Ekimov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Холюшино Подворье]
+		(* <- lang_ru;; *);;
+
+book_Holjushino_Podvore
+=> nrel_characters:
+	.book_Holjushino_Podvore_characters
+		(*
+			-> char_belouhausij_book_Holjushino_Podvore;;
+			-> char_egor_book_Holjushino_Podvore;;
+			-> char_zor_kin_book_Holjushino_Podvore;;
+			-> char_vihlanzev_book_Holjushino_Podvore;;
+			-> char_holusa_book_Holjushino_Podvore;;
+			-> char_egorov_book_Holjushino_Podvore;;
+			-> char_erema_book_Holjushino_Podvore;;
+			-> char_fetin_a_book_Holjushino_Podvore;;
+			-> char_varfolomej_vihlanzev_book_Holjushino_Podvore;;
+			-> char_mit_ka_book_Holjushino_Podvore;;
+	 	*);;
+
+char_belouhausij_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Белоухающий ]
+		(* <- lang_ru;; *);;
+
+char_egor_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Егор ]
+		(* <- lang_ru;; *);;
+
+char_zor_kin_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Зорькин ]
+		(* <- lang_ru;; *);;
+
+char_vihlanzev_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Вихлянцев ]
+		(* <- lang_ru;; *);;
+
+char_holusa_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Холюша ]
+		(* <- lang_ru;; *);;
+
+char_egorov_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Егоров ]
+		(* <- lang_ru;; *);;
+
+char_erema_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Ерема ]
+		(* <- lang_ru;; *);;
+
+char_fetin_a_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Фетинья ]
+		(* <- lang_ru;; *);;
+
+char_varfolomej_vihlanzev_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Варфоломей Вихлянцев ]
+		(* <- lang_ru;; *);;
+
+char_mit_ka_book_Holjushino_Podvore
+<- char;
+=> nrel_main_idtf:
+	[ Митька ]
+		(* <- lang_ru;; *);;
+
+book_Holjushino_Podvore
+=> nrel_locales:
+	.book_Holjushino_Podvore_locales
+		(*
+			-> locale_holusinoe_book_Holjushino_Podvore;;
+			-> locale_kotoryj_book_Holjushino_Podvore;;
+			-> locale_krasnyj_book_Holjushino_Podvore;;
+			-> locale_to_book_Holjushino_Podvore;;
+			-> locale_maj_book_Holjushino_Podvore;;
+			-> locale_vihraevskoe_book_Holjushino_Podvore;;
+			-> locale_nea_book_Holjushino_Podvore;;
+	 	*);;
+
+locale_holusinoe_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Холюшиное ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_vihraevskoe_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Вихряевское ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Holjushino_Podvore
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+book_Holjushino_Podvore
+=> nrel_dates:
+	.book_Holjushino_Podvore_dates
+		(*
+			-> date_1941_8_16_book_Holjushino_Podvore;;
+	 	*);;
+
+date_1941_8_16_book_Holjushino_Podvore
+<- date;
+=> nrel_main_idtf:
+	[ 1941 8 16 ]
+		(* <- lang_ru;; *);;
+

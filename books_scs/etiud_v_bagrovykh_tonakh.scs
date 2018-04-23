@@ -1,0 +1,190 @@
+book_Etiud_V_Bagrovykh_Tonakh
+<- book;
+=> nrel_author;
+	author_Dojl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Этюд В Багровых Тонах]
+		(* <- lang_ru;; *);;
+
+book_Etiud_V_Bagrovykh_Tonakh
+=> nrel_characters:
+	.book_Etiud_V_Bagrovykh_Tonakh_characters
+		(*
+			-> char_serlok_holms_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_holms_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_djozef_stendjerson_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_artur_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_gregson_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_stendjerson_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_enoh_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_uotson_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_djefferson_houp_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> char_skotlanda_book_Etiud_V_Bagrovykh_Tonakh;;
+	 	*);;
+
+char_serlok_holms_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Шерлок Холмс ]
+		(* <- lang_ru;; *);;
+
+char_holms_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Холмс ]
+		(* <- lang_ru;; *);;
+
+char_djozef_stendjerson_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Джозеф Стенджерсон ]
+		(* <- lang_ru;; *);;
+
+char_artur_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Артур ]
+		(* <- lang_ru;; *);;
+
+char_gregson_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Грегсон ]
+		(* <- lang_ru;; *);;
+
+char_stendjerson_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Стенджерсон ]
+		(* <- lang_ru;; *);;
+
+char_enoh_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Енох ]
+		(* <- lang_ru;; *);;
+
+char_uotson_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Уотсон ]
+		(* <- lang_ru;; *);;
+
+char_djefferson_houp_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Джефферсон Хоуп ]
+		(* <- lang_ru;; *);;
+
+char_skotlanda_book_Etiud_V_Bagrovykh_Tonakh
+<- char;
+=> nrel_main_idtf:
+	[ Скотланда ]
+		(* <- lang_ru;; *);;
+
+book_Etiud_V_Bagrovykh_Tonakh
+=> nrel_locales:
+	.book_Etiud_V_Bagrovykh_Tonakh_locales
+		(*
+			-> locale_afganistan_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_karman_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_skotlanda_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_kotoryj_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_ssa_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_nemezk_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_kebmena_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_nahodka_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_london_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_amerika_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_evropa_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_anglia_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_krasnoe_book_Etiud_V_Bagrovykh_Tonakh;;
+			-> locale_klivlend_book_Etiud_V_Bagrovykh_Tonakh;;
+	 	*);;
+
+locale_afganistan_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Афганистан ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_skotlanda_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Скотланда ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_nemezk_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Немецк ]
+		(* <- lang_ru;; *);;
+
+locale_kebmena_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Кэбмена ]
+		(* <- lang_ru;; *);;
+
+locale_nahodka_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Находка ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_klivlend_book_Etiud_V_Bagrovykh_Tonakh
+<- locale;
+=> nrel_main_idtf:
+	[ Кливленд ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Tolstoi
+<- person;
+=> nrel_main_idtf:
+	[Лев Толстой]
+		(* <- lang_ru;; *);;
+
+author_Tolstoi
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Tolstoi.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

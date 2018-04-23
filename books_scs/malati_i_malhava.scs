@@ -1,0 +1,155 @@
+book_Malati_I_Malhava
+<- book;
+=> nrel_author;
+	author_Bhavabhuti;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Малати И Малхава]
+		(* <- lang_ru;; *);;
+
+book_Malati_I_Malhava
+=> nrel_characters:
+	.book_Malati_I_Malhava_characters
+		(*
+			-> char_saudamini_book_Malati_I_Malhava;;
+			-> char_camdund_book_Malati_I_Malhava;;
+			-> char_nandan_book_Malati_I_Malhava;;
+			-> char_nandannyj_book_Malati_I_Malhava;;
+			-> char_makarand_book_Malati_I_Malhava;;
+			-> char_madhava_book_Malati_I_Malhava;;
+	 	*);;
+
+char_saudamini_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Саудамини ]
+		(* <- lang_ru;; *);;
+
+char_camdund_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Чамдунд ]
+		(* <- lang_ru;; *);;
+
+char_nandan_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Нандан ]
+		(* <- lang_ru;; *);;
+
+char_nandannyj_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Нанданный ]
+		(* <- lang_ru;; *);;
+
+char_makarand_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Макаранд ]
+		(* <- lang_ru;; *);;
+
+char_madhava_book_Malati_I_Malhava
+<- char;
+=> nrel_main_idtf:
+	[ Мадхава ]
+		(* <- lang_ru;; *);;
+
+book_Malati_I_Malhava
+=> nrel_locales:
+	.book_Malati_I_Malhava_locales
+		(*
+			-> locale_kamandak_book_Malati_I_Malhava;;
+			-> locale_vosprepatstvuusij_book_Malati_I_Malhava;;
+			-> locale_kapalakundad_book_Malati_I_Malhava;;
+			-> locale_kapalakundal_book_Malati_I_Malhava;;
+			-> locale_jogini_book_Malati_I_Malhava;;
+			-> locale_velikoe_book_Malati_I_Malhava;;
+			-> locale_bhurivasa_book_Malati_I_Malhava;;
+			-> locale_kotoryj_book_Malati_I_Malhava;;
+			-> locale_padmavati_book_Malati_I_Malhava;;
+			-> locale_joginl_kapalakundad_book_Malati_I_Malhava;;
+			-> locale_to_book_Malati_I_Malhava;;
+			-> locale_gorod_padmavati_book_Malati_I_Malhava;;
+			-> locale_durga_book_Malati_I_Malhava;;
+	 	*);;
+
+locale_kamandak_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Камандак ]
+		(* <- lang_ru;; *);;
+
+locale_vosprepatstvuusij_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Воспрепятствующий ]
+		(* <- lang_ru;; *);;
+
+locale_kapalakundad_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Капалакундад ]
+		(* <- lang_ru;; *);;
+
+locale_kapalakundal_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Капалакундал ]
+		(* <- lang_ru;; *);;
+
+locale_jogini_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Йогини ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_bhurivasa_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Бхуриваса ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_padmavati_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Падмавати ]
+		(* <- lang_ru;; *);;
+
+locale_joginl_kapalakundad_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Йогинл Капалакундад ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_padmavati_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Город Падмавати ]
+		(* <- lang_ru;; *);;
+
+locale_durga_book_Malati_I_Malhava
+<- locale;
+=> nrel_main_idtf:
+	[ Дурга ]
+		(* <- lang_ru;; *);;
+

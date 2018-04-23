@@ -1,0 +1,168 @@
+book_Karmen
+<- book;
+=> nrel_author;
+	author_Merime;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кармен]
+		(* <- lang_ru;; *);;
+
+book_Karmen
+=> nrel_characters:
+	.book_Karmen_characters
+		(*
+			-> char_karmena_book_Karmen;;
+			-> char_gvadalkivir_book_Karmen;;
+			-> char_lukas_book_Karmen;;
+			-> char_hose_navarro_book_Karmen;;
+			-> char_hose_book_Karmen;;
+			-> char_ulij_zezar__book_Karmen;;
+			-> char_garsia_krivoj_book_Karmen;;
+			-> char_mund_book_Karmen;;
+	 	*);;
+
+char_karmena_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Кармена ]
+		(* <- lang_ru;; *);;
+
+char_gvadalkivir_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Гвадалкивир ]
+		(* <- lang_ru;; *);;
+
+char_lukas_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Лукас ]
+		(* <- lang_ru;; *);;
+
+char_hose_navarro_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Хосе Наварро ]
+		(* <- lang_ru;; *);;
+
+char_hose_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Хосе ]
+		(* <- lang_ru;; *);;
+
+char_ulij_zezar__book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Юлий Цезарь ]
+		(* <- lang_ru;; *);;
+
+char_garsia_krivoj_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Гарсиа Кривой ]
+		(* <- lang_ru;; *);;
+
+char_mund_book_Karmen
+<- char;
+=> nrel_main_idtf:
+	[ Мунд ]
+		(* <- lang_ru;; *);;
+
+book_Karmen
+=> nrel_locales:
+	.book_Karmen_locales
+		(*
+			-> locale_gvadalkivir_book_Karmen;;
+			-> locale_ispania_book_Karmen;;
+			-> locale_to_book_Karmen;;
+			-> locale_otdalennaa_venta_book_Karmen;;
+			-> locale_amerika_book_Karmen;;
+			-> locale_navarro_book_Karmen;;
+			-> locale_merim_book_Karmen;;
+			-> locale_kordova_book_Karmen;;
+			-> locale_venta_book_Karmen;;
+			-> locale_sevil_a_book_Karmen;;
+			-> locale_rodnoj_kraj_book_Karmen;;
+	 	*);;
+
+locale_gvadalkivir_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Гвадалкивир ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_otdalennaa_venta_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Отдалённая Вента ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_navarro_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Наварро ]
+		(* <- lang_ru;; *);;
+
+locale_merim_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Мерим ]
+		(* <- lang_ru;; *);;
+
+locale_kordova_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Кордова ]
+		(* <- lang_ru;; *);;
+
+locale_venta_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Вента ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_kraj_book_Karmen
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Край ]
+		(* <- lang_ru;; *);;
+
+book_Karmen
+=> nrel_dates:
+	.book_Karmen_dates
+		(*
+			-> date_1830_book_Karmen;;
+	 	*);;
+
+date_1830_book_Karmen
+<- date;
+=> nrel_main_idtf:
+	[ 1830 ]
+		(* <- lang_ru;; *);;
+

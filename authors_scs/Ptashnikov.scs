@@ -1,0 +1,16 @@
+author_Ptashnikov
+<- person;
+=> nrel_main_idtf:
+	[Иван Пташников]
+		(* <- lang_ru;; *);;
+
+author_Ptashnikov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Ptashnikov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

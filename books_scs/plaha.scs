@@ -1,0 +1,316 @@
+book_Plaha
+<- book;
+=> nrel_author;
+	author_Ajtmatov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Плаха]
+		(* <- lang_ru;; *);;
+
+book_Plaha
+=> nrel_characters:
+	.book_Plaha_characters
+		(*
+			-> char_galkin_book_Plaha;;
+			-> char_lena_book_Plaha;;
+			-> char_inga_book_Plaha;;
+			-> char_avdij_book_Plaha;;
+			-> char_tascajnar_book_Plaha;;
+			-> char_ernazar_book_Plaha;;
+			-> char_pontij_pilat_book_Plaha;;
+			-> char_bazarbaj_book_Plaha;;
+			-> char_kallistratov_book_Plaha;;
+			-> char_ala_book_Plaha;;
+			-> char_odin_book_Plaha;;
+			-> char_akbar_book_Plaha;;
+			-> char_kockorbaj_book_Plaha;;
+			-> char_boston_book_Plaha;;
+			-> char_iisus_book_Plaha;;
+			-> char_nojgut_book_Plaha;;
+			-> char_urkunciev_book_Plaha;;
+			-> char_grisan_book_Plaha;;
+			-> char_kallistrat_avdia_book_Plaha;;
+			-> char_bostonovaa_book_Plaha;;
+			-> char_kendjes_book_Plaha;;
+			-> char_inga_fedorovna_book_Plaha;;
+	 	*);;
+
+char_galkin_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Галкин ]
+		(* <- lang_ru;; *);;
+
+char_lena_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Лёня ]
+		(* <- lang_ru;; *);;
+
+char_inga_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Инга ]
+		(* <- lang_ru;; *);;
+
+char_avdij_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Авдий ]
+		(* <- lang_ru;; *);;
+
+char_tascajnar_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Ташчайнар ]
+		(* <- lang_ru;; *);;
+
+char_ernazar_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Эрназар ]
+		(* <- lang_ru;; *);;
+
+char_pontij_pilat_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Понтий Пилат ]
+		(* <- lang_ru;; *);;
+
+char_bazarbaj_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Базарбай ]
+		(* <- lang_ru;; *);;
+
+char_kallistratov_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Каллистратов ]
+		(* <- lang_ru;; *);;
+
+char_ala_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Ала ]
+		(* <- lang_ru;; *);;
+
+char_odin_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Один ]
+		(* <- lang_ru;; *);;
+
+char_akbar_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Акбар ]
+		(* <- lang_ru;; *);;
+
+char_kockorbaj_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Кочкорбай ]
+		(* <- lang_ru;; *);;
+
+char_boston_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Бостон ]
+		(* <- lang_ru;; *);;
+
+char_iisus_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Иисус ]
+		(* <- lang_ru;; *);;
+
+char_nojgut_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Нойгут ]
+		(* <- lang_ru;; *);;
+
+char_urkunciev_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Уркунчиев ]
+		(* <- lang_ru;; *);;
+
+char_grisan_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Гришан ]
+		(* <- lang_ru;; *);;
+
+char_kallistrat_avdia_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Каллистрат Авдия ]
+		(* <- lang_ru;; *);;
+
+char_bostonovaa_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Бостоновая ]
+		(* <- lang_ru;; *);;
+
+char_kendjes_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Кенджеш ]
+		(* <- lang_ru;; *);;
+
+char_inga_fedorovna_book_Plaha
+<- char;
+=> nrel_main_idtf:
+	[ Инга Фёдоровна ]
+		(* <- lang_ru;; *);;
+
+book_Plaha
+=> nrel_locales:
+	.book_Plaha_locales
+		(*
+			-> locale_srednaa_azia_book_Plaha;;
+			-> locale_prioksk_book_Plaha;;
+			-> locale_mounkuma_book_Plaha;;
+			-> locale_murmansk_book_Plaha;;
+			-> locale_ierusalim_book_Plaha;;
+			-> locale_volc_a_para_book_Plaha;;
+			-> locale_kotoryj_book_Plaha;;
+			-> locale_kuda_book_Plaha;;
+			-> locale_rodnoj_prioksk_book_Plaha;;
+			-> locale_moskva_book_Plaha;;
+			-> locale_nojgut_book_Plaha;;
+			-> locale_uckuduk_book_Plaha;;
+			-> locale_pokajfuusij_book_Plaha;;
+			-> locale_to_book_Plaha;;
+			-> locale_maj_book_Plaha;;
+			-> locale_djambul_book_Plaha;;
+			-> locale_anasa_book_Plaha;;
+			-> locale_evropejskij_rajon_book_Plaha;;
+			-> locale_gulumkan_book_Plaha;;
+			-> locale_mounkumskij_book_Plaha;;
+	 	*);;
+
+locale_srednaa_azia_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Средняя Азия ]
+		(* <- lang_ru;; *);;
+
+locale_prioksk_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Приокск ]
+		(* <- lang_ru;; *);;
+
+locale_mounkuma_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Моюнкума ]
+		(* <- lang_ru;; *);;
+
+locale_murmansk_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Мурманск ]
+		(* <- lang_ru;; *);;
+
+locale_ierusalim_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_volc_a_para_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Волчья Пара ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_prioksk_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Приокск ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_nojgut_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Нойгут ]
+		(* <- lang_ru;; *);;
+
+locale_uckuduk_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Учкудук ]
+		(* <- lang_ru;; *);;
+
+locale_pokajfuusij_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Покайфующий ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_djambul_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Джамбул ]
+		(* <- lang_ru;; *);;
+
+locale_anasa_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Анаша ]
+		(* <- lang_ru;; *);;
+
+locale_evropejskij_rajon_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Европейский Район ]
+		(* <- lang_ru;; *);;
+
+locale_gulumkan_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Гулюмкан ]
+		(* <- lang_ru;; *);;
+
+locale_mounkumskij_book_Plaha
+<- locale;
+=> nrel_main_idtf:
+	[ Моюнкумский ]
+		(* <- lang_ru;; *);;
+

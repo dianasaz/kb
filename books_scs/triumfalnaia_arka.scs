@@ -1,0 +1,308 @@
+book_Triumfalnaia_Arka
+<- book;
+=> nrel_author;
+	author_Remark;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Триумфальная Арка]
+		(* <- lang_ru;; *);;
+
+book_Triumfalnaia_Arka
+=> nrel_characters:
+	.book_Triumfalnaia_Arka_characters
+		(*
+			-> char_levala_book_Triumfalnaia_Arka;;
+			-> char_alma_book_Triumfalnaia_Arka;;
+			-> char_ket_book_Triumfalnaia_Arka;;
+			-> char_etuala_book_Triumfalnaia_Arka;;
+			-> char_joan_mada_book_Triumfalnaia_Arka;;
+			-> char_pol__book_Triumfalnaia_Arka;;
+			-> char_madu_book_Triumfalnaia_Arka;;
+			-> char_boris_morozov_book_Triumfalnaia_Arka;;
+			-> char_sibilla_book_Triumfalnaia_Arka;;
+			-> char_joany_book_Triumfalnaia_Arka;;
+			-> char_ludvig_book_Triumfalnaia_Arka;;
+			-> char_saherezada_book_Triumfalnaia_Arka;;
+			-> char_buas_er_book_Triumfalnaia_Arka;;
+			-> char_joanna_book_Triumfalnaia_Arka;;
+			-> char_morozov_book_Triumfalnaia_Arka;;
+			-> char_hornom_book_Triumfalnaia_Arka;;
+			-> char_joana_book_Triumfalnaia_Arka;;
+			-> char_boris_book_Triumfalnaia_Arka;;
+			-> char_ravik_book_Triumfalnaia_Arka;;
+	 	*);;
+
+char_levala_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Леваля ]
+		(* <- lang_ru;; *);;
+
+char_alma_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Алма ]
+		(* <- lang_ru;; *);;
+
+char_ket_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Кэт ]
+		(* <- lang_ru;; *);;
+
+char_etuala_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Этуаля ]
+		(* <- lang_ru;; *);;
+
+char_joan_mada_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Жоан Мада ]
+		(* <- lang_ru;; *);;
+
+char_pol__book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Поль ]
+		(* <- lang_ru;; *);;
+
+char_madu_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Маду ]
+		(* <- lang_ru;; *);;
+
+char_boris_morozov_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Борис Морозов ]
+		(* <- lang_ru;; *);;
+
+char_sibilla_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Сибилла ]
+		(* <- lang_ru;; *);;
+
+char_joany_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Жоаны ]
+		(* <- lang_ru;; *);;
+
+char_ludvig_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Людвиг ]
+		(* <- lang_ru;; *);;
+
+char_saherezada_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Шахерезада ]
+		(* <- lang_ru;; *);;
+
+char_buas_er_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Буасьер ]
+		(* <- lang_ru;; *);;
+
+char_joanna_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Жоанна ]
+		(* <- lang_ru;; *);;
+
+char_morozov_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Морозов ]
+		(* <- lang_ru;; *);;
+
+char_hornom_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Хорном ]
+		(* <- lang_ru;; *);;
+
+char_joana_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Жоана ]
+		(* <- lang_ru;; *);;
+
+char_boris_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Борис ]
+		(* <- lang_ru;; *);;
+
+char_ravik_book_Triumfalnaia_Arka
+<- char;
+=> nrel_main_idtf:
+	[ Равик ]
+		(* <- lang_ru;; *);;
+
+book_Triumfalnaia_Arka
+=> nrel_locales:
+	.book_Triumfalnaia_Arka_locales
+		(*
+			-> locale_germania_book_Triumfalnaia_Arka;;
+			-> locale_milan_book_Triumfalnaia_Arka;;
+			-> locale_franzia_book_Triumfalnaia_Arka;;
+			-> locale_kotoryj_book_Triumfalnaia_Arka;;
+			-> locale_italia_book_Triumfalnaia_Arka;;
+			-> locale_cahlaa_pal_ma_book_Triumfalnaia_Arka;;
+			-> locale_ssa_book_Triumfalnaia_Arka;;
+			-> locale_frezenburg_book_Triumfalnaia_Arka;;
+			-> locale_antiba_book_Triumfalnaia_Arka;;
+			-> locale_ket_book_Triumfalnaia_Arka;;
+			-> locale_joanna_book_Triumfalnaia_Arka;;
+			-> locale_serbur_book_Triumfalnaia_Arka;;
+			-> locale_iprom_book_Triumfalnaia_Arka;;
+			-> locale_parij_book_Triumfalnaia_Arka;;
+			-> locale_to_book_Triumfalnaia_Arka;;
+			-> locale_cehoslovakia_book_Triumfalnaia_Arka;;
+			-> locale_ruan_book_Triumfalnaia_Arka;;
+			-> locale_proniza_book_Triumfalnaia_Arka;;
+			-> locale_verden_book_Triumfalnaia_Arka;;
+			-> locale_berlin_book_Triumfalnaia_Arka;;
+	 	*);;
+
+locale_germania_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_milan_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Милан ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_cahlaa_pal_ma_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Чахлая Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_frezenburg_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Фрезенбург ]
+		(* <- lang_ru;; *);;
+
+locale_antiba_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Антиба ]
+		(* <- lang_ru;; *);;
+
+locale_ket_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Кэт ]
+		(* <- lang_ru;; *);;
+
+locale_joanna_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Жоанна ]
+		(* <- lang_ru;; *);;
+
+locale_serbur_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Шербур ]
+		(* <- lang_ru;; *);;
+
+locale_iprom_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Ипром ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cehoslovakia_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Чехословакия ]
+		(* <- lang_ru;; *);;
+
+locale_ruan_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Руан ]
+		(* <- lang_ru;; *);;
+
+locale_proniza_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Проница ]
+		(* <- lang_ru;; *);;
+
+locale_verden_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Верден ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Triumfalnaia_Arka
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+
+book_Triumfalnaia_Arka
+=> nrel_dates:
+	.book_Triumfalnaia_Arka_dates
+		(*
+			-> date_1934_book_Triumfalnaia_Arka;;
+	 	*);;
+
+date_1934_book_Triumfalnaia_Arka
+<- date;
+=> nrel_main_idtf:
+	[ 1934 ]
+		(* <- lang_ru;; *);;
+

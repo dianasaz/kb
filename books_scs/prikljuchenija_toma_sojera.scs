@@ -1,0 +1,239 @@
+book_Prikljuchenija_Toma_Sojera
+<- book;
+=> nrel_author;
+	author_Tven;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Приключения Тома Сойера]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Toma_Sojera
+=> nrel_characters:
+	.book_Prikljuchenija_Toma_Sojera_characters
+		(*
+			-> char_djo_book_Prikljuchenija_Toma_Sojera;;
+			-> char_pitersberg_book_Prikljuchenija_Toma_Sojera;;
+			-> char_sid_book_Prikljuchenija_Toma_Sojera;;
+			-> char_bekka_tetcer_book_Prikljuchenija_Toma_Sojera;;
+			-> char_meri_book_Prikljuchenija_Toma_Sojera;;
+			-> char_garpero_book_Prikljuchenija_Toma_Sojera;;
+			-> char_tom_book_Prikljuchenija_Toma_Sojera;;
+			-> char_gek_book_Prikljuchenija_Toma_Sojera;;
+			-> char_to_book_Prikljuchenija_Toma_Sojera;;
+			-> char_robin_gud_book_Prikljuchenija_Toma_Sojera;;
+			-> char_al_fred_book_Prikljuchenija_Toma_Sojera;;
+			-> char_mef_potter_book_Prikljuchenija_Toma_Sojera;;
+			-> char_duglas_book_Prikljuchenija_Toma_Sojera;;
+			-> char_polli_book_Prikljuchenija_Toma_Sojera;;
+			-> char_meri_book_Prikljuchenija_Toma_Sojera;;
+			-> char_djekson_book_Prikljuchenija_Toma_Sojera;;
+			-> char_gek_finn_book_Prikljuchenija_Toma_Sojera;;
+			-> char_potter_book_Prikljuchenija_Toma_Sojera;;
+			-> char_polli_tot_book_Prikljuchenija_Toma_Sojera;;
+			-> char_bekka_book_Prikljuchenija_Toma_Sojera;;
+	 	*);;
+
+char_djo_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Джо ]
+		(* <- lang_ru;; *);;
+
+char_pitersberg_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Питерсберг ]
+		(* <- lang_ru;; *);;
+
+char_sid_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Сид ]
+		(* <- lang_ru;; *);;
+
+char_bekka_tetcer_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Бекка Тэтчер ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Мери ]
+		(* <- lang_ru;; *);;
+
+char_garpero_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Гарперо ]
+		(* <- lang_ru;; *);;
+
+char_tom_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Том ]
+		(* <- lang_ru;; *);;
+
+char_gek_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Гек ]
+		(* <- lang_ru;; *);;
+
+char_to_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+char_robin_gud_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Робин Гуд ]
+		(* <- lang_ru;; *);;
+
+char_al_fred_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Альфред ]
+		(* <- lang_ru;; *);;
+
+char_mef_potter_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Мэф Поттер ]
+		(* <- lang_ru;; *);;
+
+char_duglas_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Дуглас ]
+		(* <- lang_ru;; *);;
+
+char_polli_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Полли ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Мэри ]
+		(* <- lang_ru;; *);;
+
+char_djekson_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Джексон ]
+		(* <- lang_ru;; *);;
+
+char_gek_finn_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Гек Финн ]
+		(* <- lang_ru;; *);;
+
+char_potter_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Поттер ]
+		(* <- lang_ru;; *);;
+
+char_polli_tot_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Полли Тот ]
+		(* <- lang_ru;; *);;
+
+char_bekka_book_Prikljuchenija_Toma_Sojera
+<- char;
+=> nrel_main_idtf:
+	[ Бекка ]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Toma_Sojera
+=> nrel_locales:
+	.book_Prikljuchenija_Toma_Sojera_locales
+		(*
+			-> locale_sahara_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_kuda_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_sojer_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_lubim_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_gorodok_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_missisipi_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_stat_missuri_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_to_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_bekia_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_garpersij_book_Prikljuchenija_Toma_Sojera;;
+			-> locale_garpero_book_Prikljuchenija_Toma_Sojera;;
+	 	*);;
+
+locale_sahara_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_sojer_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Сойер ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_missisipi_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Миссисипи ]
+		(* <- lang_ru;; *);;
+
+locale_stat_missuri_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Миссури ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_bekia_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Бекия ]
+		(* <- lang_ru;; *);;
+
+locale_garpersij_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Гарпёрший ]
+		(* <- lang_ru;; *);;
+
+locale_garpero_book_Prikljuchenija_Toma_Sojera
+<- locale;
+=> nrel_main_idtf:
+	[ Гарперо ]
+		(* <- lang_ru;; *);;
+

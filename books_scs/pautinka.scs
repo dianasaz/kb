@@ -1,0 +1,23 @@
+book_Pautinka
+<- book;
+=> nrel_author;
+	author_Akutagava;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Паутинка]
+		(* <- lang_ru;; *);;
+
+book_Pautinka
+=> nrel_locales:
+	.book_Pautinka_locales
+		(*
+			-> locale_velikoe_book_Pautinka;;
+	 	*);;
+
+locale_velikoe_book_Pautinka
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+

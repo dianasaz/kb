@@ -1,0 +1,120 @@
+book_Uroki_Muzyki
+<- book;
+=> nrel_author;
+	author_Petrushevskaja;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Уроки Музыки]
+		(* <- lang_ru;; *);;
+
+book_Uroki_Muzyki
+=> nrel_characters:
+	.book_Uroki_Muzyki_characters
+		(*
+			-> char_ivanovic_fedor_book_Uroki_Muzyki;;
+			-> char_nikolaj_book_Uroki_Muzyki;;
+			-> char_nina_book_Uroki_Muzyki;;
+			-> char_taisia_petrovna_book_Uroki_Muzyki;;
+			-> char_kozlov_book_Uroki_Muzyki;;
+			-> char_ivanov_book_Uroki_Muzyki;;
+			-> char_nada_book_Uroki_Muzyki;;
+			-> char_ivanov_book_Uroki_Muzyki;;
+			-> char_gran_book_Uroki_Muzyki;;
+			-> char_anna_stepanovna_book_Uroki_Muzyki;;
+			-> char_gavrilov_book_Uroki_Muzyki;;
+			-> char_gala_book_Uroki_Muzyki;;
+	 	*);;
+
+char_ivanovic_fedor_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Иванович Фёдор ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_nina_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Нина ]
+		(* <- lang_ru;; *);;
+
+char_taisia_petrovna_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Таисия Петровна ]
+		(* <- lang_ru;; *);;
+
+char_kozlov_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Козлов ]
+		(* <- lang_ru;; *);;
+
+char_ivanov_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+
+char_nada_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Надя ]
+		(* <- lang_ru;; *);;
+
+char_ivanov_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+
+char_gran_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Гран ]
+		(* <- lang_ru;; *);;
+
+char_anna_stepanovna_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Анна Степановна ]
+		(* <- lang_ru;; *);;
+
+char_gavrilov_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Гаврилов ]
+		(* <- lang_ru;; *);;
+
+char_gala_book_Uroki_Muzyki
+<- char;
+=> nrel_main_idtf:
+	[ Галя ]
+		(* <- lang_ru;; *);;
+
+book_Uroki_Muzyki
+=> nrel_locales:
+	.book_Uroki_Muzyki_locales
+		(*
+			-> locale_nea_book_Uroki_Muzyki;;
+			-> locale_ivanov_book_Uroki_Muzyki;;
+	 	*);;
+
+locale_nea_book_Uroki_Muzyki
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_ivanov_book_Uroki_Muzyki
+<- locale;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+

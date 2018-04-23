@@ -1,0 +1,78 @@
+book_Se_Tian_Sian
+<- book;
+=> nrel_author;
+	author_Guan_Hancin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Правитель Цянь Оценивает По Достоинству Се Тянь-Сян]
+		(* <- lang_ru;; *);;
+
+book_Se_Tian_Sian
+=> nrel_characters:
+	.book_Se_Tian_Sian_characters
+		(*
+			-> char_unyj_book_Se_Tian_Sian;;
+			-> char_una_book_Se_Tian_Sian;;
+			-> char_kajfen_book_Se_Tian_Sian;;
+			-> char_ke_book_Se_Tian_Sian;;
+	 	*);;
+
+char_unyj_book_Se_Tian_Sian
+<- char;
+=> nrel_main_idtf:
+	[ Юный ]
+		(* <- lang_ru;; *);;
+
+char_una_book_Se_Tian_Sian
+<- char;
+=> nrel_main_idtf:
+	[ Юна ]
+		(* <- lang_ru;; *);;
+
+char_kajfen_book_Se_Tian_Sian
+<- char;
+=> nrel_main_idtf:
+	[ Кайфэн ]
+		(* <- lang_ru;; *);;
+
+char_ke_book_Se_Tian_Sian
+<- char;
+=> nrel_main_idtf:
+	[ Кэ ]
+		(* <- lang_ru;; *);;
+
+book_Se_Tian_Sian
+=> nrel_locales:
+	.book_Se_Tian_Sian_locales
+		(*
+			-> locale_tanivsij_book_Se_Tian_Sian;;
+			-> locale_zanivsij_book_Se_Tian_Sian;;
+			-> locale_cjuan_uanuvsij_book_Se_Tian_Sian;;
+			-> locale_para_book_Se_Tian_Sian;;
+	 	*);;
+
+locale_tanivsij_book_Se_Tian_Sian
+<- locale;
+=> nrel_main_idtf:
+	[ Тянивший ]
+		(* <- lang_ru;; *);;
+
+locale_zanivsij_book_Se_Tian_Sian
+<- locale;
+=> nrel_main_idtf:
+	[ Цянивший ]
+		(* <- lang_ru;; *);;
+
+locale_cjuan_uanuvsij_book_Se_Tian_Sian
+<- locale;
+=> nrel_main_idtf:
+	[ Чжуанъюанувший ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Se_Tian_Sian
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

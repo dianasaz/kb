@@ -1,0 +1,16 @@
+author_Bzhekhva
+<- person;
+=> nrel_main_idtf:
+	[Ян Бжехва]
+		(* <- lang_ru;; *);;
+
+author_Bzhekhva
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Bzhekhva.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

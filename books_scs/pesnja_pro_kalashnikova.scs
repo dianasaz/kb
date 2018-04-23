@@ -1,0 +1,120 @@
+book_Pesnja_Pro_Kalashnikova
+<- book;
+=> nrel_author;
+	author_Lermontov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Песня Про Царя Ивана Васильевича, Молодого Опричника И Удалого Купца Калашникова]
+		(* <- lang_ru;; *);;
+
+book_Pesnja_Pro_Kalashnikova
+=> nrel_characters:
+	.book_Pesnja_Pro_Kalashnikova_characters
+		(*
+			-> char_malutin_book_Pesnja_Pro_Kalashnikova;;
+			-> char_groznyj_book_Pesnja_Pro_Kalashnikova;;
+			-> char_ivan_book_Pesnja_Pro_Kalashnikova;;
+			-> char_skuratov_book_Pesnja_Pro_Kalashnikova;;
+			-> char_stepan_paramonovic_book_Pesnja_Pro_Kalashnikova;;
+			-> char_kalasnikov_book_Pesnja_Pro_Kalashnikova;;
+			-> char_malutina_book_Pesnja_Pro_Kalashnikova;;
+			-> char_stepan_book_Pesnja_Pro_Kalashnikova;;
+			-> char_alena_dmitrievna_book_Pesnja_Pro_Kalashnikova;;
+			-> char_ivan_vasilievic_book_Pesnja_Pro_Kalashnikova;;
+			-> char_stepan_paramonovic_kalasnikov_book_Pesnja_Pro_Kalashnikova;;
+	 	*);;
+
+char_malutin_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Малютин ]
+		(* <- lang_ru;; *);;
+
+char_groznyj_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_skuratov_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Скуратов ]
+		(* <- lang_ru;; *);;
+
+char_stepan_paramonovic_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Степан Парамонович ]
+		(* <- lang_ru;; *);;
+
+char_kalasnikov_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Калашников ]
+		(* <- lang_ru;; *);;
+
+char_malutina_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Малютина ]
+		(* <- lang_ru;; *);;
+
+char_stepan_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Степан ]
+		(* <- lang_ru;; *);;
+
+char_alena_dmitrievna_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Алёна Дмитриевна ]
+		(* <- lang_ru;; *);;
+
+char_ivan_vasilievic_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Иван Василиевич ]
+		(* <- lang_ru;; *);;
+
+char_stepan_paramonovic_kalasnikov_book_Pesnja_Pro_Kalashnikova
+<- char;
+=> nrel_main_idtf:
+	[ Степан Парамонович Калашников ]
+		(* <- lang_ru;; *);;
+
+book_Pesnja_Pro_Kalashnikova
+=> nrel_locales:
+	.book_Pesnja_Pro_Kalashnikova_locales
+		(*
+			-> locale_ojerel_e_book_Pesnja_Pro_Kalashnikova;;
+			-> locale_moskva_book_Pesnja_Pro_Kalashnikova;;
+			-> locale_groznyj_book_Pesnja_Pro_Kalashnikova;;
+	 	*);;
+
+locale_ojerel_e_book_Pesnja_Pro_Kalashnikova
+<- locale;
+=> nrel_main_idtf:
+	[ Ожерелье ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Pesnja_Pro_Kalashnikova
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Pesnja_Pro_Kalashnikova
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+

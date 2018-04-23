@@ -1,0 +1,78 @@
+book_Akulia_Kletka
+<- book;
+=> nrel_author;
+	author_Oldridzh;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Акулья Клетка (Последний Дюйм-2)]
+		(* <- lang_ru;; *);;
+
+book_Akulia_Kletka
+=> nrel_characters:
+	.book_Akulia_Kletka_characters
+		(*
+			-> char_amino_book_Akulia_Kletka;;
+			-> char_devi_book_Akulia_Kletka;;
+			-> char_bena_book_Akulia_Kletka;;
+			-> char_ben_book_Akulia_Kletka;;
+			-> char_djejms_oldridj_book_Akulia_Kletka;;
+	 	*);;
+
+char_amino_book_Akulia_Kletka
+<- char;
+=> nrel_main_idtf:
+	[ Амино ]
+		(* <- lang_ru;; *);;
+
+char_devi_book_Akulia_Kletka
+<- char;
+=> nrel_main_idtf:
+	[ Дэви ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Akulia_Kletka
+<- char;
+=> nrel_main_idtf:
+	[ Бена ]
+		(* <- lang_ru;; *);;
+
+char_ben_book_Akulia_Kletka
+<- char;
+=> nrel_main_idtf:
+	[ Бен ]
+		(* <- lang_ru;; *);;
+
+char_djejms_oldridj_book_Akulia_Kletka
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс Олдридж ]
+		(* <- lang_ru;; *);;
+
+book_Akulia_Kletka
+=> nrel_locales:
+	.book_Akulia_Kletka_locales
+		(*
+			-> locale_kair_book_Akulia_Kletka;;
+			-> locale_severnaa_afrika_book_Akulia_Kletka;;
+			-> locale_ostryj_book_Akulia_Kletka;;
+	 	*);;
+
+locale_kair_book_Akulia_Kletka
+<- locale;
+=> nrel_main_idtf:
+	[ Каир ]
+		(* <- lang_ru;; *);;
+
+locale_severnaa_afrika_book_Akulia_Kletka
+<- locale;
+=> nrel_main_idtf:
+	[ Северная Африка ]
+		(* <- lang_ru;; *);;
+
+locale_ostryj_book_Akulia_Kletka
+<- locale;
+=> nrel_main_idtf:
+	[ Острый ]
+		(* <- lang_ru;; *);;
+

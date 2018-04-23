@@ -1,0 +1,99 @@
+book_Oblako_Vestnik
+<- book;
+=> nrel_author;
+	author_Kalidasa;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Облако-Вестник]
+		(* <- lang_ru;; *);;
+
+book_Oblako_Vestnik
+=> nrel_characters:
+	.book_Oblako_Vestnik_characters
+		(*
+			-> char_siv_book_Oblako_Vestnik;;
+			-> char_nirvindh_u_book_Oblako_Vestnik;;
+			-> char_dasarne_book_Oblako_Vestnik;;
+	 	*);;
+
+char_siv_book_Oblako_Vestnik
+<- char;
+=> nrel_main_idtf:
+	[ Шив ]
+		(* <- lang_ru;; *);;
+
+char_nirvindh_u_book_Oblako_Vestnik
+<- char;
+=> nrel_main_idtf:
+	[ Нирвиндхью ]
+		(* <- lang_ru;; *);;
+
+char_dasarne_book_Oblako_Vestnik
+<- char;
+=> nrel_main_idtf:
+	[ Дашарне ]
+		(* <- lang_ru;; *);;
+
+book_Oblako_Vestnik
+=> nrel_locales:
+	.book_Oblako_Vestnik_locales
+		(*
+			-> locale_vetravati_book_Oblako_Vestnik;;
+			-> locale_gang_book_Oblako_Vestnik;;
+			-> locale_boazlivaa_lani_book_Oblako_Vestnik;;
+			-> locale_parvativsij_book_Oblako_Vestnik;;
+			-> locale_gimalai_book_Oblako_Vestnik;;
+			-> locale_alak_book_Oblako_Vestnik;;
+			-> locale_aksa_book_Oblako_Vestnik;;
+			-> locale_gorod_india_book_Oblako_Vestnik;;
+	 	*);;
+
+locale_vetravati_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Ветравати ]
+		(* <- lang_ru;; *);;
+
+locale_gang_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Ганг ]
+		(* <- lang_ru;; *);;
+
+locale_boazlivaa_lani_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Боязливая Лани ]
+		(* <- lang_ru;; *);;
+
+locale_parvativsij_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Парвативший ]
+		(* <- lang_ru;; *);;
+
+locale_gimalai_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Гималаи ]
+		(* <- lang_ru;; *);;
+
+locale_alak_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Алак ]
+		(* <- lang_ru;; *);;
+
+locale_aksa_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Якша ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_india_book_Oblako_Vestnik
+<- locale;
+=> nrel_main_idtf:
+	[ Город Индия ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Slovackij
+<- person;
+=> nrel_main_idtf:
+	[Юлиуш Словацкий]
+		(* <- lang_ru;; *);;
+
+author_Slovackij
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Slovackij.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

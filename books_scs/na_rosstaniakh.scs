@@ -1,0 +1,413 @@
+book_Na_Rosstaniakh
+<- book;
+=> nrel_author;
+	author_Kolas;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[На Росстанях]
+		(* <- lang_ru;; *);;
+
+book_Na_Rosstaniakh
+=> nrel_characters:
+	.book_Na_Rosstaniakh_characters
+		(*
+			-> char_tukavsaa_book_Na_Rosstaniakh;;
+			-> char_vladimir_book_Na_Rosstaniakh;;
+			-> char_radzivill_book_Na_Rosstaniakh;;
+			-> char_verhani_book_Na_Rosstaniakh;;
+			-> char_viktorovna_androsova_book_Na_Rosstaniakh;;
+			-> char_nikita_andreevic_vlasuk_book_Na_Rosstaniakh;;
+			-> char_androsov_book_Na_Rosstaniakh;;
+			-> char_adviset_sa_book_Na_Rosstaniakh;;
+			-> char_ol_ga_book_Na_Rosstaniakh;;
+			-> char_advisa_book_Na_Rosstaniakh;;
+			-> char_andrej_book_Na_Rosstaniakh;;
+			-> char_nikolaj_book_Na_Rosstaniakh;;
+			-> char_andrej_petrovic_lobanovic_book_Na_Rosstaniakh;;
+			-> char_vladimir_malevic_book_Na_Rosstaniakh;;
+			-> char_aleksandr_golubovic_book_Na_Rosstaniakh;;
+			-> char_vlasuk_book_Na_Rosstaniakh;;
+			-> char_duleb_book_Na_Rosstaniakh;;
+			-> char_tukal_book_Na_Rosstaniakh;;
+			-> char_ales__sadovic_book_Na_Rosstaniakh;;
+			-> char_vilenskij_book_Na_Rosstaniakh;;
+			-> char_matea_book_Na_Rosstaniakh;;
+			-> char_martin_book_Na_Rosstaniakh;;
+			-> char_kalem_lobanovic_book_Na_Rosstaniakh;;
+			-> char_lobanovic_book_Na_Rosstaniakh;;
+			-> char_anka_book_Na_Rosstaniakh;;
+			-> char_amos_adamovic_botanovskij_book_Na_Rosstaniakh;;
+			-> char_antonina_mihajlovna_muravskaa_book_Na_Rosstaniakh;;
+			-> char_semipalov_book_Na_Rosstaniakh;;
+	 	*);;
+
+char_tukavsaa_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Тукавшая ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_radzivill_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Радзивилл ]
+		(* <- lang_ru;; *);;
+
+char_verhani_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Верхани ]
+		(* <- lang_ru;; *);;
+
+char_viktorovna_androsova_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Викторовна Андросова ]
+		(* <- lang_ru;; *);;
+
+char_nikita_andreevic_vlasuk_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Никита Андреевич Власюк ]
+		(* <- lang_ru;; *);;
+
+char_androsov_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Андросов ]
+		(* <- lang_ru;; *);;
+
+char_adviset_sa_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Ядвисеться ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_advisa_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Ядвися ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_andrej_petrovic_lobanovic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Петрович Лобанович ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_malevic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Малевич ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_golubovic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Александр Голубович ]
+		(* <- lang_ru;; *);;
+
+char_vlasuk_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Власюк ]
+		(* <- lang_ru;; *);;
+
+char_duleb_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Дулеб ]
+		(* <- lang_ru;; *);;
+
+char_tukal_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Тукал ]
+		(* <- lang_ru;; *);;
+
+char_ales__sadovic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Алесь Садович ]
+		(* <- lang_ru;; *);;
+
+char_vilenskij_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Виленский ]
+		(* <- lang_ru;; *);;
+
+char_matea_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Матея ]
+		(* <- lang_ru;; *);;
+
+char_martin_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Мартин ]
+		(* <- lang_ru;; *);;
+
+char_kalem_lobanovic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Калем Лобанович ]
+		(* <- lang_ru;; *);;
+
+char_lobanovic_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Лобанович ]
+		(* <- lang_ru;; *);;
+
+char_anka_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Янка ]
+		(* <- lang_ru;; *);;
+
+char_amos_adamovic_botanovskij_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Амос Адамович Ботяновский ]
+		(* <- lang_ru;; *);;
+
+char_antonina_mihajlovna_muravskaa_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Антонина Михайловна Муравская ]
+		(* <- lang_ru;; *);;
+
+char_semipalov_book_Na_Rosstaniakh
+<- char;
+=> nrel_main_idtf:
+	[ Семипалов ]
+		(* <- lang_ru;; *);;
+
+book_Na_Rosstaniakh
+=> nrel_locales:
+	.book_Na_Rosstaniakh_locales
+		(*
+			-> locale_muravskaj_book_Na_Rosstaniakh;;
+			-> locale_kalem_book_Na_Rosstaniakh;;
+			-> locale_groznyj_book_Na_Rosstaniakh;;
+			-> locale_lida_book_Na_Rosstaniakh;;
+			-> locale_kotoryj_book_Na_Rosstaniakh;;
+			-> locale_krakov_book_Na_Rosstaniakh;;
+			-> locale_belorussia_book_Na_Rosstaniakh;;
+			-> locale_pinsk_book_Na_Rosstaniakh;;
+			-> locale_nemana_book_Na_Rosstaniakh;;
+			-> locale_vladimir_book_Na_Rosstaniakh;;
+			-> locale_aponia_book_Na_Rosstaniakh;;
+			-> locale_minskaa_gubernia_book_Na_Rosstaniakh;;
+			-> locale_portsmutskij_mirnyj_book_Na_Rosstaniakh;;
+			-> locale_aksenom_kalem_book_Na_Rosstaniakh;;
+			-> locale_derevna_tel_sinoe_book_Na_Rosstaniakh;;
+			-> locale_minsk_book_Na_Rosstaniakh;;
+			-> locale_rossia_book_Na_Rosstaniakh;;
+			-> locale_radzivill_book_Na_Rosstaniakh;;
+			-> locale_kuda_book_Na_Rosstaniakh;;
+			-> locale_vil_nuvsij_book_Na_Rosstaniakh;;
+			-> locale_advis_book_Na_Rosstaniakh;;
+			-> locale_pinskij_book_Na_Rosstaniakh;;
+			-> locale_to_book_Na_Rosstaniakh;;
+			-> locale_krasivaa_lida_book_Na_Rosstaniakh;;
+			-> locale_amerika_book_Na_Rosstaniakh;;
+	 	*);;
+
+locale_muravskaj_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Муравскай ]
+		(* <- lang_ru;; *);;
+
+locale_kalem_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Калем ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_lida_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Лида ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_krakov_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Краков ]
+		(* <- lang_ru;; *);;
+
+locale_belorussia_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Белоруссия ]
+		(* <- lang_ru;; *);;
+
+locale_pinsk_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Пинск ]
+		(* <- lang_ru;; *);;
+
+locale_nemana_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Нёмана ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_minskaa_gubernia_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Минская Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_portsmutskij_mirnyj_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Портсмутский Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_aksenom_kalem_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Аксёном Калем ]
+		(* <- lang_ru;; *);;
+
+locale_derevna_tel_sinoe_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Деревня Тельшиное ]
+		(* <- lang_ru;; *);;
+
+locale_minsk_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Минск ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_radzivill_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Радзивилл ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vil_nuvsij_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Вильнувший ]
+		(* <- lang_ru;; *);;
+
+locale_advis_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Ядвис ]
+		(* <- lang_ru;; *);;
+
+locale_pinskij_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Пинский ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_krasivaa_lida_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Красивая Лида ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Na_Rosstaniakh
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+book_Na_Rosstaniakh
+=> nrel_dates:
+	.book_Na_Rosstaniakh_dates
+		(*
+			-> date_1906_book_Na_Rosstaniakh;;
+			-> date_1904_1_book_Na_Rosstaniakh;;
+	 	*);;
+
+date_1906_book_Na_Rosstaniakh
+<- date;
+=> nrel_main_idtf:
+	[ 1906 ]
+		(* <- lang_ru;; *);;
+
+date_1904_1_book_Na_Rosstaniakh
+<- date;
+=> nrel_main_idtf:
+	[ 1904 1 ]
+		(* <- lang_ru;; *);;
+

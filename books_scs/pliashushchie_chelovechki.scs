@@ -1,0 +1,127 @@
+book_Pliashushchie_Chelovechki
+<- book;
+=> nrel_author;
+	author_Dojl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пляшущие Человечки]
+		(* <- lang_ru;; *);;
+
+book_Pliashushchie_Chelovechki
+=> nrel_characters:
+	.book_Pliashushchie_Chelovechki_characters
+		(*
+			-> char_holms_book_Pliashushchie_Chelovechki;;
+			-> char_aba_book_Pliashushchie_Chelovechki;;
+			-> char_serlok_holms_book_Pliashushchie_Chelovechki;;
+			-> char_slen__book_Pliashushchie_Chelovechki;;
+	 	*);;
+
+char_holms_book_Pliashushchie_Chelovechki
+<- char;
+=> nrel_main_idtf:
+	[ Холмс ]
+		(* <- lang_ru;; *);;
+
+char_aba_book_Pliashushchie_Chelovechki
+<- char;
+=> nrel_main_idtf:
+	[ Аба ]
+		(* <- lang_ru;; *);;
+
+char_serlok_holms_book_Pliashushchie_Chelovechki
+<- char;
+=> nrel_main_idtf:
+	[ Шерлок Холмс ]
+		(* <- lang_ru;; *);;
+
+char_slen__book_Pliashushchie_Chelovechki
+<- char;
+=> nrel_main_idtf:
+	[ Слень ]
+		(* <- lang_ru;; *);;
+
+book_Pliashushchie_Chelovechki
+=> nrel_locales:
+	.book_Pliashushchie_Chelovechki_locales
+		(*
+			-> locale_karman_book_Pliashushchie_Chelovechki;;
+			-> locale_cikagskaa_book_Pliashushchie_Chelovechki;;
+			-> locale_cikago_book_Pliashushchie_Chelovechki;;
+			-> locale_ilsi_book_Pliashushchie_Chelovechki;;
+			-> locale_aba_book_Pliashushchie_Chelovechki;;
+			-> locale_kotoryj_book_Pliashushchie_Chelovechki;;
+			-> locale_to_book_Pliashushchie_Chelovechki;;
+			-> locale_amerika_book_Pliashushchie_Chelovechki;;
+			-> locale_anglia_book_Pliashushchie_Chelovechki;;
+			-> locale_grafstvo_norfolk_book_Pliashushchie_Chelovechki;;
+			-> locale_okonnaa_rama_book_Pliashushchie_Chelovechki;;
+	 	*);;
+
+locale_karman_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_cikagskaa_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Чикагская ]
+		(* <- lang_ru;; *);;
+
+locale_cikago_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Чикаго ]
+		(* <- lang_ru;; *);;
+
+locale_ilsi_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Илси ]
+		(* <- lang_ru;; *);;
+
+locale_aba_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Аба ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_grafstvo_norfolk_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Графство Норфолк ]
+		(* <- lang_ru;; *);;
+
+locale_okonnaa_rama_book_Pliashushchie_Chelovechki
+<- locale;
+=> nrel_main_idtf:
+	[ Оконная Рама ]
+		(* <- lang_ru;; *);;
+

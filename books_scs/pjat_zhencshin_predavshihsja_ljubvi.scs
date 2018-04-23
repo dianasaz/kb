@@ -1,0 +1,231 @@
+book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- book;
+=> nrel_author;
+	author_Sajkaku;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пять Женщин, Предавшихся Любви]
+		(* <- lang_ru;; *);;
+
+book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+=> nrel_characters:
+	.book_Pjat_Zhencshin_Predavshihsja_Ljubvi_characters
+		(*
+			-> char_rina_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_dotonbora_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_biv_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_moemona_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_nagaraam_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_temma_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_sato_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_kuemona_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_hatibe_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_gengobea_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> char_naza_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+	 	*);;
+
+char_rina_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Рина ]
+		(* <- lang_ru;; *);;
+
+char_dotonbora_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Дотонборя ]
+		(* <- lang_ru;; *);;
+
+char_biv_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Бив ]
+		(* <- lang_ru;; *);;
+
+char_moemona_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Моэмона ]
+		(* <- lang_ru;; *);;
+
+char_nagaraam_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Нагараям ]
+		(* <- lang_ru;; *);;
+
+char_temma_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Тэмма ]
+		(* <- lang_ru;; *);;
+
+char_sato_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Сато ]
+		(* <- lang_ru;; *);;
+
+char_kuemona_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Кюэмона ]
+		(* <- lang_ru;; *);;
+
+char_hatibe_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Хатибэ ]
+		(* <- lang_ru;; *);;
+
+char_gengobea_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Гэнгобэя ]
+		(* <- lang_ru;; *);;
+
+char_naza_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- char;
+=> nrel_main_idtf:
+	[ Наца ]
+		(* <- lang_ru;; *);;
+
+book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+=> nrel_locales:
+	.book_Pjat_Zhencshin_Predavshihsja_Ljubvi_locales
+		(*
+			-> locale_avadaguti_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_odin_gorodok_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_kagosima_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_to_togo_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_moksoa_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_kuda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_oko_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_dotonbora_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_krasnyj_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_gengobej_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_kioto_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_to_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_ustalyj_gengobej_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_jeleznaa_garda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_nea_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_kosa_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+			-> locale_zolotaa_garda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+	 	*);;
+
+locale_avadaguti_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Авадагути ]
+		(* <- lang_ru;; *);;
+
+locale_odin_gorodok_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Один Городок ]
+		(* <- lang_ru;; *);;
+
+locale_kagosima_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Кагосима ]
+		(* <- lang_ru;; *);;
+
+locale_to_togo_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ То Того ]
+		(* <- lang_ru;; *);;
+
+locale_moksoa_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Моксоя ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_oko_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Око ]
+		(* <- lang_ru;; *);;
+
+locale_dotonbora_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Дотонборя ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_gengobej_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Гэнгобэй ]
+		(* <- lang_ru;; *);;
+
+locale_kioto_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ustalyj_gengobej_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Усталый Гэнгобэй ]
+		(* <- lang_ru;; *);;
+
+locale_jeleznaa_garda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Железная Гарда ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_kosa_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Коса ]
+		(* <- lang_ru;; *);;
+
+locale_zolotaa_garda_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Золотая Гарда ]
+		(* <- lang_ru;; *);;
+
+book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+=> nrel_dates:
+	.book_Pjat_Zhencshin_Predavshihsja_Ljubvi_dates
+		(*
+			-> date_1628_book_Pjat_Zhencshin_Predavshihsja_Ljubvi;;
+	 	*);;
+
+date_1628_book_Pjat_Zhencshin_Predavshihsja_Ljubvi
+<- date;
+=> nrel_main_idtf:
+	[ 1628 ]
+		(* <- lang_ru;; *);;
+

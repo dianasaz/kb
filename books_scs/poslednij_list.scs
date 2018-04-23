@@ -1,0 +1,50 @@
+book_Poslednij_List
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Последний Лист]
+		(* <- lang_ru;; *);;
+
+book_Poslednij_List
+=> nrel_characters:
+	.book_Poslednij_List_characters
+		(*
+			-> char_berman_book_Poslednij_List;;
+	 	*);;
+
+char_berman_book_Poslednij_List
+<- char;
+=> nrel_main_idtf:
+	[ Берман ]
+		(* <- lang_ru;; *);;
+
+book_Poslednij_List
+=> nrel_locales:
+	.book_Poslednij_List_locales
+		(*
+			-> locale_ee_velikoe_book_Poslednij_List;;
+			-> locale_djonsi_book_Poslednij_List;;
+			-> locale_grinvic_book_Poslednij_List;;
+	 	*);;
+
+locale_ee_velikoe_book_Poslednij_List
+<- locale;
+=> nrel_main_idtf:
+	[ Её Великое ]
+		(* <- lang_ru;; *);;
+
+locale_djonsi_book_Poslednij_List
+<- locale;
+=> nrel_main_idtf:
+	[ Джонси ]
+		(* <- lang_ru;; *);;
+
+locale_grinvic_book_Poslednij_List
+<- locale;
+=> nrel_main_idtf:
+	[ Гринвич ]
+		(* <- lang_ru;; *);;
+

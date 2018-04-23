@@ -1,0 +1,16 @@
+author_Genri
+<- person;
+=> nrel_main_idtf:
+	[О. Генри]
+		(* <- lang_ru;; *);;
+
+author_Genri
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Genri.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

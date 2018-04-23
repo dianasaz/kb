@@ -1,0 +1,50 @@
+book_Chudesnyy_Doktor
+<- book;
+=> nrel_author;
+	author_Kuprin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чудесный Доктор]
+		(* <- lang_ru;; *);;
+
+book_Chudesnyy_Doktor
+=> nrel_characters:
+	.book_Chudesnyy_Doktor_characters
+		(*
+			-> char_pirogov_book_Chudesnyy_Doktor;;
+			-> char_merzalov_book_Chudesnyy_Doktor;;
+	 	*);;
+
+char_pirogov_book_Chudesnyy_Doktor
+<- char;
+=> nrel_main_idtf:
+	[ Пирогов ]
+		(* <- lang_ru;; *);;
+
+char_merzalov_book_Chudesnyy_Doktor
+<- char;
+=> nrel_main_idtf:
+	[ Мерцалов ]
+		(* <- lang_ru;; *);;
+
+book_Chudesnyy_Doktor
+=> nrel_locales:
+	.book_Chudesnyy_Doktor_locales
+		(*
+			-> locale_to_book_Chudesnyy_Doktor;;
+			-> locale_kiev_book_Chudesnyy_Doktor;;
+	 	*);;
+
+locale_to_book_Chudesnyy_Doktor
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Chudesnyy_Doktor
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+

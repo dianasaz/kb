@@ -1,0 +1,315 @@
+book_Sudba_Cheloveka
+<- book;
+=> nrel_author;
+	author_Sholohov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Судьба Человека]
+		(* <- lang_ru;; *);;
+
+book_Sudba_Cheloveka
+=> nrel_characters:
+	.book_Sudba_Cheloveka_characters
+		(*
+			-> char_kryjnev_book_Sudba_Cheloveka;;
+			-> char_anatolij_book_Sudba_Cheloveka;;
+			-> char_ivan_timofeevic_book_Sudba_Cheloveka;;
+			-> char_ivan_book_Sudba_Cheloveka;;
+			-> char_andrej_sokolov_book_Sudba_Cheloveka;;
+			-> char_irinka_book_Sudba_Cheloveka;;
+			-> char_muller_book_Sudba_Cheloveka;;
+			-> char_sokolov_book_Sudba_Cheloveka;;
+			-> char_kikvidze_book_Sudba_Cheloveka;;
+			-> char_andrej_book_Sudba_Cheloveka;;
+			-> char_vanuska_book_Sudba_Cheloveka;;
+			-> char_vana_book_Sudba_Cheloveka;;
+	 	*);;
+
+char_kryjnev_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Крыжнев ]
+		(* <- lang_ru;; *);;
+
+char_anatolij_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Анатолий ]
+		(* <- lang_ru;; *);;
+
+char_ivan_timofeevic_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Иван Тимофеевич ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_andrej_sokolov_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Соколов ]
+		(* <- lang_ru;; *);;
+
+char_irinka_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Иринка ]
+		(* <- lang_ru;; *);;
+
+char_muller_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Мюллер ]
+		(* <- lang_ru;; *);;
+
+char_sokolov_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Соколов ]
+		(* <- lang_ru;; *);;
+
+char_kikvidze_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Киквидзе ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_vanuska_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Ванюшка ]
+		(* <- lang_ru;; *);;
+
+char_vana_book_Sudba_Cheloveka
+<- char;
+=> nrel_main_idtf:
+	[ Ваня ]
+		(* <- lang_ru;; *);;
+
+book_Sudba_Cheloveka
+=> nrel_locales:
+	.book_Sudba_Cheloveka_locales
+		(*
+			-> locale_verhnij_don_book_Sudba_Cheloveka;;
+			-> locale_volga_book_Sudba_Cheloveka;;
+			-> locale_stalingrad_book_Sudba_Cheloveka;;
+			-> locale_urupinsk_book_Sudba_Cheloveka;;
+			-> locale_germania_book_Sudba_Cheloveka;;
+			-> locale_voronejskaa_gubernia_book_Sudba_Cheloveka;;
+			-> locale_vasa_oblast__book_Sudba_Cheloveka;;
+			-> locale_bavaria_book_Sudba_Cheloveka;;
+			-> locale_cujoj_kraj_book_Sudba_Cheloveka;;
+			-> locale_nemezk_book_Sudba_Cheloveka;;
+			-> locale_perednij_kraj_book_Sudba_Cheloveka;;
+			-> locale_kuban__book_Sudba_Cheloveka;;
+			-> locale_rurskaa_oblast__book_Sudba_Cheloveka;;
+			-> locale_krasnaa_book_Sudba_Cheloveka;;
+			-> locale_nasa_oblast__book_Sudba_Cheloveka;;
+			-> locale_vostok_book_Sudba_Cheloveka;;
+			-> locale_saksonia_book_Sudba_Cheloveka;;
+			-> locale_drezden_book_Sudba_Cheloveka;;
+			-> locale_zapad_book_Sudba_Cheloveka;;
+			-> locale_kuda_book_Sudba_Cheloveka;;
+			-> locale_poznan__book_Sudba_Cheloveka;;
+			-> locale_kasarskij_rajon_book_Sudba_Cheloveka;;
+			-> locale_maj_book_Sudba_Cheloveka;;
+			-> locale_turingia_book_Sudba_Cheloveka;;
+			-> locale_voronej_book_Sudba_Cheloveka;;
+	 	*);;
+
+locale_verhnij_don_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Верхний Дон ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_stalingrad_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Сталинград ]
+		(* <- lang_ru;; *);;
+
+locale_urupinsk_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Урюпинск ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_voronejskaa_gubernia_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Воронежская Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_vasa_oblast__book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Ваша Область ]
+		(* <- lang_ru;; *);;
+
+locale_bavaria_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Бавария ]
+		(* <- lang_ru;; *);;
+
+locale_cujoj_kraj_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Чужой Край ]
+		(* <- lang_ru;; *);;
+
+locale_nemezk_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Немецк ]
+		(* <- lang_ru;; *);;
+
+locale_perednij_kraj_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Передний Край ]
+		(* <- lang_ru;; *);;
+
+locale_kuban__book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Кубань ]
+		(* <- lang_ru;; *);;
+
+locale_rurskaa_oblast__book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Рурская Область ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_nasa_oblast__book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Наша Область ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_saksonia_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Саксония ]
+		(* <- lang_ru;; *);;
+
+locale_drezden_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Дрезден ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_poznan__book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Познань ]
+		(* <- lang_ru;; *);;
+
+locale_kasarskij_rajon_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Кашарский Район ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_turingia_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Тюрингия ]
+		(* <- lang_ru;; *);;
+
+locale_voronej_book_Sudba_Cheloveka
+<- locale;
+=> nrel_main_idtf:
+	[ Воронеж ]
+		(* <- lang_ru;; *);;
+
+book_Sudba_Cheloveka
+=> nrel_dates:
+	.book_Sudba_Cheloveka_dates
+		(*
+			-> date_1945_5_9_book_Sudba_Cheloveka;;
+			-> date_1944_book_Sudba_Cheloveka;;
+			-> date_1942_6_book_Sudba_Cheloveka;;
+			-> date_1942_5_book_Sudba_Cheloveka;;
+	 	*);;
+
+date_1945_5_9_book_Sudba_Cheloveka
+<- date;
+=> nrel_main_idtf:
+	[ 1945 5 9 ]
+		(* <- lang_ru;; *);;
+
+date_1944_book_Sudba_Cheloveka
+<- date;
+=> nrel_main_idtf:
+	[ 1944 ]
+		(* <- lang_ru;; *);;
+
+date_1942_6_book_Sudba_Cheloveka
+<- date;
+=> nrel_main_idtf:
+	[ 1942 6 ]
+		(* <- lang_ru;; *);;
+
+date_1942_5_book_Sudba_Cheloveka
+<- date;
+=> nrel_main_idtf:
+	[ 1942 5 ]
+		(* <- lang_ru;; *);;
+

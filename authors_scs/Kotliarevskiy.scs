@@ -1,0 +1,16 @@
+author_Kotliarevskiy
+<- person;
+=> nrel_main_idtf:
+	[Иван Котляревский]
+		(* <- lang_ru;; *);;
+
+author_Kotliarevskiy
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kotliarevskiy.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

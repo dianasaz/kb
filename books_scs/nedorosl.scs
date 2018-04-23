@@ -1,0 +1,204 @@
+book_Nedorosl
+<- book;
+=> nrel_author;
+	author_Fonvizin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Недоросль]
+		(* <- lang_ru;; *);;
+
+book_Nedorosl
+=> nrel_characters:
+	.book_Nedorosl_characters
+		(*
+			-> char_skotinin_book_Nedorosl;;
+			-> char_adam_adamyc_book_Nedorosl;;
+			-> char_pravdin_book_Nedorosl;;
+			-> char_kutejkin_book_Nedorosl;;
+			-> char_sof_inoj_book_Nedorosl;;
+			-> char_sof_in_book_Nedorosl;;
+			-> char_fenelona_book_Nedorosl;;
+			-> char_prostakov_book_Nedorosl;;
+			-> char_petr_velikij_book_Nedorosl;;
+			-> char_mitrofanuskina_book_Nedorosl;;
+			-> char_gospoja_book_Nedorosl;;
+			-> char_milon_book_Nedorosl;;
+			-> char_zyfirkin_book_Nedorosl;;
+			-> char_prostakova_book_Nedorosl;;
+			-> char_mitrofan_book_Nedorosl;;
+			-> char_starodum_book_Nedorosl;;
+			-> char_taras_skotinin_book_Nedorosl;;
+			-> char_milon_book_Nedorosl;;
+			-> char_sof_a_book_Nedorosl;;
+	 	*);;
+
+char_skotinin_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Скотинин ]
+		(* <- lang_ru;; *);;
+
+char_adam_adamyc_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Адам Адамыч ]
+		(* <- lang_ru;; *);;
+
+char_pravdin_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Правдин ]
+		(* <- lang_ru;; *);;
+
+char_kutejkin_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Кутейкин ]
+		(* <- lang_ru;; *);;
+
+char_sof_inoj_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Софьиной ]
+		(* <- lang_ru;; *);;
+
+char_sof_in_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Софьин ]
+		(* <- lang_ru;; *);;
+
+char_fenelona_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Фенелона ]
+		(* <- lang_ru;; *);;
+
+char_prostakov_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Простаков ]
+		(* <- lang_ru;; *);;
+
+char_petr_velikij_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Великий ]
+		(* <- lang_ru;; *);;
+
+char_mitrofanuskina_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Митрофанушкина ]
+		(* <- lang_ru;; *);;
+
+char_gospoja_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Госпожа ]
+		(* <- lang_ru;; *);;
+
+char_milon_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Милон ]
+		(* <- lang_ru;; *);;
+
+char_zyfirkin_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Цыфиркин ]
+		(* <- lang_ru;; *);;
+
+char_prostakova_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Простакова ]
+		(* <- lang_ru;; *);;
+
+char_mitrofan_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Митрофан ]
+		(* <- lang_ru;; *);;
+
+char_starodum_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Стародум ]
+		(* <- lang_ru;; *);;
+
+char_taras_skotinin_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Тарас Скотинин ]
+		(* <- lang_ru;; *);;
+
+char_milon_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Милон ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_book_Nedorosl
+<- char;
+=> nrel_main_idtf:
+	[ Софья ]
+		(* <- lang_ru;; *);;
+
+book_Nedorosl
+=> nrel_locales:
+	.book_Nedorosl_locales
+		(*
+			-> locale_sibir__book_Nedorosl;;
+			-> locale_kotoryj_book_Nedorosl;;
+			-> locale_moskva_book_Nedorosl;;
+			-> locale_velikij_book_Nedorosl;;
+			-> locale_to_book_Nedorosl;;
+			-> locale_cestan_book_Nedorosl;;
+			-> locale_peterburg_book_Nedorosl;;
+	 	*);;
+
+locale_sibir__book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cestan_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Честан ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Nedorosl
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

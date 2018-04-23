@@ -1,0 +1,148 @@
+book_Kadambari
+<- book;
+=> nrel_author;
+	author_Bana;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кадамбари]
+		(* <- lang_ru;; *);;
+
+book_Kadambari
+=> nrel_characters:
+	.book_Kadambari_characters
+		(*
+			-> char_djambadi_book_Kadambari;;
+			-> char_mahasveta_book_Kadambari;;
+			-> char_candralida_book_Kadambari;;
+			-> char_Candra_candra_book_Kadambari;;
+			-> char_candra_book_Kadambari;;
+			-> char_vajsampaana_book_Kadambari;;
+			-> char_vajsampaan_book_Kadambari;;
+			-> char_pundarika_book_Kadambari;;
+			-> char_candra_book_Kadambari;;
+			-> char_tarapid_book_Kadambari;;
+			-> char_candrapida_book_Kadambari;;
+			-> char_bany_book_Kadambari;;
+			-> char_laksmi_book_Kadambari;;
+			-> char_sukanas_book_Kadambari;;
+	 	*);;
+
+char_djambadi_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Джамбади ]
+		(* <- lang_ru;; *);;
+
+char_mahasveta_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Махашвета ]
+		(* <- lang_ru;; *);;
+
+char_candralida_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Чандралида ]
+		(* <- lang_ru;; *);;
+
+char_Candra_candra_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Чандра Чандра ]
+		(* <- lang_ru;; *);;
+
+char_candra_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Чандра ]
+		(* <- lang_ru;; *);;
+
+char_vajsampaana_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Вайшампаяна ]
+		(* <- lang_ru;; *);;
+
+char_vajsampaan_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Вайшампаян ]
+		(* <- lang_ru;; *);;
+
+char_pundarika_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Пундарика ]
+		(* <- lang_ru;; *);;
+
+char_candra_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Чандра ]
+		(* <- lang_ru;; *);;
+
+char_tarapid_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Тарапид ]
+		(* <- lang_ru;; *);;
+
+char_candrapida_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Чандрапида ]
+		(* <- lang_ru;; *);;
+
+char_bany_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Баны ]
+		(* <- lang_ru;; *);;
+
+char_laksmi_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Лакшми ]
+		(* <- lang_ru;; *);;
+
+char_sukanas_book_Kadambari
+<- char;
+=> nrel_main_idtf:
+	[ Шуканас ]
+		(* <- lang_ru;; *);;
+
+book_Kadambari
+=> nrel_locales:
+	.book_Kadambari_locales
+		(*
+			-> locale_kotoryj_book_Kadambari;;
+			-> locale_kadambari_book_Kadambari;;
+			-> locale_nea_book_Kadambari;;
+			-> locale_vilasavati_book_Kadambari;;
+	 	*);;
+
+locale_kotoryj_book_Kadambari
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kadambari_book_Kadambari
+<- locale;
+=> nrel_main_idtf:
+	[ Кадамбари ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Kadambari
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_vilasavati_book_Kadambari
+<- locale;
+=> nrel_main_idtf:
+	[ Виласавати ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,141 @@
+book_Pestraia_Lenta
+<- book;
+=> nrel_author;
+	author_Dojl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пёстрая Лента]
+		(* <- lang_ru;; *);;
+
+book_Pestraia_Lenta
+=> nrel_characters:
+	.book_Pestraia_Lenta_characters
+		(*
+			-> char_ellen_book_Pestraia_Lenta;;
+			-> char_djulia_book_Pestraia_Lenta;;
+			-> char_rojlott_book_Pestraia_Lenta;;
+			-> char_serlok_holms_book_Pestraia_Lenta;;
+			-> char_rojlotta_book_Pestraia_Lenta;;
+			-> char_holms_book_Pestraia_Lenta;;
+			-> char_uotson_book_Pestraia_Lenta;;
+	 	*);;
+
+char_ellen_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Эллен ]
+		(* <- lang_ru;; *);;
+
+char_djulia_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Джулия ]
+		(* <- lang_ru;; *);;
+
+char_rojlott_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Ройлотт ]
+		(* <- lang_ru;; *);;
+
+char_serlok_holms_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Шерлок Холмс ]
+		(* <- lang_ru;; *);;
+
+char_rojlotta_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Ройлотта ]
+		(* <- lang_ru;; *);;
+
+char_holms_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Холмс ]
+		(* <- lang_ru;; *);;
+
+char_uotson_book_Pestraia_Lenta
+<- char;
+=> nrel_main_idtf:
+	[ Уотсон ]
+		(* <- lang_ru;; *);;
+
+book_Pestraia_Lenta
+=> nrel_locales:
+	.book_Pestraia_Lenta_locales
+		(*
+			-> locale_india_book_Pestraia_Lenta;;
+			-> locale_grimsbi_book_Pestraia_Lenta;;
+			-> locale_kotoryj_book_Pestraia_Lenta;;
+			-> locale_velikoe_book_Pestraia_Lenta;;
+			-> locale_rojlott_book_Pestraia_Lenta;;
+			-> locale_sam_grimsbi_book_Pestraia_Lenta;;
+			-> locale_velikij_book_Pestraia_Lenta;;
+			-> locale_london_book_Pestraia_Lenta;;
+			-> locale_to_book_Pestraia_Lenta;;
+			-> locale_anglia_book_Pestraia_Lenta;;
+	 	*);;
+
+locale_india_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_grimsbi_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Гримсби ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_rojlott_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Ройлотт ]
+		(* <- lang_ru;; *);;
+
+locale_sam_grimsbi_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Гримсби ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Pestraia_Lenta
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+

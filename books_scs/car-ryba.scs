@@ -1,0 +1,64 @@
+book_Car_Ryba
+<- book;
+=> nrel_author;
+	author_Astafev;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Царь-Рыба]
+		(* <- lang_ru;; *);;
+
+book_Car_Ryba
+=> nrel_characters:
+	.book_Car_Ryba_characters
+		(*
+			-> char_akov_book_Car_Ryba;;
+	 	*);;
+
+char_akov_book_Car_Ryba
+<- char;
+=> nrel_main_idtf:
+	[ Яков ]
+		(* <- lang_ru;; *);;
+
+book_Car_Ryba
+=> nrel_locales:
+	.book_Car_Ryba_locales
+		(*
+			-> locale_smertel_nyj_uda_book_Car_Ryba;;
+			-> locale_to_book_Car_Ryba;;
+			-> locale_asa_book_Car_Ryba;;
+			-> locale_ud_book_Car_Ryba;;
+			-> locale_el_na_book_Car_Ryba;;
+	 	*);;
+
+locale_smertel_nyj_uda_book_Car_Ryba
+<- locale;
+=> nrel_main_idtf:
+	[ Смертельный Уда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Car_Ryba
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_asa_book_Car_Ryba
+<- locale;
+=> nrel_main_idtf:
+	[ Аша ]
+		(* <- lang_ru;; *);;
+
+locale_ud_book_Car_Ryba
+<- locale;
+=> nrel_main_idtf:
+	[ Уд ]
+		(* <- lang_ru;; *);;
+
+locale_el_na_book_Car_Ryba
+<- locale;
+=> nrel_main_idtf:
+	[ Ельня ]
+		(* <- lang_ru;; *);;
+

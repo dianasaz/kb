@@ -1,0 +1,16 @@
+author_Gocci
+<- person;
+=> nrel_main_idtf:
+	[Карло Гоцци]
+		(* <- lang_ru;; *);;
+
+author_Gocci
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gocci.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

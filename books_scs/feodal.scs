@@ -1,0 +1,162 @@
+book_Feodal
+<- book;
+=> nrel_author;
+	author_Goldoni;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Феодал]
+		(* <- lang_ru;; *);;
+
+book_Feodal
+=> nrel_characters:
+	.book_Feodal_characters
+		(*
+			-> char_rozaur_book_Feodal;;
+			-> char_pantalone_book_Feodal;;
+			-> char_rozauroj_book_Feodal;;
+			-> char_beatrice_book_Feodal;;
+			-> char_gitta_book_Feodal;;
+			-> char_ridol_fo_book_Feodal;;
+			-> char_olivetta_book_Feodal;;
+			-> char_florindo_book_Feodal;;
+			-> char_rozaura_book_Feodal;;
+			-> char_djannina_book_Feodal;;
+			-> char_rozaure_book_Feodal;;
+	 	*);;
+
+char_rozaur_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Розаур ]
+		(* <- lang_ru;; *);;
+
+char_pantalone_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_rozauroj_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Розаурой ]
+		(* <- lang_ru;; *);;
+
+char_beatrice_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Беатриче ]
+		(* <- lang_ru;; *);;
+
+char_gitta_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Гитта ]
+		(* <- lang_ru;; *);;
+
+char_ridol_fo_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Ридольфо ]
+		(* <- lang_ru;; *);;
+
+char_olivetta_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Оливетта ]
+		(* <- lang_ru;; *);;
+
+char_florindo_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Флориндо ]
+		(* <- lang_ru;; *);;
+
+char_rozaura_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Розаура ]
+		(* <- lang_ru;; *);;
+
+char_djannina_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Джаннина ]
+		(* <- lang_ru;; *);;
+
+char_rozaure_book_Feodal
+<- char;
+=> nrel_main_idtf:
+	[ Розауре ]
+		(* <- lang_ru;; *);;
+
+book_Feodal
+=> nrel_locales:
+	.book_Feodal_locales
+		(*
+			-> locale_nardo_book_Feodal;;
+			-> locale_kuda_book_Feodal;;
+			-> locale_djannino_book_Feodal;;
+			-> locale_bergamo_book_Feodal;;
+			-> locale_ih_kraj_book_Feodal;;
+			-> locale_rozuare_book_Feodal;;
+			-> locale_nea_book_Feodal;;
+			-> locale_neapol__book_Feodal;;
+			-> locale_para_book_Feodal;;
+	 	*);;
+
+locale_nardo_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Нардо ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_djannino_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Джаннино ]
+		(* <- lang_ru;; *);;
+
+locale_bergamo_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Бергамо ]
+		(* <- lang_ru;; *);;
+
+locale_ih_kraj_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Их Край ]
+		(* <- lang_ru;; *);;
+
+locale_rozuare_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Розуаре ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Feodal
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

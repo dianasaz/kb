@@ -1,0 +1,16 @@
+author_Krylov
+<- person;
+=> nrel_main_idtf:
+	[Иван Крылов]
+		(* <- lang_ru;; *);;
+
+author_Krylov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Krylov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,57 @@
+book_Dzhelsomino_V_Strane_Lzhetcov
+<- book;
+=> nrel_author;
+	author_Rodari;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Джельсомино В Стране Лжецов]
+		(* <- lang_ru;; *);;
+
+book_Dzhelsomino_V_Strane_Lzhetcov
+=> nrel_characters:
+	.book_Dzhelsomino_V_Strane_Lzhetcov_characters
+		(*
+			-> char_romoletta_book_Dzhelsomino_V_Strane_Lzhetcov;;
+			-> char_sam_book_Dzhelsomino_V_Strane_Lzhetcov;;
+	 	*);;
+
+char_romoletta_book_Dzhelsomino_V_Strane_Lzhetcov
+<- char;
+=> nrel_main_idtf:
+	[ Ромолетта ]
+		(* <- lang_ru;; *);;
+
+char_sam_book_Dzhelsomino_V_Strane_Lzhetcov
+<- char;
+=> nrel_main_idtf:
+	[ Сам ]
+		(* <- lang_ru;; *);;
+
+book_Dzhelsomino_V_Strane_Lzhetcov
+=> nrel_locales:
+	.book_Dzhelsomino_V_Strane_Lzhetcov_locales
+		(*
+			-> locale_velikoe_book_Dzhelsomino_V_Strane_Lzhetcov;;
+			-> locale_to_book_Dzhelsomino_V_Strane_Lzhetcov;;
+			-> locale_zoppino_book_Dzhelsomino_V_Strane_Lzhetcov;;
+	 	*);;
+
+locale_velikoe_book_Dzhelsomino_V_Strane_Lzhetcov
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dzhelsomino_V_Strane_Lzhetcov
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_zoppino_book_Dzhelsomino_V_Strane_Lzhetcov
+<- locale;
+=> nrel_main_idtf:
+	[ Цоппино ]
+		(* <- lang_ru;; *);;
+

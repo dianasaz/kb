@@ -1,0 +1,16 @@
+author_Rustaveli
+<- person;
+=> nrel_main_idtf:
+	[Шота Руставели]
+		(* <- lang_ru;; *);;
+
+author_Rustaveli
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Rustaveli.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

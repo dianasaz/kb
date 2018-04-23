@@ -1,0 +1,92 @@
+book_Bednaja_Liza
+<- book;
+=> nrel_author;
+	author_Karamzin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Бедная Лиза]
+		(* <- lang_ru;; *);;
+
+book_Bednaja_Liza
+=> nrel_characters:
+	.book_Bednaja_Liza_characters
+		(*
+			-> char_lizina_book_Bednaja_Liza;;
+			-> char_erast_book_Bednaja_Liza;;
+			-> char_liza_book_Bednaja_Liza;;
+			-> char_lizin_book_Bednaja_Liza;;
+			-> char_simonov_book_Bednaja_Liza;;
+	 	*);;
+
+char_lizina_book_Bednaja_Liza
+<- char;
+=> nrel_main_idtf:
+	[ Лизина ]
+		(* <- lang_ru;; *);;
+
+char_erast_book_Bednaja_Liza
+<- char;
+=> nrel_main_idtf:
+	[ Эраст ]
+		(* <- lang_ru;; *);;
+
+char_liza_book_Bednaja_Liza
+<- char;
+=> nrel_main_idtf:
+	[ Лиза ]
+		(* <- lang_ru;; *);;
+
+char_lizin_book_Bednaja_Liza
+<- char;
+=> nrel_main_idtf:
+	[ Лизин ]
+		(* <- lang_ru;; *);;
+
+char_simonov_book_Bednaja_Liza
+<- char;
+=> nrel_main_idtf:
+	[ Симонов ]
+		(* <- lang_ru;; *);;
+
+book_Bednaja_Liza
+=> nrel_locales:
+	.book_Bednaja_Liza_locales
+		(*
+			-> locale_karman_book_Bednaja_Liza;;
+			-> locale_kuda_book_Bednaja_Liza;;
+			-> locale_moskva_book_Bednaja_Liza;;
+			-> locale_to_book_Bednaja_Liza;;
+			-> locale_nea_book_Bednaja_Liza;;
+	 	*);;
+
+locale_karman_book_Bednaja_Liza
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Bednaja_Liza
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Bednaja_Liza
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Bednaja_Liza
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Bednaja_Liza
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

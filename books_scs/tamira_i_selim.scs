@@ -1,0 +1,203 @@
+book_Tamira_I_Selim
+<- book;
+=> nrel_author;
+	author_Lomonosov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тамира И Селим]
+		(* <- lang_ru;; *);;
+
+book_Tamira_I_Selim
+=> nrel_characters:
+	.book_Tamira_I_Selim_characters
+		(*
+			-> char_kleona_book_Tamira_I_Selim;;
+			-> char_dimitrij_book_Tamira_I_Selim;;
+			-> char_nepradv_book_Tamira_I_Selim;;
+			-> char_tamir_book_Tamira_I_Selim;;
+			-> char_nadir_book_Tamira_I_Selim;;
+			-> char_tamira_book_Tamira_I_Selim;;
+			-> char_selasij_book_Tamira_I_Selim;;
+			-> char_mamaj_krym_book_Tamira_I_Selim;;
+			-> char_mamaj_book_Tamira_I_Selim;;
+			-> char_selimaa_book_Tamira_I_Selim;;
+			-> char_narsim_book_Tamira_I_Selim;;
+			-> char_kulikovskij_book_Tamira_I_Selim;;
+			-> char_kleon_book_Tamira_I_Selim;;
+	 	*);;
+
+char_kleona_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Клеона ]
+		(* <- lang_ru;; *);;
+
+char_dimitrij_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Димитрий ]
+		(* <- lang_ru;; *);;
+
+char_nepradv_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Непрядв ]
+		(* <- lang_ru;; *);;
+
+char_tamir_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Тамир ]
+		(* <- lang_ru;; *);;
+
+char_nadir_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Надир ]
+		(* <- lang_ru;; *);;
+
+char_tamira_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Тамира ]
+		(* <- lang_ru;; *);;
+
+char_selasij_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Селящий ]
+		(* <- lang_ru;; *);;
+
+char_mamaj_krym_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Мамай Крым ]
+		(* <- lang_ru;; *);;
+
+char_mamaj_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Мамай ]
+		(* <- lang_ru;; *);;
+
+char_selimaa_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Селимая ]
+		(* <- lang_ru;; *);;
+
+char_narsim_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Нарсим ]
+		(* <- lang_ru;; *);;
+
+char_kulikovskij_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Куликовский ]
+		(* <- lang_ru;; *);;
+
+char_kleon_book_Tamira_I_Selim
+<- char;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+book_Tamira_I_Selim
+=> nrel_locales:
+	.book_Tamira_I_Selim_locales
+		(*
+			-> locale_india_book_Tamira_I_Selim;;
+			-> locale_otceska_book_Tamira_I_Selim;;
+			-> locale_rus__book_Tamira_I_Selim;;
+			-> locale_narsim_book_Tamira_I_Selim;;
+			-> locale_nasil_naa_book_Tamira_I_Selim;;
+			-> locale_krym_book_Tamira_I_Selim;;
+			-> locale_kleon_book_Tamira_I_Selim;;
+			-> locale_to_book_Tamira_I_Selim;;
+			-> locale_sabla_book_Tamira_I_Selim;;
+			-> locale_selima_book_Tamira_I_Selim;;
+			-> locale_feodosij_book_Tamira_I_Selim;;
+	 	*);;
+
+locale_india_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_otceska_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Отчёска ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_narsim_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Нарсим ]
+		(* <- lang_ru;; *);;
+
+locale_nasil_naa_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Насильная ]
+		(* <- lang_ru;; *);;
+
+locale_krym_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_kleon_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_selima_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Селима ]
+		(* <- lang_ru;; *);;
+
+locale_feodosij_book_Tamira_I_Selim
+<- locale;
+=> nrel_main_idtf:
+	[ Феодосий ]
+		(* <- lang_ru;; *);;
+
+book_Tamira_I_Selim
+=> nrel_dates:
+	.book_Tamira_I_Selim_dates
+		(*
+			-> date_1380_book_Tamira_I_Selim;;
+	 	*);;
+
+date_1380_book_Tamira_I_Selim
+<- date;
+=> nrel_main_idtf:
+	[ 1380 ]
+		(* <- lang_ru;; *);;
+

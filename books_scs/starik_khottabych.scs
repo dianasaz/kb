@@ -1,0 +1,148 @@
+book_Starik_Khottabych
+<- book;
+=> nrel_author;
+	author_Lagin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Старик Хоттабыч]
+		(* <- lang_ru;; *);;
+
+book_Starik_Khottabych
+=> nrel_characters:
+	.book_Starik_Khottabych_characters
+		(*
+			-> char_kostyl_kov_book_Starik_Khottabych;;
+			-> char_omar_book_Starik_Khottabych;;
+			-> char_usuf_book_Starik_Khottabych;;
+			-> char_alesa_book_Starik_Khottabych;;
+			-> char_gassan_book_Starik_Khottabych;;
+			-> char_jena_book_Starik_Khottabych;;
+			-> char_vladimir_book_Starik_Khottabych;;
+			-> char_jen_ka_book_Starik_Khottabych;;
+			-> char_abdurrahman_gassan_book_Starik_Khottabych;;
+	 	*);;
+
+char_kostyl_kov_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Костыльков ]
+		(* <- lang_ru;; *);;
+
+char_omar_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Омар ]
+		(* <- lang_ru;; *);;
+
+char_usuf_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Юсуф ]
+		(* <- lang_ru;; *);;
+
+char_alesa_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Алёша ]
+		(* <- lang_ru;; *);;
+
+char_gassan_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Гассан ]
+		(* <- lang_ru;; *);;
+
+char_jena_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Женя ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_jen_ka_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Женька ]
+		(* <- lang_ru;; *);;
+
+char_abdurrahman_gassan_book_Starik_Khottabych
+<- char;
+=> nrel_main_idtf:
+	[ Абдуррахман Гассан ]
+		(* <- lang_ru;; *);;
+
+book_Starik_Khottabych
+=> nrel_locales:
+	.book_Starik_Khottabych_locales
+		(*
+			-> locale_india_book_Starik_Khottabych;;
+			-> locale_italia_book_Starik_Khottabych;;
+			-> locale_ladoga_book_Starik_Khottabych;;
+			-> locale_vladimir_book_Starik_Khottabych;;
+			-> locale_dalekaa_india_book_Starik_Khottabych;;
+			-> locale_nahodka_book_Starik_Khottabych;;
+			-> locale_moskva_book_Starik_Khottabych;;
+			-> locale_arktika_book_Starik_Khottabych;;
+			-> locale_to_book_Starik_Khottabych;;
+	 	*);;
+
+locale_india_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_ladoga_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Ладога ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_dalekaa_india_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Далёкая Индия ]
+		(* <- lang_ru;; *);;
+
+locale_nahodka_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Находка ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_arktika_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ Арктика ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Starik_Khottabych
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

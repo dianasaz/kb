@@ -1,0 +1,266 @@
+book_Per_Gjunt
+<- book;
+=> nrel_author;
+	author_Ibsen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пер Гюнт]
+		(* <- lang_ru;; *);;
+
+book_Per_Gjunt
+=> nrel_characters:
+	.book_Per_Gjunt_characters
+		(*
+			-> char_petr_book_Per_Gjunt;;
+			-> char_begriffenfel_d_book_Per_Gjunt;;
+			-> char_ingrid_book_Per_Gjunt;;
+			-> char_begriffenfel_d_book_Per_Gjunt;;
+			-> char_dovrskim_book_Per_Gjunt;;
+			-> char_mona_book_Per_Gjunt;;
+			-> char_persij_book_Per_Gjunt;;
+			-> char_ibsen_book_Per_Gjunt;;
+			-> char_sol_vejg_book_Per_Gjunt;;
+			-> char_ivar_book_Per_Gjunt;;
+			-> char_peru_book_Per_Gjunt;;
+	 	*);;
+
+char_petr_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_begriffenfel_d_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Бегриффенфельд ]
+		(* <- lang_ru;; *);;
+
+char_ingrid_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Ингрид ]
+		(* <- lang_ru;; *);;
+
+char_begriffenfel_d_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Бегриффенфельд ]
+		(* <- lang_ru;; *);;
+
+char_dovrskim_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Доврским ]
+		(* <- lang_ru;; *);;
+
+char_mona_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Мона ]
+		(* <- lang_ru;; *);;
+
+char_persij_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Пёрший ]
+		(* <- lang_ru;; *);;
+
+char_ibsen_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Ибсен ]
+		(* <- lang_ru;; *);;
+
+char_sol_vejg_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Сольвейг ]
+		(* <- lang_ru;; *);;
+
+char_ivar_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Ивар ]
+		(* <- lang_ru;; *);;
+
+char_peru_book_Per_Gjunt
+<- char;
+=> nrel_main_idtf:
+	[ Перу ]
+		(* <- lang_ru;; *);;
+
+book_Per_Gjunt
+=> nrel_locales:
+	.book_Per_Gjunt_locales
+		(*
+			-> locale_svezia_book_Per_Gjunt;;
+			-> locale_mestnaa_guria_book_Per_Gjunt;;
+			-> locale_egipet_book_Per_Gjunt;;
+			-> locale_kazuisticeski_book_Per_Gjunt;;
+			-> locale_peru_book_Per_Gjunt;;
+			-> locale_anitra_book_Per_Gjunt;;
+			-> locale_datsko_book_Per_Gjunt;;
+			-> locale_grezia_book_Per_Gjunt;;
+			-> locale_kair_book_Per_Gjunt;;
+			-> locale_dania_book_Per_Gjunt;;
+			-> locale_ujnyj_stat_v_book_Per_Gjunt;;
+			-> locale_kitaj_book_Per_Gjunt;;
+			-> locale_svasennyj_byk_book_Per_Gjunt;;
+			-> locale_sredizemnomorskij_book_Per_Gjunt;;
+			-> locale_sahara_book_Per_Gjunt;;
+			-> locale_seda_book_Per_Gjunt;;
+			-> locale_norvegia_book_Per_Gjunt;;
+			-> locale_ego_turzia_book_Per_Gjunt;;
+			-> locale_pal_ma_book_Per_Gjunt;;
+			-> locale_to_book_Per_Gjunt;;
+			-> locale_amerika_book_Per_Gjunt;;
+			-> locale_marokko_book_Per_Gjunt;;
+	 	*);;
+
+locale_svezia_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_mestnaa_guria_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Местная Гурия ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_kazuisticeski_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Казуистически ]
+		(* <- lang_ru;; *);;
+
+locale_peru_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Перу ]
+		(* <- lang_ru;; *);;
+
+locale_anitra_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Анитра ]
+		(* <- lang_ru;; *);;
+
+locale_datsko_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Датско ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+
+locale_kair_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Каир ]
+		(* <- lang_ru;; *);;
+
+locale_dania_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Дания ]
+		(* <- lang_ru;; *);;
+
+locale_ujnyj_stat_v_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Южный Штат В ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_svasennyj_byk_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Священный Бык ]
+		(* <- lang_ru;; *);;
+
+locale_sredizemnomorskij_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Средиземноморский ]
+		(* <- lang_ru;; *);;
+
+locale_sahara_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_seda_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Седа ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_ego_turzia_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Его Турция ]
+		(* <- lang_ru;; *);;
+
+locale_pal_ma_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_marokko_book_Per_Gjunt
+<- locale;
+=> nrel_main_idtf:
+	[ Марокко ]
+		(* <- lang_ru;; *);;
+
+book_Per_Gjunt
+=> nrel_dates:
+	.book_Per_Gjunt_dates
+		(*
+			-> date_1864_book_Per_Gjunt;;
+	 	*);;
+
+date_1864_book_Per_Gjunt
+<- date;
+=> nrel_main_idtf:
+	[ 1864 ]
+		(* <- lang_ru;; *);;
+

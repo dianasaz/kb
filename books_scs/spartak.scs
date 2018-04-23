@@ -1,0 +1,357 @@
+book_Spartak
+<- book;
+=> nrel_author;
+	author_Dzhovanoli;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Спартак]
+		(* <- lang_ru;; *);;
+
+book_Spartak
+=> nrel_characters:
+	.book_Spartak_characters
+		(*
+			-> char_rimlana_book_Spartak;;
+			-> char_pompej_book_Spartak;;
+			-> char_publij_book_Spartak;;
+			-> char_scastlivyj_book_Spartak;;
+			-> char_sergij_book_Spartak;;
+			-> char_evtibida_book_Spartak;;
+			-> char_sulla_book_Spartak;;
+			-> char_kaj_gannik_book_Spartak;;
+			-> char_artoriks_book_Spartak;;
+			-> char_ulij_book_Spartak;;
+			-> char_kaj_book_Spartak;;
+			-> char_klodia_book_Spartak;;
+			-> char_ulij_zezar__book_Spartak;;
+			-> char_gaj_book_Spartak;;
+			-> char_mirnaa_book_Spartak;;
+			-> char_orest_book_Spartak;;
+			-> char_servilian_book_Spartak;;
+			-> char_postumia_book_Spartak;;
+			-> char_katilina_book_Spartak;;
+			-> char_kampan_a_book_Spartak;;
+			-> char_anfidia_book_Spartak;;
+			-> char_varinij_book_Spartak;;
+			-> char_valerij_book_Spartak;;
+			-> char_katalina_book_Spartak;;
+			-> char_venera_libitina_book_Spartak;;
+			-> char_al_p_book_Spartak;;
+			-> char_kornelij_sulla_book_Spartak;;
+			-> char_valeria_book_Spartak;;
+			-> char_spartak_book_Spartak;;
+			-> char_tit_book_Spartak;;
+	 	*);;
+
+char_rimlana_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Римляна ]
+		(* <- lang_ru;; *);;
+
+char_pompej_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Помпей ]
+		(* <- lang_ru;; *);;
+
+char_publij_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Публий ]
+		(* <- lang_ru;; *);;
+
+char_scastlivyj_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Счастливый ]
+		(* <- lang_ru;; *);;
+
+char_sergij_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Сергий ]
+		(* <- lang_ru;; *);;
+
+char_evtibida_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Эвтибида ]
+		(* <- lang_ru;; *);;
+
+char_sulla_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Сулла ]
+		(* <- lang_ru;; *);;
+
+char_kaj_gannik_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Кай Ганник ]
+		(* <- lang_ru;; *);;
+
+char_artoriks_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Арторикс ]
+		(* <- lang_ru;; *);;
+
+char_ulij_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Юлий ]
+		(* <- lang_ru;; *);;
+
+char_kaj_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Кай ]
+		(* <- lang_ru;; *);;
+
+char_klodia_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Клодия ]
+		(* <- lang_ru;; *);;
+
+char_ulij_zezar__book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Юлий Цезарь ]
+		(* <- lang_ru;; *);;
+
+char_gaj_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Гай ]
+		(* <- lang_ru;; *);;
+
+char_mirnaa_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Мирная ]
+		(* <- lang_ru;; *);;
+
+char_orest_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Орест ]
+		(* <- lang_ru;; *);;
+
+char_servilian_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Сервилиан ]
+		(* <- lang_ru;; *);;
+
+char_postumia_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Постумия ]
+		(* <- lang_ru;; *);;
+
+char_katilina_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Катилина ]
+		(* <- lang_ru;; *);;
+
+char_kampan_a_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Кампанья ]
+		(* <- lang_ru;; *);;
+
+char_anfidia_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Анфидия ]
+		(* <- lang_ru;; *);;
+
+char_varinij_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Вариний ]
+		(* <- lang_ru;; *);;
+
+char_valerij_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Валерий ]
+		(* <- lang_ru;; *);;
+
+char_katalina_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Каталина ]
+		(* <- lang_ru;; *);;
+
+char_venera_libitina_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Венера Либитина ]
+		(* <- lang_ru;; *);;
+
+char_al_p_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Альп ]
+		(* <- lang_ru;; *);;
+
+char_kornelij_sulla_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Корнелий Сулла ]
+		(* <- lang_ru;; *);;
+
+char_valeria_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Валерия ]
+		(* <- lang_ru;; *);;
+
+char_spartak_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Спартак ]
+		(* <- lang_ru;; *);;
+
+char_tit_book_Spartak
+<- char;
+=> nrel_main_idtf:
+	[ Тит ]
+		(* <- lang_ru;; *);;
+
+book_Spartak
+=> nrel_locales:
+	.book_Spartak_locales
+		(*
+			-> locale_apulia_book_Spartak;;
+			-> locale_groznyj_book_Spartak;;
+			-> locale_kotoryj_book_Spartak;;
+			-> locale_velikoe_book_Spartak;;
+			-> locale_kapuj_book_Spartak;;
+			-> locale_kuda_book_Spartak;;
+			-> locale_enomaj_book_Spartak;;
+			-> locale_vezuvij_book_Spartak;;
+			-> locale_kampan_e_book_Spartak;;
+			-> locale_venera_book_Spartak;;
+			-> locale_lentula_book_Spartak;;
+			-> locale_frakia_book_Spartak;;
+			-> locale_metrobia_book_Spartak;;
+			-> locale_rim_book_Spartak;;
+			-> locale_al_p_book_Spartak;;
+	 	*);;
+
+locale_apulia_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Апулия ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kapuj_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Капуй ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_enomaj_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Эномай ]
+		(* <- lang_ru;; *);;
+
+locale_vezuvij_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Везувий ]
+		(* <- lang_ru;; *);;
+
+locale_kampan_e_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Кампанье ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_lentula_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Лентула ]
+		(* <- lang_ru;; *);;
+
+locale_frakia_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Фракия ]
+		(* <- lang_ru;; *);;
+
+locale_metrobia_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Метробия ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_al_p_book_Spartak
+<- locale;
+=> nrel_main_idtf:
+	[ Альп ]
+		(* <- lang_ru;; *);;
+
+book_Spartak
+=> nrel_dates:
+	.book_Spartak_dates
+		(*
+			-> date_11_10_book_Spartak;;
+			-> date_2_15_book_Spartak;;
+	 	*);;
+
+date_11_10_book_Spartak
+<- date;
+=> nrel_main_idtf:
+	[ 11 10 ]
+		(* <- lang_ru;; *);;
+
+date_2_15_book_Spartak
+<- date;
+=> nrel_main_idtf:
+	[ 2 15 ]
+		(* <- lang_ru;; *);;
+

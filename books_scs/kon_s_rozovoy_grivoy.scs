@@ -1,0 +1,64 @@
+book_Kon_S_Rozovoy_Grivoy
+<- book;
+=> nrel_author;
+	author_Astafev;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Конь С Розовой Гривой]
+		(* <- lang_ru;; *);;
+
+book_Kon_S_Rozovoy_Grivoy
+=> nrel_characters:
+	.book_Kon_S_Rozovoy_Grivoy_characters
+		(*
+			-> char_san_ka_book_Kon_S_Rozovoy_Grivoy;;
+			-> char_katerina_petrovna_book_Kon_S_Rozovoy_Grivoy;;
+			-> char_levontij_book_Kon_S_Rozovoy_Grivoy;;
+	 	*);;
+
+char_san_ka_book_Kon_S_Rozovoy_Grivoy
+<- char;
+=> nrel_main_idtf:
+	[ Санька ]
+		(* <- lang_ru;; *);;
+
+char_katerina_petrovna_book_Kon_S_Rozovoy_Grivoy
+<- char;
+=> nrel_main_idtf:
+	[ Катерина Петровна ]
+		(* <- lang_ru;; *);;
+
+char_levontij_book_Kon_S_Rozovoy_Grivoy
+<- char;
+=> nrel_main_idtf:
+	[ Левонтий ]
+		(* <- lang_ru;; *);;
+
+book_Kon_S_Rozovoy_Grivoy
+=> nrel_locales:
+	.book_Kon_S_Rozovoy_Grivoy_locales
+		(*
+			-> locale_babuskin_book_Kon_S_Rozovoy_Grivoy;;
+			-> locale_levont_evskoe_book_Kon_S_Rozovoy_Grivoy;;
+			-> locale_to_book_Kon_S_Rozovoy_Grivoy;;
+	 	*);;
+
+locale_babuskin_book_Kon_S_Rozovoy_Grivoy
+<- locale;
+=> nrel_main_idtf:
+	[ Бабушкин ]
+		(* <- lang_ru;; *);;
+
+locale_levont_evskoe_book_Kon_S_Rozovoy_Grivoy
+<- locale;
+=> nrel_main_idtf:
+	[ Левонтьевское ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kon_S_Rozovoy_Grivoy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

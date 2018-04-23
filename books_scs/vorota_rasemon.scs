@@ -1,0 +1,43 @@
+book_Vorota_Rasemon
+<- book;
+=> nrel_author;
+	author_Akutagava;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ворота Расёмон]
+		(* <- lang_ru;; *);;
+
+book_Vorota_Rasemon
+=> nrel_characters:
+	.book_Vorota_Rasemon_characters
+		(*
+			-> char_rasemona_book_Vorota_Rasemon;;
+	 	*);;
+
+char_rasemona_book_Vorota_Rasemon
+<- char;
+=> nrel_main_idtf:
+	[ Расёмона ]
+		(* <- lang_ru;; *);;
+
+book_Vorota_Rasemon
+=> nrel_locales:
+	.book_Vorota_Rasemon_locales
+		(*
+			-> locale_kioto_book_Vorota_Rasemon;;
+			-> locale_to_book_Vorota_Rasemon;;
+	 	*);;
+
+locale_kioto_book_Vorota_Rasemon
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vorota_Rasemon
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

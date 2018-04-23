@@ -1,0 +1,169 @@
+book_Ptichka_Pevchaia
+<- book;
+=> nrel_author;
+	author_Guntekin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Королёк — Птичка Певчая]
+		(* <- lang_ru;; *);;
+
+book_Ptichka_Pevchaia
+=> nrel_characters:
+	.book_Ptichka_Pevchaia_characters
+		(*
+			-> char_kusadas_book_Ptichka_Pevchaia;;
+			-> char_hajrull_book_Ptichka_Pevchaia;;
+			-> char_munis_book_Ptichka_Pevchaia;;
+			-> char_ferida_book_Ptichka_Pevchaia;;
+			-> char_usuf_book_Ptichka_Pevchaia;;
+			-> char_buhhardin_book_Ptichka_Pevchaia;;
+			-> char_kamran_book_Ptichka_Pevchaia;;
+			-> char_neriman_book_Ptichka_Pevchaia;;
+			-> char_roman_book_Ptichka_Pevchaia;;
+			-> char_mujgan_book_Ptichka_Pevchaia;;
+			-> char_zejnilera_book_Ptichka_Pevchaia;;
+			-> char_hajrullah_book_Ptichka_Pevchaia;;
+	 	*);;
+
+char_kusadas_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Кушадас ]
+		(* <- lang_ru;; *);;
+
+char_hajrull_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Хайрулл ]
+		(* <- lang_ru;; *);;
+
+char_munis_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Мунис ]
+		(* <- lang_ru;; *);;
+
+char_ferida_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Феридя ]
+		(* <- lang_ru;; *);;
+
+char_usuf_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Юсуф ]
+		(* <- lang_ru;; *);;
+
+char_buhhardin_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Буххардин ]
+		(* <- lang_ru;; *);;
+
+char_kamran_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Кямран ]
+		(* <- lang_ru;; *);;
+
+char_neriman_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Нериман ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_mujgan_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Мюжгян ]
+		(* <- lang_ru;; *);;
+
+char_zejnilera_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Зейнилера ]
+		(* <- lang_ru;; *);;
+
+char_hajrullah_book_Ptichka_Pevchaia
+<- char;
+=> nrel_main_idtf:
+	[ Хайруллах ]
+		(* <- lang_ru;; *);;
+
+book_Ptichka_Pevchaia
+=> nrel_locales:
+	.book_Ptichka_Pevchaia_locales
+		(*
+			-> locale_tekirdag_book_Ptichka_Pevchaia;;
+			-> locale_turzia_book_Ptichka_Pevchaia;;
+			-> locale_malen_kij_gorodok_book_Ptichka_Pevchaia;;
+			-> locale_prisposoblenyj_book_Ptichka_Pevchaia;;
+			-> locale_voennyj_gorodok_book_Ptichka_Pevchaia;;
+			-> locale_stambul_book_Ptichka_Pevchaia;;
+			-> locale_evropa_book_Ptichka_Pevchaia;;
+			-> locale_otdalennaa_oblast__book_Ptichka_Pevchaia;;
+			-> locale_svejzaria_book_Ptichka_Pevchaia;;
+	 	*);;
+
+locale_tekirdag_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Текирдаг ]
+		(* <- lang_ru;; *);;
+
+locale_turzia_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Турция ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_prisposoblenyj_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Приспособленый ]
+		(* <- lang_ru;; *);;
+
+locale_voennyj_gorodok_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Военный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_stambul_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Стамбул ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_otdalennaa_oblast__book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Отдалённая Область ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Ptichka_Pevchaia
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Kuprin
+<- person;
+=> nrel_main_idtf:
+	[Александр Куприн]
+		(* <- lang_ru;; *);;
+
+author_Kuprin
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kuprin.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

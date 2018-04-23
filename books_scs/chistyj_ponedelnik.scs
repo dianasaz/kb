@@ -1,0 +1,63 @@
+book_Chistyj_Ponedelnik
+<- book;
+=> nrel_author;
+	author_Bunin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чистый Понедельник]
+		(* <- lang_ru;; *);;
+
+book_Chistyj_Ponedelnik
+=> nrel_characters:
+	.book_Chistyj_Ponedelnik_characters
+		(*
+			-> char_marfo_book_Chistyj_Ponedelnik;;
+			-> char_andrej_belyj_book_Chistyj_Ponedelnik;;
+	 	*);;
+
+char_marfo_book_Chistyj_Ponedelnik
+<- char;
+=> nrel_main_idtf:
+	[ Марфо ]
+		(* <- lang_ru;; *);;
+
+char_andrej_belyj_book_Chistyj_Ponedelnik
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Белый ]
+		(* <- lang_ru;; *);;
+
+book_Chistyj_Ponedelnik
+=> nrel_locales:
+	.book_Chistyj_Ponedelnik_locales
+		(*
+			-> locale_velikoe_book_Chistyj_Ponedelnik;;
+			-> locale_tver__book_Chistyj_Ponedelnik;;
+	 	*);;
+
+locale_velikoe_book_Chistyj_Ponedelnik
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_tver__book_Chistyj_Ponedelnik
+<- locale;
+=> nrel_main_idtf:
+	[ Тверь ]
+		(* <- lang_ru;; *);;
+
+book_Chistyj_Ponedelnik
+=> nrel_dates:
+	.book_Chistyj_Ponedelnik_dates
+		(*
+			-> date_1912_book_Chistyj_Ponedelnik;;
+	 	*);;
+
+date_1912_book_Chistyj_Ponedelnik
+<- date;
+=> nrel_main_idtf:
+	[ 1912 ]
+		(* <- lang_ru;; *);;
+

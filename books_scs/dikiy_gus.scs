@@ -1,0 +1,182 @@
+book_Dikiy_Gus
+<- book;
+=> nrel_author;
+	author_Mori;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дикий Гусь]
+		(* <- lang_ru;; *);;
+
+book_Dikiy_Gus
+=> nrel_characters:
+	.book_Dikiy_Gus_characters
+		(*
+			-> char_otamu_book_Dikiy_Gus;;
+			-> char_ozune_book_Dikiy_Gus;;
+			-> char_muendzak_book_Dikiy_Gus;;
+			-> char_okadu_book_Dikiy_Gus;;
+			-> char_okada_book_Dikiy_Gus;;
+			-> char_suedzoe_book_Dikiy_Gus;;
+			-> char_ozune_suedzo_book_Dikiy_Gus;;
+			-> char_okady_book_Dikiy_Gus;;
+	 	*);;
+
+char_otamu_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Отаму ]
+		(* <- lang_ru;; *);;
+
+char_ozune_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Оцунэ ]
+		(* <- lang_ru;; *);;
+
+char_muendzak_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Муэндзак ]
+		(* <- lang_ru;; *);;
+
+char_okadu_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Окаду ]
+		(* <- lang_ru;; *);;
+
+char_okada_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Окада ]
+		(* <- lang_ru;; *);;
+
+char_suedzoe_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Суэдзое ]
+		(* <- lang_ru;; *);;
+
+char_ozune_suedzo_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Оцунэ Суэдзо ]
+		(* <- lang_ru;; *);;
+
+char_okady_book_Dikiy_Gus
+<- char;
+=> nrel_main_idtf:
+	[ Окады ]
+		(* <- lang_ru;; *);;
+
+book_Dikiy_Gus
+=> nrel_locales:
+	.book_Dikiy_Gus_locales
+		(*
+			-> locale_otamu_book_Dikiy_Gus;;
+			-> locale_prelestnaa_otama_book_Dikiy_Gus;;
+			-> locale_ptic__book_Dikiy_Gus;;
+			-> locale_otej_book_Dikiy_Gus;;
+			-> locale_tiba_book_Dikiy_Gus;;
+			-> locale_otama_book_Dikiy_Gus;;
+			-> locale_kotoryj_otam_book_Dikiy_Gus;;
+			-> locale_kotoryj_book_Dikiy_Gus;;
+			-> locale_to_book_Dikiy_Gus;;
+			-> locale_nea_book_Dikiy_Gus;;
+			-> locale_germania_book_Dikiy_Gus;;
+			-> locale_para_book_Dikiy_Gus;;
+			-> locale_isihara_book_Dikiy_Gus;;
+	 	*);;
+
+locale_otamu_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Отаму ]
+		(* <- lang_ru;; *);;
+
+locale_prelestnaa_otama_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Прелестная Отама ]
+		(* <- lang_ru;; *);;
+
+locale_ptic__book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Птичь ]
+		(* <- lang_ru;; *);;
+
+locale_otej_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Отэй ]
+		(* <- lang_ru;; *);;
+
+locale_tiba_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Тиба ]
+		(* <- lang_ru;; *);;
+
+locale_otama_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Отама ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_otam_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Который Отам ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_isihara_book_Dikiy_Gus
+<- locale;
+=> nrel_main_idtf:
+	[ Исихара ]
+		(* <- lang_ru;; *);;
+
+book_Dikiy_Gus
+=> nrel_dates:
+	.book_Dikiy_Gus_dates
+		(*
+			-> date_1880_book_Dikiy_Gus;;
+	 	*);;
+
+date_1880_book_Dikiy_Gus
+<- date;
+=> nrel_main_idtf:
+	[ 1880 ]
+		(* <- lang_ru;; *);;
+

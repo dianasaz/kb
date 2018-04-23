@@ -1,0 +1,99 @@
+book_Zvezda
+<- book;
+=> nrel_author;
+	author_Kazakevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Звезда]
+		(* <- lang_ru;; *);;
+
+book_Zvezda
+=> nrel_characters:
+	.book_Zvezda_characters
+		(*
+			-> char_bykov_book_Zvezda;;
+			-> char_kata_book_Zvezda;;
+			-> char_mamockin_book_Zvezda;;
+			-> char_anikanov_book_Zvezda;;
+			-> char_travkin_book_Zvezda;;
+			-> char_semenov_book_Zvezda;;
+			-> char_serbicenko_book_Zvezda;;
+	 	*);;
+
+char_bykov_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+char_kata_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Катя ]
+		(* <- lang_ru;; *);;
+
+char_mamockin_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Мамочкин ]
+		(* <- lang_ru;; *);;
+
+char_anikanov_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Аниканов ]
+		(* <- lang_ru;; *);;
+
+char_travkin_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Травкин ]
+		(* <- lang_ru;; *);;
+
+char_semenov_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Семенов ]
+		(* <- lang_ru;; *);;
+
+char_serbicenko_book_Zvezda
+<- char;
+=> nrel_main_idtf:
+	[ Сербиченко ]
+		(* <- lang_ru;; *);;
+
+book_Zvezda
+=> nrel_locales:
+	.book_Zvezda_locales
+		(*
+			-> locale_orel_book_Zvezda;;
+			-> locale_pol_sa_book_Zvezda;;
+			-> locale_krasnaa_book_Zvezda;;
+			-> locale_obycnaa_zapadnoukrainskaa_book_Zvezda;;
+	 	*);;
+
+locale_orel_book_Zvezda
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Zvezda
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Zvezda
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_obycnaa_zapadnoukrainskaa_book_Zvezda
+<- locale;
+=> nrel_main_idtf:
+	[ Обычная Западноукраинская ]
+		(* <- lang_ru;; *);;
+

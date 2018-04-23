@@ -1,0 +1,16 @@
+author_Tomasmann
+<- person;
+=> nrel_main_idtf:
+	[Томас Манн]
+		(* <- lang_ru;; *);;
+
+author_Tomasmann
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Tomasmann.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

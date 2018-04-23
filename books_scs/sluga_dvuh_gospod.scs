@@ -1,0 +1,162 @@
+book_Sluga_Dvuh_Gospod
+<- book;
+=> nrel_author;
+	author_Goldoni;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Слуга Двух Господ]
+		(* <- lang_ru;; *);;
+
+book_Sluga_Dvuh_Gospod
+=> nrel_characters:
+	.book_Sluga_Dvuh_Gospod_characters
+		(*
+			-> char_klaric_book_Sluga_Dvuh_Gospod;;
+			-> char_pantalone_book_Sluga_Dvuh_Gospod;;
+			-> char_kakov_book_Sluga_Dvuh_Gospod;;
+			-> char_lombardi_book_Sluga_Dvuh_Gospod;;
+			-> char_beatrice_book_Sluga_Dvuh_Gospod;;
+			-> char_brigella_book_Sluga_Dvuh_Gospod;;
+			-> char_sil_vio_book_Sluga_Dvuh_Gospod;;
+			-> char_florindo_book_Sluga_Dvuh_Gospod;;
+			-> char_smeral_din_book_Sluga_Dvuh_Gospod;;
+			-> char_paskuala_book_Sluga_Dvuh_Gospod;;
+	 	*);;
+
+char_klaric_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Кларич ]
+		(* <- lang_ru;; *);;
+
+char_pantalone_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_kakov_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Каков ]
+		(* <- lang_ru;; *);;
+
+char_lombardi_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Ломбарди ]
+		(* <- lang_ru;; *);;
+
+char_beatrice_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Беатриче ]
+		(* <- lang_ru;; *);;
+
+char_brigella_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Бригелла ]
+		(* <- lang_ru;; *);;
+
+char_sil_vio_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Сильвио ]
+		(* <- lang_ru;; *);;
+
+char_florindo_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Флориндо ]
+		(* <- lang_ru;; *);;
+
+char_smeral_din_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Смеральдин ]
+		(* <- lang_ru;; *);;
+
+char_paskuala_book_Sluga_Dvuh_Gospod
+<- char;
+=> nrel_main_idtf:
+	[ Паскуала ]
+		(* <- lang_ru;; *);;
+
+book_Sluga_Dvuh_Gospod
+=> nrel_locales:
+	.book_Sluga_Dvuh_Gospod_locales
+		(*
+			-> locale_karman_book_Sluga_Dvuh_Gospod;;
+			-> locale_trufad_dino_book_Sluga_Dvuh_Gospod;;
+			-> locale_florindo_trufal_dino_book_Sluga_Dvuh_Gospod;;
+			-> locale_trufal_dino_book_Sluga_Dvuh_Gospod;;
+			-> locale_bergamo_book_Sluga_Dvuh_Gospod;;
+			-> locale_turin_book_Sluga_Dvuh_Gospod;;
+			-> locale_to_book_Sluga_Dvuh_Gospod;;
+			-> locale_usta_book_Sluga_Dvuh_Gospod;;
+			-> locale_nea_book_Sluga_Dvuh_Gospod;;
+			-> locale_venezia_book_Sluga_Dvuh_Gospod;;
+	 	*);;
+
+locale_karman_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_trufad_dino_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Труфадьдино ]
+		(* <- lang_ru;; *);;
+
+locale_florindo_trufal_dino_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Флориндо Труфальдино ]
+		(* <- lang_ru;; *);;
+
+locale_trufal_dino_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Труфальдино ]
+		(* <- lang_ru;; *);;
+
+locale_bergamo_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Бергамо ]
+		(* <- lang_ru;; *);;
+
+locale_turin_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Турин ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_usta_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Уста ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Sluga_Dvuh_Gospod
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+

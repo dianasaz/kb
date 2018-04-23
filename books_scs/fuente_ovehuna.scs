@@ -1,0 +1,211 @@
+book_Fuente_Ovehuna
+<- book;
+=> nrel_author;
+	author_Vega;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фуэнте Овехуна]
+		(* <- lang_ru;; *);;
+
+book_Fuente_Ovehuna
+=> nrel_characters:
+	.book_Fuente_Ovehuna_characters
+		(*
+			-> char_gusman_book_Fuente_Ovehuna;;
+			-> char_s_udada_book_Fuente_Ovehuna;;
+			-> char_kastilia_book_Fuente_Ovehuna;;
+			-> char_mengo_book_Fuente_Ovehuna;;
+			-> char_fernan_gomes_book_Fuente_Ovehuna;;
+			-> char_isaveli_book_Fuente_Ovehuna;;
+			-> char_fernando_book_Fuente_Ovehuna;;
+			-> char_hiron_book_Fuente_Ovehuna;;
+			-> char_al_fonso_portugal_skij_book_Fuente_Ovehuna;;
+			-> char_laurens_a_book_Fuente_Ovehuna;;
+			-> char_estevan_book_Fuente_Ovehuna;;
+			-> char_don_book_Fuente_Ovehuna;;
+			-> char_isavel_book_Fuente_Ovehuna;;
+			-> char_ovehuna_book_Fuente_Ovehuna;;
+			-> char_rodrigo_book_Fuente_Ovehuna;;
+			-> char_reala_book_Fuente_Ovehuna;;
+			-> char_isavella_book_Fuente_Ovehuna;;
+			-> char_paskuala_book_Fuente_Ovehuna;;
+			-> char_enrike_book_Fuente_Ovehuna;;
+	 	*);;
+
+char_gusman_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Гусман ]
+		(* <- lang_ru;; *);;
+
+char_s_udada_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Сьюдада ]
+		(* <- lang_ru;; *);;
+
+char_kastilia_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Кастилия ]
+		(* <- lang_ru;; *);;
+
+char_mengo_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Менго ]
+		(* <- lang_ru;; *);;
+
+char_fernan_gomes_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Фернан Гомес ]
+		(* <- lang_ru;; *);;
+
+char_isaveli_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Исавели ]
+		(* <- lang_ru;; *);;
+
+char_fernando_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Фернандо ]
+		(* <- lang_ru;; *);;
+
+char_hiron_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Хирон ]
+		(* <- lang_ru;; *);;
+
+char_al_fonso_portugal_skij_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Альфонсо Португальский ]
+		(* <- lang_ru;; *);;
+
+char_laurens_a_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Лауренсья ]
+		(* <- lang_ru;; *);;
+
+char_estevan_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Эстеван ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_isavel_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Исавел ]
+		(* <- lang_ru;; *);;
+
+char_ovehuna_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Овехуна ]
+		(* <- lang_ru;; *);;
+
+char_rodrigo_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Родриго ]
+		(* <- lang_ru;; *);;
+
+char_reala_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Реаля ]
+		(* <- lang_ru;; *);;
+
+char_isavella_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Исавелла ]
+		(* <- lang_ru;; *);;
+
+char_paskuala_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Паскуала ]
+		(* <- lang_ru;; *);;
+
+char_enrike_book_Fuente_Ovehuna
+<- char;
+=> nrel_main_idtf:
+	[ Энрике ]
+		(* <- lang_ru;; *);;
+
+book_Fuente_Ovehuna
+=> nrel_locales:
+	.book_Fuente_Ovehuna_locales
+		(*
+			-> locale_sant_ago_book_Fuente_Ovehuna;;
+			-> locale_flores_book_Fuente_Ovehuna;;
+			-> locale_don_book_Fuente_Ovehuna;;
+			-> locale_hiron_book_Fuente_Ovehuna;;
+			-> locale_ispania_book_Fuente_Ovehuna;;
+			-> locale_to_book_Fuente_Ovehuna;;
+			-> locale_estevan_book_Fuente_Ovehuna;;
+			-> locale_hasinta_book_Fuente_Ovehuna;;
+	 	*);;
+
+locale_sant_ago_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Сантьяго ]
+		(* <- lang_ru;; *);;
+
+locale_flores_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Флорес ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_hiron_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Хирон ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_estevan_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Эстеван ]
+		(* <- lang_ru;; *);;
+
+locale_hasinta_book_Fuente_Ovehuna
+<- locale;
+=> nrel_main_idtf:
+	[ Хасинта ]
+		(* <- lang_ru;; *);;
+

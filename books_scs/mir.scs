@@ -1,0 +1,141 @@
+book_Mir
+<- book;
+=> nrel_author;
+	author_Aristofan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мир]
+		(* <- lang_ru;; *);;
+
+book_Mir
+=> nrel_characters:
+	.book_Mir_characters
+		(*
+			-> char_gierokl_book_Mir;;
+			-> char_gelios_book_Mir;;
+			-> char_zevs_book_Mir;;
+			-> char_esopa_book_Mir;;
+			-> char_aristofan_book_Mir;;
+			-> char_melanfia_book_Mir;;
+			-> char_irina_book_Mir;;
+			-> char_germes_book_Mir;;
+			-> char_fidia_book_Mir;;
+			-> char_kleon_book_Mir;;
+			-> char_trigea_book_Mir;;
+	 	*);;
+
+char_gierokl_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Гиерокл ]
+		(* <- lang_ru;; *);;
+
+char_gelios_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Гелиос ]
+		(* <- lang_ru;; *);;
+
+char_zevs_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Зевс ]
+		(* <- lang_ru;; *);;
+
+char_esopa_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Эсопа ]
+		(* <- lang_ru;; *);;
+
+char_aristofan_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Аристофан ]
+		(* <- lang_ru;; *);;
+
+char_melanfia_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Меланфия ]
+		(* <- lang_ru;; *);;
+
+char_irina_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Ирина ]
+		(* <- lang_ru;; *);;
+
+char_germes_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Гермес ]
+		(* <- lang_ru;; *);;
+
+char_fidia_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Фидия ]
+		(* <- lang_ru;; *);;
+
+char_kleon_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+char_trigea_book_Mir
+<- char;
+=> nrel_main_idtf:
+	[ Тригея ]
+		(* <- lang_ru;; *);;
+
+book_Mir
+=> nrel_locales:
+	.book_Mir_locales
+		(*
+			-> locale_olimp_book_Mir;;
+			-> locale_ares_book_Mir;;
+			-> locale_kleon_book_Mir;;
+			-> locale_morsim_book_Mir;;
+			-> locale_ellada_book_Mir;;
+			-> locale_kratin_book_Mir;;
+	 	*);;
+
+locale_olimp_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Олимп ]
+		(* <- lang_ru;; *);;
+
+locale_ares_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Арес ]
+		(* <- lang_ru;; *);;
+
+locale_kleon_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Клеон ]
+		(* <- lang_ru;; *);;
+
+locale_morsim_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Морсим ]
+		(* <- lang_ru;; *);;
+
+locale_ellada_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Эллада ]
+		(* <- lang_ru;; *);;
+
+locale_kratin_book_Mir
+<- locale;
+=> nrel_main_idtf:
+	[ Кратин ]
+		(* <- lang_ru;; *);;
+

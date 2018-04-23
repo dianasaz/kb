@@ -1,0 +1,16 @@
+author_Martinson
+<- person;
+=> nrel_main_idtf:
+	[Харри Мартинсон]
+		(* <- lang_ru;; *);;
+
+author_Martinson
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Martinson.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

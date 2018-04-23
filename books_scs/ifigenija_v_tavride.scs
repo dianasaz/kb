@@ -1,0 +1,190 @@
+book_Ifigenija_V_Tavride
+<- book;
+=> nrel_author;
+	author_Evripid;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ифигения В Тавриде]
+		(* <- lang_ru;; *);;
+
+book_Ifigenija_V_Tavride
+=> nrel_characters:
+	.book_Ifigenija_V_Tavride_characters
+		(*
+			-> char_elena_book_Ifigenija_V_Tavride;;
+			-> char_agamemnon_book_Ifigenija_V_Tavride;;
+			-> char_artemida_book_Ifigenija_V_Tavride;;
+			-> char_odissej_book_Ifigenija_V_Tavride;;
+			-> char_artemida_tavriceskaa_book_Ifigenija_V_Tavride;;
+			-> char_afina_book_Ifigenija_V_Tavride;;
+			-> char_pilada_book_Ifigenija_V_Tavride;;
+			-> char_apollon_book_Ifigenija_V_Tavride;;
+			-> char_ifigenia_book_Ifigenija_V_Tavride;;
+			-> char_eshilyj_book_Ifigenija_V_Tavride;;
+			-> char_tavrid_book_Ifigenija_V_Tavride;;
+			-> char_ahilla_book_Ifigenija_V_Tavride;;
+			-> char_elektra_book_Ifigenija_V_Tavride;;
+			-> char_orest_book_Ifigenija_V_Tavride;;
+	 	*);;
+
+char_elena_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_agamemnon_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Агамемнон ]
+		(* <- lang_ru;; *);;
+
+char_artemida_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Артемида ]
+		(* <- lang_ru;; *);;
+
+char_odissej_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Одиссей ]
+		(* <- lang_ru;; *);;
+
+char_artemida_tavriceskaa_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Артемида Таврическая ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_pilada_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Пилада ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_ifigenia_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Ифигения ]
+		(* <- lang_ru;; *);;
+
+char_eshilyj_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилый ]
+		(* <- lang_ru;; *);;
+
+char_tavrid_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Таврид ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_elektra_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Электра ]
+		(* <- lang_ru;; *);;
+
+char_orest_book_Ifigenija_V_Tavride
+<- char;
+=> nrel_main_idtf:
+	[ Орест ]
+		(* <- lang_ru;; *);;
+
+book_Ifigenija_V_Tavride
+=> nrel_locales:
+	.book_Ifigenija_V_Tavride_locales
+		(*
+			-> locale_afiny_book_Ifigenija_V_Tavride;;
+			-> locale_velikoe_book_Ifigenija_V_Tavride;;
+			-> locale_avlida_book_Ifigenija_V_Tavride;;
+			-> locale_moj_afina_book_Ifigenija_V_Tavride;;
+			-> locale_vsa_grezia_book_Ifigenija_V_Tavride;;
+			-> locale_lan__book_Ifigenija_V_Tavride;;
+			-> locale_sovremennyj_krym_book_Ifigenija_V_Tavride;;
+			-> locale_argosa_book_Ifigenija_V_Tavride;;
+			-> locale_nea_book_Ifigenija_V_Tavride;;
+			-> locale_grezia_book_Ifigenija_V_Tavride;;
+	 	*);;
+
+locale_afiny_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_avlida_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Авлида ]
+		(* <- lang_ru;; *);;
+
+locale_moj_afina_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Мой Афина ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_lan__book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Лань ]
+		(* <- lang_ru;; *);;
+
+locale_sovremennyj_krym_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Современный Крым ]
+		(* <- lang_ru;; *);;
+
+locale_argosa_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Аргоса ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Ifigenija_V_Tavride
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

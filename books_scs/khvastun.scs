@@ -1,0 +1,120 @@
+book_Khvastun
+<- book;
+=> nrel_author;
+	author_Kniazhnin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Хвастун]
+		(* <- lang_ru;; *);;
+
+book_Khvastun
+=> nrel_characters:
+	.book_Khvastun_characters
+		(*
+			-> char_zamir_book_Khvastun;;
+			-> char_cvankin_verholet_book_Khvastun;;
+			-> char_verholet_book_Khvastun;;
+			-> char_cvankin_book_Khvastun;;
+			-> char_marin_book_Khvastun;;
+			-> char_marina_book_Khvastun;;
+			-> char_milena_book_Khvastun;;
+	 	*);;
+
+char_zamir_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Замир ]
+		(* <- lang_ru;; *);;
+
+char_cvankin_verholet_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Чванкин Верхолёт ]
+		(* <- lang_ru;; *);;
+
+char_verholet_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Верхолёт ]
+		(* <- lang_ru;; *);;
+
+char_cvankin_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Чванкин ]
+		(* <- lang_ru;; *);;
+
+char_marin_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Марин ]
+		(* <- lang_ru;; *);;
+
+char_marina_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Марина ]
+		(* <- lang_ru;; *);;
+
+char_milena_book_Khvastun
+<- char;
+=> nrel_main_idtf:
+	[ Милена ]
+		(* <- lang_ru;; *);;
+
+book_Khvastun
+=> nrel_locales:
+	.book_Khvastun_locales
+		(*
+			-> locale_grafstvo_verholet_book_Khvastun;;
+			-> locale_kotoryj_book_Khvastun;;
+			-> locale_torjok_book_Khvastun;;
+			-> locale_velik_book_Khvastun;;
+			-> locale_to_book_Khvastun;;
+			-> locale_tver__book_Khvastun;;
+			-> locale_peterburg_book_Khvastun;;
+	 	*);;
+
+locale_grafstvo_verholet_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Графство Верхолёт ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_torjok_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Торжок ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tver__book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Тверь ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Khvastun
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,92 @@
+book_Posledniy_Diuym
+<- book;
+=> nrel_author;
+	author_Oldridzh;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Последний Дюйм]
+		(* <- lang_ru;; *);;
+
+book_Posledniy_Diuym
+=> nrel_characters:
+	.book_Posledniy_Diuym_characters
+		(*
+			-> char_devi_book_Posledniy_Diuym;;
+			-> char_ben_book_Posledniy_Diuym;;
+			-> char_bena_book_Posledniy_Diuym;;
+	 	*);;
+
+char_devi_book_Posledniy_Diuym
+<- char;
+=> nrel_main_idtf:
+	[ Дэви ]
+		(* <- lang_ru;; *);;
+
+char_ben_book_Posledniy_Diuym
+<- char;
+=> nrel_main_idtf:
+	[ Бен ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Posledniy_Diuym
+<- char;
+=> nrel_main_idtf:
+	[ Бена ]
+		(* <- lang_ru;; *);;
+
+book_Posledniy_Diuym
+=> nrel_locales:
+	.book_Posledniy_Diuym_locales
+		(*
+			-> locale_aravia_book_Posledniy_Diuym;;
+			-> locale_kair_book_Posledniy_Diuym;;
+			-> locale_kanada_book_Posledniy_Diuym;;
+			-> locale_krasnyj_book_Posledniy_Diuym;;
+			-> locale_oster_book_Posledniy_Diuym;;
+			-> locale_rodnoj_massacusets_book_Posledniy_Diuym;;
+			-> locale_krasnoe_book_Posledniy_Diuym;;
+	 	*);;
+
+locale_aravia_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Аравия ]
+		(* <- lang_ru;; *);;
+
+locale_kair_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Каир ]
+		(* <- lang_ru;; *);;
+
+locale_kanada_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Канада ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_oster_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Остер ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_massacusets_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Массачусетс ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Posledniy_Diuym
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+

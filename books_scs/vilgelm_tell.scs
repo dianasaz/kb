@@ -1,0 +1,259 @@
+book_Vilgelm_Tell
+<- book;
+=> nrel_author;
+	author_Shiller;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вильгельм Телль]
+		(* <- lang_ru;; *);;
+
+book_Vilgelm_Tell
+=> nrel_characters:
+	.book_Vilgelm_Tell_characters
+		(*
+			-> char_baumgarten_book_Vilgelm_Tell;;
+			-> char_tella_book_Vilgelm_Tell;;
+			-> char_rosberg_book_Vilgelm_Tell;;
+			-> char_ul_rih_book_Vilgelm_Tell;;
+			-> char_ioann_book_Vilgelm_Tell;;
+			-> char_gabsburg_book_Vilgelm_Tell;;
+			-> char_verner_book_Vilgelm_Tell;;
+			-> char_landenberg_book_Vilgelm_Tell;;
+			-> char_elizaveta_book_Vilgelm_Tell;;
+			-> char_val_ter_furst_book_Vilgelm_Tell;;
+			-> char_al_breht_book_Vilgelm_Tell;;
+			-> char_verner_stauffaher_book_Vilgelm_Tell;;
+			-> char_brun_kij_book_Vilgelm_Tell;;
+			-> char_vil_gel_m_book_Vilgelm_Tell;;
+			-> char_al_tdorf_book_Vilgelm_Tell;;
+			-> char_geslera_book_Vilgelm_Tell;;
+			-> char_arnol_d_book_Vilgelm_Tell;;
+			-> char_gedviga_book_Vilgelm_Tell;;
+			-> char_tella_book_Vilgelm_Tell;;
+			-> char_val_ter_book_Vilgelm_Tell;;
+			-> char_stauffaher_book_Vilgelm_Tell;;
+			-> char_sargen_book_Vilgelm_Tell;;
+			-> char_bert_book_Vilgelm_Tell;;
+	 	*);;
+
+char_baumgarten_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Баумгартен ]
+		(* <- lang_ru;; *);;
+
+char_tella_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Телла ]
+		(* <- lang_ru;; *);;
+
+char_rosberg_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Росберг ]
+		(* <- lang_ru;; *);;
+
+char_ul_rih_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Ульрих ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_gabsburg_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Габсбург ]
+		(* <- lang_ru;; *);;
+
+char_verner_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Вернер ]
+		(* <- lang_ru;; *);;
+
+char_landenberg_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Ланденберг ]
+		(* <- lang_ru;; *);;
+
+char_elizaveta_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Елизавета ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_furst_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер Фюрст ]
+		(* <- lang_ru;; *);;
+
+char_al_breht_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Альбрехт ]
+		(* <- lang_ru;; *);;
+
+char_verner_stauffaher_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Вернер Штауффахер ]
+		(* <- lang_ru;; *);;
+
+char_brun_kij_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Брунький ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_al_tdorf_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Альтдорф ]
+		(* <- lang_ru;; *);;
+
+char_geslera_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Геслера ]
+		(* <- lang_ru;; *);;
+
+char_arnol_d_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Арнольд ]
+		(* <- lang_ru;; *);;
+
+char_gedviga_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Гедвига ]
+		(* <- lang_ru;; *);;
+
+char_tella_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Телля ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_stauffaher_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Штауффахер ]
+		(* <- lang_ru;; *);;
+
+char_sargen_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Сарген ]
+		(* <- lang_ru;; *);;
+
+char_bert_book_Vilgelm_Tell
+<- char;
+=> nrel_main_idtf:
+	[ Берт ]
+		(* <- lang_ru;; *);;
+
+book_Vilgelm_Tell
+=> nrel_locales:
+	.book_Vilgelm_Tell_locales
+		(*
+			-> locale_baumgarten_book_Vilgelm_Tell;;
+			-> locale_tirana_book_Vilgelm_Tell;;
+			-> locale_italia_book_Vilgelm_Tell;;
+			-> locale_sviz_book_Vilgelm_Tell;;
+			-> locale_al_tdorf_book_Vilgelm_Tell;;
+			-> locale_to_book_Vilgelm_Tell;;
+			-> locale_rudenz_book_Vilgelm_Tell;;
+			-> locale_para_book_Vilgelm_Tell;;
+			-> locale_svejzaria_book_Vilgelm_Tell;;
+	 	*);;
+
+locale_baumgarten_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Баумгартен ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_sviz_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Швиц ]
+		(* <- lang_ru;; *);;
+
+locale_al_tdorf_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Альтдорф ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_rudenz_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Руденц ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Vilgelm_Tell
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Vilgelm_Tell
+=> nrel_dates:
+	.book_Vilgelm_Tell_dates
+		(*
+			-> date_1291_book_Vilgelm_Tell;;
+	 	*);;
+
+date_1291_book_Vilgelm_Tell
+<- date;
+=> nrel_main_idtf:
+	[ 1291 ]
+		(* <- lang_ru;; *);;
+

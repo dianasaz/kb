@@ -1,0 +1,16 @@
+author_Sent_Ekzjuperi
+<- person;
+=> nrel_main_idtf:
+	[Антуан Де Сент-Экзюпери]
+		(* <- lang_ru;; *);;
+
+author_Sent_Ekzjuperi
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Sent_Ekzjuperi.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

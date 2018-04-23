@@ -1,0 +1,155 @@
+book_Edip_V_Kolone
+<- book;
+=> nrel_author;
+	author_Sofokl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Эдип В Колоне]
+		(* <- lang_ru;; *);;
+
+book_Edip_V_Kolone
+=> nrel_characters:
+	.book_Edip_V_Kolone_characters
+		(*
+			-> char_polinik_book_Edip_V_Kolone;;
+			-> char_edip_book_Edip_V_Kolone;;
+			-> char_afina_book_Edip_V_Kolone;;
+			-> char_antigona_book_Edip_V_Kolone;;
+			-> char_eshilyj_book_Edip_V_Kolone;;
+			-> char_sofokl_book_Edip_V_Kolone;;
+			-> char_eteokla_book_Edip_V_Kolone;;
+			-> char_evmenida_book_Edip_V_Kolone;;
+			-> char_eva_book_Edip_V_Kolone;;
+			-> char_germes_book_Edip_V_Kolone;;
+			-> char_posejdon_book_Edip_V_Kolone;;
+	 	*);;
+
+char_polinik_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Полиник ]
+		(* <- lang_ru;; *);;
+
+char_edip_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Эдип ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_antigona_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Антигона ]
+		(* <- lang_ru;; *);;
+
+char_eshilyj_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилый ]
+		(* <- lang_ru;; *);;
+
+char_sofokl_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Софокл ]
+		(* <- lang_ru;; *);;
+
+char_eteokla_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Этеокла ]
+		(* <- lang_ru;; *);;
+
+char_evmenida_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Евменида ]
+		(* <- lang_ru;; *);;
+
+char_eva_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Ева ]
+		(* <- lang_ru;; *);;
+
+char_germes_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Гермес ]
+		(* <- lang_ru;; *);;
+
+char_posejdon_book_Edip_V_Kolone
+<- char;
+=> nrel_main_idtf:
+	[ Посейдон ]
+		(* <- lang_ru;; *);;
+
+book_Edip_V_Kolone
+=> nrel_locales:
+	.book_Edip_V_Kolone_locales
+		(*
+			-> locale_kolon_book_Edip_V_Kolone;;
+			-> locale_ismena_book_Edip_V_Kolone;;
+			-> locale_kuda_book_Edip_V_Kolone;;
+			-> locale_etot_rasskaz_book_Edip_V_Kolone;;
+			-> locale_fivy_book_Edip_V_Kolone;;
+			-> locale_afina_book_Edip_V_Kolone;;
+			-> locale_rodnye_fivy_book_Edip_V_Kolone;;
+			-> locale_umilostivivsij_book_Edip_V_Kolone;;
+	 	*);;
+
+locale_kolon_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Колон ]
+		(* <- lang_ru;; *);;
+
+locale_ismena_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Исмена ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_etot_rasskaz_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Рассказ ]
+		(* <- lang_ru;; *);;
+
+locale_fivy_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_rodnye_fivy_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Родные Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_umilostivivsij_book_Edip_V_Kolone
+<- locale;
+=> nrel_main_idtf:
+	[ Умилостививший ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,43 @@
+book_Chelovek_Jacshik
+<- book;
+=> nrel_author;
+	author_Abe;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Человек-Ящик]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Jacshik
+=> nrel_locales:
+	.book_Chelovek_Jacshik_locales
+		(*
+			-> locale_primorskij_book_Chelovek_Jacshik;;
+			-> locale_to_book_Chelovek_Jacshik;;
+	 	*);;
+
+locale_primorskij_book_Chelovek_Jacshik
+<- locale;
+=> nrel_main_idtf:
+	[ Приморский ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chelovek_Jacshik
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Jacshik
+=> nrel_dates:
+	.book_Chelovek_Jacshik_dates
+		(*
+			-> date_1926_3_7_book_Chelovek_Jacshik;;
+	 	*);;
+
+date_1926_3_7_book_Chelovek_Jacshik
+<- date;
+=> nrel_main_idtf:
+	[ 1926 3 7 ]
+		(* <- lang_ru;; *);;
+

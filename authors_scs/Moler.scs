@@ -1,0 +1,16 @@
+author_Moler
+<- person;
+=> nrel_main_idtf:
+	[Мольер]
+		(* <- lang_ru;; *);;
+
+author_Moler
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Moler.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,78 @@
+book_Kniga_Skorbnyh_Pesnopenij
+<- book;
+=> nrel_author;
+	author_Narekaci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Книга Скорбных Песнопений]
+		(* <- lang_ru;; *);;
+
+book_Kniga_Skorbnyh_Pesnopenij
+=> nrel_characters:
+	.book_Kniga_Skorbnyh_Pesnopenij_characters
+		(*
+			-> char_iisus_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> char_grigor_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> char_maria_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> char_moisej_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> char_narekazi_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> char_vardapet_book_Kniga_Skorbnyh_Pesnopenij;;
+	 	*);;
+
+char_iisus_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Иисус ]
+		(* <- lang_ru;; *);;
+
+char_grigor_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Григор ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_moisej_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Моисей ]
+		(* <- lang_ru;; *);;
+
+char_narekazi_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Нарекаци ]
+		(* <- lang_ru;; *);;
+
+char_vardapet_book_Kniga_Skorbnyh_Pesnopenij
+<- char;
+=> nrel_main_idtf:
+	[ Вардапет ]
+		(* <- lang_ru;; *);;
+
+book_Kniga_Skorbnyh_Pesnopenij
+=> nrel_locales:
+	.book_Kniga_Skorbnyh_Pesnopenij_locales
+		(*
+			-> locale_nikea_book_Kniga_Skorbnyh_Pesnopenij;;
+			-> locale_to_book_Kniga_Skorbnyh_Pesnopenij;;
+	 	*);;
+
+locale_nikea_book_Kniga_Skorbnyh_Pesnopenij
+<- locale;
+=> nrel_main_idtf:
+	[ Никея ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kniga_Skorbnyh_Pesnopenij
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

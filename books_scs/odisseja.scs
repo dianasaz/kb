@@ -1,0 +1,330 @@
+book_Odisseja
+<- book;
+=> nrel_author;
+	author_Gomer;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Одиссея]
+		(* <- lang_ru;; *);;
+
+book_Odisseja
+=> nrel_characters:
+	.book_Odisseja_characters
+		(*
+			-> char_elena_book_Odisseja;;
+			-> char_szilla_book_Odisseja;;
+			-> char_ahilla_book_Odisseja;;
+			-> char_gomer_book_Odisseja;;
+			-> char_odissej_book_Odisseja;;
+			-> char_afina_book_Odisseja;;
+			-> char_odisseev_book_Odisseja;;
+			-> char_szill_book_Odisseja;;
+			-> char_troa_book_Odisseja;;
+			-> char_orest_book_Odisseja;;
+			-> char_alkinoa_book_Odisseja;;
+			-> char_afina_pallada_book_Odisseja;;
+			-> char_nestor_book_Odisseja;;
+			-> char_penelopa_book_Odisseja;;
+			-> char_germes_book_Odisseja;;
+			-> char_tiresia_book_Odisseja;;
+			-> char_itaki_book_Odisseja;;
+			-> char_posejdon_book_Odisseja;;
+	 	*);;
+
+char_elena_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_szilla_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Сцилла ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_gomer_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Гомер ]
+		(* <- lang_ru;; *);;
+
+char_odissej_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Одиссей ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_odisseev_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Одиссеев ]
+		(* <- lang_ru;; *);;
+
+char_szill_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Сцилл ]
+		(* <- lang_ru;; *);;
+
+char_troa_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Троя ]
+		(* <- lang_ru;; *);;
+
+char_orest_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Орест ]
+		(* <- lang_ru;; *);;
+
+char_alkinoa_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Алкиноя ]
+		(* <- lang_ru;; *);;
+
+char_afina_pallada_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Афина Паллада ]
+		(* <- lang_ru;; *);;
+
+char_nestor_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Нестор ]
+		(* <- lang_ru;; *);;
+
+char_penelopa_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Пенелопа ]
+		(* <- lang_ru;; *);;
+
+char_germes_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Гермес ]
+		(* <- lang_ru;; *);;
+
+char_tiresia_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Тиресия ]
+		(* <- lang_ru;; *);;
+
+char_itaki_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Итаки ]
+		(* <- lang_ru;; *);;
+
+char_posejdon_book_Odisseja
+<- char;
+=> nrel_main_idtf:
+	[ Посейдон ]
+		(* <- lang_ru;; *);;
+
+book_Odisseja
+=> nrel_locales:
+	.book_Odisseja_locales
+		(*
+			-> locale_rodnoj_argosa_book_Odisseja;;
+			-> locale_kotoryj_book_Odisseja;;
+			-> locale_zapadnyj_kraj_book_Odisseja;;
+			-> locale_krasnyh_bykov_book_Odisseja;;
+			-> locale_naihorosij_byk_book_Odisseja;;
+			-> locale_egipet_book_Odisseja;;
+			-> locale_itaki_book_Odisseja;;
+			-> locale_svatoj_ilion_book_Odisseja;;
+			-> locale_svoa_sparta_book_Odisseja;;
+			-> locale_car_book_Odisseja;;
+			-> locale_sparta_book_Odisseja;;
+			-> locale_gorod_pilos__book_Odisseja;;
+			-> locale_pallada_book_Odisseja;;
+			-> locale_krit_book_Odisseja;;
+			-> locale_volsebnyj_kraj_book_Odisseja;;
+			-> locale_pilos_book_Odisseja;;
+			-> locale_nea_book_Odisseja;;
+			-> locale_zapad_book_Odisseja;;
+			-> locale_lejte_book_Odisseja;;
+			-> locale_kuda_book_Odisseja;;
+			-> locale_zevsom_book_Odisseja;;
+			-> locale_to_book_Odisseja;;
+			-> locale_odisseevo_book_Odisseja;;
+			-> locale_rodnoj_itaki_book_Odisseja;;
+			-> locale_afina_book_Odisseja;;
+			-> locale_argosa_book_Odisseja;;
+	 	*);;
+
+locale_rodnoj_argosa_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Аргося ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnyj_kraj_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Западный Край ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_bykov_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Красных Быков ]
+		(* <- lang_ru;; *);;
+
+locale_naihorosij_byk_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Наихороший Бык ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_itaki_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Итаки ]
+		(* <- lang_ru;; *);;
+
+locale_svatoj_ilion_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Святой Илион ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_sparta_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Спарта ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_sparta_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Спарта ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_pilos__book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Город Пилось ]
+		(* <- lang_ru;; *);;
+
+locale_pallada_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Паллада ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_volsebnyj_kraj_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Волшебный Край ]
+		(* <- lang_ru;; *);;
+
+locale_pilos_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Пилос ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_lejte_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Лейте ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_zevsom_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Зевсом ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_odisseevo_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Одиссеево ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_itaki_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Итаки ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_argosa_book_Odisseja
+<- locale;
+=> nrel_main_idtf:
+	[ Аргоса ]
+		(* <- lang_ru;; *);;
+

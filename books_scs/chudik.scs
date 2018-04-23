@@ -1,0 +1,64 @@
+book_Chudik
+<- book;
+=> nrel_author;
+	author_Shukshin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чудик]
+		(* <- lang_ru;; *);;
+
+book_Chudik
+=> nrel_characters:
+	.book_Chudik_characters
+		(*
+			-> char_vasilij_book_Chudik;;
+			-> char_knazev_book_Chudik;;
+			-> char_sof_a_ivanovna_book_Chudik;;
+			-> char_dmitrij_book_Chudik;;
+			-> char_egoryc_knazev_book_Chudik;;
+	 	*);;
+
+char_vasilij_book_Chudik
+<- char;
+=> nrel_main_idtf:
+	[ Василий ]
+		(* <- lang_ru;; *);;
+
+char_knazev_book_Chudik
+<- char;
+=> nrel_main_idtf:
+	[ Князев ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_ivanovna_book_Chudik
+<- char;
+=> nrel_main_idtf:
+	[ Софья Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_book_Chudik
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий ]
+		(* <- lang_ru;; *);;
+
+char_egoryc_knazev_book_Chudik
+<- char;
+=> nrel_main_idtf:
+	[ Егорыч Князев ]
+		(* <- lang_ru;; *);;
+
+book_Chudik
+=> nrel_locales:
+	.book_Chudik_locales
+		(*
+			-> locale_ural_book_Chudik;;
+	 	*);;
+
+locale_ural_book_Chudik
+<- locale;
+=> nrel_main_idtf:
+	[ Урал ]
+		(* <- lang_ru;; *);;
+

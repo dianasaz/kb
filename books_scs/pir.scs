@@ -1,0 +1,78 @@
+book_Pir
+<- book;
+=> nrel_author;
+	author_Platon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пир]
+		(* <- lang_ru;; *);;
+
+book_Pir
+=> nrel_characters:
+	.book_Pir_characters
+		(*
+			-> char_agafon_book_Pir;;
+			-> char_sokrat_book_Pir;;
+			-> char_apollodora_book_Pir;;
+			-> char_alkiviad_book_Pir;;
+			-> char_ahilla_book_Pir;;
+			-> char_gadania_book_Pir;;
+	 	*);;
+
+char_agafon_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Агафон ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_apollodora_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Аполлодора ]
+		(* <- lang_ru;; *);;
+
+char_alkiviad_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Алкивиад ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_gadania_book_Pir
+<- char;
+=> nrel_main_idtf:
+	[ Гадания ]
+		(* <- lang_ru;; *);;
+
+book_Pir
+=> nrel_locales:
+	.book_Pir_locales
+		(*
+			-> locale_to_book_Pir;;
+			-> locale_diotim_book_Pir;;
+	 	*);;
+
+locale_to_book_Pir
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_diotim_book_Pir
+<- locale;
+=> nrel_main_idtf:
+	[ Диотим ]
+		(* <- lang_ru;; *);;
+

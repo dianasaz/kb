@@ -1,0 +1,308 @@
+book_Goluboy_Period_De_Dome_Smita
+<- book;
+=> nrel_author;
+	author_Selindzher;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Голубой Период Де Домье-Смита]
+		(* <- lang_ru;; *);;
+
+book_Goluboy_Period_De_Dome_Smita
+=> nrel_characters:
+	.book_Goluboy_Period_De_Dome_Smita_characters
+		(*
+			-> char_iosif_arimafejskij_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_jan_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_smit_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_maria_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_frejberg_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_banting_duglas_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_iosif_svatoj_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_magdalina_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_luter_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_uindzora_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_R_govard_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_onore_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_irma_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_antonello_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_sardjenta_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_bobbi_agadjanan_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_martin_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_uolt_disnej_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_zimmerman_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_pikasso_book_Goluboy_Period_De_Dome_Smita;;
+			-> char_rembrandt_book_Goluboy_Period_De_Dome_Smita;;
+	 	*);;
+
+char_iosif_arimafejskij_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф Аримафейский ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_frejberg_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Фрейберг ]
+		(* <- lang_ru;; *);;
+
+char_banting_duglas_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Бантинг Дуглас ]
+		(* <- lang_ru;; *);;
+
+char_iosif_svatoj_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф Святой ]
+		(* <- lang_ru;; *);;
+
+char_magdalina_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Магдалина ]
+		(* <- lang_ru;; *);;
+
+char_luter_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Лютер ]
+		(* <- lang_ru;; *);;
+
+char_uindzora_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Уиндзора ]
+		(* <- lang_ru;; *);;
+
+char_R_govard_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Р Говард ]
+		(* <- lang_ru;; *);;
+
+char_onore_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Оноре ]
+		(* <- lang_ru;; *);;
+
+char_irma_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Ирма ]
+		(* <- lang_ru;; *);;
+
+char_antonello_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Антонелло ]
+		(* <- lang_ru;; *);;
+
+char_sardjenta_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Сарджента ]
+		(* <- lang_ru;; *);;
+
+char_bobbi_agadjanan_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Бобби Агаджанян ]
+		(* <- lang_ru;; *);;
+
+char_martin_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Мартин ]
+		(* <- lang_ru;; *);;
+
+char_uolt_disnej_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Уолт Дисней ]
+		(* <- lang_ru;; *);;
+
+char_zimmerman_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Циммерман ]
+		(* <- lang_ru;; *);;
+
+char_pikasso_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Пикассо ]
+		(* <- lang_ru;; *);;
+
+char_rembrandt_book_Goluboy_Period_De_Dome_Smita
+<- char;
+=> nrel_main_idtf:
+	[ Рембрандт ]
+		(* <- lang_ru;; *);;
+
+book_Goluboy_Period_De_Dome_Smita
+=> nrel_locales:
+	.book_Goluboy_Period_De_Dome_Smita_locales
+		(*
+			-> locale_azov_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_franzia_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_kotoryj_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_velikoe_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_kuda_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_verdenskij_rajon_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_ridjfild_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_monreal__book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_jork_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_messina_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_kanada_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_toronto_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_parij_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_to_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_stat_ontario_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_ajlend_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_tizan_book_Goluboy_Period_De_Dome_Smita;;
+			-> locale_tokio_book_Goluboy_Period_De_Dome_Smita;;
+	 	*);;
+
+locale_azov_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Азов ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_verdenskij_rajon_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Верденский Район ]
+		(* <- lang_ru;; *);;
+
+locale_ridjfild_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Риджфилд ]
+		(* <- lang_ru;; *);;
+
+locale_monreal__book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Монреаль ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_messina_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Мессина ]
+		(* <- lang_ru;; *);;
+
+locale_kanada_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Канада ]
+		(* <- lang_ru;; *);;
+
+locale_toronto_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Торонто ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_stat_ontario_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Онтарио ]
+		(* <- lang_ru;; *);;
+
+locale_ajlend_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Айленд ]
+		(* <- lang_ru;; *);;
+
+locale_tizan_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Тицян ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Goluboy_Period_De_Dome_Smita
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+book_Goluboy_Period_De_Dome_Smita
+=> nrel_dates:
+	.book_Goluboy_Period_De_Dome_Smita_dates
+		(*
+			-> date_1939_book_Goluboy_Period_De_Dome_Smita;;
+	 	*);;
+
+date_1939_book_Goluboy_Period_De_Dome_Smita
+<- date;
+=> nrel_main_idtf:
+	[ 1939 ]
+		(* <- lang_ru;; *);;
+

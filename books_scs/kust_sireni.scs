@@ -1,0 +1,30 @@
+book_Kust_Sireni
+<- book;
+=> nrel_author;
+	author_Kuprin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Куст Сирени]
+		(* <- lang_ru;; *);;
+
+book_Kust_Sireni
+=> nrel_characters:
+	.book_Kust_Sireni_characters
+		(*
+			-> char_verocka_book_Kust_Sireni;;
+			-> char_almazov_book_Kust_Sireni;;
+	 	*);;
+
+char_verocka_book_Kust_Sireni
+<- char;
+=> nrel_main_idtf:
+	[ Верочка ]
+		(* <- lang_ru;; *);;
+
+char_almazov_book_Kust_Sireni
+<- char;
+=> nrel_main_idtf:
+	[ Алмазов ]
+		(* <- lang_ru;; *);;
+

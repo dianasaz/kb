@@ -1,0 +1,58 @@
+book_Iskusstvo_Voyny
+<- book;
+=> nrel_author;
+	author_Sun_Zi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Искусство Войны]
+		(* <- lang_ru;; *);;
+
+book_Iskusstvo_Voyny
+=> nrel_locales:
+	.book_Iskusstvo_Voyny_locales
+		(*
+			-> locale_velikoe_book_Iskusstvo_Voyny;;
+			-> locale_kuda_book_Iskusstvo_Voyny;;
+			-> locale_rirovan_book_Iskusstvo_Voyny;;
+			-> locale_to_book_Iskusstvo_Voyny;;
+			-> locale_nirovan_book_Iskusstvo_Voyny;;
+			-> locale_mestopo_book_Iskusstvo_Voyny;;
+	 	*);;
+
+locale_velikoe_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_rirovan_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ Рирован ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nirovan_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ Нирован ]
+		(* <- lang_ru;; *);;
+
+locale_mestopo_book_Iskusstvo_Voyny
+<- locale;
+=> nrel_main_idtf:
+	[ Местопо ]
+		(* <- lang_ru;; *);;
+

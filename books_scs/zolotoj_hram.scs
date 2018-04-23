@@ -1,0 +1,245 @@
+book_Zolotoj_Hram
+<- book;
+=> nrel_author;
+	author_Misima;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Золотой Храм]
+		(* <- lang_ru;; *);;
+
+book_Zolotoj_Hram
+=> nrel_characters:
+	.book_Zolotoj_Hram_characters
+		(*
+			-> char_zolotoj_book_Zolotoj_Hram;;
+			-> char_uikoe_book_Zolotoj_Hram;;
+			-> char_prekrasnoe_book_Zolotoj_Hram;;
+			-> char_tendza_book_Zolotoj_Hram;;
+			-> char_dosen_book_Zolotoj_Hram;;
+			-> char_nariu_book_Zolotoj_Hram;;
+			-> char_hram_book_Zolotoj_Hram;;
+			-> char_versina_book_Zolotoj_Hram;;
+			-> char_otana_book_Zolotoj_Hram;;
+			-> char_ura_book_Zolotoj_Hram;;
+	 	*);;
+
+char_zolotoj_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Золотой ]
+		(* <- lang_ru;; *);;
+
+char_uikoe_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Уикое ]
+		(* <- lang_ru;; *);;
+
+char_prekrasnoe_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Прекрасное ]
+		(* <- lang_ru;; *);;
+
+char_tendza_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Тэндзя ]
+		(* <- lang_ru;; *);;
+
+char_dosen_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Досэн ]
+		(* <- lang_ru;; *);;
+
+char_nariu_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Нариу ]
+		(* <- lang_ru;; *);;
+
+char_hram_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Храм ]
+		(* <- lang_ru;; *);;
+
+char_versina_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Вершина ]
+		(* <- lang_ru;; *);;
+
+char_otana_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Отаня ]
+		(* <- lang_ru;; *);;
+
+char_ura_book_Zolotoj_Hram
+<- char;
+=> nrel_main_idtf:
+	[ Юра ]
+		(* <- lang_ru;; *);;
+
+book_Zolotoj_Hram
+=> nrel_locales:
+	.book_Zolotoj_Hram_locales
+		(*
+			-> locale_zloj_cara_book_Zolotoj_Hram;;
+			-> locale_kongo_book_Zolotoj_Hram;;
+			-> locale_otana_book_Zolotoj_Hram;;
+			-> locale_kasivaga_book_Zolotoj_Hram;;
+			-> locale_tateisao_book_Zolotoj_Hram;;
+			-> locale_zapad_book_Zolotoj_Hram;;
+			-> locale_velikoe_book_Zolotoj_Hram;;
+			-> locale_kuda_book_Zolotoj_Hram;;
+			-> locale_aponia_book_Zolotoj_Hram;;
+			-> locale_kioto_book_Zolotoj_Hram;;
+			-> locale_to_book_Zolotoj_Hram;;
+			-> locale_ura_book_Zolotoj_Hram;;
+			-> locale_tokio_book_Zolotoj_Hram;;
+			-> locale_midzoguti_book_Zolotoj_Hram;;
+			-> locale_nea_book_Zolotoj_Hram;;
+			-> locale_soversennyj_midzoguti_book_Zolotoj_Hram;;
+	 	*);;
+
+locale_zloj_cara_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Злой Чара ]
+		(* <- lang_ru;; *);;
+
+locale_kongo_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Конго ]
+		(* <- lang_ru;; *);;
+
+locale_otana_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Отаня ]
+		(* <- lang_ru;; *);;
+
+locale_kasivaga_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Касивага ]
+		(* <- lang_ru;; *);;
+
+locale_tateisao_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Татэисао ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_kioto_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ura_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Юра ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_midzoguti_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Мидзогути ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_soversennyj_midzoguti_book_Zolotoj_Hram
+<- locale;
+=> nrel_main_idtf:
+	[ Совершенный Мидзогути ]
+		(* <- lang_ru;; *);;
+
+book_Zolotoj_Hram
+=> nrel_dates:
+	.book_Zolotoj_Hram_dates
+		(*
+			-> date_1950_3_book_Zolotoj_Hram;;
+			-> date_7_1_book_Zolotoj_Hram;;
+			-> date_6_30_book_Zolotoj_Hram;;
+			-> date_6_29_book_Zolotoj_Hram;;
+			-> date_11_9_book_Zolotoj_Hram;;
+	 	*);;
+
+date_1950_3_book_Zolotoj_Hram
+<- date;
+=> nrel_main_idtf:
+	[ 1950 3 ]
+		(* <- lang_ru;; *);;
+
+date_7_1_book_Zolotoj_Hram
+<- date;
+=> nrel_main_idtf:
+	[ 7 1 ]
+		(* <- lang_ru;; *);;
+
+date_6_30_book_Zolotoj_Hram
+<- date;
+=> nrel_main_idtf:
+	[ 6 30 ]
+		(* <- lang_ru;; *);;
+
+date_6_29_book_Zolotoj_Hram
+<- date;
+=> nrel_main_idtf:
+	[ 6 29 ]
+		(* <- lang_ru;; *);;
+
+date_11_9_book_Zolotoj_Hram
+<- date;
+=> nrel_main_idtf:
+	[ 11 9 ]
+		(* <- lang_ru;; *);;
+

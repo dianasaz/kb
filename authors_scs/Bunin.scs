@@ -1,0 +1,16 @@
+author_Bunin
+<- person;
+=> nrel_main_idtf:
+	[Иван Бунин]
+		(* <- lang_ru;; *);;
+
+author_Bunin
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Bunin.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,16 @@
+author_Makkalou
+<- person;
+=> nrel_main_idtf:
+	[Колин Маккалоу]
+		(* <- lang_ru;; *);;
+
+author_Makkalou
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Makkalou.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

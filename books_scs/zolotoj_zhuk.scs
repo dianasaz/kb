@@ -1,0 +1,92 @@
+book_Zolotoj_Zhuk
+<- book;
+=> nrel_author;
+	author_Po;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Золотой Жук]
+		(* <- lang_ru;; *);;
+
+book_Zolotoj_Zhuk
+=> nrel_characters:
+	.book_Zolotoj_Zhuk_characters
+		(*
+			-> char_uil_am_legran_book_Zolotoj_Zhuk;;
+			-> char_uil_am_book_Zolotoj_Zhuk;;
+	 	*);;
+
+char_uil_am_legran_book_Zolotoj_Zhuk
+<- char;
+=> nrel_main_idtf:
+	[ Уильям Легран ]
+		(* <- lang_ru;; *);;
+
+char_uil_am_book_Zolotoj_Zhuk
+<- char;
+=> nrel_main_idtf:
+	[ Уильям ]
+		(* <- lang_ru;; *);;
+
+book_Zolotoj_Zhuk
+=> nrel_locales:
+	.book_Zolotoj_Zhuk_locales
+		(*
+			-> locale_kuda_book_Zolotoj_Zhuk;;
+			-> locale_n_ufaundlend_book_Zolotoj_Zhuk;;
+			-> locale_novyj_orlean_book_Zolotoj_Zhuk;;
+			-> locale_upiter_book_Zolotoj_Zhuk;;
+			-> locale_eta_nahodka_book_Zolotoj_Zhuk;;
+			-> locale_vostok_book_Zolotoj_Zhuk;;
+			-> locale_gromadnyj_n_ufaundlend_book_Zolotoj_Zhuk;;
+			-> locale_kos_book_Zolotoj_Zhuk;;
+	 	*);;
+
+locale_kuda_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_n_ufaundlend_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Ньюфаундленд ]
+		(* <- lang_ru;; *);;
+
+locale_novyj_orlean_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Новый Орлеан ]
+		(* <- lang_ru;; *);;
+
+locale_upiter_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_eta_nahodka_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Эта Находка ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_gromadnyj_n_ufaundlend_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Громадный Ньюфаундленд ]
+		(* <- lang_ru;; *);;
+
+locale_kos_book_Zolotoj_Zhuk
+<- locale;
+=> nrel_main_idtf:
+	[ Кос ]
+		(* <- lang_ru;; *);;
+

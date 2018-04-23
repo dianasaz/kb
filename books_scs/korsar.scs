@@ -1,0 +1,141 @@
+book_Korsar
+<- book;
+=> nrel_author;
+	author_Bajron;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Корсар]
+		(* <- lang_ru;; *);;
+
+book_Korsar
+=> nrel_characters:
+	.book_Korsar_characters
+		(*
+			-> char_cajl_d_book_Korsar;;
+			-> char_tomas_mur_book_Korsar;;
+			-> char_gul_nar_book_Korsar;;
+			-> char_afina_book_Korsar;;
+			-> char_bajron_book_Korsar;;
+			-> char_konrad_book_Korsar;;
+			-> char_garol_d_book_Korsar;;
+	 	*);;
+
+char_cajl_d_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Чайльд ]
+		(* <- lang_ru;; *);;
+
+char_tomas_mur_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Томас Мур ]
+		(* <- lang_ru;; *);;
+
+char_gul_nar_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Гюльнар ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_bajron_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Байрон ]
+		(* <- lang_ru;; *);;
+
+char_konrad_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Конрад ]
+		(* <- lang_ru;; *);;
+
+char_garol_d_book_Korsar
+<- char;
+=> nrel_main_idtf:
+	[ Гарольд ]
+		(* <- lang_ru;; *);;
+
+book_Korsar
+=> nrel_locales:
+	.book_Korsar_locales
+		(*
+			-> locale_mura_book_Korsar;;
+			-> locale_ierusalim_book_Korsar;;
+			-> locale_portu_book_Korsar;;
+			-> locale_tirana_book_Korsar;;
+			-> locale_peru_book_Korsar;;
+			-> locale_oko_book_Korsar;;
+			-> locale_sredizemnomor_e_book_Korsar;;
+			-> locale_afina_book_Korsar;;
+			-> locale_medoru_book_Korsar;;
+			-> locale_grezia_book_Korsar;;
+	 	*);;
+
+locale_mura_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Мура ]
+		(* <- lang_ru;; *);;
+
+locale_ierusalim_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_portu_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_peru_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Перу ]
+		(* <- lang_ru;; *);;
+
+locale_oko_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Око ]
+		(* <- lang_ru;; *);;
+
+locale_sredizemnomor_e_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Средиземноморье ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_medoru_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Медору ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Korsar
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

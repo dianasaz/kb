@@ -1,0 +1,112 @@
+book_Brand
+<- book;
+=> nrel_author;
+	author_Ibsen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Бранд]
+		(* <- lang_ru;; *);;
+
+book_Brand
+=> nrel_characters:
+	.book_Brand_characters
+		(*
+			-> char_gerd_book_Brand;;
+			-> char_agnes_book_Brand;;
+			-> char_ibsen_book_Brand;;
+			-> char_al_f_book_Brand;;
+			-> char_brand_book_Brand;;
+	 	*);;
+
+char_gerd_book_Brand
+<- char;
+=> nrel_main_idtf:
+	[ Герд ]
+		(* <- lang_ru;; *);;
+
+char_agnes_book_Brand
+<- char;
+=> nrel_main_idtf:
+	[ Агнес ]
+		(* <- lang_ru;; *);;
+
+char_ibsen_book_Brand
+<- char;
+=> nrel_main_idtf:
+	[ Ибсен ]
+		(* <- lang_ru;; *);;
+
+char_al_f_book_Brand
+<- char;
+=> nrel_main_idtf:
+	[ Альф ]
+		(* <- lang_ru;; *);;
+
+char_brand_book_Brand
+<- char;
+=> nrel_main_idtf:
+	[ Бранд ]
+		(* <- lang_ru;; *);;
+
+book_Brand
+=> nrel_locales:
+	.book_Brand_locales
+		(*
+			-> locale_prussia_book_Brand;;
+			-> locale_zapad_book_Brand;;
+			-> locale_norvegia_book_Brand;;
+			-> locale_ejnara_book_Brand;;
+			-> locale_to_book_Brand;;
+			-> locale_datsko_book_Brand;;
+	 	*);;
+
+locale_prussia_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_ejnara_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ Эйнара ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_datsko_book_Brand
+<- locale;
+=> nrel_main_idtf:
+	[ Датско ]
+		(* <- lang_ru;; *);;
+
+book_Brand
+=> nrel_dates:
+	.book_Brand_dates
+		(*
+			-> date_1864_book_Brand;;
+	 	*);;
+
+date_1864_book_Brand
+<- date;
+=> nrel_main_idtf:
+	[ 1864 ]
+		(* <- lang_ru;; *);;
+

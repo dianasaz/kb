@@ -1,0 +1,16 @@
+author_Grossman
+<- person;
+=> nrel_main_idtf:
+	[Василий Гроссман]
+		(* <- lang_ru;; *);;
+
+author_Grossman
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Grossman.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

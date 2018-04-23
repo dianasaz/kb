@@ -1,0 +1,50 @@
+book_Dzhamilja
+<- book;
+=> nrel_author;
+	author_Ajtmatov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Джамиля]
+		(* <- lang_ru;; *);;
+
+book_Dzhamilja
+=> nrel_characters:
+	.book_Dzhamilja_characters
+		(*
+			-> char_daniar_book_Dzhamilja;;
+			-> char_sadyk_book_Dzhamilja;;
+			-> char_djamil__book_Dzhamilja;;
+	 	*);;
+
+char_daniar_book_Dzhamilja
+<- char;
+=> nrel_main_idtf:
+	[ Данияр ]
+		(* <- lang_ru;; *);;
+
+char_sadyk_book_Dzhamilja
+<- char;
+=> nrel_main_idtf:
+	[ Садык ]
+		(* <- lang_ru;; *);;
+
+char_djamil__book_Dzhamilja
+<- char;
+=> nrel_main_idtf:
+	[ Джамиль ]
+		(* <- lang_ru;; *);;
+
+book_Dzhamilja
+=> nrel_locales:
+	.book_Dzhamilja_locales
+		(*
+			-> locale_djamaltaj_book_Dzhamilja;;
+	 	*);;
+
+locale_djamaltaj_book_Dzhamilja
+<- locale;
+=> nrel_main_idtf:
+	[ Джамалтай ]
+		(* <- lang_ru;; *);;
+

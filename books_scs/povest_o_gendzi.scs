@@ -1,0 +1,64 @@
+book_Povest_O_Gendzi
+<- book;
+=> nrel_author;
+	author_Murasaki;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Повесть О Гэндзи]
+		(* <- lang_ru;; *);;
+
+book_Povest_O_Gendzi
+=> nrel_characters:
+	.book_Povest_O_Gendzi_characters
+		(*
+			-> char_ukifune_book_Povest_O_Gendzi;;
+	 	*);;
+
+char_ukifune_book_Povest_O_Gendzi
+<- char;
+=> nrel_main_idtf:
+	[ Укифунэ ]
+		(* <- lang_ru;; *);;
+
+book_Povest_O_Gendzi
+=> nrel_locales:
+	.book_Povest_O_Gendzi_locales
+		(*
+			-> locale_gendzi_akasi_book_Povest_O_Gendzi;;
+			-> locale_kasivaga_book_Povest_O_Gendzi;;
+			-> locale_akasi_book_Povest_O_Gendzi;;
+			-> locale_opal_book_Povest_O_Gendzi;;
+			-> locale_murasak_book_Povest_O_Gendzi;;
+	 	*);;
+
+locale_gendzi_akasi_book_Povest_O_Gendzi
+<- locale;
+=> nrel_main_idtf:
+	[ Гэндзи Акаси ]
+		(* <- lang_ru;; *);;
+
+locale_kasivaga_book_Povest_O_Gendzi
+<- locale;
+=> nrel_main_idtf:
+	[ Касивага ]
+		(* <- lang_ru;; *);;
+
+locale_akasi_book_Povest_O_Gendzi
+<- locale;
+=> nrel_main_idtf:
+	[ Акаси ]
+		(* <- lang_ru;; *);;
+
+locale_opal_book_Povest_O_Gendzi
+<- locale;
+=> nrel_main_idtf:
+	[ Опал ]
+		(* <- lang_ru;; *);;
+
+locale_murasak_book_Povest_O_Gendzi
+<- locale;
+=> nrel_main_idtf:
+	[ Мурасак ]
+		(* <- lang_ru;; *);;
+

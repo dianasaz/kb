@@ -1,0 +1,259 @@
+book_Kys
+<- book;
+=> nrel_author;
+	author_Tolstaia;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кысь]
+		(* <- lang_ru;; *);;
+
+book_Kys
+=> nrel_characters:
+	.book_Kys_characters
+		(*
+			-> char_ukaz_book_Kys;;
+			-> char_kysa_book_Kys;;
+			-> char_murza_book_Kys;;
+			-> char_kysivsij_book_Kys;;
+			-> char_olen_kin_book_Kys;;
+			-> char_fedor_book_Kys;;
+			-> char_kuz_mic_fedor_book_Kys;;
+			-> char_olen_ka_book_Kys;;
+			-> char_bena_book_Kys;;
+			-> char_benedikt_book_Kys;;
+			-> char_bena_book_Kys;;
+			-> char_sani_krasnyh_book_Kys;;
+			-> char_nikita_ivanyc_book_Kys;;
+			-> char_puskin_book_Kys;;
+	 	*);;
+
+char_ukaz_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Указ ]
+		(* <- lang_ru;; *);;
+
+char_kysa_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Кыся ]
+		(* <- lang_ru;; *);;
+
+char_murza_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Мурза ]
+		(* <- lang_ru;; *);;
+
+char_kysivsij_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Кысивший ]
+		(* <- lang_ru;; *);;
+
+char_olen_kin_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Оленькин ]
+		(* <- lang_ru;; *);;
+
+char_fedor_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор ]
+		(* <- lang_ru;; *);;
+
+char_kuz_mic_fedor_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Кузьмич Фёдор ]
+		(* <- lang_ru;; *);;
+
+char_olen_ka_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Оленька ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Беня ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Бена ]
+		(* <- lang_ru;; *);;
+
+char_sani_krasnyh_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Сани Красных ]
+		(* <- lang_ru;; *);;
+
+char_nikita_ivanyc_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Никита Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_puskin_book_Kys
+<- char;
+=> nrel_main_idtf:
+	[ Пушкин ]
+		(* <- lang_ru;; *);;
+
+book_Kys
+=> nrel_locales:
+	.book_Kys_locales
+		(*
+			-> locale_kuz_micsk_book_Kys;;
+			-> locale_krasnyh_book_Kys;;
+			-> locale_beni_book_Kys;;
+			-> locale_neca_book_Kys;;
+			-> locale_felosofia_book_Kys;;
+			-> locale_tirana_book_Kys;;
+			-> locale_puskin_book_Kys;;
+			-> locale_moskva_book_Kys;;
+			-> locale_rab_book_Kys;;
+			-> locale_hrus__book_Kys;;
+			-> locale_olen_ka_book_Kys;;
+			-> locale_krasnyj_book_Kys;;
+			-> locale_to_book_Kys;;
+			-> locale_kys_a_book_Kys;;
+			-> locale_krasnoe_book_Kys;;
+			-> locale_cipollinoe_book_Kys;;
+			-> locale_oneversetezkoe_book_Kys;;
+	 	*);;
+
+locale_kuz_micsk_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Кузьмичск ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_beni_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Бени ]
+		(* <- lang_ru;; *);;
+
+locale_neca_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Неча ]
+		(* <- lang_ru;; *);;
+
+locale_felosofia_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Фелософия ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_puskin_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Пушкин ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_rab_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Ряб ]
+		(* <- lang_ru;; *);;
+
+locale_hrus__book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Хрусь ]
+		(* <- lang_ru;; *);;
+
+locale_olen_ka_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Оленька ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kys_a_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Кысья ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_cipollinoe_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Чиполлиное ]
+		(* <- lang_ru;; *);;
+
+locale_oneversetezkoe_book_Kys
+<- locale;
+=> nrel_main_idtf:
+	[ Оневерсетецкое ]
+		(* <- lang_ru;; *);;
+
+book_Kys
+=> nrel_dates:
+	.book_Kys_dates
+		(*
+			-> date_3_8_book_Kys;;
+			-> date_3_1_book_Kys;;
+	 	*);;
+
+date_3_8_book_Kys
+<- date;
+=> nrel_main_idtf:
+	[ 3 8 ]
+		(* <- lang_ru;; *);;
+
+date_3_1_book_Kys
+<- date;
+=> nrel_main_idtf:
+	[ 3 1 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,113 @@
+book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- book;
+=> nrel_author;
+	author_Defo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дальнейшие Приключения Робинзона Крузо]
+		(* <- lang_ru;; *);;
+
+book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+=> nrel_locales:
+	.book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo_locales
+		(*
+			-> locale_suprujeskij_para_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_sibir__book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_gaaga_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_gamburg_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_tobol_sk_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_madagaskar_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_evropa_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_london_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_kitaj_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_anglia_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_arhangel_sk_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+	 	*);;
+
+locale_suprujeskij_para_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Супружеский Пара ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_gaaga_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Гаага ]
+		(* <- lang_ru;; *);;
+
+locale_gamburg_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Гамбург ]
+		(* <- lang_ru;; *);;
+
+locale_tobol_sk_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Тобольск ]
+		(* <- lang_ru;; *);;
+
+locale_madagaskar_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Мадагаскар ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_arhangel_sk_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Архангельск ]
+		(* <- lang_ru;; *);;
+
+book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+=> nrel_dates:
+	.book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo_dates
+		(*
+			-> date_1694_1_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1705_1_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo;;
+	 	*);;
+
+date_1694_1_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1694 1 ]
+		(* <- lang_ru;; *);;
+
+date_1705_1_book_Dalnejshie_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1705 1 ]
+		(* <- lang_ru;; *);;
+

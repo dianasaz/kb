@@ -1,0 +1,210 @@
+book_Imja_Rozy
+<- book;
+=> nrel_author;
+	author_Eko;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Имя Розы]
+		(* <- lang_ru;; *);;
+
+book_Imja_Rozy
+=> nrel_characters:
+	.book_Imja_Rozy_characters
+		(*
+			-> char_ludovik_book_Imja_Rozy;;
+			-> char_rodjer_book_Imja_Rozy;;
+			-> char_bernard_book_Imja_Rozy;;
+			-> char_adson_book_Imja_Rozy;;
+			-> char_adel_ma_book_Imja_Rozy;;
+			-> char_berengar_book_Imja_Rozy;;
+			-> char_ioann_book_Imja_Rozy;;
+			-> char_malahia_book_Imja_Rozy;;
+			-> char_aristotel__book_Imja_Rozy;;
+			-> char_uil_am_book_Imja_Rozy;;
+			-> char_vil_gel_m_book_Imja_Rozy;;
+			-> char_malahij_book_Imja_Rozy;;
+			-> char_vil_gel_m_baskervil_skij_book_Imja_Rozy;;
+	 	*);;
+
+char_ludovik_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Людовик ]
+		(* <- lang_ru;; *);;
+
+char_rodjer_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Роджер ]
+		(* <- lang_ru;; *);;
+
+char_bernard_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Бернард ]
+		(* <- lang_ru;; *);;
+
+char_adson_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Адсон ]
+		(* <- lang_ru;; *);;
+
+char_adel_ma_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Адельма ]
+		(* <- lang_ru;; *);;
+
+char_berengar_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Беренгар ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_malahia_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Малахия ]
+		(* <- lang_ru;; *);;
+
+char_aristotel__book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Аристотель ]
+		(* <- lang_ru;; *);;
+
+char_uil_am_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Уильям ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_malahij_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Малахий ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_baskervil_skij_book_Imja_Rozy
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм Баскервильский ]
+		(* <- lang_ru;; *);;
+
+book_Imja_Rozy
+=> nrel_locales:
+	.book_Imja_Rozy_locales
+		(*
+			-> locale_severin_book_Imja_Rozy;;
+			-> locale_avin_on_book_Imja_Rozy;;
+			-> locale_kotoryj_book_Imja_Rozy;;
+			-> locale_italia_book_Imja_Rozy;;
+			-> locale_okkama_book_Imja_Rozy;;
+			-> locale_berengar_book_Imja_Rozy;;
+			-> locale_evropa_book_Imja_Rozy;;
+			-> locale_to_book_Imja_Rozy;;
+			-> locale_afrika_book_Imja_Rozy;;
+			-> locale_vsa_evropa_book_Imja_Rozy;;
+			-> locale_praga_book_Imja_Rozy;;
+	 	*);;
+
+locale_severin_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Северин ]
+		(* <- lang_ru;; *);;
+
+locale_avin_on_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Авиньон ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_okkama_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Оккама ]
+		(* <- lang_ru;; *);;
+
+locale_berengar_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Беренгар ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_evropa_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Европа ]
+		(* <- lang_ru;; *);;
+
+locale_praga_book_Imja_Rozy
+<- locale;
+=> nrel_main_idtf:
+	[ Прага ]
+		(* <- lang_ru;; *);;
+
+book_Imja_Rozy
+=> nrel_dates:
+	.book_Imja_Rozy_dates
+		(*
+			-> date_1968_book_Imja_Rozy;;
+			-> date_1327_book_Imja_Rozy;;
+	 	*);;
+
+date_1968_book_Imja_Rozy
+<- date;
+=> nrel_main_idtf:
+	[ 1968 ]
+		(* <- lang_ru;; *);;
+
+date_1327_book_Imja_Rozy
+<- date;
+=> nrel_main_idtf:
+	[ 1327 ]
+		(* <- lang_ru;; *);;
+

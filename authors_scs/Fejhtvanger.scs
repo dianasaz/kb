@@ -1,0 +1,16 @@
+author_Fejhtvanger
+<- person;
+=> nrel_main_idtf:
+	[Лион Фейхтвангер]
+		(* <- lang_ru;; *);;
+
+author_Fejhtvanger
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Fejhtvanger.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

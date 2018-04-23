@@ -1,0 +1,71 @@
+book_Obida
+<- book;
+=> nrel_author;
+	author_Shukshin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Обида]
+		(* <- lang_ru;; *);;
+
+book_Obida
+=> nrel_characters:
+	.book_Obida_characters
+		(*
+			-> char_saska_ermolaev_book_Obida;;
+			-> char_sasa_book_Obida;;
+			-> char_saska_book_Obida;;
+			-> char_igor__book_Obida;;
+			-> char_masa_book_Obida;;
+	 	*);;
+
+char_saska_ermolaev_book_Obida
+<- char;
+=> nrel_main_idtf:
+	[ Сашка Ермолаев ]
+		(* <- lang_ru;; *);;
+
+char_sasa_book_Obida
+<- char;
+=> nrel_main_idtf:
+	[ Саша ]
+		(* <- lang_ru;; *);;
+
+char_saska_book_Obida
+<- char;
+=> nrel_main_idtf:
+	[ Сашка ]
+		(* <- lang_ru;; *);;
+
+char_igor__book_Obida
+<- char;
+=> nrel_main_idtf:
+	[ Игорь ]
+		(* <- lang_ru;; *);;
+
+char_masa_book_Obida
+<- char;
+=> nrel_main_idtf:
+	[ Маша ]
+		(* <- lang_ru;; *);;
+
+book_Obida
+=> nrel_locales:
+	.book_Obida_locales
+		(*
+			-> locale_kuda_book_Obida;;
+			-> locale_to_book_Obida;;
+	 	*);;
+
+locale_kuda_book_Obida
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Obida
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

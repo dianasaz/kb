@@ -1,0 +1,183 @@
+book_Sto_Let_Odinochestva
+<- book;
+=> nrel_author;
+	author_Markes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сто Лет Одиночества]
+		(* <- lang_ru;; *);;
+
+book_Sto_Let_Odinochestva
+=> nrel_characters:
+	.book_Sto_Let_Odinochestva_characters
+		(*
+			-> char_karpio_book_Sto_Let_Odinochestva;;
+			-> char_mel_kiades_book_Sto_Let_Odinochestva;;
+			-> char_prekrasnaa_book_Sto_Let_Odinochestva;;
+			-> char_hose_book_Sto_Let_Odinochestva;;
+			-> char_petra_book_Sto_Let_Odinochestva;;
+			-> char_prudensio_book_Sto_Let_Odinochestva;;
+			-> char_kotes_book_Sto_Let_Odinochestva;;
+			-> char_fernanda_book_Sto_Let_Odinochestva;;
+			-> char_agilaraa_book_Sto_Let_Odinochestva;;
+			-> char_aureliano_book_Sto_Let_Odinochestva;;
+			-> char_ursula_book_Sto_Let_Odinochestva;;
+			-> char_remedios_book_Sto_Let_Odinochestva;;
+	 	*);;
+
+char_karpio_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Карпио ]
+		(* <- lang_ru;; *);;
+
+char_mel_kiades_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Мелькиадес ]
+		(* <- lang_ru;; *);;
+
+char_prekrasnaa_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Прекрасная ]
+		(* <- lang_ru;; *);;
+
+char_hose_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Хосе ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_prudensio_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Пруденсио ]
+		(* <- lang_ru;; *);;
+
+char_kotes_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Котёс ]
+		(* <- lang_ru;; *);;
+
+char_fernanda_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Фернанда ]
+		(* <- lang_ru;; *);;
+
+char_agilaraa_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Агилярая ]
+		(* <- lang_ru;; *);;
+
+char_aureliano_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Аурелиано ]
+		(* <- lang_ru;; *);;
+
+char_ursula_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Урсула ]
+		(* <- lang_ru;; *);;
+
+char_remedios_book_Sto_Let_Odinochestva
+<- char;
+=> nrel_main_idtf:
+	[ Ремедиос ]
+		(* <- lang_ru;; *);;
+
+book_Sto_Let_Odinochestva
+=> nrel_locales:
+	.book_Sto_Let_Odinochestva_locales
+		(*
+			-> locale_p_etro_krespi_book_Sto_Let_Odinochestva;;
+			-> locale_molodaa_para_book_Sto_Let_Odinochestva;;
+			-> locale_fernanda_book_Sto_Let_Odinochestva;;
+			-> locale_aureliano_babilon__book_Sto_Let_Odinochestva;;
+			-> locale_gorodok_book_Sto_Let_Odinochestva;;
+			-> locale_to_book_Sto_Let_Odinochestva;;
+			-> locale_evropa_book_Sto_Let_Odinochestva;;
+			-> locale_provinzial_nyj_gorodok_book_Sto_Let_Odinochestva;;
+			-> locale_mertvyj_gorodok_book_Sto_Let_Odinochestva;;
+			-> locale_katarinoe_book_Sto_Let_Odinochestva;;
+			-> locale_rodnoj_gorodok_book_Sto_Let_Odinochestva;;
+	 	*);;
+
+locale_p_etro_krespi_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Пьетро Креспи ]
+		(* <- lang_ru;; *);;
+
+locale_molodaa_para_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Молодая Пара ]
+		(* <- lang_ru;; *);;
+
+locale_fernanda_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Фернанда ]
+		(* <- lang_ru;; *);;
+
+locale_aureliano_babilon__book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Аурелиано Бабилонь ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_provinzial_nyj_gorodok_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Провинциальный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_mertvyj_gorodok_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Мёртвый Городок ]
+		(* <- lang_ru;; *);;
+
+locale_katarinoe_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Катариное ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_gorodok_book_Sto_Let_Odinochestva
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Городок ]
+		(* <- lang_ru;; *);;
+

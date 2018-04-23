@@ -1,0 +1,71 @@
+book_Natalia_Boiarskaia_Doch
+<- book;
+=> nrel_author;
+	author_Karamzin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Наталья, Боярская Дочь]
+		(* <- lang_ru;; *);;
+
+book_Natalia_Boiarskaia_Doch
+=> nrel_characters:
+	.book_Natalia_Boiarskaia_Doch_characters
+		(*
+			-> char_matvej_book_Natalia_Boiarskaia_Doch;;
+			-> char_natal_a_book_Natalia_Boiarskaia_Doch;;
+			-> char_aleksej_book_Natalia_Boiarskaia_Doch;;
+			-> char_matvej_andreev_book_Natalia_Boiarskaia_Doch;;
+			-> char_matvej_boarin_book_Natalia_Boiarskaia_Doch;;
+	 	*);;
+
+char_matvej_book_Natalia_Boiarskaia_Doch
+<- char;
+=> nrel_main_idtf:
+	[ Матвей ]
+		(* <- lang_ru;; *);;
+
+char_natal_a_book_Natalia_Boiarskaia_Doch
+<- char;
+=> nrel_main_idtf:
+	[ Наталья ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_book_Natalia_Boiarskaia_Doch
+<- char;
+=> nrel_main_idtf:
+	[ Алексей ]
+		(* <- lang_ru;; *);;
+
+char_matvej_andreev_book_Natalia_Boiarskaia_Doch
+<- char;
+=> nrel_main_idtf:
+	[ Матвей Андреев ]
+		(* <- lang_ru;; *);;
+
+char_matvej_boarin_book_Natalia_Boiarskaia_Doch
+<- char;
+=> nrel_main_idtf:
+	[ Матвей Боярин ]
+		(* <- lang_ru;; *);;
+
+book_Natalia_Boiarskaia_Doch
+=> nrel_locales:
+	.book_Natalia_Boiarskaia_Doch_locales
+		(*
+			-> locale_para_book_Natalia_Boiarskaia_Doch;;
+			-> locale_moskva_book_Natalia_Boiarskaia_Doch;;
+	 	*);;
+
+locale_para_book_Natalia_Boiarskaia_Doch
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Natalia_Boiarskaia_Doch
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+

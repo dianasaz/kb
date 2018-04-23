@@ -1,0 +1,23 @@
+book_Kanikuly
+<- book;
+=> nrel_author;
+	author_Bredberi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Каникулы]
+		(* <- lang_ru;; *);;
+
+book_Kanikuly
+=> nrel_locales:
+	.book_Kanikuly_locales
+		(*
+			-> locale_kuda_book_Kanikuly;;
+	 	*);;
+
+locale_kuda_book_Kanikuly
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+

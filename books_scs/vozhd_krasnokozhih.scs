@@ -1,0 +1,85 @@
+book_Vozhd_Krasnokozhih
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вождь Краснокожих]
+		(* <- lang_ru;; *);;
+
+book_Vozhd_Krasnokozhih
+=> nrel_characters:
+	.book_Vozhd_Krasnokozhih_characters
+		(*
+			-> char_bill_book_Vozhd_Krasnokozhih;;
+			-> char_dorsetta_book_Vozhd_Krasnokozhih;;
+			-> char_sem_book_Vozhd_Krasnokozhih;;
+	 	*);;
+
+char_bill_book_Vozhd_Krasnokozhih
+<- char;
+=> nrel_main_idtf:
+	[ Билл ]
+		(* <- lang_ru;; *);;
+
+char_dorsetta_book_Vozhd_Krasnokozhih
+<- char;
+=> nrel_main_idtf:
+	[ Дорсетта ]
+		(* <- lang_ru;; *);;
+
+char_sem_book_Vozhd_Krasnokozhih
+<- char;
+=> nrel_main_idtf:
+	[ Сэм ]
+		(* <- lang_ru;; *);;
+
+book_Vozhd_Krasnokozhih
+=> nrel_locales:
+	.book_Vozhd_Krasnokozhih_locales
+		(*
+			-> locale_stat_alabama_book_Vozhd_Krasnokozhih;;
+			-> locale_driskoll_book_Vozhd_Krasnokozhih;;
+			-> locale_groznyj_book_Vozhd_Krasnokozhih;;
+			-> locale_srednezapadnyj_stat_i_book_Vozhd_Krasnokozhih;;
+			-> locale_malen_kij_gorodok_book_Vozhd_Krasnokozhih;;
+			-> locale_to_book_Vozhd_Krasnokozhih;;
+	 	*);;
+
+locale_stat_alabama_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Алабама ]
+		(* <- lang_ru;; *);;
+
+locale_driskoll_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ Дрисколл ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_srednezapadnyj_stat_i_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ Среднезападный Штат И ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vozhd_Krasnokozhih
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,210 @@
+book_Karateli
+<- book;
+=> nrel_author;
+	author_Adamovich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Каратели]
+		(* <- lang_ru;; *);;
+
+book_Karateli
+=> nrel_characters:
+	.book_Karateli_characters
+		(*
+			-> char_bert_book_Karateli;;
+			-> char_zimmerman_book_Karateli;;
+			-> char_rem_book_Karateli;;
+			-> char_gitler_book_Karateli;;
+			-> char_pol__book_Karateli;;
+			-> char_majdaneke_book_Karateli;;
+			-> char_eva_braun_book_Karateli;;
+			-> char_nizse_book_Karateli;;
+			-> char_dirlevanger_book_Karateli;;
+			-> char_oskar_dirlevanger_book_Karateli;;
+			-> char_stasea_book_Karateli;;
+			-> char_borka_book_Karateli;;
+			-> char_gimmler_book_Karateli;;
+			-> char_ivan_mel_nicenko_book_Karateli;;
+			-> char_mel_nicenko_book_Karateli;;
+			-> char_surovaa_book_Karateli;;
+			-> char_murav_ev_book_Karateli;;
+			-> char_grisa_book_Karateli;;
+	 	*);;
+
+char_bert_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Берт ]
+		(* <- lang_ru;; *);;
+
+char_zimmerman_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Циммерман ]
+		(* <- lang_ru;; *);;
+
+char_rem_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Рем ]
+		(* <- lang_ru;; *);;
+
+char_gitler_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Гитлер ]
+		(* <- lang_ru;; *);;
+
+char_pol__book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Поль ]
+		(* <- lang_ru;; *);;
+
+char_majdaneke_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Майданеке ]
+		(* <- lang_ru;; *);;
+
+char_eva_braun_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Ева Браун ]
+		(* <- lang_ru;; *);;
+
+char_nizse_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Ницше ]
+		(* <- lang_ru;; *);;
+
+char_dirlevanger_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Дирлевангер ]
+		(* <- lang_ru;; *);;
+
+char_oskar_dirlevanger_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Оскар Дирлевангер ]
+		(* <- lang_ru;; *);;
+
+char_stasea_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Стасея ]
+		(* <- lang_ru;; *);;
+
+char_borka_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Борка ]
+		(* <- lang_ru;; *);;
+
+char_gimmler_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Гиммлер ]
+		(* <- lang_ru;; *);;
+
+char_ivan_mel_nicenko_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Иван Мельниченко ]
+		(* <- lang_ru;; *);;
+
+char_mel_nicenko_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Мельниченко ]
+		(* <- lang_ru;; *);;
+
+char_surovaa_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Суровая ]
+		(* <- lang_ru;; *);;
+
+char_murav_ev_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Муравьев ]
+		(* <- lang_ru;; *);;
+
+char_grisa_book_Karateli
+<- char;
+=> nrel_main_idtf:
+	[ Гриша ]
+		(* <- lang_ru;; *);;
+
+book_Karateli
+=> nrel_locales:
+	.book_Karateli_locales
+		(*
+			-> locale_krasnyh_book_Karateli;;
+			-> locale_krasnaa_book_Karateli;;
+			-> locale_kuda_book_Karateli;;
+			-> locale_belorussia_book_Karateli;;
+			-> locale_ukrainskaa_book_Karateli;;
+			-> locale_dobroskok_book_Karateli;;
+			-> locale_berlin_book_Karateli;;
+	 	*);;
+
+locale_krasnyh_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_belorussia_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Белоруссия ]
+		(* <- lang_ru;; *);;
+
+locale_ukrainskaa_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Украинская ]
+		(* <- lang_ru;; *);;
+
+locale_dobroskok_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Доброскок ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Karateli
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+
+book_Karateli
+=> nrel_dates:
+	.book_Karateli_dates
+		(*
+			-> date_1942_book_Karateli;;
+	 	*);;
+
+date_1942_book_Karateli
+<- date;
+=> nrel_main_idtf:
+	[ 1942 ]
+		(* <- lang_ru;; *);;
+

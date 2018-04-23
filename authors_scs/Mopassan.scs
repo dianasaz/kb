@@ -1,0 +1,16 @@
+author_Mopassan
+<- person;
+=> nrel_main_idtf:
+	[Ги Де Мопассан]
+		(* <- lang_ru;; *);;
+
+author_Mopassan
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Mopassan.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

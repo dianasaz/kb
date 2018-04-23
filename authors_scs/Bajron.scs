@@ -1,0 +1,16 @@
+author_Bajron
+<- person;
+=> nrel_main_idtf:
+	[Джордж Байрон]
+		(* <- lang_ru;; *);;
+
+author_Bajron
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Bajron.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

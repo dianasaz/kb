@@ -1,0 +1,175 @@
+book_Mamasha_Kurazh_I_Ee_Deti
+<- book;
+=> nrel_author;
+	author_Breht;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мамаша Кураж И Её Дети]
+		(* <- lang_ru;; *);;
+
+book_Mamasha_Kurazh_I_Ee_Deti
+=> nrel_characters:
+	.book_Mamasha_Kurazh_I_Ee_Deti_characters
+		(*
+			-> char_anna_firling_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> char_gustav_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> char_sokrat_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> char_ulij_zezar_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> char_katrina_book_Mamasha_Kurazh_I_Ee_Deti;;
+	 	*);;
+
+char_anna_firling_book_Mamasha_Kurazh_I_Ee_Deti
+<- char;
+=> nrel_main_idtf:
+	[ Анна Фирлинг ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Mamasha_Kurazh_I_Ee_Deti
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Mamasha_Kurazh_I_Ee_Deti
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_ulij_zezar_book_Mamasha_Kurazh_I_Ee_Deti
+<- char;
+=> nrel_main_idtf:
+	[ Юлий Цезар ]
+		(* <- lang_ru;; *);;
+
+char_katrina_book_Mamasha_Kurazh_I_Ee_Deti
+<- char;
+=> nrel_main_idtf:
+	[ Катрина ]
+		(* <- lang_ru;; *);;
+
+book_Mamasha_Kurazh_I_Ee_Deti
+=> nrel_locales:
+	.book_Mamasha_Kurazh_I_Ee_Deti_locales
+		(*
+			-> locale_bykov_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_italia_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_kuda_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_bavaria_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_magdeburg_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_gorod_galle_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_gorod_ingol_stadt_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_drugoj_velikoe_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_germania_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> locale_pol_sa_book_Mamasha_Kurazh_I_Ee_Deti;;
+	 	*);;
+
+locale_bykov_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_bavaria_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Бавария ]
+		(* <- lang_ru;; *);;
+
+locale_magdeburg_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Магдебург ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_galle_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Город Галле ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_ingol_stadt_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Город Ингольштадт ]
+		(* <- lang_ru;; *);;
+
+locale_drugoj_velikoe_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Другой Великое ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Mamasha_Kurazh_I_Ee_Deti
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+book_Mamasha_Kurazh_I_Ee_Deti
+=> nrel_dates:
+	.book_Mamasha_Kurazh_I_Ee_Deti_dates
+		(*
+			-> date_1624_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> date_1626_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> date_1636_1_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> date_1631_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> date_1632_book_Mamasha_Kurazh_I_Ee_Deti;;
+			-> date_1634_book_Mamasha_Kurazh_I_Ee_Deti;;
+	 	*);;
+
+date_1624_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1624 ]
+		(* <- lang_ru;; *);;
+
+date_1626_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1626 ]
+		(* <- lang_ru;; *);;
+
+date_1636_1_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1636 1 ]
+		(* <- lang_ru;; *);;
+
+date_1631_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1631 ]
+		(* <- lang_ru;; *);;
+
+date_1632_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1632 ]
+		(* <- lang_ru;; *);;
+
+date_1634_book_Mamasha_Kurazh_I_Ee_Deti
+<- date;
+=> nrel_main_idtf:
+	[ 1634 ]
+		(* <- lang_ru;; *);;
+

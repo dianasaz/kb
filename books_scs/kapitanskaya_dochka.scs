@@ -1,0 +1,280 @@
+book_Kapitanskaya_Dochka
+<- book;
+=> nrel_author;
+	author_Pushkin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Капитанская Дочка]
+		(* <- lang_ru;; *);;
+
+book_Kapitanskaya_Dochka
+=> nrel_characters:
+	.book_Kapitanskaya_Dochka_characters
+		(*
+			-> char_andrej_petrovic_grinev_book_Kapitanskaya_Dochka;;
+			-> char_masa_mironova_book_Kapitanskaya_Dochka;;
+			-> char_petr_grinev_book_Kapitanskaya_Dochka;;
+			-> char_petr_andreevic_grinev_book_Kapitanskaya_Dochka;;
+			-> char_svabrin_book_Kapitanskaya_Dochka;;
+			-> char_petrusa_book_Kapitanskaya_Dochka;;
+			-> char_masa_book_Kapitanskaya_Dochka;;
+			-> char_grinev_book_Kapitanskaya_Dochka;;
+			-> char_svabrin_book_Kapitanskaya_Dochka;;
+			-> char_aleksandr_book_Kapitanskaya_Dochka;;
+			-> char_mironov_book_Kapitanskaya_Dochka;;
+			-> char_avdot_a_vasilievna_u_book_Kapitanskaya_Dochka;;
+			-> char_andrej_petrovic_book_Kapitanskaya_Dochka;;
+			-> char_aleksej_ivanyc_book_Kapitanskaya_Dochka;;
+			-> char_andreevic_petr_book_Kapitanskaya_Dochka;;
+			-> char_vasilisa_egorovna_book_Kapitanskaya_Dochka;;
+			-> char_ivan_kuz_mic_mironov_book_Kapitanskaya_Dochka;;
+			-> char_emel_an_pugacev_book_Kapitanskaya_Dochka;;
+			-> char_petra_book_Kapitanskaya_Dochka;;
+			-> char_unyj_book_Kapitanskaya_Dochka;;
+			-> char_pugacev_book_Kapitanskaya_Dochka;;
+	 	*);;
+
+char_andrej_petrovic_grinev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Петрович Гринев ]
+		(* <- lang_ru;; *);;
+
+char_masa_mironova_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Маша Миронова ]
+		(* <- lang_ru;; *);;
+
+char_petr_grinev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Гринев ]
+		(* <- lang_ru;; *);;
+
+char_petr_andreevic_grinev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Андреевич Гринев ]
+		(* <- lang_ru;; *);;
+
+char_svabrin_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Швабрин ]
+		(* <- lang_ru;; *);;
+
+char_petrusa_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Петруша ]
+		(* <- lang_ru;; *);;
+
+char_masa_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Маша ]
+		(* <- lang_ru;; *);;
+
+char_grinev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Гринев ]
+		(* <- lang_ru;; *);;
+
+char_svabrin_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Швабрин ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_mironov_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Миронов ]
+		(* <- lang_ru;; *);;
+
+char_avdot_a_vasilievna_u_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Авдотья Василиевна Ю ]
+		(* <- lang_ru;; *);;
+
+char_andrej_petrovic_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Петрович ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_ivanyc_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_andreevic_petr_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Андреевич Пётр ]
+		(* <- lang_ru;; *);;
+
+char_vasilisa_egorovna_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Василиса Егоровна ]
+		(* <- lang_ru;; *);;
+
+char_ivan_kuz_mic_mironov_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Иван Кузьмич Миронов ]
+		(* <- lang_ru;; *);;
+
+char_emel_an_pugacev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Емельян Пугачев ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_unyj_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Юный ]
+		(* <- lang_ru;; *);;
+
+char_pugacev_book_Kapitanskaya_Dochka
+<- char;
+=> nrel_main_idtf:
+	[ Пугачев ]
+		(* <- lang_ru;; *);;
+
+book_Kapitanskaya_Dochka
+=> nrel_locales:
+	.book_Kapitanskaya_Dochka_locales
+		(*
+			-> locale_bopra_book_Kapitanskaya_Dochka;;
+			-> locale_prussia_book_Kapitanskaya_Dochka;;
+			-> locale_voennaa_kampania_book_Kapitanskaya_Dochka;;
+			-> locale_sibir__book_Kapitanskaya_Dochka;;
+			-> locale_kotoryj_book_Kapitanskaya_Dochka;;
+			-> locale_orenburg_book_Kapitanskaya_Dochka;;
+			-> locale_kuda_book_Kapitanskaya_Dochka;;
+			-> locale_velikij_book_Kapitanskaya_Dochka;;
+			-> locale_svoa_simbirskaa_book_Kapitanskaya_Dochka;;
+			-> locale_sabla_book_Kapitanskaya_Dochka;;
+			-> locale_pugacev_book_Kapitanskaya_Dochka;;
+			-> locale_nemezk_book_Kapitanskaya_Dochka;;
+			-> locale_orel_book_Kapitanskaya_Dochka;;
+			-> locale_peterburg_book_Kapitanskaya_Dochka;;
+	 	*);;
+
+locale_bopra_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Бопра ]
+		(* <- lang_ru;; *);;
+
+locale_prussia_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_voennaa_kampania_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Военная Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_orenburg_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Оренбург ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_simbirskaa_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Симбирская ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_pugacev_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Пугачев ]
+		(* <- lang_ru;; *);;
+
+locale_nemezk_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Немецк ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Kapitanskaya_Dochka
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Kapitanskaya_Dochka
+=> nrel_dates:
+	.book_Kapitanskaya_Dochka_dates
+		(*
+			-> date_1773_10_book_Kapitanskaya_Dochka;;
+	 	*);;
+
+date_1773_10_book_Kapitanskaya_Dochka
+<- date;
+=> nrel_main_idtf:
+	[ 1773 10 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Borhes
+<- person;
+=> nrel_main_idtf:
+	[Хорхе Луис Борхес]
+		(* <- lang_ru;; *);;
+
+author_Borhes
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Borhes.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

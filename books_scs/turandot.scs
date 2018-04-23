@@ -1,0 +1,183 @@
+book_Turandot
+<- book;
+=> nrel_author;
+	author_Gocci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Турандот]
+		(* <- lang_ru;; *);;
+
+book_Turandot
+=> nrel_characters:
+	.book_Turandot_characters
+		(*
+			-> char_pantalone_book_Turandot;;
+			-> char_el_maz_book_Turandot;;
+			-> char_hassan_book_Turandot;;
+			-> char_adel_ma_book_Turandot;;
+			-> char_brigella_book_Turandot;;
+			-> char_adel_mousij_book_Turandot;;
+			-> char_horasana_book_Turandot;;
+			-> char_barahoma_book_Turandot;;
+			-> char_berdjingudzin_book_Turandot;;
+			-> char_skirina_book_Turandot;;
+			-> char_timur_book_Turandot;;
+	 	*);;
+
+char_pantalone_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_el_maz_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Эльмаз ]
+		(* <- lang_ru;; *);;
+
+char_hassan_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Хассан ]
+		(* <- lang_ru;; *);;
+
+char_adel_ma_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Адельма ]
+		(* <- lang_ru;; *);;
+
+char_brigella_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Бригелла ]
+		(* <- lang_ru;; *);;
+
+char_adel_mousij_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Адельмоющий ]
+		(* <- lang_ru;; *);;
+
+char_horasana_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Хорасана ]
+		(* <- lang_ru;; *);;
+
+char_barahoma_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Барахома ]
+		(* <- lang_ru;; *);;
+
+char_berdjingudzin_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Берджингудзин ]
+		(* <- lang_ru;; *);;
+
+char_skirina_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Скирина ]
+		(* <- lang_ru;; *);;
+
+char_timur_book_Turandot
+<- char;
+=> nrel_main_idtf:
+	[ Тимур ]
+		(* <- lang_ru;; *);;
+
+book_Turandot
+=> nrel_locales:
+	.book_Turandot_locales
+		(*
+			-> locale_kotoryj_book_Turandot;;
+			-> locale_kuda_book_Turandot;;
+			-> locale_truffal_dino_book_Turandot;;
+			-> locale_horasana_book_Turandot;;
+			-> locale_velikij_book_Turandot;;
+			-> locale_horezm_book_Turandot;;
+			-> locale_zelima_book_Turandot;;
+			-> locale_to_book_Turandot;;
+			-> locale_pekin_book_Turandot;;
+			-> locale_smevsaa_book_Turandot;;
+			-> locale_astrahan__book_Turandot;;
+			-> locale_horasanskoe_book_Turandot;;
+	 	*);;
+
+locale_kotoryj_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_truffal_dino_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Труффальдино ]
+		(* <- lang_ru;; *);;
+
+locale_horasana_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Хорасана ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_horezm_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Хорезм ]
+		(* <- lang_ru;; *);;
+
+locale_zelima_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Зелима ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_pekin_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Пекин ]
+		(* <- lang_ru;; *);;
+
+locale_smevsaa_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Смевшая ]
+		(* <- lang_ru;; *);;
+
+locale_astrahan__book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Астрахань ]
+		(* <- lang_ru;; *);;
+
+locale_horasanskoe_book_Turandot
+<- locale;
+=> nrel_main_idtf:
+	[ Хорасанское ]
+		(* <- lang_ru;; *);;
+

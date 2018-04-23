@@ -1,0 +1,50 @@
+book_Iz_Liubvi_K_Iskusstvu
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Из Любви К Искусству]
+		(* <- lang_ru;; *);;
+
+book_Iz_Liubvi_K_Iskusstvu
+=> nrel_characters:
+	.book_Iz_Liubvi_K_Iskusstvu_characters
+		(*
+			-> char_djo_book_Iz_Liubvi_K_Iskusstvu;;
+			-> char_klementina_book_Iz_Liubvi_K_Iskusstvu;;
+			-> char_dilia_book_Iz_Liubvi_K_Iskusstvu;;
+	 	*);;
+
+char_djo_book_Iz_Liubvi_K_Iskusstvu
+<- char;
+=> nrel_main_idtf:
+	[ Джо ]
+		(* <- lang_ru;; *);;
+
+char_klementina_book_Iz_Liubvi_K_Iskusstvu
+<- char;
+=> nrel_main_idtf:
+	[ Клементина ]
+		(* <- lang_ru;; *);;
+
+char_dilia_book_Iz_Liubvi_K_Iskusstvu
+<- char;
+=> nrel_main_idtf:
+	[ Дилия ]
+		(* <- lang_ru;; *);;
+
+book_Iz_Liubvi_K_Iskusstvu
+=> nrel_locales:
+	.book_Iz_Liubvi_K_Iskusstvu_locales
+		(*
+			-> locale_jork_book_Iz_Liubvi_K_Iskusstvu;;
+	 	*);;
+
+locale_jork_book_Iz_Liubvi_K_Iskusstvu
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+

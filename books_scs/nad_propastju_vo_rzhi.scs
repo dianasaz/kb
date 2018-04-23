@@ -1,0 +1,148 @@
+book_Nad_Propastju_Vo_Rzhi
+<- book;
+=> nrel_author;
+	author_Selindzher;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Над Пропастью Во Ржи]
+		(* <- lang_ru;; *);;
+
+book_Nad_Propastju_Vo_Rzhi
+=> nrel_characters:
+	.book_Nad_Propastju_Vo_Rzhi_characters
+		(*
+			-> char_pensi_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_salli_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_alli_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_grinic_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_salli_hejs_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_holden_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_karl_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_l_us_book_Nad_Propastju_Vo_Rzhi;;
+			-> char_holden_kolfild_book_Nad_Propastju_Vo_Rzhi;;
+	 	*);;
+
+char_pensi_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Пэнси ]
+		(* <- lang_ru;; *);;
+
+char_salli_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Салли ]
+		(* <- lang_ru;; *);;
+
+char_alli_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Алли ]
+		(* <- lang_ru;; *);;
+
+char_grinic_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Гринич ]
+		(* <- lang_ru;; *);;
+
+char_salli_hejs_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Салли Хейс ]
+		(* <- lang_ru;; *);;
+
+char_holden_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Холден ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_l_us_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Льюс ]
+		(* <- lang_ru;; *);;
+
+char_holden_kolfild_book_Nad_Propastju_Vo_Rzhi
+<- char;
+=> nrel_main_idtf:
+	[ Холден Колфилд ]
+		(* <- lang_ru;; *);;
+
+book_Nad_Propastju_Vo_Rzhi
+=> nrel_locales:
+	.book_Nad_Propastju_Vo_Rzhi_locales
+		(*
+			-> locale_zapad_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_krasnaa_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_kuda_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_antolin__book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_jork_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_egerstaun_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_to_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_kolfild_book_Nad_Propastju_Vo_Rzhi;;
+			-> locale_stat_pensil_vania_book_Nad_Propastju_Vo_Rzhi;;
+	 	*);;
+
+locale_zapad_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_antolin__book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Антолинь ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_egerstaun_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Эгерстаун ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kolfild_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Колфилд ]
+		(* <- lang_ru;; *);;
+
+locale_stat_pensil_vania_book_Nad_Propastju_Vo_Rzhi
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Пенсильвания ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,16 @@
+author_Gorkii
+<- person;
+=> nrel_main_idtf:
+	[Максим Горький]
+		(* <- lang_ru;; *);;
+
+author_Gorkii
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gorkii.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,120 @@
+book_Goluboy_Karbunkul
+<- book;
+=> nrel_author;
+	author_Dojl;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Голубой Карбункул]
+		(* <- lang_ru;; *);;
+
+book_Goluboy_Karbunkul
+=> nrel_characters:
+	.book_Goluboy_Karbunkul_characters
+		(*
+			-> char_genri_bejker_book_Goluboy_Karbunkul;;
+			-> char_serlok_holms_book_Goluboy_Karbunkul;;
+			-> char_oksota_book_Goluboy_Karbunkul;;
+			-> char_djejms_rajder_book_Goluboy_Karbunkul;;
+			-> char_djon_book_Goluboy_Karbunkul;;
+			-> char_rajder_book_Goluboy_Karbunkul;;
+			-> char_holms_book_Goluboy_Karbunkul;;
+			-> char_uotson_book_Goluboy_Karbunkul;;
+			-> char_djejms_book_Goluboy_Karbunkul;;
+	 	*);;
+
+char_genri_bejker_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Генри Бейкер ]
+		(* <- lang_ru;; *);;
+
+char_serlok_holms_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Шерлок Холмс ]
+		(* <- lang_ru;; *);;
+
+char_oksota_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Окшота ]
+		(* <- lang_ru;; *);;
+
+char_djejms_rajder_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс Райдер ]
+		(* <- lang_ru;; *);;
+
+char_djon_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Джон ]
+		(* <- lang_ru;; *);;
+
+char_rajder_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Райдер ]
+		(* <- lang_ru;; *);;
+
+char_holms_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Холмс ]
+		(* <- lang_ru;; *);;
+
+char_uotson_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Уотсон ]
+		(* <- lang_ru;; *);;
+
+char_djejms_book_Goluboy_Karbunkul
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс ]
+		(* <- lang_ru;; *);;
+
+book_Goluboy_Karbunkul
+=> nrel_locales:
+	.book_Goluboy_Karbunkul_locales
+		(*
+			-> locale_velikoe_book_Goluboy_Karbunkul;;
+			-> locale_hornera_book_Goluboy_Karbunkul;;
+			-> locale_nahodka_book_Goluboy_Karbunkul;;
+			-> locale_london_book_Goluboy_Karbunkul;;
+			-> locale_oksota_book_Goluboy_Karbunkul;;
+	 	*);;
+
+locale_velikoe_book_Goluboy_Karbunkul
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_hornera_book_Goluboy_Karbunkul
+<- locale;
+=> nrel_main_idtf:
+	[ Хорнера ]
+		(* <- lang_ru;; *);;
+
+locale_nahodka_book_Goluboy_Karbunkul
+<- locale;
+=> nrel_main_idtf:
+	[ Находка ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Goluboy_Karbunkul
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_oksota_book_Goluboy_Karbunkul
+<- locale;
+=> nrel_main_idtf:
+	[ Окшота ]
+		(* <- lang_ru;; *);;
+

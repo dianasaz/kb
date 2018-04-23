@@ -1,0 +1,113 @@
+book_Staruha_Izergil
+<- book;
+=> nrel_author;
+	author_Gorkii;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Старуха Изергиль]
+		(* <- lang_ru;; *);;
+
+book_Staruha_Izergil
+=> nrel_characters:
+	.book_Staruha_Izergil_characters
+		(*
+			-> char_danko_book_Staruha_Izergil;;
+			-> char_larra_book_Staruha_Izergil;;
+	 	*);;
+
+char_danko_book_Staruha_Izergil
+<- char;
+=> nrel_main_idtf:
+	[ Данко ]
+		(* <- lang_ru;; *);;
+
+char_larra_book_Staruha_Izergil
+<- char;
+=> nrel_main_idtf:
+	[ Ларра ]
+		(* <- lang_ru;; *);;
+
+book_Staruha_Izergil
+=> nrel_locales:
+	.book_Staruha_Izergil_locales
+		(*
+			-> locale_krasnaa_book_Staruha_Izergil;;
+			-> locale_bolgaria_book_Staruha_Izergil;;
+			-> locale_ih_kraj_book_Staruha_Izergil;;
+			-> locale_to_book_Staruha_Izergil;;
+			-> locale_larra_book_Staruha_Izergil;;
+			-> locale_moldavia_book_Staruha_Izergil;;
+			-> locale_bessarabia_book_Staruha_Izergil;;
+			-> locale_orel_book_Staruha_Izergil;;
+			-> locale_karpaty_book_Staruha_Izergil;;
+			-> locale_pol_sa_book_Staruha_Izergil;;
+			-> locale_dunaj_book_Staruha_Izergil;;
+	 	*);;
+
+locale_krasnaa_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_bolgaria_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Болгария ]
+		(* <- lang_ru;; *);;
+
+locale_ih_kraj_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Их Край ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_larra_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Ларра ]
+		(* <- lang_ru;; *);;
+
+locale_moldavia_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Молдавия ]
+		(* <- lang_ru;; *);;
+
+locale_bessarabia_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Бессарабия ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_karpaty_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Карпаты ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_dunaj_book_Staruha_Izergil
+<- locale;
+=> nrel_main_idtf:
+	[ Дунай ]
+		(* <- lang_ru;; *);;
+

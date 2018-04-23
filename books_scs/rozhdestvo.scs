@@ -1,0 +1,64 @@
+book_Rozhdestvo
+<- book;
+=> nrel_author;
+	author_Nabokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Рождество]
+		(* <- lang_ru;; *);;
+
+book_Rozhdestvo
+=> nrel_characters:
+	.book_Rozhdestvo_characters
+		(*
+			-> char_slepzov_book_Rozhdestvo;;
+	 	*);;
+
+char_slepzov_book_Rozhdestvo
+<- char;
+=> nrel_main_idtf:
+	[ Слепцов ]
+		(* <- lang_ru;; *);;
+
+book_Rozhdestvo
+=> nrel_locales:
+	.book_Rozhdestvo_locales
+		(*
+			-> locale_breda_book_Rozhdestvo;;
+			-> locale_kotoryj_book_Rozhdestvo;;
+			-> locale_bombej_book_Rozhdestvo;;
+			-> locale_peterburgskij_book_Rozhdestvo;;
+			-> locale_peterburg_book_Rozhdestvo;;
+	 	*);;
+
+locale_breda_book_Rozhdestvo
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Rozhdestvo
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_bombej_book_Rozhdestvo
+<- locale;
+=> nrel_main_idtf:
+	[ Бомбей ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Rozhdestvo
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Rozhdestvo
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

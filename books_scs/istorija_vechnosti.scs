@@ -1,0 +1,189 @@
+book_Istorija_Vechnosti
+<- book;
+=> nrel_author;
+	author_Borhes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[История Вечности]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Vechnosti
+=> nrel_characters:
+	.book_Istorija_Vechnosti_characters
+		(*
+			-> char_faridaddin_attar_book_Istorija_Vechnosti;;
+			-> char_kiplinga_book_Istorija_Vechnosti;;
+			-> char_al_mutasim_book_Istorija_Vechnosti;;
+	 	*);;
+
+char_faridaddin_attar_book_Istorija_Vechnosti
+<- char;
+=> nrel_main_idtf:
+	[ Фаридаддин Аттар ]
+		(* <- lang_ru;; *);;
+
+char_kiplinga_book_Istorija_Vechnosti
+<- char;
+=> nrel_main_idtf:
+	[ Киплинга ]
+		(* <- lang_ru;; *);;
+
+char_al_mutasim_book_Istorija_Vechnosti
+<- char;
+=> nrel_main_idtf:
+	[ Альмутасим ]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Vechnosti
+=> nrel_locales:
+	.book_Istorija_Vechnosti_locales
+		(*
+			-> locale_india_book_Istorija_Vechnosti;;
+			-> locale_bikaner_book_Istorija_Vechnosti;;
+			-> locale_simurg_book_Istorija_Vechnosti;;
+			-> locale_katmandu_book_Istorija_Vechnosti;;
+			-> locale_rasskaz_book_Istorija_Vechnosti;;
+			-> locale_kal_kutta_book_Istorija_Vechnosti;;
+			-> locale_simurga_book_Istorija_Vechnosti;;
+			-> locale_bombej_book_Istorija_Vechnosti;;
+			-> locale_bahadur_book_Istorija_Vechnosti;;
+			-> locale_madras_book_Istorija_Vechnosti;;
+			-> locale_palanpur_book_Istorija_Vechnosti;;
+			-> locale_malkasansi_book_Istorija_Vechnosti;;
+			-> locale_benares_book_Istorija_Vechnosti;;
+			-> locale_to_book_Istorija_Vechnosti;;
+			-> locale_kitaj_book_Istorija_Vechnosti;;
+			-> locale_stat_travankor_book_Istorija_Vechnosti;;
+			-> locale_nea_book_Istorija_Vechnosti;;
+			-> locale_muharram_book_Istorija_Vechnosti;;
+			-> locale_gudjarat_book_Istorija_Vechnosti;;
+	 	*);;
+
+locale_india_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_bikaner_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Биканер ]
+		(* <- lang_ru;; *);;
+
+locale_simurg_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Симург ]
+		(* <- lang_ru;; *);;
+
+locale_katmandu_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Катманду ]
+		(* <- lang_ru;; *);;
+
+locale_rasskaz_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Рассказ ]
+		(* <- lang_ru;; *);;
+
+locale_kal_kutta_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Калькутта ]
+		(* <- lang_ru;; *);;
+
+locale_simurga_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Симурга ]
+		(* <- lang_ru;; *);;
+
+locale_bombej_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Бомбей ]
+		(* <- lang_ru;; *);;
+
+locale_bahadur_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Бахадур ]
+		(* <- lang_ru;; *);;
+
+locale_madras_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрас ]
+		(* <- lang_ru;; *);;
+
+locale_palanpur_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Паланпур ]
+		(* <- lang_ru;; *);;
+
+locale_malkasansi_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Малкасанси ]
+		(* <- lang_ru;; *);;
+
+locale_benares_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Бенарес ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_stat_travankor_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Траванкор ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_muharram_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Мухаррам ]
+		(* <- lang_ru;; *);;
+
+locale_gudjarat_book_Istorija_Vechnosti
+<- locale;
+=> nrel_main_idtf:
+	[ Гуджарат ]
+		(* <- lang_ru;; *);;
+
+book_Istorija_Vechnosti
+=> nrel_dates:
+	.book_Istorija_Vechnosti_dates
+		(*
+			-> date_1932_book_Istorija_Vechnosti;;
+	 	*);;
+
+date_1932_book_Istorija_Vechnosti
+<- date;
+=> nrel_main_idtf:
+	[ 1932 ]
+		(* <- lang_ru;; *);;
+

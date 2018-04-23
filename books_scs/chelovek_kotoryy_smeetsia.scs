@@ -1,0 +1,252 @@
+book_Chelovek_Kotoryy_Smeetsia
+<- book;
+=> nrel_author;
+	author_Gugo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Человек, Который Смеётся]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Kotoryy_Smeetsia
+=> nrel_characters:
+	.book_Chelovek_Kotoryy_Smeetsia_characters
+		(*
+			-> char_klencarli_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_guinplena_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_iakov_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_lamansa_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_dea_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_hardkvanon_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_barkil_fedroe_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_guinplennaa_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_maria_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_karl_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_devid_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_fermenom_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_klencarlij_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_vil_gel_m_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_gomoe_book_Chelovek_Kotoryy_Smeetsia;;
+			-> char_anna_book_Chelovek_Kotoryy_Smeetsia;;
+	 	*);;
+
+char_klencarli_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Кленчарли ]
+		(* <- lang_ru;; *);;
+
+char_guinplena_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Гуинплена ]
+		(* <- lang_ru;; *);;
+
+char_iakov_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Иаков ]
+		(* <- lang_ru;; *);;
+
+char_lamansa_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Ламанша ]
+		(* <- lang_ru;; *);;
+
+char_dea_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Дея ]
+		(* <- lang_ru;; *);;
+
+char_hardkvanon_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Хардкванон ]
+		(* <- lang_ru;; *);;
+
+char_barkil_fedroe_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Баркильфедрое ]
+		(* <- lang_ru;; *);;
+
+char_guinplennaa_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Гуинпленная ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_devid_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Дэвид ]
+		(* <- lang_ru;; *);;
+
+char_fermenom_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Ферменом ]
+		(* <- lang_ru;; *);;
+
+char_klencarlij_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Кленчарлий ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_gomoe_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Гомое ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Chelovek_Kotoryy_Smeetsia
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Kotoryy_Smeetsia
+=> nrel_locales:
+	.book_Chelovek_Kotoryy_Smeetsia_locales
+		(*
+			-> locale_ursusa_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_breda_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_temza_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_kotoryj_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_kuda_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_vsa_anglia_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_ispania_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_gorodok_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_to_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_london_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_anglia_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_linnea_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_guinplena_book_Chelovek_Kotoryy_Smeetsia;;
+			-> locale_svejzaria_book_Chelovek_Kotoryy_Smeetsia;;
+	 	*);;
+
+locale_ursusa_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Урсуса ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_temza_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Темза ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_anglia_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Англия ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_linnea_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Линнея ]
+		(* <- lang_ru;; *);;
+
+locale_guinplena_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Гуинплена ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Chelovek_Kotoryy_Smeetsia
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Kotoryy_Smeetsia
+=> nrel_dates:
+	.book_Chelovek_Kotoryy_Smeetsia_dates
+		(*
+			-> date_1705_book_Chelovek_Kotoryy_Smeetsia;;
+			-> date_1690_book_Chelovek_Kotoryy_Smeetsia;;
+	 	*);;
+
+date_1705_book_Chelovek_Kotoryy_Smeetsia
+<- date;
+=> nrel_main_idtf:
+	[ 1705 ]
+		(* <- lang_ru;; *);;
+
+date_1690_book_Chelovek_Kotoryy_Smeetsia
+<- date;
+=> nrel_main_idtf:
+	[ 1690 ]
+		(* <- lang_ru;; *);;
+

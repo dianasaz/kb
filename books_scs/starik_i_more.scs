@@ -1,0 +1,58 @@
+book_Starik_I_More
+<- book;
+=> nrel_author;
+	author_Heminguej;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Старик И Море]
+		(* <- lang_ru;; *);;
+
+book_Starik_I_More
+=> nrel_locales:
+	.book_Starik_I_More_locales
+		(*
+			-> locale_sant_ago_book_Starik_I_More;;
+			-> locale_portu_book_Starik_I_More;;
+			-> locale_kub_book_Starik_I_More;;
+			-> locale_kasablanka_book_Starik_I_More;;
+			-> locale_to_book_Starik_I_More;;
+			-> locale_afrika_book_Starik_I_More;;
+	 	*);;
+
+locale_sant_ago_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ Сантьяго ]
+		(* <- lang_ru;; *);;
+
+locale_portu_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_kub_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ Куб ]
+		(* <- lang_ru;; *);;
+
+locale_kasablanka_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ Касабланка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Starik_I_More
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+

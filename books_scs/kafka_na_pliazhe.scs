@@ -1,0 +1,280 @@
+book_Kafka_Na_Pliazhe
+<- book;
+=> nrel_author;
+	author_Murakami;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кафка На Пляже]
+		(* <- lang_ru;; *);;
+
+book_Kafka_Na_Pliazhe
+=> nrel_characters:
+	.book_Kafka_Na_Pliazhe_characters
+		(*
+			-> char_tamura_kafka_book_Kafka_Na_Pliazhe;;
+			-> char_mimi_book_Kafka_Na_Pliazhe;;
+			-> char_amanasa_book_Kafka_Na_Pliazhe;;
+			-> char_nakat_book_Kafka_Na_Pliazhe;;
+			-> char_nagano_book_Kafka_Na_Pliazhe;;
+			-> char_kobe_book_Kafka_Na_Pliazhe;;
+			-> char_osim_book_Kafka_Na_Pliazhe;;
+			-> char_djonni_uoker_book_Kafka_Na_Pliazhe;;
+			-> char_sanders_book_Kafka_Na_Pliazhe;;
+			-> char_bethoven_book_Kafka_Na_Pliazhe;;
+			-> char_osima_book_Kafka_Na_Pliazhe;;
+			-> char_roman_book_Kafka_Na_Pliazhe;;
+			-> char_nakata_book_Kafka_Na_Pliazhe;;
+			-> char_kafka_book_Kafka_Na_Pliazhe;;
+			-> char_subert_book_Kafka_Na_Pliazhe;;
+			-> char_djonni_book_Kafka_Na_Pliazhe;;
+	 	*);;
+
+char_tamura_kafka_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Тамура Кафка ]
+		(* <- lang_ru;; *);;
+
+char_mimi_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Мими ]
+		(* <- lang_ru;; *);;
+
+char_amanasa_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Яманася ]
+		(* <- lang_ru;; *);;
+
+char_nakat_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Накат ]
+		(* <- lang_ru;; *);;
+
+char_nagano_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Нагано ]
+		(* <- lang_ru;; *);;
+
+char_kobe_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Кобэ ]
+		(* <- lang_ru;; *);;
+
+char_osim_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Осим ]
+		(* <- lang_ru;; *);;
+
+char_djonni_uoker_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Джонни Уокер ]
+		(* <- lang_ru;; *);;
+
+char_sanders_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Сандерс ]
+		(* <- lang_ru;; *);;
+
+char_bethoven_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Бетховен ]
+		(* <- lang_ru;; *);;
+
+char_osima_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Осима ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_nakata_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Наката ]
+		(* <- lang_ru;; *);;
+
+char_kafka_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Кафка ]
+		(* <- lang_ru;; *);;
+
+char_subert_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Шуберт ]
+		(* <- lang_ru;; *);;
+
+char_djonni_book_Kafka_Na_Pliazhe
+<- char;
+=> nrel_main_idtf:
+	[ Джонни ]
+		(* <- lang_ru;; *);;
+
+book_Kafka_Na_Pliazhe
+=> nrel_locales:
+	.book_Kafka_Na_Pliazhe_locales
+		(*
+			-> locale_tamur_book_Kafka_Na_Pliazhe;;
+			-> locale_osim_book_Kafka_Na_Pliazhe;;
+			-> locale_svoe_delovo_book_Kafka_Na_Pliazhe;;
+			-> locale_ssa_book_Kafka_Na_Pliazhe;;
+			-> locale_takamaza_book_Kafka_Na_Pliazhe;;
+			-> locale_sikoku_book_Kafka_Na_Pliazhe;;
+			-> locale_hosino_book_Kafka_Na_Pliazhe;;
+			-> locale_gorod_takamaza_book_Kafka_Na_Pliazhe;;
+			-> locale_sam_tot_book_Kafka_Na_Pliazhe;;
+			-> locale_to_book_Kafka_Na_Pliazhe;;
+			-> locale_sanders_book_Kafka_Na_Pliazhe;;
+			-> locale_ves__takamaza_book_Kafka_Na_Pliazhe;;
+			-> locale_tokio_book_Kafka_Na_Pliazhe;;
+			-> locale_nea_book_Kafka_Na_Pliazhe;;
+			-> locale_tamura_book_Kafka_Na_Pliazhe;;
+			-> locale_komura_book_Kafka_Na_Pliazhe;;
+			-> locale_para_book_Kafka_Na_Pliazhe;;
+	 	*);;
+
+locale_tamur_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Тамур ]
+		(* <- lang_ru;; *);;
+
+locale_osim_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Осим ]
+		(* <- lang_ru;; *);;
+
+locale_svoe_delovo_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Своё Делово ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_takamaza_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Такамаца ]
+		(* <- lang_ru;; *);;
+
+locale_sikoku_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Сикоку ]
+		(* <- lang_ru;; *);;
+
+locale_hosino_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Хосино ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_takamaza_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Город Такамаца ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sanders_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Сандерс ]
+		(* <- lang_ru;; *);;
+
+locale_ves__takamaza_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Такамаца ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_tamura_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Тамура ]
+		(* <- lang_ru;; *);;
+
+locale_komura_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Комура ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Kafka_Na_Pliazhe
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+book_Kafka_Na_Pliazhe
+=> nrel_dates:
+	.book_Kafka_Na_Pliazhe_dates
+		(*
+			-> date_1969_book_Kafka_Na_Pliazhe;;
+			-> date_1944_book_Kafka_Na_Pliazhe;;
+			-> date_1973_book_Kafka_Na_Pliazhe;;
+	 	*);;
+
+date_1969_book_Kafka_Na_Pliazhe
+<- date;
+=> nrel_main_idtf:
+	[ 1969 ]
+		(* <- lang_ru;; *);;
+
+date_1944_book_Kafka_Na_Pliazhe
+<- date;
+=> nrel_main_idtf:
+	[ 1944 ]
+		(* <- lang_ru;; *);;
+
+date_1973_book_Kafka_Na_Pliazhe
+<- date;
+=> nrel_main_idtf:
+	[ 1973 ]
+		(* <- lang_ru;; *);;
+

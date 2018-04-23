@@ -1,0 +1,127 @@
+book_Vanina_Vanini
+<- book;
+=> nrel_author;
+	author_Stendal;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ванина Ванини]
+		(* <- lang_ru;; *);;
+
+book_Vanina_Vanini
+=> nrel_characters:
+	.book_Vanina_Vanini_characters
+		(*
+			-> char_vanin_book_Vanina_Vanini;;
+			-> char_livio_book_Vanina_Vanini;;
+			-> char_karij_book_Vanina_Vanini;;
+			-> char_katanzar_book_Vanina_Vanini;;
+			-> char_savelli_book_Vanina_Vanini;;
+			-> char_petro_book_Vanina_Vanini;;
+			-> char_klementina_book_Vanina_Vanini;;
+	 	*);;
+
+char_vanin_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Ванин ]
+		(* <- lang_ru;; *);;
+
+char_livio_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Ливио ]
+		(* <- lang_ru;; *);;
+
+char_karij_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Карий ]
+		(* <- lang_ru;; *);;
+
+char_katanzar_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Катанцар ]
+		(* <- lang_ru;; *);;
+
+char_savelli_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Савелли ]
+		(* <- lang_ru;; *);;
+
+char_petro_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Петро ]
+		(* <- lang_ru;; *);;
+
+char_klementina_book_Vanina_Vanini
+<- char;
+=> nrel_main_idtf:
+	[ Клементина ]
+		(* <- lang_ru;; *);;
+
+book_Vanina_Vanini
+=> nrel_locales:
+	.book_Vanina_Vanini_locales
+		(*
+			-> locale_azdrubal_book_Vanina_Vanini;;
+			-> locale_italia_book_Vanina_Vanini;;
+			-> locale_leon_book_Vanina_Vanini;;
+			-> locale_cita_book_Vanina_Vanini;;
+			-> locale_vanina_book_Vanina_Vanini;;
+			-> locale_rim_book_Vanina_Vanini;;
+			-> locale_venta_book_Vanina_Vanini;;
+			-> locale_vanin_book_Vanina_Vanini;;
+	 	*);;
+
+locale_azdrubal_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Аздрубал ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_leon_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Леон ]
+		(* <- lang_ru;; *);;
+
+locale_cita_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Чита ]
+		(* <- lang_ru;; *);;
+
+locale_vanina_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Ваниня ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_venta_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Вента ]
+		(* <- lang_ru;; *);;
+
+locale_vanin_book_Vanina_Vanini
+<- locale;
+=> nrel_main_idtf:
+	[ Ванин ]
+		(* <- lang_ru;; *);;
+

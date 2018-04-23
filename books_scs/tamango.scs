@@ -1,0 +1,92 @@
+book_Tamango
+<- book;
+=> nrel_author;
+	author_Merime;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Таманго]
+		(* <- lang_ru;; *);;
+
+book_Tamango
+=> nrel_characters:
+	.book_Tamango_characters
+		(*
+			-> char_leda_book_Tamango;;
+			-> char_ajse_book_Tamango;;
+			-> char_trafal_gar_book_Tamango;;
+	 	*);;
+
+char_leda_book_Tamango
+<- char;
+=> nrel_main_idtf:
+	[ Леда ]
+		(* <- lang_ru;; *);;
+
+char_ajse_book_Tamango
+<- char;
+=> nrel_main_idtf:
+	[ Айше ]
+		(* <- lang_ru;; *);;
+
+char_trafal_gar_book_Tamango
+<- char;
+=> nrel_main_idtf:
+	[ Трафальгар ]
+		(* <- lang_ru;; *);;
+
+book_Tamango
+=> nrel_locales:
+	.book_Tamango_locales
+		(*
+			-> locale_kotoryj_book_Tamango;;
+			-> locale_podnevol_noe_togo_book_Tamango;;
+			-> locale_sabla_book_Tamango;;
+			-> locale_to_book_Tamango;;
+			-> locale_afrika_book_Tamango;;
+			-> locale_rodnoj_kraj_book_Tamango;;
+			-> locale_bol_soj_barys_book_Tamango;;
+	 	*);;
+
+locale_kotoryj_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_podnevol_noe_togo_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Подневольное Того ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_rodnoj_kraj_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Родной Край ]
+		(* <- lang_ru;; *);;
+
+locale_bol_soj_barys_book_Tamango
+<- locale;
+=> nrel_main_idtf:
+	[ Большой Барыш ]
+		(* <- lang_ru;; *);;
+

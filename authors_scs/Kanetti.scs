@@ -1,0 +1,16 @@
+author_Kanetti
+<- person;
+=> nrel_main_idtf:
+	[Элиас Канетти]
+		(* <- lang_ru;; *);;
+
+author_Kanetti
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kanetti.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

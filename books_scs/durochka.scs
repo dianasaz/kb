@@ -1,0 +1,113 @@
+book_Durochka
+<- book;
+=> nrel_author;
+	author_Vega;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дурочка]
+		(* <- lang_ru;; *);;
+
+book_Durochka
+=> nrel_characters:
+	.book_Durochka_characters
+		(*
+			-> char_klara_book_Durochka;;
+			-> char_duardo_book_Durochka;;
+			-> char_feniso_book_Durochka;;
+			-> char_nisa_book_Durochka;;
+	 	*);;
+
+char_klara_book_Durochka
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+char_duardo_book_Durochka
+<- char;
+=> nrel_main_idtf:
+	[ Дуардо ]
+		(* <- lang_ru;; *);;
+
+char_feniso_book_Durochka
+<- char;
+=> nrel_main_idtf:
+	[ Фенисо ]
+		(* <- lang_ru;; *);;
+
+char_nisa_book_Durochka
+<- char;
+=> nrel_main_idtf:
+	[ Ниса ]
+		(* <- lang_ru;; *);;
+
+book_Durochka
+=> nrel_locales:
+	.book_Durochka_locales
+		(*
+			-> locale_finej_book_Durochka;;
+			-> locale_dolgojdannyj_liseo_book_Durochka;;
+			-> locale_finea_book_Durochka;;
+			-> locale_turin_book_Durochka;;
+			-> locale_madrid_book_Durochka;;
+			-> locale_to_book_Durochka;;
+			-> locale_tot_liseo_book_Durochka;;
+			-> locale_novaa_finea_book_Durochka;;
+			-> locale_liseo_book_Durochka;;
+	 	*);;
+
+locale_finej_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Финей ]
+		(* <- lang_ru;; *);;
+
+locale_dolgojdannyj_liseo_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Долгожданный Лисео ]
+		(* <- lang_ru;; *);;
+
+locale_finea_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Финея ]
+		(* <- lang_ru;; *);;
+
+locale_turin_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Турин ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tot_liseo_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Тот Лисео ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_finea_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Финея ]
+		(* <- lang_ru;; *);;
+
+locale_liseo_book_Durochka
+<- locale;
+=> nrel_main_idtf:
+	[ Лисео ]
+		(* <- lang_ru;; *);;
+

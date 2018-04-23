@@ -1,0 +1,267 @@
+book_Zapretnye_Tcveta
+<- book;
+=> nrel_author;
+	author_Misima;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Запретные Цвета]
+		(* <- lang_ru;; *);;
+
+book_Zapretnye_Tcveta
+=> nrel_characters:
+	.book_Zapretnye_Tcveta_characters
+		(*
+			-> char_aitiro_book_Zapretnye_Tcveta;;
+			-> char_djeki_book_Zapretnye_Tcveta;;
+			-> char_vatanabe_book_Zapretnye_Tcveta;;
+			-> char_kavada_book_Zapretnye_Tcveta;;
+			-> char_sokrat_book_Zapretnye_Tcveta;;
+			-> char_kejkoe_book_Zapretnye_Tcveta;;
+			-> char_fukudziro_honda_book_Zapretnye_Tcveta;;
+			-> char_asukoe_book_Zapretnye_Tcveta;;
+			-> char_fukudziro_book_Zapretnye_Tcveta;;
+			-> char_ooiso_book_Zapretnye_Tcveta;;
+			-> char_kavad_book_Zapretnye_Tcveta;;
+			-> char_alkiviad_book_Zapretnye_Tcveta;;
+			-> char_hodaka_book_Zapretnye_Tcveta;;
+			-> char_nobutaki_book_Zapretnye_Tcveta;;
+			-> char_rudon_book_Zapretnye_Tcveta;;
+			-> char_segava_asuko_book_Zapretnye_Tcveta;;
+			-> char_ejtan_book_Zapretnye_Tcveta;;
+			-> char_utan_book_Zapretnye_Tcveta;;
+	 	*);;
+
+char_aitiro_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Яитиро ]
+		(* <- lang_ru;; *);;
+
+char_djeki_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Джеки ]
+		(* <- lang_ru;; *);;
+
+char_vatanabe_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Ватанабэ ]
+		(* <- lang_ru;; *);;
+
+char_kavada_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Кавада ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_kejkoe_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Кэйкое ]
+		(* <- lang_ru;; *);;
+
+char_fukudziro_honda_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Фукудзиро Хонда ]
+		(* <- lang_ru;; *);;
+
+char_asukoe_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Ясукое ]
+		(* <- lang_ru;; *);;
+
+char_fukudziro_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Фукудзиро ]
+		(* <- lang_ru;; *);;
+
+char_ooiso_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Ооисо ]
+		(* <- lang_ru;; *);;
+
+char_kavad_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Кавад ]
+		(* <- lang_ru;; *);;
+
+char_alkiviad_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Алкивиад ]
+		(* <- lang_ru;; *);;
+
+char_hodaka_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Ходака ]
+		(* <- lang_ru;; *);;
+
+char_nobutaki_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Нобутаки ]
+		(* <- lang_ru;; *);;
+
+char_rudon_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Рудон ]
+		(* <- lang_ru;; *);;
+
+char_segava_asuko_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Сэгава Ясуко ]
+		(* <- lang_ru;; *);;
+
+char_ejtan_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Эйтян ]
+		(* <- lang_ru;; *);;
+
+char_utan_book_Zapretnye_Tcveta
+<- char;
+=> nrel_main_idtf:
+	[ Ютян ]
+		(* <- lang_ru;; *);;
+
+book_Zapretnye_Tcveta
+=> nrel_locales:
+	.book_Zapretnye_Tcveta_locales
+		(*
+			-> locale_asukoe_book_Zapretnye_Tcveta;;
+			-> locale_tut_book_Zapretnye_Tcveta;;
+			-> locale_segava_book_Zapretnye_Tcveta;;
+			-> locale_hinok_book_Zapretnye_Tcveta;;
+			-> locale_utan_book_Zapretnye_Tcveta;;
+			-> locale_ejtan_book_Zapretnye_Tcveta;;
+			-> locale_ejtanusij_book_Zapretnye_Tcveta;;
+			-> locale_mazumura_book_Zapretnye_Tcveta;;
+			-> locale_kotoryj_book_Zapretnye_Tcveta;;
+			-> locale_kuda_book_Zapretnye_Tcveta;;
+			-> locale_kavad_book_Zapretnye_Tcveta;;
+			-> locale_kioto_book_Zapretnye_Tcveta;;
+			-> locale_to_book_Zapretnye_Tcveta;;
+			-> locale_tokio_book_Zapretnye_Tcveta;;
+			-> locale_germania_book_Zapretnye_Tcveta;;
+			-> locale_rudon_book_Zapretnye_Tcveta;;
+			-> locale_para_book_Zapretnye_Tcveta;;
+	 	*);;
+
+locale_asukoe_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Ясукое ]
+		(* <- lang_ru;; *);;
+
+locale_tut_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Тют ]
+		(* <- lang_ru;; *);;
+
+locale_segava_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Сэгава ]
+		(* <- lang_ru;; *);;
+
+locale_hinok_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Хинок ]
+		(* <- lang_ru;; *);;
+
+locale_utan_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Ютян ]
+		(* <- lang_ru;; *);;
+
+locale_ejtan_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Эйтян ]
+		(* <- lang_ru;; *);;
+
+locale_ejtanusij_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Эйтянущий ]
+		(* <- lang_ru;; *);;
+
+locale_mazumura_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Мацумура ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kavad_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Кавад ]
+		(* <- lang_ru;; *);;
+
+locale_kioto_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Киото ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_rudon_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Рудон ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Zapretnye_Tcveta
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

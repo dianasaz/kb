@@ -1,0 +1,141 @@
+book_Tonio_Kreger
+<- book;
+=> nrel_author;
+	author_Tomasmann;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тонио Крёгер]
+		(* <- lang_ru;; *);;
+
+book_Tonio_Kreger
+=> nrel_characters:
+	.book_Tonio_Kreger_characters
+		(*
+			-> char_tonio_book_Tonio_Kreger;;
+			-> char_hol_m_book_Tonio_Kreger;;
+			-> char_siller_book_Tonio_Kreger;;
+			-> char_kregera_book_Tonio_Kreger;;
+			-> char_don_karlos_book_Tonio_Kreger;;
+			-> char_inga_book_Tonio_Kreger;;
+			-> char_hel_singer_book_Tonio_Kreger;;
+			-> char_gans_book_Tonio_Kreger;;
+			-> char_ingeborga_book_Tonio_Kreger;;
+			-> char_tonio_kreger_book_Tonio_Kreger;;
+	 	*);;
+
+char_tonio_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Тонио ]
+		(* <- lang_ru;; *);;
+
+char_hol_m_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Хольм ]
+		(* <- lang_ru;; *);;
+
+char_siller_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Шиллер ]
+		(* <- lang_ru;; *);;
+
+char_kregera_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Крёгера ]
+		(* <- lang_ru;; *);;
+
+char_don_karlos_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Дон Карлос ]
+		(* <- lang_ru;; *);;
+
+char_inga_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Инга ]
+		(* <- lang_ru;; *);;
+
+char_hel_singer_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Хельсингер ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_ingeborga_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Ингеборга ]
+		(* <- lang_ru;; *);;
+
+char_tonio_kreger_book_Tonio_Kreger
+<- char;
+=> nrel_main_idtf:
+	[ Тонио Крёгер ]
+		(* <- lang_ru;; *);;
+
+book_Tonio_Kreger
+=> nrel_locales:
+	.book_Tonio_Kreger_locales
+		(*
+			-> locale_hol_m_book_Tonio_Kreger;;
+			-> locale_velikoe_book_Tonio_Kreger;;
+			-> locale_kuda_book_Tonio_Kreger;;
+			-> locale_dania_book_Tonio_Kreger;;
+			-> locale_don_book_Tonio_Kreger;;
+			-> locale_to_book_Tonio_Kreger;;
+			-> locale_munhen_book_Tonio_Kreger;;
+	 	*);;
+
+locale_hol_m_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Хольм ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dania_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Дания ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_munhen_book_Tonio_Kreger
+<- locale;
+=> nrel_main_idtf:
+	[ Мюнхен ]
+		(* <- lang_ru;; *);;
+

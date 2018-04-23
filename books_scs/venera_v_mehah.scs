@@ -1,0 +1,225 @@
+book_Venera_V_Mehah
+<- book;
+=> nrel_author;
+	author_Zaher_Mazoh;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Венера В Мехах]
+		(* <- lang_ru;; *);;
+
+book_Venera_V_Mehah
+=> nrel_characters:
+	.book_Venera_V_Mehah_characters
+		(*
+			-> char_grigorij_book_Venera_V_Mehah;;
+			-> char_fanni_book_Venera_V_Mehah;;
+			-> char_vanda_book_Venera_V_Mehah;;
+			-> char_leopol_d_book_Venera_V_Mehah;;
+			-> char_vandin_book_Venera_V_Mehah;;
+			-> char_apollon_book_Venera_V_Mehah;;
+			-> char_aleksej_book_Venera_V_Mehah;;
+			-> char_lesko_manon_book_Venera_V_Mehah;;
+			-> char_pistora_book_Venera_V_Mehah;;
+			-> char_aspazij_book_Venera_V_Mehah;;
+			-> char_kant_book_Venera_V_Mehah;;
+			-> char_samson_book_Venera_V_Mehah;;
+			-> char_dalila_book_Venera_V_Mehah;;
+			-> char_dunaev_book_Venera_V_Mehah;;
+			-> char_gogol__book_Venera_V_Mehah;;
+	 	*);;
+
+char_grigorij_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_fanni_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Фанни ]
+		(* <- lang_ru;; *);;
+
+char_vanda_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Ванда ]
+		(* <- lang_ru;; *);;
+
+char_leopol_d_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Леопольд ]
+		(* <- lang_ru;; *);;
+
+char_vandin_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Вандин ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Алексей ]
+		(* <- lang_ru;; *);;
+
+char_lesko_manon_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Леско Манон ]
+		(* <- lang_ru;; *);;
+
+char_pistora_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Пистора ]
+		(* <- lang_ru;; *);;
+
+char_aspazij_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Аспазий ]
+		(* <- lang_ru;; *);;
+
+char_kant_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Кант ]
+		(* <- lang_ru;; *);;
+
+char_samson_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Самсон ]
+		(* <- lang_ru;; *);;
+
+char_dalila_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Далила ]
+		(* <- lang_ru;; *);;
+
+char_dunaev_book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Дунаев ]
+		(* <- lang_ru;; *);;
+
+char_gogol__book_Venera_V_Mehah
+<- char;
+=> nrel_main_idtf:
+	[ Гоголь ]
+		(* <- lang_ru;; *);;
+
+book_Venera_V_Mehah
+=> nrel_locales:
+	.book_Venera_V_Mehah_locales
+		(*
+			-> locale_severin_book_Venera_V_Mehah;;
+			-> locale_italia_book_Venera_V_Mehah;;
+			-> locale_strannyj_severin_book_Venera_V_Mehah;;
+			-> locale_velikoe_book_Venera_V_Mehah;;
+			-> locale_lubim_book_Venera_V_Mehah;;
+			-> locale_mazoha_book_Venera_V_Mehah;;
+			-> locale_venera_book_Venera_V_Mehah;;
+			-> locale_parij_book_Venera_V_Mehah;;
+			-> locale_evropa_book_Venera_V_Mehah;;
+			-> locale_izumlennyj_severin_book_Venera_V_Mehah;;
+			-> locale_l_vovskaa_venera_book_Venera_V_Mehah;;
+			-> locale_to_book_Venera_V_Mehah;;
+			-> locale_florenzia_book_Venera_V_Mehah;;
+			-> locale_amur_book_Venera_V_Mehah;;
+	 	*);;
+
+locale_severin_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Северин ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_strannyj_severin_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Странный Северин ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_mazoha_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Мазоха ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_izumlennyj_severin_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Изумлённый Северин ]
+		(* <- lang_ru;; *);;
+
+locale_l_vovskaa_venera_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Львовская Венера ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_amur_book_Venera_V_Mehah
+<- locale;
+=> nrel_main_idtf:
+	[ Амур ]
+		(* <- lang_ru;; *);;
+

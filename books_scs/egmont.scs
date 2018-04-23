@@ -1,0 +1,168 @@
+book_Egmont
+<- book;
+=> nrel_author;
+	author_Gete;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Эгмонт]
+		(* <- lang_ru;; *);;
+
+book_Egmont
+=> nrel_characters:
+	.book_Egmont_characters
+		(*
+			-> char_margarita_book_Egmont;;
+			-> char_klerhen_book_Egmont;;
+			-> char_egmontom_book_Egmont;;
+			-> char_flandrij_book_Egmont;;
+			-> char_ferdinand_book_Egmont;;
+			-> char_filipp_book_Egmont;;
+			-> char_klara_book_Egmont;;
+	 	*);;
+
+char_margarita_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Маргарита ]
+		(* <- lang_ru;; *);;
+
+char_klerhen_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Клэрхен ]
+		(* <- lang_ru;; *);;
+
+char_egmontom_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Эгмонтом ]
+		(* <- lang_ru;; *);;
+
+char_flandrij_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Фландрий ]
+		(* <- lang_ru;; *);;
+
+char_ferdinand_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Фердинанд ]
+		(* <- lang_ru;; *);;
+
+char_filipp_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Филипп ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Egmont
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Egmont
+=> nrel_locales:
+	.book_Egmont_locales
+		(*
+			-> locale_lubimaa_klerhen_book_Egmont;;
+			-> locale_kotoryj_book_Egmont;;
+			-> locale_antverpen_book_Egmont;;
+			-> locale_brussel__book_Egmont;;
+			-> locale_dobroporadocnyj_brakenburg_book_Egmont;;
+			-> locale_ispania_book_Egmont;;
+			-> locale_niderlandy_book_Egmont;;
+			-> locale_brakenburg_book_Egmont;;
+			-> locale_klerhen_book_Egmont;;
+			-> locale_sosednaa_germania_book_Egmont;;
+			-> locale_gorod_brakenburg_book_Egmont;;
+			-> locale_ona_klerhen_book_Egmont;;
+	 	*);;
+
+locale_lubimaa_klerhen_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Любимая Клэрхен ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_antverpen_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Антверпен ]
+		(* <- lang_ru;; *);;
+
+locale_brussel__book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Брюссель ]
+		(* <- lang_ru;; *);;
+
+locale_dobroporadocnyj_brakenburg_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Добропорядочный Бракенбург ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_niderlandy_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Нидерланды ]
+		(* <- lang_ru;; *);;
+
+locale_brakenburg_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Бракенбург ]
+		(* <- lang_ru;; *);;
+
+locale_klerhen_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Клэрхен ]
+		(* <- lang_ru;; *);;
+
+locale_sosednaa_germania_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Соседняя Германия ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_brakenburg_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Город Бракенбург ]
+		(* <- lang_ru;; *);;
+
+locale_ona_klerhen_book_Egmont
+<- locale;
+=> nrel_main_idtf:
+	[ Она Клэрхен ]
+		(* <- lang_ru;; *);;
+
+book_Egmont
+=> nrel_dates:
+	.book_Egmont_dates
+		(*
+			-> date_1568_book_Egmont;;
+	 	*);;
+
+date_1568_book_Egmont
+<- date;
+=> nrel_main_idtf:
+	[ 1568 ]
+		(* <- lang_ru;; *);;
+

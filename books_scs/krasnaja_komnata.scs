@@ -1,0 +1,239 @@
+book_Krasnaja_Komnata
+<- book;
+=> nrel_author;
+	author_Strindberg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Красная Комната]
+		(* <- lang_ru;; *);;
+
+book_Krasnaja_Komnata
+=> nrel_characters:
+	.book_Krasnaja_Komnata_characters
+		(*
+			-> char_nikolaus_fal_k_book_Krasnaja_Komnata;;
+			-> char_fal_k_book_Krasnaja_Komnata;;
+			-> char_arvid_fal_k_book_Krasnaja_Komnata;;
+			-> char_smit_book_Krasnaja_Komnata;;
+			-> char_agnes_book_Krasnaja_Komnata;;
+			-> char_nikolaus_book_Krasnaja_Komnata;;
+			-> char_sern_el_ma_book_Krasnaja_Komnata;;
+			-> char_ren_el_ma_book_Krasnaja_Komnata;;
+			-> char_ibsen_book_Krasnaja_Komnata;;
+			-> char_lundella_book_Krasnaja_Komnata;;
+			-> char_karl_book_Krasnaja_Komnata;;
+			-> char_gorazij_book_Krasnaja_Komnata;;
+			-> char_geteberg_book_Krasnaja_Komnata;;
+			-> char_georg_book_Krasnaja_Komnata;;
+			-> char_sellena_book_Krasnaja_Komnata;;
+			-> char_arvid_book_Krasnaja_Komnata;;
+			-> char_gamlet_book_Krasnaja_Komnata;;
+			-> char_igberg_book_Krasnaja_Komnata;;
+	 	*);;
+
+char_nikolaus_fal_k_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Николаус Фальк ]
+		(* <- lang_ru;; *);;
+
+char_fal_k_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Фальк ]
+		(* <- lang_ru;; *);;
+
+char_arvid_fal_k_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Арвид Фальк ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_agnes_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Агнес ]
+		(* <- lang_ru;; *);;
+
+char_nikolaus_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Николаус ]
+		(* <- lang_ru;; *);;
+
+char_sern_el_ma_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Шернъельма ]
+		(* <- lang_ru;; *);;
+
+char_ren_el_ma_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Реньельма ]
+		(* <- lang_ru;; *);;
+
+char_ibsen_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Ибсен ]
+		(* <- lang_ru;; *);;
+
+char_lundella_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Лунделля ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_gorazij_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Гораций ]
+		(* <- lang_ru;; *);;
+
+char_geteberg_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Гетеберг ]
+		(* <- lang_ru;; *);;
+
+char_georg_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Георг ]
+		(* <- lang_ru;; *);;
+
+char_sellena_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Селлена ]
+		(* <- lang_ru;; *);;
+
+char_arvid_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Арвид ]
+		(* <- lang_ru;; *);;
+
+char_gamlet_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Гамлет ]
+		(* <- lang_ru;; *);;
+
+char_igberg_book_Krasnaja_Komnata
+<- char;
+=> nrel_main_idtf:
+	[ Игберг ]
+		(* <- lang_ru;; *);;
+
+book_Krasnaja_Komnata
+=> nrel_locales:
+	.book_Krasnaja_Komnata_locales
+		(*
+			-> locale_stokgol_mskaa_book_Krasnaja_Komnata;;
+			-> locale_zapad_book_Krasnaja_Komnata;;
+			-> locale_nikolaus_book_Krasnaja_Komnata;;
+			-> locale_krasnaa_book_Krasnaja_Komnata;;
+			-> locale_sellena_book_Krasnaja_Komnata;;
+			-> locale_kuda_book_Krasnaja_Komnata;;
+			-> locale_svezia_book_Krasnaja_Komnata;;
+			-> locale_to_book_Krasnaja_Komnata;;
+			-> locale_parij_book_Krasnaja_Komnata;;
+			-> locale_bern_book_Krasnaja_Komnata;;
+			-> locale_stokgol_m_book_Krasnaja_Komnata;;
+			-> locale_borg_book_Krasnaja_Komnata;;
+			-> locale_lill__book_Krasnaja_Komnata;;
+	 	*);;
+
+locale_stokgol_mskaa_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Стокгольмская ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_nikolaus_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Николаус ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_sellena_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Селлена ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_svezia_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_bern_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Берн ]
+		(* <- lang_ru;; *);;
+
+locale_stokgol_m_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Стокгольм ]
+		(* <- lang_ru;; *);;
+
+locale_borg_book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Борг ]
+		(* <- lang_ru;; *);;
+
+locale_lill__book_Krasnaja_Komnata
+<- locale;
+=> nrel_main_idtf:
+	[ Лилль ]
+		(* <- lang_ru;; *);;
+

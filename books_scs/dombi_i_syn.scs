@@ -1,0 +1,218 @@
+book_Dombi_I_Syn
+<- book;
+=> nrel_author;
+	author_Dikkens;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Домби И Сын]
+		(* <- lang_ru;; *);;
+
+book_Dombi_I_Syn
+=> nrel_characters:
+	.book_Dombi_I_Syn_characters
+		(*
+			-> char_uolter_book_Dombi_I_Syn;;
+			-> char_braun_book_Dombi_I_Syn;;
+			-> char_djejms_karker_book_Dombi_I_Syn;;
+			-> char_pol__book_Dombi_I_Syn;;
+			-> char_florensa_book_Dombi_I_Syn;;
+			-> char_dombi_book_Dombi_I_Syn;;
+			-> char_s_uzen_book_Dombi_I_Syn;;
+			-> char_edita_book_Dombi_I_Syn;;
+			-> char_elisa_book_Dombi_I_Syn;;
+			-> char_djon_book_Dombi_I_Syn;;
+			-> char_djejms_book_Dombi_I_Syn;;
+			-> char_karker_book_Dombi_I_Syn;;
+			-> char_grejndjer_book_Dombi_I_Syn;;
+			-> char_gea_book_Dombi_I_Syn;;
+			-> char_elen_book_Dombi_I_Syn;;
+			-> char_djon_karker_book_Dombi_I_Syn;;
+			-> char_herieta_book_Dombi_I_Syn;;
+			-> char_edita_dombi_book_Dombi_I_Syn;;
+			-> char_solomon_book_Dombi_I_Syn;;
+			-> char_tuts_book_Dombi_I_Syn;;
+	 	*);;
+
+char_uolter_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Уолтер ]
+		(* <- lang_ru;; *);;
+
+char_braun_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Браун ]
+		(* <- lang_ru;; *);;
+
+char_djejms_karker_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс Каркер ]
+		(* <- lang_ru;; *);;
+
+char_pol__book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Поль ]
+		(* <- lang_ru;; *);;
+
+char_florensa_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Флоренса ]
+		(* <- lang_ru;; *);;
+
+char_dombi_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Домби ]
+		(* <- lang_ru;; *);;
+
+char_s_uzen_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Сьюзен ]
+		(* <- lang_ru;; *);;
+
+char_edita_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Эдита ]
+		(* <- lang_ru;; *);;
+
+char_elisa_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Элиса ]
+		(* <- lang_ru;; *);;
+
+char_djon_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Джон ]
+		(* <- lang_ru;; *);;
+
+char_djejms_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс ]
+		(* <- lang_ru;; *);;
+
+char_karker_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Каркер ]
+		(* <- lang_ru;; *);;
+
+char_grejndjer_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Грейнджер ]
+		(* <- lang_ru;; *);;
+
+char_gea_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Гея ]
+		(* <- lang_ru;; *);;
+
+char_elen_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Элен ]
+		(* <- lang_ru;; *);;
+
+char_djon_karker_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Джон Каркер ]
+		(* <- lang_ru;; *);;
+
+char_herieta_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Хериета ]
+		(* <- lang_ru;; *);;
+
+char_edita_dombi_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Эдита Домби ]
+		(* <- lang_ru;; *);;
+
+char_solomon_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Соломон ]
+		(* <- lang_ru;; *);;
+
+char_tuts_book_Dombi_I_Syn
+<- char;
+=> nrel_main_idtf:
+	[ Тутс ]
+		(* <- lang_ru;; *);;
+
+book_Dombi_I_Syn
+=> nrel_locales:
+	.book_Dombi_I_Syn_locales
+		(*
+			-> locale_barbados_book_Dombi_I_Syn;;
+			-> locale_djils_book_Dombi_I_Syn;;
+			-> locale_begstok_book_Dombi_I_Syn;;
+			-> locale_kotoryj_book_Dombi_I_Syn;;
+			-> locale_kuda_book_Dombi_I_Syn;;
+			-> locale_demington_book_Dombi_I_Syn;;
+			-> locale_nea_book_Dombi_I_Syn;;
+			-> locale_brajton_book_Dombi_I_Syn;;
+	 	*);;
+
+locale_barbados_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Барбадос ]
+		(* <- lang_ru;; *);;
+
+locale_djils_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Джилс ]
+		(* <- lang_ru;; *);;
+
+locale_begstok_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Бегсток ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_demington_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Демингтон ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_brajton_book_Dombi_I_Syn
+<- locale;
+=> nrel_main_idtf:
+	[ Брайтон ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,106 @@
+book_Pouchenie_Vladimira_Monomaha
+<- book;
+=> nrel_author;
+	author_Monomakh;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Поучение Владимира Мономаха Детям]
+		(* <- lang_ru;; *);;
+
+book_Pouchenie_Vladimira_Monomaha
+=> nrel_characters:
+	.book_Pouchenie_Vladimira_Monomaha_characters
+		(*
+			-> char_oleg_svatoslavic_book_Pouchenie_Vladimira_Monomaha;;
+			-> char_monom_book_Pouchenie_Vladimira_Monomaha;;
+			-> char_david_book_Pouchenie_Vladimira_Monomaha;;
+			-> char_oleg_book_Pouchenie_Vladimira_Monomaha;;
+			-> char_vladimir_book_Pouchenie_Vladimira_Monomaha;;
+	 	*);;
+
+char_oleg_svatoslavic_book_Pouchenie_Vladimira_Monomaha
+<- char;
+=> nrel_main_idtf:
+	[ Олег Святославич ]
+		(* <- lang_ru;; *);;
+
+char_monom_book_Pouchenie_Vladimira_Monomaha
+<- char;
+=> nrel_main_idtf:
+	[ Моном ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Pouchenie_Vladimira_Monomaha
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_oleg_book_Pouchenie_Vladimira_Monomaha
+<- char;
+=> nrel_main_idtf:
+	[ Олег ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Pouchenie_Vladimira_Monomaha
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+book_Pouchenie_Vladimira_Monomaha
+=> nrel_locales:
+	.book_Pouchenie_Vladimira_Monomaha_locales
+		(*
+			-> locale_cernigov_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_vladimir_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_rostov_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_volga_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_kiev_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_to_book_Pouchenie_Vladimira_Monomaha;;
+			-> locale_tur_book_Pouchenie_Vladimira_Monomaha;;
+	 	*);;
+
+locale_cernigov_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Чернигов ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_rostov_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tur_book_Pouchenie_Vladimira_Monomaha
+<- locale;
+=> nrel_main_idtf:
+	[ Тур ]
+		(* <- lang_ru;; *);;
+

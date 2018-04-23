@@ -1,0 +1,16 @@
+author_London
+<- person;
+=> nrel_main_idtf:
+	[Джек Лондон]
+		(* <- lang_ru;; *);;
+
+author_London
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/London.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,106 @@
+book_Imet_I_Ne_Imet
+<- book;
+=> nrel_author;
+	author_Heminguej;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Иметь И Не Иметь]
+		(* <- lang_ru;; *);;
+
+book_Imet_I_Ne_Imet
+=> nrel_characters:
+	.book_Imet_I_Ne_Imet_characters
+		(*
+			-> char_ricard_gordon_book_Imet_I_Ne_Imet;;
+			-> char_uollejs_book_Imet_I_Ne_Imet;;
+			-> char_elbert_book_Imet_I_Ne_Imet;;
+			-> char_garri_morgan_book_Imet_I_Ne_Imet;;
+			-> char_maria_book_Imet_I_Ne_Imet;;
+			-> char_morgan_book_Imet_I_Ne_Imet;;
+			-> char_garri_book_Imet_I_Ne_Imet;;
+	 	*);;
+
+char_ricard_gordon_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Ричард Гордон ]
+		(* <- lang_ru;; *);;
+
+char_uollejs_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Уоллэйс ]
+		(* <- lang_ru;; *);;
+
+char_elbert_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Элберт ]
+		(* <- lang_ru;; *);;
+
+char_garri_morgan_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Гарри Морган ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_morgan_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Морган ]
+		(* <- lang_ru;; *);;
+
+char_garri_book_Imet_I_Ne_Imet
+<- char;
+=> nrel_main_idtf:
+	[ Гарри ]
+		(* <- lang_ru;; *);;
+
+book_Imet_I_Ne_Imet
+=> nrel_locales:
+	.book_Imet_I_Ne_Imet_locales
+		(*
+			-> locale_kuba_book_Imet_I_Ne_Imet;;
+			-> locale_kotoryj_book_Imet_I_Ne_Imet;;
+			-> locale_kub_book_Imet_I_Ne_Imet;;
+			-> locale_to_book_Imet_I_Ne_Imet;;
+			-> locale_vasington_book_Imet_I_Ne_Imet;;
+	 	*);;
+
+locale_kuba_book_Imet_I_Ne_Imet
+<- locale;
+=> nrel_main_idtf:
+	[ Куба ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Imet_I_Ne_Imet
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kub_book_Imet_I_Ne_Imet
+<- locale;
+=> nrel_main_idtf:
+	[ Куб ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Imet_I_Ne_Imet
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_vasington_book_Imet_I_Ne_Imet
+<- locale;
+=> nrel_main_idtf:
+	[ Вашингтон ]
+		(* <- lang_ru;; *);;
+

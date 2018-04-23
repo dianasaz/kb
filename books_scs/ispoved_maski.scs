@@ -1,0 +1,154 @@
+book_Ispoved_Maski
+<- book;
+=> nrel_author;
+	author_Misima;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Исповедь Маски]
+		(* <- lang_ru;; *);;
+
+book_Ispoved_Maski
+=> nrel_characters:
+	.book_Ispoved_Maski_characters
+		(*
+			-> char_gvido_reni_book_Ispoved_Maski;;
+			-> char_janna_book_Ispoved_Maski;;
+			-> char_F_dostoevskij_book_Ispoved_Maski;;
+			-> char_sebast_an_book_Ispoved_Maski;;
+			-> char_ark_book_Ispoved_Maski;;
+			-> char_kij_book_Ispoved_Maski;;
+			-> char_kusanoe_book_Ispoved_Maski;;
+			-> char_sumiko_book_Ispoved_Maski;;
+			-> char_karamazov_book_Ispoved_Maski;;
+	 	*);;
+
+char_gvido_reni_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Гвидо Рени ]
+		(* <- lang_ru;; *);;
+
+char_janna_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Жанна ]
+		(* <- lang_ru;; *);;
+
+char_F_dostoevskij_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Ф Достоевский ]
+		(* <- lang_ru;; *);;
+
+char_sebast_an_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Себастьян ]
+		(* <- lang_ru;; *);;
+
+char_ark_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Арк ]
+		(* <- lang_ru;; *);;
+
+char_kij_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Кий ]
+		(* <- lang_ru;; *);;
+
+char_kusanoe_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Кусаное ]
+		(* <- lang_ru;; *);;
+
+char_sumiko_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Сумико ]
+		(* <- lang_ru;; *);;
+
+char_karamazov_book_Ispoved_Maski
+<- char;
+=> nrel_main_idtf:
+	[ Карамазов ]
+		(* <- lang_ru;; *);;
+
+book_Ispoved_Maski
+=> nrel_locales:
+	.book_Ispoved_Maski_locales
+		(*
+			-> locale_kotoryj_book_Ispoved_Maski;;
+			-> locale_vospol__book_Ispoved_Maski;;
+			-> locale_tokio_book_Ispoved_Maski;;
+			-> locale_aponia_book_Ispoved_Maski;;
+			-> locale_sonoko_book_Ispoved_Maski;;
+			-> locale_om__book_Ispoved_Maski;;
+			-> locale_reni_book_Ispoved_Maski;;
+	 	*);;
+
+locale_kotoryj_book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_vospol__book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Восполь ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_sonoko_book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Соноко ]
+		(* <- lang_ru;; *);;
+
+locale_om__book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Омь ]
+		(* <- lang_ru;; *);;
+
+locale_reni_book_Ispoved_Maski
+<- locale;
+=> nrel_main_idtf:
+	[ Рени ]
+		(* <- lang_ru;; *);;
+
+book_Ispoved_Maski
+=> nrel_dates:
+	.book_Ispoved_Maski_dates
+		(*
+			-> date_1925_1_14_book_Ispoved_Maski;;
+			-> date_1944_9_book_Ispoved_Maski;;
+	 	*);;
+
+date_1925_1_14_book_Ispoved_Maski
+<- date;
+=> nrel_main_idtf:
+	[ 1925 1 14 ]
+		(* <- lang_ru;; *);;
+
+date_1944_9_book_Ispoved_Maski
+<- date;
+=> nrel_main_idtf:
+	[ 1944 9 ]
+		(* <- lang_ru;; *);;
+

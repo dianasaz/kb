@@ -1,0 +1,133 @@
+book_Procshaj_Oruzhie
+<- book;
+=> nrel_author;
+	author_Heminguej;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Прощай, Оружие!]
+		(* <- lang_ru;; *);;
+
+book_Procshaj_Oruzhie
+=> nrel_characters:
+	.book_Procshaj_Oruzhie_characters
+		(*
+			-> char_antonij_book_Procshaj_Oruzhie;;
+			-> char_ketrin_barkli_book_Procshaj_Oruzhie;;
+			-> char_frederik_book_Procshaj_Oruzhie;;
+			-> char_genri_book_Procshaj_Oruzhie;;
+			-> char_barkli_book_Procshaj_Oruzhie;;
+			-> char_ketrin_book_Procshaj_Oruzhie;;
+	 	*);;
+
+char_antonij_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Антоний ]
+		(* <- lang_ru;; *);;
+
+char_ketrin_barkli_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Кэтрин Баркли ]
+		(* <- lang_ru;; *);;
+
+char_frederik_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Фредерик ]
+		(* <- lang_ru;; *);;
+
+char_genri_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Генри ]
+		(* <- lang_ru;; *);;
+
+char_barkli_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Баркли ]
+		(* <- lang_ru;; *);;
+
+char_ketrin_book_Procshaj_Oruzhie
+<- char;
+=> nrel_main_idtf:
+	[ Кэтрин ]
+		(* <- lang_ru;; *);;
+
+book_Procshaj_Oruzhie
+=> nrel_locales:
+	.book_Procshaj_Oruzhie_locales
+		(*
+			-> locale_milan_book_Procshaj_Oruzhie;;
+			-> locale_franzia_book_Procshaj_Oruzhie;;
+			-> locale_italia_book_Procshaj_Oruzhie;;
+			-> locale_ssa_book_Procshaj_Oruzhie;;
+			-> locale_kuda_book_Procshaj_Oruzhie;;
+			-> locale_gorodok_book_Procshaj_Oruzhie;;
+			-> locale_to_book_Procshaj_Oruzhie;;
+			-> locale_svejzaria_book_Procshaj_Oruzhie;;
+	 	*);;
+
+locale_milan_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Милан ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Procshaj_Oruzhie
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Procshaj_Oruzhie
+=> nrel_dates:
+	.book_Procshaj_Oruzhie_dates
+		(*
+			-> date_1918_book_Procshaj_Oruzhie;;
+	 	*);;
+
+date_1918_book_Procshaj_Oruzhie
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+

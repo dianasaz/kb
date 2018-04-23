@@ -1,0 +1,245 @@
+book_Nad_Nemanom
+<- book;
+=> nrel_author;
+	author_Ozheshko;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Над Неманом]
+		(* <- lang_ru;; *);;
+
+book_Nad_Nemanom
+=> nrel_characters:
+	.book_Nad_Nemanom_characters
+		(*
+			-> char_vitol_d_korcinskij_book_Nad_Nemanom;;
+			-> char_andjej_korcinskij_book_Nad_Nemanom;;
+			-> char_emilia_korcinskaa_book_Nad_Nemanom;;
+			-> char_zigmunt_korcinskij_book_Nad_Nemanom;;
+			-> char_zigmunt_book_Nad_Nemanom;;
+			-> char_zezilia_book_Nad_Nemanom;;
+			-> char_kirlov_book_Nad_Nemanom;;
+			-> char_vitol_d_book_Nad_Nemanom;;
+			-> char_teofil__book_Nad_Nemanom;;
+			-> char_andjej_book_Nad_Nemanom;;
+			-> char_klotil_da_book_Nad_Nemanom;;
+			-> char_roman_book_Nad_Nemanom;;
+			-> char_an_bogatyrovic_book_Nad_Nemanom;;
+			-> char_benedikt_book_Nad_Nemanom;;
+			-> char_ustina_book_Nad_Nemanom;;
+			-> char_ana_korcinskij_book_Nad_Nemanom;;
+			-> char_benedikt_korcinskij_book_Nad_Nemanom;;
+			-> char_anzel_m_book_Nad_Nemanom;;
+			-> char_an_book_Nad_Nemanom;;
+	 	*);;
+
+char_vitol_d_korcinskij_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Витольд Корчинский ]
+		(* <- lang_ru;; *);;
+
+char_andjej_korcinskij_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Анджей Корчинский ]
+		(* <- lang_ru;; *);;
+
+char_emilia_korcinskaa_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Эмилия Корчинская ]
+		(* <- lang_ru;; *);;
+
+char_zigmunt_korcinskij_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Зигмунт Корчинский ]
+		(* <- lang_ru;; *);;
+
+char_zigmunt_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Зигмунт ]
+		(* <- lang_ru;; *);;
+
+char_zezilia_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Цецилия ]
+		(* <- lang_ru;; *);;
+
+char_kirlov_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Кирлов ]
+		(* <- lang_ru;; *);;
+
+char_vitol_d_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Витольд ]
+		(* <- lang_ru;; *);;
+
+char_teofil__book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Теофиль ]
+		(* <- lang_ru;; *);;
+
+char_andjej_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Анджей ]
+		(* <- lang_ru;; *);;
+
+char_klotil_da_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Клотильда ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_an_bogatyrovic_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Ян Богатырович ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт ]
+		(* <- lang_ru;; *);;
+
+char_ustina_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Юстина ]
+		(* <- lang_ru;; *);;
+
+char_ana_korcinskij_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Яна Корчинский ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_korcinskij_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт Корчинский ]
+		(* <- lang_ru;; *);;
+
+char_anzel_m_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Анзельм ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Nad_Nemanom
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Nad_Nemanom
+=> nrel_locales:
+	.book_Nad_Nemanom_locales
+		(*
+			-> locale_byvsaa_pol_sa_book_Nad_Nemanom;;
+			-> locale_an_book_Nad_Nemanom;;
+			-> locale_kotoryj_book_Nad_Nemanom;;
+			-> locale_grodno_book_Nad_Nemanom;;
+			-> locale_gorod_vil_no_book_Nad_Nemanom;;
+			-> locale_on_rasskazov_book_Nad_Nemanom;;
+			-> locale_to_book_Nad_Nemanom;;
+			-> locale_nea_book_Nad_Nemanom;;
+			-> locale_neman_book_Nad_Nemanom;;
+			-> locale_kos_book_Nad_Nemanom;;
+			-> locale_peterburg_book_Nad_Nemanom;;
+	 	*);;
+
+locale_byvsaa_pol_sa_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Бывшая Польша ]
+		(* <- lang_ru;; *);;
+
+locale_an_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_grodno_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Гродно ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_vil_no_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Город Вильно ]
+		(* <- lang_ru;; *);;
+
+locale_on_rasskazov_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Он Рассказов ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_neman_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Неман ]
+		(* <- lang_ru;; *);;
+
+locale_kos_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Кос ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Nad_Nemanom
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Nad_Nemanom
+=> nrel_dates:
+	.book_Nad_Nemanom_dates
+		(*
+			-> date_1863_book_Nad_Nemanom;;
+	 	*);;
+
+date_1863_book_Nad_Nemanom
+<- date;
+=> nrel_main_idtf:
+	[ 1863 ]
+		(* <- lang_ru;; *);;
+

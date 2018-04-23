@@ -1,0 +1,16 @@
+author_Zuzak
+<- person;
+=> nrel_main_idtf:
+	[Маркус Зусак]
+		(* <- lang_ru;; *);;
+
+author_Zuzak
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Zuzak.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,210 @@
+book_Zemlja_Ljudej
+<- book;
+=> nrel_author;
+	author_Sent_Ekzjuperi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Планета Людей]
+		(* <- lang_ru;; *);;
+
+book_Zemlja_Ljudej
+=> nrel_characters:
+	.book_Zemlja_Ljudej_characters
+		(*
+			-> char_anri_book_Zemlja_Ljudej;;
+			-> char_anda_book_Zemlja_Ljudej;;
+			-> char_mohammed_book_Zemlja_Ljudej;;
+			-> char_ajres_book_Zemlja_Ljudej;;
+			-> char_dakar_book_Zemlja_Ljudej;;
+			-> char_mozart_book_Zemlja_Ljudej;;
+	 	*);;
+
+char_anri_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Анри ]
+		(* <- lang_ru;; *);;
+
+char_anda_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Анда ]
+		(* <- lang_ru;; *);;
+
+char_mohammed_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Мохаммед ]
+		(* <- lang_ru;; *);;
+
+char_ajres_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Айрес ]
+		(* <- lang_ru;; *);;
+
+char_dakar_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Дакар ]
+		(* <- lang_ru;; *);;
+
+char_mozart_book_Zemlja_Ljudej
+<- char;
+=> nrel_main_idtf:
+	[ Моцарт ]
+		(* <- lang_ru;; *);;
+
+book_Zemlja_Ljudej
+=> nrel_locales:
+	.book_Zemlja_Ljudej_locales
+		(*
+			-> locale_livia_book_Zemlja_Ljudej;;
+			-> locale_tuluza_book_Zemlja_Ljudej;;
+			-> locale_sahara_book_Zemlja_Ljudej;;
+			-> locale_dakar_book_Zemlja_Ljudej;;
+			-> locale_ujnaa_atlantika_book_Zemlja_Ljudej;;
+			-> locale_franzia_book_Zemlja_Ljudej;;
+			-> locale_kasablanka_book_Zemlja_Ljudej;;
+			-> locale_anda_book_Zemlja_Ljudej;;
+			-> locale_buenos_book_Zemlja_Ljudej;;
+			-> locale_gijoma_book_Zemlja_Ljudej;;
+			-> locale_velikoe_book_Zemlja_Ljudej;;
+			-> locale_prevo_book_Zemlja_Ljudej;;
+			-> locale_zapadnaa_afrika_book_Zemlja_Ljudej;;
+			-> locale_barselona_book_Zemlja_Ljudej;;
+			-> locale_parij_book_Zemlja_Ljudej;;
+			-> locale_marrakes_book_Zemlja_Ljudej;;
+			-> locale_argentina_book_Zemlja_Ljudej;;
+			-> locale_mermoz_book_Zemlja_Ljudej;;
+	 	*);;
+
+locale_livia_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Ливия ]
+		(* <- lang_ru;; *);;
+
+locale_tuluza_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Тулуза ]
+		(* <- lang_ru;; *);;
+
+locale_sahara_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_dakar_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Дакар ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_atlantika_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Атлантика ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_kasablanka_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Касабланка ]
+		(* <- lang_ru;; *);;
+
+locale_anda_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Анда ]
+		(* <- lang_ru;; *);;
+
+locale_buenos_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Буэнос ]
+		(* <- lang_ru;; *);;
+
+locale_gijoma_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Гийома ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_prevo_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Прево ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnaa_afrika_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Западная Африка ]
+		(* <- lang_ru;; *);;
+
+locale_barselona_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Барселона ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_marrakes_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Марракеш ]
+		(* <- lang_ru;; *);;
+
+locale_argentina_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Аргентина ]
+		(* <- lang_ru;; *);;
+
+locale_mermoz_book_Zemlja_Ljudej
+<- locale;
+=> nrel_main_idtf:
+	[ Мермоз ]
+		(* <- lang_ru;; *);;
+
+book_Zemlja_Ljudej
+=> nrel_dates:
+	.book_Zemlja_Ljudej_dates
+		(*
+			-> date_1926_book_Zemlja_Ljudej;;
+			-> date_1935_book_Zemlja_Ljudej;;
+	 	*);;
+
+date_1926_book_Zemlja_Ljudej
+<- date;
+=> nrel_main_idtf:
+	[ 1926 ]
+		(* <- lang_ru;; *);;
+
+date_1935_book_Zemlja_Ljudej
+<- date;
+=> nrel_main_idtf:
+	[ 1935 ]
+		(* <- lang_ru;; *);;
+

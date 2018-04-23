@@ -1,0 +1,120 @@
+book_Tantcovshchitca
+<- book;
+=> nrel_author;
+	author_Mori;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Танцовщица]
+		(* <- lang_ru;; *);;
+
+book_Tantcovshchitca
+=> nrel_characters:
+	.book_Tantcovshchitca_characters
+		(*
+			-> char_vajgert_book_Tantcovshchitca;;
+			-> char_aidzav_book_Tantcovshchitca;;
+			-> char_amakata_book_Tantcovshchitca;;
+			-> char_ernst_book_Tantcovshchitca;;
+			-> char_eliza_book_Tantcovshchitca;;
+			-> char_avakata_book_Tantcovshchitca;;
+	 	*);;
+
+char_vajgert_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Вайгерт ]
+		(* <- lang_ru;; *);;
+
+char_aidzav_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Аидзав ]
+		(* <- lang_ru;; *);;
+
+char_amakata_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Амаката ]
+		(* <- lang_ru;; *);;
+
+char_ernst_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Эрнст ]
+		(* <- lang_ru;; *);;
+
+char_eliza_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Элиза ]
+		(* <- lang_ru;; *);;
+
+char_avakata_book_Tantcovshchitca
+<- char;
+=> nrel_main_idtf:
+	[ Аваката ]
+		(* <- lang_ru;; *);;
+
+book_Tantcovshchitca
+=> nrel_locales:
+	.book_Tantcovshchitca_locales
+		(*
+			-> locale_breda_book_Tantcovshchitca;;
+			-> locale_rossia_book_Tantcovshchitca;;
+			-> locale_aponia_book_Tantcovshchitca;;
+			-> locale_evropa_book_Tantcovshchitca;;
+			-> locale_tokio_book_Tantcovshchitca;;
+			-> locale_germania_book_Tantcovshchitca;;
+			-> locale_viktoria_book_Tantcovshchitca;;
+			-> locale_berlin_book_Tantcovshchitca;;
+	 	*);;
+
+locale_breda_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_viktoria_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Виктория ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Tantcovshchitca
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+

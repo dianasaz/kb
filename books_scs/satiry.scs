@@ -1,0 +1,134 @@
+book_Satiry
+<- book;
+=> nrel_author;
+	author_Kantemir;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сатиры]
+		(* <- lang_ru;; *);;
+
+book_Satiry
+=> nrel_characters:
+	.book_Satiry_characters
+		(*
+			-> char_noj_book_Satiry;;
+			-> char_zizeron_book_Satiry;;
+			-> char_petrov_book_Satiry;;
+			-> char_klita_book_Satiry;;
+			-> char_petr_velikij_book_Satiry;;
+			-> char_evgenij_book_Satiry;;
+			-> char_nikita_urievic_trubezkoj_book_Satiry;;
+			-> char_trifon_book_Satiry;;
+			-> char_ol_ga_book_Satiry;;
+			-> char_sil_va_book_Satiry;;
+			-> char_evklid_book_Satiry;;
+			-> char_filaret_book_Satiry;;
+	 	*);;
+
+char_noj_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Ной ]
+		(* <- lang_ru;; *);;
+
+char_zizeron_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Цицерон ]
+		(* <- lang_ru;; *);;
+
+char_petrov_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Петров ]
+		(* <- lang_ru;; *);;
+
+char_klita_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Клита ]
+		(* <- lang_ru;; *);;
+
+char_petr_velikij_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Великий ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Евгений ]
+		(* <- lang_ru;; *);;
+
+char_nikita_urievic_trubezkoj_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Никита Юриевич Трубецкой ]
+		(* <- lang_ru;; *);;
+
+char_trifon_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Трифон ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_sil_va_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Сильва ]
+		(* <- lang_ru;; *);;
+
+char_evklid_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Евклид ]
+		(* <- lang_ru;; *);;
+
+char_filaret_book_Satiry
+<- char;
+=> nrel_main_idtf:
+	[ Филарет ]
+		(* <- lang_ru;; *);;
+
+book_Satiry
+=> nrel_locales:
+	.book_Satiry_locales
+		(*
+			-> locale_inaa_poranea_book_Satiry;;
+			-> locale_velikoe_book_Satiry;;
+			-> locale_peru_book_Satiry;;
+			-> locale_lubaa_niva_book_Satiry;;
+	 	*);;
+
+locale_inaa_poranea_book_Satiry
+<- locale;
+=> nrel_main_idtf:
+	[ Иная Поранея ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Satiry
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_peru_book_Satiry
+<- locale;
+=> nrel_main_idtf:
+	[ Перу ]
+		(* <- lang_ru;; *);;
+
+locale_lubaa_niva_book_Satiry
+<- locale;
+=> nrel_main_idtf:
+	[ Любая Нива ]
+		(* <- lang_ru;; *);;
+

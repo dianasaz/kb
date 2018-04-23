@@ -1,0 +1,120 @@
+book_Romeo_I_Dzhuletta
+<- book;
+=> nrel_author;
+	author_Shekspir;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ромео И Джульетта]
+		(* <- lang_ru;; *);;
+
+book_Romeo_I_Dzhuletta
+=> nrel_characters:
+	.book_Romeo_I_Dzhuletta_characters
+		(*
+			-> char_paris_book_Romeo_I_Dzhuletta;;
+			-> char_tibal_t_book_Romeo_I_Dzhuletta;;
+			-> char_lorenzo_book_Romeo_I_Dzhuletta;;
+			-> char_merkuzio_book_Romeo_I_Dzhuletta;;
+			-> char_djul_etta_book_Romeo_I_Dzhuletta;;
+			-> char_romeo_book_Romeo_I_Dzhuletta;;
+			-> char_rozalina_book_Romeo_I_Dzhuletta;;
+			-> char_montekka_book_Romeo_I_Dzhuletta;;
+			-> char_paris_book_Romeo_I_Dzhuletta;;
+			-> char_baltazar_book_Romeo_I_Dzhuletta;;
+	 	*);;
+
+char_paris_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_tibal_t_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Тибальт ]
+		(* <- lang_ru;; *);;
+
+char_lorenzo_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Лоренцо ]
+		(* <- lang_ru;; *);;
+
+char_merkuzio_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Меркуцио ]
+		(* <- lang_ru;; *);;
+
+char_djul_etta_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Джульетта ]
+		(* <- lang_ru;; *);;
+
+char_romeo_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Ромео ]
+		(* <- lang_ru;; *);;
+
+char_rozalina_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Розалина ]
+		(* <- lang_ru;; *);;
+
+char_montekka_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Монтекка ]
+		(* <- lang_ru;; *);;
+
+char_paris_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_baltazar_book_Romeo_I_Dzhuletta
+<- char;
+=> nrel_main_idtf:
+	[ Балтазар ]
+		(* <- lang_ru;; *);;
+
+book_Romeo_I_Dzhuletta
+=> nrel_locales:
+	.book_Romeo_I_Dzhuletta_locales
+		(*
+			-> locale_merkuzio_book_Romeo_I_Dzhuletta;;
+			-> locale_mantuj_book_Romeo_I_Dzhuletta;;
+			-> locale_to_book_Romeo_I_Dzhuletta;;
+			-> locale_verona_book_Romeo_I_Dzhuletta;;
+	 	*);;
+
+locale_merkuzio_book_Romeo_I_Dzhuletta
+<- locale;
+=> nrel_main_idtf:
+	[ Меркуцио ]
+		(* <- lang_ru;; *);;
+
+locale_mantuj_book_Romeo_I_Dzhuletta
+<- locale;
+=> nrel_main_idtf:
+	[ Мантуй ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Romeo_I_Dzhuletta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_verona_book_Romeo_I_Dzhuletta
+<- locale;
+=> nrel_main_idtf:
+	[ Верона ]
+		(* <- lang_ru;; *);;
+

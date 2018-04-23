@@ -1,0 +1,85 @@
+book_Peppi_Sobiraetsia_V_Put
+<- book;
+=> nrel_author;
+	author_Lindgren;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пеппи Собирается В Путь]
+		(* <- lang_ru;; *);;
+
+book_Peppi_Sobiraetsia_V_Put
+=> nrel_characters:
+	.book_Peppi_Sobiraetsia_V_Put_characters
+		(*
+			-> char_annik_book_Peppi_Sobiraetsia_V_Put;;
+			-> char_tommi_book_Peppi_Sobiraetsia_V_Put;;
+			-> char_efroasij_book_Peppi_Sobiraetsia_V_Put;;
+	 	*);;
+
+char_annik_book_Peppi_Sobiraetsia_V_Put
+<- char;
+=> nrel_main_idtf:
+	[ Анник ]
+		(* <- lang_ru;; *);;
+
+char_tommi_book_Peppi_Sobiraetsia_V_Put
+<- char;
+=> nrel_main_idtf:
+	[ Томми ]
+		(* <- lang_ru;; *);;
+
+char_efroasij_book_Peppi_Sobiraetsia_V_Put
+<- char;
+=> nrel_main_idtf:
+	[ Эфроящий ]
+		(* <- lang_ru;; *);;
+
+book_Peppi_Sobiraetsia_V_Put
+=> nrel_locales:
+	.book_Peppi_Sobiraetsia_V_Put_locales
+		(*
+			-> locale_portu_book_Peppi_Sobiraetsia_V_Put;;
+			-> locale_krasnaa_book_Peppi_Sobiraetsia_V_Put;;
+			-> locale_gorodok_book_Peppi_Sobiraetsia_V_Put;;
+			-> locale_to_book_Peppi_Sobiraetsia_V_Put;;
+			-> locale_ves__gorodok_book_Peppi_Sobiraetsia_V_Put;;
+			-> locale_tir_book_Peppi_Sobiraetsia_V_Put;;
+	 	*);;
+
+locale_portu_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ves__gorodok_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Городок ]
+		(* <- lang_ru;; *);;
+
+locale_tir_book_Peppi_Sobiraetsia_V_Put
+<- locale;
+=> nrel_main_idtf:
+	[ Тир ]
+		(* <- lang_ru;; *);;
+

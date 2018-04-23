@@ -1,0 +1,336 @@
+book_Petr_Velikii
+<- book;
+=> nrel_author;
+	author_Lomonosov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пётр Великий]
+		(* <- lang_ru;; *);;
+
+book_Petr_Velikii
+=> nrel_characters:
+	.book_Petr_Velikii_characters
+		(*
+			-> char_feodora_book_Petr_Velikii;;
+			-> char_ivan_ivanovic_suvalov_book_Petr_Velikii;;
+			-> char_ivan_book_Petr_Velikii;;
+			-> char_naryskin_book_Petr_Velikii;;
+			-> char_ioann_book_Petr_Velikii;;
+			-> char_aleksej_mihajlovic_book_Petr_Velikii;;
+			-> char_ioakim_book_Petr_Velikii;;
+			-> char_matveev_book_Petr_Velikii;;
+			-> char_karpov_book_Petr_Velikii;;
+			-> char_petr_book_Petr_Velikii;;
+			-> char_rosskij_book_Petr_Velikii;;
+			-> char_alekseevic_book_Petr_Velikii;;
+			-> char_karl_book_Petr_Velikii;;
+			-> char_natal_a_kirillovna_book_Petr_Velikii;;
+			-> char_aleksandr_nevskij_book_Petr_Velikii;;
+			-> char_magellan_book_Petr_Velikii;;
+			-> char_ioann_groznyj_book_Petr_Velikii;;
+			-> char_petra_book_Petr_Velikii;;
+			-> char_petr_tolstoj_book_Petr_Velikii;;
+			-> char_kolumb_book_Petr_Velikii;;
+			-> char_firs_book_Petr_Velikii;;
+			-> char_aleksej_book_Petr_Velikii;;
+			-> char_petr_velikij_book_Petr_Velikii;;
+			-> char_lomonosov_book_Petr_Velikii;;
+			-> char_kirill_naryskin_book_Petr_Velikii;;
+			-> char_hovanskij_book_Petr_Velikii;;
+			-> char_mihail_book_Petr_Velikii;;
+			-> char_romanov_book_Petr_Velikii;;
+	 	*);;
+
+char_feodora_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Феодора ]
+		(* <- lang_ru;; *);;
+
+char_ivan_ivanovic_suvalov_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Иван Иванович Шувалов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_naryskin_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Нарышкин ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_mihajlovic_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Михайлович ]
+		(* <- lang_ru;; *);;
+
+char_ioakim_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Иоаким ]
+		(* <- lang_ru;; *);;
+
+char_matveev_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Матвеев ]
+		(* <- lang_ru;; *);;
+
+char_karpov_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Карпов ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_rosskij_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Росский ]
+		(* <- lang_ru;; *);;
+
+char_alekseevic_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Алексеевич ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_natal_a_kirillovna_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Наталья Кирилловна ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_nevskij_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Александр Невский ]
+		(* <- lang_ru;; *);;
+
+char_magellan_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Магеллан ]
+		(* <- lang_ru;; *);;
+
+char_ioann_groznyj_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн Грозный ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_petr_tolstoj_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Толстой ]
+		(* <- lang_ru;; *);;
+
+char_kolumb_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Колумб ]
+		(* <- lang_ru;; *);;
+
+char_firs_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Фирс ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Алексей ]
+		(* <- lang_ru;; *);;
+
+char_petr_velikij_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Великий ]
+		(* <- lang_ru;; *);;
+
+char_lomonosov_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Ломоносов ]
+		(* <- lang_ru;; *);;
+
+char_kirill_naryskin_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Кирилл Нарышкин ]
+		(* <- lang_ru;; *);;
+
+char_hovanskij_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Хованский ]
+		(* <- lang_ru;; *);;
+
+char_mihail_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Михаил ]
+		(* <- lang_ru;; *);;
+
+char_romanov_book_Petr_Velikii
+<- char;
+=> nrel_main_idtf:
+	[ Романов ]
+		(* <- lang_ru;; *);;
+
+book_Petr_Velikii
+=> nrel_locales:
+	.book_Petr_Velikii_locales
+		(*
+			-> locale_olonez_book_Petr_Velikii;;
+			-> locale_groznyj_book_Petr_Velikii;;
+			-> locale_rossia_book_Petr_Velikii;;
+			-> locale_slissel_burg_book_Petr_Velikii;;
+			-> locale_baltijskij_book_Petr_Velikii;;
+			-> locale_preobrajenskij_book_Petr_Velikii;;
+			-> locale_novoe_velikoe_book_Petr_Velikii;;
+			-> locale_moskva_book_Petr_Velikii;;
+			-> locale_volhov_book_Petr_Velikii;;
+			-> locale_vsa_moskva_book_Petr_Velikii;;
+			-> locale_to_book_Petr_Velikii;;
+			-> locale_amerika_book_Petr_Velikii;;
+			-> locale_neva_book_Petr_Velikii;;
+			-> locale_arhangel_sk_book_Petr_Velikii;;
+			-> locale_sofia_book_Petr_Velikii;;
+	 	*);;
+
+locale_olonez_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Олонец ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_slissel_burg_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Шлиссельбург ]
+		(* <- lang_ru;; *);;
+
+locale_baltijskij_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Балтийский ]
+		(* <- lang_ru;; *);;
+
+locale_preobrajenskij_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Преображенский ]
+		(* <- lang_ru;; *);;
+
+locale_novoe_velikoe_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Новое Великое ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_volhov_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Волхов ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_moskva_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_neva_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Нева ]
+		(* <- lang_ru;; *);;
+
+locale_arhangel_sk_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ Архангельск ]
+		(* <- lang_ru;; *);;
+
+locale_sofia_book_Petr_Velikii
+<- locale;
+=> nrel_main_idtf:
+	[ София ]
+		(* <- lang_ru;; *);;
+
+book_Petr_Velikii
+=> nrel_dates:
+	.book_Petr_Velikii_dates
+		(*
+			-> date_1702_book_Petr_Velikii;;
+	 	*);;
+
+date_1702_book_Petr_Velikii
+<- date;
+=> nrel_main_idtf:
+	[ 1702 ]
+		(* <- lang_ru;; *);;
+

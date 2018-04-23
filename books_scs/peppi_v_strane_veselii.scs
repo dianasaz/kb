@@ -1,0 +1,113 @@
+book_Peppi_V_Strane_Veselii
+<- book;
+=> nrel_author;
+	author_Lindgren;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пеппи В Стране Веселии]
+		(* <- lang_ru;; *);;
+
+book_Peppi_V_Strane_Veselii
+=> nrel_characters:
+	.book_Peppi_V_Strane_Veselii_characters
+		(*
+			-> char_annik_book_Peppi_V_Strane_Veselii;;
+			-> char_tommi_book_Peppi_V_Strane_Veselii;;
+			-> char_laura_book_Peppi_V_Strane_Veselii;;
+			-> char_djim_book_Peppi_V_Strane_Veselii;;
+	 	*);;
+
+char_annik_book_Peppi_V_Strane_Veselii
+<- char;
+=> nrel_main_idtf:
+	[ Анник ]
+		(* <- lang_ru;; *);;
+
+char_tommi_book_Peppi_V_Strane_Veselii
+<- char;
+=> nrel_main_idtf:
+	[ Томми ]
+		(* <- lang_ru;; *);;
+
+char_laura_book_Peppi_V_Strane_Veselii
+<- char;
+=> nrel_main_idtf:
+	[ Лаура ]
+		(* <- lang_ru;; *);;
+
+char_djim_book_Peppi_V_Strane_Veselii
+<- char;
+=> nrel_main_idtf:
+	[ Джим ]
+		(* <- lang_ru;; *);;
+
+book_Peppi_V_Strane_Veselii
+=> nrel_locales:
+	.book_Peppi_V_Strane_Veselii_locales
+		(*
+			-> locale_kurgan_book_Peppi_V_Strane_Veselii;;
+			-> locale_pal_ma_book_Peppi_V_Strane_Veselii;;
+			-> locale_buk_book_Peppi_V_Strane_Veselii;;
+			-> locale_malen_kij_gorodok_book_Peppi_V_Strane_Veselii;;
+			-> locale_velikij_book_Peppi_V_Strane_Veselii;;
+			-> locale_gorodok_book_Peppi_V_Strane_Veselii;;
+			-> locale_svezia_book_Peppi_V_Strane_Veselii;;
+			-> locale_veselanin_book_Peppi_V_Strane_Veselii;;
+			-> locale_svedskij_gorodok_book_Peppi_V_Strane_Veselii;;
+	 	*);;
+
+locale_kurgan_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Курган ]
+		(* <- lang_ru;; *);;
+
+locale_pal_ma_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_buk_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Бук ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_svezia_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_veselanin_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Веселянин ]
+		(* <- lang_ru;; *);;
+
+locale_svedskij_gorodok_book_Peppi_V_Strane_Veselii
+<- locale;
+=> nrel_main_idtf:
+	[ Шведский Городок ]
+		(* <- lang_ru;; *);;
+

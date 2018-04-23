@@ -1,0 +1,57 @@
+book_Fjametta
+<- book;
+=> nrel_author;
+	author_Bokkachcho;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фьямметта]
+		(* <- lang_ru;; *);;
+
+book_Fjametta
+=> nrel_characters:
+	.book_Fjametta_characters
+		(*
+			-> char_f_ametta_book_Fjametta;;
+	 	*);;
+
+char_f_ametta_book_Fjametta
+<- char;
+=> nrel_main_idtf:
+	[ Фьяметта ]
+		(* <- lang_ru;; *);;
+
+book_Fjametta
+=> nrel_locales:
+	.book_Fjametta_locales
+		(*
+			-> locale_luga_book_Fjametta;;
+			-> locale_gekub_book_Fjametta;;
+			-> locale_to_book_Fjametta;;
+			-> locale_florenzia_book_Fjametta;;
+	 	*);;
+
+locale_luga_book_Fjametta
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_gekub_book_Fjametta
+<- locale;
+=> nrel_main_idtf:
+	[ Гекуб ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Fjametta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Fjametta
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,113 @@
+book_Ljubov_K_Trem_Apelsinam
+<- book;
+=> nrel_author;
+	author_Gocci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Любовь К Трём Апельсинам]
+		(* <- lang_ru;; *);;
+
+book_Ljubov_K_Trem_Apelsinam
+=> nrel_characters:
+	.book_Ljubov_K_Trem_Apelsinam_characters
+		(*
+			-> char_klaric_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_pantalone_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_celio_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_leandro_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_brigella_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_sil_vio_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_tartal_a_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_morgan_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_ninetta_book_Ljubov_K_Trem_Apelsinam;;
+			-> char_smeral_din_book_Ljubov_K_Trem_Apelsinam;;
+	 	*);;
+
+char_klaric_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Кларич ]
+		(* <- lang_ru;; *);;
+
+char_pantalone_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_celio_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Челио ]
+		(* <- lang_ru;; *);;
+
+char_leandro_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Леандро ]
+		(* <- lang_ru;; *);;
+
+char_brigella_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Бригелла ]
+		(* <- lang_ru;; *);;
+
+char_sil_vio_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Сильвио ]
+		(* <- lang_ru;; *);;
+
+char_tartal_a_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Тарталья ]
+		(* <- lang_ru;; *);;
+
+char_morgan_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Морган ]
+		(* <- lang_ru;; *);;
+
+char_ninetta_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Нинетта ]
+		(* <- lang_ru;; *);;
+
+char_smeral_din_book_Ljubov_K_Trem_Apelsinam
+<- char;
+=> nrel_main_idtf:
+	[ Смеральдин ]
+		(* <- lang_ru;; *);;
+
+book_Ljubov_K_Trem_Apelsinam
+=> nrel_locales:
+	.book_Ljubov_K_Trem_Apelsinam_locales
+		(*
+			-> locale_gorod_truffal_dino_book_Ljubov_K_Trem_Apelsinam;;
+			-> locale_truffal_dino_book_Ljubov_K_Trem_Apelsinam;;
+			-> locale_nea_book_Ljubov_K_Trem_Apelsinam;;
+	 	*);;
+
+locale_gorod_truffal_dino_book_Ljubov_K_Trem_Apelsinam
+<- locale;
+=> nrel_main_idtf:
+	[ Город Труффальдино ]
+		(* <- lang_ru;; *);;
+
+locale_truffal_dino_book_Ljubov_K_Trem_Apelsinam
+<- locale;
+=> nrel_main_idtf:
+	[ Труффальдино ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Ljubov_K_Trem_Apelsinam
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

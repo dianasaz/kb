@@ -1,0 +1,50 @@
+book_Muki_Ada
+<- book;
+=> nrel_author;
+	author_Akutagava;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Муки Ада]
+		(* <- lang_ru;; *);;
+
+book_Muki_Ada
+=> nrel_characters:
+	.book_Muki_Ada_characters
+		(*
+			-> char_esihide_book_Muki_Ada;;
+	 	*);;
+
+char_esihide_book_Muki_Ada
+<- char;
+=> nrel_main_idtf:
+	[ Ёсихидэ ]
+		(* <- lang_ru;; *);;
+
+book_Muki_Ada
+=> nrel_locales:
+	.book_Muki_Ada_locales
+		(*
+			-> locale_kuda_book_Muki_Ada;;
+			-> locale_to_book_Muki_Ada;;
+			-> locale_byk_book_Muki_Ada;;
+	 	*);;
+
+locale_kuda_book_Muki_Ada
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Muki_Ada
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Muki_Ada
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+

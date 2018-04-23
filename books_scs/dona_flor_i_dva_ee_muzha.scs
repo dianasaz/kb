@@ -1,0 +1,127 @@
+book_Dona_Flor_I_Dva_Ee_Muzha
+<- book;
+=> nrel_author;
+	author_Amadu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дона Флор И Два Её Мужа]
+		(* <- lang_ru;; *);;
+
+book_Dona_Flor_I_Dva_Ee_Muzha
+=> nrel_characters:
+	.book_Dona_Flor_I_Dva_Ee_Muzha_characters
+		(*
+			-> char_rozalia_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> char_baij_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> char_flor_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> char_don_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> char_dionizij_book_Dona_Flor_I_Dva_Ee_Muzha;;
+	 	*);;
+
+char_rozalia_book_Dona_Flor_I_Dva_Ee_Muzha
+<- char;
+=> nrel_main_idtf:
+	[ Розалия ]
+		(* <- lang_ru;; *);;
+
+char_baij_book_Dona_Flor_I_Dva_Ee_Muzha
+<- char;
+=> nrel_main_idtf:
+	[ Баий ]
+		(* <- lang_ru;; *);;
+
+char_flor_book_Dona_Flor_I_Dva_Ee_Muzha
+<- char;
+=> nrel_main_idtf:
+	[ Флор ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Dona_Flor_I_Dva_Ee_Muzha
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_dionizij_book_Dona_Flor_I_Dva_Ee_Muzha
+<- char;
+=> nrel_main_idtf:
+	[ Дионизий ]
+		(* <- lang_ru;; *);;
+
+book_Dona_Flor_I_Dva_Ee_Muzha
+=> nrel_locales:
+	.book_Dona_Flor_I_Dva_Ee_Muzha_locales
+		(*
+			-> locale_rozild_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_nebol_soj_gorodok_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_svoa_kuma_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_madurejra_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_don_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_pedanticnyj_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_salvadora_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_nea_book_Dona_Flor_I_Dva_Ee_Muzha;;
+			-> locale_respektabel_nyj_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha;;
+	 	*);;
+
+locale_rozild_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Розилд ]
+		(* <- lang_ru;; *);;
+
+locale_nebol_soj_gorodok_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Небольшой Городок ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_kuma_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Кума ]
+		(* <- lang_ru;; *);;
+
+locale_madurejra_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Мадурейра ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_pedanticnyj_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Педантичный Теодоро ]
+		(* <- lang_ru;; *);;
+
+locale_salvadora_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Салвадора ]
+		(* <- lang_ru;; *);;
+
+locale_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Теодоро ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_respektabel_nyj_teodoro_book_Dona_Flor_I_Dva_Ee_Muzha
+<- locale;
+=> nrel_main_idtf:
+	[ Респектабельный Теодоро ]
+		(* <- lang_ru;; *);;
+

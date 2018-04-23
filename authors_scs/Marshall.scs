@@ -1,0 +1,16 @@
+author_Marshall
+<- person;
+=> nrel_main_idtf:
+	[Алан Маршалл]
+		(* <- lang_ru;; *);;
+
+author_Marshall
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Marshall.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

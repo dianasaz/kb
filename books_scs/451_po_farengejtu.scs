@@ -1,0 +1,106 @@
+book_451_Po_Farengejtu
+<- book;
+=> nrel_author;
+	author_Bredberi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[451 Градус По Фаренгейту]
+		(* <- lang_ru;; *);;
+
+book_451_Po_Farengejtu
+=> nrel_characters:
+	.book_451_Po_Farengejtu_characters
+		(*
+			-> char_maklelanda_book_451_Po_Farengejtu;;
+			-> char_scastlivyj_book_451_Po_Farengejtu;;
+			-> char_gaj_monteg_book_451_Po_Farengejtu;;
+			-> char_genri_book_451_Po_Farengejtu;;
+			-> char_devid_toro_book_451_Po_Farengejtu;;
+			-> char_klarissa_book_451_Po_Farengejtu;;
+	 	*);;
+
+char_maklelanda_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Маклеланда ]
+		(* <- lang_ru;; *);;
+
+char_scastlivyj_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Счастливый ]
+		(* <- lang_ru;; *);;
+
+char_gaj_monteg_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Гай Монтэг ]
+		(* <- lang_ru;; *);;
+
+char_genri_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Генри ]
+		(* <- lang_ru;; *);;
+
+char_devid_toro_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Дэвид Торо ]
+		(* <- lang_ru;; *);;
+
+char_klarissa_book_451_Po_Farengejtu
+<- char;
+=> nrel_main_idtf:
+	[ Кларисса ]
+		(* <- lang_ru;; *);;
+
+book_451_Po_Farengejtu
+=> nrel_locales:
+	.book_451_Po_Farengejtu_locales
+		(*
+			-> locale_kuda_book_451_Po_Farengejtu;;
+			-> locale_montegu_book_451_Po_Farengejtu;;
+			-> locale_vsa_amerika_book_451_Po_Farengejtu;;
+			-> locale_to_book_451_Po_Farengejtu;;
+			-> locale_amerika_book_451_Po_Farengejtu;;
+			-> locale_monteg_book_451_Po_Farengejtu;;
+	 	*);;
+
+locale_kuda_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_montegu_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ Монтэгу ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_amerika_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Америка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_monteg_book_451_Po_Farengejtu
+<- locale;
+=> nrel_main_idtf:
+	[ Монтэг ]
+		(* <- lang_ru;; *);;
+

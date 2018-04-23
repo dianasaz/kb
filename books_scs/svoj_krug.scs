@@ -1,0 +1,127 @@
+book_Svoj_Krug
+<- book;
+=> nrel_author;
+	author_Petrushevskaja;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Свой Круг]
+		(* <- lang_ru;; *);;
+
+book_Svoj_Krug
+=> nrel_characters:
+	.book_Svoj_Krug_characters
+		(*
+			-> char_tana_book_Svoj_Krug;;
+			-> char_anuta_book_Svoj_Krug;;
+			-> char_lenka_book_Svoj_Krug;;
+			-> char_kola_book_Svoj_Krug;;
+			-> char_stalin_book_Svoj_Krug;;
+			-> char_sonecka_book_Svoj_Krug;;
+			-> char_serj_book_Svoj_Krug;;
+			-> char_marisa_book_Svoj_Krug;;
+			-> char_nada_book_Svoj_Krug;;
+			-> char_andrej_book_Svoj_Krug;;
+			-> char_aleska_book_Svoj_Krug;;
+			-> char_ales_book_Svoj_Krug;;
+	 	*);;
+
+char_tana_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Таня ]
+		(* <- lang_ru;; *);;
+
+char_anuta_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Анюта ]
+		(* <- lang_ru;; *);;
+
+char_lenka_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Ленка ]
+		(* <- lang_ru;; *);;
+
+char_kola_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Коля ]
+		(* <- lang_ru;; *);;
+
+char_stalin_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Сталин ]
+		(* <- lang_ru;; *);;
+
+char_sonecka_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Сонечка ]
+		(* <- lang_ru;; *);;
+
+char_serj_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Серж ]
+		(* <- lang_ru;; *);;
+
+char_marisa_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Мариша ]
+		(* <- lang_ru;; *);;
+
+char_nada_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Надя ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_aleska_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Алешка ]
+		(* <- lang_ru;; *);;
+
+char_ales_book_Svoj_Krug
+<- char;
+=> nrel_main_idtf:
+	[ Алеш ]
+		(* <- lang_ru;; *);;
+
+book_Svoj_Krug
+=> nrel_locales:
+	.book_Svoj_Krug_locales
+		(*
+			-> locale_krym_book_Svoj_Krug;;
+			-> locale_smejnyj_oblast__book_Svoj_Krug;;
+			-> locale_marisa_book_Svoj_Krug;;
+	 	*);;
+
+locale_krym_book_Svoj_Krug
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_smejnyj_oblast__book_Svoj_Krug
+<- locale;
+=> nrel_main_idtf:
+	[ Смежный Область ]
+		(* <- lang_ru;; *);;
+
+locale_marisa_book_Svoj_Krug
+<- locale;
+=> nrel_main_idtf:
+	[ Мариша ]
+		(* <- lang_ru;; *);;
+

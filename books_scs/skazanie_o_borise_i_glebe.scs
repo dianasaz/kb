@@ -1,0 +1,224 @@
+book_Skazanie_O_Borise_I_Glebe
+<- book;
+=> nrel_author;
+	author_Chernorizetc;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сказание О Борисе И Глебе]
+		(* <- lang_ru;; *);;
+
+book_Skazanie_O_Borise_I_Glebe
+=> nrel_characters:
+	.book_Skazanie_O_Borise_I_Glebe_characters
+		(*
+			-> char_svatopolk_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_vladimir_svatoslavic_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_vasilij_svatoj_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_aroslav_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_boris_tot_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_aroslava_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_vladimir_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_aropolk_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_boris_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_gleb_book_Skazanie_O_Borise_I_Glebe;;
+			-> char_georgij_book_Skazanie_O_Borise_I_Glebe;;
+	 	*);;
+
+char_svatopolk_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Святополк ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_svatoslavic_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Святославич ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_svatoj_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Василий Святой ]
+		(* <- lang_ru;; *);;
+
+char_aroslav_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Ярослав ]
+		(* <- lang_ru;; *);;
+
+char_boris_tot_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Борис Тот ]
+		(* <- lang_ru;; *);;
+
+char_aroslava_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Ярослава ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_aropolk_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Ярополк ]
+		(* <- lang_ru;; *);;
+
+char_boris_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Борис ]
+		(* <- lang_ru;; *);;
+
+char_gleb_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Глеб ]
+		(* <- lang_ru;; *);;
+
+char_georgij_book_Skazanie_O_Borise_I_Glebe
+<- char;
+=> nrel_main_idtf:
+	[ Георгий ]
+		(* <- lang_ru;; *);;
+
+book_Skazanie_O_Borise_I_Glebe
+=> nrel_locales:
+	.book_Skazanie_O_Borise_I_Glebe_locales
+		(*
+			-> locale_novgorod_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_rus__book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_kotoryj_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_cehia_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_vladimir_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_povelennoe_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_rostov_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_volga_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_velikoe_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_kiev_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_murom_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_to_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_smolensk_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_vysgorod_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_pinsk_book_Skazanie_O_Borise_I_Glebe;;
+			-> locale_pol_sa_book_Skazanie_O_Borise_I_Glebe;;
+	 	*);;
+
+locale_novgorod_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_cehia_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Чехия ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_povelennoe_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Повеленное ]
+		(* <- lang_ru;; *);;
+
+locale_rostov_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_murom_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Муром ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_smolensk_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Смоленск ]
+		(* <- lang_ru;; *);;
+
+locale_vysgorod_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Вышгород ]
+		(* <- lang_ru;; *);;
+
+locale_pinsk_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Пинск ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Skazanie_O_Borise_I_Glebe
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+book_Skazanie_O_Borise_I_Glebe
+=> nrel_dates:
+	.book_Skazanie_O_Borise_I_Glebe_dates
+		(*
+			-> date_9_5_book_Skazanie_O_Borise_I_Glebe;;
+	 	*);;
+
+date_9_5_book_Skazanie_O_Borise_I_Glebe
+<- date;
+=> nrel_main_idtf:
+	[ 9 5 ]
+		(* <- lang_ru;; *);;
+

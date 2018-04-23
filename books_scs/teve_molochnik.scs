@@ -1,0 +1,148 @@
+book_Teve_Molochnik
+<- book;
+=> nrel_author;
+	author_Sholom_Aleykhem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тевье-Молочник]
+		(* <- lang_ru;; *);;
+
+book_Teve_Molochnik
+=> nrel_characters:
+	.book_Teve_Molochnik_characters
+		(*
+			-> char_alejhem_book_Teve_Molochnik;;
+			-> char_bojberik_book_Teve_Molochnik;;
+			-> char_gold_book_Teve_Molochnik;;
+			-> char_hava_book_Teve_Molochnik;;
+			-> char_solom_book_Teve_Molochnik;;
+			-> char_rahil__book_Teve_Molochnik;;
+			-> char_bojbejrik_book_Teve_Molochnik;;
+			-> char_gor_kij_book_Teve_Molochnik;;
+	 	*);;
+
+char_alejhem_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Алейхем ]
+		(* <- lang_ru;; *);;
+
+char_bojberik_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Бойберик ]
+		(* <- lang_ru;; *);;
+
+char_gold_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Голд ]
+		(* <- lang_ru;; *);;
+
+char_hava_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Хава ]
+		(* <- lang_ru;; *);;
+
+char_solom_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Шолом ]
+		(* <- lang_ru;; *);;
+
+char_rahil__book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Рахиль ]
+		(* <- lang_ru;; *);;
+
+char_bojbejrik_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Бойбейрик ]
+		(* <- lang_ru;; *);;
+
+char_gor_kij_book_Teve_Molochnik
+<- char;
+=> nrel_main_idtf:
+	[ Горький ]
+		(* <- lang_ru;; *);;
+
+book_Teve_Molochnik
+=> nrel_locales:
+	.book_Teve_Molochnik_locales
+		(*
+			-> locale_cad_book_Teve_Molochnik;;
+			-> locale_klin_book_Teve_Molochnik;;
+			-> locale_staroe_tev_e_book_Teve_Molochnik;;
+			-> locale_kuda_book_Teve_Molochnik;;
+			-> locale_to_book_Teve_Molochnik;;
+			-> locale_amerika_book_Teve_Molochnik;;
+			-> locale_palestina_book_Teve_Molochnik;;
+			-> locale_gold_book_Teve_Molochnik;;
+			-> locale_tev_e_book_Teve_Molochnik;;
+			-> locale_odessa_book_Teve_Molochnik;;
+	 	*);;
+
+locale_cad_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Чад ]
+		(* <- lang_ru;; *);;
+
+locale_klin_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Клин ]
+		(* <- lang_ru;; *);;
+
+locale_staroe_tev_e_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Старое Тевье ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_gold_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Голд ]
+		(* <- lang_ru;; *);;
+
+locale_tev_e_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Тевье ]
+		(* <- lang_ru;; *);;
+
+locale_odessa_book_Teve_Molochnik
+<- locale;
+=> nrel_main_idtf:
+	[ Одесса ]
+		(* <- lang_ru;; *);;
+

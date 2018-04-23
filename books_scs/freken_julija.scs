@@ -1,0 +1,127 @@
+book_Freken_Julija
+<- book;
+=> nrel_author;
+	author_Strindberg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фрёкен Юлия]
+		(* <- lang_ru;; *);;
+
+book_Freken_Julija
+=> nrel_characters:
+	.book_Freken_Julija_characters
+		(*
+			-> char_gotovoe_book_Freken_Julija;;
+			-> char_jan_book_Freken_Julija;;
+			-> char_ulij_book_Freken_Julija;;
+			-> char_kristine_book_Freken_Julija;;
+			-> char_ludvig_bavarskij_book_Freken_Julija;;
+			-> char_ivan_kupala_book_Freken_Julija;;
+			-> char_kristina_book_Freken_Julija;;
+			-> char_ulia_book_Freken_Julija;;
+			-> char_an_book_Freken_Julija;;
+	 	*);;
+
+char_gotovoe_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Готовое ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_ulij_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Юлий ]
+		(* <- lang_ru;; *);;
+
+char_kristine_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Кристине ]
+		(* <- lang_ru;; *);;
+
+char_ludvig_bavarskij_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Людвиг Баварский ]
+		(* <- lang_ru;; *);;
+
+char_ivan_kupala_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Иван Купала ]
+		(* <- lang_ru;; *);;
+
+char_kristina_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Кристина ]
+		(* <- lang_ru;; *);;
+
+char_ulia_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Юлия ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Freken_Julija
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Freken_Julija
+=> nrel_locales:
+	.book_Freken_Julija_locales
+		(*
+			-> locale_kuda_book_Freken_Julija;;
+			-> locale_svezia_book_Freken_Julija;;
+			-> locale_to_book_Freken_Julija;;
+			-> locale_evropa_book_Freken_Julija;;
+			-> locale_luzern_book_Freken_Julija;;
+			-> locale_svejzaria_book_Freken_Julija;;
+	 	*);;
+
+locale_kuda_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_svezia_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_luzern_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ Люцерн ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Freken_Julija
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+

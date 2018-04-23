@@ -1,0 +1,217 @@
+book_Otec_Gorio
+<- book;
+=> nrel_author;
+	author_Balzak;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Отец Горио]
+		(* <- lang_ru;; *);;
+
+book_Otec_Gorio
+=> nrel_characters:
+	.book_Otec_Gorio_characters
+		(*
+			-> char_tajfer_viktorin_book_Otec_Gorio;;
+			-> char_del_fina_book_Otec_Gorio;;
+			-> char_ejen_book_Otec_Gorio;;
+			-> char_nusingen_book_Otec_Gorio;;
+			-> char_traa_book_Otec_Gorio;;
+			-> char_frankessinij_book_Otec_Gorio;;
+			-> char_boseana_book_Otec_Gorio;;
+			-> char_dervil__book_Otec_Gorio;;
+			-> char_kollena_book_Otec_Gorio;;
+			-> char_anastazi_book_Otec_Gorio;;
+			-> char_tajfer_book_Otec_Gorio;;
+			-> char_jak_book_Otec_Gorio;;
+			-> char_puare_book_Otec_Gorio;;
+			-> char_gorio_book_Otec_Gorio;;
+			-> char_viktorin_book_Otec_Gorio;;
+			-> char_tajfer_viktorina_book_Otec_Gorio;;
+			-> char_dervilem_book_Otec_Gorio;;
+	 	*);;
+
+char_tajfer_viktorin_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Тайфер Викторин ]
+		(* <- lang_ru;; *);;
+
+char_del_fina_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Дельфина ]
+		(* <- lang_ru;; *);;
+
+char_ejen_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Эжен ]
+		(* <- lang_ru;; *);;
+
+char_nusingen_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Нусинген ]
+		(* <- lang_ru;; *);;
+
+char_traa_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Трая ]
+		(* <- lang_ru;; *);;
+
+char_frankessinij_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Франкессиний ]
+		(* <- lang_ru;; *);;
+
+char_boseana_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Босеана ]
+		(* <- lang_ru;; *);;
+
+char_dervil__book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Дервиль ]
+		(* <- lang_ru;; *);;
+
+char_kollena_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Коллена ]
+		(* <- lang_ru;; *);;
+
+char_anastazi_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Анастази ]
+		(* <- lang_ru;; *);;
+
+char_tajfer_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Тайфер ]
+		(* <- lang_ru;; *);;
+
+char_jak_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Жак ]
+		(* <- lang_ru;; *);;
+
+char_puare_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Пуаре ]
+		(* <- lang_ru;; *);;
+
+char_gorio_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Горио ]
+		(* <- lang_ru;; *);;
+
+char_viktorin_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Викторин ]
+		(* <- lang_ru;; *);;
+
+char_tajfer_viktorina_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Тайфер Викторина ]
+		(* <- lang_ru;; *);;
+
+char_dervilem_book_Otec_Gorio
+<- char;
+=> nrel_main_idtf:
+	[ Дервилем ]
+		(* <- lang_ru;; *);;
+
+book_Otec_Gorio
+=> nrel_locales:
+	.book_Otec_Gorio_locales
+		(*
+			-> locale_angulem_book_Otec_Gorio;;
+			-> locale_lanje_book_Otec_Gorio;;
+			-> locale_nusingen_book_Otec_Gorio;;
+			-> locale_ajud_book_Otec_Gorio;;
+			-> locale_voka_book_Otec_Gorio;;
+			-> locale_dervil__book_Otec_Gorio;;
+			-> locale_parij_book_Otec_Gorio;;
+			-> locale_viktoria_book_Otec_Gorio;;
+	 	*);;
+
+locale_angulem_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Ангулем ]
+		(* <- lang_ru;; *);;
+
+locale_lanje_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Ланже ]
+		(* <- lang_ru;; *);;
+
+locale_nusingen_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Нусинген ]
+		(* <- lang_ru;; *);;
+
+locale_ajud_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Ажуд ]
+		(* <- lang_ru;; *);;
+
+locale_voka_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Вока ]
+		(* <- lang_ru;; *);;
+
+locale_dervil__book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Дервиль ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_viktoria_book_Otec_Gorio
+<- locale;
+=> nrel_main_idtf:
+	[ Виктория ]
+		(* <- lang_ru;; *);;
+
+book_Otec_Gorio
+=> nrel_dates:
+	.book_Otec_Gorio_dates
+		(*
+			-> date_1819_11_book_Otec_Gorio;;
+			-> date_1813_book_Otec_Gorio;;
+	 	*);;
+
+date_1819_11_book_Otec_Gorio
+<- date;
+=> nrel_main_idtf:
+	[ 1819 11 ]
+		(* <- lang_ru;; *);;
+
+date_1813_book_Otec_Gorio
+<- date;
+=> nrel_main_idtf:
+	[ 1813 ]
+		(* <- lang_ru;; *);;
+

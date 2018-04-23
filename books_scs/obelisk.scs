@@ -1,0 +1,364 @@
+book_Obelisk
+<- book;
+=> nrel_author;
+	author_Bykov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Обелиск]
+		(* <- lang_ru;; *);;
+
+book_Obelisk
+=> nrel_characters:
+	.book_Obelisk_characters
+		(*
+			-> char_pavel_ivanovic_book_Obelisk;;
+			-> char_ivan_book_Obelisk;;
+			-> char_pavlov_book_Obelisk;;
+			-> char_fedor_gagun_book_Obelisk;;
+			-> char_seleznev_book_Obelisk;;
+			-> char_andrej_smurnyj_book_Obelisk;;
+			-> char_morozov_book_Obelisk;;
+			-> char_gabruseva_book_Obelisk;;
+			-> char_ales__book_Obelisk;;
+			-> char_kain_book_Obelisk;;
+			-> char_ales__moroz_book_Obelisk;;
+			-> char_pavel_miklasevic_book_Obelisk;;
+			-> char_moroz_book_Obelisk;;
+			-> char_pavlik_book_Obelisk;;
+			-> char_ales__ivanovic_book_Obelisk;;
+			-> char_tkacuk_book_Obelisk;;
+			-> char_pavlik_miklasevic_book_Obelisk;;
+			-> char_nikolaj_smurnyj_book_Obelisk;;
+			-> char_nikolaj_book_Obelisk;;
+			-> char_ostap_book_Obelisk;;
+			-> char_veli_book_Obelisk;;
+			-> char_pavel_book_Obelisk;;
+			-> char_ales__ivanovic_moroz_book_Obelisk;;
+			-> char_ul_an_book_Obelisk;;
+			-> char_A_I_moroz_book_Obelisk;;
+			-> char_timofej_tkacuk_book_Obelisk;;
+			-> char_kola_borodic_book_Obelisk;;
+			-> char_timofej_titovic_tkacuk_book_Obelisk;;
+			-> char_lavcenivsij_book_Obelisk;;
+			-> char_timofej_titovic_book_Obelisk;;
+	 	*);;
+
+char_pavel_ivanovic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павел Иванович ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_pavlov_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павлов ]
+		(* <- lang_ru;; *);;
+
+char_fedor_gagun_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор Гагун ]
+		(* <- lang_ru;; *);;
+
+char_seleznev_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Селезнев ]
+		(* <- lang_ru;; *);;
+
+char_andrej_smurnyj_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Смурный ]
+		(* <- lang_ru;; *);;
+
+char_morozov_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Морозов ]
+		(* <- lang_ru;; *);;
+
+char_gabruseva_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Габрусева ]
+		(* <- lang_ru;; *);;
+
+char_ales__book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Алесь ]
+		(* <- lang_ru;; *);;
+
+char_kain_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Каин ]
+		(* <- lang_ru;; *);;
+
+char_ales__moroz_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Алесь Мороз ]
+		(* <- lang_ru;; *);;
+
+char_pavel_miklasevic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павел Миклашевич ]
+		(* <- lang_ru;; *);;
+
+char_moroz_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Мороз ]
+		(* <- lang_ru;; *);;
+
+char_pavlik_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павлик ]
+		(* <- lang_ru;; *);;
+
+char_ales__ivanovic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Алесь Иванович ]
+		(* <- lang_ru;; *);;
+
+char_tkacuk_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Ткачук ]
+		(* <- lang_ru;; *);;
+
+char_pavlik_miklasevic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павлик Миклашевич ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_smurnyj_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Николай Смурный ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_ostap_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Остап ]
+		(* <- lang_ru;; *);;
+
+char_veli_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Вели ]
+		(* <- lang_ru;; *);;
+
+char_pavel_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Павел ]
+		(* <- lang_ru;; *);;
+
+char_ales__ivanovic_moroz_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Алесь Иванович Мороз ]
+		(* <- lang_ru;; *);;
+
+char_ul_an_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Ульян ]
+		(* <- lang_ru;; *);;
+
+char_A_I_moroz_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ А И Мороз ]
+		(* <- lang_ru;; *);;
+
+char_timofej_tkacuk_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Тимофей Ткачук ]
+		(* <- lang_ru;; *);;
+
+char_kola_borodic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Коля Бородич ]
+		(* <- lang_ru;; *);;
+
+char_timofej_titovic_tkacuk_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Тимофей Титович Ткачук ]
+		(* <- lang_ru;; *);;
+
+char_lavcenivsij_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Лавченивший ]
+		(* <- lang_ru;; *);;
+
+char_timofej_titovic_book_Obelisk
+<- char;
+=> nrel_main_idtf:
+	[ Тимофей Титович ]
+		(* <- lang_ru;; *);;
+
+book_Obelisk
+=> nrel_locales:
+	.book_Obelisk_locales
+		(*
+			-> locale_grodno_book_Obelisk;;
+			-> locale_kuda_book_Obelisk;;
+			-> locale_zapadnaa_belorussia_book_Obelisk;;
+			-> locale_lesna_book_Obelisk;;
+			-> locale_smurnom_book_Obelisk;;
+			-> locale_minsk_book_Obelisk;;
+			-> locale_moskva_book_Obelisk;;
+			-> locale_nary_book_Obelisk;;
+			-> locale_polizejskij_gagun_book_Obelisk;;
+			-> locale_starostov_book_Obelisk;;
+			-> locale_to_book_Obelisk;;
+			-> locale_gabrus_book_Obelisk;;
+			-> locale_gabrus__book_Obelisk;;
+			-> locale_sire_book_Obelisk;;
+			-> locale_pavlov_book_Obelisk;;
+			-> locale_para_book_Obelisk;;
+			-> locale_grodnenskaa_oblast__book_Obelisk;;
+	 	*);;
+
+locale_grodno_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Гродно ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnaa_belorussia_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Западная Белоруссия ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_smurnom_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Смурном ]
+		(* <- lang_ru;; *);;
+
+locale_minsk_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Минск ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_nary_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Нары ]
+		(* <- lang_ru;; *);;
+
+locale_polizejskij_gagun_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Полицейский Гагун ]
+		(* <- lang_ru;; *);;
+
+locale_starostov_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Старостов ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gabrus_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Габрус ]
+		(* <- lang_ru;; *);;
+
+locale_gabrus__book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Габрусь ]
+		(* <- lang_ru;; *);;
+
+locale_sire_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Шире ]
+		(* <- lang_ru;; *);;
+
+locale_pavlov_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Павлов ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_grodnenskaa_oblast__book_Obelisk
+<- locale;
+=> nrel_main_idtf:
+	[ Гродненская Область ]
+		(* <- lang_ru;; *);;
+
+book_Obelisk
+=> nrel_dates:
+	.book_Obelisk_dates
+		(*
+			-> date_1939_11_book_Obelisk;;
+	 	*);;
+
+date_1939_11_book_Obelisk
+<- date;
+=> nrel_main_idtf:
+	[ 1939 11 ]
+		(* <- lang_ru;; *);;
+

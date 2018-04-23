@@ -1,0 +1,105 @@
+book_Suzhdeniia_I_Besedy
+<- book;
+=> nrel_author;
+	author_Confucius;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Беседы И Суждения]
+		(* <- lang_ru;; *);;
+
+book_Suzhdeniia_I_Besedy
+=> nrel_characters:
+	.book_Suzhdeniia_I_Besedy_characters
+		(*
+			-> char_konfuzij_book_Suzhdeniia_I_Besedy;;
+			-> char_P_S_pop_book_Suzhdeniia_I_Besedy;;
+	 	*);;
+
+char_konfuzij_book_Suzhdeniia_I_Besedy
+<- char;
+=> nrel_main_idtf:
+	[ Конфуций ]
+		(* <- lang_ru;; *);;
+
+char_P_S_pop_book_Suzhdeniia_I_Besedy
+<- char;
+=> nrel_main_idtf:
+	[ П С Поп ]
+		(* <- lang_ru;; *);;
+
+book_Suzhdeniia_I_Besedy
+=> nrel_locales:
+	.book_Suzhdeniia_I_Besedy_locales
+		(*
+			-> locale_vostocnaa_azia_book_Suzhdeniia_I_Besedy;;
+			-> locale_netrebo_book_Suzhdeniia_I_Besedy;;
+			-> locale_kotoryj_book_Suzhdeniia_I_Besedy;;
+			-> locale_zzanivsij_book_Suzhdeniia_I_Besedy;;
+			-> locale_trirovan_book_Suzhdeniia_I_Besedy;;
+			-> locale_to_book_Suzhdeniia_I_Besedy;;
+			-> locale_kitaj_book_Suzhdeniia_I_Besedy;;
+			-> locale_proporzio_book_Suzhdeniia_I_Besedy;;
+	 	*);;
+
+locale_vostocnaa_azia_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Восточная Азия ]
+		(* <- lang_ru;; *);;
+
+locale_netrebo_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Нетребо ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_zzanivsij_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Цзянивший ]
+		(* <- lang_ru;; *);;
+
+locale_trirovan_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Трирован ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_proporzio_book_Suzhdeniia_I_Besedy
+<- locale;
+=> nrel_main_idtf:
+	[ Пропорцио ]
+		(* <- lang_ru;; *);;
+
+book_Suzhdeniia_I_Besedy
+=> nrel_dates:
+	.book_Suzhdeniia_I_Besedy_dates
+		(*
+			-> date_1910_book_Suzhdeniia_I_Besedy;;
+	 	*);;
+
+date_1910_book_Suzhdeniia_I_Besedy
+<- date;
+=> nrel_main_idtf:
+	[ 1910 ]
+		(* <- lang_ru;; *);;
+

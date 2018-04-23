@@ -1,0 +1,280 @@
+book_Devjanostye_Gody
+<- book;
+=> nrel_author;
+	author_Prichard;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Девяностые Годы]
+		(* <- lang_ru;; *);;
+
+book_Devjanostye_Gody
+=> nrel_characters:
+	.book_Devjanostye_Gody_characters
+		(*
+			-> char_braun_book_Devjanostye_Gody;;
+			-> char_morfe_book_Devjanostye_Gody;;
+			-> char_maritana_book_Devjanostye_Gody;;
+			-> char_salli_book_Devjanostye_Gody;;
+			-> char_jan_book_Devjanostye_Gody;;
+			-> char_jan_robijar_book_Devjanostye_Gody;;
+			-> char_peddi_book_Devjanostye_Gody;;
+			-> char_morris_book_Devjanostye_Gody;;
+			-> char_olf_book_Devjanostye_Gody;;
+			-> char_dinnij_book_Devjanostye_Gody;;
+			-> char_hilla_book_Devjanostye_Gody;;
+			-> char_robijar_mar__book_Devjanostye_Gody;;
+			-> char_kvino_book_Devjanostye_Gody;;
+			-> char_lora_book_Devjanostye_Gody;;
+			-> char_kevan_book_Devjanostye_Gody;;
+			-> char_robijaryj_book_Devjanostye_Gody;;
+			-> char_brajrlivsij_book_Devjanostye_Gody;;
+			-> char_kain_book_Devjanostye_Gody;;
+	 	*);;
+
+char_braun_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Браун ]
+		(* <- lang_ru;; *);;
+
+char_morfe_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Морфэ ]
+		(* <- lang_ru;; *);;
+
+char_maritana_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Маритана ]
+		(* <- lang_ru;; *);;
+
+char_salli_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Салли ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_jan_robijar_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Жан Робийяр ]
+		(* <- lang_ru;; *);;
+
+char_peddi_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Пэдди ]
+		(* <- lang_ru;; *);;
+
+char_morris_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Моррис ]
+		(* <- lang_ru;; *);;
+
+char_olf_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Олф ]
+		(* <- lang_ru;; *);;
+
+char_dinnij_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Динний ]
+		(* <- lang_ru;; *);;
+
+char_hilla_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Хилла ]
+		(* <- lang_ru;; *);;
+
+char_robijar_mar__book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Робийяр Марь ]
+		(* <- lang_ru;; *);;
+
+char_kvino_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Квино ]
+		(* <- lang_ru;; *);;
+
+char_lora_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Лора ]
+		(* <- lang_ru;; *);;
+
+char_kevan_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Кеван ]
+		(* <- lang_ru;; *);;
+
+char_robijaryj_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Робийярый ]
+		(* <- lang_ru;; *);;
+
+char_brajrlivsij_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Брайрливший ]
+		(* <- lang_ru;; *);;
+
+char_kain_book_Devjanostye_Gody
+<- char;
+=> nrel_main_idtf:
+	[ Каин ]
+		(* <- lang_ru;; *);;
+
+book_Devjanostye_Gody
+=> nrel_locales:
+	.book_Devjanostye_Gody_locales
+		(*
+			-> locale_bitug_book_Devjanostye_Gody;;
+			-> locale_zapadnaa_avstralia_book_Devjanostye_Gody;;
+			-> locale_kalgurla_book_Devjanostye_Gody;;
+			-> locale_zapad_book_Devjanostye_Gody;;
+			-> locale_avstralia_book_Devjanostye_Gody;;
+			-> locale_kevan_book_Devjanostye_Gody;;
+			-> locale_kuda_book_Devjanostye_Gody;;
+			-> locale_avstralijskij_stat_book_Devjanostye_Gody;;
+			-> locale_pert_book_Devjanostye_Gody;;
+			-> locale_novaa_nahodka_book_Devjanostye_Gody;;
+			-> locale_to_book_Devjanostye_Gody;;
+			-> locale_rabocaa_avstralia_book_Devjanostye_Gody;;
+			-> locale_amerika_book_Devjanostye_Gody;;
+			-> locale_anglia_book_Devjanostye_Gody;;
+			-> locale_germania_book_Devjanostye_Gody;;
+			-> locale_samostoatel_nyj_stat_book_Devjanostye_Gody;;
+			-> locale_frisko_book_Devjanostye_Gody;;
+	 	*);;
+
+locale_bitug_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Битюг ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnaa_avstralia_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Западная Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_kalgurla_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Калгурла ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_kevan_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Кеван ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_avstralijskij_stat_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Австралийский Штат ]
+		(* <- lang_ru;; *);;
+
+locale_pert_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Перт ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_nahodka_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Находка ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_rabocaa_avstralia_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Рабочая Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_samostoatel_nyj_stat_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Самостоятельный Штат ]
+		(* <- lang_ru;; *);;
+
+locale_frisko_book_Devjanostye_Gody
+<- locale;
+=> nrel_main_idtf:
+	[ Фриско ]
+		(* <- lang_ru;; *);;
+
+book_Devjanostye_Gody
+=> nrel_dates:
+	.book_Devjanostye_Gody_dates
+		(*
+			-> date_1901_book_Devjanostye_Gody;;
+	 	*);;
+
+date_1901_book_Devjanostye_Gody
+<- date;
+=> nrel_main_idtf:
+	[ 1901 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,329 @@
+book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- book;
+=> nrel_author;
+	author_Defo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Робинзон Крузо]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+=> nrel_characters:
+	.book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo_characters
+		(*
+			-> char_vil_gel_m_oranskij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_razin_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_ivan_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_mil_ton_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_sof_a_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_petra_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_molla_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_defo_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_avvakum_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_robinzona_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_flandrij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_gull__book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_kruzoe_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> char_spinoza_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+	 	*);;
+
+char_vil_gel_m_oranskij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм Оранский ]
+		(* <- lang_ru;; *);;
+
+char_razin_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Разин ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_mil_ton_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Мильтон ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Софья ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_molla_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Молля ]
+		(* <- lang_ru;; *);;
+
+char_defo_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Дефо ]
+		(* <- lang_ru;; *);;
+
+char_avvakum_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Аввакум ]
+		(* <- lang_ru;; *);;
+
+char_robinzona_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Робинзона ]
+		(* <- lang_ru;; *);;
+
+char_flandrij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Фландрий ]
+		(* <- lang_ru;; *);;
+
+char_gull__book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Гулль ]
+		(* <- lang_ru;; *);;
+
+char_kruzoe_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Крузое ]
+		(* <- lang_ru;; *);;
+
+char_spinoza_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- char;
+=> nrel_main_idtf:
+	[ Спиноза ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+=> nrel_locales:
+	.book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo_locales
+		(*
+			-> locale_kotoryj_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_armutskij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_velikij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_sabla_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_neprikos_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_rasskaz_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_orinoko_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_anglia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_ksuri_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_brazilia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_stvovavsij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_jork_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_london_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_gvinea_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_afrika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_ujnaa_amerika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_rossia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_lisnaa_para_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_kuda_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_uba_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_to_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_amerika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> locale_lisabon_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+	 	*);;
+
+locale_kotoryj_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_armutskij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Ярмутский ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_neprikos_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Неприкос ]
+		(* <- lang_ru;; *);;
+
+locale_rasskaz_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Рассказ ]
+		(* <- lang_ru;; *);;
+
+locale_orinoko_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Ориноко ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_ksuri_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Ксури ]
+		(* <- lang_ru;; *);;
+
+locale_brazilia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Бразилия ]
+		(* <- lang_ru;; *);;
+
+locale_stvovavsij_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Ствовавший ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_gvinea_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Гвинея ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_amerika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Америка ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_lisnaa_para_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Лишняя Пара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_uba_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Уба ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_lisabon_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- locale;
+=> nrel_main_idtf:
+	[ Лисабон ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+=> nrel_dates:
+	.book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo_dates
+		(*
+			-> date_1698_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1688_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1686_6_11_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1659_9_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1666_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+			-> date_1651_9_1_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo;;
+	 	*);;
+
+date_1698_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1698 ]
+		(* <- lang_ru;; *);;
+
+date_1688_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1688 ]
+		(* <- lang_ru;; *);;
+
+date_1686_6_11_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1686 6 11 ]
+		(* <- lang_ru;; *);;
+
+date_1659_9_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1659 9 ]
+		(* <- lang_ru;; *);;
+
+date_1666_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1666 ]
+		(* <- lang_ru;; *);;
+
+date_1651_9_1_book_Zhizn_I_Udivitelnye_Prikljuchenija_Robinzona_Kruzo
+<- date;
+=> nrel_main_idtf:
+	[ 1651 9 1 ]
+		(* <- lang_ru;; *);;
+

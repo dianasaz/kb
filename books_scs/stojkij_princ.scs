@@ -1,0 +1,168 @@
+book_Stojkij_Princ
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Стойкий Принц]
+		(* <- lang_ru;; *);;
+
+book_Stojkij_Princ
+=> nrel_characters:
+	.book_Stojkij_Princ_characters
+		(*
+			-> char_britoe_book_Stojkij_Princ;;
+			-> char_al_fons_book_Stojkij_Princ;;
+			-> char_fez_book_Stojkij_Princ;;
+			-> char_fernando_book_Stojkij_Princ;;
+			-> char_don_book_Stojkij_Princ;;
+			-> char_magomet_book_Stojkij_Princ;;
+			-> char_avis_book_Stojkij_Princ;;
+			-> char_mula_book_Stojkij_Princ;;
+			-> char_enrike_book_Stojkij_Princ;;
+	 	*);;
+
+char_britoe_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Бритое ]
+		(* <- lang_ru;; *);;
+
+char_al_fons_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Альфонс ]
+		(* <- lang_ru;; *);;
+
+char_fez_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Фец ]
+		(* <- lang_ru;; *);;
+
+char_fernando_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Фернандо ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_magomet_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Магомет ]
+		(* <- lang_ru;; *);;
+
+char_avis_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Авис ]
+		(* <- lang_ru;; *);;
+
+char_mula_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Муля ]
+		(* <- lang_ru;; *);;
+
+char_enrike_book_Stojkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Энрике ]
+		(* <- lang_ru;; *);;
+
+book_Stojkij_Princ
+=> nrel_locales:
+	.book_Stojkij_Princ_locales
+		(*
+			-> locale_gornyj_book_Stojkij_Princ;;
+			-> locale_gorod_tanjer_book_Stojkij_Princ;;
+			-> locale_lissabon_book_Stojkij_Princ;;
+			-> locale_velik_book_Stojkij_Princ;;
+			-> locale_don_book_Stojkij_Princ;;
+			-> locale_kotoryj_don_book_Stojkij_Princ;;
+			-> locale_surovaa_kara_book_Stojkij_Princ;;
+			-> locale_tanjer_book_Stojkij_Princ;;
+			-> locale_marokko_book_Stojkij_Princ;;
+			-> locale_afrika_book_Stojkij_Princ;;
+	 	*);;
+
+locale_gornyj_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Горный ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_tanjer_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Город Танжер ]
+		(* <- lang_ru;; *);;
+
+locale_lissabon_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Лиссабон ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_don_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Который Дон ]
+		(* <- lang_ru;; *);;
+
+locale_surovaa_kara_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Суровая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_tanjer_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Танжер ]
+		(* <- lang_ru;; *);;
+
+locale_marokko_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Марокко ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Stojkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+book_Stojkij_Princ
+=> nrel_dates:
+	.book_Stojkij_Princ_dates
+		(*
+			-> date_1437_book_Stojkij_Princ;;
+	 	*);;
+
+date_1437_book_Stojkij_Princ
+<- date;
+=> nrel_main_idtf:
+	[ 1437 ]
+		(* <- lang_ru;; *);;
+

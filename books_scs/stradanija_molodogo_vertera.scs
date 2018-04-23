@@ -1,0 +1,155 @@
+book_Stradanija_Molodogo_Vertera
+<- book;
+=> nrel_author;
+	author_Gete;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Страдания Юного Вертера]
+		(* <- lang_ru;; *);;
+
+book_Stradanija_Molodogo_Vertera
+=> nrel_characters:
+	.book_Stradanija_Molodogo_Vertera_characters
+		(*
+			-> char_sarlotta_book_Stradanija_Molodogo_Vertera;;
+			-> char_lotta_book_Stradanija_Molodogo_Vertera;;
+			-> char_genrih_book_Stradanija_Molodogo_Vertera;;
+			-> char_ossiana_book_Stradanija_Molodogo_Vertera;;
+			-> char_gete_book_Stradanija_Molodogo_Vertera;;
+			-> char_al_bert_book_Stradanija_Molodogo_Vertera;;
+			-> char_roman_book_Stradanija_Molodogo_Vertera;;
+			-> char_vil_gel_m_book_Stradanija_Molodogo_Vertera;;
+			-> char_lott_book_Stradanija_Molodogo_Vertera;;
+	 	*);;
+
+char_sarlotta_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Шарлотта ]
+		(* <- lang_ru;; *);;
+
+char_lotta_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Лотта ]
+		(* <- lang_ru;; *);;
+
+char_genrih_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Генрих ]
+		(* <- lang_ru;; *);;
+
+char_ossiana_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Оссиана ]
+		(* <- lang_ru;; *);;
+
+char_gete_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Гете ]
+		(* <- lang_ru;; *);;
+
+char_al_bert_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_lott_book_Stradanija_Molodogo_Vertera
+<- char;
+=> nrel_main_idtf:
+	[ Лотт ]
+		(* <- lang_ru;; *);;
+
+book_Stradanija_Molodogo_Vertera
+=> nrel_locales:
+	.book_Stradanija_Molodogo_Vertera_locales
+		(*
+			-> locale_lott_book_Stradanija_Molodogo_Vertera;;
+			-> locale_nebol_soj_gorodok_book_Stradanija_Molodogo_Vertera;;
+			-> locale_kotoryj_book_Stradanija_Molodogo_Vertera;;
+			-> locale_knajeskij_amtman_book_Stradanija_Molodogo_Vertera;;
+			-> locale_lottoj_book_Stradanija_Molodogo_Vertera;;
+			-> locale_al_bert_book_Stradanija_Molodogo_Vertera;;
+			-> locale_gorodok_book_Stradanija_Molodogo_Vertera;;
+			-> locale_gomera_book_Stradanija_Molodogo_Vertera;;
+			-> locale_amtmana_book_Stradanija_Molodogo_Vertera;;
+			-> locale_etot_gorodok_book_Stradanija_Molodogo_Vertera;;
+	 	*);;
+
+locale_lott_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Лотт ]
+		(* <- lang_ru;; *);;
+
+locale_nebol_soj_gorodok_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Небольшой Городок ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_knajeskij_amtman_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Княжеский Амтман ]
+		(* <- lang_ru;; *);;
+
+locale_lottoj_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Лоттой ]
+		(* <- lang_ru;; *);;
+
+locale_al_bert_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_gomera_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Гомера ]
+		(* <- lang_ru;; *);;
+
+locale_amtmana_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Амтмана ]
+		(* <- lang_ru;; *);;
+
+locale_etot_gorodok_book_Stradanija_Molodogo_Vertera
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Городок ]
+		(* <- lang_ru;; *);;
+

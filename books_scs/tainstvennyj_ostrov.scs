@@ -1,0 +1,140 @@
+book_Tainstvennyj_Ostrov
+<- book;
+=> nrel_author;
+	author_Vern;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Таинственный Остров]
+		(* <- lang_ru;; *);;
+
+book_Tainstvennyj_Ostrov
+=> nrel_characters:
+	.book_Tainstvennyj_Ostrov_characters
+		(*
+			-> char_sajres_smit_book_Tainstvennyj_Ostrov;;
+			-> char_smit_book_Tainstvennyj_Ostrov;;
+			-> char_harbert_braun_book_Tainstvennyj_Ostrov;;
+			-> char_eduard_book_Tainstvennyj_Ostrov;;
+			-> char_harbert_book_Tainstvennyj_Ostrov;;
+			-> char_sajres_book_Tainstvennyj_Ostrov;;
+			-> char_gedeon_book_Tainstvennyj_Ostrov;;
+	 	*);;
+
+char_sajres_smit_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Сайрес Смит ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_harbert_braun_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Харберт Браун ]
+		(* <- lang_ru;; *);;
+
+char_eduard_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Эдуард ]
+		(* <- lang_ru;; *);;
+
+char_harbert_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Харберт ]
+		(* <- lang_ru;; *);;
+
+char_sajres_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Сайрес ]
+		(* <- lang_ru;; *);;
+
+char_gedeon_book_Tainstvennyj_Ostrov
+<- char;
+=> nrel_main_idtf:
+	[ Гедеон ]
+		(* <- lang_ru;; *);;
+
+book_Tainstvennyj_Ostrov
+=> nrel_locales:
+	.book_Tainstvennyj_Ostrov_locales
+		(*
+			-> locale_karman_book_Tainstvennyj_Ostrov;;
+			-> locale_kotoryj_book_Tainstvennyj_Ostrov;;
+			-> locale_ssa_book_Tainstvennyj_Ostrov;;
+			-> locale_dunkan_book_Tainstvennyj_Ostrov;;
+			-> locale_to_book_Tainstvennyj_Ostrov;;
+			-> locale_amerika_book_Tainstvennyj_Ostrov;;
+			-> locale_sajres_book_Tainstvennyj_Ostrov;;
+			-> locale_nab_book_Tainstvennyj_Ostrov;;
+	 	*);;
+
+locale_karman_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_dunkan_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Дункан ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_sajres_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Сайрес ]
+		(* <- lang_ru;; *);;
+
+locale_nab_book_Tainstvennyj_Ostrov
+<- locale;
+=> nrel_main_idtf:
+	[ Наб ]
+		(* <- lang_ru;; *);;
+
+book_Tainstvennyj_Ostrov
+=> nrel_dates:
+	.book_Tainstvennyj_Ostrov_dates
+		(*
+			-> date_1865_3_book_Tainstvennyj_Ostrov;;
+	 	*);;
+
+date_1865_3_book_Tainstvennyj_Ostrov
+<- date;
+=> nrel_main_idtf:
+	[ 1865 3 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,43 @@
+book_Iushka
+<- book;
+=> nrel_author;
+	author_Platonov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Юшка]
+		(* <- lang_ru;; *);;
+
+book_Iushka
+=> nrel_characters:
+	.book_Iushka_characters
+		(*
+			-> char_efim_dmitrievic_book_Iushka;;
+	 	*);;
+
+char_efim_dmitrievic_book_Iushka
+<- char;
+=> nrel_main_idtf:
+	[ Ефим Дмитриевич ]
+		(* <- lang_ru;; *);;
+
+book_Iushka
+=> nrel_locales:
+	.book_Iushka_locales
+		(*
+			-> locale_kuda_book_Iushka;;
+			-> locale_to_book_Iushka;;
+	 	*);;
+
+locale_kuda_book_Iushka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Iushka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

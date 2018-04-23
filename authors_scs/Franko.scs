@@ -1,0 +1,16 @@
+author_Franko
+<- person;
+=> nrel_main_idtf:
+	[Иван Франко]
+		(* <- lang_ru;; *);;
+
+author_Franko
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Franko.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

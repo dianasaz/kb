@@ -1,0 +1,92 @@
+book_Menakhem_Mendl
+<- book;
+=> nrel_author;
+	author_Sholom_Aleykhem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Менахем-Мендл]
+		(* <- lang_ru;; *);;
+
+book_Menakhem_Mendl
+=> nrel_characters:
+	.book_Menakhem_Mendl_characters
+		(*
+			-> char_sejn_book_Menakhem_Mendl;;
+			-> char_brodskij_book_Menakhem_Mendl;;
+	 	*);;
+
+char_sejn_book_Menakhem_Mendl
+<- char;
+=> nrel_main_idtf:
+	[ Шейн ]
+		(* <- lang_ru;; *);;
+
+char_brodskij_book_Menakhem_Mendl
+<- char;
+=> nrel_main_idtf:
+	[ Бродский ]
+		(* <- lang_ru;; *);;
+
+book_Menakhem_Mendl
+=> nrel_locales:
+	.book_Menakhem_Mendl_locales
+		(*
+			-> locale_sahara_book_Menakhem_Mendl;;
+			-> locale_sibir__book_Menakhem_Mendl;;
+			-> locale_velik_book_Menakhem_Mendl;;
+			-> locale_london_book_Menakhem_Mendl;;
+			-> locale_amerika_book_Menakhem_Mendl;;
+			-> locale_bessarabia_book_Menakhem_Mendl;;
+			-> locale_gamburg_book_Menakhem_Mendl;;
+			-> locale_odessa_book_Menakhem_Mendl;;
+	 	*);;
+
+locale_sahara_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_bessarabia_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Бессарабия ]
+		(* <- lang_ru;; *);;
+
+locale_gamburg_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Гамбург ]
+		(* <- lang_ru;; *);;
+
+locale_odessa_book_Menakhem_Mendl
+<- locale;
+=> nrel_main_idtf:
+	[ Одесса ]
+		(* <- lang_ru;; *);;
+

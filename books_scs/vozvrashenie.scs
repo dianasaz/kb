@@ -1,0 +1,92 @@
+book_Vozvrashenie
+<- book;
+=> nrel_author;
+	author_Platonov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Возвращение]
+		(* <- lang_ru;; *);;
+
+book_Vozvrashenie
+=> nrel_characters:
+	.book_Vozvrashenie_characters
+		(*
+			-> char_evseevic_semen_book_Vozvrashenie;;
+			-> char_semen_book_Vozvrashenie;;
+			-> char_nasta_book_Vozvrashenie;;
+			-> char_ivanov_book_Vozvrashenie;;
+			-> char_hariton_book_Vozvrashenie;;
+			-> char_ivanov_book_Vozvrashenie;;
+			-> char_aleksej_alekseevic_ivanov_book_Vozvrashenie;;
+			-> char_masa_book_Vozvrashenie;;
+	 	*);;
+
+char_evseevic_semen_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Евсеевич Семён ]
+		(* <- lang_ru;; *);;
+
+char_semen_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Семён ]
+		(* <- lang_ru;; *);;
+
+char_nasta_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Настя ]
+		(* <- lang_ru;; *);;
+
+char_ivanov_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+
+char_hariton_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Харитон ]
+		(* <- lang_ru;; *);;
+
+char_ivanov_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Иванов ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_alekseevic_ivanov_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Алексеевич Иванов ]
+		(* <- lang_ru;; *);;
+
+char_masa_book_Vozvrashenie
+<- char;
+=> nrel_main_idtf:
+	[ Маша ]
+		(* <- lang_ru;; *);;
+
+book_Vozvrashenie
+=> nrel_locales:
+	.book_Vozvrashenie_locales
+		(*
+			-> locale_gorod_ivanov_book_Vozvrashenie;;
+			-> locale_starikovsk_book_Vozvrashenie;;
+	 	*);;
+
+locale_gorod_ivanov_book_Vozvrashenie
+<- locale;
+=> nrel_main_idtf:
+	[ Город Иванов ]
+		(* <- lang_ru;; *);;
+
+locale_starikovsk_book_Vozvrashenie
+<- locale;
+=> nrel_main_idtf:
+	[ Стариковск ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,106 @@
+book_Kryzhovnik
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Крыжовник]
+		(* <- lang_ru;; *);;
+
+book_Kryzhovnik
+=> nrel_characters:
+	.book_Kryzhovnik_characters
+		(*
+			-> char_nikolaj_book_Kryzhovnik;;
+			-> char_alehin_book_Kryzhovnik;;
+			-> char_ivan_book_Kryzhovnik;;
+			-> char_ivanyc_book_Kryzhovnik;;
+			-> char_pavel_konstantinyc_alehin_book_Kryzhovnik;;
+			-> char_burkin_book_Kryzhovnik;;
+			-> char_nikolaj_ivanyc_book_Kryzhovnik;;
+			-> char_ivan_ivanyc_book_Kryzhovnik;;
+	 	*);;
+
+char_nikolaj_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_alehin_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Алехин ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_ivanyc_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_pavel_konstantinyc_alehin_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Павел Константиныч Алехин ]
+		(* <- lang_ru;; *);;
+
+char_burkin_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Буркин ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_ivanyc_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Николай Иваныч ]
+		(* <- lang_ru;; *);;
+
+char_ivan_ivanyc_book_Kryzhovnik
+<- char;
+=> nrel_main_idtf:
+	[ Иван Иваныч ]
+		(* <- lang_ru;; *);;
+
+book_Kryzhovnik
+=> nrel_locales:
+	.book_Kryzhovnik_locales
+		(*
+			-> locale_kotoryj_book_Kryzhovnik;;
+			-> locale_derevna_sof_inoe_book_Kryzhovnik;;
+			-> locale_sevsee_mironosizkoe_book_Kryzhovnik;;
+			-> locale_sena_book_Kryzhovnik;;
+	 	*);;
+
+locale_kotoryj_book_Kryzhovnik
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_derevna_sof_inoe_book_Kryzhovnik
+<- locale;
+=> nrel_main_idtf:
+	[ Деревня Софьиное ]
+		(* <- lang_ru;; *);;
+
+locale_sevsee_mironosizkoe_book_Kryzhovnik
+<- locale;
+=> nrel_main_idtf:
+	[ Севшее Мироносицкое ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Kryzhovnik
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+

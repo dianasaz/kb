@@ -1,0 +1,218 @@
+book_Faust
+<- book;
+=> nrel_author;
+	author_Gete;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фауст]
+		(* <- lang_ru;; *);;
+
+book_Faust
+=> nrel_characters:
+	.book_Faust_characters
+		(*
+			-> char_margarita_book_Faust;;
+			-> char_elena_book_Faust;;
+			-> char_grethen_book_Faust;;
+			-> char_bavkida_book_Faust;;
+			-> char_val_purgiev_book_Faust;;
+			-> char_valentina_margarit_book_Faust;;
+			-> char_bajron_book_Faust;;
+			-> char_mefistofel__book_Faust;;
+			-> char_vagner_book_Faust;;
+			-> char_broken_book_Faust;;
+			-> char_gete_book_Faust;;
+			-> char_valentin_book_Faust;;
+			-> char_evforion_book_Faust;;
+			-> char_paris_book_Faust;;
+			-> char_faust_book_Faust;;
+	 	*);;
+
+char_margarita_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Маргарита ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_grethen_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Гретхен ]
+		(* <- lang_ru;; *);;
+
+char_bavkida_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Бавкида ]
+		(* <- lang_ru;; *);;
+
+char_val_purgiev_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Вальпургиев ]
+		(* <- lang_ru;; *);;
+
+char_valentina_margarit_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Валентина Маргарит ]
+		(* <- lang_ru;; *);;
+
+char_bajron_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Байрон ]
+		(* <- lang_ru;; *);;
+
+char_mefistofel__book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Мефистофель ]
+		(* <- lang_ru;; *);;
+
+char_vagner_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Вагнер ]
+		(* <- lang_ru;; *);;
+
+char_broken_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Брокен ]
+		(* <- lang_ru;; *);;
+
+char_gete_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Гете ]
+		(* <- lang_ru;; *);;
+
+char_valentin_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Валентин ]
+		(* <- lang_ru;; *);;
+
+char_evforion_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Эвфорион ]
+		(* <- lang_ru;; *);;
+
+char_paris_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Парис ]
+		(* <- lang_ru;; *);;
+
+char_faust_book_Faust
+<- char;
+=> nrel_main_idtf:
+	[ Фауст ]
+		(* <- lang_ru;; *);;
+
+book_Faust
+=> nrel_locales:
+	.book_Faust_locales
+		(*
+			-> locale_on_ob_emlet_book_Faust;;
+			-> locale_ubogij_gorodok_book_Faust;;
+			-> locale_velikoe_book_Faust;;
+			-> locale_kuda_book_Faust;;
+			-> locale_kara_book_Faust;;
+			-> locale_bavkida_book_Faust;;
+			-> locale_naiuserdnyj_book_Faust;;
+			-> locale_to_book_Faust;;
+			-> locale_cara_book_Faust;;
+			-> locale_luga_book_Faust;;
+			-> locale_nea_book_Faust;;
+			-> locale_para_book_Faust;;
+			-> locale_mena_book_Faust;;
+	 	*);;
+
+locale_on_ob_emlet_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Он Объемлет ]
+		(* <- lang_ru;; *);;
+
+locale_ubogij_gorodok_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Убогий Городок ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_bavkida_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Бавкида ]
+		(* <- lang_ru;; *);;
+
+locale_naiuserdnyj_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Наиусердный ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cara_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Чара ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_mena_book_Faust
+<- locale;
+=> nrel_main_idtf:
+	[ Мена ]
+		(* <- lang_ru;; *);;
+

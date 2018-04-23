@@ -1,0 +1,112 @@
+book_Gobsek
+<- book;
+=> nrel_author;
+	author_Balzak;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Гобсек]
+		(* <- lang_ru;; *);;
+
+book_Gobsek
+=> nrel_characters:
+	.book_Gobsek_characters
+		(*
+			-> char_maksim_book_Gobsek;;
+			-> char_dervilem_book_Gobsek;;
+			-> char_traa_book_Gobsek;;
+			-> char_boseana_book_Gobsek;;
+			-> char_dervil__book_Gobsek;;
+			-> char_gorio_book_Gobsek;;
+			-> char_ernest_book_Gobsek;;
+			-> char_kamilla_book_Gobsek;;
+	 	*);;
+
+char_maksim_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Максим ]
+		(* <- lang_ru;; *);;
+
+char_dervilem_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Дервилем ]
+		(* <- lang_ru;; *);;
+
+char_traa_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Трая ]
+		(* <- lang_ru;; *);;
+
+char_boseana_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Босеана ]
+		(* <- lang_ru;; *);;
+
+char_dervil__book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Дервиль ]
+		(* <- lang_ru;; *);;
+
+char_gorio_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Горио ]
+		(* <- lang_ru;; *);;
+
+char_ernest_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Эрнест ]
+		(* <- lang_ru;; *);;
+
+char_kamilla_book_Gobsek
+<- char;
+=> nrel_main_idtf:
+	[ Камилла ]
+		(* <- lang_ru;; *);;
+
+book_Gobsek
+=> nrel_locales:
+	.book_Gobsek_locales
+		(*
+			-> locale_dervil__book_Gobsek;;
+			-> locale_vosprepatstvuusij_book_Gobsek;;
+			-> locale_para_book_Gobsek;;
+	 	*);;
+
+locale_dervil__book_Gobsek
+<- locale;
+=> nrel_main_idtf:
+	[ Дервиль ]
+		(* <- lang_ru;; *);;
+
+locale_vosprepatstvuusij_book_Gobsek
+<- locale;
+=> nrel_main_idtf:
+	[ Воспрепятствующий ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Gobsek
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+book_Gobsek
+=> nrel_dates:
+	.book_Gobsek_dates
+		(*
+			-> date_1824_12_book_Gobsek;;
+	 	*);;
+
+date_1824_12_book_Gobsek
+<- date;
+=> nrel_main_idtf:
+	[ 1824 12 ]
+		(* <- lang_ru;; *);;
+

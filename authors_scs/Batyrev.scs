@@ -1,0 +1,16 @@
+author_Batyrev
+<- person;
+=> nrel_main_idtf:
+	[Максим Батырев]
+		(* <- lang_ru;; *);;
+
+author_Batyrev
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Batyrev.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

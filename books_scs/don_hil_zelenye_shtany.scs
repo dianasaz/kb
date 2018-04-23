@@ -1,0 +1,225 @@
+book_Don_Hil_Zelenye_Shtany
+<- book;
+=> nrel_author;
+	author_Molina;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дон Хиль Зеленые Штаны]
+		(* <- lang_ru;; *);;
+
+book_Don_Hil_Zelenye_Shtany
+=> nrel_characters:
+	.book_Don_Hil_Zelenye_Shtany_characters
+		(*
+			-> char_gusman_book_Don_Hil_Zelenye_Shtany;;
+			-> char_kastilia_book_Don_Hil_Zelenye_Shtany;;
+			-> char_hil_a_book_Don_Hil_Zelenye_Shtany;;
+			-> char_ines_book_Don_Hil_Zelenye_Shtany;;
+			-> char_hil__book_Don_Hil_Zelenye_Shtany;;
+			-> char_rojdestvenskij_book_Don_Hil_Zelenye_Shtany;;
+			-> char_klara_book_Don_Hil_Zelenye_Shtany;;
+			-> char_zelenyj_book_Don_Hil_Zelenye_Shtany;;
+			-> char_agustina_book_Don_Hil_Zelenye_Shtany;;
+			-> char_huan_book_Don_Hil_Zelenye_Shtany;;
+			-> char_andres_book_Don_Hil_Zelenye_Shtany;;
+			-> char_don_book_Don_Hil_Zelenye_Shtany;;
+			-> char_el_vira_book_Don_Hil_Zelenye_Shtany;;
+			-> char_pedro_book_Don_Hil_Zelenye_Shtany;;
+			-> char_don_hil__book_Don_Hil_Zelenye_Shtany;;
+			-> char_ribera_book_Don_Hil_Zelenye_Shtany;;
+			-> char_martin_book_Don_Hil_Zelenye_Shtany;;
+	 	*);;
+
+char_gusman_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Гусман ]
+		(* <- lang_ru;; *);;
+
+char_kastilia_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Кастилия ]
+		(* <- lang_ru;; *);;
+
+char_hil_a_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Хилья ]
+		(* <- lang_ru;; *);;
+
+char_ines_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Инес ]
+		(* <- lang_ru;; *);;
+
+char_hil__book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Хиль ]
+		(* <- lang_ru;; *);;
+
+char_rojdestvenskij_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Рождественский ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+char_zelenyj_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Зелёный ]
+		(* <- lang_ru;; *);;
+
+char_agustina_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Агустина ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_andres_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Андрес ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_el_vira_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Эльвира ]
+		(* <- lang_ru;; *);;
+
+char_pedro_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Педро ]
+		(* <- lang_ru;; *);;
+
+char_don_hil__book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Дон Хиль ]
+		(* <- lang_ru;; *);;
+
+char_ribera_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Рибера ]
+		(* <- lang_ru;; *);;
+
+char_martin_book_Don_Hil_Zelenye_Shtany
+<- char;
+=> nrel_main_idtf:
+	[ Мартин ]
+		(* <- lang_ru;; *);;
+
+book_Don_Hil_Zelenye_Shtany
+=> nrel_locales:
+	.book_Don_Hil_Zelenye_Shtany_locales
+		(*
+			-> locale_val_ekas_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_val_adolid_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_breda_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_smertnyj_odr_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_ina_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_don_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_madrid_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_to_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_istinnyj_don_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_kintana_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_nastoasij_don_book_Don_Hil_Zelenye_Shtany;;
+			-> locale_ego_kintana_book_Don_Hil_Zelenye_Shtany;;
+	 	*);;
+
+locale_val_ekas_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Вальекас ]
+		(* <- lang_ru;; *);;
+
+locale_val_adolid_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Вальядолид ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_smertnyj_odr_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Смертный Одр ]
+		(* <- lang_ru;; *);;
+
+locale_ina_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Иня ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_istinnyj_don_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Истинный Дон ]
+		(* <- lang_ru;; *);;
+
+locale_kintana_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Кинтана ]
+		(* <- lang_ru;; *);;
+
+locale_nastoasij_don_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Настоящий Дон ]
+		(* <- lang_ru;; *);;
+
+locale_ego_kintana_book_Don_Hil_Zelenye_Shtany
+<- locale;
+=> nrel_main_idtf:
+	[ Его Кинтана ]
+		(* <- lang_ru;; *);;
+

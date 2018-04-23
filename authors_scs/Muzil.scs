@@ -1,0 +1,16 @@
+author_Muzil
+<- person;
+=> nrel_main_idtf:
+	[Роберт Музиль]
+		(* <- lang_ru;; *);;
+
+author_Muzil
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Muzil.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

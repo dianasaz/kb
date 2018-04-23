@@ -1,0 +1,176 @@
+book_Igra_V_Klassiki
+<- book;
+=> nrel_author;
+	author_Kortasar;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Игра В Классики]
+		(* <- lang_ru;; *);;
+
+book_Igra_V_Klassiki
+=> nrel_characters:
+	.book_Igra_V_Klassiki_characters
+		(*
+			-> char_morelli_book_Igra_V_Klassiki;;
+			-> char_periko_book_Igra_V_Klassiki;;
+			-> char_et_en_book_Igra_V_Klassiki;;
+			-> char_ronal_d_book_Igra_V_Klassiki;;
+			-> char_ferragutoe_book_Igra_V_Klassiki;;
+			-> char_polaa_book_Igra_V_Klassiki;;
+			-> char_orasio_book_Igra_V_Klassiki;;
+			-> char_talita_book_Igra_V_Klassiki;;
+			-> char_zmea_book_Igra_V_Klassiki;;
+			-> char_osip_book_Igra_V_Klassiki;;
+			-> char_talit_book_Igra_V_Klassiki;;
+			-> char_trevelera_book_Igra_V_Klassiki;;
+			-> char_mag_book_Igra_V_Klassiki;;
+			-> char_olivejra_book_Igra_V_Klassiki;;
+	 	*);;
+
+char_morelli_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Морелли ]
+		(* <- lang_ru;; *);;
+
+char_periko_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Перико ]
+		(* <- lang_ru;; *);;
+
+char_et_en_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Этьен ]
+		(* <- lang_ru;; *);;
+
+char_ronal_d_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Рональд ]
+		(* <- lang_ru;; *);;
+
+char_ferragutoe_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Феррагутое ]
+		(* <- lang_ru;; *);;
+
+char_polaa_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Полая ]
+		(* <- lang_ru;; *);;
+
+char_orasio_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Орасио ]
+		(* <- lang_ru;; *);;
+
+char_talita_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Талита ]
+		(* <- lang_ru;; *);;
+
+char_zmea_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Змея ]
+		(* <- lang_ru;; *);;
+
+char_osip_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Осип ]
+		(* <- lang_ru;; *);;
+
+char_talit_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Талит ]
+		(* <- lang_ru;; *);;
+
+char_trevelera_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Тревелера ]
+		(* <- lang_ru;; *);;
+
+char_mag_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Маг ]
+		(* <- lang_ru;; *);;
+
+char_olivejra_book_Igra_V_Klassiki
+<- char;
+=> nrel_main_idtf:
+	[ Оливейра ]
+		(* <- lang_ru;; *);;
+
+book_Igra_V_Klassiki
+=> nrel_locales:
+	.book_Igra_V_Klassiki_locales
+		(*
+			-> locale_buenos_book_Igra_V_Klassiki;;
+			-> locale_kuda_book_Igra_V_Klassiki;;
+			-> locale_magoj_book_Igra_V_Klassiki;;
+			-> locale_olivejra_book_Igra_V_Klassiki;;
+			-> locale_parij_book_Igra_V_Klassiki;;
+			-> locale_to_book_Igra_V_Klassiki;;
+			-> locale_priemlet_book_Igra_V_Klassiki;;
+			-> locale_rokamadur_book_Igra_V_Klassiki;;
+	 	*);;
+
+locale_buenos_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Буэнос ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_magoj_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Магой ]
+		(* <- lang_ru;; *);;
+
+locale_olivejra_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Оливейра ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_priemlet_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Приемлет ]
+		(* <- lang_ru;; *);;
+
+locale_rokamadur_book_Igra_V_Klassiki
+<- locale;
+=> nrel_main_idtf:
+	[ Рокамадур ]
+		(* <- lang_ru;; *);;
+

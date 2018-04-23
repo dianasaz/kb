@@ -1,0 +1,154 @@
+book_1984
+<- book;
+=> nrel_author;
+	author_Oruell;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[1984]
+		(* <- lang_ru;; *);;
+
+book_1984
+=> nrel_characters:
+	.book_1984_characters
+		(*
+			-> char_djulia_book_1984;;
+			-> char_starsij_book_1984;;
+			-> char_goldstejn_book_1984;;
+			-> char_smit_book_1984;;
+			-> char_uinston_book_1984;;
+			-> char_sajma_book_1984;;
+			-> char_parsons_book_1984;;
+			-> char_smit_uinston_book_1984;;
+			-> char_parsons_book_1984;;
+			-> char_ketrin_book_1984;;
+			-> char_emmanuel__goldstejn_book_1984;;
+	 	*);;
+
+char_djulia_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Джулия ]
+		(* <- lang_ru;; *);;
+
+char_starsij_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Старший ]
+		(* <- lang_ru;; *);;
+
+char_goldstejn_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Голдстейн ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_uinston_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Уинстон ]
+		(* <- lang_ru;; *);;
+
+char_sajma_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Сайма ]
+		(* <- lang_ru;; *);;
+
+char_parsons_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Парсонс ]
+		(* <- lang_ru;; *);;
+
+char_smit_uinston_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Смит Уинстон ]
+		(* <- lang_ru;; *);;
+
+char_parsons_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Парсонс ]
+		(* <- lang_ru;; *);;
+
+char_ketrin_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Кэтрин ]
+		(* <- lang_ru;; *);;
+
+char_emmanuel__goldstejn_book_1984
+<- char;
+=> nrel_main_idtf:
+	[ Эммануэль Голдстейн ]
+		(* <- lang_ru;; *);;
+
+book_1984
+=> nrel_locales:
+	.book_1984_locales
+		(*
+			-> locale_ostazia_book_1984;;
+			-> locale_carrington_book_1984;;
+			-> locale_sajma_book_1984;;
+			-> locale_okeania_book_1984;;
+			-> locale_evrazia_book_1984;;
+			-> locale_london_book_1984;;
+	 	*);;
+
+locale_ostazia_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Остазия ]
+		(* <- lang_ru;; *);;
+
+locale_carrington_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Чаррингтон ]
+		(* <- lang_ru;; *);;
+
+locale_sajma_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Сайма ]
+		(* <- lang_ru;; *);;
+
+locale_okeania_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Океания ]
+		(* <- lang_ru;; *);;
+
+locale_evrazia_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Евразия ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_1984
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+book_1984
+=> nrel_dates:
+	.book_1984_dates
+		(*
+			-> date_1984_book_1984;;
+	 	*);;
+
+date_1984_book_1984
+<- date;
+=> nrel_main_idtf:
+	[ 1984 ]
+		(* <- lang_ru;; *);;
+

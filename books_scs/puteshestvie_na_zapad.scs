@@ -1,0 +1,183 @@
+book_Puteshestvie_Na_Zapad
+<- book;
+=> nrel_author;
+	author_U_Chenen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Путешествие На Запад]
+		(* <- lang_ru;; *);;
+
+book_Puteshestvie_Na_Zapad
+=> nrel_characters:
+	.book_Puteshestvie_Na_Zapad_characters
+		(*
+			-> char_sasen_book_Puteshestvie_Na_Zapad;;
+			-> char_suan_zzan_book_Puteshestvie_Na_Zapad;;
+			-> char_sunuvsij_book_Puteshestvie_Na_Zapad;;
+			-> char_taja_book_Puteshestvie_Na_Zapad;;
+			-> char_ukun_book_Puteshestvie_Na_Zapad;;
+			-> char_mladenez_book_Puteshestvie_Na_Zapad;;
+			-> char_krasnyj_book_Puteshestvie_Na_Zapad;;
+			-> char_suan_zzannyj_book_Puteshestvie_Na_Zapad;;
+			-> char_barsov_book_Puteshestvie_Na_Zapad;;
+	 	*);;
+
+char_sasen_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Шасэн ]
+		(* <- lang_ru;; *);;
+
+char_suan_zzan_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Сюаньцзан ]
+		(* <- lang_ru;; *);;
+
+char_sunuvsij_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Сунувший ]
+		(* <- lang_ru;; *);;
+
+char_taja_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Тайя ]
+		(* <- lang_ru;; *);;
+
+char_ukun_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Укун ]
+		(* <- lang_ru;; *);;
+
+char_mladenez_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Младенец ]
+		(* <- lang_ru;; *);;
+
+char_krasnyj_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+char_suan_zzannyj_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Сюаньцзанный ]
+		(* <- lang_ru;; *);;
+
+char_barsov_book_Puteshestvie_Na_Zapad
+<- char;
+=> nrel_main_idtf:
+	[ Барсов ]
+		(* <- lang_ru;; *);;
+
+book_Puteshestvie_Na_Zapad
+=> nrel_locales:
+	.book_Puteshestvie_Na_Zapad_locales
+		(*
+			-> locale_india_book_Puteshestvie_Na_Zapad;;
+			-> locale_bykov_book_Puteshestvie_Na_Zapad;;
+			-> locale_zapad_book_Puteshestvie_Na_Zapad;;
+			-> locale_vosprepatstvuusij_book_Puteshestvie_Na_Zapad;;
+			-> locale_vostocnyj_kraj_book_Puteshestvie_Na_Zapad;;
+			-> locale_velikoe_book_Puteshestvie_Na_Zapad;;
+			-> locale_kuda_book_Puteshestvie_Na_Zapad;;
+			-> locale_dalekaa_india_book_Puteshestvie_Na_Zapad;;
+			-> locale_tanskoma_book_Puteshestvie_Na_Zapad;;
+			-> locale_l_vov_book_Puteshestvie_Na_Zapad;;
+			-> locale_to_book_Puteshestvie_Na_Zapad;;
+			-> locale_kitaj_book_Puteshestvie_Na_Zapad;;
+			-> locale_krasnoe_book_Puteshestvie_Na_Zapad;;
+			-> locale_sun__book_Puteshestvie_Na_Zapad;;
+	 	*);;
+
+locale_india_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_bykov_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_vosprepatstvuusij_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Воспрепятствующий ]
+		(* <- lang_ru;; *);;
+
+locale_vostocnyj_kraj_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Восточный Край ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dalekaa_india_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Далёкая Индия ]
+		(* <- lang_ru;; *);;
+
+locale_tanskoma_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Танскома ]
+		(* <- lang_ru;; *);;
+
+locale_l_vov_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Львов ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_sun__book_Puteshestvie_Na_Zapad
+<- locale;
+=> nrel_main_idtf:
+	[ Сунь ]
+		(* <- lang_ru;; *);;
+

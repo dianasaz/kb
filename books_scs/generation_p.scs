@@ -1,0 +1,365 @@
+book_Generation_P
+<- book;
+=> nrel_author;
+	author_Pelevin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Generation «П»]
+		(* <- lang_ru;; *);;
+
+book_Generation_P
+=> nrel_characters:
+	.book_Generation_P_characters
+		(*
+			-> char_gireeva_book_Generation_P;;
+			-> char_el_zin_book_Generation_P;;
+			-> char_vavilen_book_Generation_P;;
+			-> char_sergej_book_Generation_P;;
+			-> char_vladimir_il_ic_lenin_book_Generation_P;;
+			-> char_sejfula_book_Generation_P;;
+			-> char_morkovina_book_Generation_P;;
+			-> char_enkida_book_Generation_P;;
+			-> char_hanin_book_Generation_P;;
+			-> char_vasilij_aksenov_book_Generation_P;;
+			-> char_hanin_tatarskij_book_Generation_P;;
+			-> char_siruf_book_Generation_P;;
+			-> char_morkovin_book_Generation_P;;
+			-> char_vavilen_tatarskij_book_Generation_P;;
+			-> char_malaa_book_Generation_P;;
+			-> char_gusejn_book_Generation_P;;
+			-> char_maluta_book_Generation_P;;
+			-> char_vovcik_book_Generation_P;;
+			-> char_vovcik_malyj_book_Generation_P;;
+			-> char_grigorij_book_Generation_P;;
+			-> char_farsejkin_book_Generation_P;;
+			-> char_vladimir_hanin_book_Generation_P;;
+			-> char_pugin_book_Generation_P;;
+			-> char_dmitria_pugina_book_Generation_P;;
+			-> char_andrej_gireev_book_Generation_P;;
+			-> char_sirruf_book_Generation_P;;
+			-> char_tatarskij_book_Generation_P;;
+			-> char_karlovic_fasuk_book_Generation_P;;
+			-> char_leonid_azadovskij_book_Generation_P;;
+			-> char_mihail_book_Generation_P;;
+	 	*);;
+
+char_gireeva_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Гиреева ]
+		(* <- lang_ru;; *);;
+
+char_el_zin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Ельцин ]
+		(* <- lang_ru;; *);;
+
+char_vavilen_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Вавилен ]
+		(* <- lang_ru;; *);;
+
+char_sergej_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Сергей ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_il_ic_lenin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Ильич Ленин ]
+		(* <- lang_ru;; *);;
+
+char_sejfula_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Сейфуля ]
+		(* <- lang_ru;; *);;
+
+char_morkovina_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Морковина ]
+		(* <- lang_ru;; *);;
+
+char_enkida_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Энкида ]
+		(* <- lang_ru;; *);;
+
+char_hanin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Ханин ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_aksenov_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Василий Аксёнов ]
+		(* <- lang_ru;; *);;
+
+char_hanin_tatarskij_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Ханин Татарский ]
+		(* <- lang_ru;; *);;
+
+char_siruf_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Сируф ]
+		(* <- lang_ru;; *);;
+
+char_morkovin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Морковин ]
+		(* <- lang_ru;; *);;
+
+char_vavilen_tatarskij_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Вавилен Татарский ]
+		(* <- lang_ru;; *);;
+
+char_malaa_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Малая ]
+		(* <- lang_ru;; *);;
+
+char_gusejn_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Гусейн ]
+		(* <- lang_ru;; *);;
+
+char_maluta_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Малюта ]
+		(* <- lang_ru;; *);;
+
+char_vovcik_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Вовчик ]
+		(* <- lang_ru;; *);;
+
+char_vovcik_malyj_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Вовчик Малый ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_farsejkin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Фарсейкин ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_hanin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Ханин ]
+		(* <- lang_ru;; *);;
+
+char_pugin_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Пугин ]
+		(* <- lang_ru;; *);;
+
+char_dmitria_pugina_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрия Пугина ]
+		(* <- lang_ru;; *);;
+
+char_andrej_gireev_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Гиреев ]
+		(* <- lang_ru;; *);;
+
+char_sirruf_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Сирруф ]
+		(* <- lang_ru;; *);;
+
+char_tatarskij_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Татарский ]
+		(* <- lang_ru;; *);;
+
+char_karlovic_fasuk_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Карлович Фасук ]
+		(* <- lang_ru;; *);;
+
+char_leonid_azadovskij_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Леонид Азадовский ]
+		(* <- lang_ru;; *);;
+
+char_mihail_book_Generation_P
+<- char;
+=> nrel_main_idtf:
+	[ Михаил ]
+		(* <- lang_ru;; *);;
+
+book_Generation_P
+=> nrel_locales:
+	.book_Generation_P_locales
+		(*
+			-> locale_drevnij_vavilon_book_Generation_P;;
+			-> locale_nekij_vladimir_book_Generation_P;;
+			-> locale_rastorguevo_book_Generation_P;;
+			-> locale_rossia_book_Generation_P;;
+			-> locale_kotoryj_book_Generation_P;;
+			-> locale_etot_pal_ma_book_Generation_P;;
+			-> locale_vladimir_book_Generation_P;;
+			-> locale_marka_book_Generation_P;;
+			-> locale_ostankino_book_Generation_P;;
+			-> locale_kola_book_Generation_P;;
+			-> locale_jork_book_Generation_P;;
+			-> locale_oranus_book_Generation_P;;
+			-> locale_vavilon_book_Generation_P;;
+			-> locale_sirrufa_book_Generation_P;;
+			-> locale_fasuka_book_Generation_P;;
+			-> locale_misticeska_book_Generation_P;;
+			-> locale_vavilen_book_Generation_P;;
+			-> locale_para_book_Generation_P;;
+			-> locale_tihamat_book_Generation_P;;
+	 	*);;
+
+locale_drevnij_vavilon_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Древний Вавилон ]
+		(* <- lang_ru;; *);;
+
+locale_nekij_vladimir_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Некий Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_rastorguevo_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Расторгуево ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_etot_pal_ma_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_marka_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Марка ]
+		(* <- lang_ru;; *);;
+
+locale_ostankino_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Останкино ]
+		(* <- lang_ru;; *);;
+
+locale_kola_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Кола ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_oranus_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Оранус ]
+		(* <- lang_ru;; *);;
+
+locale_vavilon_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Вавилон ]
+		(* <- lang_ru;; *);;
+
+locale_sirrufa_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Сирруфа ]
+		(* <- lang_ru;; *);;
+
+locale_fasuka_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Фасука ]
+		(* <- lang_ru;; *);;
+
+locale_misticeska_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Мистичёска ]
+		(* <- lang_ru;; *);;
+
+locale_vavilen_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Вавилен ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_tihamat_book_Generation_P
+<- locale;
+=> nrel_main_idtf:
+	[ Тихамат ]
+		(* <- lang_ru;; *);;
+

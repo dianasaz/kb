@@ -1,0 +1,112 @@
+book_Odin_Den
+<- book;
+=> nrel_author;
+	author_Solzhenitsyn;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Один День Ивана Денисовича]
+		(* <- lang_ru;; *);;
+
+book_Odin_Den
+=> nrel_characters:
+	.book_Odin_Den_characters
+		(*
+			-> char_ivan_denisovic_suhov_book_Odin_Den;;
+			-> char_alesa_book_Odin_Den;;
+			-> char_volkov_book_Odin_Den;;
+			-> char_gopcik_book_Odin_Den;;
+			-> char_suhov_book_Odin_Den;;
+	 	*);;
+
+char_ivan_denisovic_suhov_book_Odin_Den
+<- char;
+=> nrel_main_idtf:
+	[ Иван Денисович Шухов ]
+		(* <- lang_ru;; *);;
+
+char_alesa_book_Odin_Den
+<- char;
+=> nrel_main_idtf:
+	[ Алёша ]
+		(* <- lang_ru;; *);;
+
+char_volkov_book_Odin_Den
+<- char;
+=> nrel_main_idtf:
+	[ Волков ]
+		(* <- lang_ru;; *);;
+
+char_gopcik_book_Odin_Den
+<- char;
+=> nrel_main_idtf:
+	[ Гопчик ]
+		(* <- lang_ru;; *);;
+
+char_suhov_book_Odin_Den
+<- char;
+=> nrel_main_idtf:
+	[ Шухов ]
+		(* <- lang_ru;; *);;
+
+book_Odin_Den
+=> nrel_locales:
+	.book_Odin_Den_locales
+		(*
+			-> locale_fal_sivyj_kover_book_Odin_Den;;
+			-> locale_krasnaa_book_Odin_Den;;
+			-> locale_kotoryj_book_Odin_Den;;
+			-> locale_to_book_Odin_Den;;
+			-> locale_religioznaa_rossia_book_Odin_Den;;
+			-> locale_gitlerovskaa_germania_book_Odin_Den;;
+	 	*);;
+
+locale_fal_sivyj_kover_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ Фальшивый Ковёр ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_religioznaa_rossia_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ Религиозная Россия ]
+		(* <- lang_ru;; *);;
+
+locale_gitlerovskaa_germania_book_Odin_Den
+<- locale;
+=> nrel_main_idtf:
+	[ Гитлеровская Германия ]
+		(* <- lang_ru;; *);;
+
+book_Odin_Den
+=> nrel_dates:
+	.book_Odin_Den_dates
+		(*
+			-> date_1941_6_23_book_Odin_Den;;
+	 	*);;
+
+date_1941_6_23_book_Odin_Den
+<- date;
+=> nrel_main_idtf:
+	[ 1941 6 23 ]
+		(* <- lang_ru;; *);;
+

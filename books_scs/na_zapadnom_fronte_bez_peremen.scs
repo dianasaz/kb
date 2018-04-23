@@ -1,0 +1,168 @@
+book_Na_Zapadnom_Fronte_Bez_Peremen
+<- book;
+=> nrel_author;
+	author_Remark;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[На Западном Фронте Без Перемен]
+		(* <- lang_ru;; *);;
+
+book_Na_Zapadnom_Fronte_Bez_Peremen
+=> nrel_characters:
+	.book_Na_Zapadnom_Fronte_Bez_Peremen_characters
+		(*
+			-> char_mittel_sted_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_franz_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_muller_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_al_bert_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_bem_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_kimmerih_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_iozef_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_paul__bojmer_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> char_paul__book_Na_Zapadnom_Fronte_Bez_Peremen;;
+	 	*);;
+
+char_mittel_sted_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Миттельштед ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_muller_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Мюллер ]
+		(* <- lang_ru;; *);;
+
+char_al_bert_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+char_bem_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Бем ]
+		(* <- lang_ru;; *);;
+
+char_kimmerih_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Киммерих ]
+		(* <- lang_ru;; *);;
+
+char_iozef_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Иозеф ]
+		(* <- lang_ru;; *);;
+
+char_paul__bojmer_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Пауль Боймер ]
+		(* <- lang_ru;; *);;
+
+char_paul__book_Na_Zapadnom_Fronte_Bez_Peremen
+<- char;
+=> nrel_main_idtf:
+	[ Пауль ]
+		(* <- lang_ru;; *);;
+
+book_Na_Zapadnom_Fronte_Bez_Peremen
+=> nrel_locales:
+	.book_Na_Zapadnom_Fronte_Bez_Peremen_locales
+		(*
+			-> locale_ugol_nyj_rajon_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_rossia_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_franzia_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_znakomyj_patrioticeska_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_al_bert_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_bel_gia_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_krasnyj_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_amerika_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_anglia_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+			-> locale_germania_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+	 	*);;
+
+locale_ugol_nyj_rajon_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Угольный Район ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_znakomyj_patrioticeska_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Знакомый Патриотичёска ]
+		(* <- lang_ru;; *);;
+
+locale_al_bert_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+locale_bel_gia_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Бельгия ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+book_Na_Zapadnom_Fronte_Bez_Peremen
+=> nrel_dates:
+	.book_Na_Zapadnom_Fronte_Bez_Peremen_dates
+		(*
+			-> date_1918_10_book_Na_Zapadnom_Fronte_Bez_Peremen;;
+	 	*);;
+
+date_1918_10_book_Na_Zapadnom_Fronte_Bez_Peremen
+<- date;
+=> nrel_main_idtf:
+	[ 1918 10 ]
+		(* <- lang_ru;; *);;
+

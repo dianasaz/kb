@@ -1,0 +1,231 @@
+book_Bednye
+<- book;
+=> nrel_author;
+	author_Dostoevsky;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Бедные Люди]
+		(* <- lang_ru;; *);;
+
+book_Bednye
+=> nrel_characters:
+	.book_Bednye_characters
+		(*
+			-> char_petr_book_Bednye;;
+			-> char_varenek_book_Bednye;;
+			-> char_bykov_book_Bednye;;
+			-> char_makar_book_Bednye;;
+			-> char_vara_book_Bednye;;
+			-> char_anna_fedorovna_book_Bednye;;
+			-> char_anne_fedorovna_book_Bednye;;
+			-> char_vyrina_book_Bednye;;
+			-> char_makar_alekseevic_book_Bednye;;
+			-> char_basmackin_book_Bednye;;
+			-> char_petr_pokrovskij_book_Bednye;;
+			-> char_varvara_alekseevna_dobroselovaa_book_Bednye;;
+			-> char_gorskov_book_Bednye;;
+	 	*);;
+
+char_petr_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_varenek_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Варенек ]
+		(* <- lang_ru;; *);;
+
+char_bykov_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+char_makar_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Макар ]
+		(* <- lang_ru;; *);;
+
+char_vara_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Варя ]
+		(* <- lang_ru;; *);;
+
+char_anna_fedorovna_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Анна Фёдоровна ]
+		(* <- lang_ru;; *);;
+
+char_anne_fedorovna_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Анне Фёдоровна ]
+		(* <- lang_ru;; *);;
+
+char_vyrina_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Вырина ]
+		(* <- lang_ru;; *);;
+
+char_makar_alekseevic_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Макар Алексеевич ]
+		(* <- lang_ru;; *);;
+
+char_basmackin_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Башмачкин ]
+		(* <- lang_ru;; *);;
+
+char_petr_pokrovskij_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Покровский ]
+		(* <- lang_ru;; *);;
+
+char_varvara_alekseevna_dobroselovaa_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Варвара Алексеевна Доброселовая ]
+		(* <- lang_ru;; *);;
+
+char_gorskov_book_Bednye
+<- char;
+=> nrel_main_idtf:
+	[ Горшков ]
+		(* <- lang_ru;; *);;
+
+book_Bednye
+=> nrel_locales:
+	.book_Bednye_locales
+		(*
+			-> locale_bykov_book_Bednye;;
+			-> locale_karman_book_Bednye;;
+			-> locale_zulejka_book_Bednye;;
+			-> locale_kotoryj_book_Bednye;;
+			-> locale_peterburgskij_book_Bednye;;
+			-> locale_fontanka_book_Bednye;;
+			-> locale_pokrovskij_book_Bednye;;
+			-> locale_puskin_book_Bednye;;
+			-> locale_ermak_book_Bednye;;
+			-> locale_peterburg_book_Bednye;;
+	 	*);;
+
+locale_bykov_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_zulejka_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Зюлейка ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_fontanka_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Фонтанка ]
+		(* <- lang_ru;; *);;
+
+locale_pokrovskij_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Покровский ]
+		(* <- lang_ru;; *);;
+
+locale_puskin_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Пушкин ]
+		(* <- lang_ru;; *);;
+
+locale_ermak_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Ермак ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Bednye
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Bednye
+=> nrel_dates:
+	.book_Bednye_dates
+		(*
+			-> date_9_30_book_Bednye;;
+			-> date_7_6_book_Bednye;;
+			-> date_9_9_book_Bednye;;
+			-> date_6_10_book_Bednye;;
+			-> date_9_20_book_Bednye;;
+			-> date_4_8_book_Bednye;;
+	 	*);;
+
+date_9_30_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 9 30 ]
+		(* <- lang_ru;; *);;
+
+date_7_6_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 7 6 ]
+		(* <- lang_ru;; *);;
+
+date_9_9_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 9 9 ]
+		(* <- lang_ru;; *);;
+
+date_6_10_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 6 10 ]
+		(* <- lang_ru;; *);;
+
+date_9_20_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 9 20 ]
+		(* <- lang_ru;; *);;
+
+date_4_8_book_Bednye
+<- date;
+=> nrel_main_idtf:
+	[ 4 8 ]
+		(* <- lang_ru;; *);;
+

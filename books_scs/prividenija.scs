@@ -1,0 +1,113 @@
+book_Prividenija
+<- book;
+=> nrel_author;
+	author_Ibsen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Привидения]
+		(* <- lang_ru;; *);;
+
+book_Prividenija
+=> nrel_characters:
+	.book_Prividenija_characters
+		(*
+			-> char_al_vinga_book_Prividenija;;
+			-> char_osval_d_book_Prividenija;;
+			-> char_manders_book_Prividenija;;
+			-> char_johanna_book_Prividenija;;
+			-> char_al_ving_osval_d_book_Prividenija;;
+			-> char_al_finga_book_Prividenija;;
+			-> char_ibsen_book_Prividenija;;
+			-> char_regin_book_Prividenija;;
+	 	*);;
+
+char_al_vinga_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Альвинга ]
+		(* <- lang_ru;; *);;
+
+char_osval_d_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Освальд ]
+		(* <- lang_ru;; *);;
+
+char_manders_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Мандерс ]
+		(* <- lang_ru;; *);;
+
+char_johanna_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Йоханна ]
+		(* <- lang_ru;; *);;
+
+char_al_ving_osval_d_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Альвинг Освальд ]
+		(* <- lang_ru;; *);;
+
+char_al_finga_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Альфинга ]
+		(* <- lang_ru;; *);;
+
+char_ibsen_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Ибсен ]
+		(* <- lang_ru;; *);;
+
+char_regin_book_Prividenija
+<- char;
+=> nrel_main_idtf:
+	[ Регин ]
+		(* <- lang_ru;; *);;
+
+book_Prividenija
+=> nrel_locales:
+	.book_Prividenija_locales
+		(*
+			-> locale_norvegia_book_Prividenija;;
+			-> locale_parij_book_Prividenija;;
+			-> locale_to_book_Prividenija;;
+			-> locale_ih_kraj_book_Prividenija;;
+			-> locale_manders_book_Prividenija;;
+	 	*);;
+
+locale_norvegia_book_Prividenija
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Prividenija
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Prividenija
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ih_kraj_book_Prividenija
+<- locale;
+=> nrel_main_idtf:
+	[ Их Край ]
+		(* <- lang_ru;; *);;
+
+locale_manders_book_Prividenija
+<- locale;
+=> nrel_main_idtf:
+	[ Мандерс ]
+		(* <- lang_ru;; *);;
+

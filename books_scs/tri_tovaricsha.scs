@@ -1,0 +1,224 @@
+book_Tri_Tovaricsha
+<- book;
+=> nrel_author;
+	author_Remark;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Три Товарища]
+		(* <- lang_ru;; *);;
+
+book_Tri_Tovaricsha
+=> nrel_characters:
+	.book_Tri_Tovaricsha_characters
+		(*
+			-> char_kester_book_Tri_Tovaricsha;;
+			-> char_orlov_book_Tri_Tovaricsha;;
+			-> char_al_fons_book_Tri_Tovaricsha;;
+			-> char_robert_book_Tri_Tovaricsha;;
+			-> char_gustav_book_Tri_Tovaricsha;;
+			-> char_otto_kester_book_Tri_Tovaricsha;;
+			-> char_gottfrid_lenz_book_Tri_Tovaricsha;;
+			-> char_patrizia_hol_man_book_Tri_Tovaricsha;;
+			-> char_patrizia_book_Tri_Tovaricsha;;
+			-> char_muller_book_Tri_Tovaricsha;;
+			-> char_valentin_gauzer_book_Tri_Tovaricsha;;
+			-> char_karl_book_Tri_Tovaricsha;;
+			-> char_jaffa_book_Tri_Tovaricsha;;
+			-> char_lilla_book_Tri_Tovaricsha;;
+			-> char_otto_book_Tri_Tovaricsha;;
+			-> char_georg_blok_book_Tri_Tovaricsha;;
+			-> char_robert_lokamp_book_Tri_Tovaricsha;;
+			-> char_fred_book_Tri_Tovaricsha;;
+			-> char_gottfrid_book_Tri_Tovaricsha;;
+	 	*);;
+
+char_kester_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Кестер ]
+		(* <- lang_ru;; *);;
+
+char_orlov_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Орлов ]
+		(* <- lang_ru;; *);;
+
+char_al_fons_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Альфонс ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_otto_kester_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Отто Кестер ]
+		(* <- lang_ru;; *);;
+
+char_gottfrid_lenz_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Готтфрид Ленц ]
+		(* <- lang_ru;; *);;
+
+char_patrizia_hol_man_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Патриция Хольман ]
+		(* <- lang_ru;; *);;
+
+char_patrizia_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Патриция ]
+		(* <- lang_ru;; *);;
+
+char_muller_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Мюллер ]
+		(* <- lang_ru;; *);;
+
+char_valentin_gauzer_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Валентин Гаузер ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_jaffa_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Жаффа ]
+		(* <- lang_ru;; *);;
+
+char_lilla_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Лилля ]
+		(* <- lang_ru;; *);;
+
+char_otto_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Отто ]
+		(* <- lang_ru;; *);;
+
+char_georg_blok_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Георг Блок ]
+		(* <- lang_ru;; *);;
+
+char_robert_lokamp_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Роберт Локамп ]
+		(* <- lang_ru;; *);;
+
+char_fred_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Фред ]
+		(* <- lang_ru;; *);;
+
+char_gottfrid_book_Tri_Tovaricsha
+<- char;
+=> nrel_main_idtf:
+	[ Готтфрид ]
+		(* <- lang_ru;; *);;
+
+book_Tri_Tovaricsha
+=> nrel_locales:
+	.book_Tri_Tovaricsha_locales
+		(*
+			-> locale_rossia_book_Tri_Tovaricsha;;
+			-> locale_velikoe_book_Tri_Tovaricsha;;
+			-> locale_sahta_book_Tri_Tovaricsha;;
+			-> locale_amerikanskij_gorka_book_Tri_Tovaricsha;;
+			-> locale_lenz_book_Tri_Tovaricsha;;
+			-> locale_germania_book_Tri_Tovaricsha;;
+			-> locale_zalevsk_book_Tri_Tovaricsha;;
+	 	*);;
+
+locale_rossia_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_sahta_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Шахта ]
+		(* <- lang_ru;; *);;
+
+locale_amerikanskij_gorka_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Американский Горка ]
+		(* <- lang_ru;; *);;
+
+locale_lenz_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Ленц ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_zalevsk_book_Tri_Tovaricsha
+<- locale;
+=> nrel_main_idtf:
+	[ Залевск ]
+		(* <- lang_ru;; *);;
+
+book_Tri_Tovaricsha
+=> nrel_dates:
+	.book_Tri_Tovaricsha_dates
+		(*
+			-> date_1917_book_Tri_Tovaricsha;;
+			-> date_1919_book_Tri_Tovaricsha;;
+	 	*);;
+
+date_1917_book_Tri_Tovaricsha
+<- date;
+=> nrel_main_idtf:
+	[ 1917 ]
+		(* <- lang_ru;; *);;
+
+date_1919_book_Tri_Tovaricsha
+<- date;
+=> nrel_main_idtf:
+	[ 1919 ]
+		(* <- lang_ru;; *);;
+

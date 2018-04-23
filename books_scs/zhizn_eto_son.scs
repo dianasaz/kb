@@ -1,0 +1,120 @@
+book_Zhizn_Eto_Son
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Жизнь Есть Сон]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Eto_Son
+=> nrel_characters:
+	.book_Zhizn_Eto_Son_characters
+		(*
+			-> char_klotad_do_book_Zhizn_Eto_Son;;
+			-> char_basilio_book_Zhizn_Eto_Son;;
+			-> char_astol_fo_book_Zhizn_Eto_Son;;
+			-> char_klorina_book_Zhizn_Eto_Son;;
+			-> char_sehizmundo_book_Zhizn_Eto_Son;;
+			-> char_klotal_do_book_Zhizn_Eto_Son;;
+			-> char_resizmund_book_Zhizn_Eto_Son;;
+			-> char_astrea_book_Zhizn_Eto_Son;;
+	 	*);;
+
+char_klotad_do_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Клотадьдо ]
+		(* <- lang_ru;; *);;
+
+char_basilio_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Басилио ]
+		(* <- lang_ru;; *);;
+
+char_astol_fo_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Астольфо ]
+		(* <- lang_ru;; *);;
+
+char_klorina_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Клорина ]
+		(* <- lang_ru;; *);;
+
+char_sehizmundo_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Сехизмундо ]
+		(* <- lang_ru;; *);;
+
+char_klotal_do_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Клотальдо ]
+		(* <- lang_ru;; *);;
+
+char_resizmund_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Ресизмунд ]
+		(* <- lang_ru;; *);;
+
+char_astrea_book_Zhizn_Eto_Son
+<- char;
+=> nrel_main_idtf:
+	[ Астреа ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Eto_Son
+=> nrel_locales:
+	.book_Zhizn_Eto_Son_locales
+		(*
+			-> locale_kotoryj_rosaur_book_Zhizn_Eto_Son;;
+			-> locale_estrel_e_book_Zhizn_Eto_Son;;
+			-> locale_to_book_Zhizn_Eto_Son;;
+			-> locale_klorina_book_Zhizn_Eto_Son;;
+			-> locale_rosaur_book_Zhizn_Eto_Son;;
+			-> locale_pol_sa_book_Zhizn_Eto_Son;;
+	 	*);;
+
+locale_kotoryj_rosaur_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ Который Росаур ]
+		(* <- lang_ru;; *);;
+
+locale_estrel_e_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ Эстрелье ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_klorina_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ Клорина ]
+		(* <- lang_ru;; *);;
+
+locale_rosaur_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ Росаур ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Zhizn_Eto_Son
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,112 @@
+book_Amok
+<- book;
+=> nrel_author;
+	author_Cvejg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Амок]
+		(* <- lang_ru;; *);;
+
+book_Amok
+=> nrel_characters:
+	.book_Amok_characters
+		(*
+			-> char_matrosov_book_Amok;;
+	 	*);;
+
+char_matrosov_book_Amok
+<- char;
+=> nrel_main_idtf:
+	[ Матросов ]
+		(* <- lang_ru;; *);;
+
+book_Amok
+=> nrel_locales:
+	.book_Amok_locales
+		(*
+			-> locale_neapolitanskij_portu_book_Amok;;
+			-> locale_portu_book_Amok;;
+			-> locale_kotoryj_book_Amok;;
+			-> locale_glavnyj_rajon_book_Amok;;
+			-> locale_to_book_Amok;;
+			-> locale_evropa_book_Amok;;
+			-> locale_amerika_book_Amok;;
+			-> locale_anglia_book_Amok;;
+			-> locale_germania_book_Amok;;
+			-> locale_neapol__book_Amok;;
+	 	*);;
+
+locale_neapolitanskij_portu_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполитанский Порту ]
+		(* <- lang_ru;; *);;
+
+locale_portu_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_glavnyj_rajon_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Главный Район ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Amok
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+
+book_Amok
+=> nrel_dates:
+	.book_Amok_dates
+		(*
+			-> date_1912_3_book_Amok;;
+	 	*);;
+
+date_1912_3_book_Amok
+<- date;
+=> nrel_main_idtf:
+	[ 1912 3 ]
+		(* <- lang_ru;; *);;
+

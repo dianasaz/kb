@@ -1,0 +1,16 @@
+author_Breht
+<- person;
+=> nrel_main_idtf:
+	[Бертольт Брехт]
+		(* <- lang_ru;; *);;
+
+author_Breht
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Breht.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

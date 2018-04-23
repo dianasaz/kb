@@ -1,0 +1,225 @@
+book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- book;
+=> nrel_author;
+	author_Molina;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Севильский Озорник, Или Каменный Гость]
+		(* <- lang_ru;; *);;
+
+book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+=> nrel_characters:
+	.book_Sevilskij_Ozornik_Ili_Kamennyj_Gost_characters
+		(*
+			-> char_al_fons_kastil_skij_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_don_dij_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_beatrisa_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_huan_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_anne_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_pedro_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_didona_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_mota_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_gonsalo_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_anna_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> char_korol__book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+	 	*);;
+
+char_al_fons_kastil_skij_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Альфонс Кастильский ]
+		(* <- lang_ru;; *);;
+
+char_don_dij_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Дон Дий ]
+		(* <- lang_ru;; *);;
+
+char_beatrisa_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Беатриса ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_anne_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Анне ]
+		(* <- lang_ru;; *);;
+
+char_pedro_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Педро ]
+		(* <- lang_ru;; *);;
+
+char_didona_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Дидона ]
+		(* <- lang_ru;; *);;
+
+char_mota_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Мота ]
+		(* <- lang_ru;; *);;
+
+char_gonsalo_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Гонсало ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+char_korol__book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- char;
+=> nrel_main_idtf:
+	[ Король ]
+		(* <- lang_ru;; *);;
+
+book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+=> nrel_locales:
+	.book_Sevilskij_Ozornik_Ili_Kamennyj_Gost_locales
+		(*
+			-> locale_lebriha_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_nezaslujennaa_kara_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_milan_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_ermanas_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_lissabon_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_tarragona_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_opal_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_enea_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_ispania_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_aminta_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_tisbej_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_to_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_spravedlivaa_kara_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_sevil_a_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_ee_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+			-> locale_neapol__book_Sevilskij_Ozornik_Ili_Kamennyj_Gost;;
+	 	*);;
+
+locale_lebriha_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Лебриха ]
+		(* <- lang_ru;; *);;
+
+locale_nezaslujennaa_kara_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Незаслуженная Кара ]
+		(* <- lang_ru;; *);;
+
+locale_milan_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Милан ]
+		(* <- lang_ru;; *);;
+
+locale_ermanas_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Эрманас ]
+		(* <- lang_ru;; *);;
+
+locale_lissabon_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Лиссабон ]
+		(* <- lang_ru;; *);;
+
+locale_tarragona_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Таррагона ]
+		(* <- lang_ru;; *);;
+
+locale_opal_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Опал ]
+		(* <- lang_ru;; *);;
+
+locale_enea_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Энея ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_aminta_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Аминта ]
+		(* <- lang_ru;; *);;
+
+locale_tisbej_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Тисбей ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_spravedlivaa_kara_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Справедливая Кара ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_ee_don_book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Её Дон ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Sevilskij_Ozornik_Ili_Kamennyj_Gost
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+

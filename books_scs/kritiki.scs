@@ -1,0 +1,50 @@
+book_Kritiki
+<- book;
+=> nrel_author;
+	author_Shukshin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Критики]
+		(* <- lang_ru;; *);;
+
+book_Kritiki
+=> nrel_characters:
+	.book_Kritiki_characters
+		(*
+			-> char_pet_ka_book_Kritiki;;
+			-> char_timofej_book_Kritiki;;
+	 	*);;
+
+char_pet_ka_book_Kritiki
+<- char;
+=> nrel_main_idtf:
+	[ Петька ]
+		(* <- lang_ru;; *);;
+
+char_timofej_book_Kritiki
+<- char;
+=> nrel_main_idtf:
+	[ Тимофей ]
+		(* <- lang_ru;; *);;
+
+book_Kritiki
+=> nrel_locales:
+	.book_Kritiki_locales
+		(*
+			-> locale_eta_oblast__book_Kritiki;;
+			-> locale_para_book_Kritiki;;
+	 	*);;
+
+locale_eta_oblast__book_Kritiki
+<- locale;
+=> nrel_main_idtf:
+	[ Эта Область ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Kritiki
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

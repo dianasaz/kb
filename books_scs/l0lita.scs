@@ -1,0 +1,231 @@
+book_L0Lita
+<- book;
+=> nrel_author;
+	author_Nabokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лолита]
+		(* <- lang_ru;; *);;
+
+book_L0Lita
+=> nrel_characters:
+	.book_L0Lita_characters
+		(*
+			-> char_sarlotta_book_L0Lita;;
+			-> char_rita_book_L0Lita;;
+			-> char_kler_book_L0Lita;;
+			-> char_gejza_book_L0Lita;;
+			-> char_damor_book_L0Lita;;
+			-> char_dolores_book_L0Lita;;
+			-> char_lolita_book_L0Lita;;
+			-> char_gumbert_book_L0Lita;;
+	 	*);;
+
+char_sarlotta_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Шарлотта ]
+		(* <- lang_ru;; *);;
+
+char_rita_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Рита ]
+		(* <- lang_ru;; *);;
+
+char_kler_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Клэр ]
+		(* <- lang_ru;; *);;
+
+char_gejza_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Гейза ]
+		(* <- lang_ru;; *);;
+
+char_damor_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Дамор ]
+		(* <- lang_ru;; *);;
+
+char_dolores_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Долорес ]
+		(* <- lang_ru;; *);;
+
+char_lolita_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Лолита ]
+		(* <- lang_ru;; *);;
+
+char_gumbert_book_L0Lita
+<- char;
+=> nrel_main_idtf:
+	[ Гумберт ]
+		(* <- lang_ru;; *);;
+
+book_L0Lita
+=> nrel_locales:
+	.book_L0Lita_locales
+		(*
+			-> locale_parkington_book_L0Lita;;
+			-> locale_meksika_book_L0Lita;;
+			-> locale_kotoryj_book_L0Lita;;
+			-> locale_alaska_book_L0Lita;;
+			-> locale_soedinennyj_stat_book_L0Lita;;
+			-> locale_jork_book_L0Lita;;
+			-> locale_malen_kij_gorodok_book_L0Lita;;
+			-> locale_novaa_anglia_book_L0Lita;;
+			-> locale_parij_book_L0Lita;;
+			-> locale_to_book_L0Lita;;
+			-> locale_amerika_book_L0Lita;;
+			-> locale_vostok_book_L0Lita;;
+			-> locale_cua_book_L0Lita;;
+			-> locale_nea_book_L0Lita;;
+			-> locale_issledo_book_L0Lita;;
+	 	*);;
+
+locale_parkington_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Паркингтон ]
+		(* <- lang_ru;; *);;
+
+locale_meksika_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Мексика ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_alaska_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Аляска ]
+		(* <- lang_ru;; *);;
+
+locale_soedinennyj_stat_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Соединённый Штат ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_anglia_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Англия ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_cua_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Чуя ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_issledo_book_L0Lita
+<- locale;
+=> nrel_main_idtf:
+	[ Исследо ]
+		(* <- lang_ru;; *);;
+
+book_L0Lita
+=> nrel_dates:
+	.book_L0Lita_dates
+		(*
+			-> date_1947_8_book_L0Lita;;
+			-> date_1952_9_22_book_L0Lita;;
+			-> date_1949_book_L0Lita;;
+			-> date_1949_1_1_book_L0Lita;;
+			-> date_1952_book_L0Lita;;
+			-> date_1947_book_L0Lita;;
+	 	*);;
+
+date_1947_8_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1947 8 ]
+		(* <- lang_ru;; *);;
+
+date_1952_9_22_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1952 9 22 ]
+		(* <- lang_ru;; *);;
+
+date_1949_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1949 ]
+		(* <- lang_ru;; *);;
+
+date_1949_1_1_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1949 1 1 ]
+		(* <- lang_ru;; *);;
+
+date_1952_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1952 ]
+		(* <- lang_ru;; *);;
+
+date_1947_book_L0Lita
+<- date;
+=> nrel_main_idtf:
+	[ 1947 ]
+		(* <- lang_ru;; *);;
+

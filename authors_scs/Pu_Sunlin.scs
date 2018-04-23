@@ -1,0 +1,16 @@
+author_Pu_Sunlin
+<- person;
+=> nrel_main_idtf:
+	[Пу Сунлин]
+		(* <- lang_ru;; *);;
+
+author_Pu_Sunlin
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Pu_Sunlin.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

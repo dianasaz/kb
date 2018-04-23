@@ -1,0 +1,392 @@
+book_Knizhnyy_Vor
+<- book;
+=> nrel_author;
+	author_Zuzak;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Книжный Вор]
+		(* <- lang_ru;; *);;
+
+book_Knizhnyy_Vor
+=> nrel_characters:
+	.book_Knizhnyy_Vor_characters
+		(*
+			-> char_huberman_book_Knizhnyy_Vor;;
+			-> char_stajner_book_Knizhnyy_Vor;;
+			-> char_rudasij_book_Knizhnyy_Vor;;
+			-> char_memingera_book_Knizhnyy_Vor;;
+			-> char_huberman_book_Knizhnyy_Vor;;
+			-> char_gitler_book_Knizhnyy_Vor;;
+			-> char_viktor_book_Knizhnyy_Vor;;
+			-> char_djessi_book_Knizhnyy_Vor;;
+			-> char_artur_book_Knizhnyy_Vor;;
+			-> char_aleks_stajner_book_Knizhnyy_Vor;;
+			-> char_german_book_Knizhnyy_Vor;;
+			-> char_adol_f_gitler_book_Knizhnyy_Vor;;
+			-> char_franz_book_Knizhnyy_Vor;;
+			-> char_duden_book_Knizhnyy_Vor;;
+			-> char_artur_berg_book_Knizhnyy_Vor;;
+			-> char_il_zoa_germana_book_Knizhnyy_Vor;;
+			-> char_erik_book_Knizhnyy_Vor;;
+			-> char_gans_book_Knizhnyy_Vor;;
+			-> char_val_ter_kugler_book_Knizhnyy_Vor;;
+			-> char_il_za_german_book_Knizhnyy_Vor;;
+			-> char_val_ter_book_Knizhnyy_Vor;;
+			-> char_kel_na_book_Knizhnyy_Vor;;
+			-> char_maks_book_Knizhnyy_Vor;;
+			-> char_gans_huberman_book_Knizhnyy_Vor;;
+	 	*);;
+
+char_huberman_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Хуберман ]
+		(* <- lang_ru;; *);;
+
+char_stajner_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Штайнер ]
+		(* <- lang_ru;; *);;
+
+char_rudasij_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Рудящий ]
+		(* <- lang_ru;; *);;
+
+char_memingera_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Мемингера ]
+		(* <- lang_ru;; *);;
+
+char_huberman_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Хуберман ]
+		(* <- lang_ru;; *);;
+
+char_gitler_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Гитлер ]
+		(* <- lang_ru;; *);;
+
+char_viktor_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Виктор ]
+		(* <- lang_ru;; *);;
+
+char_djessi_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Джесси ]
+		(* <- lang_ru;; *);;
+
+char_artur_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Артур ]
+		(* <- lang_ru;; *);;
+
+char_aleks_stajner_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Алекс Штайнер ]
+		(* <- lang_ru;; *);;
+
+char_german_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Герман ]
+		(* <- lang_ru;; *);;
+
+char_adol_f_gitler_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Адольф Гитлер ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_duden_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Дуден ]
+		(* <- lang_ru;; *);;
+
+char_artur_berg_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Артур Берг ]
+		(* <- lang_ru;; *);;
+
+char_il_zoa_germana_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Ильзоя Германа ]
+		(* <- lang_ru;; *);;
+
+char_erik_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Эрик ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_kugler_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер Куглер ]
+		(* <- lang_ru;; *);;
+
+char_il_za_german_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Ильза Герман ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_kel_na_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Кёльна ]
+		(* <- lang_ru;; *);;
+
+char_maks_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Макс ]
+		(* <- lang_ru;; *);;
+
+char_gans_huberman_book_Knizhnyy_Vor
+<- char;
+=> nrel_main_idtf:
+	[ Ганс Хуберман ]
+		(* <- lang_ru;; *);;
+
+book_Knizhnyy_Vor
+=> nrel_locales:
+	.book_Knizhnyy_Vor_locales
+		(*
+			-> locale_gornyj_book_Knizhnyy_Vor;;
+			-> locale_huberman_book_Knizhnyy_Vor;;
+			-> locale_sidnej_book_Knizhnyy_Vor;;
+			-> locale_rossia_book_Knizhnyy_Vor;;
+			-> locale_kotoryj_book_Knizhnyy_Vor;;
+			-> locale_kuda_book_Knizhnyy_Vor;;
+			-> locale_illustrusij_book_Knizhnyy_Vor;;
+			-> locale_vandenburg_book_Knizhnyy_Vor;;
+			-> locale_soldatskoe_obmundi_book_Knizhnyy_Vor;;
+			-> locale_gorodok_book_Knizhnyy_Vor;;
+			-> locale_gitlerugend_book_Knizhnyy_Vor;;
+			-> locale_stalingradskaa_book_Knizhnyy_Vor;;
+			-> locale_to_book_Knizhnyy_Vor;;
+			-> locale_maj_book_Knizhnyy_Vor;;
+			-> locale_stajner_book_Knizhnyy_Vor;;
+			-> locale_vena_book_Knizhnyy_Vor;;
+			-> locale_germania_book_Knizhnyy_Vor;;
+			-> locale_munhen_book_Knizhnyy_Vor;;
+			-> locale_dzatogo_book_Knizhnyy_Vor;;
+	 	*);;
+
+locale_gornyj_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Горный ]
+		(* <- lang_ru;; *);;
+
+locale_huberman_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Хуберман ]
+		(* <- lang_ru;; *);;
+
+locale_sidnej_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Сидней ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_illustrusij_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Иллюструщий ]
+		(* <- lang_ru;; *);;
+
+locale_vandenburg_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Ванденбург ]
+		(* <- lang_ru;; *);;
+
+locale_soldatskoe_obmundi_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Солдатское Обмунди ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_gitlerugend_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Гитлерюгенд ]
+		(* <- lang_ru;; *);;
+
+locale_stalingradskaa_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Сталинградская ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_stajner_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Штайнер ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_munhen_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Мюнхен ]
+		(* <- lang_ru;; *);;
+
+locale_dzatogo_book_Knizhnyy_Vor
+<- locale;
+=> nrel_main_idtf:
+	[ Дцатого ]
+		(* <- lang_ru;; *);;
+
+book_Knizhnyy_Vor
+=> nrel_dates:
+	.book_Knizhnyy_Vor_dates
+		(*
+			-> date_1939_book_Knizhnyy_Vor;;
+			-> date_1940_1_book_Knizhnyy_Vor;;
+			-> date_1933_book_Knizhnyy_Vor;;
+			-> date_1945_10_book_Knizhnyy_Vor;;
+			-> date_1942_book_Knizhnyy_Vor;;
+			-> date_1939_1_book_Knizhnyy_Vor;;
+			-> date_1943_4_book_Knizhnyy_Vor;;
+			-> date_1940_4_book_Knizhnyy_Vor;;
+			-> date_1938_11_book_Knizhnyy_Vor;;
+	 	*);;
+
+date_1939_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1939 ]
+		(* <- lang_ru;; *);;
+
+date_1940_1_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1940 1 ]
+		(* <- lang_ru;; *);;
+
+date_1933_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1933 ]
+		(* <- lang_ru;; *);;
+
+date_1945_10_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1945 10 ]
+		(* <- lang_ru;; *);;
+
+date_1942_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1942 ]
+		(* <- lang_ru;; *);;
+
+date_1939_1_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1939 1 ]
+		(* <- lang_ru;; *);;
+
+date_1943_4_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1943 4 ]
+		(* <- lang_ru;; *);;
+
+date_1940_4_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1940 4 ]
+		(* <- lang_ru;; *);;
+
+date_1938_11_book_Knizhnyy_Vor
+<- date;
+=> nrel_main_idtf:
+	[ 1938 11 ]
+		(* <- lang_ru;; *);;
+

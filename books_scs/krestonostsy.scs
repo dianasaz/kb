@@ -1,0 +1,378 @@
+book_Krestonostsy
+<- book;
+=> nrel_author;
+	author_Senkevich;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Крестоносцы]
+		(* <- lang_ru;; *);;
+
+book_Krestonostsy
+=> nrel_characters:
+	.book_Krestonostsy_characters
+		(*
+			-> char_senkevic_book_Krestonostsy;;
+			-> char_lors_book_Krestonostsy;;
+			-> char_maz_ko_book_Krestonostsy;;
+			-> char_danfel_d_book_Krestonostsy;;
+			-> char_innokentij_book_Krestonostsy;;
+			-> char_brigitta_book_Krestonostsy;;
+			-> char_ul_rih_book_Krestonostsy;;
+			-> char_konrad_book_Krestonostsy;;
+			-> char_gotfrid_book_Krestonostsy;;
+			-> char_kuno_listenstejn_book_Krestonostsy;;
+			-> char_aleksandr_nevskij_book_Krestonostsy;;
+			-> char_taceva_book_Krestonostsy;;
+			-> char_rotgera_book_Krestonostsy;;
+			-> char_danus_ka_book_Krestonostsy;;
+			-> char_agenka_book_Krestonostsy;;
+			-> char_listenstejn_book_Krestonostsy;;
+			-> char_mal_burg_book_Krestonostsy;;
+			-> char_rotger_zigfrida_book_Krestonostsy;;
+			-> char_zigfrid_book_Krestonostsy;;
+	 	*);;
+
+char_senkevic_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Сенкевич ]
+		(* <- lang_ru;; *);;
+
+char_lors_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Лорш ]
+		(* <- lang_ru;; *);;
+
+char_maz_ko_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Мацько ]
+		(* <- lang_ru;; *);;
+
+char_danfel_d_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Данфельд ]
+		(* <- lang_ru;; *);;
+
+char_innokentij_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Иннокентий ]
+		(* <- lang_ru;; *);;
+
+char_brigitta_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Бригитта ]
+		(* <- lang_ru;; *);;
+
+char_ul_rih_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Ульрих ]
+		(* <- lang_ru;; *);;
+
+char_konrad_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Конрад ]
+		(* <- lang_ru;; *);;
+
+char_gotfrid_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Готфрид ]
+		(* <- lang_ru;; *);;
+
+char_kuno_listenstejn_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Куно Лиштенштейн ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_nevskij_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Александр Невский ]
+		(* <- lang_ru;; *);;
+
+char_taceva_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Тачева ]
+		(* <- lang_ru;; *);;
+
+char_rotgera_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Ротгера ]
+		(* <- lang_ru;; *);;
+
+char_danus_ka_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Дануська ]
+		(* <- lang_ru;; *);;
+
+char_agenka_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Ягенка ]
+		(* <- lang_ru;; *);;
+
+char_listenstejn_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Лиштенштейн ]
+		(* <- lang_ru;; *);;
+
+char_mal_burg_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Мальбург ]
+		(* <- lang_ru;; *);;
+
+char_rotger_zigfrida_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Ротгер Зигфрида ]
+		(* <- lang_ru;; *);;
+
+char_zigfrid_book_Krestonostsy
+<- char;
+=> nrel_main_idtf:
+	[ Зигфрид ]
+		(* <- lang_ru;; *);;
+
+book_Krestonostsy
+=> nrel_locales:
+	.book_Krestonostsy_locales
+		(*
+			-> locale_vsa_prussia_book_Krestonostsy;;
+			-> locale_ves__kraj_book_Krestonostsy;;
+			-> locale_tur_book_Krestonostsy;;
+			-> locale_pol_sa_book_Krestonostsy;;
+			-> locale_spyhovaa_book_Krestonostsy;;
+			-> locale_spyhov_book_Krestonostsy;;
+			-> locale_mal_burg_book_Krestonostsy;;
+			-> locale_baltika_book_Krestonostsy;;
+			-> locale_narva_book_Krestonostsy;;
+			-> locale_urand_book_Krestonostsy;;
+			-> locale_krakov_book_Krestonostsy;;
+			-> locale_litva_book_Krestonostsy;;
+			-> locale_visla_book_Krestonostsy;;
+			-> locale_vostocnaa_pribaltika_book_Krestonostsy;;
+			-> locale_bulla_book_Krestonostsy;;
+			-> locale_velikoe_book_Krestonostsy;;
+			-> locale_spyhovoj_book_Krestonostsy;;
+			-> locale_palestina_book_Krestonostsy;;
+			-> locale_ungingen_book_Krestonostsy;;
+			-> locale_nea_book_Krestonostsy;;
+			-> locale_transil_vania_book_Krestonostsy;;
+			-> locale_papsko_book_Krestonostsy;;
+			-> locale_to_book_Krestonostsy;;
+			-> locale_mal_borg_book_Krestonostsy;;
+			-> locale_medvejij_book_Krestonostsy;;
+	 	*);;
+
+locale_vsa_prussia_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__kraj_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Край ]
+		(* <- lang_ru;; *);;
+
+locale_tur_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Тур ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_spyhovaa_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Спыховая ]
+		(* <- lang_ru;; *);;
+
+locale_spyhov_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Спыхов ]
+		(* <- lang_ru;; *);;
+
+locale_mal_burg_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Мальбург ]
+		(* <- lang_ru;; *);;
+
+locale_baltika_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Балтика ]
+		(* <- lang_ru;; *);;
+
+locale_narva_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Нарва ]
+		(* <- lang_ru;; *);;
+
+locale_urand_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Юранд ]
+		(* <- lang_ru;; *);;
+
+locale_krakov_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Краков ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_visla_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Висла ]
+		(* <- lang_ru;; *);;
+
+locale_vostocnaa_pribaltika_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Восточная Прибалтика ]
+		(* <- lang_ru;; *);;
+
+locale_bulla_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Булла ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_spyhovoj_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Спыховой ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_ungingen_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Юнгинген ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_transil_vania_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Трансильвания ]
+		(* <- lang_ru;; *);;
+
+locale_papsko_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Папско ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_mal_borg_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Мальборг ]
+		(* <- lang_ru;; *);;
+
+locale_medvejij_book_Krestonostsy
+<- locale;
+=> nrel_main_idtf:
+	[ Медвежий ]
+		(* <- lang_ru;; *);;
+
+book_Krestonostsy
+=> nrel_dates:
+	.book_Krestonostsy_dates
+		(*
+			-> date_1242_book_Krestonostsy;;
+			-> date_1198_book_Krestonostsy;;
+			-> date_1283_book_Krestonostsy;;
+			-> date_1226_book_Krestonostsy;;
+			-> date_1410_book_Krestonostsy;;
+			-> date_1237_book_Krestonostsy;;
+	 	*);;
+
+date_1242_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1242 ]
+		(* <- lang_ru;; *);;
+
+date_1198_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1198 ]
+		(* <- lang_ru;; *);;
+
+date_1283_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1283 ]
+		(* <- lang_ru;; *);;
+
+date_1226_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1226 ]
+		(* <- lang_ru;; *);;
+
+date_1410_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1410 ]
+		(* <- lang_ru;; *);;
+
+date_1237_book_Krestonostsy
+<- date;
+=> nrel_main_idtf:
+	[ 1237 ]
+		(* <- lang_ru;; *);;
+

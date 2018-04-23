@@ -1,0 +1,183 @@
+book_Ljagushki
+<- book;
+=> nrel_author;
+	author_Aristofan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лягушки]
+		(* <- lang_ru;; *);;
+
+book_Ljagushki
+=> nrel_characters:
+	.book_Ljagushki_characters
+		(*
+			-> char_aheron_book_Ljagushki;;
+			-> char_gerakl_book_Ljagushki;;
+			-> char_eshilaa_book_Ljagushki;;
+			-> char_gomer_book_Ljagushki;;
+			-> char_afina_book_Ljagushki;;
+			-> char_evripidov_book_Ljagushki;;
+			-> char_evripida_book_Ljagushki;;
+			-> char_medea_book_Ljagushki;;
+			-> char_pelopa_book_Ljagushki;;
+			-> char_sofokl_book_Ljagushki;;
+			-> char_eshilyj_book_Ljagushki;;
+			-> char_dionis_book_Ljagushki;;
+			-> char_haron_book_Ljagushki;;
+			-> char_aida_book_Ljagushki;;
+			-> char_orest_book_Ljagushki;;
+	 	*);;
+
+char_aheron_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Ахерон ]
+		(* <- lang_ru;; *);;
+
+char_gerakl_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_eshilaa_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилая ]
+		(* <- lang_ru;; *);;
+
+char_gomer_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Гомер ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_evripidov_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Еврипидов ]
+		(* <- lang_ru;; *);;
+
+char_evripida_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Еврипида ]
+		(* <- lang_ru;; *);;
+
+char_medea_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Медея ]
+		(* <- lang_ru;; *);;
+
+char_pelopa_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Пелопа ]
+		(* <- lang_ru;; *);;
+
+char_sofokl_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Софокл ]
+		(* <- lang_ru;; *);;
+
+char_eshilyj_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Эсхилый ]
+		(* <- lang_ru;; *);;
+
+char_dionis_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Дионис ]
+		(* <- lang_ru;; *);;
+
+char_haron_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Харон ]
+		(* <- lang_ru;; *);;
+
+char_aida_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Аида ]
+		(* <- lang_ru;; *);;
+
+char_orest_book_Ljagushki
+<- char;
+=> nrel_main_idtf:
+	[ Орест ]
+		(* <- lang_ru;; *);;
+
+book_Ljagushki
+=> nrel_locales:
+	.book_Ljagushki_locales
+		(*
+			-> locale_aheron_book_Ljagushki;;
+			-> locale_afiny_book_Ljagushki;;
+			-> locale_bolotnyj_book_Ljagushki;;
+			-> locale_geraklov_book_Ljagushki;;
+			-> locale_drahma_book_Ljagushki;;
+			-> locale_luga_book_Ljagushki;;
+			-> locale_afina_book_Ljagushki;;
+			-> locale_poldrahma_book_Ljagushki;;
+	 	*);;
+
+locale_aheron_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Ахерон ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_bolotnyj_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Болотный ]
+		(* <- lang_ru;; *);;
+
+locale_geraklov_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Гераклов ]
+		(* <- lang_ru;; *);;
+
+locale_drahma_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Драхма ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_poldrahma_book_Ljagushki
+<- locale;
+=> nrel_main_idtf:
+	[ Полдрахма ]
+		(* <- lang_ru;; *);;
+

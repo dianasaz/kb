@@ -1,0 +1,16 @@
+author_Rasputin
+<- person;
+=> nrel_main_idtf:
+	[Валентин Распутин]
+		(* <- lang_ru;; *);;
+
+author_Rasputin
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Rasputin.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

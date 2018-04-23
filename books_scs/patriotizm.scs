@@ -1,0 +1,105 @@
+book_Patriotizm
+<- book;
+=> nrel_author;
+	author_Misima;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Патриотизм]
+		(* <- lang_ru;; *);;
+
+book_Patriotizm
+=> nrel_characters:
+	.book_Patriotizm_characters
+		(*
+			-> char_rejkoe_book_Patriotizm;;
+	 	*);;
+
+char_rejkoe_book_Patriotizm
+<- char;
+=> nrel_main_idtf:
+	[ Рэйкое ]
+		(* <- lang_ru;; *);;
+
+book_Patriotizm
+=> nrel_locales:
+	.book_Patriotizm_locales
+		(*
+			-> locale_velikoe_book_Patriotizm;;
+			-> locale_sabla_book_Patriotizm;;
+			-> locale_obnajennaa_sabla_book_Patriotizm;;
+			-> locale_to_book_Patriotizm;;
+			-> locale_sobstvennaa_sabla_book_Patriotizm;;
+			-> locale_molodaa_nazionalisticeska_book_Patriotizm;;
+			-> locale_sire_book_Patriotizm;;
+			-> locale_molodaa_para_book_Patriotizm;;
+	 	*);;
+
+locale_velikoe_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_sabla_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_obnajennaa_sabla_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Обнажённая Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sobstvennaa_sabla_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Собственная Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_molodaa_nazionalisticeska_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Молодая Националистичёска ]
+		(* <- lang_ru;; *);;
+
+locale_sire_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Шире ]
+		(* <- lang_ru;; *);;
+
+locale_molodaa_para_book_Patriotizm
+<- locale;
+=> nrel_main_idtf:
+	[ Молодая Пара ]
+		(* <- lang_ru;; *);;
+
+book_Patriotizm
+=> nrel_dates:
+	.book_Patriotizm_dates
+		(*
+			-> date_1936_2_28_book_Patriotizm;;
+			-> date_2_26_book_Patriotizm;;
+	 	*);;
+
+date_1936_2_28_book_Patriotizm
+<- date;
+=> nrel_main_idtf:
+	[ 1936 2 28 ]
+		(* <- lang_ru;; *);;
+
+date_2_26_book_Patriotizm
+<- date;
+=> nrel_main_idtf:
+	[ 2 26 ]
+		(* <- lang_ru;; *);;
+

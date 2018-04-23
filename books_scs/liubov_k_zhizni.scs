@@ -1,0 +1,50 @@
+book_Liubov_K_Zhizni
+<- book;
+=> nrel_author;
+	author_London;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Любовь К Жизни]
+		(* <- lang_ru;; *);;
+
+book_Liubov_K_Zhizni
+=> nrel_characters:
+	.book_Liubov_K_Zhizni_characters
+		(*
+			-> char_bill_book_Liubov_K_Zhizni;;
+	 	*);;
+
+char_bill_book_Liubov_K_Zhizni
+<- char;
+=> nrel_main_idtf:
+	[ Билл ]
+		(* <- lang_ru;; *);;
+
+book_Liubov_K_Zhizni
+=> nrel_locales:
+	.book_Liubov_K_Zhizni_locales
+		(*
+			-> locale_vodanistyj_bolotnyj_book_Liubov_K_Zhizni;;
+			-> locale_bedford_book_Liubov_K_Zhizni;;
+			-> locale_para_book_Liubov_K_Zhizni;;
+	 	*);;
+
+locale_vodanistyj_bolotnyj_book_Liubov_K_Zhizni
+<- locale;
+=> nrel_main_idtf:
+	[ Водянистый Болотный ]
+		(* <- lang_ru;; *);;
+
+locale_bedford_book_Liubov_K_Zhizni
+<- locale;
+=> nrel_main_idtf:
+	[ Бедфорд ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Liubov_K_Zhizni
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

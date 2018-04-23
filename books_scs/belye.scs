@@ -1,0 +1,78 @@
+book_Belye
+<- book;
+=> nrel_author;
+	author_Dostoevsky;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Белые Ночи]
+		(* <- lang_ru;; *);;
+
+book_Belye
+=> nrel_characters:
+	.book_Belye_characters
+		(*
+			-> char_gofman_book_Belye;;
+	 	*);;
+
+char_gofman_book_Belye
+<- char;
+=> nrel_main_idtf:
+	[ Гофман ]
+		(* <- lang_ru;; *);;
+
+book_Belye
+=> nrel_locales:
+	.book_Belye_locales
+		(*
+			-> locale_blagodarnyj_book_Belye;;
+			-> locale_puskin_book_Belye;;
+			-> locale_moskva_book_Belye;;
+			-> locale_to_book_Belye;;
+			-> locale_merim_book_Belye;;
+			-> locale_nea_book_Belye;;
+			-> locale_peterburg_book_Belye;;
+	 	*);;
+
+locale_blagodarnyj_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Благодарный ]
+		(* <- lang_ru;; *);;
+
+locale_puskin_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Пушкин ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_merim_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Мерим ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Belye
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

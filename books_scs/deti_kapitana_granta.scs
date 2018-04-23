@@ -1,0 +1,350 @@
+book_Deti_Kapitana_Granta
+<- book;
+=> nrel_author;
+	author_Vern;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дети Капитана Гранта]
+		(* <- lang_ru;; *);;
+
+book_Deti_Kapitana_Granta
+=> nrel_characters:
+	.book_Deti_Kapitana_Granta_characters
+		(*
+			-> char_paganela_book_Deti_Kapitana_Granta;;
+			-> char_robert_book_Deti_Kapitana_Granta;;
+			-> char_magellan_book_Deti_Kapitana_Granta;;
+			-> char_tom_book_Deti_Kapitana_Granta;;
+			-> char_djon_book_Deti_Kapitana_Granta;;
+			-> char_ostinom_book_Deti_Kapitana_Granta;;
+			-> char_elen_book_Deti_Kapitana_Granta;;
+			-> char_ben_djojs_book_Deti_Kapitana_Granta;;
+			-> char_bernulli_book_Deti_Kapitana_Granta;;
+			-> char_meri_book_Deti_Kapitana_Granta;;
+			-> char_eduard_book_Deti_Kapitana_Granta;;
+			-> char_garri_book_Deti_Kapitana_Granta;;
+			-> char_ostin_tom_book_Deti_Kapitana_Granta;;
+			-> char_lord_book_Deti_Kapitana_Granta;;
+			-> char_grant_book_Deti_Kapitana_Granta;;
+			-> char_jak_paganel__book_Deti_Kapitana_Granta;;
+	 	*);;
+
+char_paganela_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Паганеля ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_magellan_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Магеллан ]
+		(* <- lang_ru;; *);;
+
+char_tom_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Том ]
+		(* <- lang_ru;; *);;
+
+char_djon_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Джон ]
+		(* <- lang_ru;; *);;
+
+char_ostinom_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Остином ]
+		(* <- lang_ru;; *);;
+
+char_elen_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Элен ]
+		(* <- lang_ru;; *);;
+
+char_ben_djojs_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Бен Джойс ]
+		(* <- lang_ru;; *);;
+
+char_bernulli_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Бернулли ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Мэри ]
+		(* <- lang_ru;; *);;
+
+char_eduard_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Эдуард ]
+		(* <- lang_ru;; *);;
+
+char_garri_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Гарри ]
+		(* <- lang_ru;; *);;
+
+char_ostin_tom_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Остин Том ]
+		(* <- lang_ru;; *);;
+
+char_lord_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Лорд ]
+		(* <- lang_ru;; *);;
+
+char_grant_book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Грант ]
+		(* <- lang_ru;; *);;
+
+char_jak_paganel__book_Deti_Kapitana_Granta
+<- char;
+=> nrel_main_idtf:
+	[ Жак Паганель ]
+		(* <- lang_ru;; *);;
+
+book_Deti_Kapitana_Granta
+=> nrel_locales:
+	.book_Deti_Kapitana_Granta_locales
+		(*
+			-> locale_glazgo_book_Deti_Kapitana_Granta;;
+			-> locale_manglsom_book_Deti_Kapitana_Granta;;
+			-> locale_mel_burn_book_Deti_Kapitana_Granta;;
+			-> locale_kotoryj_book_Deti_Kapitana_Granta;;
+			-> locale_velikij_book_Deti_Kapitana_Granta;;
+			-> locale_britania_book_Deti_Kapitana_Granta;;
+			-> locale_byk_book_Deti_Kapitana_Granta;;
+			-> locale_korrientes_book_Deti_Kapitana_Granta;;
+			-> locale_evropa_book_Deti_Kapitana_Granta;;
+			-> locale_amsterdam_book_Deti_Kapitana_Granta;;
+			-> locale_sotlandia_book_Deti_Kapitana_Granta;;
+			-> locale_india_book_Deti_Kapitana_Granta;;
+			-> locale_dunkanuvsij_book_Deti_Kapitana_Granta;;
+			-> locale_krasnyh_book_Deti_Kapitana_Granta;;
+			-> locale_avstralia_book_Deti_Kapitana_Granta;;
+			-> locale_ves__byk_book_Deti_Kapitana_Granta;;
+			-> locale_argentina_book_Deti_Kapitana_Granta;;
+			-> locale_mangls_book_Deti_Kapitana_Granta;;
+			-> locale_novaa_zelandia_book_Deti_Kapitana_Granta;;
+			-> locale_ujnaa_amerika_book_Deti_Kapitana_Granta;;
+			-> locale_bogatyj_sotlandskij_book_Deti_Kapitana_Granta;;
+			-> locale_anglijskij_trehmactovyj_book_Deti_Kapitana_Granta;;
+			-> locale_etot_kraj_book_Deti_Kapitana_Granta;;
+			-> locale_cili_book_Deti_Kapitana_Granta;;
+			-> locale_temza_book_Deti_Kapitana_Granta;;
+			-> locale_oklend_book_Deti_Kapitana_Granta;;
+			-> locale_dunkan_book_Deti_Kapitana_Granta;;
+			-> locale_to_book_Deti_Kapitana_Granta;;
+	 	*);;
+
+locale_glazgo_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Глазго ]
+		(* <- lang_ru;; *);;
+
+locale_manglsom_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Манглсом ]
+		(* <- lang_ru;; *);;
+
+locale_mel_burn_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Мельбурн ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_britania_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Британия ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_korrientes_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Корриентес ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_amsterdam_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Амстердам ]
+		(* <- lang_ru;; *);;
+
+locale_sotlandia_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Шотландия ]
+		(* <- lang_ru;; *);;
+
+locale_india_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Индия ]
+		(* <- lang_ru;; *);;
+
+locale_dunkanuvsij_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Дунканувший ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__byk_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Бык ]
+		(* <- lang_ru;; *);;
+
+locale_argentina_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Аргентина ]
+		(* <- lang_ru;; *);;
+
+locale_mangls_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Манглс ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_zelandia_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Зеландия ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_amerika_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Америка ]
+		(* <- lang_ru;; *);;
+
+locale_bogatyj_sotlandskij_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Богатый Шотландский ]
+		(* <- lang_ru;; *);;
+
+locale_anglijskij_trehmactovyj_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Английский Трёхмачтовый ]
+		(* <- lang_ru;; *);;
+
+locale_etot_kraj_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Край ]
+		(* <- lang_ru;; *);;
+
+locale_cili_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Чили ]
+		(* <- lang_ru;; *);;
+
+locale_temza_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Темза ]
+		(* <- lang_ru;; *);;
+
+locale_oklend_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Окленд ]
+		(* <- lang_ru;; *);;
+
+locale_dunkan_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ Дункан ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Deti_Kapitana_Granta
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+book_Deti_Kapitana_Granta
+=> nrel_dates:
+	.book_Deti_Kapitana_Granta_dates
+		(*
+			-> date_8_25_book_Deti_Kapitana_Granta;;
+			-> date_1864_6_26_book_Deti_Kapitana_Granta;;
+	 	*);;
+
+date_8_25_book_Deti_Kapitana_Granta
+<- date;
+=> nrel_main_idtf:
+	[ 8 25 ]
+		(* <- lang_ru;; *);;
+
+date_1864_6_26_book_Deti_Kapitana_Granta
+<- date;
+=> nrel_main_idtf:
+	[ 1864 6 26 ]
+		(* <- lang_ru;; *);;
+

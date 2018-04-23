@@ -1,0 +1,155 @@
+book_Dama_Nevidimka
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дама-Невидимка]
+		(* <- lang_ru;; *);;
+
+book_Dama_Nevidimka
+=> nrel_characters:
+	.book_Dama_Nevidimka_characters
+		(*
+			-> char_beatris_book_Dama_Nevidimka;;
+			-> char_luis_book_Dama_Nevidimka;;
+			-> char_anhel_book_Dama_Nevidimka;;
+			-> char_huan_book_Dama_Nevidimka;;
+			-> char_manuel__book_Dama_Nevidimka;;
+			-> char_anhela_book_Dama_Nevidimka;;
+			-> char_don_book_Dama_Nevidimka;;
+			-> char_avror_book_Dama_Nevidimka;;
+			-> char_isavel__book_Dama_Nevidimka;;
+			-> char_klara_book_Dama_Nevidimka;;
+	 	*);;
+
+char_beatris_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Беатрис ]
+		(* <- lang_ru;; *);;
+
+char_luis_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Луис ]
+		(* <- lang_ru;; *);;
+
+char_anhel_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Анхел ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_manuel__book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Мануэль ]
+		(* <- lang_ru;; *);;
+
+char_anhela_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Анхела ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_avror_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Аврор ]
+		(* <- lang_ru;; *);;
+
+char_isavel__book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Исавель ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Dama_Nevidimka
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Dama_Nevidimka
+=> nrel_locales:
+	.book_Dama_Nevidimka_locales
+		(*
+			-> locale_kotoryj_book_Dama_Nevidimka;;
+			-> locale_kuda_book_Dama_Nevidimka;;
+			-> locale_gorod_don_book_Dama_Nevidimka;;
+			-> locale_on_don_book_Dama_Nevidimka;;
+			-> locale_don_book_Dama_Nevidimka;;
+			-> locale_madrid_book_Dama_Nevidimka;;
+			-> locale_to_book_Dama_Nevidimka;;
+			-> locale_anhel_book_Dama_Nevidimka;;
+			-> locale_ee_don_book_Dama_Nevidimka;;
+	 	*);;
+
+locale_kotoryj_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_don_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Город Дон ]
+		(* <- lang_ru;; *);;
+
+locale_on_don_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Он Дон ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_madrid_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Мадрид ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_anhel_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Анхел ]
+		(* <- lang_ru;; *);;
+
+locale_ee_don_book_Dama_Nevidimka
+<- locale;
+=> nrel_main_idtf:
+	[ Её Дон ]
+		(* <- lang_ru;; *);;
+

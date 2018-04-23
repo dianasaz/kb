@@ -1,0 +1,44 @@
+book_Kavkaz
+<- book;
+=> nrel_author;
+	author_Bunin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кавказ]
+		(* <- lang_ru;; *);;
+
+book_Kavkaz
+=> nrel_locales:
+	.book_Kavkaz_locales
+		(*
+			-> locale_arbat_book_Kavkaz;;
+			-> locale_gelendjik_book_Kavkaz;;
+			-> locale_soci_book_Kavkaz;;
+			-> locale_moskva_book_Kavkaz;;
+	 	*);;
+
+locale_arbat_book_Kavkaz
+<- locale;
+=> nrel_main_idtf:
+	[ Арбат ]
+		(* <- lang_ru;; *);;
+
+locale_gelendjik_book_Kavkaz
+<- locale;
+=> nrel_main_idtf:
+	[ Геленджик ]
+		(* <- lang_ru;; *);;
+
+locale_soci_book_Kavkaz
+<- locale;
+=> nrel_main_idtf:
+	[ Сочи ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Kavkaz
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+

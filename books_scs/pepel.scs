@@ -1,0 +1,427 @@
+book_Pepel
+<- book;
+=> nrel_author;
+	author_Zheromskij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пепел]
+		(* <- lang_ru;; *);;
+
+book_Pepel
+=> nrel_characters:
+	.book_Pepel_characters
+		(*
+			-> char_nekanda_book_Pepel;;
+			-> char_kostusko_book_Pepel;;
+			-> char_petr_ol_bromskij_book_Pepel;;
+			-> char_petr_book_Pepel;;
+			-> char_geden_book_Pepel;;
+			-> char_tudelaa_book_Pepel;;
+			-> char_ksistof_book_Pepel;;
+			-> char_kostusko_book_Pepel;;
+			-> char_zedroe_book_Pepel;;
+			-> char_dombrovskij_book_Pepel;;
+			-> char_rafada_book_Pepel;;
+			-> char_rafadu_book_Pepel;;
+			-> char_tadeus_book_Pepel;;
+			-> char_galizia_book_Pepel;;
+			-> char_gelena_book_Pepel;;
+			-> char_vit_book_Pepel;;
+			-> char_dzevanovskij_book_Pepel;;
+			-> char_petra_book_Pepel;;
+			-> char_kalis_book_Pepel;;
+			-> char_tarnina_book_Pepel;;
+			-> char_bonapart_book_Pepel;;
+			-> char_el_jbeta_book_Pepel;;
+	 	*);;
+
+char_nekanda_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Неканда ]
+		(* <- lang_ru;; *);;
+
+char_kostusko_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Костюшко ]
+		(* <- lang_ru;; *);;
+
+char_petr_ol_bromskij_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Ольбромский ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_geden_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Геден ]
+		(* <- lang_ru;; *);;
+
+char_tudelaa_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Туделая ]
+		(* <- lang_ru;; *);;
+
+char_ksistof_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Кшиштоф ]
+		(* <- lang_ru;; *);;
+
+char_kostusko_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Костющко ]
+		(* <- lang_ru;; *);;
+
+char_zedroe_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Цедрое ]
+		(* <- lang_ru;; *);;
+
+char_dombrovskij_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Домбровский ]
+		(* <- lang_ru;; *);;
+
+char_rafada_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Рафада ]
+		(* <- lang_ru;; *);;
+
+char_rafadu_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Рафаду ]
+		(* <- lang_ru;; *);;
+
+char_tadeus_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Тадеуш ]
+		(* <- lang_ru;; *);;
+
+char_galizia_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Галиция ]
+		(* <- lang_ru;; *);;
+
+char_gelena_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Гелена ]
+		(* <- lang_ru;; *);;
+
+char_vit_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Вит ]
+		(* <- lang_ru;; *);;
+
+char_dzevanovskij_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Дзевановский ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_kalis_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Калиш ]
+		(* <- lang_ru;; *);;
+
+char_tarnina_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Тарнина ]
+		(* <- lang_ru;; *);;
+
+char_bonapart_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Бонапарт ]
+		(* <- lang_ru;; *);;
+
+char_el_jbeta_book_Pepel
+<- char;
+=> nrel_main_idtf:
+	[ Эльжбета ]
+		(* <- lang_ru;; *);;
+
+book_Pepel
+=> nrel_locales:
+	.book_Pepel_locales
+		(*
+			-> locale_tcevoj_book_Pepel;;
+			-> locale_pol_sko_book_Pepel;;
+			-> locale_egipet_book_Pepel;;
+			-> locale_pol_sa_book_Pepel;;
+			-> locale_gdan_sk_book_Pepel;;
+			-> locale_stoklosa_book_Pepel;;
+			-> locale_franzia_book_Pepel;;
+			-> locale_krakov_book_Pepel;;
+			-> locale_evropa_book_Pepel;;
+			-> locale_visla_book_Pepel;;
+			-> locale_grezia_book_Pepel;;
+			-> locale_ujnyj_rajon_book_Pepel;;
+			-> locale_gintult_book_Pepel;;
+			-> locale_mirnyj_book_Pepel;;
+			-> locale_velikoe_book_Pepel;;
+			-> locale_avstria_book_Pepel;;
+			-> locale_napoleonovskaa_franzia_book_Pepel;;
+			-> locale_parij_book_Pepel;;
+			-> locale_palestina_book_Pepel;;
+			-> locale_ostal_naa_evropa_book_Pepel;;
+			-> locale_venezianskaa_respublika_book_Pepel;;
+			-> locale_saksonia_book_Pepel;;
+			-> locale_prussia_book_Pepel;;
+			-> locale_rossia_book_Pepel;;
+			-> locale_vena_book_Pepel;;
+			-> locale_novaa_kampania_book_Pepel;;
+			-> locale_mantuj_book_Pepel;;
+			-> locale_varsava_book_Pepel;;
+	 	*);;
+
+locale_tcevoj_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Тчевой ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sko_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Польско ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_gdan_sk_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Гданьск ]
+		(* <- lang_ru;; *);;
+
+locale_stoklosa_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Стоклоса ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_krakov_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Краков ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_visla_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Висла ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+
+locale_ujnyj_rajon_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Южный Район ]
+		(* <- lang_ru;; *);;
+
+locale_gintult_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Гинтулт ]
+		(* <- lang_ru;; *);;
+
+locale_mirnyj_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_napoleonovskaa_franzia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Наполеоновская Франция ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_ostal_naa_evropa_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Остальная Европа ]
+		(* <- lang_ru;; *);;
+
+locale_venezianskaa_respublika_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Венецианская Республика ]
+		(* <- lang_ru;; *);;
+
+locale_saksonia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Саксония ]
+		(* <- lang_ru;; *);;
+
+locale_prussia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Пруссия ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_kampania_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_mantuj_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Мантуй ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Pepel
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+
+book_Pepel
+=> nrel_dates:
+	.book_Pepel_dates
+		(*
+			-> date_1808_11_23_book_Pepel;;
+			-> date_1809_book_Pepel;;
+			-> date_1804_9_book_Pepel;;
+			-> date_1807_6_14_book_Pepel;;
+			-> date_4_19_book_Pepel;;
+			-> date_1802_book_Pepel;;
+			-> date_1812_book_Pepel;;
+	 	*);;
+
+date_1808_11_23_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1808 11 23 ]
+		(* <- lang_ru;; *);;
+
+date_1809_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1809 ]
+		(* <- lang_ru;; *);;
+
+date_1804_9_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1804 9 ]
+		(* <- lang_ru;; *);;
+
+date_1807_6_14_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1807 6 14 ]
+		(* <- lang_ru;; *);;
+
+date_4_19_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 4 19 ]
+		(* <- lang_ru;; *);;
+
+date_1802_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1802 ]
+		(* <- lang_ru;; *);;
+
+date_1812_book_Pepel
+<- date;
+=> nrel_main_idtf:
+	[ 1812 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,64 @@
+book_Krasotka_Mo_Proschitalas
+<- book;
+=> nrel_author;
+	author_Lin_Menchu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Красотка Мо Просчиталась]
+		(* <- lang_ru;; *);;
+
+book_Krasotka_Mo_Proschitalas
+=> nrel_characters:
+	.book_Krasotka_Mo_Proschitalas_characters
+		(*
+			-> char_sen_book_Krasotka_Mo_Proschitalas;;
+			-> char_an_book_Krasotka_Mo_Proschitalas;;
+			-> char_an_vtoroj_book_Krasotka_Mo_Proschitalas;;
+			-> char_li_book_Krasotka_Mo_Proschitalas;;
+	 	*);;
+
+char_sen_book_Krasotka_Mo_Proschitalas
+<- char;
+=> nrel_main_idtf:
+	[ Шэн ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Krasotka_Mo_Proschitalas
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+char_an_vtoroj_book_Krasotka_Mo_Proschitalas
+<- char;
+=> nrel_main_idtf:
+	[ Ян Второй ]
+		(* <- lang_ru;; *);;
+
+char_li_book_Krasotka_Mo_Proschitalas
+<- char;
+=> nrel_main_idtf:
+	[ Ли ]
+		(* <- lang_ru;; *);;
+
+book_Krasotka_Mo_Proschitalas
+=> nrel_locales:
+	.book_Krasotka_Mo_Proschitalas_locales
+		(*
+			-> locale_an_book_Krasotka_Mo_Proschitalas;;
+			-> locale_tot_kraj_book_Krasotka_Mo_Proschitalas;;
+	 	*);;
+
+locale_an_book_Krasotka_Mo_Proschitalas
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_tot_kraj_book_Krasotka_Mo_Proschitalas
+<- locale;
+=> nrel_main_idtf:
+	[ Тот Край ]
+		(* <- lang_ru;; *);;
+

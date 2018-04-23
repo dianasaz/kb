@@ -1,0 +1,477 @@
+book_Eneida
+<- book;
+=> nrel_author;
+	author_Vergilij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Энеида]
+		(* <- lang_ru;; *);;
+
+book_Eneida
+=> nrel_characters:
+	.book_Eneida_characters
+		(*
+			-> char_katon_book_Eneida;;
+			-> char_askania_book_Eneida;;
+			-> char_romul_book_Eneida;;
+			-> char_kassandra_book_Eneida;;
+			-> char_afina_book_Eneida;;
+			-> char_evandrov_book_Eneida;;
+			-> char_eneeva_book_Eneida;;
+			-> char_ahilla_book_Eneida;;
+			-> char_fetida_book_Eneida;;
+			-> char_kleopatra_book_Eneida;;
+			-> char_vergilij_book_Eneida;;
+			-> char_unona_book_Eneida;;
+			-> char_gektor_book_Eneida;;
+			-> char_lazij_book_Eneida;;
+			-> char_latin_book_Eneida;;
+			-> char_enea_book_Eneida;;
+			-> char_eneev_book_Eneida;;
+			-> char_anhisa_book_Eneida;;
+			-> char_katilina_book_Eneida;;
+			-> char_odissej_book_Eneida;;
+			-> char_priam_book_Eneida;;
+			-> char_sivillin_book_Eneida;;
+			-> char_tiresia_book_Eneida;;
+			-> char_kamilla_book_Eneida;;
+			-> char_rem_book_Eneida;;
+			-> char_antonij_book_Eneida;;
+			-> char_enea_book_Eneida;;
+			-> char_aidov_book_Eneida;;
+			-> char_lavinia_book_Eneida;;
+			-> char_diana_book_Eneida;;
+			-> char_didona_book_Eneida;;
+			-> char_afrodita_book_Eneida;;
+			-> char_nisa_book_Eneida;;
+			-> char_evandra_book_Eneida;;
+	 	*);;
+
+char_katon_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Катон ]
+		(* <- lang_ru;; *);;
+
+char_askania_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Аскания ]
+		(* <- lang_ru;; *);;
+
+char_romul_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Ромул ]
+		(* <- lang_ru;; *);;
+
+char_kassandra_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Кассандра ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_evandrov_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Евандров ]
+		(* <- lang_ru;; *);;
+
+char_eneeva_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Энеева ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_fetida_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Фетида ]
+		(* <- lang_ru;; *);;
+
+char_kleopatra_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Клеопатра ]
+		(* <- lang_ru;; *);;
+
+char_vergilij_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Вергилий ]
+		(* <- lang_ru;; *);;
+
+char_unona_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Юнона ]
+		(* <- lang_ru;; *);;
+
+char_gektor_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Гектор ]
+		(* <- lang_ru;; *);;
+
+char_lazij_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Лаций ]
+		(* <- lang_ru;; *);;
+
+char_latin_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Латин ]
+		(* <- lang_ru;; *);;
+
+char_enea_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Энея ]
+		(* <- lang_ru;; *);;
+
+char_eneev_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Энеев ]
+		(* <- lang_ru;; *);;
+
+char_anhisa_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Анхиса ]
+		(* <- lang_ru;; *);;
+
+char_katilina_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Катилина ]
+		(* <- lang_ru;; *);;
+
+char_odissej_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Одиссей ]
+		(* <- lang_ru;; *);;
+
+char_priam_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Приам ]
+		(* <- lang_ru;; *);;
+
+char_sivillin_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Сивиллин ]
+		(* <- lang_ru;; *);;
+
+char_tiresia_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Тиресия ]
+		(* <- lang_ru;; *);;
+
+char_kamilla_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Камилла ]
+		(* <- lang_ru;; *);;
+
+char_rem_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Рем ]
+		(* <- lang_ru;; *);;
+
+char_antonij_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Антоний ]
+		(* <- lang_ru;; *);;
+
+char_enea_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Энея ]
+		(* <- lang_ru;; *);;
+
+char_aidov_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Аидов ]
+		(* <- lang_ru;; *);;
+
+char_lavinia_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Лавиния ]
+		(* <- lang_ru;; *);;
+
+char_diana_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Диана ]
+		(* <- lang_ru;; *);;
+
+char_didona_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Дидона ]
+		(* <- lang_ru;; *);;
+
+char_afrodita_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Афродита ]
+		(* <- lang_ru;; *);;
+
+char_nisa_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Ниса ]
+		(* <- lang_ru;; *);;
+
+char_evandra_book_Eneida
+<- char;
+=> nrel_main_idtf:
+	[ Евандра ]
+		(* <- lang_ru;; *);;
+
+book_Eneida
+=> nrel_locales:
+	.book_Eneida_locales
+		(*
+			-> locale_dalekaa_finikia_book_Eneida;;
+			-> locale_gorod_karfagen_book_Eneida;;
+			-> locale_merkurij_book_Eneida;;
+			-> locale_sizilia_book_Eneida;;
+			-> locale_ves__rim_book_Eneida;;
+			-> locale_vezuvij_book_Eneida;;
+			-> locale_venera_book_Eneida;;
+			-> locale_turna_book_Eneida;;
+			-> locale_orel_book_Eneida;;
+			-> locale_turnom_book_Eneida;;
+			-> locale_rim_book_Eneida;;
+			-> locale_grezia_book_Eneida;;
+			-> locale_nepobedimyj_turn_book_Eneida;;
+			-> locale_velikoe_book_Eneida;;
+			-> locale_krit_book_Eneida;;
+			-> locale_molodoj_turn_book_Eneida;;
+			-> locale_tibr_book_Eneida;;
+			-> locale_enea_book_Eneida;;
+			-> locale_stiks_book_Eneida;;
+			-> locale_amazonka_book_Eneida;;
+			-> locale_afrika_book_Eneida;;
+			-> locale_nea_book_Eneida;;
+			-> locale_budusij_rim_book_Eneida;;
+			-> locale_zapad_book_Eneida;;
+			-> locale_italia_book_Eneida;;
+			-> locale_kuda_book_Eneida;;
+			-> locale_neptun_book_Eneida;;
+			-> locale_ee_karfagen_book_Eneida;;
+			-> locale_upiter_book_Eneida;;
+			-> locale_afina_book_Eneida;;
+			-> locale_karfagen_book_Eneida;;
+	 	*);;
+
+locale_dalekaa_finikia_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Далёкая Финикия ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_karfagen_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Город Карфаген ]
+		(* <- lang_ru;; *);;
+
+locale_merkurij_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Меркурий ]
+		(* <- lang_ru;; *);;
+
+locale_sizilia_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Сицилия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__rim_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Рим ]
+		(* <- lang_ru;; *);;
+
+locale_vezuvij_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Везувий ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_turna_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Турна ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_turnom_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Турном ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+
+locale_nepobedimyj_turn_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Непобедимый Турн ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_molodoj_turn_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Молодой Турн ]
+		(* <- lang_ru;; *);;
+
+locale_tibr_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Тибр ]
+		(* <- lang_ru;; *);;
+
+locale_enea_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Энея ]
+		(* <- lang_ru;; *);;
+
+locale_stiks_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Стикс ]
+		(* <- lang_ru;; *);;
+
+locale_amazonka_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Амазонка ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_budusij_rim_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Будущий Рим ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_neptun_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Нептун ]
+		(* <- lang_ru;; *);;
+
+locale_ee_karfagen_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Её Карфаген ]
+		(* <- lang_ru;; *);;
+
+locale_upiter_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_karfagen_book_Eneida
+<- locale;
+=> nrel_main_idtf:
+	[ Карфаген ]
+		(* <- lang_ru;; *);;
+

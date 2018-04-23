@@ -1,0 +1,57 @@
+book_Svidanie_S_Ptitcey
+<- book;
+=> nrel_author;
+	author_Tolstaia;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Свидание С Птицей]
+		(* <- lang_ru;; *);;
+
+book_Svidanie_S_Ptitcey
+=> nrel_characters:
+	.book_Svidanie_S_Ptitcey_characters
+		(*
+			-> char_bora_book_Svidanie_S_Ptitcey;;
+			-> char_peta_book_Svidanie_S_Ptitcey;;
+			-> char_borin_book_Svidanie_S_Ptitcey;;
+			-> char_tomila_book_Svidanie_S_Ptitcey;;
+	 	*);;
+
+char_bora_book_Svidanie_S_Ptitcey
+<- char;
+=> nrel_main_idtf:
+	[ Боря ]
+		(* <- lang_ru;; *);;
+
+char_peta_book_Svidanie_S_Ptitcey
+<- char;
+=> nrel_main_idtf:
+	[ Петя ]
+		(* <- lang_ru;; *);;
+
+char_borin_book_Svidanie_S_Ptitcey
+<- char;
+=> nrel_main_idtf:
+	[ Борин ]
+		(* <- lang_ru;; *);;
+
+char_tomila_book_Svidanie_S_Ptitcey
+<- char;
+=> nrel_main_idtf:
+	[ Томила ]
+		(* <- lang_ru;; *);;
+
+book_Svidanie_S_Ptitcey
+=> nrel_locales:
+	.book_Svidanie_S_Ptitcey_locales
+		(*
+			-> locale_atlantida_book_Svidanie_S_Ptitcey;;
+	 	*);;
+
+locale_atlantida_book_Svidanie_S_Ptitcey
+<- locale;
+=> nrel_main_idtf:
+	[ Атлантида ]
+		(* <- lang_ru;; *);;
+

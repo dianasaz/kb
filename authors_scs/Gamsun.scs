@@ -1,0 +1,16 @@
+author_Gamsun
+<- person;
+=> nrel_main_idtf:
+	[Кнут Гамсун]
+		(* <- lang_ru;; *);;
+
+author_Gamsun
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gamsun.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,323 @@
+book_Ramajana
+<- book;
+=> nrel_author;
+	author_Valmiki;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Рамаяна]
+		(* <- lang_ru;; *);;
+
+book_Ramajana
+=> nrel_characters:
+	.book_Ramajana_characters
+		(*
+			-> char_indradjit_book_Ramajana;;
+			-> char_djambavan_hanuman_book_Ramajana;;
+			-> char_mahendra_book_Ramajana;;
+			-> char_laksmane_book_Ramajana;;
+			-> char_vibhisana_book_Ramajana;;
+			-> char_ram_book_Ramajana;;
+			-> char_kausal_a_book_Ramajana;;
+			-> char_kajkeja_book_Ramajana;;
+			-> char_hanuman_book_Ramajana;;
+			-> char_sito_book_Ramajana;;
+			-> char_hanumannyj_book_Ramajana;;
+			-> char_ravan_book_Ramajana;;
+			-> char_djambavan_book_Ramajana;;
+			-> char_ajodh_u_book_Ramajana;;
+			-> char_maric_book_Ramajana;;
+			-> char_valin_book_Ramajana;;
+			-> char_val_mik_book_Ramajana;;
+			-> char_nala_book_Ramajana;;
+	 	*);;
+
+char_indradjit_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Индраджит ]
+		(* <- lang_ru;; *);;
+
+char_djambavan_hanuman_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Джамбаван Хануман ]
+		(* <- lang_ru;; *);;
+
+char_mahendra_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Махендра ]
+		(* <- lang_ru;; *);;
+
+char_laksmane_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Лакшмане ]
+		(* <- lang_ru;; *);;
+
+char_vibhisana_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Вибхишана ]
+		(* <- lang_ru;; *);;
+
+char_ram_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Рам ]
+		(* <- lang_ru;; *);;
+
+char_kausal_a_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Каушалья ]
+		(* <- lang_ru;; *);;
+
+char_kajkeja_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Кайкейя ]
+		(* <- lang_ru;; *);;
+
+char_hanuman_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Хануман ]
+		(* <- lang_ru;; *);;
+
+char_sito_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Сито ]
+		(* <- lang_ru;; *);;
+
+char_hanumannyj_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Хануманный ]
+		(* <- lang_ru;; *);;
+
+char_ravan_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Раван ]
+		(* <- lang_ru;; *);;
+
+char_djambavan_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Джамбаван ]
+		(* <- lang_ru;; *);;
+
+char_ajodh_u_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Айодхью ]
+		(* <- lang_ru;; *);;
+
+char_maric_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Марич ]
+		(* <- lang_ru;; *);;
+
+char_valin_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Валин ]
+		(* <- lang_ru;; *);;
+
+char_val_mik_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Вальмик ]
+		(* <- lang_ru;; *);;
+
+char_nala_book_Ramajana
+<- char;
+=> nrel_main_idtf:
+	[ Нала ]
+		(* <- lang_ru;; *);;
+
+book_Ramajana
+=> nrel_locales:
+	.book_Ramajana_locales
+		(*
+			-> locale_kotoryj_book_Ramajana;;
+			-> locale_ravan_book_Ramajana;;
+			-> locale_khara_book_Ramajana;;
+			-> locale_rama_book_Ramajana;;
+			-> locale_stivym__book_Ramajana;;
+			-> locale_laksmane_book_Ramajana;;
+			-> locale_sugriva_book_Ramajana;;
+			-> locale_desatigolovyj_ravan_book_Ramajana;;
+			-> locale_ramaan_book_Ramajana;;
+			-> locale_sam_ravan_book_Ramajana;;
+			-> locale_dandaka_book_Ramajana;;
+			-> locale_velikoe_book_Ramajana;;
+			-> locale_ajodh_a_book_Ramajana;;
+			-> locale_laksmana_book_Ramajana;;
+			-> locale_hanumannyj_book_Ramajana;;
+			-> locale_ram_book_Ramajana;;
+			-> locale_nea_book_Ramajana;;
+			-> locale_manthara_book_Ramajana;;
+			-> locale_visn_book_Ramajana;;
+			-> locale_visvakarman_book_Ramajana;;
+			-> locale_kuda_book_Ramajana;;
+			-> locale_vadjradamstra_book_Ramajana;;
+			-> locale_to_book_Ramajana;;
+			-> locale_hanumana_book_Ramajana;;
+			-> locale_daksmana_book_Ramajana;;
+	 	*);;
+
+locale_kotoryj_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ravan_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Раван ]
+		(* <- lang_ru;; *);;
+
+locale_khara_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Кхара ]
+		(* <- lang_ru;; *);;
+
+locale_rama_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Рама ]
+		(* <- lang_ru;; *);;
+
+locale_stivym__book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Стивымь ]
+		(* <- lang_ru;; *);;
+
+locale_laksmane_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Лакшмане ]
+		(* <- lang_ru;; *);;
+
+locale_sugriva_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Сугрива ]
+		(* <- lang_ru;; *);;
+
+locale_desatigolovyj_ravan_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Десятиголовый Раван ]
+		(* <- lang_ru;; *);;
+
+locale_ramaan_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Рамаян ]
+		(* <- lang_ru;; *);;
+
+locale_sam_ravan_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Раван ]
+		(* <- lang_ru;; *);;
+
+locale_dandaka_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Дандака ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_ajodh_a_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Айодхья ]
+		(* <- lang_ru;; *);;
+
+locale_laksmana_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Лакшмана ]
+		(* <- lang_ru;; *);;
+
+locale_hanumannyj_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Хануманный ]
+		(* <- lang_ru;; *);;
+
+locale_ram_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Рам ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_manthara_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Мантхара ]
+		(* <- lang_ru;; *);;
+
+locale_visn_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Вишн ]
+		(* <- lang_ru;; *);;
+
+locale_visvakarman_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Вишвакарман ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vadjradamstra_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Ваджрадамштра ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_hanumana_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Ханумана ]
+		(* <- lang_ru;; *);;
+
+locale_daksmana_book_Ramajana
+<- locale;
+=> nrel_main_idtf:
+	[ Дакшмана ]
+		(* <- lang_ru;; *);;
+

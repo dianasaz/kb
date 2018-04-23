@@ -1,0 +1,120 @@
+book_Dom_Gde_Razbivajutsja_Serdca
+<- book;
+=> nrel_author;
+	author_Shou;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дом, Где Разбиваются Сердца]
+		(* <- lang_ru;; *);;
+
+book_Dom_Gde_Razbivajutsja_Serdca
+=> nrel_characters:
+	.book_Dom_Gde_Razbivajutsja_Serdca_characters
+		(*
+			-> char_elli_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_mark_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_darnli_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_gesiona_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_gektor_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_gektor_hesebaj_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_den_madzini_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_bivsaa_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> char_den_book_Dom_Gde_Razbivajutsja_Serdca;;
+	 	*);;
+
+char_elli_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Элли ]
+		(* <- lang_ru;; *);;
+
+char_mark_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Марк ]
+		(* <- lang_ru;; *);;
+
+char_darnli_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Дарнли ]
+		(* <- lang_ru;; *);;
+
+char_gesiona_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Гесиона ]
+		(* <- lang_ru;; *);;
+
+char_gektor_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Гектор ]
+		(* <- lang_ru;; *);;
+
+char_gektor_hesebaj_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Гектор Хэшебай ]
+		(* <- lang_ru;; *);;
+
+char_den_madzini_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Дэн Мадзини ]
+		(* <- lang_ru;; *);;
+
+char_bivsaa_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Бившая ]
+		(* <- lang_ru;; *);;
+
+char_den_book_Dom_Gde_Razbivajutsja_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Дэн ]
+		(* <- lang_ru;; *);;
+
+book_Dom_Gde_Razbivajutsja_Serdca
+=> nrel_locales:
+	.book_Dom_Gde_Razbivajutsja_Serdca_locales
+		(*
+			-> locale_mengen_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> locale_madzina_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> locale_hesebaj_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> locale_to_book_Dom_Gde_Razbivajutsja_Serdca;;
+			-> locale_darnli_book_Dom_Gde_Razbivajutsja_Serdca;;
+	 	*);;
+
+locale_mengen_book_Dom_Gde_Razbivajutsja_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Менген ]
+		(* <- lang_ru;; *);;
+
+locale_madzina_book_Dom_Gde_Razbivajutsja_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Мадзиня ]
+		(* <- lang_ru;; *);;
+
+locale_hesebaj_book_Dom_Gde_Razbivajutsja_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Хэшебай ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dom_Gde_Razbivajutsja_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_darnli_book_Dom_Gde_Razbivajutsja_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Дарнли ]
+		(* <- lang_ru;; *);;
+

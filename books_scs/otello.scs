@@ -1,0 +1,120 @@
+book_Otello
+<- book;
+=> nrel_author;
+	author_Shekspir;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Отелло]
+		(* <- lang_ru;; *);;
+
+book_Otello
+=> nrel_characters:
+	.book_Otello_characters
+		(*
+			-> char_brabanzio_book_Otello;;
+			-> char_bianka_book_Otello;;
+			-> char_emilij_book_Otello;;
+			-> char_ago_book_Otello;;
+			-> char_otello_book_Otello;;
+			-> char_rodrigo_book_Otello;;
+			-> char_dezdemona_book_Otello;;
+			-> char_kassio_book_Otello;;
+			-> char_lodovikoe_book_Otello;;
+	 	*);;
+
+char_brabanzio_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Брабанцио ]
+		(* <- lang_ru;; *);;
+
+char_bianka_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Бианка ]
+		(* <- lang_ru;; *);;
+
+char_emilij_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Эмилий ]
+		(* <- lang_ru;; *);;
+
+char_ago_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Яго ]
+		(* <- lang_ru;; *);;
+
+char_otello_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Отелло ]
+		(* <- lang_ru;; *);;
+
+char_rodrigo_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Родриго ]
+		(* <- lang_ru;; *);;
+
+char_dezdemona_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Дездемона ]
+		(* <- lang_ru;; *);;
+
+char_kassio_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Кассио ]
+		(* <- lang_ru;; *);;
+
+char_lodovikoe_book_Otello
+<- char;
+=> nrel_main_idtf:
+	[ Лодовикое ]
+		(* <- lang_ru;; *);;
+
+book_Otello
+=> nrel_locales:
+	.book_Otello_locales
+		(*
+			-> locale_koldovskoj_cara_book_Otello;;
+			-> locale_kipr_book_Otello;;
+			-> locale_brabanzio_book_Otello;;
+			-> locale_venezia_book_Otello;;
+			-> locale_para_book_Otello;;
+	 	*);;
+
+locale_koldovskoj_cara_book_Otello
+<- locale;
+=> nrel_main_idtf:
+	[ Колдовской Чара ]
+		(* <- lang_ru;; *);;
+
+locale_kipr_book_Otello
+<- locale;
+=> nrel_main_idtf:
+	[ Кипр ]
+		(* <- lang_ru;; *);;
+
+locale_brabanzio_book_Otello
+<- locale;
+=> nrel_main_idtf:
+	[ Брабанцио ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Otello
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Otello
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

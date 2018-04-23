@@ -1,0 +1,113 @@
+book_Polifem_I_Galateja
+<- book;
+=> nrel_author;
+	author_Gongora_I_Argote;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Полифем И Галатея]
+		(* <- lang_ru;; *);;
+
+book_Polifem_I_Galateja
+=> nrel_characters:
+	.book_Polifem_I_Galateja_characters
+		(*
+			-> char_dorida_book_Polifem_I_Galateja;;
+			-> char_akida_book_Polifem_I_Galateja;;
+			-> char_galatea_book_Polifem_I_Galateja;;
+	 	*);;
+
+char_dorida_book_Polifem_I_Galateja
+<- char;
+=> nrel_main_idtf:
+	[ Дорида ]
+		(* <- lang_ru;; *);;
+
+char_akida_book_Polifem_I_Galateja
+<- char;
+=> nrel_main_idtf:
+	[ Акида ]
+		(* <- lang_ru;; *);;
+
+char_galatea_book_Polifem_I_Galateja
+<- char;
+=> nrel_main_idtf:
+	[ Галатея ]
+		(* <- lang_ru;; *);;
+
+book_Polifem_I_Galateja
+=> nrel_locales:
+	.book_Polifem_I_Galateja_locales
+		(*
+			-> locale_sizilia_book_Polifem_I_Galateja;;
+			-> locale_ujasnoe_oko_book_Polifem_I_Galateja;;
+			-> locale_akid_book_Polifem_I_Galateja;;
+			-> locale_neptun_book_Polifem_I_Galateja;;
+			-> locale_plodorodnyj_niva_book_Polifem_I_Galateja;;
+			-> locale_venera_book_Polifem_I_Galateja;;
+			-> locale_sam_amur_book_Polifem_I_Galateja;;
+			-> locale_umirausij_akid_book_Polifem_I_Galateja;;
+			-> locale_amur_book_Polifem_I_Galateja;;
+			-> locale_izobil_nyj_book_Polifem_I_Galateja;;
+	 	*);;
+
+locale_sizilia_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Сицилия ]
+		(* <- lang_ru;; *);;
+
+locale_ujasnoe_oko_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Ужасное Око ]
+		(* <- lang_ru;; *);;
+
+locale_akid_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Акид ]
+		(* <- lang_ru;; *);;
+
+locale_neptun_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Нептун ]
+		(* <- lang_ru;; *);;
+
+locale_plodorodnyj_niva_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Плодородный Нива ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_sam_amur_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Амур ]
+		(* <- lang_ru;; *);;
+
+locale_umirausij_akid_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Умирающий Акид ]
+		(* <- lang_ru;; *);;
+
+locale_amur_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Амур ]
+		(* <- lang_ru;; *);;
+
+locale_izobil_nyj_book_Polifem_I_Galateja
+<- locale;
+=> nrel_main_idtf:
+	[ Изобильный ]
+		(* <- lang_ru;; *);;
+

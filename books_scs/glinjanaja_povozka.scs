@@ -1,0 +1,127 @@
+book_Glinjanaja_Povozka
+<- book;
+=> nrel_author;
+	author_Shudraka;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Глиняная Повозка]
+		(* <- lang_ru;; *);;
+
+book_Glinjanaja_Povozka
+=> nrel_characters:
+	.book_Glinjanaja_Povozka_characters
+		(*
+			-> char_vasantasena_book_Glinjanaja_Povozka;;
+			-> char_madanika_book_Glinjanaja_Povozka;;
+			-> char_vasantasennyj_book_Glinjanaja_Povozka;;
+			-> char_vasantasennaa_book_Glinjanaja_Povozka;;
+	 	*);;
+
+char_vasantasena_book_Glinjanaja_Povozka
+<- char;
+=> nrel_main_idtf:
+	[ Васантасена ]
+		(* <- lang_ru;; *);;
+
+char_madanika_book_Glinjanaja_Povozka
+<- char;
+=> nrel_main_idtf:
+	[ Маданика ]
+		(* <- lang_ru;; *);;
+
+char_vasantasennyj_book_Glinjanaja_Povozka
+<- char;
+=> nrel_main_idtf:
+	[ Васантасённый ]
+		(* <- lang_ru;; *);;
+
+char_vasantasennaa_book_Glinjanaja_Povozka
+<- char;
+=> nrel_main_idtf:
+	[ Васантасённая ]
+		(* <- lang_ru;; *);;
+
+book_Glinjanaja_Povozka
+=> nrel_locales:
+	.book_Glinjanaja_Povozka_locales
+		(*
+			-> locale_jemcujnoe_ojerel_e_book_Glinjanaja_Povozka;;
+			-> locale_majtrej_book_Glinjanaja_Povozka;;
+			-> locale_kama_book_Glinjanaja_Povozka;;
+			-> locale_ojerel_e_book_Glinjanaja_Povozka;;
+			-> locale_blagorodnyj_carudattu_book_Glinjanaja_Povozka;;
+			-> locale_dhut_book_Glinjanaja_Povozka;;
+			-> locale_sam_tot_book_Glinjanaja_Povozka;;
+			-> locale_carudatta_book_Glinjanaja_Povozka;;
+			-> locale_nea_book_Glinjanaja_Povozka;;
+			-> locale_ee_ojerel_e_book_Glinjanaja_Povozka;;
+			-> locale_palak_book_Glinjanaja_Povozka;;
+	 	*);;
+
+locale_jemcujnoe_ojerel_e_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Жемчужное Ожерелье ]
+		(* <- lang_ru;; *);;
+
+locale_majtrej_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Майтрей ]
+		(* <- lang_ru;; *);;
+
+locale_kama_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Кама ]
+		(* <- lang_ru;; *);;
+
+locale_ojerel_e_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Ожерелье ]
+		(* <- lang_ru;; *);;
+
+locale_blagorodnyj_carudattu_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Благородный Чарудатту ]
+		(* <- lang_ru;; *);;
+
+locale_dhut_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Дхут ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_carudatta_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Чарудатта ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_ee_ojerel_e_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Её Ожерелье ]
+		(* <- lang_ru;; *);;
+
+locale_palak_book_Glinjanaja_Povozka
+<- locale;
+=> nrel_main_idtf:
+	[ Палак ]
+		(* <- lang_ru;; *);;
+

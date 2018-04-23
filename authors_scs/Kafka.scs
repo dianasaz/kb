@@ -1,0 +1,16 @@
+author_Kafka
+<- person;
+=> nrel_main_idtf:
+	[Франц Кафка]
+		(* <- lang_ru;; *);;
+
+author_Kafka
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kafka.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

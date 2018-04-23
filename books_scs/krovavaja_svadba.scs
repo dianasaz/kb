@@ -1,0 +1,57 @@
+book_Krovavaja_Svadba
+<- book;
+=> nrel_author;
+	author_Lorka;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кровавая Свадьба]
+		(* <- lang_ru;; *);;
+
+book_Krovavaja_Svadba
+=> nrel_characters:
+	.book_Krovavaja_Svadba_characters
+		(*
+			-> char_leonardo_book_Krovavaja_Svadba;;
+			-> char_feliks_book_Krovavaja_Svadba;;
+	 	*);;
+
+char_leonardo_book_Krovavaja_Svadba
+<- char;
+=> nrel_main_idtf:
+	[ Леонардо ]
+		(* <- lang_ru;; *);;
+
+char_feliks_book_Krovavaja_Svadba
+<- char;
+=> nrel_main_idtf:
+	[ Феликс ]
+		(* <- lang_ru;; *);;
+
+book_Krovavaja_Svadba
+=> nrel_locales:
+	.book_Krovavaja_Svadba_locales
+		(*
+			-> locale_ispania_book_Krovavaja_Svadba;;
+			-> locale_to_book_Krovavaja_Svadba;;
+			-> locale_strasnaa_kara_book_Krovavaja_Svadba;;
+	 	*);;
+
+locale_ispania_book_Krovavaja_Svadba
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Krovavaja_Svadba
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_strasnaa_kara_book_Krovavaja_Svadba
+<- locale;
+=> nrel_main_idtf:
+	[ Страшная Кара ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,133 @@
+book_Snezhnaja_Strana
+<- book;
+=> nrel_author;
+	author_Kavabata;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Снежная Страна]
+		(* <- lang_ru;; *);;
+
+book_Snezhnaja_Strana
+=> nrel_characters:
+	.book_Snezhnaja_Strana_characters
+		(*
+			-> char_komako_simamur_book_Snezhnaja_Strana;;
+			-> char_komako_book_Snezhnaja_Strana;;
+			-> char_joko_book_Snezhnaja_Strana;;
+			-> char_simamur_book_Snezhnaja_Strana;;
+	 	*);;
+
+char_komako_simamur_book_Snezhnaja_Strana
+<- char;
+=> nrel_main_idtf:
+	[ Комако Симамур ]
+		(* <- lang_ru;; *);;
+
+char_komako_book_Snezhnaja_Strana
+<- char;
+=> nrel_main_idtf:
+	[ Комако ]
+		(* <- lang_ru;; *);;
+
+char_joko_book_Snezhnaja_Strana
+<- char;
+=> nrel_main_idtf:
+	[ Йоко ]
+		(* <- lang_ru;; *);;
+
+char_simamur_book_Snezhnaja_Strana
+<- char;
+=> nrel_main_idtf:
+	[ Симамур ]
+		(* <- lang_ru;; *);;
+
+book_Snezhnaja_Strana
+=> nrel_locales:
+	.book_Snezhnaja_Strana_locales
+		(*
+			-> locale_honsu_book_Snezhnaja_Strana;;
+			-> locale_simamur_book_Snezhnaja_Strana;;
+			-> locale_gornyj_kraj_book_Snezhnaja_Strana;;
+			-> locale_komako_book_Snezhnaja_Strana;;
+			-> locale_aponia_book_Snezhnaja_Strana;;
+			-> locale_to_book_Snezhnaja_Strana;;
+			-> locale_maj_book_Snezhnaja_Strana;;
+			-> locale_tokio_book_Snezhnaja_Strana;;
+			-> locale_svoa_kara_book_Snezhnaja_Strana;;
+			-> locale_etot_kraj_book_Snezhnaja_Strana;;
+	 	*);;
+
+locale_honsu_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Хонсю ]
+		(* <- lang_ru;; *);;
+
+locale_simamur_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Симамур ]
+		(* <- lang_ru;; *);;
+
+locale_gornyj_kraj_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Горный Край ]
+		(* <- lang_ru;; *);;
+
+locale_komako_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Комако ]
+		(* <- lang_ru;; *);;
+
+locale_aponia_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Япония ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_tokio_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Токио ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_kara_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Кара ]
+		(* <- lang_ru;; *);;
+
+locale_etot_kraj_book_Snezhnaja_Strana
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Край ]
+		(* <- lang_ru;; *);;
+
+book_Snezhnaja_Strana
+=> nrel_dates:
+	.book_Snezhnaja_Strana_dates
+		(*
+			-> date_2_14_book_Snezhnaja_Strana;;
+	 	*);;
+
+date_2_14_book_Snezhnaja_Strana
+<- date;
+=> nrel_main_idtf:
+	[ 2 14 ]
+		(* <- lang_ru;; *);;
+

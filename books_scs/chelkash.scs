@@ -1,0 +1,113 @@
+book_Chelkash
+<- book;
+=> nrel_author;
+	author_Gorkii;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Челкаш]
+		(* <- lang_ru;; *);;
+
+book_Chelkash
+=> nrel_characters:
+	.book_Chelkash_characters
+		(*
+			-> char_gavrila_book_Chelkash;;
+			-> char_celkas_book_Chelkash;;
+			-> char_gavril_book_Chelkash;;
+			-> char_griska_book_Chelkash;;
+			-> char_kordon_book_Chelkash;;
+	 	*);;
+
+char_gavrila_book_Chelkash
+<- char;
+=> nrel_main_idtf:
+	[ Гаврила ]
+		(* <- lang_ru;; *);;
+
+char_celkas_book_Chelkash
+<- char;
+=> nrel_main_idtf:
+	[ Челкаш ]
+		(* <- lang_ru;; *);;
+
+char_gavril_book_Chelkash
+<- char;
+=> nrel_main_idtf:
+	[ Гаврил ]
+		(* <- lang_ru;; *);;
+
+char_griska_book_Chelkash
+<- char;
+=> nrel_main_idtf:
+	[ Гришка ]
+		(* <- lang_ru;; *);;
+
+char_kordon_book_Chelkash
+<- char;
+=> nrel_main_idtf:
+	[ Кордон ]
+		(* <- lang_ru;; *);;
+
+book_Chelkash
+=> nrel_locales:
+	.book_Chelkash_locales
+		(*
+			-> locale_karman_book_Chelkash;;
+			-> locale_portu_book_Chelkash;;
+			-> locale_seda_book_Chelkash;;
+			-> locale_kotoryj_book_Chelkash;;
+			-> locale_to_book_Chelkash;;
+			-> locale_celkasa_book_Chelkash;;
+			-> locale_ujnyj_portu_book_Chelkash;;
+			-> locale_kuban__book_Chelkash;;
+	 	*);;
+
+locale_karman_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_portu_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Порту ]
+		(* <- lang_ru;; *);;
+
+locale_seda_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Седа ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_celkasa_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Челкаша ]
+		(* <- lang_ru;; *);;
+
+locale_ujnyj_portu_book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Южный Порту ]
+		(* <- lang_ru;; *);;
+
+locale_kuban__book_Chelkash
+<- locale;
+=> nrel_main_idtf:
+	[ Кубань ]
+		(* <- lang_ru;; *);;
+

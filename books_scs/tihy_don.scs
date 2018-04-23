@@ -1,0 +1,749 @@
+book_Tihy_Don
+<- book;
+=> nrel_author;
+	author_Sholohov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тихий Дон]
+		(* <- lang_ru;; *);;
+
+book_Tihy_Don
+=> nrel_characters:
+	.book_Tihy_Don_characters
+		(*
+			-> char_zyk_book_Tihy_Don;;
+			-> char_medvedev_book_Tihy_Don;;
+			-> char_fizhelaurov_book_Tihy_Don;;
+			-> char_petro_meleh_book_Tihy_Don;;
+			-> char_stokman_book_Tihy_Don;;
+			-> char_stepan_astahov_book_Tihy_Don;;
+			-> char_petrova_book_Tihy_Don;;
+			-> char_ivan_alekseevic_book_Tihy_Don;;
+			-> char_cumakov_book_Tihy_Don;;
+			-> char_sergej_platonovic_mohov_book_Tihy_Don;;
+			-> char_fedot_book_Tihy_Don;;
+			-> char_kotlarov_book_Tihy_Don;;
+			-> char_miska_kosevoj_book_Tihy_Don;;
+			-> char_pantelej_prokofievic_book_Tihy_Don;;
+			-> char_antip_book_Tihy_Don;;
+			-> char_elizaveta_book_Tihy_Don;;
+			-> char_stepan_book_Tihy_Don;;
+			-> char_natal_a_book_Tihy_Don;;
+			-> char_efim_izvarin_book_Tihy_Don;;
+			-> char_donskoj_book_Tihy_Don;;
+			-> char_kudinov_book_Tihy_Don;;
+			-> char_grigorievic_korsunov_book_Tihy_Don;;
+			-> char_korsunov_book_Tihy_Don;;
+			-> char_frana_book_Tihy_Don;;
+			-> char_natal_a_korsunova_book_Tihy_Don;;
+			-> char_prokofij_book_Tihy_Don;;
+			-> char_aksin_a_book_Tihy_Don;;
+			-> char_prohor_book_Tihy_Don;;
+			-> char_podtelkov_book_Tihy_Don;;
+			-> char_cernezov_book_Tihy_Don;;
+			-> char_veska_book_Tihy_Don;;
+			-> char_griska_book_Tihy_Don;;
+			-> char_vasilisa_il_inicna_book_Tihy_Don;;
+			-> char_kotlar_book_Tihy_Don;;
+			-> char_sidorin_book_Tihy_Don;;
+			-> char_fomin_book_Tihy_Don;;
+			-> char_anna_book_Tihy_Don;;
+			-> char_sekretov_book_Tihy_Don;;
+			-> char_elizaveta_mohova_book_Tihy_Don;;
+			-> char_kalmykov_book_Tihy_Don;;
+			-> char_ivan_alekseevic_kotlarov_book_Tihy_Don;;
+			-> char_petr_melehov_book_Tihy_Don;;
+			-> char_mit_ka_korsunov_book_Tihy_Don;;
+			-> char_anna_pogudko_book_Tihy_Don;;
+			-> char_dar_a_book_Tihy_Don;;
+			-> char_grisak_book_Tihy_Don;;
+			-> char_petro_book_Tihy_Don;;
+			-> char_don_book_Tihy_Don;;
+			-> char_krasnov_book_Tihy_Don;;
+			-> char_prohor_zykov_book_Tihy_Don;;
+			-> char_meleh_book_Tihy_Don;;
+			-> char_saska_book_Tihy_Don;;
+			-> char_golubov_book_Tihy_Don;;
+			-> char_pantelej_book_Tihy_Don;;
+			-> char_kosev_book_Tihy_Don;;
+			-> char_mit_ka_book_Tihy_Don;;
+			-> char_melehov_book_Tihy_Don;;
+			-> char_petra_book_Tihy_Don;;
+			-> char_grigorij_book_Tihy_Don;;
+			-> char_akov_fomin_book_Tihy_Don;;
+			-> char_kaledin_book_Tihy_Don;;
+			-> char_kopylov_book_Tihy_Don;;
+			-> char_sinilina_book_Tihy_Don;;
+			-> char_evgenij_listnizkij_book_Tihy_Don;;
+			-> char_hristona_book_Tihy_Don;;
+			-> char_miron_korsunov_book_Tihy_Don;;
+			-> char_koseva_book_Tihy_Don;;
+			-> char_antip_brehovic_book_Tihy_Don;;
+			-> char_krivoslykov_book_Tihy_Don;;
+			-> char_miska_kosev_book_Tihy_Don;;
+			-> char_izvarin_book_Tihy_Don;;
+			-> char_mohov_book_Tihy_Don;;
+			-> char_kornilov_book_Tihy_Don;;
+			-> char_aksin_a_astahova_book_Tihy_Don;;
+	 	*);;
+
+char_zyk_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Зык ]
+		(* <- lang_ru;; *);;
+
+char_medvedev_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Медведев ]
+		(* <- lang_ru;; *);;
+
+char_fizhelaurov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Фицхелауров ]
+		(* <- lang_ru;; *);;
+
+char_petro_meleh_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Петро Мелех ]
+		(* <- lang_ru;; *);;
+
+char_stokman_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Штокман ]
+		(* <- lang_ru;; *);;
+
+char_stepan_astahov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Степан Астахов ]
+		(* <- lang_ru;; *);;
+
+char_petrova_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Петрова ]
+		(* <- lang_ru;; *);;
+
+char_ivan_alekseevic_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Иван Алексеевич ]
+		(* <- lang_ru;; *);;
+
+char_cumakov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Чумаков ]
+		(* <- lang_ru;; *);;
+
+char_sergej_platonovic_mohov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Сергей Платонович Мохов ]
+		(* <- lang_ru;; *);;
+
+char_fedot_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Федот ]
+		(* <- lang_ru;; *);;
+
+char_kotlarov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Котляров ]
+		(* <- lang_ru;; *);;
+
+char_miska_kosevoj_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мишка Кошевой ]
+		(* <- lang_ru;; *);;
+
+char_pantelej_prokofievic_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Пантелей Прокофиевич ]
+		(* <- lang_ru;; *);;
+
+char_antip_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Антип ]
+		(* <- lang_ru;; *);;
+
+char_elizaveta_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Елизавета ]
+		(* <- lang_ru;; *);;
+
+char_stepan_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Степан ]
+		(* <- lang_ru;; *);;
+
+char_natal_a_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Наталья ]
+		(* <- lang_ru;; *);;
+
+char_efim_izvarin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Ефим Изварин ]
+		(* <- lang_ru;; *);;
+
+char_donskoj_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Донской ]
+		(* <- lang_ru;; *);;
+
+char_kudinov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Кудинов ]
+		(* <- lang_ru;; *);;
+
+char_grigorievic_korsunov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Григориевич Коршунов ]
+		(* <- lang_ru;; *);;
+
+char_korsunov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Коршунов ]
+		(* <- lang_ru;; *);;
+
+char_frana_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Франя ]
+		(* <- lang_ru;; *);;
+
+char_natal_a_korsunova_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Наталья Коршунова ]
+		(* <- lang_ru;; *);;
+
+char_prokofij_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Прокофий ]
+		(* <- lang_ru;; *);;
+
+char_aksin_a_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Аксинья ]
+		(* <- lang_ru;; *);;
+
+char_prohor_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Прохор ]
+		(* <- lang_ru;; *);;
+
+char_podtelkov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Подтелков ]
+		(* <- lang_ru;; *);;
+
+char_cernezov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Чернецов ]
+		(* <- lang_ru;; *);;
+
+char_veska_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Вешка ]
+		(* <- lang_ru;; *);;
+
+char_griska_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Гришка ]
+		(* <- lang_ru;; *);;
+
+char_vasilisa_il_inicna_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Василиса Ильинична ]
+		(* <- lang_ru;; *);;
+
+char_kotlar_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Котляр ]
+		(* <- lang_ru;; *);;
+
+char_sidorin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Сидорин ]
+		(* <- lang_ru;; *);;
+
+char_fomin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Фомин ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+char_sekretov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Секретов ]
+		(* <- lang_ru;; *);;
+
+char_elizaveta_mohova_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Елизавета Мохова ]
+		(* <- lang_ru;; *);;
+
+char_kalmykov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Калмыков ]
+		(* <- lang_ru;; *);;
+
+char_ivan_alekseevic_kotlarov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Иван Алексеевич Котляров ]
+		(* <- lang_ru;; *);;
+
+char_petr_melehov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Пётр Мелехов ]
+		(* <- lang_ru;; *);;
+
+char_mit_ka_korsunov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Митька Коршунов ]
+		(* <- lang_ru;; *);;
+
+char_anna_pogudko_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Анна Погудко ]
+		(* <- lang_ru;; *);;
+
+char_dar_a_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Дарья ]
+		(* <- lang_ru;; *);;
+
+char_grisak_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Гришак ]
+		(* <- lang_ru;; *);;
+
+char_petro_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Петро ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_krasnov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Краснов ]
+		(* <- lang_ru;; *);;
+
+char_prohor_zykov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Прохор Зыков ]
+		(* <- lang_ru;; *);;
+
+char_meleh_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мелех ]
+		(* <- lang_ru;; *);;
+
+char_saska_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Сашка ]
+		(* <- lang_ru;; *);;
+
+char_golubov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Голубов ]
+		(* <- lang_ru;; *);;
+
+char_pantelej_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Пантелей ]
+		(* <- lang_ru;; *);;
+
+char_kosev_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Кошев ]
+		(* <- lang_ru;; *);;
+
+char_mit_ka_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Митька ]
+		(* <- lang_ru;; *);;
+
+char_melehov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мелехов ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_akov_fomin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Яков Фомин ]
+		(* <- lang_ru;; *);;
+
+char_kaledin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Каледин ]
+		(* <- lang_ru;; *);;
+
+char_kopylov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Копылов ]
+		(* <- lang_ru;; *);;
+
+char_sinilina_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Синилина ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_listnizkij_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Евгений Листницкий ]
+		(* <- lang_ru;; *);;
+
+char_hristona_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Христоня ]
+		(* <- lang_ru;; *);;
+
+char_miron_korsunov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мирон Коршунов ]
+		(* <- lang_ru;; *);;
+
+char_koseva_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Кошева ]
+		(* <- lang_ru;; *);;
+
+char_antip_brehovic_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Антип Брехович ]
+		(* <- lang_ru;; *);;
+
+char_krivoslykov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Кривошлыков ]
+		(* <- lang_ru;; *);;
+
+char_miska_kosev_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мишка Кошев ]
+		(* <- lang_ru;; *);;
+
+char_izvarin_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Изварин ]
+		(* <- lang_ru;; *);;
+
+char_mohov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Мохов ]
+		(* <- lang_ru;; *);;
+
+char_kornilov_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Корнилов ]
+		(* <- lang_ru;; *);;
+
+char_aksin_a_astahova_book_Tihy_Don
+<- char;
+=> nrel_main_idtf:
+	[ Аксинья Астахова ]
+		(* <- lang_ru;; *);;
+
+book_Tihy_Don
+=> nrel_locales:
+	.book_Tihy_Don_locales
+		(*
+			-> locale_sibir__book_Tihy_Don;;
+			-> locale_novorossijsk_book_Tihy_Don;;
+			-> locale_ukrainskij_book_Tihy_Don;;
+			-> locale_misatka_book_Tihy_Don;;
+			-> locale_russko_book_Tihy_Don;;
+			-> locale_krym_book_Tihy_Don;;
+			-> locale_don_book_Tihy_Don;;
+			-> locale_krasnyj_book_Tihy_Don;;
+			-> locale_anikuska_book_Tihy_Don;;
+			-> locale_kuban__book_Tihy_Don;;
+			-> locale_krasnyh_book_Tihy_Don;;
+			-> locale_turzia_book_Tihy_Don;;
+			-> locale_krasnaa_book_Tihy_Don;;
+			-> locale_moskva_book_Tihy_Don;;
+			-> locale_tverskaa_book_Tihy_Don;;
+			-> locale_turezkaa_kampania_book_Tihy_Don;;
+			-> locale_petrograd_book_Tihy_Don;;
+			-> locale_rubejnyj_book_Tihy_Don;;
+			-> locale_rossia_book_Tihy_Don;;
+			-> locale_kuda_book_Tihy_Don;;
+			-> locale_mohova_book_Tihy_Don;;
+			-> locale_rostov_book_Tihy_Don;;
+			-> locale_to_book_Tihy_Don;;
+			-> locale_maj_book_Tihy_Don;;
+			-> locale_bodovskov_book_Tihy_Don;;
+			-> locale_voronejskaa_oblast__book_Tihy_Don;;
+			-> locale_misatkaa_book_Tihy_Don;;
+	 	*);;
+
+locale_sibir__book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_novorossijsk_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Новороссийск ]
+		(* <- lang_ru;; *);;
+
+locale_ukrainskij_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Украинский ]
+		(* <- lang_ru;; *);;
+
+locale_misatka_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Мишатка ]
+		(* <- lang_ru;; *);;
+
+locale_russko_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Русско ]
+		(* <- lang_ru;; *);;
+
+locale_krym_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_anikuska_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Аникушка ]
+		(* <- lang_ru;; *);;
+
+locale_kuban__book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Кубань ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyh_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_turzia_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Турция ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_tverskaa_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Тверская ]
+		(* <- lang_ru;; *);;
+
+locale_turezkaa_kampania_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Турецкая Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_petrograd_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Петроград ]
+		(* <- lang_ru;; *);;
+
+locale_rubejnyj_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Рубежный ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_mohova_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Мохова ]
+		(* <- lang_ru;; *);;
+
+locale_rostov_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Ростов ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_bodovskov_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Бодовсков ]
+		(* <- lang_ru;; *);;
+
+locale_voronejskaa_oblast__book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Воронежская Область ]
+		(* <- lang_ru;; *);;
+
+locale_misatkaa_book_Tihy_Don
+<- locale;
+=> nrel_main_idtf:
+	[ Мишаткая ]
+		(* <- lang_ru;; *);;
+
+book_Tihy_Don
+=> nrel_dates:
+	.book_Tihy_Don_dates
+		(*
+			-> date_1918_4_book_Tihy_Don;;
+			-> date_1907_book_Tihy_Don;;
+	 	*);;
+
+date_1918_4_book_Tihy_Don
+<- date;
+=> nrel_main_idtf:
+	[ 1918 4 ]
+		(* <- lang_ru;; *);;
+
+date_1907_book_Tihy_Don
+<- date;
+=> nrel_main_idtf:
+	[ 1907 ]
+		(* <- lang_ru;; *);;
+

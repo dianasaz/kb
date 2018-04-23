@@ -1,0 +1,16 @@
+author_Mo_Yan
+<- person;
+=> nrel_main_idtf:
+	[Мо Янь]
+		(* <- lang_ru;; *);;
+
+author_Mo_Yan
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Mo_Yan.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

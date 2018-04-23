@@ -1,0 +1,92 @@
+book_Schastlivyj_Prints
+<- book;
+=> nrel_author;
+	author_Uajld;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Счастливый Принц И Другие Сказки]
+		(* <- lang_ru;; *);;
+
+book_Schastlivyj_Prints
+=> nrel_characters:
+	.book_Schastlivyj_Prints_characters
+		(*
+			-> char_rimskaa_book_Schastlivyj_Prints;;
+			-> char_gans_book_Schastlivyj_Prints;;
+			-> char_skvorez_book_Schastlivyj_Prints;;
+			-> char_sveca_book_Schastlivyj_Prints;;
+	 	*);;
+
+char_rimskaa_book_Schastlivyj_Prints
+<- char;
+=> nrel_main_idtf:
+	[ Римская ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Schastlivyj_Prints
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_skvorez_book_Schastlivyj_Prints
+<- char;
+=> nrel_main_idtf:
+	[ Скворец ]
+		(* <- lang_ru;; *);;
+
+char_sveca_book_Schastlivyj_Prints
+<- char;
+=> nrel_main_idtf:
+	[ Свеча ]
+		(* <- lang_ru;; *);;
+
+book_Schastlivyj_Prints
+=> nrel_locales:
+	.book_Schastlivyj_Prints_locales
+		(*
+			-> locale_karman_book_Schastlivyj_Prints;;
+			-> locale_groznyj_book_Schastlivyj_Prints;;
+			-> locale_kuda_book_Schastlivyj_Prints;;
+			-> locale_dalekaa_rossia_book_Schastlivyj_Prints;;
+			-> locale_to_book_Schastlivyj_Prints;;
+			-> locale_egipet_book_Schastlivyj_Prints;;
+	 	*);;
+
+locale_karman_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dalekaa_rossia_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ Далёкая Россия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Schastlivyj_Prints
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+

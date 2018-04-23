@@ -1,0 +1,154 @@
+book_Povest_O_Petre_I_Fevronii_Muromskih
+<- book;
+=> nrel_author;
+	author_Yermolay;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Повесть О Петре И Февронии Муромских]
+		(* <- lang_ru;; *);;
+
+book_Povest_O_Petre_I_Fevronii_Muromskih
+=> nrel_characters:
+	.book_Povest_O_Petre_I_Fevronii_Muromskih_characters
+		(*
+			-> char_petr_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_efrosinij_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_pavel_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_petrov_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_mur_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_agrik_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_david_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_efrosinia_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_petra_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> char_fevronia_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+	 	*);;
+
+char_petr_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_efrosinij_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Ефросиний ]
+		(* <- lang_ru;; *);;
+
+char_pavel_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Павел ]
+		(* <- lang_ru;; *);;
+
+char_petrov_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Петров ]
+		(* <- lang_ru;; *);;
+
+char_mur_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Мур ]
+		(* <- lang_ru;; *);;
+
+char_agrik_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Агрик ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_efrosinia_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Ефросиния ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_fevronia_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- char;
+=> nrel_main_idtf:
+	[ Феврония ]
+		(* <- lang_ru;; *);;
+
+book_Povest_O_Petre_I_Fevronii_Muromskih
+=> nrel_locales:
+	.book_Povest_O_Petre_I_Fevronii_Muromskih_locales
+		(*
+			-> locale_gorod_murom_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_kotly_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_agrikova_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_murom_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_oka_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_nea_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+			-> locale_gorod_mur_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+	 	*);;
+
+locale_gorod_murom_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Город Муром ]
+		(* <- lang_ru;; *);;
+
+locale_kotly_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Котлы ]
+		(* <- lang_ru;; *);;
+
+locale_agrikova_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Агрикова ]
+		(* <- lang_ru;; *);;
+
+locale_murom_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Муром ]
+		(* <- lang_ru;; *);;
+
+locale_oka_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Ока ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_mur_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- locale;
+=> nrel_main_idtf:
+	[ Город Мур ]
+		(* <- lang_ru;; *);;
+
+book_Povest_O_Petre_I_Fevronii_Muromskih
+=> nrel_dates:
+	.book_Povest_O_Petre_I_Fevronii_Muromskih_dates
+		(*
+			-> date_6_25_book_Povest_O_Petre_I_Fevronii_Muromskih;;
+	 	*);;
+
+date_6_25_book_Povest_O_Petre_I_Fevronii_Muromskih
+<- date;
+=> nrel_main_idtf:
+	[ 6 25 ]
+		(* <- lang_ru;; *);;
+

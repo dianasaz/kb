@@ -1,0 +1,100 @@
+book_Mcyri
+<- book;
+=> nrel_author;
+	author_Lermontov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мцыри]
+		(* <- lang_ru;; *);;
+
+book_Mcyri
+=> nrel_locales:
+	.book_Mcyri_locales
+		(*
+			-> locale_tiflis_book_Mcyri;;
+			-> locale_mzheta_book_Mcyri;;
+			-> locale_zentral_nyj_kavkaz_book_Mcyri;;
+			-> locale_ego_velikoe_book_Mcyri;;
+			-> locale_nezavisimaa_gruzia_book_Mcyri;;
+			-> locale_kura_book_Mcyri;;
+			-> locale_otcij_kraj_book_Mcyri;;
+			-> locale_to_book_Mcyri;;
+			-> locale_kavkaz_book_Mcyri;;
+			-> locale_gruzia_book_Mcyri;;
+			-> locale_edinovernaa_rossia_book_Mcyri;;
+			-> locale_vostok_book_Mcyri;;
+	 	*);;
+
+locale_tiflis_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Тифлис ]
+		(* <- lang_ru;; *);;
+
+locale_mzheta_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Мцхета ]
+		(* <- lang_ru;; *);;
+
+locale_zentral_nyj_kavkaz_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Центральный Кавказ ]
+		(* <- lang_ru;; *);;
+
+locale_ego_velikoe_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Его Великое ]
+		(* <- lang_ru;; *);;
+
+locale_nezavisimaa_gruzia_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Независимая Грузия ]
+		(* <- lang_ru;; *);;
+
+locale_kura_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Кура ]
+		(* <- lang_ru;; *);;
+
+locale_otcij_kraj_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Отчий Край ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kavkaz_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Кавказ ]
+		(* <- lang_ru;; *);;
+
+locale_gruzia_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Грузия ]
+		(* <- lang_ru;; *);;
+
+locale_edinovernaa_rossia_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Единоверная Россия ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Mcyri
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+

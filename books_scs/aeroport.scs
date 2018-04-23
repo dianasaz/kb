@@ -1,0 +1,231 @@
+book_Aeroport
+<- book;
+=> nrel_author;
+	author_Hejli;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Аэропорт]
+		(* <- lang_ru;; *);;
+
+book_Aeroport
+=> nrel_characters:
+	.book_Aeroport_characters
+		(*
+			-> char_djo_book_Aeroport;;
+			-> char_ad_book_Aeroport;;
+			-> char_tana_book_Aeroport;;
+			-> char_kejza_book_Aeroport;;
+			-> char_elliot_book_Aeroport;;
+			-> char_ines_book_Aeroport;;
+			-> char_robert_book_Aeroport;;
+			-> char_livingston_book_Aeroport;;
+			-> char_natali_book_Aeroport;;
+			-> char_adu_book_Aeroport;;
+			-> char_kejz_mel_book_Aeroport;;
+			-> char_erkart_book_Aeroport;;
+			-> char_djon_kennedi_book_Aeroport;;
+			-> char_mel_kennedi_book_Aeroport;;
+			-> char_kvonsetta_book_Aeroport;;
+			-> char_lajonelyj_book_Aeroport;;
+			-> char_mel_book_Aeroport;;
+			-> char_iden_derik_book_Aeroport;;
+			-> char_vernona_book_Aeroport;;
+			-> char_sindi_book_Aeroport;;
+	 	*);;
+
+char_djo_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Джо ]
+		(* <- lang_ru;; *);;
+
+char_ad_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Ад ]
+		(* <- lang_ru;; *);;
+
+char_tana_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Таня ]
+		(* <- lang_ru;; *);;
+
+char_kejza_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Кейза ]
+		(* <- lang_ru;; *);;
+
+char_elliot_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Эллиот ]
+		(* <- lang_ru;; *);;
+
+char_ines_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Инес ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_livingston_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Ливингстон ]
+		(* <- lang_ru;; *);;
+
+char_natali_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Натали ]
+		(* <- lang_ru;; *);;
+
+char_adu_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Аду ]
+		(* <- lang_ru;; *);;
+
+char_kejz_mel_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Кейз Мел ]
+		(* <- lang_ru;; *);;
+
+char_erkart_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Эркарт ]
+		(* <- lang_ru;; *);;
+
+char_djon_kennedi_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Джон Кеннеди ]
+		(* <- lang_ru;; *);;
+
+char_mel_kennedi_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Мел Кеннеди ]
+		(* <- lang_ru;; *);;
+
+char_kvonsetta_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Квонсетта ]
+		(* <- lang_ru;; *);;
+
+char_lajonelyj_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Лайонелый ]
+		(* <- lang_ru;; *);;
+
+char_mel_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Мел ]
+		(* <- lang_ru;; *);;
+
+char_iden_derik_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Иден Дерик ]
+		(* <- lang_ru;; *);;
+
+char_vernona_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Вернона ]
+		(* <- lang_ru;; *);;
+
+char_sindi_book_Aeroport
+<- char;
+=> nrel_main_idtf:
+	[ Синди ]
+		(* <- lang_ru;; *);;
+
+book_Aeroport
+=> nrel_locales:
+	.book_Aeroport_locales
+		(*
+			-> locale_korea_book_Aeroport;;
+			-> locale_italia_book_Aeroport;;
+			-> locale_tana_book_Aeroport;;
+			-> locale_blizlejasij_gorodok_book_Aeroport;;
+			-> locale_to_book_Aeroport;;
+			-> locale_amerika_book_Aeroport;;
+			-> locale_srednezapadnyj_stat_book_Aeroport;;
+			-> locale_rim_book_Aeroport;;
+	 	*);;
+
+locale_korea_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Корея ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_tana_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Тана ]
+		(* <- lang_ru;; *);;
+
+locale_blizlejasij_gorodok_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Близлежащий Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_srednezapadnyj_stat_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Среднезападный Штат ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Aeroport
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+book_Aeroport
+=> nrel_dates:
+	.book_Aeroport_dates
+		(*
+			-> date_1967_1_book_Aeroport;;
+	 	*);;
+
+date_1967_1_book_Aeroport
+<- date;
+=> nrel_main_idtf:
+	[ 1967 1 ]
+		(* <- lang_ru;; *);;
+

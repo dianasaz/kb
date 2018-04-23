@@ -1,0 +1,176 @@
+book_Don_Zhuan
+<- book;
+=> nrel_author;
+	author_Frish;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дон Жуан, Или Любовь К Геометрии]
+		(* <- lang_ru;; *);;
+
+book_Don_Zhuan
+=> nrel_characters:
+	.book_Don_Zhuan_characters
+		(*
+			-> char_selestina_book_Don_Zhuan;;
+			-> char_diego_book_Don_Zhuan;;
+			-> char_bad_tasar_lopes_book_Don_Zhuan;;
+			-> char_ines_book_Don_Zhuan;;
+			-> char_tenorio_book_Don_Zhuan;;
+			-> char_don_juan_book_Don_Zhuan;;
+			-> char_don_book_Don_Zhuan;;
+			-> char_juan_book_Don_Zhuan;;
+			-> char_miranda_book_Don_Zhuan;;
+			-> char_anne_book_Don_Zhuan;;
+			-> char_el_vira_book_Don_Zhuan;;
+			-> char_gonsalo_book_Don_Zhuan;;
+			-> char_ada_book_Don_Zhuan;;
+			-> char_anna_book_Don_Zhuan;;
+	 	*);;
+
+char_selestina_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Селестина ]
+		(* <- lang_ru;; *);;
+
+char_diego_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Диего ]
+		(* <- lang_ru;; *);;
+
+char_bad_tasar_lopes_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Бадьтасар Лопес ]
+		(* <- lang_ru;; *);;
+
+char_ines_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Инес ]
+		(* <- lang_ru;; *);;
+
+char_tenorio_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Тенорио ]
+		(* <- lang_ru;; *);;
+
+char_don_juan_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Дон Жуан ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_juan_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Жуан ]
+		(* <- lang_ru;; *);;
+
+char_miranda_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Миранда ]
+		(* <- lang_ru;; *);;
+
+char_anne_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Анне ]
+		(* <- lang_ru;; *);;
+
+char_el_vira_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Эльвира ]
+		(* <- lang_ru;; *);;
+
+char_gonsalo_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Гонсало ]
+		(* <- lang_ru;; *);;
+
+char_ada_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Ада ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Don_Zhuan
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+book_Don_Zhuan
+=> nrel_locales:
+	.book_Don_Zhuan_locales
+		(*
+			-> locale_vsa_ispania_book_Don_Zhuan;;
+			-> locale_kotoryj_book_Don_Zhuan;;
+			-> locale_don_book_Don_Zhuan;;
+			-> locale_to_book_Don_Zhuan;;
+			-> locale_sevil_a_book_Don_Zhuan;;
+			-> locale_nastoasij_don_book_Don_Zhuan;;
+			-> locale_kordova_book_Don_Zhuan;;
+			-> locale_para_book_Don_Zhuan;;
+	 	*);;
+
+locale_vsa_ispania_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Испания ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sevil_a_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Севилья ]
+		(* <- lang_ru;; *);;
+
+locale_nastoasij_don_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Настоящий Дон ]
+		(* <- lang_ru;; *);;
+
+locale_kordova_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Кордова ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Don_Zhuan
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

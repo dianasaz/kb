@@ -1,0 +1,16 @@
+author_Mickevich
+<- person;
+=> nrel_main_idtf:
+	[Адам Мицкевич]
+		(* <- lang_ru;; *);;
+
+author_Mickevich
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Mickevich.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

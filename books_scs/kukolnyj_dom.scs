@@ -1,0 +1,78 @@
+book_Kukolnyj_Dom
+<- book;
+=> nrel_author;
+	author_Ibsen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кукольный Дом]
+		(* <- lang_ru;; *);;
+
+book_Kukolnyj_Dom
+=> nrel_characters:
+	.book_Kukolnyj_Dom_characters
+		(*
+			-> char_torval_da_book_Kukolnyj_Dom;;
+			-> char_hel_mera_book_Kukolnyj_Dom;;
+	 	*);;
+
+char_torval_da_book_Kukolnyj_Dom
+<- char;
+=> nrel_main_idtf:
+	[ Торвальда ]
+		(* <- lang_ru;; *);;
+
+char_hel_mera_book_Kukolnyj_Dom
+<- char;
+=> nrel_main_idtf:
+	[ Хельмера ]
+		(* <- lang_ru;; *);;
+
+book_Kukolnyj_Dom
+=> nrel_locales:
+	.book_Kukolnyj_Dom_locales
+		(*
+			-> locale_neumolimyj_krogstad_book_Kukolnyj_Dom;;
+			-> locale_italia_book_Kukolnyj_Dom;;
+			-> locale_norvegia_book_Kukolnyj_Dom;;
+			-> locale_linde_book_Kukolnyj_Dom;;
+			-> locale_to_book_Kukolnyj_Dom;;
+			-> locale_krogstado_book_Kukolnyj_Dom;;
+	 	*);;
+
+locale_neumolimyj_krogstad_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ Неумолимый Крогстад ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_linde_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ Линде ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_krogstado_book_Kukolnyj_Dom
+<- locale;
+=> nrel_main_idtf:
+	[ Крогстадо ]
+		(* <- lang_ru;; *);;
+

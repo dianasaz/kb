@@ -1,0 +1,16 @@
+author_Gogol
+<- person;
+=> nrel_main_idtf:
+	[Николай Гоголь]
+		(* <- lang_ru;; *);;
+
+author_Gogol
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gogol.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

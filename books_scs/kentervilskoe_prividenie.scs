@@ -1,0 +1,113 @@
+book_Kentervilskoe_Prividenie
+<- book;
+=> nrel_author;
+	author_Uajld;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кентервильское Привидение]
+		(* <- lang_ru;; *);;
+
+book_Kentervilskoe_Prividenie
+=> nrel_characters:
+	.book_Kentervilskoe_Prividenie_characters
+		(*
+			-> char_obrazzov_book_Kentervilskoe_Prividenie;;
+			-> char_kentervil__book_Kentervilskoe_Prividenie;;
+			-> char_pinkerton_book_Kentervilskoe_Prividenie;;
+			-> char_simon_book_Kentervilskoe_Prividenie;;
+			-> char_virdjinia_book_Kentervilskoe_Prividenie;;
+	 	*);;
+
+char_obrazzov_book_Kentervilskoe_Prividenie
+<- char;
+=> nrel_main_idtf:
+	[ Образцов ]
+		(* <- lang_ru;; *);;
+
+char_kentervil__book_Kentervilskoe_Prividenie
+<- char;
+=> nrel_main_idtf:
+	[ Кентервиль ]
+		(* <- lang_ru;; *);;
+
+char_pinkerton_book_Kentervilskoe_Prividenie
+<- char;
+=> nrel_main_idtf:
+	[ Пинкертон ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Kentervilskoe_Prividenie
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_virdjinia_book_Kentervilskoe_Prividenie
+<- char;
+=> nrel_main_idtf:
+	[ Вирджиния ]
+		(* <- lang_ru;; *);;
+
+book_Kentervilskoe_Prividenie
+=> nrel_locales:
+	.book_Kentervilskoe_Prividenie_locales
+		(*
+			-> locale_prakticnyj_vasington_book_Kentervilskoe_Prividenie;;
+			-> locale_evropa_book_Kentervilskoe_Prividenie;;
+			-> locale_otis_book_Kentervilskoe_Prividenie;;
+			-> locale_krasnoe_book_Kentervilskoe_Prividenie;;
+			-> locale_hajram_book_Kentervilskoe_Prividenie;;
+			-> locale_vasington_book_Kentervilskoe_Prividenie;;
+			-> locale_kentervil__book_Kentervilskoe_Prividenie;;
+			-> locale_nea_book_Kentervilskoe_Prividenie;;
+	 	*);;
+
+locale_prakticnyj_vasington_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Практичный Вашингтон ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_otis_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Отис ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_hajram_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Хайрам ]
+		(* <- lang_ru;; *);;
+
+locale_vasington_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Вашингтон ]
+		(* <- lang_ru;; *);;
+
+locale_kentervil__book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Кентервиль ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Kentervilskoe_Prividenie
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

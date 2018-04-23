@@ -1,0 +1,350 @@
+book_Zhizn_Galileja
+<- book;
+=> nrel_author;
+	author_Breht;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Жизнь Галилея]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Galileja
+=> nrel_characters:
+	.book_Zhizn_Galileja_characters
+		(*
+			-> char_kozimoe_book_Zhizn_Galileja;;
+			-> char_medici_book_Zhizn_Galileja;;
+			-> char_kristofer_book_Zhizn_Galileja;;
+			-> char_ludovikoe_book_Zhizn_Galileja;;
+			-> char_romanum_book_Zhizn_Galileja;;
+			-> char_bellarmin_book_Zhizn_Galileja;;
+			-> char_djordano_book_Zhizn_Galileja;;
+			-> char_kampan_a_book_Zhizn_Galileja;;
+			-> char_galileo_galilej_book_Zhizn_Galileja;;
+			-> char_galilej_book_Zhizn_Galileja;;
+			-> char_sarti_book_Zhizn_Galileja;;
+			-> char_priula_book_Zhizn_Galileja;;
+			-> char_aristotel__book_Zhizn_Galileja;;
+			-> char_andrea_book_Zhizn_Galileja;;
+			-> char_galila_book_Zhizn_Galileja;;
+			-> char_galileo_book_Zhizn_Galileja;;
+			-> char_bruno_book_Zhizn_Galileja;;
+			-> char_virdjinia_book_Zhizn_Galileja;;
+			-> char_gerzog_book_Zhizn_Galileja;;
+			-> char_vanni_book_Zhizn_Galileja;;
+	 	*);;
+
+char_kozimoe_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Козимое ]
+		(* <- lang_ru;; *);;
+
+char_medici_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Медичи ]
+		(* <- lang_ru;; *);;
+
+char_kristofer_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Кристофер ]
+		(* <- lang_ru;; *);;
+
+char_ludovikoe_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Людовикое ]
+		(* <- lang_ru;; *);;
+
+char_romanum_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Романум ]
+		(* <- lang_ru;; *);;
+
+char_bellarmin_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Беллармин ]
+		(* <- lang_ru;; *);;
+
+char_djordano_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Джордано ]
+		(* <- lang_ru;; *);;
+
+char_kampan_a_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Кампанья ]
+		(* <- lang_ru;; *);;
+
+char_galileo_galilej_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Галилео Галилей ]
+		(* <- lang_ru;; *);;
+
+char_galilej_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Галилей ]
+		(* <- lang_ru;; *);;
+
+char_sarti_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Сарти ]
+		(* <- lang_ru;; *);;
+
+char_priula_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Приуля ]
+		(* <- lang_ru;; *);;
+
+char_aristotel__book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Аристотель ]
+		(* <- lang_ru;; *);;
+
+char_andrea_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Андреа ]
+		(* <- lang_ru;; *);;
+
+char_galila_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Галиля ]
+		(* <- lang_ru;; *);;
+
+char_galileo_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Галилео ]
+		(* <- lang_ru;; *);;
+
+char_bruno_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Бруно ]
+		(* <- lang_ru;; *);;
+
+char_virdjinia_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Вирджиния ]
+		(* <- lang_ru;; *);;
+
+char_gerzog_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Герцог ]
+		(* <- lang_ru;; *);;
+
+char_vanni_book_Zhizn_Galileja
+<- char;
+=> nrel_main_idtf:
+	[ Ванни ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Galileja
+=> nrel_locales:
+	.book_Zhizn_Galileja_locales
+		(*
+			-> locale_vatikan_book_Zhizn_Galileja;;
+			-> locale_gollandia_book_Zhizn_Galileja;;
+			-> locale_kotoryj_book_Zhizn_Galileja;;
+			-> locale_klaviusa_book_Zhizn_Galileja;;
+			-> locale_velikoe_book_Zhizn_Galileja;;
+			-> locale_italia_book_Zhizn_Galileja;;
+			-> locale_velikij_book_Zhizn_Galileja;;
+			-> locale_velik_book_Zhizn_Galileja;;
+			-> locale_lubimaa_oblast__book_Zhizn_Galileja;;
+			-> locale_padua_book_Zhizn_Galileja;;
+			-> locale_to_book_Zhizn_Galileja;;
+			-> locale_upiter_book_Zhizn_Galileja;;
+			-> locale_kopernik_book_Zhizn_Galileja;;
+			-> locale_evropa_book_Zhizn_Galileja;;
+			-> locale_florenzia_book_Zhizn_Galileja;;
+			-> locale_vsa_evropa_book_Zhizn_Galileja;;
+			-> locale_rim_book_Zhizn_Galileja;;
+			-> locale_venezia_book_Zhizn_Galileja;;
+	 	*);;
+
+locale_vatikan_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Ватикан ]
+		(* <- lang_ru;; *);;
+
+locale_gollandia_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Голландия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_klaviusa_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Клавиуса ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_lubimaa_oblast__book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Любимая Область ]
+		(* <- lang_ru;; *);;
+
+locale_padua_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Падуя ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_upiter_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_kopernik_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Коперник ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_evropa_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Европа ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Zhizn_Galileja
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+book_Zhizn_Galileja
+=> nrel_dates:
+	.book_Zhizn_Galileja_dates
+		(*
+			-> date_1616_book_Zhizn_Galileja;;
+			-> date_1637_book_Zhizn_Galileja;;
+			-> date_1633_book_Zhizn_Galileja;;
+			-> date_1642_book_Zhizn_Galileja;;
+			-> date_1632_book_Zhizn_Galileja;;
+			-> date_1633_6_22_book_Zhizn_Galileja;;
+			-> date_1610_1_10_book_Zhizn_Galileja;;
+			-> date_1616_3_5_book_Zhizn_Galileja;;
+	 	*);;
+
+date_1616_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1616 ]
+		(* <- lang_ru;; *);;
+
+date_1637_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1637 ]
+		(* <- lang_ru;; *);;
+
+date_1633_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1633 ]
+		(* <- lang_ru;; *);;
+
+date_1642_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1642 ]
+		(* <- lang_ru;; *);;
+
+date_1632_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1632 ]
+		(* <- lang_ru;; *);;
+
+date_1633_6_22_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1633 6 22 ]
+		(* <- lang_ru;; *);;
+
+date_1610_1_10_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1610 1 10 ]
+		(* <- lang_ru;; *);;
+
+date_1616_3_5_book_Zhizn_Galileja
+<- date;
+=> nrel_main_idtf:
+	[ 1616 3 5 ]
+		(* <- lang_ru;; *);;
+

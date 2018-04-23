@@ -1,0 +1,106 @@
+book_Satirikon
+<- book;
+=> nrel_author;
+	author_Petronij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сатирикон]
+		(* <- lang_ru;; *);;
+
+book_Satirikon
+=> nrel_characters:
+	.book_Satirikon_characters
+		(*
+			-> char_likurg_book_Satirikon;;
+			-> char_priapov_book_Satirikon;;
+			-> char_dedal_book_Satirikon;;
+			-> char_petronia_book_Satirikon;;
+			-> char_trifenoj_book_Satirikon;;
+			-> char_enkolpij_book_Satirikon;;
+	 	*);;
+
+char_likurg_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Ликург ]
+		(* <- lang_ru;; *);;
+
+char_priapov_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Приапов ]
+		(* <- lang_ru;; *);;
+
+char_dedal_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Дедал ]
+		(* <- lang_ru;; *);;
+
+char_petronia_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Петрония ]
+		(* <- lang_ru;; *);;
+
+char_trifenoj_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Трифэной ]
+		(* <- lang_ru;; *);;
+
+char_enkolpij_book_Satirikon
+<- char;
+=> nrel_main_idtf:
+	[ Энколпий ]
+		(* <- lang_ru;; *);;
+
+book_Satirikon
+=> nrel_locales:
+	.book_Satirikon_locales
+		(*
+			-> locale_kotoryj_book_Satirikon;;
+			-> locale_ta_oblast__book_Satirikon;;
+			-> locale_kara_book_Satirikon;;
+			-> locale_kampania_book_Satirikon;;
+			-> locale_drevnaa_italia_book_Satirikon;;
+			-> locale_rim_book_Satirikon;;
+	 	*);;
+
+locale_kotoryj_book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ta_oblast__book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Та Область ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_kampania_book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Кампания ]
+		(* <- lang_ru;; *);;
+
+locale_drevnaa_italia_book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Древняя Италия ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Satirikon
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+

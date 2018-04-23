@@ -1,0 +1,64 @@
+book_Lambro_Grecheskij_Povstanec
+<- book;
+=> nrel_author;
+	author_Slovackij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ламбро, Греческий Повстанец]
+		(* <- lang_ru;; *);;
+
+book_Lambro_Grecheskij_Povstanec
+=> nrel_characters:
+	.book_Lambro_Grecheskij_Povstanec_characters
+		(*
+			-> char_monastyrskij_book_Lambro_Grecheskij_Povstanec;;
+			-> char_ipsara_book_Lambro_Grecheskij_Povstanec;;
+	 	*);;
+
+char_monastyrskij_book_Lambro_Grecheskij_Povstanec
+<- char;
+=> nrel_main_idtf:
+	[ Монастырский ]
+		(* <- lang_ru;; *);;
+
+char_ipsara_book_Lambro_Grecheskij_Povstanec
+<- char;
+=> nrel_main_idtf:
+	[ Ипсара ]
+		(* <- lang_ru;; *);;
+
+book_Lambro_Grecheskij_Povstanec
+=> nrel_locales:
+	.book_Lambro_Grecheskij_Povstanec_locales
+		(*
+			-> locale_kotoryj_book_Lambro_Grecheskij_Povstanec;;
+			-> locale_vsa_grezia_book_Lambro_Grecheskij_Povstanec;;
+			-> locale_riga_book_Lambro_Grecheskij_Povstanec;;
+			-> locale_to_book_Lambro_Grecheskij_Povstanec;;
+	 	*);;
+
+locale_kotoryj_book_Lambro_Grecheskij_Povstanec
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Lambro_Grecheskij_Povstanec
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_riga_book_Lambro_Grecheskij_Povstanec
+<- locale;
+=> nrel_main_idtf:
+	[ Рига ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Lambro_Grecheskij_Povstanec
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

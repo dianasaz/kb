@@ -1,0 +1,148 @@
+book_Sviashchennaia_Kniga_Oborotnia
+<- book;
+=> nrel_author;
+	author_Pelevin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Священная Книга Оборотня]
+		(* <- lang_ru;; *);;
+
+book_Sviashchennaia_Kniga_Oborotnia
+=> nrel_characters:
+	.book_Sviashchennaia_Kniga_Oborotnia_characters
+		(*
+			-> char_garma_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> char_aleksandr_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> char_radujnyj_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> char_potok_book_Sviashchennaia_Kniga_Oborotnia;;
+	 	*);;
+
+char_garma_book_Sviashchennaia_Kniga_Oborotnia
+<- char;
+=> nrel_main_idtf:
+	[ Гарма ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Sviashchennaia_Kniga_Oborotnia
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_radujnyj_book_Sviashchennaia_Kniga_Oborotnia
+<- char;
+=> nrel_main_idtf:
+	[ Радужный ]
+		(* <- lang_ru;; *);;
+
+char_potok_book_Sviashchennaia_Kniga_Oborotnia
+<- char;
+=> nrel_main_idtf:
+	[ Поток ]
+		(* <- lang_ru;; *);;
+
+book_Sviashchennaia_Kniga_Oborotnia
+=> nrel_locales:
+	.book_Sviashchennaia_Kniga_Oborotnia_locales
+		(*
+			-> locale_rus__book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_strirovavsij_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_rossia_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_lesna_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_tailand_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_moskva_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_samoobra_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_evropa_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_gon_evsk_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_svoa_nahodka_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_anglia_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_kitaj_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_para_book_Sviashchennaia_Kniga_Oborotnia;;
+			-> locale_ziceskaj_book_Sviashchennaia_Kniga_Oborotnia;;
+	 	*);;
+
+locale_rus__book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_strirovavsij_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Стрировавший ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_tailand_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Таиланд ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_samoobra_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Самообра ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_gon_evsk_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Гоньевск ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_nahodka_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Находка ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_ziceskaj_book_Sviashchennaia_Kniga_Oborotnia
+<- locale;
+=> nrel_main_idtf:
+	[ Зическай ]
+		(* <- lang_ru;; *);;
+

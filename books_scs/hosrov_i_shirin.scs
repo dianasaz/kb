@@ -1,0 +1,435 @@
+book_Hosrov_I_Shirin
+<- book;
+=> nrel_author;
+	author_Nizami;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Хосров И Ширин]
+		(* <- lang_ru;; *);;
+
+book_Hosrov_I_Shirin
+=> nrel_characters:
+	.book_Hosrov_I_Shirin_characters
+		(*
+			-> char_gul_guna_book_Hosrov_I_Shirin;;
+			-> char_parviz_hosrov_book_Hosrov_I_Shirin;;
+			-> char_sapur_book_Hosrov_I_Shirin;;
+			-> char_umida_book_Hosrov_I_Shirin;;
+			-> char_siruje_hosrov_book_Hosrov_I_Shirin;;
+			-> char_platon_book_Hosrov_I_Shirin;;
+			-> char_bana_book_Hosrov_I_Shirin;;
+			-> char_barbada_book_Hosrov_I_Shirin;;
+			-> char_sirin_book_Hosrov_I_Shirin;;
+			-> char_cubina_book_Hosrov_I_Shirin;;
+			-> char_evklid_book_Hosrov_I_Shirin;;
+			-> char_humauna_book_Hosrov_I_Shirin;;
+			-> char_hosrov_book_Hosrov_I_Shirin;;
+			-> char_mariam_book_Hosrov_I_Shirin;;
+			-> char_sabdiza_book_Hosrov_I_Shirin;;
+			-> char_mana_book_Hosrov_I_Shirin;;
+			-> char_farhad_book_Hosrov_I_Shirin;;
+			-> char_siruje_book_Hosrov_I_Shirin;;
+			-> char_medaina_book_Hosrov_I_Shirin;;
+			-> char_sabdiz_book_Hosrov_I_Shirin;;
+			-> char_mehina_book_Hosrov_I_Shirin;;
+			-> char_barbadu_book_Hosrov_I_Shirin;;
+			-> char_bahra_book_Hosrov_I_Shirin;;
+	 	*);;
+
+char_gul_guna_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Гульгуна ]
+		(* <- lang_ru;; *);;
+
+char_parviz_hosrov_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Парвиз Хосров ]
+		(* <- lang_ru;; *);;
+
+char_sapur_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Шапур ]
+		(* <- lang_ru;; *);;
+
+char_umida_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Умида ]
+		(* <- lang_ru;; *);;
+
+char_siruje_hosrov_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Шируйе Хосров ]
+		(* <- lang_ru;; *);;
+
+char_platon_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_bana_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Бана ]
+		(* <- lang_ru;; *);;
+
+char_barbada_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Барбада ]
+		(* <- lang_ru;; *);;
+
+char_sirin_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Ширин ]
+		(* <- lang_ru;; *);;
+
+char_cubina_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Чубиня ]
+		(* <- lang_ru;; *);;
+
+char_evklid_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Евклид ]
+		(* <- lang_ru;; *);;
+
+char_humauna_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Хумаюна ]
+		(* <- lang_ru;; *);;
+
+char_hosrov_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Хосров ]
+		(* <- lang_ru;; *);;
+
+char_mariam_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Мариам ]
+		(* <- lang_ru;; *);;
+
+char_sabdiza_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Шабдиза ]
+		(* <- lang_ru;; *);;
+
+char_mana_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Маня ]
+		(* <- lang_ru;; *);;
+
+char_farhad_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Фархад ]
+		(* <- lang_ru;; *);;
+
+char_siruje_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Шируйе ]
+		(* <- lang_ru;; *);;
+
+char_medaina_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Медаина ]
+		(* <- lang_ru;; *);;
+
+char_sabdiz_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Шабдиз ]
+		(* <- lang_ru;; *);;
+
+char_mehina_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Мехина ]
+		(* <- lang_ru;; *);;
+
+char_barbadu_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Барбаду ]
+		(* <- lang_ru;; *);;
+
+char_bahra_book_Hosrov_I_Shirin
+<- char;
+=> nrel_main_idtf:
+	[ Бахра ]
+		(* <- lang_ru;; *);;
+
+book_Hosrov_I_Shirin
+=> nrel_locales:
+	.book_Hosrov_I_Shirin_locales
+		(*
+			-> locale_medaina_book_Hosrov_I_Shirin;;
+			-> locale_armenia_book_Hosrov_I_Shirin;;
+			-> locale_isfahan_book_Hosrov_I_Shirin;;
+			-> locale_svoe_velikoe_book_Hosrov_I_Shirin;;
+			-> locale_milaa_barda_book_Hosrov_I_Shirin;;
+			-> locale_bahram_book_Hosrov_I_Shirin;;
+			-> locale_bogatyj_hotan_book_Hosrov_I_Shirin;;
+			-> locale_drevnij_iran_book_Hosrov_I_Shirin;;
+			-> locale_buzurg_book_Hosrov_I_Shirin;;
+			-> locale_barda_book_Hosrov_I_Shirin;;
+			-> locale_cubina_book_Hosrov_I_Shirin;;
+			-> locale_mugana_book_Hosrov_I_Shirin;;
+			-> locale_desatistrunnyj_book_Hosrov_I_Shirin;;
+			-> locale_sirin_book_Hosrov_I_Shirin;;
+			-> locale_vnemlet_book_Hosrov_I_Shirin;;
+			-> locale_krasnyj_book_Hosrov_I_Shirin;;
+			-> locale_ee_san_book_Hosrov_I_Shirin;;
+			-> locale_nesgibaemaa_sirin_book_Hosrov_I_Shirin;;
+			-> locale_oko_book_Hosrov_I_Shirin;;
+			-> locale_konstantinopol__book_Hosrov_I_Shirin;;
+			-> locale_serebristaa_pal_ma_book_Hosrov_I_Shirin;;
+			-> locale_kitaj_book_Hosrov_I_Shirin;;
+			-> locale_luga_book_Hosrov_I_Shirin;;
+			-> locale_barbada_book_Hosrov_I_Shirin;;
+			-> locale_nea_book_Hosrov_I_Shirin;;
+			-> locale_kosa_book_Hosrov_I_Shirin;;
+			-> locale_hosrovyj_book_Hosrov_I_Shirin;;
+			-> locale_bahra_book_Hosrov_I_Shirin;;
+			-> locale_barbadu_book_Hosrov_I_Shirin;;
+			-> locale_ego_hosrovoe_book_Hosrov_I_Shirin;;
+			-> locale_obnajennaa_sirin_book_Hosrov_I_Shirin;;
+			-> locale_canga_book_Hosrov_I_Shirin;;
+			-> locale_abhazia_book_Hosrov_I_Shirin;;
+			-> locale_to_book_Hosrov_I_Shirin;;
+			-> locale_barbad_book_Hosrov_I_Shirin;;
+			-> locale_usta_book_Hosrov_I_Shirin;;
+	 	*);;
+
+locale_medaina_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Медаина ]
+		(* <- lang_ru;; *);;
+
+locale_armenia_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Армения ]
+		(* <- lang_ru;; *);;
+
+locale_isfahan_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Исфахан ]
+		(* <- lang_ru;; *);;
+
+locale_svoe_velikoe_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Своё Великое ]
+		(* <- lang_ru;; *);;
+
+locale_milaa_barda_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Милая Барда ]
+		(* <- lang_ru;; *);;
+
+locale_bahram_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Бахрам ]
+		(* <- lang_ru;; *);;
+
+locale_bogatyj_hotan_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Богатый Хотан ]
+		(* <- lang_ru;; *);;
+
+locale_drevnij_iran_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Древний Иран ]
+		(* <- lang_ru;; *);;
+
+locale_buzurg_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Бузург ]
+		(* <- lang_ru;; *);;
+
+locale_barda_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Барда ]
+		(* <- lang_ru;; *);;
+
+locale_cubina_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Чубиня ]
+		(* <- lang_ru;; *);;
+
+locale_mugana_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Муганя ]
+		(* <- lang_ru;; *);;
+
+locale_desatistrunnyj_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Десятиструнный ]
+		(* <- lang_ru;; *);;
+
+locale_sirin_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Ширин ]
+		(* <- lang_ru;; *);;
+
+locale_vnemlet_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Внемлет ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_ee_san_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Её Сан ]
+		(* <- lang_ru;; *);;
+
+locale_nesgibaemaa_sirin_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Несгибаемая Ширин ]
+		(* <- lang_ru;; *);;
+
+locale_oko_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Око ]
+		(* <- lang_ru;; *);;
+
+locale_konstantinopol__book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Константинополь ]
+		(* <- lang_ru;; *);;
+
+locale_serebristaa_pal_ma_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Серебристая Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_barbada_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Барбада ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_kosa_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Коса ]
+		(* <- lang_ru;; *);;
+
+locale_hosrovyj_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Хосровый ]
+		(* <- lang_ru;; *);;
+
+locale_bahra_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Бахра ]
+		(* <- lang_ru;; *);;
+
+locale_barbadu_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Барбаду ]
+		(* <- lang_ru;; *);;
+
+locale_ego_hosrovoe_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Его Хосровое ]
+		(* <- lang_ru;; *);;
+
+locale_obnajennaa_sirin_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Обнажённая Ширин ]
+		(* <- lang_ru;; *);;
+
+locale_canga_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Чанга ]
+		(* <- lang_ru;; *);;
+
+locale_abhazia_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Абхазия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_barbad_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Барбад ]
+		(* <- lang_ru;; *);;
+
+locale_usta_book_Hosrov_I_Shirin
+<- locale;
+=> nrel_main_idtf:
+	[ Уста ]
+		(* <- lang_ru;; *);;
+

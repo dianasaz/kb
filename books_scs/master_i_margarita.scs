@@ -1,0 +1,337 @@
+book_Master_I_Margarita
+<- book;
+=> nrel_author;
+	author_Bulgakov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мастер И Маргарита]
+		(* <- lang_ru;; *);;
+
+book_Master_I_Margarita
+=> nrel_characters:
+	.book_Master_I_Margarita_characters
+		(*
+			-> char_stepan_lihodeev_book_Master_I_Margarita;;
+			-> char_margarita_book_Master_I_Margarita;;
+			-> char_matvej_book_Master_I_Margarita;;
+			-> char_ivan_book_Master_I_Margarita;;
+			-> char_korov_ev_book_Master_I_Margarita;;
+			-> char_iesua_book_Master_I_Margarita;;
+			-> char_gella_book_Master_I_Margarita;;
+			-> char_iisus_hristos_book_Master_I_Margarita;;
+			-> char_kaifa_book_Master_I_Margarita;;
+			-> char_latunskij_book_Master_I_Margarita;;
+			-> char_pilat_book_Master_I_Margarita;;
+			-> char_ivan_bezdomnyj_book_Master_I_Margarita;;
+			-> char_voland_book_Master_I_Margarita;;
+			-> char_misa_berlioz_book_Master_I_Margarita;;
+			-> char_master_book_Master_I_Margarita;;
+			-> char_nikanor_ivanovic_bosoj_book_Master_I_Margarita;;
+			-> char_stepa_book_Master_I_Margarita;;
+			-> char_varenuha_book_Master_I_Margarita;;
+			-> char_iesua_levij_book_Master_I_Margarita;;
+			-> char_nikanor_ivanovic_book_Master_I_Margarita;;
+			-> char_ivan_nikolaevic_ponyrev_book_Master_I_Margarita;;
+			-> char_mihail_aleksandrovic_berlioz_book_Master_I_Margarita;;
+			-> char_roman_book_Master_I_Margarita;;
+			-> char_lihodeev_book_Master_I_Margarita;;
+			-> char_matvej_levij_book_Master_I_Margarita;;
+			-> char_berlioz_book_Master_I_Margarita;;
+			-> char_stravinskij_book_Master_I_Margarita;;
+			-> char_azazello_book_Master_I_Margarita;;
+			-> char_afranij_book_Master_I_Margarita;;
+	 	*);;
+
+char_stepan_lihodeev_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Степан Лиходеев ]
+		(* <- lang_ru;; *);;
+
+char_margarita_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Маргарита ]
+		(* <- lang_ru;; *);;
+
+char_matvej_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Матвей ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_korov_ev_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Коровьев ]
+		(* <- lang_ru;; *);;
+
+char_iesua_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иешуа ]
+		(* <- lang_ru;; *);;
+
+char_gella_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Гелла ]
+		(* <- lang_ru;; *);;
+
+char_iisus_hristos_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иисус Христос ]
+		(* <- lang_ru;; *);;
+
+char_kaifa_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Каифа ]
+		(* <- lang_ru;; *);;
+
+char_latunskij_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Латунский ]
+		(* <- lang_ru;; *);;
+
+char_pilat_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Пилат ]
+		(* <- lang_ru;; *);;
+
+char_ivan_bezdomnyj_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иван Бездомный ]
+		(* <- lang_ru;; *);;
+
+char_voland_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Воланд ]
+		(* <- lang_ru;; *);;
+
+char_misa_berlioz_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Миша Берлиоз ]
+		(* <- lang_ru;; *);;
+
+char_master_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Мастер ]
+		(* <- lang_ru;; *);;
+
+char_nikanor_ivanovic_bosoj_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Никанор Иванович Босой ]
+		(* <- lang_ru;; *);;
+
+char_stepa_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Стёпа ]
+		(* <- lang_ru;; *);;
+
+char_varenuha_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Варенуха ]
+		(* <- lang_ru;; *);;
+
+char_iesua_levij_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иешуа Левий ]
+		(* <- lang_ru;; *);;
+
+char_nikanor_ivanovic_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Никанор Иванович ]
+		(* <- lang_ru;; *);;
+
+char_ivan_nikolaevic_ponyrev_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Иван Николаевич Понырёв ]
+		(* <- lang_ru;; *);;
+
+char_mihail_aleksandrovic_berlioz_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Михаил Александрович Берлиоз ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_lihodeev_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Лиходеев ]
+		(* <- lang_ru;; *);;
+
+char_matvej_levij_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Матвей Левий ]
+		(* <- lang_ru;; *);;
+
+char_berlioz_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Берлиоз ]
+		(* <- lang_ru;; *);;
+
+char_stravinskij_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Стравинский ]
+		(* <- lang_ru;; *);;
+
+char_azazello_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Азазелло ]
+		(* <- lang_ru;; *);;
+
+char_afranij_book_Master_I_Margarita
+<- char;
+=> nrel_main_idtf:
+	[ Афраний ]
+		(* <- lang_ru;; *);;
+
+book_Master_I_Margarita
+=> nrel_locales:
+	.book_Master_I_Margarita_locales
+		(*
+			-> locale_alta_book_Master_I_Margarita;;
+			-> locale_gorod_ersalaim_book_Master_I_Margarita;;
+			-> locale_ierusalim_book_Master_I_Margarita;;
+			-> locale_arbat_book_Master_I_Margarita;;
+			-> locale_velikoe_book_Master_I_Margarita;;
+			-> locale_kuda_book_Master_I_Margarita;;
+			-> locale_vampirsa_book_Master_I_Margarita;;
+			-> locale_leningrad_book_Master_I_Margarita;;
+			-> locale_lysaa_book_Master_I_Margarita;;
+			-> locale_moskva_book_Master_I_Margarita;;
+			-> locale_kiriaf_book_Master_I_Margarita;;
+			-> locale_kotoryj_book_Master_I_Margarita;;
+			-> locale_ariman_book_Master_I_Margarita;;
+			-> locale_to_book_Master_I_Margarita;;
+			-> locale_maj_book_Master_I_Margarita;;
+			-> locale_ravvan_book_Master_I_Margarita;;
+	 	*);;
+
+locale_alta_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Ялта ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_ersalaim_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Город Ершалаим ]
+		(* <- lang_ru;; *);;
+
+locale_ierusalim_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_arbat_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Арбат ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vampirsa_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Вампирша ]
+		(* <- lang_ru;; *);;
+
+locale_leningrad_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Ленинград ]
+		(* <- lang_ru;; *);;
+
+locale_lysaa_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Лысая ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kiriaf_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Кириаф ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ariman_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Ариман ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_ravvan_book_Master_I_Margarita
+<- locale;
+=> nrel_main_idtf:
+	[ Равван ]
+		(* <- lang_ru;; *);;
+

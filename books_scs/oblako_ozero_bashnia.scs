@@ -1,0 +1,57 @@
+book_Oblako_Ozero_Bashnia
+<- book;
+=> nrel_author;
+	author_Nabokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Облако, Озеро, Башня]
+		(* <- lang_ru;; *);;
+
+book_Oblako_Ozero_Bashnia
+=> nrel_characters:
+	.book_Oblako_Ozero_Bashnia_characters
+		(*
+			-> char_vasilij_ivanovic_book_Oblako_Ozero_Bashnia;;
+	 	*);;
+
+char_vasilij_ivanovic_book_Oblako_Ozero_Bashnia
+<- char;
+=> nrel_main_idtf:
+	[ Василий Иванович ]
+		(* <- lang_ru;; *);;
+
+book_Oblako_Ozero_Bashnia
+=> nrel_locales:
+	.book_Oblako_Ozero_Bashnia_locales
+		(*
+			-> locale_kotoryj_book_Oblako_Ozero_Bashnia;;
+			-> locale_rossia_book_Oblako_Ozero_Bashnia;;
+			-> locale_para_book_Oblako_Ozero_Bashnia;;
+			-> locale_berlin_book_Oblako_Ozero_Bashnia;;
+	 	*);;
+
+locale_kotoryj_book_Oblako_Ozero_Bashnia
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Oblako_Ozero_Bashnia
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Oblako_Ozero_Bashnia
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Oblako_Ozero_Bashnia
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+

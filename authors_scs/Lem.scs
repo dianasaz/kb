@@ -1,0 +1,16 @@
+author_Lem
+<- person;
+=> nrel_main_idtf:
+	[Станислав Лем]
+		(* <- lang_ru;; *);;
+
+author_Lem
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Lem.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,16 @@
+author_Vergilij
+<- person;
+=> nrel_main_idtf:
+	[Вергилий]
+		(* <- lang_ru;; *);;
+
+author_Vergilij
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Vergilij.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

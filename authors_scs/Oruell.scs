@@ -1,0 +1,16 @@
+author_Oruell
+<- person;
+=> nrel_main_idtf:
+	[Джордж Оруэлл]
+		(* <- lang_ru;; *);;
+
+author_Oruell
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Oruell.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

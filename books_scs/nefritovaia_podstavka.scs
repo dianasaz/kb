@@ -1,0 +1,36 @@
+book_Nefritovaia_Podstavka
+<- book;
+=> nrel_author;
+	author_Guan_Hancin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вэнь Тай-Чжэнь Берёт Нефритовую Подставку]
+		(* <- lang_ru;; *);;
+
+book_Nefritovaia_Podstavka
+=> nrel_characters:
+	.book_Nefritovaia_Podstavka_characters
+		(*
+			-> char_taa_book_Nefritovaia_Podstavka;;
+	 	*);;
+
+char_taa_book_Nefritovaia_Podstavka
+<- char;
+=> nrel_main_idtf:
+	[ Тая ]
+		(* <- lang_ru;; *);;
+
+book_Nefritovaia_Podstavka
+=> nrel_locales:
+	.book_Nefritovaia_Podstavka_locales
+		(*
+			-> locale_zanivsij_book_Nefritovaia_Podstavka;;
+	 	*);;
+
+locale_zanivsij_book_Nefritovaia_Podstavka
+<- locale;
+=> nrel_main_idtf:
+	[ Цянивший ]
+		(* <- lang_ru;; *);;
+

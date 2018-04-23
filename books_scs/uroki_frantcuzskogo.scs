@@ -1,0 +1,119 @@
+book_Uroki_Frantcuzskogo
+<- book;
+=> nrel_author;
+	author_Rasputin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Уроки Французского]
+		(* <- lang_ru;; *);;
+
+book_Uroki_Frantcuzskogo
+=> nrel_characters:
+	.book_Uroki_Frantcuzskogo_characters
+		(*
+			-> char_vadik_book_Uroki_Frantcuzskogo;;
+			-> char_lidia_mihajlovna_book_Uroki_Frantcuzskogo;;
+			-> char_vasilij_andreevic_book_Uroki_Frantcuzskogo;;
+			-> char_nada_book_Uroki_Frantcuzskogo;;
+			-> char_fed_ka_book_Uroki_Frantcuzskogo;;
+	 	*);;
+
+char_vadik_book_Uroki_Frantcuzskogo
+<- char;
+=> nrel_main_idtf:
+	[ Вадик ]
+		(* <- lang_ru;; *);;
+
+char_lidia_mihajlovna_book_Uroki_Frantcuzskogo
+<- char;
+=> nrel_main_idtf:
+	[ Лидия Михайловна ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_andreevic_book_Uroki_Frantcuzskogo
+<- char;
+=> nrel_main_idtf:
+	[ Василий Андреевич ]
+		(* <- lang_ru;; *);;
+
+char_nada_book_Uroki_Frantcuzskogo
+<- char;
+=> nrel_main_idtf:
+	[ Надя ]
+		(* <- lang_ru;; *);;
+
+char_fed_ka_book_Uroki_Frantcuzskogo
+<- char;
+=> nrel_main_idtf:
+	[ Федька ]
+		(* <- lang_ru;; *);;
+
+book_Uroki_Frantcuzskogo
+=> nrel_locales:
+	.book_Uroki_Frantcuzskogo_locales
+		(*
+			-> locale_krasnyh_book_Uroki_Frantcuzskogo;;
+			-> locale_sahara_book_Uroki_Frantcuzskogo;;
+			-> locale_kuda_book_Uroki_Frantcuzskogo;;
+			-> locale_to_book_Uroki_Frantcuzskogo;;
+			-> locale_luga_book_Uroki_Frantcuzskogo;;
+			-> locale_orel_book_Uroki_Frantcuzskogo;;
+			-> locale_kuban__book_Uroki_Frantcuzskogo;;
+	 	*);;
+
+locale_krasnyh_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_sahara_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_luga_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Луга ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_kuban__book_Uroki_Frantcuzskogo
+<- locale;
+=> nrel_main_idtf:
+	[ Кубань ]
+		(* <- lang_ru;; *);;
+
+book_Uroki_Frantcuzskogo
+=> nrel_dates:
+	.book_Uroki_Frantcuzskogo_dates
+		(*
+			-> date_1948_book_Uroki_Frantcuzskogo;;
+	 	*);;
+
+date_1948_book_Uroki_Frantcuzskogo
+<- date;
+=> nrel_main_idtf:
+	[ 1948 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,197 @@
+book_Gerakl
+<- book;
+=> nrel_author;
+	author_Evripid;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Геракл]
+		(* <- lang_ru;; *);;
+
+book_Gerakl
+=> nrel_characters:
+	.book_Gerakl_characters
+		(*
+			-> char_irida_book_Gerakl;;
+			-> char_argos_book_Gerakl;;
+			-> char_gerakl_book_Gerakl;;
+			-> char_afina_book_Gerakl;;
+			-> char_evripida_book_Gerakl;;
+			-> char_gera_book_Gerakl;;
+			-> char_sofokl_book_Gerakl;;
+			-> char_ehalij_book_Gerakl;;
+			-> char_lik_book_Gerakl;;
+			-> char_liss_book_Gerakl;;
+			-> char_geraklov_book_Gerakl;;
+	 	*);;
+
+char_irida_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Ирида ]
+		(* <- lang_ru;; *);;
+
+char_argos_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Аргос ]
+		(* <- lang_ru;; *);;
+
+char_gerakl_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_evripida_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Еврипида ]
+		(* <- lang_ru;; *);;
+
+char_gera_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Гера ]
+		(* <- lang_ru;; *);;
+
+char_sofokl_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Софокл ]
+		(* <- lang_ru;; *);;
+
+char_ehalij_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Эхалий ]
+		(* <- lang_ru;; *);;
+
+char_lik_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Лик ]
+		(* <- lang_ru;; *);;
+
+char_liss_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Лисс ]
+		(* <- lang_ru;; *);;
+
+char_geraklov_book_Gerakl
+<- char;
+=> nrel_main_idtf:
+	[ Гераклов ]
+		(* <- lang_ru;; *);;
+
+book_Gerakl
+=> nrel_locales:
+	.book_Gerakl_locales
+		(*
+			-> locale_svoj_afiny_book_Gerakl;;
+			-> locale_afiny_book_Gerakl;;
+			-> locale_zelyj_kraj_book_Gerakl;;
+			-> locale_krit_book_Gerakl;;
+			-> locale_svasennaa_lan__book_Gerakl;;
+			-> locale_srednaa_grezia_book_Gerakl;;
+			-> locale_ironiceska_book_Gerakl;;
+			-> locale_megare_book_Gerakl;;
+			-> locale_to_book_Gerakl;;
+			-> locale_fivy_book_Gerakl;;
+			-> locale_alkmena_book_Gerakl;;
+			-> locale_argosa_book_Gerakl;;
+			-> locale_byk_book_Gerakl;;
+			-> locale_grezia_book_Gerakl;;
+	 	*);;
+
+locale_svoj_afiny_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Свой Афины ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_zelyj_kraj_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Целый Край ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_svasennaa_lan__book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Священная Лань ]
+		(* <- lang_ru;; *);;
+
+locale_srednaa_grezia_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Средняя Греция ]
+		(* <- lang_ru;; *);;
+
+locale_ironiceska_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Ироничёска ]
+		(* <- lang_ru;; *);;
+
+locale_megare_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Мегаре ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_fivy_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_alkmena_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Алкмена ]
+		(* <- lang_ru;; *);;
+
+locale_argosa_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Аргоса ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Gerakl
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

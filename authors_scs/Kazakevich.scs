@@ -1,0 +1,16 @@
+author_Kazakevich
+<- person;
+=> nrel_main_idtf:
+	[Эммануил Казакевич]
+		(* <- lang_ru;; *);;
+
+author_Kazakevich
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kazakevich.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

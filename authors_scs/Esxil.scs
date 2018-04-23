@@ -1,0 +1,16 @@
+author_Esxil
+<- person;
+=> nrel_main_idtf:
+	[Эсхил]
+		(* <- lang_ru;; *);;
+
+author_Esxil
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Esxil.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

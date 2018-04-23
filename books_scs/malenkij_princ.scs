@@ -1,0 +1,36 @@
+book_Malenkij_Princ
+<- book;
+=> nrel_author;
+	author_Sent_Ekzjuperi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Маленький Принц]
+		(* <- lang_ru;; *);;
+
+book_Malenkij_Princ
+=> nrel_characters:
+	.book_Malenkij_Princ_characters
+		(*
+			-> char_lis_book_Malenkij_Princ;;
+	 	*);;
+
+char_lis_book_Malenkij_Princ
+<- char;
+=> nrel_main_idtf:
+	[ Лис ]
+		(* <- lang_ru;; *);;
+
+book_Malenkij_Princ
+=> nrel_locales:
+	.book_Malenkij_Princ_locales
+		(*
+			-> locale_sahara_book_Malenkij_Princ;;
+	 	*);;
+
+locale_sahara_book_Malenkij_Princ
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+

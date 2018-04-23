@@ -1,0 +1,92 @@
+book_Lisistrata
+<- book;
+=> nrel_author;
+	author_Aristofan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лисистрата]
+		(* <- lang_ru;; *);;
+
+book_Lisistrata
+=> nrel_characters:
+	.book_Lisistrata_characters
+		(*
+			-> char_elena_book_Lisistrata;;
+			-> char_afina_book_Lisistrata;;
+			-> char_kinesia_book_Lisistrata;;
+			-> char_gektor_book_Lisistrata;;
+	 	*);;
+
+char_elena_book_Lisistrata
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Lisistrata
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_kinesia_book_Lisistrata
+<- char;
+=> nrel_main_idtf:
+	[ Кинесия ]
+		(* <- lang_ru;; *);;
+
+char_gektor_book_Lisistrata
+<- char;
+=> nrel_main_idtf:
+	[ Гектор ]
+		(* <- lang_ru;; *);;
+
+book_Lisistrata
+=> nrel_locales:
+	.book_Lisistrata_locales
+		(*
+			-> locale_andromaha_book_Lisistrata;;
+			-> locale_tot_tot_book_Lisistrata;;
+			-> locale_vsa_grezia_book_Lisistrata;;
+			-> locale_to_book_Lisistrata;;
+			-> locale_afina_book_Lisistrata;;
+			-> locale_sparta_book_Lisistrata;;
+	 	*);;
+
+locale_andromaha_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ Андромаха ]
+		(* <- lang_ru;; *);;
+
+locale_tot_tot_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ Тот Тот ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_grezia_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Греция ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_sparta_book_Lisistrata
+<- locale;
+=> nrel_main_idtf:
+	[ Спарта ]
+		(* <- lang_ru;; *);;
+

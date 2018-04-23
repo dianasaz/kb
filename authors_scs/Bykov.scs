@@ -1,0 +1,16 @@
+author_Bykov
+<- person;
+=> nrel_main_idtf:
+	[Василь Быков]
+		(* <- lang_ru;; *);;
+
+author_Bykov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Bykov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

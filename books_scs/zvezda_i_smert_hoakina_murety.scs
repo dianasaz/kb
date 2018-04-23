@@ -1,0 +1,147 @@
+book_Zvezda_I_Smert_Hoakina_Murety
+<- book;
+=> nrel_author;
+	author_Neruda;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Звезда И Смерть Хоакина Мурьеты]
+		(* <- lang_ru;; *);;
+
+book_Zvezda_I_Smert_Hoakina_Murety
+=> nrel_characters:
+	.book_Zvezda_I_Smert_Hoakina_Murety_characters
+		(*
+			-> char_rejes_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> char_teresa_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> char_huan_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> char_hoakina_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> char_mur_eta_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> char_adal_berto_book_Zvezda_I_Smert_Hoakina_Murety;;
+	 	*);;
+
+char_rejes_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Рейес ]
+		(* <- lang_ru;; *);;
+
+char_teresa_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Тереса ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_hoakina_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Хоакина ]
+		(* <- lang_ru;; *);;
+
+char_mur_eta_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Мурьета ]
+		(* <- lang_ru;; *);;
+
+char_adal_berto_book_Zvezda_I_Smert_Hoakina_Murety
+<- char;
+=> nrel_main_idtf:
+	[ Адальберто ]
+		(* <- lang_ru;; *);;
+
+book_Zvezda_I_Smert_Hoakina_Murety
+=> nrel_locales:
+	.book_Zvezda_I_Smert_Hoakina_Murety_locales
+		(*
+			-> locale_groznyj_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_kotoryj_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_blagodatnyj_kraj_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_tehasskij_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_hoakinom_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_hoakina_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_kalifornia_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_krasnyj_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> locale_port_val_paraiso_book_Zvezda_I_Smert_Hoakina_Murety;;
+	 	*);;
+
+locale_groznyj_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_blagodatnyj_kraj_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Благодатный Край ]
+		(* <- lang_ru;; *);;
+
+locale_tehasskij_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Техасский ]
+		(* <- lang_ru;; *);;
+
+locale_hoakinom_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Хоакином ]
+		(* <- lang_ru;; *);;
+
+locale_hoakina_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Хоакина ]
+		(* <- lang_ru;; *);;
+
+locale_kalifornia_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Калифорния ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_port_val_paraiso_book_Zvezda_I_Smert_Hoakina_Murety
+<- locale;
+=> nrel_main_idtf:
+	[ Порт Вальпараисо ]
+		(* <- lang_ru;; *);;
+
+book_Zvezda_I_Smert_Hoakina_Murety
+=> nrel_dates:
+	.book_Zvezda_I_Smert_Hoakina_Murety_dates
+		(*
+			-> date_1850_book_Zvezda_I_Smert_Hoakina_Murety;;
+			-> date_1853_book_Zvezda_I_Smert_Hoakina_Murety;;
+	 	*);;
+
+date_1850_book_Zvezda_I_Smert_Hoakina_Murety
+<- date;
+=> nrel_main_idtf:
+	[ 1850 ]
+		(* <- lang_ru;; *);;
+
+date_1853_book_Zvezda_I_Smert_Hoakina_Murety
+<- date;
+=> nrel_main_idtf:
+	[ 1853 ]
+		(* <- lang_ru;; *);;
+

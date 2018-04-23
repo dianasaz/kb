@@ -1,0 +1,16 @@
+author_U_Chenen
+<- person;
+=> nrel_main_idtf:
+	[У Чэнъэнь]
+		(* <- lang_ru;; *);;
+
+author_U_Chenen
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/U_Chenen.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

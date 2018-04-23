@@ -1,0 +1,99 @@
+book_O_Lyubvi
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[О Любви]
+		(* <- lang_ru;; *);;
+
+book_O_Lyubvi
+=> nrel_characters:
+	.book_O_Lyubvi_characters
+		(*
+			-> char_luganovic_book_O_Lyubvi;;
+			-> char_anna_alekseevna_book_O_Lyubvi;;
+			-> char_anne_alekseevna_book_O_Lyubvi;;
+			-> char_burkin_book_O_Lyubvi;;
+			-> char_alehina_book_O_Lyubvi;;
+			-> char_dmitrij_luganovic_book_O_Lyubvi;;
+	 	*);;
+
+char_luganovic_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Луганович ]
+		(* <- lang_ru;; *);;
+
+char_anna_alekseevna_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Анна Алексеевна ]
+		(* <- lang_ru;; *);;
+
+char_anne_alekseevna_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Анне Алексеевна ]
+		(* <- lang_ru;; *);;
+
+char_burkin_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Буркин ]
+		(* <- lang_ru;; *);;
+
+char_alehina_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Алёхина ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_luganovic_book_O_Lyubvi
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий Луганович ]
+		(* <- lang_ru;; *);;
+
+book_O_Lyubvi
+=> nrel_locales:
+	.book_O_Lyubvi_locales
+		(*
+			-> locale_krym_book_O_Lyubvi;;
+			-> locale_sof_ina_book_O_Lyubvi;;
+			-> locale_zapadnyj_gubernia_book_O_Lyubvi;;
+			-> locale_to_book_O_Lyubvi;;
+			-> locale_alehina_book_O_Lyubvi;;
+	 	*);;
+
+locale_krym_book_O_Lyubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_sof_ina_book_O_Lyubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Софьиня ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnyj_gubernia_book_O_Lyubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Западный Губерния ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_O_Lyubvi
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_alehina_book_O_Lyubvi
+<- locale;
+=> nrel_main_idtf:
+	[ Алёхина ]
+		(* <- lang_ru;; *);;
+

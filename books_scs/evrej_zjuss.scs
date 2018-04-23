@@ -1,0 +1,218 @@
+book_Evrej_Zjuss
+<- book;
+=> nrel_author;
+	author_Fejhtvanger;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Еврей Зюсс]
+		(* <- lang_ru;; *);;
+
+book_Evrej_Zjuss
+=> nrel_characters:
+	.book_Evrej_Zjuss_characters
+		(*
+			-> char_iogann_book_Evrej_Zjuss;;
+			-> char_vurbena_book_Evrej_Zjuss;;
+			-> char_rudol_f_nejenstadtskij_book_Evrej_Zjuss;;
+			-> char_vurten_book_Evrej_Zjuss;;
+			-> char_gabriela_book_Evrej_Zjuss;;
+			-> char_simon_book_Evrej_Zjuss;;
+			-> char_oppengejmer_book_Evrej_Zjuss;;
+			-> char_isaak_book_Evrej_Zjuss;;
+			-> char_ludvig_book_Evrej_Zjuss;;
+			-> char_zeligman_book_Evrej_Zjuss;;
+			-> char_daniel__book_Evrej_Zjuss;;
+			-> char_ebergard_book_Evrej_Zjuss;;
+			-> char_karl_book_Evrej_Zjuss;;
+			-> char_ioganna_book_Evrej_Zjuss;;
+			-> char_aleksandr_book_Evrej_Zjuss;;
+			-> char_aleksandr_vurtembergskij_book_Evrej_Zjuss;;
+			-> char_gabriel__book_Evrej_Zjuss;;
+			-> char_maria_book_Evrej_Zjuss;;
+			-> char_georg_book_Evrej_Zjuss;;
+			-> char_iozef_book_Evrej_Zjuss;;
+	 	*);;
+
+char_iogann_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Иоганн ]
+		(* <- lang_ru;; *);;
+
+char_vurbena_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Вюрбена ]
+		(* <- lang_ru;; *);;
+
+char_rudol_f_nejenstadtskij_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Рудольф Нейенштадтский ]
+		(* <- lang_ru;; *);;
+
+char_vurten_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Вюртен ]
+		(* <- lang_ru;; *);;
+
+char_gabriela_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Габриеля ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_oppengejmer_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Оппенгеймер ]
+		(* <- lang_ru;; *);;
+
+char_isaak_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Исаак ]
+		(* <- lang_ru;; *);;
+
+char_ludvig_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Людвиг ]
+		(* <- lang_ru;; *);;
+
+char_zeligman_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Зелигман ]
+		(* <- lang_ru;; *);;
+
+char_daniel__book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Даниэль ]
+		(* <- lang_ru;; *);;
+
+char_ebergard_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Эбергард ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_ioganna_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Иоганна ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_vurtembergskij_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Александр Вюртембергский ]
+		(* <- lang_ru;; *);;
+
+char_gabriel__book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Габриель ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_georg_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Георг ]
+		(* <- lang_ru;; *);;
+
+char_iozef_book_Evrej_Zjuss
+<- char;
+=> nrel_main_idtf:
+	[ Иозеф ]
+		(* <- lang_ru;; *);;
+
+book_Evrej_Zjuss
+=> nrel_locales:
+	.book_Evrej_Zjuss_locales
+		(*
+			-> locale_gollandskij_gorodok_book_Evrej_Zjuss;;
+			-> locale_serbia_book_Evrej_Zjuss;;
+			-> locale_vurten_book_Evrej_Zjuss;;
+			-> locale_girsau_book_Evrej_Zjuss;;
+			-> locale_vurtemberg_book_Evrej_Zjuss;;
+			-> locale_gejdersdorf_book_Evrej_Zjuss;;
+			-> locale_vajsenz_book_Evrej_Zjuss;;
+			-> locale_rudol_f_book_Evrej_Zjuss;;
+	 	*);;
+
+locale_gollandskij_gorodok_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Голландский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_serbia_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Сербия ]
+		(* <- lang_ru;; *);;
+
+locale_vurten_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Вюртен ]
+		(* <- lang_ru;; *);;
+
+locale_girsau_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Гирсау ]
+		(* <- lang_ru;; *);;
+
+locale_vurtemberg_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Вюртемберг ]
+		(* <- lang_ru;; *);;
+
+locale_gejdersdorf_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Гейдерсдорф ]
+		(* <- lang_ru;; *);;
+
+locale_vajsenz_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Вайсенз ]
+		(* <- lang_ru;; *);;
+
+locale_rudol_f_book_Evrej_Zjuss
+<- locale;
+=> nrel_main_idtf:
+	[ Рудольф ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,211 @@
+book_Dubrovsky
+<- book;
+=> nrel_author;
+	author_Pushkin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дубровский]
+		(* <- lang_ru;; *);;
+
+book_Dubrovsky
+=> nrel_characters:
+	.book_Dubrovsky_characters
+		(*
+			-> char_petrovic_book_Dubrovsky;;
+			-> char_dubrovskij_book_Dubrovsky;;
+			-> char_arbatov_book_Dubrovsky;;
+			-> char_verejskij_book_Dubrovsky;;
+			-> char_sabaskin_book_Dubrovsky;;
+			-> char_vladimir_dubrovskij_book_Dubrovsky;;
+			-> char_arhip_book_Dubrovsky;;
+			-> char_sasa_book_Dubrovsky;;
+			-> char_mar_a_kirilovna_book_Dubrovsky;;
+			-> char_troekur_book_Dubrovsky;;
+			-> char_mar_a_kirilovna_troekurova_book_Dubrovsky;;
+			-> char_anton_pafnut_ic_book_Dubrovsky;;
+			-> char_spizyn_book_Dubrovsky;;
+			-> char_troekurov_book_Dubrovsky;;
+			-> char_vladimir_book_Dubrovsky;;
+			-> char_andrej_gavrilovic_dubrovskij_book_Dubrovsky;;
+			-> char_anton_pafnut_ic_spizyn_book_Dubrovsky;;
+			-> char_kiril_book_Dubrovsky;;
+			-> char_masa_book_Dubrovsky;;
+	 	*);;
+
+char_petrovic_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Петрович ]
+		(* <- lang_ru;; *);;
+
+char_dubrovskij_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Дубровский ]
+		(* <- lang_ru;; *);;
+
+char_arbatov_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Арбатов ]
+		(* <- lang_ru;; *);;
+
+char_verejskij_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Верейский ]
+		(* <- lang_ru;; *);;
+
+char_sabaskin_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Шабашкин ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_dubrovskij_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Дубровский ]
+		(* <- lang_ru;; *);;
+
+char_arhip_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Архип ]
+		(* <- lang_ru;; *);;
+
+char_sasa_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Саша ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_kirilovna_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Марья Кириловна ]
+		(* <- lang_ru;; *);;
+
+char_troekur_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Троекур ]
+		(* <- lang_ru;; *);;
+
+char_mar_a_kirilovna_troekurova_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Марья Кириловна Троекурова ]
+		(* <- lang_ru;; *);;
+
+char_anton_pafnut_ic_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Антон Пафнутьич ]
+		(* <- lang_ru;; *);;
+
+char_spizyn_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Спицын ]
+		(* <- lang_ru;; *);;
+
+char_troekurov_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Троекуров ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_andrej_gavrilovic_dubrovskij_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Андрей Гаврилович Дубровский ]
+		(* <- lang_ru;; *);;
+
+char_anton_pafnut_ic_spizyn_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Антон Пафнутьич Спицын ]
+		(* <- lang_ru;; *);;
+
+char_kiril_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Кирил ]
+		(* <- lang_ru;; *);;
+
+char_masa_book_Dubrovsky
+<- char;
+=> nrel_main_idtf:
+	[ Маша ]
+		(* <- lang_ru;; *);;
+
+book_Dubrovsky
+=> nrel_locales:
+	.book_Dubrovsky_locales
+		(*
+			-> locale_kotoryj_book_Dubrovsky;;
+			-> locale_vladimir_book_Dubrovsky;;
+			-> locale_moskva_book_Dubrovsky;;
+			-> locale_pokrovskij_book_Dubrovsky;;
+			-> locale_pokrovskoe_book_Dubrovsky;;
+			-> locale_cujoj_kraj_book_Dubrovsky;;
+			-> locale_arbatovoe_book_Dubrovsky;;
+			-> locale_peterburg_book_Dubrovsky;;
+	 	*);;
+
+locale_kotoryj_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_pokrovskij_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Покровский ]
+		(* <- lang_ru;; *);;
+
+locale_pokrovskoe_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Покровское ]
+		(* <- lang_ru;; *);;
+
+locale_cujoj_kraj_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Чужой Край ]
+		(* <- lang_ru;; *);;
+
+locale_arbatovoe_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Арбатовое ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Dubrovsky
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

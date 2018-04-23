@@ -1,0 +1,301 @@
+book_Chelovek_Bez_Svojstv
+<- book;
+=> nrel_author;
+	author_Muzil;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Человек Без Свойств]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Bez_Svojstv
+=> nrel_characters:
+	.book_Chelovek_Bez_Svojstv_characters
+		(*
+			-> char_agata_book_Chelovek_Bez_Svojstv;;
+			-> char_fisel__book_Chelovek_Bez_Svojstv;;
+			-> char_diotima_book_Chelovek_Bez_Svojstv;;
+			-> char_ul_rih_book_Chelovek_Bez_Svojstv;;
+			-> char_nizse_book_Chelovek_Bez_Svojstv;;
+			-> char_paul__book_Chelovek_Bez_Svojstv;;
+			-> char_platon_book_Chelovek_Bez_Svojstv;;
+			-> char_ud_rih_book_Chelovek_Bez_Svojstv;;
+			-> char_aejnsdorf_book_Chelovek_Bez_Svojstv;;
+			-> char_klarissa_book_Chelovek_Bez_Svojstv;;
+			-> char_vil_gel_m_book_Chelovek_Bez_Svojstv;;
+			-> char_franz_book_Chelovek_Bez_Svojstv;;
+			-> char_sokrat_book_Chelovek_Bez_Svojstv;;
+			-> char_sekretarasij_book_Chelovek_Bez_Svojstv;;
+			-> char_stal_burg_book_Chelovek_Bez_Svojstv;;
+			-> char_moosbruger_book_Chelovek_Bez_Svojstv;;
+			-> char_gans_book_Chelovek_Bez_Svojstv;;
+			-> char_gerd_book_Chelovek_Bez_Svojstv;;
+			-> char_leo_book_Chelovek_Bez_Svojstv;;
+			-> char_zepp_book_Chelovek_Bez_Svojstv;;
+			-> char_val_ter_book_Chelovek_Bez_Svojstv;;
+			-> char_iosif_book_Chelovek_Bez_Svojstv;;
+			-> char_lejnsdorf_book_Chelovek_Bez_Svojstv;;
+	 	*);;
+
+char_agata_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Агата ]
+		(* <- lang_ru;; *);;
+
+char_fisel__book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Фишель ]
+		(* <- lang_ru;; *);;
+
+char_diotima_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Диотима ]
+		(* <- lang_ru;; *);;
+
+char_ul_rih_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Ульрих ]
+		(* <- lang_ru;; *);;
+
+char_nizse_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Ницше ]
+		(* <- lang_ru;; *);;
+
+char_paul__book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Пауль ]
+		(* <- lang_ru;; *);;
+
+char_platon_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_ud_rih_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Удьрих ]
+		(* <- lang_ru;; *);;
+
+char_aejnsdorf_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Аейнсдорф ]
+		(* <- lang_ru;; *);;
+
+char_klarissa_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Кларисса ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_sokrat_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Сократ ]
+		(* <- lang_ru;; *);;
+
+char_sekretarasij_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Секретарящий ]
+		(* <- lang_ru;; *);;
+
+char_stal_burg_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Штальбург ]
+		(* <- lang_ru;; *);;
+
+char_moosbruger_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Моосбругер ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_gerd_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Герд ]
+		(* <- lang_ru;; *);;
+
+char_leo_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Лео ]
+		(* <- lang_ru;; *);;
+
+char_zepp_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Зепп ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер ]
+		(* <- lang_ru;; *);;
+
+char_iosif_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф ]
+		(* <- lang_ru;; *);;
+
+char_lejnsdorf_book_Chelovek_Bez_Svojstv
+<- char;
+=> nrel_main_idtf:
+	[ Лейнсдорф ]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Bez_Svojstv
+=> nrel_locales:
+	.book_Chelovek_Bez_Svojstv_locales
+		(*
+			-> locale_patrioticeski_book_Chelovek_Bez_Svojstv;;
+			-> locale_aejnsdorf_book_Chelovek_Bez_Svojstv;;
+			-> locale_samodovol_nyj_arngejm_book_Chelovek_Bez_Svojstv;;
+			-> locale_kotoryj_book_Chelovek_Bez_Svojstv;;
+			-> locale_lejnsdorf_book_Chelovek_Bez_Svojstv;;
+			-> locale_arngejm_book_Chelovek_Bez_Svojstv;;
+			-> locale_vena_book_Chelovek_Bez_Svojstv;;
+			-> locale_stal_burg_book_Chelovek_Bez_Svojstv;;
+			-> locale_to_book_Chelovek_Bez_Svojstv;;
+			-> locale_tuzzi_book_Chelovek_Bez_Svojstv;;
+			-> locale_diotim_book_Chelovek_Bez_Svojstv;;
+			-> locale_misticeska_book_Chelovek_Bez_Svojstv;;
+			-> locale_progermanski_book_Chelovek_Bez_Svojstv;;
+			-> locale_germania_book_Chelovek_Bez_Svojstv;;
+	 	*);;
+
+locale_patrioticeski_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Патриотически ]
+		(* <- lang_ru;; *);;
+
+locale_aejnsdorf_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Аейнсдорф ]
+		(* <- lang_ru;; *);;
+
+locale_samodovol_nyj_arngejm_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Самодовольный Арнгейм ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_lejnsdorf_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Лейнсдорф ]
+		(* <- lang_ru;; *);;
+
+locale_arngejm_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Арнгейм ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_stal_burg_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Штальбург ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_tuzzi_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Туцци ]
+		(* <- lang_ru;; *);;
+
+locale_diotim_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Диотим ]
+		(* <- lang_ru;; *);;
+
+locale_misticeska_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Мистичёска ]
+		(* <- lang_ru;; *);;
+
+locale_progermanski_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Прогермански ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Chelovek_Bez_Svojstv
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+book_Chelovek_Bez_Svojstv
+=> nrel_dates:
+	.book_Chelovek_Bez_Svojstv_dates
+		(*
+			-> date_1918_book_Chelovek_Bez_Svojstv;;
+			-> date_1913_book_Chelovek_Bez_Svojstv;;
+	 	*);;
+
+date_1918_book_Chelovek_Bez_Svojstv
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+
+date_1913_book_Chelovek_Bez_Svojstv
+<- date;
+=> nrel_main_idtf:
+	[ 1913 ]
+		(* <- lang_ru;; *);;
+

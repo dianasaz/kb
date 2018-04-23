@@ -1,0 +1,224 @@
+book_Neterpenie_Serdca
+<- book;
+=> nrel_author;
+	author_Cvejg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Нетерпение Сердца]
+		(* <- lang_ru;; *);;
+
+book_Neterpenie_Serdca
+=> nrel_characters:
+	.book_Neterpenie_Serdca_characters
+		(*
+			-> char_ilona_book_Neterpenie_Serdca;;
+			-> char_kaniza_book_Neterpenie_Serdca;;
+			-> char_edita_book_Neterpenie_Serdca;;
+			-> char_franz_book_Neterpenie_Serdca;;
+			-> char_anton_book_Neterpenie_Serdca;;
+			-> char_vestfalij_book_Neterpenie_Serdca;;
+			-> char_maria_book_Neterpenie_Serdca;;
+			-> char_anton_gofmiller_book_Neterpenie_Serdca;;
+			-> char_terezia_book_Neterpenie_Serdca;;
+			-> char_kekesfal_va_book_Neterpenie_Serdca;;
+	 	*);;
+
+char_ilona_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Илона ]
+		(* <- lang_ru;; *);;
+
+char_kaniza_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Каница ]
+		(* <- lang_ru;; *);;
+
+char_edita_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Эдита ]
+		(* <- lang_ru;; *);;
+
+char_franz_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Франц ]
+		(* <- lang_ru;; *);;
+
+char_anton_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Антон ]
+		(* <- lang_ru;; *);;
+
+char_vestfalij_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Вестфалий ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_anton_gofmiller_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Антон Гофмиллер ]
+		(* <- lang_ru;; *);;
+
+char_terezia_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Терезия ]
+		(* <- lang_ru;; *);;
+
+char_kekesfal_va_book_Neterpenie_Serdca
+<- char;
+=> nrel_main_idtf:
+	[ Кекешфальва ]
+		(* <- lang_ru;; *);;
+
+book_Neterpenie_Serdca
+=> nrel_locales:
+	.book_Neterpenie_Serdca_locales
+		(*
+			-> locale_garnizonnyj_gorodok_book_Neterpenie_Serdca;;
+			-> locale_avstria_book_Neterpenie_Serdca;;
+			-> locale_ves__sire_book_Neterpenie_Serdca;;
+			-> locale_rej_book_Neterpenie_Serdca;;
+			-> locale_ditzengof_book_Neterpenie_Serdca;;
+			-> locale_kekesfal_vovyj_book_Neterpenie_Serdca;;
+			-> locale_orosvara_book_Neterpenie_Serdca;;
+			-> locale_kara_book_Neterpenie_Serdca;;
+			-> locale_vena_book_Neterpenie_Serdca;;
+			-> locale_gofmiller_book_Neterpenie_Serdca;;
+			-> locale_maj_book_Neterpenie_Serdca;;
+			-> locale_to_book_Neterpenie_Serdca;;
+			-> locale_v_enno_book_Neterpenie_Serdca;;
+			-> locale_budapest_book_Neterpenie_Serdca;;
+			-> locale_svejzaria_book_Neterpenie_Serdca;;
+	 	*);;
+
+locale_garnizonnyj_gorodok_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Гарнизонный Городок ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_ves__sire_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Шире ]
+		(* <- lang_ru;; *);;
+
+locale_rej_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Реж ]
+		(* <- lang_ru;; *);;
+
+locale_ditzengof_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Дитценгоф ]
+		(* <- lang_ru;; *);;
+
+locale_kekesfal_vovyj_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Кекешфальвовый ]
+		(* <- lang_ru;; *);;
+
+locale_orosvara_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Орошвара ]
+		(* <- lang_ru;; *);;
+
+locale_kara_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Кара ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_gofmiller_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Гофмиллер ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_v_enno_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Вьенно ]
+		(* <- lang_ru;; *);;
+
+locale_budapest_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Будапешт ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Neterpenie_Serdca
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+
+book_Neterpenie_Serdca
+=> nrel_dates:
+	.book_Neterpenie_Serdca_dates
+		(*
+			-> date_1914_5_book_Neterpenie_Serdca;;
+			-> date_1913_book_Neterpenie_Serdca;;
+			-> date_1938_book_Neterpenie_Serdca;;
+	 	*);;
+
+date_1914_5_book_Neterpenie_Serdca
+<- date;
+=> nrel_main_idtf:
+	[ 1914 5 ]
+		(* <- lang_ru;; *);;
+
+date_1913_book_Neterpenie_Serdca
+<- date;
+=> nrel_main_idtf:
+	[ 1913 ]
+		(* <- lang_ru;; *);;
+
+date_1938_book_Neterpenie_Serdca
+<- date;
+=> nrel_main_idtf:
+	[ 1938 ]
+		(* <- lang_ru;; *);;
+

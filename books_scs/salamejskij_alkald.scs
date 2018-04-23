@@ -1,0 +1,127 @@
+book_Salamejskij_Alkald
+<- book;
+=> nrel_author;
+	author_Kalderon;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Саламейский Алькальд]
+		(* <- lang_ru;; *);;
+
+book_Salamejskij_Alkald
+=> nrel_characters:
+	.book_Salamejskij_Alkald_characters
+		(*
+			-> char_kreslo_book_Salamejskij_Alkald;;
+			-> char_huan_book_Salamejskij_Alkald;;
+			-> char_isaveli_book_Salamejskij_Alkald;;
+			-> char_isavel__book_Salamejskij_Alkald;;
+			-> char_salamej_book_Salamejskij_Alkald;;
+			-> char_don_book_Salamejskij_Alkald;;
+			-> char_pedro_book_Salamejskij_Alkald;;
+			-> char_krespo_book_Salamejskij_Alkald;;
+			-> char_filipp_book_Salamejskij_Alkald;;
+			-> char_lop_book_Salamejskij_Alkald;;
+	 	*);;
+
+char_kreslo_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Кресло ]
+		(* <- lang_ru;; *);;
+
+char_huan_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Хуан ]
+		(* <- lang_ru;; *);;
+
+char_isaveli_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Исавели ]
+		(* <- lang_ru;; *);;
+
+char_isavel__book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Исавель ]
+		(* <- lang_ru;; *);;
+
+char_salamej_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Саламей ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_pedro_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Педро ]
+		(* <- lang_ru;; *);;
+
+char_krespo_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Креспо ]
+		(* <- lang_ru;; *);;
+
+char_filipp_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Филипп ]
+		(* <- lang_ru;; *);;
+
+char_lop_book_Salamejskij_Alkald
+<- char;
+=> nrel_main_idtf:
+	[ Лоп ]
+		(* <- lang_ru;; *);;
+
+book_Salamejskij_Alkald
+=> nrel_locales:
+	.book_Salamejskij_Alkald_locales
+		(*
+			-> locale_revol_edo_book_Salamejskij_Alkald;;
+			-> locale_lesna_book_Salamejskij_Alkald;;
+			-> locale_salamea_book_Salamejskij_Alkald;;
+			-> locale_don_book_Salamejskij_Alkald;;
+			-> locale_to_book_Salamejskij_Alkald;;
+	 	*);;
+
+locale_revol_edo_book_Salamejskij_Alkald
+<- locale;
+=> nrel_main_idtf:
+	[ Револьедо ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Salamejskij_Alkald
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_salamea_book_Salamejskij_Alkald
+<- locale;
+=> nrel_main_idtf:
+	[ Саламея ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Salamejskij_Alkald
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Salamejskij_Alkald
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

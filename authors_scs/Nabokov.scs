@@ -1,0 +1,16 @@
+author_Nabokov
+<- person;
+=> nrel_main_idtf:
+	[Владимир Набоков]
+		(* <- lang_ru;; *);;
+
+author_Nabokov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Nabokov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

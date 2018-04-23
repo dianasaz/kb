@@ -1,0 +1,127 @@
+book_Dikaja_Utka
+<- book;
+=> nrel_author;
+	author_Ibsen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дикая Утка]
+		(* <- lang_ru;; *);;
+
+book_Dikaja_Utka
+=> nrel_characters:
+	.book_Dikaja_Utka_characters
+		(*
+			-> char_hansnyj_book_Dikaja_Utka;;
+			-> char_al_mara_book_Dikaja_Utka;;
+			-> char_ginoj_book_Dikaja_Utka;;
+			-> char_gin_book_Dikaja_Utka;;
+			-> char_hedviga_book_Dikaja_Utka;;
+			-> char_al_mare_book_Dikaja_Utka;;
+			-> char_ekdala_book_Dikaja_Utka;;
+			-> char_rellinga_book_Dikaja_Utka;;
+	 	*);;
+
+char_hansnyj_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Хансный ]
+		(* <- lang_ru;; *);;
+
+char_al_mara_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Яльмара ]
+		(* <- lang_ru;; *);;
+
+char_ginoj_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Гиной ]
+		(* <- lang_ru;; *);;
+
+char_gin_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Гин ]
+		(* <- lang_ru;; *);;
+
+char_hedviga_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Хедвига ]
+		(* <- lang_ru;; *);;
+
+char_al_mare_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Яльмаре ]
+		(* <- lang_ru;; *);;
+
+char_ekdala_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Экдаля ]
+		(* <- lang_ru;; *);;
+
+char_rellinga_book_Dikaja_Utka
+<- char;
+=> nrel_main_idtf:
+	[ Реллинга ]
+		(* <- lang_ru;; *);;
+
+book_Dikaja_Utka
+=> nrel_locales:
+	.book_Dikaja_Utka_locales
+		(*
+			-> locale_ekdal__book_Dikaja_Utka;;
+			-> locale_verla_book_Dikaja_Utka;;
+			-> locale_gregersa_book_Dikaja_Utka;;
+			-> locale_gina_book_Dikaja_Utka;;
+			-> locale_velikij_book_Dikaja_Utka;;
+			-> locale_to_book_Dikaja_Utka;;
+			-> locale_al_mare_book_Dikaja_Utka;;
+	 	*);;
+
+locale_ekdal__book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Экдаль ]
+		(* <- lang_ru;; *);;
+
+locale_verla_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Верла ]
+		(* <- lang_ru;; *);;
+
+locale_gregersa_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Грегерса ]
+		(* <- lang_ru;; *);;
+
+locale_gina_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Гиня ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_al_mare_book_Dikaja_Utka
+<- locale;
+=> nrel_main_idtf:
+	[ Яльмаре ]
+		(* <- lang_ru;; *);;
+

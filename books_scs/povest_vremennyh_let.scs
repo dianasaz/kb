@@ -1,0 +1,764 @@
+book_Povest_Vremennyh_Let
+<- book;
+=> nrel_author;
+	author_Nestor_Letopisetc;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Повесть Временных Лет]
+		(* <- lang_ru;; *);;
+
+book_Povest_Vremennyh_Let
+=> nrel_characters:
+	.book_Povest_Vremennyh_Let_characters
+		(*
+			-> char_svatopolk_book_Povest_Vremennyh_Let;;
+			-> char_igoreva_book_Povest_Vremennyh_Let;;
+			-> char_malen_kaa_book_Povest_Vremennyh_Let;;
+			-> char_aroslava_book_Povest_Vremennyh_Let;;
+			-> char_vladimir_book_Povest_Vremennyh_Let;;
+			-> char_zvijden_book_Povest_Vremennyh_Let;;
+			-> char_igor__book_Povest_Vremennyh_Let;;
+			-> char_elena_book_Povest_Vremennyh_Let;;
+			-> char_iafet_book_Povest_Vremennyh_Let;;
+			-> char_avraamov_book_Povest_Vremennyh_Let;;
+			-> char_svatopolk_izaslavic_book_Povest_Vremennyh_Let;;
+			-> char_askol_d_book_Povest_Vremennyh_Let;;
+			-> char_berestov_book_Povest_Vremennyh_Let;;
+			-> char_davyd_igorevic_book_Povest_Vremennyh_Let;;
+			-> char_ol_ga_book_Povest_Vremennyh_Let;;
+			-> char_andrej_book_Povest_Vremennyh_Let;;
+			-> char_oleg_book_Povest_Vremennyh_Let;;
+			-> char_svatoslav_book_Povest_Vremennyh_Let;;
+			-> char_davyd_book_Povest_Vremennyh_Let;;
+			-> char_oleg_svatoslavic_book_Povest_Vremennyh_Let;;
+			-> char_peceneg_book_Povest_Vremennyh_Let;;
+			-> char_rurik_book_Povest_Vremennyh_Let;;
+			-> char_vasil_ko_book_Povest_Vremennyh_Let;;
+			-> char_magomet_book_Povest_Vremennyh_Let;;
+			-> char_rostislav_vladimirovic_vasil_ko_book_Povest_Vremennyh_Let;;
+			-> char_horiva_book_Povest_Vremennyh_Let;;
+			-> char_velita_book_Povest_Vremennyh_Let;;
+			-> char_davyd_svatoslavic_book_Povest_Vremennyh_Let;;
+			-> char_noj_book_Povest_Vremennyh_Let;;
+			-> char_anovaa_book_Povest_Vremennyh_Let;;
+			-> char_ol_gina_book_Povest_Vremennyh_Let;;
+			-> char_vladimir_vsevolodovic_book_Povest_Vremennyh_Let;;
+			-> char_aroslav_mudryj_book_Povest_Vremennyh_Let;;
+			-> char_david_book_Povest_Vremennyh_Let;;
+			-> char_dir_book_Povest_Vremennyh_Let;;
+			-> char_belduza_book_Povest_Vremennyh_Let;;
+			-> char_an_book_Povest_Vremennyh_Let;;
+	 	*);;
+
+char_svatopolk_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Святополк ]
+		(* <- lang_ru;; *);;
+
+char_igoreva_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Игорева ]
+		(* <- lang_ru;; *);;
+
+char_malen_kaa_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Маленькая ]
+		(* <- lang_ru;; *);;
+
+char_aroslava_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ярослава ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_zvijden_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Звижден ]
+		(* <- lang_ru;; *);;
+
+char_igor__book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Игорь ]
+		(* <- lang_ru;; *);;
+
+char_elena_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Елена ]
+		(* <- lang_ru;; *);;
+
+char_iafet_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Иафет ]
+		(* <- lang_ru;; *);;
+
+char_avraamov_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Авраамов ]
+		(* <- lang_ru;; *);;
+
+char_svatopolk_izaslavic_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Святополк Изяславич ]
+		(* <- lang_ru;; *);;
+
+char_askol_d_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Аскольд ]
+		(* <- lang_ru;; *);;
+
+char_berestov_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Берестов ]
+		(* <- lang_ru;; *);;
+
+char_davyd_igorevic_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Давыд Игоревич ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_andrej_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Андрей ]
+		(* <- lang_ru;; *);;
+
+char_oleg_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Олег ]
+		(* <- lang_ru;; *);;
+
+char_svatoslav_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Святослав ]
+		(* <- lang_ru;; *);;
+
+char_davyd_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Давыд ]
+		(* <- lang_ru;; *);;
+
+char_oleg_svatoslavic_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Олег Святославич ]
+		(* <- lang_ru;; *);;
+
+char_peceneg_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Печенег ]
+		(* <- lang_ru;; *);;
+
+char_rurik_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Рюрик ]
+		(* <- lang_ru;; *);;
+
+char_vasil_ko_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Василько ]
+		(* <- lang_ru;; *);;
+
+char_magomet_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Магомет ]
+		(* <- lang_ru;; *);;
+
+char_rostislav_vladimirovic_vasil_ko_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ростислав Владимирович Василько ]
+		(* <- lang_ru;; *);;
+
+char_horiva_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Хорива ]
+		(* <- lang_ru;; *);;
+
+char_velita_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Велита ]
+		(* <- lang_ru;; *);;
+
+char_davyd_svatoslavic_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Давыд Святославич ]
+		(* <- lang_ru;; *);;
+
+char_noj_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ной ]
+		(* <- lang_ru;; *);;
+
+char_anovaa_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Яновая ]
+		(* <- lang_ru;; *);;
+
+char_ol_gina_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ольгина ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_vsevolodovic_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Владимир Всеволодович ]
+		(* <- lang_ru;; *);;
+
+char_aroslav_mudryj_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ярослав Мудрый ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_dir_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Дир ]
+		(* <- lang_ru;; *);;
+
+char_belduza_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Белдюзя ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Povest_Vremennyh_Let
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Povest_Vremennyh_Let
+=> nrel_locales:
+	.book_Povest_Vremennyh_Let_locales
+		(*
+			-> locale_ves__kiev_book_Povest_Vremennyh_Let;;
+			-> locale_kotlov_book_Povest_Vremennyh_Let;;
+			-> locale_beloozero_book_Povest_Vremennyh_Let;;
+			-> locale_kotoryj_book_Povest_Vremennyh_Let;;
+			-> locale_rostovskaa_oblast__book_Povest_Vremennyh_Let;;
+			-> locale_dorogobuj_book_Povest_Vremennyh_Let;;
+			-> locale_volga_book_Povest_Vremennyh_Let;;
+			-> locale_kiev_book_Povest_Vremennyh_Let;;
+			-> locale_sil_nyj_byk_book_Povest_Vremennyh_Let;;
+			-> locale_byk_book_Povest_Vremennyh_Let;;
+			-> locale_sam_vladimir_book_Povest_Vremennyh_Let;;
+			-> locale_dunaj_book_Povest_Vremennyh_Let;;
+			-> locale_etot_gorodok_book_Povest_Vremennyh_Let;;
+			-> locale_isaakova_book_Povest_Vremennyh_Let;;
+			-> locale_ierusalim_book_Povest_Vremennyh_Let;;
+			-> locale_belena_book_Povest_Vremennyh_Let;;
+			-> locale_gorod_rus__book_Povest_Vremennyh_Let;;
+			-> locale_krym_book_Povest_Vremennyh_Let;;
+			-> locale_iskorosten__book_Povest_Vremennyh_Let;;
+			-> locale_pskov_book_Povest_Vremennyh_Let;;
+			-> locale_vsa_rus__book_Povest_Vremennyh_Let;;
+			-> locale_volhov_book_Povest_Vremennyh_Let;;
+			-> locale_estonskaa_book_Povest_Vremennyh_Let;;
+			-> locale_vavilon_book_Povest_Vremennyh_Let;;
+			-> locale_nekaa_rus__book_Povest_Vremennyh_Let;;
+			-> locale_gorodok_book_Povest_Vremennyh_Let;;
+			-> locale_bezbojnaa_rus__book_Povest_Vremennyh_Let;;
+			-> locale_pereaslavez_book_Povest_Vremennyh_Let;;
+			-> locale_ego_pereaslavez_book_Povest_Vremennyh_Let;;
+			-> locale_tvoa_otcina_book_Povest_Vremennyh_Let;;
+			-> locale_askol_d_book_Povest_Vremennyh_Let;;
+			-> locale_niva_book_Povest_Vremennyh_Let;;
+			-> locale_novgorodskij_slovena_book_Povest_Vremennyh_Let;;
+			-> locale_rim_book_Povest_Vremennyh_Let;;
+			-> locale_belgorod_book_Povest_Vremennyh_Let;;
+			-> locale_peruno_book_Povest_Vremennyh_Let;;
+			-> locale_slovena_book_Povest_Vremennyh_Let;;
+			-> locale_novgorod_book_Povest_Vremennyh_Let;;
+			-> locale_gorod_iskorosten__book_Povest_Vremennyh_Let;;
+			-> locale_vas_zar_grad_book_Povest_Vremennyh_Let;;
+			-> locale_trubej_book_Povest_Vremennyh_Let;;
+			-> locale_velikoe_book_Povest_Vremennyh_Let;;
+			-> locale_vladimir_book_Povest_Vremennyh_Let;;
+			-> locale_malen_kij_gorodok_book_Povest_Vremennyh_Let;;
+			-> locale_vengria_book_Povest_Vremennyh_Let;;
+			-> locale_jiznelubivyj_vladimir_book_Povest_Vremennyh_Let;;
+			-> locale_korsun__book_Povest_Vremennyh_Let;;
+			-> locale_urusob_book_Povest_Vremennyh_Let;;
+			-> locale_zar_grad_book_Povest_Vremennyh_Let;;
+			-> locale_izborsk_book_Povest_Vremennyh_Let;;
+			-> locale_on_kiev_book_Povest_Vremennyh_Let;;
+			-> locale_vizantia_book_Povest_Vremennyh_Let;;
+			-> locale_vysgorod_book_Povest_Vremennyh_Let;;
+			-> locale_nea_book_Povest_Vremennyh_Let;;
+			-> locale_terebovla_book_Povest_Vremennyh_Let;;
+			-> locale_an_book_Povest_Vremennyh_Let;;
+			-> locale_rus__book_Povest_Vremennyh_Let;;
+			-> locale_derevlan_book_Povest_Vremennyh_Let;;
+			-> locale_nezavisimaa_derevlanskaa_book_Povest_Vremennyh_Let;;
+			-> locale_cehia_book_Povest_Vremennyh_Let;;
+			-> locale_derevannyj_perun_book_Povest_Vremennyh_Let;;
+			-> locale_velik_book_Povest_Vremennyh_Let;;
+			-> locale_belozersk_book_Povest_Vremennyh_Let;;
+			-> locale_etot_pereaslavez_book_Povest_Vremennyh_Let;;
+			-> locale_dnepr_book_Povest_Vremennyh_Let;;
+			-> locale_to_book_Povest_Vremennyh_Let;;
+			-> locale_zakonnyj_kiev_book_Povest_Vremennyh_Let;;
+			-> locale_samyj_velikoe_book_Povest_Vremennyh_Let;;
+			-> locale_belduzu_book_Povest_Vremennyh_Let;;
+	 	*);;
+
+locale_ves__kiev_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Киев ]
+		(* <- lang_ru;; *);;
+
+locale_kotlov_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Котлов ]
+		(* <- lang_ru;; *);;
+
+locale_beloozero_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Белоозеро ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_rostovskaa_oblast__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Ростовская Область ]
+		(* <- lang_ru;; *);;
+
+locale_dorogobuj_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Дорогобуж ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_kiev_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Киев ]
+		(* <- lang_ru;; *);;
+
+locale_sil_nyj_byk_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Сильный Бык ]
+		(* <- lang_ru;; *);;
+
+locale_byk_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Бык ]
+		(* <- lang_ru;; *);;
+
+locale_sam_vladimir_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_dunaj_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Дунай ]
+		(* <- lang_ru;; *);;
+
+locale_etot_gorodok_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Городок ]
+		(* <- lang_ru;; *);;
+
+locale_isaakova_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Исаакова ]
+		(* <- lang_ru;; *);;
+
+locale_ierusalim_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_belena_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Белена ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_rus__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Город Русь ]
+		(* <- lang_ru;; *);;
+
+locale_krym_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Крым ]
+		(* <- lang_ru;; *);;
+
+locale_iskorosten__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Искоростень ]
+		(* <- lang_ru;; *);;
+
+locale_pskov_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Псков ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_rus__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Русь ]
+		(* <- lang_ru;; *);;
+
+locale_volhov_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Волхов ]
+		(* <- lang_ru;; *);;
+
+locale_estonskaa_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Эстонская ]
+		(* <- lang_ru;; *);;
+
+locale_vavilon_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Вавилон ]
+		(* <- lang_ru;; *);;
+
+locale_nekaa_rus__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Некая Русь ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_bezbojnaa_rus__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Безбожная Русь ]
+		(* <- lang_ru;; *);;
+
+locale_pereaslavez_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Переяславец ]
+		(* <- lang_ru;; *);;
+
+locale_ego_pereaslavez_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Его Переяславец ]
+		(* <- lang_ru;; *);;
+
+locale_tvoa_otcina_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Твоя Отчина ]
+		(* <- lang_ru;; *);;
+
+locale_askol_d_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Аскольд ]
+		(* <- lang_ru;; *);;
+
+locale_niva_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Нива ]
+		(* <- lang_ru;; *);;
+
+locale_novgorodskij_slovena_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Новгородский Словена ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_belgorod_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Белгород ]
+		(* <- lang_ru;; *);;
+
+locale_peruno_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Перуно ]
+		(* <- lang_ru;; *);;
+
+locale_slovena_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Словена ]
+		(* <- lang_ru;; *);;
+
+locale_novgorod_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_iskorosten__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Город Искоростень ]
+		(* <- lang_ru;; *);;
+
+locale_vas_zar_grad_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Ваш Царьград ]
+		(* <- lang_ru;; *);;
+
+locale_trubej_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Трубеж ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_malen_kij_gorodok_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Маленький Городок ]
+		(* <- lang_ru;; *);;
+
+locale_vengria_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Венгрия ]
+		(* <- lang_ru;; *);;
+
+locale_jiznelubivyj_vladimir_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Жизнелюбивый Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_korsun__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Корсунь ]
+		(* <- lang_ru;; *);;
+
+locale_urusob_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Урусоб ]
+		(* <- lang_ru;; *);;
+
+locale_zar_grad_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Царьград ]
+		(* <- lang_ru;; *);;
+
+locale_izborsk_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Изборск ]
+		(* <- lang_ru;; *);;
+
+locale_on_kiev_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Он Киев ]
+		(* <- lang_ru;; *);;
+
+locale_vizantia_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Византия ]
+		(* <- lang_ru;; *);;
+
+locale_vysgorod_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Вышгород ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_terebovla_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Теребовля ]
+		(* <- lang_ru;; *);;
+
+locale_an_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_derevlan_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Деревлян ]
+		(* <- lang_ru;; *);;
+
+locale_nezavisimaa_derevlanskaa_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Независимая Деревлянская ]
+		(* <- lang_ru;; *);;
+
+locale_cehia_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Чехия ]
+		(* <- lang_ru;; *);;
+
+locale_derevannyj_perun_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Деревянный Перун ]
+		(* <- lang_ru;; *);;
+
+locale_velik_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Велик ]
+		(* <- lang_ru;; *);;
+
+locale_belozersk_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Белозерск ]
+		(* <- lang_ru;; *);;
+
+locale_etot_pereaslavez_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Этот Переяславец ]
+		(* <- lang_ru;; *);;
+
+locale_dnepr_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Днепр ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_zakonnyj_kiev_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Законный Киев ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_velikoe_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Великое ]
+		(* <- lang_ru;; *);;
+
+locale_belduzu_book_Povest_Vremennyh_Let
+<- locale;
+=> nrel_main_idtf:
+	[ Белдюзю ]
+		(* <- lang_ru;; *);;
+

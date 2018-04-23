@@ -1,0 +1,85 @@
+book_Ionych
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ионыч]
+		(* <- lang_ru;; *);;
+
+book_Ionych
+=> nrel_characters:
+	.book_Ionych_characters
+		(*
+			-> char_vera_iosifovna_book_Ionych;;
+			-> char_turkin_book_Ionych;;
+			-> char_ekaterina_ivanovna_book_Ionych;;
+			-> char_ivan_petrovic_turkin_book_Ionych;;
+			-> char_starzev_book_Ionych;;
+			-> char_dmitrij_ionovic_starzev_book_Ionych;;
+	 	*);;
+
+char_vera_iosifovna_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Вера Иосифовна ]
+		(* <- lang_ru;; *);;
+
+char_turkin_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Туркин ]
+		(* <- lang_ru;; *);;
+
+char_ekaterina_ivanovna_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Екатерина Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_ivan_petrovic_turkin_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Иван Петрович Туркин ]
+		(* <- lang_ru;; *);;
+
+char_starzev_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Старцев ]
+		(* <- lang_ru;; *);;
+
+char_dmitrij_ionovic_starzev_book_Ionych
+<- char;
+=> nrel_main_idtf:
+	[ Дмитрий Ионович Старцев ]
+		(* <- lang_ru;; *);;
+
+book_Ionych
+=> nrel_locales:
+	.book_Ionych_locales
+		(*
+			-> locale_kuda_book_Ionych;;
+			-> locale_to_book_Ionych;;
+			-> locale_moskva_book_Ionych;;
+	 	*);;
+
+locale_kuda_book_Ionych
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Ionych
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Ionych
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+

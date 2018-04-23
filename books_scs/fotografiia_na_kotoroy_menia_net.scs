@@ -1,0 +1,64 @@
+book_Fotografiia_Na_Kotoroy_Menia_Net
+<- book;
+=> nrel_author;
+	author_Astafev;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фотография, На Которой Меня Нет]
+		(* <- lang_ru;; *);;
+
+book_Fotografiia_Na_Kotoroy_Menia_Net
+=> nrel_characters:
+	.book_Fotografiia_Na_Kotoroy_Menia_Net_characters
+		(*
+			-> char_kiril_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+			-> char_san_ka_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+			-> char_katerina_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+			-> char_levontij_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+	 	*);;
+
+char_kiril_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- char;
+=> nrel_main_idtf:
+	[ Кирил ]
+		(* <- lang_ru;; *);;
+
+char_san_ka_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- char;
+=> nrel_main_idtf:
+	[ Санька ]
+		(* <- lang_ru;; *);;
+
+char_katerina_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- char;
+=> nrel_main_idtf:
+	[ Катерина ]
+		(* <- lang_ru;; *);;
+
+char_levontij_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- char;
+=> nrel_main_idtf:
+	[ Левонтий ]
+		(* <- lang_ru;; *);;
+
+book_Fotografiia_Na_Kotoroy_Menia_Net
+=> nrel_locales:
+	.book_Fotografiia_Na_Kotoroy_Menia_Net_locales
+		(*
+			-> locale_kotoryj_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+			-> locale_igarka_book_Fotografiia_Na_Kotoroy_Menia_Net;;
+	 	*);;
+
+locale_kotoryj_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_igarka_book_Fotografiia_Na_Kotoroy_Menia_Net
+<- locale;
+=> nrel_main_idtf:
+	[ Игарка ]
+		(* <- lang_ru;; *);;
+

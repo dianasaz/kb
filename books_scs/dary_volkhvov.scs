@@ -1,0 +1,50 @@
+book_Dary_Volkhvov
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Дары Волхвов]
+		(* <- lang_ru;; *);;
+
+book_Dary_Volkhvov
+=> nrel_characters:
+	.book_Dary_Volkhvov_characters
+		(*
+			-> char_solomon_book_Dary_Volkhvov;;
+			-> char_djim_book_Dary_Volkhvov;;
+	 	*);;
+
+char_solomon_book_Dary_Volkhvov
+<- char;
+=> nrel_main_idtf:
+	[ Соломон ]
+		(* <- lang_ru;; *);;
+
+char_djim_book_Dary_Volkhvov
+<- char;
+=> nrel_main_idtf:
+	[ Джим ]
+		(* <- lang_ru;; *);;
+
+book_Dary_Volkhvov
+=> nrel_locales:
+	.book_Dary_Volkhvov_locales
+		(*
+			-> locale_kotoryj_book_Dary_Volkhvov;;
+			-> locale_kos_book_Dary_Volkhvov;;
+	 	*);;
+
+locale_kotoryj_book_Dary_Volkhvov
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kos_book_Dary_Volkhvov
+<- locale;
+=> nrel_main_idtf:
+	[ Кос ]
+		(* <- lang_ru;; *);;
+

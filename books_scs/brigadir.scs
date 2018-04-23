@@ -1,0 +1,127 @@
+book_Brigadir
+<- book;
+=> nrel_author;
+	author_Fonvizin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Бригадир]
+		(* <- lang_ru;; *);;
+
+book_Brigadir
+=> nrel_characters:
+	.book_Brigadir_characters
+		(*
+			-> char_ignatij_andreevic_book_Brigadir;;
+			-> char_ignatij_timofeevic_book_Brigadir;;
+			-> char_dobrolubov_book_Brigadir;;
+			-> char_ivan_book_Brigadir;;
+			-> char_timofeevna_akulina_book_Brigadir;;
+			-> char_ivanuska_book_Brigadir;;
+			-> char_avdot_a_potapievna_book_Brigadir;;
+			-> char_artamon_vlas_ic_book_Brigadir;;
+			-> char_avdot_a_potap_evna_book_Brigadir;;
+			-> char_sof_a_book_Brigadir;;
+	 	*);;
+
+char_ignatij_andreevic_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Игнатий Андреевич ]
+		(* <- lang_ru;; *);;
+
+char_ignatij_timofeevic_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Игнатий Тимофеевич ]
+		(* <- lang_ru;; *);;
+
+char_dobrolubov_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Добролюбов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_timofeevna_akulina_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Тимофеевна Акулина ]
+		(* <- lang_ru;; *);;
+
+char_ivanuska_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Иванушка ]
+		(* <- lang_ru;; *);;
+
+char_avdot_a_potapievna_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Авдотья Потапиевна ]
+		(* <- lang_ru;; *);;
+
+char_artamon_vlas_ic_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Артамон Власьич ]
+		(* <- lang_ru;; *);;
+
+char_avdot_a_potap_evna_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Авдотья Потапьевна ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_book_Brigadir
+<- char;
+=> nrel_main_idtf:
+	[ Софья ]
+		(* <- lang_ru;; *);;
+
+book_Brigadir
+=> nrel_locales:
+	.book_Brigadir_locales
+		(*
+			-> locale_franzia_book_Brigadir;;
+			-> locale_lubim_book_Brigadir;;
+			-> locale_parij_book_Brigadir;;
+			-> locale_to_book_Brigadir;;
+			-> locale_nea_book_Brigadir;;
+	 	*);;
+
+locale_franzia_book_Brigadir
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Brigadir
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Brigadir
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Brigadir
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Brigadir
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+

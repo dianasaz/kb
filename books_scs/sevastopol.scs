@@ -1,0 +1,225 @@
+book_Sevastopol
+<- book;
+=> nrel_author;
+	author_Tolstoi;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Севастопольские Рассказы]
+		(* <- lang_ru;; *);;
+
+book_Sevastopol
+=> nrel_characters:
+	.book_Sevastopol_characters
+		(*
+			-> char_kozelez_book_Sevastopol;;
+			-> char_voloda_book_Sevastopol;;
+			-> char_mihail_book_Sevastopol;;
+			-> char_mel_nikov_book_Sevastopol;;
+			-> char_malahov_book_Sevastopol;;
+			-> char_gal_zin_book_Sevastopol;;
+			-> char_konstantin_book_Sevastopol;;
+			-> char_tolstoj_book_Sevastopol;;
+			-> char_neferdov_book_Sevastopol;;
+			-> char_kalugin_book_Sevastopol;;
+			-> char_kozel_zov_book_Sevastopol;;
+			-> char_natasa_book_Sevastopol;;
+			-> char_vlanga_book_Sevastopol;;
+	 	*);;
+
+char_kozelez_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Козелец ]
+		(* <- lang_ru;; *);;
+
+char_voloda_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Володя ]
+		(* <- lang_ru;; *);;
+
+char_mihail_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Михаил ]
+		(* <- lang_ru;; *);;
+
+char_mel_nikov_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Мельников ]
+		(* <- lang_ru;; *);;
+
+char_malahov_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Малахов ]
+		(* <- lang_ru;; *);;
+
+char_gal_zin_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Гальцин ]
+		(* <- lang_ru;; *);;
+
+char_konstantin_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Константин ]
+		(* <- lang_ru;; *);;
+
+char_tolstoj_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Толстой ]
+		(* <- lang_ru;; *);;
+
+char_neferdov_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Нефердов ]
+		(* <- lang_ru;; *);;
+
+char_kalugin_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Калугин ]
+		(* <- lang_ru;; *);;
+
+char_kozel_zov_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Козельцов ]
+		(* <- lang_ru;; *);;
+
+char_natasa_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Наташа ]
+		(* <- lang_ru;; *);;
+
+char_vlanga_book_Sevastopol
+<- char;
+=> nrel_main_idtf:
+	[ Вланга ]
+		(* <- lang_ru;; *);;
+
+book_Sevastopol
+=> nrel_locales:
+	.book_Sevastopol_locales
+		(*
+			-> locale_mihajlov_book_Sevastopol;;
+			-> locale_objogovo_book_Sevastopol;;
+			-> locale_kurgan_book_Sevastopol;;
+			-> locale_rossia_book_Sevastopol;;
+			-> locale_kotoryj_book_Sevastopol;;
+			-> locale_velikoe_book_Sevastopol;;
+			-> locale_otradnoe_book_Sevastopol;;
+			-> locale_kozel_zov_book_Sevastopol;;
+			-> locale_peterburgskij_book_Sevastopol;;
+			-> locale_rej_book_Sevastopol;;
+			-> locale_gorod_sevastopol__book_Sevastopol;;
+			-> locale_to_book_Sevastopol;;
+			-> locale_samyj_mihajlov_book_Sevastopol;;
+			-> locale_otradnyj_book_Sevastopol;;
+			-> locale_sevastopol__book_Sevastopol;;
+			-> locale_vostok_book_Sevastopol;;
+	 	*);;
+
+locale_mihajlov_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Михайлов ]
+		(* <- lang_ru;; *);;
+
+locale_objogovo_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Обжогово ]
+		(* <- lang_ru;; *);;
+
+locale_kurgan_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Курган ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_otradnoe_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Отрадное ]
+		(* <- lang_ru;; *);;
+
+locale_kozel_zov_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Козельцов ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_rej_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Реж ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_sevastopol__book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Город Севастополь ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_mihajlov_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Михайлов ]
+		(* <- lang_ru;; *);;
+
+locale_otradnyj_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Отрадный ]
+		(* <- lang_ru;; *);;
+
+locale_sevastopol__book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Севастополь ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Sevastopol
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+

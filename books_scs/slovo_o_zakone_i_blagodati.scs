@@ -1,0 +1,113 @@
+book_Slovo_O_Zakone_I_Blagodati
+<- book;
+=> nrel_author;
+	author_Hilarion;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Слово О Законе И Благодати]
+		(* <- lang_ru;; *);;
+
+book_Slovo_O_Zakone_I_Blagodati
+=> nrel_characters:
+	.book_Slovo_O_Zakone_I_Blagodati_characters
+		(*
+			-> char_sarra_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_avraam_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_isaak_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_moisej_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_vladimir_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_ilarion_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_izmail_book_Slovo_O_Zakone_I_Blagodati;;
+			-> char_iisus_hristos_book_Slovo_O_Zakone_I_Blagodati;;
+	 	*);;
+
+char_sarra_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Сарра ]
+		(* <- lang_ru;; *);;
+
+char_avraam_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Авраам ]
+		(* <- lang_ru;; *);;
+
+char_isaak_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Исаак ]
+		(* <- lang_ru;; *);;
+
+char_moisej_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Моисей ]
+		(* <- lang_ru;; *);;
+
+char_vladimir_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+char_ilarion_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Иларион ]
+		(* <- lang_ru;; *);;
+
+char_izmail_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Измаил ]
+		(* <- lang_ru;; *);;
+
+char_iisus_hristos_book_Slovo_O_Zakone_I_Blagodati
+<- char;
+=> nrel_main_idtf:
+	[ Иисус Христос ]
+		(* <- lang_ru;; *);;
+
+book_Slovo_O_Zakone_I_Blagodati
+=> nrel_locales:
+	.book_Slovo_O_Zakone_I_Blagodati_locales
+		(*
+			-> locale_rus__book_Slovo_O_Zakone_I_Blagodati;;
+			-> locale_nas_vladimir_book_Slovo_O_Zakone_I_Blagodati;;
+			-> locale_izmail_book_Slovo_O_Zakone_I_Blagodati;;
+			-> locale_vladimir_book_Slovo_O_Zakone_I_Blagodati;;
+			-> locale_velikij_book_Slovo_O_Zakone_I_Blagodati;;
+	 	*);;
+
+locale_rus__book_Slovo_O_Zakone_I_Blagodati
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_nas_vladimir_book_Slovo_O_Zakone_I_Blagodati
+<- locale;
+=> nrel_main_idtf:
+	[ Наш Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_izmail_book_Slovo_O_Zakone_I_Blagodati
+<- locale;
+=> nrel_main_idtf:
+	[ Измаил ]
+		(* <- lang_ru;; *);;
+
+locale_vladimir_book_Slovo_O_Zakone_I_Blagodati
+<- locale;
+=> nrel_main_idtf:
+	[ Владимир ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Slovo_O_Zakone_I_Blagodati
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+

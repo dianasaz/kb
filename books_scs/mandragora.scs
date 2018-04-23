@@ -1,0 +1,99 @@
+book_Mandragora
+<- book;
+=> nrel_author;
+	author_Makiavelli;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Мандрагора]
+		(* <- lang_ru;; *);;
+
+book_Mandragora
+=> nrel_characters:
+	.book_Mandragora_characters
+		(*
+			-> char_ligurio_book_Mandragora;;
+			-> char_lukrezia_book_Mandragora;;
+			-> char_nic_book_Mandragora;;
+			-> char_sostrata_book_Mandragora;;
+	 	*);;
+
+char_ligurio_book_Mandragora
+<- char;
+=> nrel_main_idtf:
+	[ Лигурио ]
+		(* <- lang_ru;; *);;
+
+char_lukrezia_book_Mandragora
+<- char;
+=> nrel_main_idtf:
+	[ Лукреция ]
+		(* <- lang_ru;; *);;
+
+char_nic_book_Mandragora
+<- char;
+=> nrel_main_idtf:
+	[ Нич ]
+		(* <- lang_ru;; *);;
+
+char_sostrata_book_Mandragora
+<- char;
+=> nrel_main_idtf:
+	[ Сострата ]
+		(* <- lang_ru;; *);;
+
+book_Mandragora
+=> nrel_locales:
+	.book_Mandragora_locales
+		(*
+			-> locale_kuda_book_Mandragora;;
+			-> locale_velikij_book_Mandragora;;
+			-> locale_parij_book_Mandragora;;
+			-> locale_to_book_Mandragora;;
+			-> locale_florenzia_book_Mandragora;;
+			-> locale_timoteo_book_Mandragora;;
+			-> locale_kallimako_book_Mandragora;;
+	 	*);;
+
+locale_kuda_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_timoteo_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Тимотео ]
+		(* <- lang_ru;; *);;
+
+locale_kallimako_book_Mandragora
+<- locale;
+=> nrel_main_idtf:
+	[ Каллимако ]
+		(* <- lang_ru;; *);;
+

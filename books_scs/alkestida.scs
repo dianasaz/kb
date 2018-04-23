@@ -1,0 +1,92 @@
+book_Alkestida
+<- book;
+=> nrel_author;
+	author_Evripid;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Алькеста]
+		(* <- lang_ru;; *);;
+
+book_Alkestida
+=> nrel_characters:
+	.book_Alkestida_characters
+		(*
+			-> char_gerakl_book_Alkestida;;
+			-> char_evripida_book_Alkestida;;
+			-> char_alkestid_book_Alkestida;;
+			-> char_apollon_book_Alkestida;;
+			-> char_orfej_book_Alkestida;;
+			-> char_dionis_book_Alkestida;;
+	 	*);;
+
+char_gerakl_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Геракл ]
+		(* <- lang_ru;; *);;
+
+char_evripida_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Еврипида ]
+		(* <- lang_ru;; *);;
+
+char_alkestid_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Алкестид ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_orfej_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Орфей ]
+		(* <- lang_ru;; *);;
+
+char_dionis_book_Alkestida
+<- char;
+=> nrel_main_idtf:
+	[ Дионис ]
+		(* <- lang_ru;; *);;
+
+book_Alkestida
+=> nrel_locales:
+	.book_Alkestida_locales
+		(*
+			-> locale_jdannoe_book_Alkestida;;
+			-> locale_zevsom_book_Alkestida;;
+			-> locale_afiny_book_Alkestida;;
+			-> locale_smertnyj_car_book_Alkestida;;
+	 	*);;
+
+locale_jdannoe_book_Alkestida
+<- locale;
+=> nrel_main_idtf:
+	[ Жданное ]
+		(* <- lang_ru;; *);;
+
+locale_zevsom_book_Alkestida
+<- locale;
+=> nrel_main_idtf:
+	[ Зевсом ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Alkestida
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_smertnyj_car_book_Alkestida
+<- locale;
+=> nrel_main_idtf:
+	[ Смертный Чар ]
+		(* <- lang_ru;; *);;
+

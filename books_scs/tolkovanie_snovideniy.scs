@@ -1,0 +1,50 @@
+book_Tolkovanie_Snovideniy
+<- book;
+=> nrel_author;
+	author_Freyd;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Толкование Сновидений]
+		(* <- lang_ru;; *);;
+
+book_Tolkovanie_Snovideniy
+=> nrel_characters:
+	.book_Tolkovanie_Snovideniy_characters
+		(*
+			-> char_irma_book_Tolkovanie_Snovideniy;;
+			-> char_edipov_book_Tolkovanie_Snovideniy;;
+	 	*);;
+
+char_irma_book_Tolkovanie_Snovideniy
+<- char;
+=> nrel_main_idtf:
+	[ Ирма ]
+		(* <- lang_ru;; *);;
+
+char_edipov_book_Tolkovanie_Snovideniy
+<- char;
+=> nrel_main_idtf:
+	[ Эдипов ]
+		(* <- lang_ru;; *);;
+
+book_Tolkovanie_Snovideniy
+=> nrel_locales:
+	.book_Tolkovanie_Snovideniy_locales
+		(*
+			-> locale_kotoryj_book_Tolkovanie_Snovideniy;;
+			-> locale_to_book_Tolkovanie_Snovideniy;;
+	 	*);;
+
+locale_kotoryj_book_Tolkovanie_Snovideniy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tolkovanie_Snovideniy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

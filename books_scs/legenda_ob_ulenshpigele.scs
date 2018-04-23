@@ -1,0 +1,253 @@
+book_Legenda_Ob_Ulenshpigele
+<- book;
+=> nrel_author;
+	author_Koster;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Легенда Об Уленшпигеле]
+		(* <- lang_ru;; *);;
+
+book_Legenda_Ob_Ulenshpigele
+=> nrel_characters:
+	.book_Legenda_Ob_Ulenshpigele_characters
+		(*
+			-> char_lamma_book_Legenda_Ob_Ulenshpigele;;
+			-> char_gilbert_book_Legenda_Ob_Ulenshpigele;;
+			-> char_kalleken_book_Legenda_Ob_Ulenshpigele;;
+			-> char_flandrij_book_Legenda_Ob_Ulenshpigele;;
+			-> char_klaasu_book_Legenda_Ob_Ulenshpigele;;
+			-> char_katlina_book_Legenda_Ob_Ulenshpigele;;
+			-> char_spella_book_Legenda_Ob_Ulenshpigele;;
+			-> char_damman_book_Legenda_Ob_Ulenshpigele;;
+			-> char_damma_book_Legenda_Ob_Ulenshpigele;;
+			-> char_gans_book_Legenda_Ob_Ulenshpigele;;
+			-> char_karl_book_Legenda_Ob_Ulenshpigele;;
+			-> char_gudzak_book_Legenda_Ob_Ulenshpigele;;
+			-> char_nel__book_Legenda_Ob_Ulenshpigele;;
+			-> char_gudzaka_lamma_book_Legenda_Ob_Ulenshpigele;;
+			-> char_mihil_kin_book_Legenda_Ob_Ulenshpigele;;
+			-> char_filipp_book_Legenda_Ob_Ulenshpigele;;
+	 	*);;
+
+char_lamma_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Ламма ]
+		(* <- lang_ru;; *);;
+
+char_gilbert_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Гилберт ]
+		(* <- lang_ru;; *);;
+
+char_kalleken_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Каллекен ]
+		(* <- lang_ru;; *);;
+
+char_flandrij_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Фландрий ]
+		(* <- lang_ru;; *);;
+
+char_klaasu_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Клаасу ]
+		(* <- lang_ru;; *);;
+
+char_katlina_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Катлина ]
+		(* <- lang_ru;; *);;
+
+char_spella_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Спелла ]
+		(* <- lang_ru;; *);;
+
+char_damman_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Дамман ]
+		(* <- lang_ru;; *);;
+
+char_damma_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Дамма ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_gudzak_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Гудзак ]
+		(* <- lang_ru;; *);;
+
+char_nel__book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Нель ]
+		(* <- lang_ru;; *);;
+
+char_gudzaka_lamma_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Гудзака Ламма ]
+		(* <- lang_ru;; *);;
+
+char_mihil_kin_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Михилькин ]
+		(* <- lang_ru;; *);;
+
+char_filipp_book_Legenda_Ob_Ulenshpigele
+<- char;
+=> nrel_main_idtf:
+	[ Филипп ]
+		(* <- lang_ru;; *);;
+
+book_Legenda_Ob_Ulenshpigele
+=> nrel_locales:
+	.book_Legenda_Ob_Ulenshpigele_locales
+		(*
+			-> locale_kalleken_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_gollandia_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_general_nyj_stat_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_kotoryj_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_velikoe_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_tirana_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_gorn_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_gaaga_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_krasnyj_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_rodimyj_kraj_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_niderlandy_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_to_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_klaas_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_katlina_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_damman_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_vsa_evropa_book_Legenda_Ob_Ulenshpigele;;
+			-> locale_rim_book_Legenda_Ob_Ulenshpigele;;
+	 	*);;
+
+locale_kalleken_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Каллекен ]
+		(* <- lang_ru;; *);;
+
+locale_gollandia_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Голландия ]
+		(* <- lang_ru;; *);;
+
+locale_general_nyj_stat_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Генеральный Штат ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_gorn_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Горн ]
+		(* <- lang_ru;; *);;
+
+locale_gaaga_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Гаага ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_rodimyj_kraj_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Родимый Край ]
+		(* <- lang_ru;; *);;
+
+locale_niderlandy_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Нидерланды ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_klaas_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Клаас ]
+		(* <- lang_ru;; *);;
+
+locale_katlina_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Катлина ]
+		(* <- lang_ru;; *);;
+
+locale_damman_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Дамман ]
+		(* <- lang_ru;; *);;
+
+locale_vsa_evropa_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Вся Европа ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Legenda_Ob_Ulenshpigele
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+

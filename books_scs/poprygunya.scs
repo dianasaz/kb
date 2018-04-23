@@ -1,0 +1,64 @@
+book_Poprygunya
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Попрыгунья]
+		(* <- lang_ru;; *);;
+
+book_Poprygunya
+=> nrel_characters:
+	.book_Poprygunya_characters
+		(*
+			-> char_ol_ga_book_Poprygunya;;
+			-> char_korostelev_book_Poprygunya;;
+			-> char_dymov_book_Poprygunya;;
+			-> char_ol_ga_ivanovna_book_Poprygunya;;
+	 	*);;
+
+char_ol_ga_book_Poprygunya
+<- char;
+=> nrel_main_idtf:
+	[ Ольга ]
+		(* <- lang_ru;; *);;
+
+char_korostelev_book_Poprygunya
+<- char;
+=> nrel_main_idtf:
+	[ Коростелев ]
+		(* <- lang_ru;; *);;
+
+char_dymov_book_Poprygunya
+<- char;
+=> nrel_main_idtf:
+	[ Дымов ]
+		(* <- lang_ru;; *);;
+
+char_ol_ga_ivanovna_book_Poprygunya
+<- char;
+=> nrel_main_idtf:
+	[ Ольга Ивановна ]
+		(* <- lang_ru;; *);;
+
+book_Poprygunya
+=> nrel_locales:
+	.book_Poprygunya_locales
+		(*
+			-> locale_emansip_book_Poprygunya;;
+			-> locale_volga_book_Poprygunya;;
+	 	*);;
+
+locale_emansip_book_Poprygunya
+<- locale;
+=> nrel_main_idtf:
+	[ Эмансип ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Poprygunya
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+

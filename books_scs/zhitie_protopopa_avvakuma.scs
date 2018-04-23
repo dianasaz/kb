@@ -1,0 +1,441 @@
+book_Zhitie_Protopopa_Avvakuma
+<- book;
+=> nrel_author;
+	author_Avvakum;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Житие Протопопа Аввакума, Им Самим Написанное]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Protopopa_Avvakuma
+=> nrel_characters:
+	.book_Zhitie_Protopopa_Avvakuma_characters
+		(*
+			-> char_neron_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_feodora_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_beketov_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_ivan_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_ivan_neronov_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_anton_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_pafnut_ev_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_daniil_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_sirin_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_petr_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_prokopij_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_vasilij_petrovic_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_afanas_a_paskova_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_paskov_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_eremej_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_matfej_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_anna_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_sof_a_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_struna_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_epifanij_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_nikodim_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_lazar__book_Zhitie_Protopopa_Avvakuma;;
+			-> char_lavrentij_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_seremetevsij_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_evfimij_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_petra_beketova_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_stefan_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_fedos_a_morozova_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_ksen_a_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_nikon_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_avvakum_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_efrem_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_fetin_a_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_filipp_book_Zhitie_Protopopa_Avvakuma;;
+			-> char_ofim_a_book_Zhitie_Protopopa_Avvakuma;;
+	 	*);;
+
+char_neron_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Нерон ]
+		(* <- lang_ru;; *);;
+
+char_feodora_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Феодора ]
+		(* <- lang_ru;; *);;
+
+char_beketov_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Бекетов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_ivan_neronov_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Иван Неронов ]
+		(* <- lang_ru;; *);;
+
+char_anton_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Антон ]
+		(* <- lang_ru;; *);;
+
+char_pafnut_ev_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Пафнутьев ]
+		(* <- lang_ru;; *);;
+
+char_daniil_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Даниил ]
+		(* <- lang_ru;; *);;
+
+char_sirin_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Сирин ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_prokopij_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Прокопий ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_petrovic_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Василий Петрович ]
+		(* <- lang_ru;; *);;
+
+char_afanas_a_paskova_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Афанасья Пашкова ]
+		(* <- lang_ru;; *);;
+
+char_paskov_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Пашков ]
+		(* <- lang_ru;; *);;
+
+char_eremej_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Еремей ]
+		(* <- lang_ru;; *);;
+
+char_matfej_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Матфей ]
+		(* <- lang_ru;; *);;
+
+char_anna_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Анна ]
+		(* <- lang_ru;; *);;
+
+char_sof_a_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Софья ]
+		(* <- lang_ru;; *);;
+
+char_struna_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Струна ]
+		(* <- lang_ru;; *);;
+
+char_epifanij_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Епифаний ]
+		(* <- lang_ru;; *);;
+
+char_nikodim_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Никодим ]
+		(* <- lang_ru;; *);;
+
+char_lazar__book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Лазарь ]
+		(* <- lang_ru;; *);;
+
+char_lavrentij_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Лаврентий ]
+		(* <- lang_ru;; *);;
+
+char_seremetevsij_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Шереметевший ]
+		(* <- lang_ru;; *);;
+
+char_evfimij_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Евфимий ]
+		(* <- lang_ru;; *);;
+
+char_petra_beketova_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Петра Бекетова ]
+		(* <- lang_ru;; *);;
+
+char_stefan_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Стефан ]
+		(* <- lang_ru;; *);;
+
+char_fedos_a_morozova_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Федосья Морозова ]
+		(* <- lang_ru;; *);;
+
+char_ksen_a_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Ксенья ]
+		(* <- lang_ru;; *);;
+
+char_nikon_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Никон ]
+		(* <- lang_ru;; *);;
+
+char_avvakum_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Аввакум ]
+		(* <- lang_ru;; *);;
+
+char_efrem_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Ефрем ]
+		(* <- lang_ru;; *);;
+
+char_fetin_a_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Фетинья ]
+		(* <- lang_ru;; *);;
+
+char_filipp_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Филипп ]
+		(* <- lang_ru;; *);;
+
+char_ofim_a_book_Zhitie_Protopopa_Avvakuma
+<- char;
+=> nrel_main_idtf:
+	[ Офимья ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Protopopa_Avvakuma
+=> nrel_locales:
+	.book_Zhitie_Protopopa_Avvakuma_locales
+		(*
+			-> locale_beketov_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_sibir__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_kotoryj_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_volga_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_dauria_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_tobol_sk_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_razan__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_pustozersk_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_ur_evez_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_mungal_skoe_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_tunguska_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_astrahan__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_kazan__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_ruse_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_ostrog_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_pafnut_evoj_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_moskva_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_mezen__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_lena_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_rus__book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_rossia_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_to_book_Zhitie_Protopopa_Avvakuma;;
+			-> locale_bratskij_ostrog_book_Zhitie_Protopopa_Avvakuma;;
+	 	*);;
+
+locale_beketov_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Бекетов ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_dauria_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Даурия ]
+		(* <- lang_ru;; *);;
+
+locale_tobol_sk_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Тобольск ]
+		(* <- lang_ru;; *);;
+
+locale_razan__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Рязань ]
+		(* <- lang_ru;; *);;
+
+locale_pustozersk_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Пустозерск ]
+		(* <- lang_ru;; *);;
+
+locale_ur_evez_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Юрьевец ]
+		(* <- lang_ru;; *);;
+
+locale_mungal_skoe_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Мунгальское ]
+		(* <- lang_ru;; *);;
+
+locale_tunguska_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Тунгуска ]
+		(* <- lang_ru;; *);;
+
+locale_astrahan__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Астрахань ]
+		(* <- lang_ru;; *);;
+
+locale_kazan__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Казань ]
+		(* <- lang_ru;; *);;
+
+locale_ruse_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Русе ]
+		(* <- lang_ru;; *);;
+
+locale_ostrog_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Острог ]
+		(* <- lang_ru;; *);;
+
+locale_pafnut_evoj_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Пафнутьевой ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_mezen__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Мезень ]
+		(* <- lang_ru;; *);;
+
+locale_lena_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Лена ]
+		(* <- lang_ru;; *);;
+
+locale_rus__book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Русь ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_bratskij_ostrog_book_Zhitie_Protopopa_Avvakuma
+<- locale;
+=> nrel_main_idtf:
+	[ Братский Острог ]
+		(* <- lang_ru;; *);;
+
+book_Zhitie_Protopopa_Avvakuma
+=> nrel_dates:
+	.book_Zhitie_Protopopa_Avvakuma_dates
+		(*
+			-> date_1654_book_Zhitie_Protopopa_Avvakuma;;
+	 	*);;
+
+date_1654_book_Zhitie_Protopopa_Avvakuma
+<- date;
+=> nrel_main_idtf:
+	[ 1654 ]
+		(* <- lang_ru;; *);;
+

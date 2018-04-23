@@ -1,0 +1,50 @@
+book_Glinjanaja_Besedka
+<- book;
+=> nrel_author;
+	author_Lin_Menchu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Глиняная Беседка]
+		(* <- lang_ru;; *);;
+
+book_Glinjanaja_Besedka
+=> nrel_characters:
+	.book_Glinjanaja_Besedka_characters
+		(*
+			-> char_cjun_book_Glinjanaja_Besedka;;
+			-> char_sunan_book_Glinjanaja_Besedka;;
+			-> char_vana_book_Glinjanaja_Besedka;;
+	 	*);;
+
+char_cjun_book_Glinjanaja_Besedka
+<- char;
+=> nrel_main_idtf:
+	[ Чжун ]
+		(* <- lang_ru;; *);;
+
+char_sunan_book_Glinjanaja_Besedka
+<- char;
+=> nrel_main_idtf:
+	[ Сюнян ]
+		(* <- lang_ru;; *);;
+
+char_vana_book_Glinjanaja_Besedka
+<- char;
+=> nrel_main_idtf:
+	[ Ваня ]
+		(* <- lang_ru;; *);;
+
+book_Glinjanaja_Besedka
+=> nrel_locales:
+	.book_Glinjanaja_Besedka_locales
+		(*
+			-> locale_heg_book_Glinjanaja_Besedka;;
+	 	*);;
+
+locale_heg_book_Glinjanaja_Besedka
+<- locale;
+=> nrel_main_idtf:
+	[ Хэг ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,603 @@
+book_Bozhestvennaja_Komedija
+<- book;
+=> nrel_author;
+	author_Aligeri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Божественная Комедия]
+		(* <- lang_ru;; *);;
+
+book_Bozhestvennaja_Komedija
+=> nrel_characters:
+	.book_Bozhestvennaja_Komedija_characters
+		(*
+			-> char_raa_book_Bozhestvennaja_Komedija;;
+			-> char_katon_book_Bozhestvennaja_Komedija;;
+			-> char_luzifer_book_Bozhestvennaja_Komedija;;
+			-> char_briarej_book_Bozhestvennaja_Komedija;;
+			-> char_mars_book_Bozhestvennaja_Komedija;;
+			-> char_bernard_book_Bozhestvennaja_Komedija;;
+			-> char_brut_book_Bozhestvennaja_Komedija;;
+			-> char_geriona_book_Bozhestvennaja_Komedija;;
+			-> char_anastasij_book_Bozhestvennaja_Komedija;;
+			-> char_ioann_book_Bozhestvennaja_Komedija;;
+			-> char_maria_book_Bozhestvennaja_Komedija;;
+			-> char_franceska_book_Bozhestvennaja_Komedija;;
+			-> char_haron_book_Bozhestvennaja_Komedija;;
+			-> char_uliss_book_Bozhestvennaja_Komedija;;
+			-> char_foma_akvinskij_book_Bozhestvennaja_Komedija;;
+			-> char_aheron_book_Bozhestvennaja_Komedija;;
+			-> char_foma_book_Bozhestvennaja_Komedija;;
+			-> char_petr_book_Bozhestvennaja_Komedija;;
+			-> char_vergilij_book_Bozhestvennaja_Komedija;;
+			-> char_kuriona_book_Bozhestvennaja_Komedija;;
+			-> char_antea_book_Bozhestvennaja_Komedija;;
+			-> char_adam_book_Bozhestvennaja_Komedija;;
+			-> char_gvinizelli_book_Bozhestvennaja_Komedija;;
+			-> char_kaccagvid_book_Bozhestvennaja_Komedija;;
+			-> char_zemnoj_book_Bozhestvennaja_Komedija;;
+			-> char_saul_book_Bozhestvennaja_Komedija;;
+			-> char_evnoj_book_Bozhestvennaja_Komedija;;
+			-> char_karl_book_Bozhestvennaja_Komedija;;
+			-> char_benedikt_book_Bozhestvennaja_Komedija;;
+			-> char_farinat_book_Bozhestvennaja_Komedija;;
+			-> char_martella_book_Bozhestvennaja_Komedija;;
+			-> char_franzisk_book_Bozhestvennaja_Komedija;;
+			-> char_odissej_book_Bozhestvennaja_Komedija;;
+			-> char_iakov_book_Bozhestvennaja_Komedija;;
+			-> char_beatrice_book_Bozhestvennaja_Komedija;;
+			-> char_elena_prekrasnaa_book_Bozhestvennaja_Komedija;;
+			-> char_raj_zemnoj_book_Bozhestvennaja_Komedija;;
+			-> char_arnal_da_book_Bozhestvennaja_Komedija;;
+			-> char_kapanej_book_Bozhestvennaja_Komedija;;
+			-> char_ustinian_book_Bozhestvennaja_Komedija;;
+			-> char_sordello_book_Bozhestvennaja_Komedija;;
+			-> char_magomet_book_Bozhestvennaja_Komedija;;
+			-> char_nessa_book_Bozhestvennaja_Komedija;;
+			-> char_solomon_book_Bozhestvennaja_Komedija;;
+			-> char_vanni_book_Bozhestvennaja_Komedija;;
+			-> char_petra_book_Bozhestvennaja_Komedija;;
+			-> char_ad_book_Bozhestvennaja_Komedija;;
+			-> char_gomer_book_Bozhestvennaja_Komedija;;
+			-> char_golov_book_Bozhestvennaja_Komedija;;
+			-> char_gvido_book_Bozhestvennaja_Komedija;;
+			-> char_kozella_book_Bozhestvennaja_Komedija;;
+			-> char_david_book_Bozhestvennaja_Komedija;;
+			-> char_bertran_book_Bozhestvennaja_Komedija;;
+			-> char_ada_book_Bozhestvennaja_Komedija;;
+			-> char_adu_book_Bozhestvennaja_Komedija;;
+	 	*);;
+
+char_raa_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Рая ]
+		(* <- lang_ru;; *);;
+
+char_katon_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Катон ]
+		(* <- lang_ru;; *);;
+
+char_luzifer_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Люцифер ]
+		(* <- lang_ru;; *);;
+
+char_briarej_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Бриарей ]
+		(* <- lang_ru;; *);;
+
+char_mars_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Марс ]
+		(* <- lang_ru;; *);;
+
+char_bernard_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Бернард ]
+		(* <- lang_ru;; *);;
+
+char_brut_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Брут ]
+		(* <- lang_ru;; *);;
+
+char_geriona_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Гериона ]
+		(* <- lang_ru;; *);;
+
+char_anastasij_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Анастасий ]
+		(* <- lang_ru;; *);;
+
+char_ioann_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Иоанн ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_franceska_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Франческа ]
+		(* <- lang_ru;; *);;
+
+char_haron_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Харон ]
+		(* <- lang_ru;; *);;
+
+char_uliss_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Улисс ]
+		(* <- lang_ru;; *);;
+
+char_foma_akvinskij_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Фома Аквинский ]
+		(* <- lang_ru;; *);;
+
+char_aheron_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Ахерон ]
+		(* <- lang_ru;; *);;
+
+char_foma_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Фома ]
+		(* <- lang_ru;; *);;
+
+char_petr_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Пётр ]
+		(* <- lang_ru;; *);;
+
+char_vergilij_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Вергилий ]
+		(* <- lang_ru;; *);;
+
+char_kuriona_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Куриона ]
+		(* <- lang_ru;; *);;
+
+char_antea_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Антея ]
+		(* <- lang_ru;; *);;
+
+char_adam_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Адам ]
+		(* <- lang_ru;; *);;
+
+char_gvinizelli_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Гвиницелли ]
+		(* <- lang_ru;; *);;
+
+char_kaccagvid_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Каччагвид ]
+		(* <- lang_ru;; *);;
+
+char_zemnoj_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Земной ]
+		(* <- lang_ru;; *);;
+
+char_saul_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Саул ]
+		(* <- lang_ru;; *);;
+
+char_evnoj_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Эвной ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт ]
+		(* <- lang_ru;; *);;
+
+char_farinat_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Фаринат ]
+		(* <- lang_ru;; *);;
+
+char_martella_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Мартелла ]
+		(* <- lang_ru;; *);;
+
+char_franzisk_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Франциск ]
+		(* <- lang_ru;; *);;
+
+char_odissej_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Одиссей ]
+		(* <- lang_ru;; *);;
+
+char_iakov_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Иаков ]
+		(* <- lang_ru;; *);;
+
+char_beatrice_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Беатриче ]
+		(* <- lang_ru;; *);;
+
+char_elena_prekrasnaa_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Елена Прекрасная ]
+		(* <- lang_ru;; *);;
+
+char_raj_zemnoj_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Рай Земной ]
+		(* <- lang_ru;; *);;
+
+char_arnal_da_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Арнальда ]
+		(* <- lang_ru;; *);;
+
+char_kapanej_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Капаней ]
+		(* <- lang_ru;; *);;
+
+char_ustinian_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Юстиниан ]
+		(* <- lang_ru;; *);;
+
+char_sordello_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Сорделло ]
+		(* <- lang_ru;; *);;
+
+char_magomet_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Магомет ]
+		(* <- lang_ru;; *);;
+
+char_nessa_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Несса ]
+		(* <- lang_ru;; *);;
+
+char_solomon_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Соломон ]
+		(* <- lang_ru;; *);;
+
+char_vanni_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Ванни ]
+		(* <- lang_ru;; *);;
+
+char_petra_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Петра ]
+		(* <- lang_ru;; *);;
+
+char_ad_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Ад ]
+		(* <- lang_ru;; *);;
+
+char_gomer_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Гомер ]
+		(* <- lang_ru;; *);;
+
+char_golov_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Голов ]
+		(* <- lang_ru;; *);;
+
+char_gvido_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Гвидо ]
+		(* <- lang_ru;; *);;
+
+char_kozella_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Козелла ]
+		(* <- lang_ru;; *);;
+
+char_david_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Давид ]
+		(* <- lang_ru;; *);;
+
+char_bertran_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Бертран ]
+		(* <- lang_ru;; *);;
+
+char_ada_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Ада ]
+		(* <- lang_ru;; *);;
+
+char_adu_book_Bozhestvennaja_Komedija
+<- char;
+=> nrel_main_idtf:
+	[ Аду ]
+		(* <- lang_ru;; *);;
+
+book_Bozhestvennaja_Komedija
+=> nrel_locales:
+	.book_Bozhestvennaja_Komedija_locales
+		(*
+			-> locale_piza_book_Bozhestvennaja_Komedija;;
+			-> locale_kotoryj_book_Bozhestvennaja_Komedija;;
+			-> locale_orsin__book_Bozhestvennaja_Komedija;;
+			-> locale_brunetto_latini_book_Bozhestvennaja_Komedija;;
+			-> locale_velicestvennyj_orel_book_Bozhestvennaja_Komedija;;
+			-> locale_dominika_book_Bozhestvennaja_Komedija;;
+			-> locale_saturn_book_Bozhestvennaja_Komedija;;
+			-> locale_merkurij_book_Bozhestvennaja_Komedija;;
+			-> locale_moa_florenzia_book_Bozhestvennaja_Komedija;;
+			-> locale_toskana_book_Bozhestvennaja_Komedija;;
+			-> locale_krasnyj_book_Bozhestvennaja_Komedija;;
+			-> locale_venera_book_Bozhestvennaja_Komedija;;
+			-> locale_orel_book_Bozhestvennaja_Komedija;;
+			-> locale_bratski_book_Bozhestvennaja_Komedija;;
+			-> locale_tirana_book_Bozhestvennaja_Komedija;;
+			-> locale_velikoe_book_Bozhestvennaja_Komedija;;
+			-> locale_vysocajsaa_oblast__book_Bozhestvennaja_Komedija;;
+			-> locale_ves__tot_book_Bozhestvennaja_Komedija;;
+			-> locale_nea_book_Bozhestvennaja_Komedija;;
+			-> locale_limb_book_Bozhestvennaja_Komedija;;
+			-> locale_italia_book_Bozhestvennaja_Komedija;;
+			-> locale_kuda_book_Bozhestvennaja_Komedija;;
+			-> locale_zagrob__book_Bozhestvennaja_Komedija;;
+			-> locale_to_book_Bozhestvennaja_Komedija;;
+			-> locale_florenzia_book_Bozhestvennaja_Komedija;;
+			-> locale_mantuj_book_Bozhestvennaja_Komedija;;
+			-> locale_belyj_upiter_book_Bozhestvennaja_Komedija;;
+			-> locale_fol_ko_book_Bozhestvennaja_Komedija;;
+	 	*);;
+
+locale_piza_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Пиза ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_orsin__book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Орсинь ]
+		(* <- lang_ru;; *);;
+
+locale_brunetto_latini_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Брунетто Латини ]
+		(* <- lang_ru;; *);;
+
+locale_velicestvennyj_orel_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Величественный Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_dominika_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Доминика ]
+		(* <- lang_ru;; *);;
+
+locale_saturn_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Сатурн ]
+		(* <- lang_ru;; *);;
+
+locale_merkurij_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Меркурий ]
+		(* <- lang_ru;; *);;
+
+locale_moa_florenzia_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Моя Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_toskana_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Тоскана ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_orel_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_bratski_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Братски ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_vysocajsaa_oblast__book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Высочайшая Область ]
+		(* <- lang_ru;; *);;
+
+locale_ves__tot_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Тот ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_limb_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Лимб ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_zagrob__book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Загробь ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_mantuj_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Мантуй ]
+		(* <- lang_ru;; *);;
+
+locale_belyj_upiter_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Белый Юпитер ]
+		(* <- lang_ru;; *);;
+
+locale_fol_ko_book_Bozhestvennaja_Komedija
+<- locale;
+=> nrel_main_idtf:
+	[ Фолько ]
+		(* <- lang_ru;; *);;
+

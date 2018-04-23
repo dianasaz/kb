@@ -1,0 +1,16 @@
+author_Grasian_I_Morales
+<- person;
+=> nrel_main_idtf:
+	[Бальтасар Грасиан]
+		(* <- lang_ru;; *);;
+
+author_Grasian_I_Morales
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Grasian_I_Morales.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

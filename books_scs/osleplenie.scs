@@ -1,0 +1,162 @@
+book_Osleplenie
+<- book;
+=> nrel_author;
+	author_Kanetti;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ослепление]
+		(* <- lang_ru;; *);;
+
+book_Osleplenie
+=> nrel_characters:
+	.book_Osleplenie_characters
+		(*
+			-> char_pfaffoma_book_Osleplenie;;
+			-> char_peter_book_Osleplenie;;
+			-> char_kina_book_Osleplenie;;
+			-> char_pfaffa_book_Osleplenie;;
+			-> char_benedikt_book_Osleplenie;;
+			-> char_tereza_book_Osleplenie;;
+			-> char_georg_book_Osleplenie;;
+			-> char_pfaff_book_Osleplenie;;
+			-> char_konfuzij_book_Osleplenie;;
+			-> char_jorj_book_Osleplenie;;
+	 	*);;
+
+char_pfaffoma_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Пфаффома ]
+		(* <- lang_ru;; *);;
+
+char_peter_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Петер ]
+		(* <- lang_ru;; *);;
+
+char_kina_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Кина ]
+		(* <- lang_ru;; *);;
+
+char_pfaffa_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Пфаффа ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт ]
+		(* <- lang_ru;; *);;
+
+char_tereza_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Тереза ]
+		(* <- lang_ru;; *);;
+
+char_georg_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Георг ]
+		(* <- lang_ru;; *);;
+
+char_pfaff_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Пфафф ]
+		(* <- lang_ru;; *);;
+
+char_konfuzij_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Конфуций ]
+		(* <- lang_ru;; *);;
+
+char_jorj_book_Osleplenie
+<- char;
+=> nrel_main_idtf:
+	[ Жорж ]
+		(* <- lang_ru;; *);;
+
+book_Osleplenie
+=> nrel_locales:
+	.book_Osleplenie_locales
+		(*
+			-> locale_karman_book_Osleplenie;;
+			-> locale_ves__sire_book_Osleplenie;;
+			-> locale_eta_para_book_Osleplenie;;
+			-> locale_krasnyj_book_Osleplenie;;
+			-> locale_tolstoj_krasnyh_book_Osleplenie;;
+			-> locale_vena_book_Osleplenie;;
+			-> locale_parij_book_Osleplenie;;
+			-> locale_amerika_book_Osleplenie;;
+			-> locale_sire_book_Osleplenie;;
+			-> locale_fiserl_book_Osleplenie;;
+	 	*);;
+
+locale_karman_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_ves__sire_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Шире ]
+		(* <- lang_ru;; *);;
+
+locale_eta_para_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Эта Пара ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_tolstoj_krasnyh_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Толстой Красных ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_sire_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Шире ]
+		(* <- lang_ru;; *);;
+
+locale_fiserl_book_Osleplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Фишерл ]
+		(* <- lang_ru;; *);;
+

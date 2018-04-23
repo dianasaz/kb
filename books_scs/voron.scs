@@ -1,0 +1,78 @@
+book_Voron
+<- book;
+=> nrel_author;
+	author_Gocci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ворон]
+		(* <- lang_ru;; *);;
+
+book_Voron
+=> nrel_characters:
+	.book_Voron_characters
+		(*
+			-> char_pantalone_book_Voron;;
+			-> char_armilla_book_Voron;;
+			-> char_norando_book_Voron;;
+	 	*);;
+
+char_pantalone_book_Voron
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_armilla_book_Voron
+<- char;
+=> nrel_main_idtf:
+	[ Армилла ]
+		(* <- lang_ru;; *);;
+
+char_norando_book_Voron
+<- char;
+=> nrel_main_idtf:
+	[ Норандо ]
+		(* <- lang_ru;; *);;
+
+book_Voron
+=> nrel_locales:
+	.book_Voron_locales
+		(*
+			-> locale_djennaroe_book_Voron;;
+			-> locale_mogucij_car_book_Voron;;
+			-> locale_zloscastnyj_djennaro_book_Voron;;
+			-> locale_to_book_Voron;;
+			-> locale_voronov_book_Voron;;
+	 	*);;
+
+locale_djennaroe_book_Voron
+<- locale;
+=> nrel_main_idtf:
+	[ Дженнарое ]
+		(* <- lang_ru;; *);;
+
+locale_mogucij_car_book_Voron
+<- locale;
+=> nrel_main_idtf:
+	[ Могучий Чар ]
+		(* <- lang_ru;; *);;
+
+locale_zloscastnyj_djennaro_book_Voron
+<- locale;
+=> nrel_main_idtf:
+	[ Злосчастный Дженнаро ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Voron
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_voronov_book_Voron
+<- locale;
+=> nrel_main_idtf:
+	[ Воронов ]
+		(* <- lang_ru;; *);;
+

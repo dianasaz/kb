@@ -1,0 +1,162 @@
+book_Leili_I_Medzhnun
+<- book;
+=> nrel_author;
+	author_Nizami;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лейли И Меджнун]
+		(* <- lang_ru;; *);;
+
+book_Leili_I_Medzhnun
+=> nrel_characters:
+	.book_Leili_I_Medzhnun_characters
+		(*
+			-> char_medjnuna_book_Leili_I_Medzhnun;;
+			-> char_taif_book_Leili_I_Medzhnun;;
+			-> char_amir_book_Leili_I_Medzhnun;;
+			-> char_medjnun_book_Leili_I_Medzhnun;;
+			-> char_selasij_book_Leili_I_Medzhnun;;
+			-> char_lejli_book_Leili_I_Medzhnun;;
+			-> char_amirasij_book_Leili_I_Medzhnun;;
+			-> char_salam_book_Leili_I_Medzhnun;;
+	 	*);;
+
+char_medjnuna_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Меджнуна ]
+		(* <- lang_ru;; *);;
+
+char_taif_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Таиф ]
+		(* <- lang_ru;; *);;
+
+char_amir_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Амир ]
+		(* <- lang_ru;; *);;
+
+char_medjnun_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Меджнун ]
+		(* <- lang_ru;; *);;
+
+char_selasij_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Селящий ]
+		(* <- lang_ru;; *);;
+
+char_lejli_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Лейли ]
+		(* <- lang_ru;; *);;
+
+char_amirasij_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Амирящий ]
+		(* <- lang_ru;; *);;
+
+char_salam_book_Leili_I_Medzhnun
+<- char;
+=> nrel_main_idtf:
+	[ Салам ]
+		(* <- lang_ru;; *);;
+
+book_Leili_I_Medzhnun
+=> nrel_locales:
+	.book_Leili_I_Medzhnun_locales
+		(*
+			-> locale_aravia_book_Leili_I_Medzhnun;;
+			-> locale_jelannyj_nedjd_book_Leili_I_Medzhnun;;
+			-> locale_kotoryj_book_Leili_I_Medzhnun;;
+			-> locale_pal_ma_book_Leili_I_Medzhnun;;
+			-> locale_vnemlet_book_Leili_I_Medzhnun;;
+			-> locale_velikij_book_Leili_I_Medzhnun;;
+			-> locale_bagdad_book_Leili_I_Medzhnun;;
+			-> locale_canga_book_Leili_I_Medzhnun;;
+			-> locale_to_book_Leili_I_Medzhnun;;
+			-> locale_kitaj_book_Leili_I_Medzhnun;;
+			-> locale_vizantia_book_Leili_I_Medzhnun;;
+			-> locale_evfrat_book_Leili_I_Medzhnun;;
+	 	*);;
+
+locale_aravia_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Аравия ]
+		(* <- lang_ru;; *);;
+
+locale_jelannyj_nedjd_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Желанный Неджд ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_pal_ma_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Пальма ]
+		(* <- lang_ru;; *);;
+
+locale_vnemlet_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Внемлет ]
+		(* <- lang_ru;; *);;
+
+locale_velikij_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Великий ]
+		(* <- lang_ru;; *);;
+
+locale_bagdad_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Багдад ]
+		(* <- lang_ru;; *);;
+
+locale_canga_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Чанга ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_kitaj_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Китай ]
+		(* <- lang_ru;; *);;
+
+locale_vizantia_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Византия ]
+		(* <- lang_ru;; *);;
+
+locale_evfrat_book_Leili_I_Medzhnun
+<- locale;
+=> nrel_main_idtf:
+	[ Евфрат ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,127 @@
+book_Vadim_Novgorodskii
+<- book;
+=> nrel_author;
+	author_Kniazhnin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Вадим Новгородский]
+		(* <- lang_ru;; *);;
+
+book_Vadim_Novgorodskii
+=> nrel_characters:
+	.book_Vadim_Novgorodskii_characters
+		(*
+			-> char_vigor_book_Vadim_Novgorodskii;;
+			-> char_vadim_book_Vadim_Novgorodskii;;
+			-> char_vigor_book_Vadim_Novgorodskii;;
+			-> char_rurik_book_Vadim_Novgorodskii;;
+			-> char_prenest_book_Vadim_Novgorodskii;;
+			-> char_rurikov_book_Vadim_Novgorodskii;;
+			-> char_ramid_book_Vadim_Novgorodskii;;
+			-> char_ramide_book_Vadim_Novgorodskii;;
+	 	*);;
+
+char_vigor_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Вигор ]
+		(* <- lang_ru;; *);;
+
+char_vadim_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Вадим ]
+		(* <- lang_ru;; *);;
+
+char_vigor_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Вигор ]
+		(* <- lang_ru;; *);;
+
+char_rurik_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Рурик ]
+		(* <- lang_ru;; *);;
+
+char_prenest_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Пренест ]
+		(* <- lang_ru;; *);;
+
+char_rurikov_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Руриков ]
+		(* <- lang_ru;; *);;
+
+char_ramid_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Рамид ]
+		(* <- lang_ru;; *);;
+
+char_ramide_book_Vadim_Novgorodskii
+<- char;
+=> nrel_main_idtf:
+	[ Рамиде ]
+		(* <- lang_ru;; *);;
+
+book_Vadim_Novgorodskii
+=> nrel_locales:
+	.book_Vadim_Novgorodskii_locales
+		(*
+			-> locale_novgorod_book_Vadim_Novgorodskii;;
+			-> locale_svoj_san_book_Vadim_Novgorodskii;;
+			-> locale_tirana_book_Vadim_Novgorodskii;;
+			-> locale_kotoryj_book_Vadim_Novgorodskii;;
+			-> locale_ves__novgorod_book_Vadim_Novgorodskii;;
+			-> locale_novgrad_book_Vadim_Novgorodskii;;
+			-> locale_to_book_Vadim_Novgorodskii;;
+	 	*);;
+
+locale_novgorod_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_svoj_san_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Свой Сан ]
+		(* <- lang_ru;; *);;
+
+locale_tirana_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Тирана ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_ves__novgorod_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_novgrad_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ Новград ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Vadim_Novgorodskii
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,281 @@
+book_Bluzhdaiushchie_Zvezdy
+<- book;
+=> nrel_author;
+	author_Sholom_Aleykhem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Блуждающие Звёзды]
+		(* <- lang_ru;; *);;
+
+book_Bluzhdaiushchie_Zvezdy
+=> nrel_characters:
+	.book_Bluzhdaiushchie_Zvezdy_characters
+		(*
+			-> char_leo_izik_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_nislyj_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_muravcik_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_haim_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_vena_gol_zman_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_gol_zman_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_zlatka_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_akosta_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_grigorij_stel_mah_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_nisl_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_nisl_izik_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_genrietta_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_izik_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_uriel__akosta_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_bena_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_bena_rafalovic_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_grigorij_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_spivak_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_leo_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_stel_mah_book_Bluzhdaiushchie_Zvezdy;;
+			-> char_roza_book_Bluzhdaiushchie_Zvezdy;;
+	 	*);;
+
+char_leo_izik_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Лео Ицик ]
+		(* <- lang_ru;; *);;
+
+char_nislyj_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Нислый ]
+		(* <- lang_ru;; *);;
+
+char_muravcik_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Муравчик ]
+		(* <- lang_ru;; *);;
+
+char_haim_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Хаим ]
+		(* <- lang_ru;; *);;
+
+char_vena_gol_zman_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Вена Гольцман ]
+		(* <- lang_ru;; *);;
+
+char_gol_zman_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Гольцман ]
+		(* <- lang_ru;; *);;
+
+char_zlatka_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Златка ]
+		(* <- lang_ru;; *);;
+
+char_akosta_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Акоста ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_stel_mah_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Григорий Стельмах ]
+		(* <- lang_ru;; *);;
+
+char_nisl_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Нисл ]
+		(* <- lang_ru;; *);;
+
+char_nisl_izik_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Нисл Ицик ]
+		(* <- lang_ru;; *);;
+
+char_genrietta_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Генриетта ]
+		(* <- lang_ru;; *);;
+
+char_izik_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Ицик ]
+		(* <- lang_ru;; *);;
+
+char_uriel__akosta_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Уриэль Акоста ]
+		(* <- lang_ru;; *);;
+
+char_bena_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Беня ]
+		(* <- lang_ru;; *);;
+
+char_bena_rafalovic_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Беня Рафалович ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Григорий ]
+		(* <- lang_ru;; *);;
+
+char_spivak_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Спивак ]
+		(* <- lang_ru;; *);;
+
+char_leo_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Лео ]
+		(* <- lang_ru;; *);;
+
+char_stel_mah_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Стельмах ]
+		(* <- lang_ru;; *);;
+
+char_roza_book_Bluzhdaiushchie_Zvezdy
+<- char;
+=> nrel_main_idtf:
+	[ Роза ]
+		(* <- lang_ru;; *);;
+
+book_Bluzhdaiushchie_Zvezdy
+=> nrel_locales:
+	.book_Bluzhdaiushchie_Zvezdy_locales
+		(*
+			-> locale_beni_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_leviusa_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_kotoryj_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_golenest_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_avstria_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_buenos_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_buharest_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_jork_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_vena_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_to_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_l_vov_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_london_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_parij_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_amerika_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_nissaa_book_Bluzhdaiushchie_Zvezdy;;
+			-> locale_nisl_book_Bluzhdaiushchie_Zvezdy;;
+	 	*);;
+
+locale_beni_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Бени ]
+		(* <- lang_ru;; *);;
+
+locale_leviusa_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Левиуса ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_golenest_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Голенешт ]
+		(* <- lang_ru;; *);;
+
+locale_avstria_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Австрия ]
+		(* <- lang_ru;; *);;
+
+locale_buenos_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Буэнос ]
+		(* <- lang_ru;; *);;
+
+locale_buharest_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Бухарест ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_l_vov_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Львов ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_nissaa_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Нисшая ]
+		(* <- lang_ru;; *);;
+
+locale_nisl_book_Bluzhdaiushchie_Zvezdy
+<- locale;
+=> nrel_main_idtf:
+	[ Нисл ]
+		(* <- lang_ru;; *);;
+

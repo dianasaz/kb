@@ -1,0 +1,246 @@
+book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- book;
+=> nrel_author;
+	author_Radicshev;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Путешествие Из Петербурга В Москву]
+		(* <- lang_ru;; *);;
+
+book_Puteshestvie_Iz_Peterburga_V_Moskvu
+=> nrel_characters:
+	.book_Puteshestvie_Iz_Peterburga_V_Moskvu_characters
+		(*
+			-> char_ivan_groznyj_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_edrov_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_anuta_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_ivan_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_sisterbek_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_krest_ankin_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_leandr_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_lomonosov_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_zajzev_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_dementievic_karp_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> char_radisev_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+	 	*);;
+
+char_ivan_groznyj_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Иван Грозный ]
+		(* <- lang_ru;; *);;
+
+char_edrov_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Едров ]
+		(* <- lang_ru;; *);;
+
+char_anuta_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Анюта ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_sisterbek_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Систербек ]
+		(* <- lang_ru;; *);;
+
+char_krest_ankin_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Крестьянкин ]
+		(* <- lang_ru;; *);;
+
+char_leandr_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Леандр ]
+		(* <- lang_ru;; *);;
+
+char_lomonosov_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Ломоносов ]
+		(* <- lang_ru;; *);;
+
+char_zajzev_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Зайцев ]
+		(* <- lang_ru;; *);;
+
+char_dementievic_karp_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Дементиевич Карп ]
+		(* <- lang_ru;; *);;
+
+char_radisev_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- char;
+=> nrel_main_idtf:
+	[ Радищев ]
+		(* <- lang_ru;; *);;
+
+book_Puteshestvie_Iz_Peterburga_V_Moskvu
+=> nrel_locales:
+	.book_Puteshestvie_Iz_Peterburga_V_Moskvu_locales
+		(*
+			-> locale_groznyj_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_torjok_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_derevna_gorodna_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_kronstadt_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_bojia_kara_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_luban__book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_peterburg_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_novgorod_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_valdaj_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_velikoe_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_peterburgskij_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_moskva_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_podberez_e_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_hotilovoe_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_sahara_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_kuda_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_radisev_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_cudovo_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_tosna_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_tver__book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+			-> locale_sofia_book_Puteshestvie_Iz_Peterburga_V_Moskvu;;
+	 	*);;
+
+locale_groznyj_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_torjok_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Торжок ]
+		(* <- lang_ru;; *);;
+
+locale_derevna_gorodna_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Деревня Городня ]
+		(* <- lang_ru;; *);;
+
+locale_kronstadt_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Кронштадт ]
+		(* <- lang_ru;; *);;
+
+locale_bojia_kara_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Божия Кара ]
+		(* <- lang_ru;; *);;
+
+locale_luban__book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Любань ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+locale_novgorod_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_valdaj_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Валдай ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_peterburgskij_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Петербургский ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_podberez_e_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Подберезье ]
+		(* <- lang_ru;; *);;
+
+locale_hotilovoe_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Хотиловое ]
+		(* <- lang_ru;; *);;
+
+locale_sahara_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Сахара ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_radisev_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Радищев ]
+		(* <- lang_ru;; *);;
+
+locale_cudovo_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Чудово ]
+		(* <- lang_ru;; *);;
+
+locale_tosna_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Тосна ]
+		(* <- lang_ru;; *);;
+
+locale_tver__book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ Тверь ]
+		(* <- lang_ru;; *);;
+
+locale_sofia_book_Puteshestvie_Iz_Peterburga_V_Moskvu
+<- locale;
+=> nrel_main_idtf:
+	[ София ]
+		(* <- lang_ru;; *);;
+

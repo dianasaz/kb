@@ -1,0 +1,16 @@
+author_Tolstaia
+<- person;
+=> nrel_main_idtf:
+	[Татьяна Толстая]
+		(* <- lang_ru;; *);;
+
+author_Tolstaia
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Tolstaia.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

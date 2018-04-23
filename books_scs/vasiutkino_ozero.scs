@@ -1,0 +1,71 @@
+book_Vasiutkino_Ozero
+<- book;
+=> nrel_author;
+	author_Astafev;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Васюткино Озеро]
+		(* <- lang_ru;; *);;
+
+book_Vasiutkino_Ozero
+=> nrel_characters:
+	.book_Vasiutkino_Ozero_characters
+		(*
+			-> char_vasutkin_book_Vasiutkino_Ozero;;
+			-> char_grigorij_afanasievic_sadrin_book_Vasiutkino_Ozero;;
+	 	*);;
+
+char_vasutkin_book_Vasiutkino_Ozero
+<- char;
+=> nrel_main_idtf:
+	[ Васюткин ]
+		(* <- lang_ru;; *);;
+
+char_grigorij_afanasievic_sadrin_book_Vasiutkino_Ozero
+<- char;
+=> nrel_main_idtf:
+	[ Григорий Афанасиевич Шадрин ]
+		(* <- lang_ru;; *);;
+
+book_Vasiutkino_Ozero
+=> nrel_locales:
+	.book_Vasiutkino_Ozero_locales
+		(*
+			-> locale_polnyj_karman_book_Vasiutkino_Ozero;;
+			-> locale_kedrovyj_oreh_book_Vasiutkino_Ozero;;
+			-> locale_kuda_book_Vasiutkino_Ozero;;
+			-> locale_vasutkino_book_Vasiutkino_Ozero;;
+			-> locale_enisej_book_Vasiutkino_Ozero;;
+	 	*);;
+
+locale_polnyj_karman_book_Vasiutkino_Ozero
+<- locale;
+=> nrel_main_idtf:
+	[ Полный Карман ]
+		(* <- lang_ru;; *);;
+
+locale_kedrovyj_oreh_book_Vasiutkino_Ozero
+<- locale;
+=> nrel_main_idtf:
+	[ Кедровый Орех ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Vasiutkino_Ozero
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vasutkino_book_Vasiutkino_Ozero
+<- locale;
+=> nrel_main_idtf:
+	[ Васюткино ]
+		(* <- lang_ru;; *);;
+
+locale_enisej_book_Vasiutkino_Ozero
+<- locale;
+=> nrel_main_idtf:
+	[ Енисей ]
+		(* <- lang_ru;; *);;
+

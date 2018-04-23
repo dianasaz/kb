@@ -1,0 +1,43 @@
+book_Chuzhoe_Lico
+<- book;
+=> nrel_author;
+	author_Abe;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Чужое Лицо]
+		(* <- lang_ru;; *);;
+
+book_Chuzhoe_Lico
+=> nrel_characters:
+	.book_Chuzhoe_Lico_characters
+		(*
+			-> char_bah_book_Chuzhoe_Lico;;
+	 	*);;
+
+char_bah_book_Chuzhoe_Lico
+<- char;
+=> nrel_main_idtf:
+	[ Бах ]
+		(* <- lang_ru;; *);;
+
+book_Chuzhoe_Lico
+=> nrel_locales:
+	.book_Chuzhoe_Lico_locales
+		(*
+			-> locale_kuda_book_Chuzhoe_Lico;;
+			-> locale_to_book_Chuzhoe_Lico;;
+	 	*);;
+
+locale_kuda_book_Chuzhoe_Lico
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Chuzhoe_Lico
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

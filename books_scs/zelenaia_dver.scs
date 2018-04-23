@@ -1,0 +1,50 @@
+book_Zelenaia_Dver
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Зелёная Дверь]
+		(* <- lang_ru;; *);;
+
+book_Zelenaia_Dver
+=> nrel_characters:
+	.book_Zelenaia_Dver_characters
+		(*
+			-> char_rudol_f_stejner_book_Zelenaia_Dver;;
+			-> char_rudol_f_book_Zelenaia_Dver;;
+	 	*);;
+
+char_rudol_f_stejner_book_Zelenaia_Dver
+<- char;
+=> nrel_main_idtf:
+	[ Рудольф Штейнер ]
+		(* <- lang_ru;; *);;
+
+char_rudol_f_book_Zelenaia_Dver
+<- char;
+=> nrel_main_idtf:
+	[ Рудольф ]
+		(* <- lang_ru;; *);;
+
+book_Zelenaia_Dver
+=> nrel_locales:
+	.book_Zelenaia_Dver_locales
+		(*
+			-> locale_kotoryj_book_Zelenaia_Dver;;
+			-> locale_rudol_f_book_Zelenaia_Dver;;
+	 	*);;
+
+locale_kotoryj_book_Zelenaia_Dver
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_rudol_f_book_Zelenaia_Dver
+<- locale;
+=> nrel_main_idtf:
+	[ Рудольф ]
+		(* <- lang_ru;; *);;
+

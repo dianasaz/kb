@@ -1,0 +1,176 @@
+book_Medeja
+<- book;
+=> nrel_author;
+	author_Evripid;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Медея]
+		(* <- lang_ru;; *);;
+
+book_Medeja
+=> nrel_characters:
+	.book_Medeja_characters
+		(*
+			-> char_apollonij_rodosskij_book_Medeja;;
+			-> char_pelia_book_Medeja;;
+			-> char_afina_book_Medeja;;
+			-> char_evripida_book_Medeja;;
+			-> char_medea_book_Medeja;;
+			-> char_kolhida_book_Medeja;;
+			-> char_egea_book_Medeja;;
+			-> char_ason_book_Medeja;;
+			-> char_solnzeva_book_Medeja;;
+	 	*);;
+
+char_apollonij_rodosskij_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Аполлоний Родосский ]
+		(* <- lang_ru;; *);;
+
+char_pelia_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Пелия ]
+		(* <- lang_ru;; *);;
+
+char_afina_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+char_evripida_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Еврипида ]
+		(* <- lang_ru;; *);;
+
+char_medea_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Медея ]
+		(* <- lang_ru;; *);;
+
+char_kolhida_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Колхида ]
+		(* <- lang_ru;; *);;
+
+char_egea_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Эгея ]
+		(* <- lang_ru;; *);;
+
+char_ason_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Ясон ]
+		(* <- lang_ru;; *);;
+
+char_solnzeva_book_Medeja
+<- char;
+=> nrel_main_idtf:
+	[ Солнцева ]
+		(* <- lang_ru;; *);;
+
+book_Medeja
+=> nrel_locales:
+	.book_Medeja_locales
+		(*
+			-> locale_korinf_book_Medeja;;
+			-> locale_bykov_book_Medeja;;
+			-> locale_vostocnyj_kraj_book_Medeja;;
+			-> locale_afiny_book_Medeja;;
+			-> locale_kotoryj_book_Medeja;;
+			-> locale_kuda_book_Medeja;;
+			-> locale_severnaa_grezia_book_Medeja;;
+			-> locale_ognedysasij_byk_book_Medeja;;
+			-> locale_iolkskoe_book_Medeja;;
+			-> locale_to_book_Medeja;;
+			-> locale_afina_book_Medeja;;
+			-> locale_nea_book_Medeja;;
+			-> locale_grezia_book_Medeja;;
+	 	*);;
+
+locale_korinf_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Коринф ]
+		(* <- lang_ru;; *);;
+
+locale_bykov_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Быков ]
+		(* <- lang_ru;; *);;
+
+locale_vostocnyj_kraj_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Восточный Край ]
+		(* <- lang_ru;; *);;
+
+locale_afiny_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Афины ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_severnaa_grezia_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Северная Греция ]
+		(* <- lang_ru;; *);;
+
+locale_ognedysasij_byk_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Огнедышащий Бык ]
+		(* <- lang_ru;; *);;
+
+locale_iolkskoe_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Иолкское ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_afina_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Афина ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_grezia_book_Medeja
+<- locale;
+=> nrel_main_idtf:
+	[ Греция ]
+		(* <- lang_ru;; *);;
+

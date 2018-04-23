@@ -1,0 +1,57 @@
+book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- book;
+=> nrel_author;
+	author_Lem;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Звёздные Дневники Ийона Тихого]
+		(* <- lang_ru;; *);;
+
+book_Zvezdnye_Dnevniki_Ijona_Tihogo
+=> nrel_characters:
+	.book_Zvezdnye_Dnevniki_Ijona_Tihogo_characters
+		(*
+			-> char_zazula_book_Zvezdnye_Dnevniki_Ijona_Tihogo;;
+			-> char_ardrita_book_Zvezdnye_Dnevniki_Ijona_Tihogo;;
+			-> char_zim_a_book_Zvezdnye_Dnevniki_Ijona_Tihogo;;
+			-> char_tihij_book_Zvezdnye_Dnevniki_Ijona_Tihogo;;
+	 	*);;
+
+char_zazula_book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- char;
+=> nrel_main_idtf:
+	[ Зазуля ]
+		(* <- lang_ru;; *);;
+
+char_ardrita_book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- char;
+=> nrel_main_idtf:
+	[ Ардрита ]
+		(* <- lang_ru;; *);;
+
+char_zim_a_book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- char;
+=> nrel_main_idtf:
+	[ Зимья ]
+		(* <- lang_ru;; *);;
+
+char_tihij_book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- char;
+=> nrel_main_idtf:
+	[ Тихий ]
+		(* <- lang_ru;; *);;
+
+book_Zvezdnye_Dnevniki_Ijona_Tihogo
+=> nrel_locales:
+	.book_Zvezdnye_Dnevniki_Ijona_Tihogo_locales
+		(*
+			-> locale_to_book_Zvezdnye_Dnevniki_Ijona_Tihogo;;
+	 	*);;
+
+locale_to_book_Zvezdnye_Dnevniki_Ijona_Tihogo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

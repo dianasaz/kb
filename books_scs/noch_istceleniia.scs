@@ -1,0 +1,57 @@
+book_Noch_Istceleniia
+<- book;
+=> nrel_author;
+	author_Ekimov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Ночь Исцеления]
+		(* <- lang_ru;; *);;
+
+book_Noch_Istceleniia
+=> nrel_characters:
+	.book_Noch_Istceleniia_characters
+		(*
+			-> char_don_book_Noch_Istceleniia;;
+			-> char_grisa_book_Noch_Istceleniia;;
+			-> char_duna_book_Noch_Istceleniia;;
+			-> char_dun_book_Noch_Istceleniia;;
+	 	*);;
+
+char_don_book_Noch_Istceleniia
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_grisa_book_Noch_Istceleniia
+<- char;
+=> nrel_main_idtf:
+	[ Гриша ]
+		(* <- lang_ru;; *);;
+
+char_duna_book_Noch_Istceleniia
+<- char;
+=> nrel_main_idtf:
+	[ Дуня ]
+		(* <- lang_ru;; *);;
+
+char_dun_book_Noch_Istceleniia
+<- char;
+=> nrel_main_idtf:
+	[ Дун ]
+		(* <- lang_ru;; *);;
+
+book_Noch_Istceleniia
+=> nrel_locales:
+	.book_Noch_Istceleniia_locales
+		(*
+			-> locale_don_book_Noch_Istceleniia;;
+	 	*);;
+
+locale_don_book_Noch_Istceleniia
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+

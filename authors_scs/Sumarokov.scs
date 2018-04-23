@@ -1,0 +1,16 @@
+author_Sumarokov
+<- person;
+=> nrel_main_idtf:
+	[Александр Сумароков]
+		(* <- lang_ru;; *);;
+
+author_Sumarokov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Sumarokov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

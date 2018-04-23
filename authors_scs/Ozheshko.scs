@@ -1,0 +1,16 @@
+author_Ozheshko
+<- person;
+=> nrel_main_idtf:
+	[Элиза Ожешко]
+		(* <- lang_ru;; *);;
+
+author_Ozheshko
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Ozheshko.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

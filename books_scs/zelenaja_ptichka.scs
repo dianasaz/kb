@@ -1,0 +1,120 @@
+book_Zelenaja_Ptichka
+<- book;
+=> nrel_author;
+	author_Gocci;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Зелёная Птичка]
+		(* <- lang_ru;; *);;
+
+book_Zelenaja_Ptichka
+=> nrel_characters:
+	.book_Zelenaja_Ptichka_characters
+		(*
+			-> char_pantalone_book_Zelenaja_Ptichka;;
+			-> char_kal_mona_book_Zelenaja_Ptichka;;
+			-> char_pompej_book_Zelenaja_Ptichka;;
+			-> char_barbarina_book_Zelenaja_Ptichka;;
+			-> char_brigella_book_Zelenaja_Ptichka;;
+			-> char_tartal_ona_book_Zelenaja_Ptichka;;
+			-> char_ninetta_book_Zelenaja_Ptichka;;
+			-> char_smeral_din_book_Zelenaja_Ptichka;;
+	 	*);;
+
+char_pantalone_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Панталоне ]
+		(* <- lang_ru;; *);;
+
+char_kal_mona_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Кальмона ]
+		(* <- lang_ru;; *);;
+
+char_pompej_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Помпей ]
+		(* <- lang_ru;; *);;
+
+char_barbarina_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Барбарина ]
+		(* <- lang_ru;; *);;
+
+char_brigella_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Бригелла ]
+		(* <- lang_ru;; *);;
+
+char_tartal_ona_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Тартальона ]
+		(* <- lang_ru;; *);;
+
+char_ninetta_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Нинетта ]
+		(* <- lang_ru;; *);;
+
+char_smeral_din_book_Zelenaja_Ptichka
+<- char;
+=> nrel_main_idtf:
+	[ Смеральдин ]
+		(* <- lang_ru;; *);;
+
+book_Zelenaja_Ptichka
+=> nrel_locales:
+	.book_Zelenaja_Ptichka_locales
+		(*
+			-> locale_kotoryj_book_Zelenaja_Ptichka;;
+			-> locale_monterotondskij_book_Zelenaja_Ptichka;;
+			-> locale_car_book_Zelenaja_Ptichka;;
+			-> locale_to_book_Zelenaja_Ptichka;;
+			-> locale_truffal_dino_book_Zelenaja_Ptichka;;
+			-> locale_para_book_Zelenaja_Ptichka;;
+	 	*);;
+
+locale_kotoryj_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_monterotondskij_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ Монтеротондский ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_truffal_dino_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ Труффальдино ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Zelenaja_Ptichka
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

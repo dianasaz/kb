@@ -1,0 +1,155 @@
+book_Po_Kom_Zvonit_Kolokol
+<- book;
+=> nrel_author;
+	author_Heminguej;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[По Ком Звонит Колокол]
+		(* <- lang_ru;; *);;
+
+book_Po_Kom_Zvonit_Kolokol
+=> nrel_characters:
+	.book_Po_Kom_Zvonit_Kolokol_characters
+		(*
+			-> char_el__book_Po_Kom_Zvonit_Kolokol;;
+			-> char_djordan_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_svatoj_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_robert_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_pablo_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_rafael__book_Po_Kom_Zvonit_Kolokol;;
+			-> char_duh_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_robert_djordan_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_pilar_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_maria_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_andres_book_Po_Kom_Zvonit_Kolokol;;
+			-> char_gol_z_book_Po_Kom_Zvonit_Kolokol;;
+	 	*);;
+
+char_el__book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Эль ]
+		(* <- lang_ru;; *);;
+
+char_djordan_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Джордан ]
+		(* <- lang_ru;; *);;
+
+char_svatoj_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Святой ]
+		(* <- lang_ru;; *);;
+
+char_robert_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Роберт ]
+		(* <- lang_ru;; *);;
+
+char_pablo_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Пабло ]
+		(* <- lang_ru;; *);;
+
+char_rafael__book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Рафаэль ]
+		(* <- lang_ru;; *);;
+
+char_duh_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Дух ]
+		(* <- lang_ru;; *);;
+
+char_robert_djordan_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Роберт Джордан ]
+		(* <- lang_ru;; *);;
+
+char_pilar_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Пилар ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_andres_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Андрес ]
+		(* <- lang_ru;; *);;
+
+char_gol_z_book_Po_Kom_Zvonit_Kolokol
+<- char;
+=> nrel_main_idtf:
+	[ Гольц ]
+		(* <- lang_ru;; *);;
+
+book_Po_Kom_Zvonit_Kolokol
+=> nrel_locales:
+	.book_Po_Kom_Zvonit_Kolokol_locales
+		(*
+			-> locale_kuda_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_ispanskij_gorodok_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_sordoe_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_ispania_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_to_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_maj_book_Po_Kom_Zvonit_Kolokol;;
+			-> locale_amerika_book_Po_Kom_Zvonit_Kolokol;;
+	 	*);;
+
+locale_kuda_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_ispanskij_gorodok_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Испанский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_sordoe_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Сордое ]
+		(* <- lang_ru;; *);;
+
+locale_ispania_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Испания ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Po_Kom_Zvonit_Kolokol
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+

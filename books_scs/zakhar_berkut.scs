@@ -1,0 +1,141 @@
+book_Zakhar_Berkut
+<- book;
+=> nrel_author;
+	author_Franko;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Захар Беркут]
+		(* <- lang_ru;; *);;
+
+book_Zakhar_Berkut
+=> nrel_characters:
+	.book_Zakhar_Berkut_characters
+		(*
+			-> char_miroslava_book_Zakhar_Berkut;;
+			-> char_maksim_book_Zakhar_Berkut;;
+			-> char_miroslav_book_Zakhar_Berkut;;
+			-> char_mstislav_book_Zakhar_Berkut;;
+			-> char_storojasij_book_Zakhar_Berkut;;
+			-> char_zahar_berkut_book_Zakhar_Berkut;;
+			-> char_daniil_book_Zakhar_Berkut;;
+			-> char_zahar_book_Zakhar_Berkut;;
+	 	*);;
+
+char_miroslava_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Мирослава ]
+		(* <- lang_ru;; *);;
+
+char_maksim_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Максим ]
+		(* <- lang_ru;; *);;
+
+char_miroslav_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Мирослав ]
+		(* <- lang_ru;; *);;
+
+char_mstislav_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Мстислав ]
+		(* <- lang_ru;; *);;
+
+char_storojasij_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Сторожащий ]
+		(* <- lang_ru;; *);;
+
+char_zahar_berkut_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Захар Беркут ]
+		(* <- lang_ru;; *);;
+
+char_daniil_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Даниил ]
+		(* <- lang_ru;; *);;
+
+char_zahar_book_Zakhar_Berkut
+<- char;
+=> nrel_main_idtf:
+	[ Захар ]
+		(* <- lang_ru;; *);;
+
+book_Zakhar_Berkut
+=> nrel_locales:
+	.book_Zakhar_Berkut_locales
+		(*
+			-> locale_seda_book_Zakhar_Berkut;;
+			-> locale_velikoe_book_Zakhar_Berkut;;
+			-> locale_svoj_kraj_book_Zakhar_Berkut;;
+			-> locale_moran_book_Zakhar_Berkut;;
+			-> locale_ih_kraj_book_Zakhar_Berkut;;
+			-> locale_zaharovoma_book_Zakhar_Berkut;;
+			-> locale_drugoj_kraj_book_Zakhar_Berkut;;
+			-> locale_smela_book_Zakhar_Berkut;;
+			-> locale_medvediza_book_Zakhar_Berkut;;
+	 	*);;
+
+locale_seda_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Седа ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_svoj_kraj_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Свой Край ]
+		(* <- lang_ru;; *);;
+
+locale_moran_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Моран ]
+		(* <- lang_ru;; *);;
+
+locale_ih_kraj_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Их Край ]
+		(* <- lang_ru;; *);;
+
+locale_zaharovoma_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Захаровома ]
+		(* <- lang_ru;; *);;
+
+locale_drugoj_kraj_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Другой Край ]
+		(* <- lang_ru;; *);;
+
+locale_smela_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Смела ]
+		(* <- lang_ru;; *);;
+
+locale_medvediza_book_Zakhar_Berkut
+<- locale;
+=> nrel_main_idtf:
+	[ Медведица ]
+		(* <- lang_ru;; *);;
+

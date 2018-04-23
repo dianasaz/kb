@@ -1,0 +1,120 @@
+book_Igra_V_Biser
+<- book;
+=> nrel_author;
+	author_Gesse;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Игра В Бисер]
+		(* <- lang_ru;; *);;
+
+book_Igra_V_Biser
+=> nrel_characters:
+	.book_Igra_V_Biser_characters
+		(*
+			-> char_platon_book_Igra_V_Biser;;
+			-> char_fridrih_nizse_book_Igra_V_Biser;;
+			-> char_iakov_book_Igra_V_Biser;;
+			-> char_apollon_book_Igra_V_Biser;;
+			-> char_kastalia_book_Igra_V_Biser;;
+			-> char_kal_va_book_Igra_V_Biser;;
+			-> char_iozef_kneht_book_Igra_V_Biser;;
+			-> char_iosif_book_Igra_V_Biser;;
+	 	*);;
+
+char_platon_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Платон ]
+		(* <- lang_ru;; *);;
+
+char_fridrih_nizse_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Фридрих Ницше ]
+		(* <- lang_ru;; *);;
+
+char_iakov_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Иаков ]
+		(* <- lang_ru;; *);;
+
+char_apollon_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Аполлон ]
+		(* <- lang_ru;; *);;
+
+char_kastalia_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Касталия ]
+		(* <- lang_ru;; *);;
+
+char_kal_va_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Кальва ]
+		(* <- lang_ru;; *);;
+
+char_iozef_kneht_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Иозеф Кнехт ]
+		(* <- lang_ru;; *);;
+
+char_iosif_book_Igra_V_Biser
+<- char;
+=> nrel_main_idtf:
+	[ Иосиф ]
+		(* <- lang_ru;; *);;
+
+book_Igra_V_Biser
+=> nrel_locales:
+	.book_Igra_V_Biser_locales
+		(*
+			-> locale_rossin__book_Igra_V_Biser;;
+			-> locale_nekij_perro_book_Igra_V_Biser;;
+			-> locale_gornyj_book_Igra_V_Biser;;
+			-> locale_dezin_or__book_Igra_V_Biser;;
+			-> locale_parnas_book_Igra_V_Biser;;
+			-> locale_ujnaa_germania_book_Igra_V_Biser;;
+	 	*);;
+
+locale_rossin__book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Россинь ]
+		(* <- lang_ru;; *);;
+
+locale_nekij_perro_book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Некий Перро ]
+		(* <- lang_ru;; *);;
+
+locale_gornyj_book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Горный ]
+		(* <- lang_ru;; *);;
+
+locale_dezin_or__book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Дезиньорь ]
+		(* <- lang_ru;; *);;
+
+locale_parnas_book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Парнас ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_germania_book_Igra_V_Biser
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Германия ]
+		(* <- lang_ru;; *);;
+

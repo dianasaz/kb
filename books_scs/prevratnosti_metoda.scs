@@ -1,0 +1,294 @@
+book_Prevratnosti_Metoda
+<- book;
+=> nrel_author;
+	author_Karpenter;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Превратности Метода]
+		(* <- lang_ru;; *);;
+
+book_Prevratnosti_Metoda
+=> nrel_characters:
+	.book_Prevratnosti_Metoda_characters
+		(*
+			-> char_kropotkin_book_Prevratnosti_Metoda;;
+			-> char_antonij_book_Prevratnosti_Metoda;;
+			-> char_leonsio_martines_book_Prevratnosti_Metoda;;
+			-> char_hofman_book_Prevratnosti_Metoda;;
+			-> char_mark_book_Prevratnosti_Metoda;;
+			-> char_luis_book_Prevratnosti_Metoda;;
+			-> char_glava_book_Prevratnosti_Metoda;;
+			-> char_el_mir_book_Prevratnosti_Metoda;;
+			-> char_covsee_book_Prevratnosti_Metoda;;
+			-> char_ariel__book_Prevratnosti_Metoda;;
+			-> char_mendosa_book_Prevratnosti_Metoda;;
+			-> char_val_ter_hofman_book_Prevratnosti_Metoda;;
+			-> char_ermenehil_da_book_Prevratnosti_Metoda;;
+			-> char_rene_dekart_book_Prevratnosti_Metoda;;
+			-> char_ofelia_book_Prevratnosti_Metoda;;
+			-> char_radames_book_Prevratnosti_Metoda;;
+			-> char_martines_book_Prevratnosti_Metoda;;
+			-> char_ataul_fo_book_Prevratnosti_Metoda;;
+			-> char_dekart_book_Prevratnosti_Metoda;;
+	 	*);;
+
+char_kropotkin_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Кропоткин ]
+		(* <- lang_ru;; *);;
+
+char_antonij_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Антоний ]
+		(* <- lang_ru;; *);;
+
+char_leonsio_martines_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Леонсио Мартинес ]
+		(* <- lang_ru;; *);;
+
+char_hofman_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Хофман ]
+		(* <- lang_ru;; *);;
+
+char_mark_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Марк ]
+		(* <- lang_ru;; *);;
+
+char_luis_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Луис ]
+		(* <- lang_ru;; *);;
+
+char_glava_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Глава ]
+		(* <- lang_ru;; *);;
+
+char_el_mir_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Эльмир ]
+		(* <- lang_ru;; *);;
+
+char_covsee_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Човшее ]
+		(* <- lang_ru;; *);;
+
+char_ariel__book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Ариэль ]
+		(* <- lang_ru;; *);;
+
+char_mendosa_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Мендоса ]
+		(* <- lang_ru;; *);;
+
+char_val_ter_hofman_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Вальтер Хофман ]
+		(* <- lang_ru;; *);;
+
+char_ermenehil_da_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Эрменехильда ]
+		(* <- lang_ru;; *);;
+
+char_rene_dekart_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Рене Декарт ]
+		(* <- lang_ru;; *);;
+
+char_ofelia_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Офелия ]
+		(* <- lang_ru;; *);;
+
+char_radames_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Радамес ]
+		(* <- lang_ru;; *);;
+
+char_martines_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Мартинес ]
+		(* <- lang_ru;; *);;
+
+char_ataul_fo_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Атаульфо ]
+		(* <- lang_ru;; *);;
+
+char_dekart_book_Prevratnosti_Metoda
+<- char;
+=> nrel_main_idtf:
+	[ Декарт ]
+		(* <- lang_ru;; *);;
+
+book_Prevratnosti_Metoda
+=> nrel_locales:
+	.book_Prevratnosti_Metoda_locales
+		(*
+			-> locale_prudon_book_Prevratnosti_Metoda;;
+			-> locale_latinoamerikanskij_respublika_book_Prevratnosti_Metoda;;
+			-> locale_franzia_book_Prevratnosti_Metoda;;
+			-> locale_ataul_fo_gal_van_book_Prevratnosti_Metoda;;
+			-> locale_ssa_book_Prevratnosti_Metoda;;
+			-> locale_brussel__book_Prevratnosti_Metoda;;
+			-> locale_colo_mendosa_book_Prevratnosti_Metoda;;
+			-> locale_severoamerikanskaa_book_Prevratnosti_Metoda;;
+			-> locale_jork_book_Prevratnosti_Metoda;;
+			-> locale_gal_van_book_Prevratnosti_Metoda;;
+			-> locale_lubimaa_franzia_book_Prevratnosti_Metoda;;
+			-> locale_saraevo_book_Prevratnosti_Metoda;;
+			-> locale_monparnas_book_Prevratnosti_Metoda;;
+			-> locale_parij_book_Prevratnosti_Metoda;;
+			-> locale_evropa_book_Prevratnosti_Metoda;;
+			-> locale_hofmana_book_Prevratnosti_Metoda;;
+			-> locale_blagorazumnyj_gal_van_book_Prevratnosti_Metoda;;
+	 	*);;
+
+locale_prudon_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Прудон ]
+		(* <- lang_ru;; *);;
+
+locale_latinoamerikanskij_respublika_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Латиноамериканский Республика ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_ataul_fo_gal_van_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Атаульфо Гальван ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_brussel__book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Брюссель ]
+		(* <- lang_ru;; *);;
+
+locale_colo_mendosa_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Чоло Мендоса ]
+		(* <- lang_ru;; *);;
+
+locale_severoamerikanskaa_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Североамериканская ]
+		(* <- lang_ru;; *);;
+
+locale_jork_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Йорк ]
+		(* <- lang_ru;; *);;
+
+locale_gal_van_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Гальван ]
+		(* <- lang_ru;; *);;
+
+locale_lubimaa_franzia_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Любимая Франция ]
+		(* <- lang_ru;; *);;
+
+locale_saraevo_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Сараево ]
+		(* <- lang_ru;; *);;
+
+locale_monparnas_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Монпарнас ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_hofmana_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Хофмана ]
+		(* <- lang_ru;; *);;
+
+locale_blagorazumnyj_gal_van_book_Prevratnosti_Metoda
+<- locale;
+=> nrel_main_idtf:
+	[ Благоразумный Гальван ]
+		(* <- lang_ru;; *);;
+
+book_Prevratnosti_Metoda
+=> nrel_dates:
+	.book_Prevratnosti_Metoda_dates
+		(*
+			-> date_1913_book_Prevratnosti_Metoda;;
+			-> date_1927_book_Prevratnosti_Metoda;;
+	 	*);;
+
+date_1913_book_Prevratnosti_Metoda
+<- date;
+=> nrel_main_idtf:
+	[ 1913 ]
+		(* <- lang_ru;; *);;
+
+date_1927_book_Prevratnosti_Metoda
+<- date;
+=> nrel_main_idtf:
+	[ 1927 ]
+		(* <- lang_ru;; *);;
+

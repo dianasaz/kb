@@ -1,0 +1,113 @@
+book_Sapog_Boga_Erlana
+<- book;
+=> nrel_author;
+	author_Lin_Menchu;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Сапог Бога Эрлана]
+		(* <- lang_ru;; *);;
+
+book_Sapog_Boga_Erlana
+=> nrel_characters:
+	.book_Sapog_Boga_Erlana_characters
+		(*
+			-> char_zzanivsij_book_Sapog_Boga_Erlana;;
+			-> char_jana_book_Sapog_Boga_Erlana;;
+			-> char_guj_book_Sapog_Boga_Erlana;;
+			-> char_pana_book_Sapog_Boga_Erlana;;
+			-> char_erlan_book_Sapog_Boga_Erlana;;
+			-> char_an_book_Sapog_Boga_Erlana;;
+	 	*);;
+
+char_zzanivsij_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Цзянивший ]
+		(* <- lang_ru;; *);;
+
+char_jana_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Жаня ]
+		(* <- lang_ru;; *);;
+
+char_guj_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Гуй ]
+		(* <- lang_ru;; *);;
+
+char_pana_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Паня ]
+		(* <- lang_ru;; *);;
+
+char_erlan_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Эрлан ]
+		(* <- lang_ru;; *);;
+
+char_an_book_Sapog_Boga_Erlana
+<- char;
+=> nrel_main_idtf:
+	[ Ян ]
+		(* <- lang_ru;; *);;
+
+book_Sapog_Boga_Erlana
+=> nrel_locales:
+	.book_Sapog_Boga_Erlana_locales
+		(*
+			-> locale_an_fej_book_Sapog_Boga_Erlana;;
+			-> locale_ves__ujzao_book_Sapog_Boga_Erlana;;
+			-> locale_ujzao_book_Sapog_Boga_Erlana;;
+			-> locale_zzanivsij_book_Sapog_Boga_Erlana;;
+			-> locale_to_book_Sapog_Boga_Erlana;;
+			-> locale_jana_book_Sapog_Boga_Erlana;;
+			-> locale_para_book_Sapog_Boga_Erlana;;
+	 	*);;
+
+locale_an_fej_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Аньфэй ]
+		(* <- lang_ru;; *);;
+
+locale_ves__ujzao_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Юйцяо ]
+		(* <- lang_ru;; *);;
+
+locale_ujzao_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Юйцяо ]
+		(* <- lang_ru;; *);;
+
+locale_zzanivsij_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Цзянивший ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_jana_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Жаня ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Sapog_Boga_Erlana
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

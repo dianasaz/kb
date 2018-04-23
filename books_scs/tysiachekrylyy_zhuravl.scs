@@ -1,0 +1,273 @@
+book_Tysiachekrylyy_Zhuravl
+<- book;
+=> nrel_author;
+	author_Kavabata;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тысячекрылый Журавль]
+		(* <- lang_ru;; *);;
+
+book_Tysiachekrylyy_Zhuravl
+=> nrel_characters:
+	.book_Tysiachekrylyy_Zhuravl_characters
+		(*
+			-> char_rena_book_Tysiachekrylyy_Zhuravl;;
+			-> char_akikoe_book_Tysiachekrylyy_Zhuravl;;
+			-> char_sudzia_book_Tysiachekrylyy_Zhuravl;;
+			-> char_hokkein_book_Tysiachekrylyy_Zhuravl;;
+			-> char_tikako_kurimoto_book_Tysiachekrylyy_Zhuravl;;
+			-> char_ukikoe_book_Tysiachekrylyy_Zhuravl;;
+			-> char_kurimoto_book_Tysiachekrylyy_Zhuravl;;
+			-> char_mitana_book_Tysiachekrylyy_Zhuravl;;
+			-> char_takeda_book_Tysiachekrylyy_Zhuravl;;
+			-> char_nodziriko_book_Tysiachekrylyy_Zhuravl;;
+			-> char_kudza_book_Tysiachekrylyy_Zhuravl;;
+			-> char_sinoe_book_Tysiachekrylyy_Zhuravl;;
+			-> char_fumiko_book_Tysiachekrylyy_Zhuravl;;
+	 	*);;
+
+char_rena_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Рёня ]
+		(* <- lang_ru;; *);;
+
+char_akikoe_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Акикое ]
+		(* <- lang_ru;; *);;
+
+char_sudzia_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Судзия ]
+		(* <- lang_ru;; *);;
+
+char_hokkein_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Хоккэин ]
+		(* <- lang_ru;; *);;
+
+char_tikako_kurimoto_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Тикако Куримото ]
+		(* <- lang_ru;; *);;
+
+char_ukikoe_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Юкикое ]
+		(* <- lang_ru;; *);;
+
+char_kurimoto_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Куримото ]
+		(* <- lang_ru;; *);;
+
+char_mitana_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Митаня ]
+		(* <- lang_ru;; *);;
+
+char_takeda_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Такэда ]
+		(* <- lang_ru;; *);;
+
+char_nodziriko_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Нодзирико ]
+		(* <- lang_ru;; *);;
+
+char_kudza_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Кудзя ]
+		(* <- lang_ru;; *);;
+
+char_sinoe_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Синое ]
+		(* <- lang_ru;; *);;
+
+char_fumiko_book_Tysiachekrylyy_Zhuravl
+<- char;
+=> nrel_main_idtf:
+	[ Фумико ]
+		(* <- lang_ru;; *);;
+
+book_Tysiachekrylyy_Zhuravl
+=> nrel_locales:
+	.book_Tysiachekrylyy_Zhuravl_locales
+		(*
+			-> locale_tokonom_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_inamur_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_hokkeina_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_krasnaa_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_sinoe_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_karaza_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_kuda_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_kotoryj_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_hitomaroe_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_handa_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_sam_tot_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_gorodok_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_to_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_san_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_hiros__book_Tysiachekrylyy_Zhuravl;;
+			-> locale_eto_sino_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_koldovskoj_car_book_Tysiachekrylyy_Zhuravl;;
+			-> locale_nea_book_Tysiachekrylyy_Zhuravl;;
+	 	*);;
+
+locale_tokonom_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Токоном ]
+		(* <- lang_ru;; *);;
+
+locale_inamur_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Инамур ]
+		(* <- lang_ru;; *);;
+
+locale_hokkeina_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Хоккэиня ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_sinoe_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Синое ]
+		(* <- lang_ru;; *);;
+
+locale_karaza_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Караца ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_hitomaroe_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Хитомарое ]
+		(* <- lang_ru;; *);;
+
+locale_handa_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Ханда ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_san_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Сан ]
+		(* <- lang_ru;; *);;
+
+locale_hiros__book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Хирось ]
+		(* <- lang_ru;; *);;
+
+locale_eto_sino_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Это Сино ]
+		(* <- lang_ru;; *);;
+
+locale_koldovskoj_car_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Колдовской Чар ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Tysiachekrylyy_Zhuravl
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+book_Tysiachekrylyy_Zhuravl
+=> nrel_dates:
+	.book_Tysiachekrylyy_Zhuravl_dates
+		(*
+			-> date_10_22_book_Tysiachekrylyy_Zhuravl;;
+			-> date_9_19_book_Tysiachekrylyy_Zhuravl;;
+			-> date_10_21_book_Tysiachekrylyy_Zhuravl;;
+			-> date_10_20_book_Tysiachekrylyy_Zhuravl;;
+	 	*);;
+
+date_10_22_book_Tysiachekrylyy_Zhuravl
+<- date;
+=> nrel_main_idtf:
+	[ 10 22 ]
+		(* <- lang_ru;; *);;
+
+date_9_19_book_Tysiachekrylyy_Zhuravl
+<- date;
+=> nrel_main_idtf:
+	[ 9 19 ]
+		(* <- lang_ru;; *);;
+
+date_10_21_book_Tysiachekrylyy_Zhuravl
+<- date;
+=> nrel_main_idtf:
+	[ 10 21 ]
+		(* <- lang_ru;; *);;
+
+date_10_20_book_Tysiachekrylyy_Zhuravl
+<- date;
+=> nrel_main_idtf:
+	[ 10 20 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,175 @@
+book_Sobor_Parizhskoj_Bogomateri
+<- book;
+=> nrel_author;
+	author_Gugo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Собор Парижской Богоматери]
+		(* <- lang_ru;; *);;
+
+book_Sobor_Parizhskoj_Bogomateri
+=> nrel_characters:
+	.book_Sobor_Parizhskoj_Bogomateri_characters
+		(*
+			-> char_p_er_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_jeana_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_frollo_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_trujl_f_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_santfleri_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_kloda_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_maria_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_esmeral_da_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_rolandova_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_klod_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_klopena_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_paketta_book_Sobor_Parizhskoj_Bogomateri;;
+			-> char_flandrij_book_Sobor_Parizhskoj_Bogomateri;;
+	 	*);;
+
+char_p_er_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Пьер ]
+		(* <- lang_ru;; *);;
+
+char_jeana_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Жеана ]
+		(* <- lang_ru;; *);;
+
+char_frollo_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Фролло ]
+		(* <- lang_ru;; *);;
+
+char_trujl_f_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Труйльф ]
+		(* <- lang_ru;; *);;
+
+char_santfleri_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Шантфлери ]
+		(* <- lang_ru;; *);;
+
+char_kloda_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Клода ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_esmeral_da_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Эсмеральда ]
+		(* <- lang_ru;; *);;
+
+char_rolandova_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Роландова ]
+		(* <- lang_ru;; *);;
+
+char_klod_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Клод ]
+		(* <- lang_ru;; *);;
+
+char_klopena_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Клопена ]
+		(* <- lang_ru;; *);;
+
+char_paketta_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Пакетта ]
+		(* <- lang_ru;; *);;
+
+char_flandrij_book_Sobor_Parizhskoj_Bogomateri
+<- char;
+=> nrel_main_idtf:
+	[ Фландрий ]
+		(* <- lang_ru;; *);;
+
+book_Sobor_Parizhskoj_Bogomateri
+=> nrel_locales:
+	.book_Sobor_Parizhskoj_Bogomateri_locales
+		(*
+			-> locale_satopera_book_Sobor_Parizhskoj_Bogomateri;;
+			-> locale_kotoryj_book_Sobor_Parizhskoj_Bogomateri;;
+			-> locale_velikoe_book_Sobor_Parizhskoj_Bogomateri;;
+			-> locale_gorod_gent_book_Sobor_Parizhskoj_Bogomateri;;
+			-> locale_kuda_book_Sobor_Parizhskoj_Bogomateri;;
+			-> locale_krasnyj_book_Sobor_Parizhskoj_Bogomateri;;
+	 	*);;
+
+locale_satopera_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Шатопера ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_gent_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Город Гент ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Sobor_Parizhskoj_Bogomateri
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+book_Sobor_Parizhskoj_Bogomateri
+=> nrel_dates:
+	.book_Sobor_Parizhskoj_Bogomateri_dates
+		(*
+			-> date_1482_1_6_book_Sobor_Parizhskoj_Bogomateri;;
+			-> date_1482_book_Sobor_Parizhskoj_Bogomateri;;
+	 	*);;
+
+date_1482_1_6_book_Sobor_Parizhskoj_Bogomateri
+<- date;
+=> nrel_main_idtf:
+	[ 1482 1 6 ]
+		(* <- lang_ru;; *);;
+
+date_1482_book_Sobor_Parizhskoj_Bogomateri
+<- date;
+=> nrel_main_idtf:
+	[ 1482 ]
+		(* <- lang_ru;; *);;
+

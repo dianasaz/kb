@@ -1,0 +1,182 @@
+book_Krasnoe_I_Chernoe
+<- book;
+=> nrel_author;
+	author_Stendal;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Красное И Чёрное]
+		(* <- lang_ru;; *);;
+
+book_Krasnoe_I_Chernoe
+=> nrel_characters:
+	.book_Krasnoe_I_Chernoe_characters
+		(*
+			-> char_selana_book_Krasnoe_I_Chernoe;;
+			-> char_koraz_book_Krasnoe_I_Chernoe;;
+			-> char_sorel__book_Krasnoe_I_Chernoe;;
+			-> char_sam_book_Krasnoe_I_Chernoe;;
+			-> char_eliza_book_Krasnoe_I_Chernoe;;
+			-> char_fransa_book_Krasnoe_I_Chernoe;;
+			-> char_pirar_book_Krasnoe_I_Chernoe;;
+			-> char_matil_da_book_Krasnoe_I_Chernoe;;
+			-> char_renala_book_Krasnoe_I_Chernoe;;
+			-> char_eliza_renal__book_Krasnoe_I_Chernoe;;
+			-> char_margarita_navarrskaa_book_Krasnoe_I_Chernoe;;
+			-> char_luza_book_Krasnoe_I_Chernoe;;
+			-> char_kruazenua_book_Krasnoe_I_Chernoe;;
+	 	*);;
+
+char_selana_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Шелана ]
+		(* <- lang_ru;; *);;
+
+char_koraz_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Кораз ]
+		(* <- lang_ru;; *);;
+
+char_sorel__book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Сорель ]
+		(* <- lang_ru;; *);;
+
+char_sam_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Сам ]
+		(* <- lang_ru;; *);;
+
+char_eliza_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Элиза ]
+		(* <- lang_ru;; *);;
+
+char_fransa_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Франша ]
+		(* <- lang_ru;; *);;
+
+char_pirar_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Пирар ]
+		(* <- lang_ru;; *);;
+
+char_matil_da_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Матильда ]
+		(* <- lang_ru;; *);;
+
+char_renala_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Реналя ]
+		(* <- lang_ru;; *);;
+
+char_eliza_renal__book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Элиза Реналь ]
+		(* <- lang_ru;; *);;
+
+char_margarita_navarrskaa_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Маргарита Наваррская ]
+		(* <- lang_ru;; *);;
+
+char_luza_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Люза ]
+		(* <- lang_ru;; *);;
+
+char_kruazenua_book_Krasnoe_I_Chernoe
+<- char;
+=> nrel_main_idtf:
+	[ Круазенуа ]
+		(* <- lang_ru;; *);;
+
+book_Krasnoe_I_Chernoe
+=> nrel_locales:
+	.book_Krasnoe_I_Chernoe_locales
+		(*
+			-> locale_selana_book_Krasnoe_I_Chernoe;;
+			-> locale_koraz_book_Krasnoe_I_Chernoe;;
+			-> locale_sorel__book_Krasnoe_I_Chernoe;;
+			-> locale_franzuzskij_gorodok_book_Krasnoe_I_Chernoe;;
+			-> locale_novaa_para_book_Krasnoe_I_Chernoe;;
+			-> locale_parij_book_Krasnoe_I_Chernoe;;
+			-> locale_to_book_Krasnoe_I_Chernoe;;
+			-> locale_bezanson_book_Krasnoe_I_Chernoe;;
+	 	*);;
+
+locale_selana_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Шелана ]
+		(* <- lang_ru;; *);;
+
+locale_koraz_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Кораз ]
+		(* <- lang_ru;; *);;
+
+locale_sorel__book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Сорель ]
+		(* <- lang_ru;; *);;
+
+locale_franzuzskij_gorodok_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Французский Городок ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_para_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Пара ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_bezanson_book_Krasnoe_I_Chernoe
+<- locale;
+=> nrel_main_idtf:
+	[ Безансон ]
+		(* <- lang_ru;; *);;
+
+book_Krasnoe_I_Chernoe
+=> nrel_dates:
+	.book_Krasnoe_I_Chernoe_dates
+		(*
+			-> date_1574_4_30_book_Krasnoe_I_Chernoe;;
+	 	*);;
+
+date_1574_4_30_book_Krasnoe_I_Chernoe
+<- date;
+=> nrel_main_idtf:
+	[ 1574 4 30 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,973 @@
+book_Dekameron
+<- book;
+=> nrel_author;
+	author_Bokkachcho;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Декамерон]
+		(* <- lang_ru;; *);;
+
+book_Dekameron
+=> nrel_characters:
+	.book_Dekameron_characters
+		(*
+			-> char_an_olella_book_Dekameron;;
+			-> char_lunidj_an_book_Dekameron;;
+			-> char_bonifazij_book_Dekameron;;
+			-> char_liza_book_Dekameron;;
+			-> char_procida_book_Dekameron;;
+			-> char_kassandra_book_Dekameron;;
+			-> char_ful_va_book_Dekameron;;
+			-> char_kaval_kanti_book_Dekameron;;
+			-> char_maria_book_Dekameron;;
+			-> char_al_bert_book_Dekameron;;
+			-> char_djirolamo_book_Dekameron;;
+			-> char_luka_book_Dekameron;;
+			-> char_rustiko_book_Dekameron;;
+			-> char_bruno_book_Dekameron;;
+			-> char_elissa_book_Dekameron;;
+			-> char_franceska_book_Dekameron;;
+			-> char_kacc_animiko_book_Dekameron;;
+			-> char_emilij_book_Dekameron;;
+			-> char_alibek_book_Dekameron;;
+			-> char_karl_starsij_book_Dekameron;;
+			-> char_bel_tramo_rossil_onskij_book_Dekameron;;
+			-> char_k_assa_book_Dekameron;;
+			-> char_filippello_book_Dekameron;;
+			-> char_pabat_book_Dekameron;;
+			-> char_markez_book_Dekameron;;
+			-> char_val_bona_book_Dekameron;;
+			-> char_andj_ol_eri_book_Dekameron;;
+			-> char_lamporekkio_book_Dekameron;;
+			-> char_figinol_fi_book_Dekameron;;
+			-> char_karl_book_Dekameron;;
+			-> char_landol_fo_book_Dekameron;;
+			-> char_gabriotto_book_Dekameron;;
+			-> char_saladin_book_Dekameron;;
+			-> char_peronella_book_Dekameron;;
+			-> char_dianor_book_Dekameron;;
+			-> char_sultan_book_Dekameron;;
+			-> char_egano_book_Dekameron;;
+			-> char_rinal_do_book_Dekameron;;
+			-> char_djizippo_book_Dekameron;;
+			-> char_bernabo_book_Dekameron;;
+			-> char_dj_annij_book_Dekameron;;
+			-> char_ricc_ardoe_book_Dekameron;;
+			-> char_torello_book_Dekameron;;
+			-> char_ceparello_book_Dekameron;;
+			-> char_djiletta_book_Dekameron;;
+			-> char_saladdin_book_Dekameron;;
+			-> char_avraam_book_Dekameron;;
+			-> char_izabetta_book_Dekameron;;
+			-> char_al_berto_book_Dekameron;;
+			-> char_simon_book_Dekameron;;
+			-> char_ricc_ardoe_manardi_book_Dekameron;;
+			-> char_beatrice_book_Dekameron;;
+			-> char_oria_book_Dekameron;;
+			-> char_don_book_Dekameron;;
+			-> char_vavilonia_book_Dekameron;;
+			-> char_eliza_book_Dekameron;;
+			-> char_dj_otto_book_Dekameron;;
+			-> char_lizio_book_Dekameron;;
+			-> char_erkolano_book_Dekameron;;
+			-> char_mudjello_book_Dekameron;;
+			-> char_solomon_book_Dekameron;;
+			-> char_neifil_book_Dekameron;;
+			-> char_alessandro_book_Dekameron;;
+			-> char_tofano_book_Dekameron;;
+			-> char_lidia_book_Dekameron;;
+			-> char_agilul_f_book_Dekameron;;
+			-> char_natan_book_Dekameron;;
+			-> char_gvido_book_Dekameron;;
+			-> char_lauretta_book_Dekameron;;
+			-> char_filomena_book_Dekameron;;
+			-> char_gavriila_book_Dekameron;;
+			-> char_tedal_do_book_Dekameron;;
+			-> char_grizel_da_book_Dekameron;;
+			-> char_djerri_book_Dekameron;;
+			-> char_lidij_book_Dekameron;;
+			-> char_francesko_book_Dekameron;;
+			-> char_tit_book_Dekameron;;
+			-> char_filipp_book_Dekameron;;
+			-> char_pavij_book_Dekameron;;
+	 	*);;
+
+char_an_olella_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Аньолелла ]
+		(* <- lang_ru;; *);;
+
+char_lunidj_an_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Луниджьян ]
+		(* <- lang_ru;; *);;
+
+char_bonifazij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Бонифаций ]
+		(* <- lang_ru;; *);;
+
+char_liza_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лиза ]
+		(* <- lang_ru;; *);;
+
+char_procida_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Прочида ]
+		(* <- lang_ru;; *);;
+
+char_kassandra_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Кассандра ]
+		(* <- lang_ru;; *);;
+
+char_ful_va_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Фульва ]
+		(* <- lang_ru;; *);;
+
+char_kaval_kanti_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Кавальканти ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_al_bert_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+char_djirolamo_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джироламо ]
+		(* <- lang_ru;; *);;
+
+char_luka_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лука ]
+		(* <- lang_ru;; *);;
+
+char_rustiko_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Рустико ]
+		(* <- lang_ru;; *);;
+
+char_bruno_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Бруно ]
+		(* <- lang_ru;; *);;
+
+char_elissa_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Элисса ]
+		(* <- lang_ru;; *);;
+
+char_franceska_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Франческа ]
+		(* <- lang_ru;; *);;
+
+char_kacc_animiko_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Каччьянимико ]
+		(* <- lang_ru;; *);;
+
+char_emilij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Емилий ]
+		(* <- lang_ru;; *);;
+
+char_alibek_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Алибек ]
+		(* <- lang_ru;; *);;
+
+char_karl_starsij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Карл Старший ]
+		(* <- lang_ru;; *);;
+
+char_bel_tramo_rossil_onskij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Бельтрамо Россильонский ]
+		(* <- lang_ru;; *);;
+
+char_k_assa_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Кьясся ]
+		(* <- lang_ru;; *);;
+
+char_filippello_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Филиппелло ]
+		(* <- lang_ru;; *);;
+
+char_pabat_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Пабат ]
+		(* <- lang_ru;; *);;
+
+char_markez_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Маркез ]
+		(* <- lang_ru;; *);;
+
+char_val_bona_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Вальбона ]
+		(* <- lang_ru;; *);;
+
+char_andj_ol_eri_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Анджьольери ]
+		(* <- lang_ru;; *);;
+
+char_lamporekkio_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лампореккио ]
+		(* <- lang_ru;; *);;
+
+char_figinol_fi_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Фигинольфи ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_landol_fo_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Ландольфо ]
+		(* <- lang_ru;; *);;
+
+char_gabriotto_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Габриотто ]
+		(* <- lang_ru;; *);;
+
+char_saladin_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Саладин ]
+		(* <- lang_ru;; *);;
+
+char_peronella_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Перонелла ]
+		(* <- lang_ru;; *);;
+
+char_dianor_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Дианор ]
+		(* <- lang_ru;; *);;
+
+char_sultan_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Султан ]
+		(* <- lang_ru;; *);;
+
+char_egano_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Эгано ]
+		(* <- lang_ru;; *);;
+
+char_rinal_do_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Ринальдо ]
+		(* <- lang_ru;; *);;
+
+char_djizippo_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джизиппо ]
+		(* <- lang_ru;; *);;
+
+char_bernabo_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Бернабо ]
+		(* <- lang_ru;; *);;
+
+char_dj_annij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джьянний ]
+		(* <- lang_ru;; *);;
+
+char_ricc_ardoe_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Риччьярдое ]
+		(* <- lang_ru;; *);;
+
+char_torello_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Торелло ]
+		(* <- lang_ru;; *);;
+
+char_ceparello_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Чепарелло ]
+		(* <- lang_ru;; *);;
+
+char_djiletta_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джилетта ]
+		(* <- lang_ru;; *);;
+
+char_saladdin_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Саладдин ]
+		(* <- lang_ru;; *);;
+
+char_avraam_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Авраам ]
+		(* <- lang_ru;; *);;
+
+char_izabetta_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Изабетта ]
+		(* <- lang_ru;; *);;
+
+char_al_berto_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Альберто ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_ricc_ardoe_manardi_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Риччьярдое Манарди ]
+		(* <- lang_ru;; *);;
+
+char_beatrice_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Беатриче ]
+		(* <- lang_ru;; *);;
+
+char_oria_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Ориа ]
+		(* <- lang_ru;; *);;
+
+char_don_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_vavilonia_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Вавилония ]
+		(* <- lang_ru;; *);;
+
+char_eliza_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Елиза ]
+		(* <- lang_ru;; *);;
+
+char_dj_otto_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джьотто ]
+		(* <- lang_ru;; *);;
+
+char_lizio_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лицио ]
+		(* <- lang_ru;; *);;
+
+char_erkolano_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Эрколано ]
+		(* <- lang_ru;; *);;
+
+char_mudjello_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Муджелло ]
+		(* <- lang_ru;; *);;
+
+char_solomon_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Соломон ]
+		(* <- lang_ru;; *);;
+
+char_neifil_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Неифил ]
+		(* <- lang_ru;; *);;
+
+char_alessandro_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Алессандро ]
+		(* <- lang_ru;; *);;
+
+char_tofano_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Тофано ]
+		(* <- lang_ru;; *);;
+
+char_lidia_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лидия ]
+		(* <- lang_ru;; *);;
+
+char_agilul_f_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Агилульф ]
+		(* <- lang_ru;; *);;
+
+char_natan_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Натан ]
+		(* <- lang_ru;; *);;
+
+char_gvido_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Гвидо ]
+		(* <- lang_ru;; *);;
+
+char_lauretta_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лауретта ]
+		(* <- lang_ru;; *);;
+
+char_filomena_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Филомена ]
+		(* <- lang_ru;; *);;
+
+char_gavriila_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Гавриила ]
+		(* <- lang_ru;; *);;
+
+char_tedal_do_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Тедальдо ]
+		(* <- lang_ru;; *);;
+
+char_grizel_da_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Гризельда ]
+		(* <- lang_ru;; *);;
+
+char_djerri_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Джерри ]
+		(* <- lang_ru;; *);;
+
+char_lidij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Лидий ]
+		(* <- lang_ru;; *);;
+
+char_francesko_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Франческо ]
+		(* <- lang_ru;; *);;
+
+char_tit_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Тит ]
+		(* <- lang_ru;; *);;
+
+char_filipp_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Филипп ]
+		(* <- lang_ru;; *);;
+
+char_pavij_book_Dekameron
+<- char;
+=> nrel_main_idtf:
+	[ Павий ]
+		(* <- lang_ru;; *);;
+
+book_Dekameron
+=> nrel_locales:
+	.book_Dekameron_locales
+		(*
+			-> locale_kotoryj_book_Dekameron;;
+			-> locale_paskvino_book_Dekameron;;
+			-> locale_kan_book_Dekameron;;
+			-> locale_kremona_book_Dekameron;;
+			-> locale_gino_book_Dekameron;;
+			-> locale_monako_book_Dekameron;;
+			-> locale_raznyj_kraj_book_Dekameron;;
+			-> locale_pampinej_book_Dekameron;;
+			-> locale_felic_book_Dekameron;;
+			-> locale_ricc_ardoe_book_Dekameron;;
+			-> locale_filostrato_book_Dekameron;;
+			-> locale_bolon_a_book_Dekameron;;
+			-> locale_para_book_Dekameron;;
+			-> locale_sizilia_book_Dekameron;;
+			-> locale_al_beriga_book_Dekameron;;
+			-> locale_rasskaz_book_Dekameron;;
+			-> locale_dj_annola_book_Dekameron;;
+			-> locale_kuma_book_Dekameron;;
+			-> locale_ih_pampinea_book_Dekameron;;
+			-> locale_paganino_book_Dekameron;;
+			-> locale_don_book_Dekameron;;
+			-> locale_anglia_book_Dekameron;;
+			-> locale_rim_book_Dekameron;;
+			-> locale_kalandrino_book_Dekameron;;
+			-> locale_dioneo_book_Dekameron;;
+			-> locale_traversari_book_Dekameron;;
+			-> locale_martellinoe_book_Dekameron;;
+			-> locale_mingino_book_Dekameron;;
+			-> locale_rodos_book_Dekameron;;
+			-> locale_p_etro_bokkamazza_book_Dekameron;;
+			-> locale_krit_book_Dekameron;;
+			-> locale_svoa_kuma_book_Dekameron;;
+			-> locale_lubim_book_Dekameron;;
+			-> locale_kipr_book_Dekameron;;
+			-> locale_parij_book_Dekameron;;
+			-> locale_teodoro_book_Dekameron;;
+			-> locale_nea_book_Dekameron;;
+			-> locale_pabat_book_Dekameron;;
+			-> locale_kosa_book_Dekameron;;
+			-> locale_bel_tramo_book_Dekameron;;
+			-> locale_beritol_book_Dekameron;;
+			-> locale_narbonn_book_Dekameron;;
+			-> locale_ves__car_book_Dekameron;;
+			-> locale_kuda_book_Dekameron;;
+			-> locale_djirolamo_book_Dekameron;;
+			-> locale_al_bert_book_Dekameron;;
+			-> locale_djerbino_book_Dekameron;;
+			-> locale_tunis_book_Dekameron;;
+			-> locale_to_book_Dekameron;;
+			-> locale_maj_book_Dekameron;;
+			-> locale_florenzia_book_Dekameron;;
+			-> locale_modena_book_Dekameron;;
+			-> locale_kurrad_book_Dekameron;;
+			-> locale_agilul_f_book_Dekameron;;
+			-> locale_neapol__book_Dekameron;;
+	 	*);;
+
+locale_kotoryj_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_paskvino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Пасквино ]
+		(* <- lang_ru;; *);;
+
+locale_kan_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Кан ]
+		(* <- lang_ru;; *);;
+
+locale_kremona_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Кремона ]
+		(* <- lang_ru;; *);;
+
+locale_gino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Гино ]
+		(* <- lang_ru;; *);;
+
+locale_monako_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Монако ]
+		(* <- lang_ru;; *);;
+
+locale_raznyj_kraj_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Разный Край ]
+		(* <- lang_ru;; *);;
+
+locale_pampinej_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Пампиней ]
+		(* <- lang_ru;; *);;
+
+locale_felic_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Фелич ]
+		(* <- lang_ru;; *);;
+
+locale_ricc_ardoe_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Риччьярдое ]
+		(* <- lang_ru;; *);;
+
+locale_filostrato_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Филострато ]
+		(* <- lang_ru;; *);;
+
+locale_bolon_a_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Болонья ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_sizilia_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Сицилия ]
+		(* <- lang_ru;; *);;
+
+locale_al_beriga_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Альберига ]
+		(* <- lang_ru;; *);;
+
+locale_rasskaz_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Рассказ ]
+		(* <- lang_ru;; *);;
+
+locale_dj_annola_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Джьяннола ]
+		(* <- lang_ru;; *);;
+
+locale_kuma_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Кума ]
+		(* <- lang_ru;; *);;
+
+locale_ih_pampinea_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Их Пампинея ]
+		(* <- lang_ru;; *);;
+
+locale_paganino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Паганино ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_kalandrino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Каландрино ]
+		(* <- lang_ru;; *);;
+
+locale_dioneo_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Дионео ]
+		(* <- lang_ru;; *);;
+
+locale_traversari_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Траверсари ]
+		(* <- lang_ru;; *);;
+
+locale_martellinoe_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Мартеллиное ]
+		(* <- lang_ru;; *);;
+
+locale_mingino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Мингино ]
+		(* <- lang_ru;; *);;
+
+locale_rodos_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Родос ]
+		(* <- lang_ru;; *);;
+
+locale_p_etro_bokkamazza_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Пьетро Боккамацца ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_svoa_kuma_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Своя Кума ]
+		(* <- lang_ru;; *);;
+
+locale_lubim_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Любим ]
+		(* <- lang_ru;; *);;
+
+locale_kipr_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Кипр ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_teodoro_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Теодоро ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_pabat_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Пабат ]
+		(* <- lang_ru;; *);;
+
+locale_kosa_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Коса ]
+		(* <- lang_ru;; *);;
+
+locale_bel_tramo_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Бельтрамо ]
+		(* <- lang_ru;; *);;
+
+locale_beritol_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Беритол ]
+		(* <- lang_ru;; *);;
+
+locale_narbonn_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Нарбонн ]
+		(* <- lang_ru;; *);;
+
+locale_ves__car_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Весь Чар ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_djirolamo_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Джироламо ]
+		(* <- lang_ru;; *);;
+
+locale_al_bert_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Альберт ]
+		(* <- lang_ru;; *);;
+
+locale_djerbino_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Джербино ]
+		(* <- lang_ru;; *);;
+
+locale_tunis_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Тунис ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_maj_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Май ]
+		(* <- lang_ru;; *);;
+
+locale_florenzia_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Флоренция ]
+		(* <- lang_ru;; *);;
+
+locale_modena_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Модена ]
+		(* <- lang_ru;; *);;
+
+locale_kurrad_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Куррад ]
+		(* <- lang_ru;; *);;
+
+locale_agilul_f_book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Агилульф ]
+		(* <- lang_ru;; *);;
+
+locale_neapol__book_Dekameron
+<- locale;
+=> nrel_main_idtf:
+	[ Неаполь ]
+		(* <- lang_ru;; *);;
+
+book_Dekameron
+=> nrel_dates:
+	.book_Dekameron_dates
+		(*
+			-> date_1348_book_Dekameron;;
+	 	*);;
+
+date_1348_book_Dekameron
+<- date;
+=> nrel_main_idtf:
+	[ 1348 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,71 @@
+book_Ubijstva_Na_Ulice_Morg
+<- book;
+=> nrel_author;
+	author_Po;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Убийство На Улице Морг]
+		(* <- lang_ru;; *);;
+
+book_Ubijstva_Na_Ulice_Morg
+=> nrel_characters:
+	.book_Ubijstva_Na_Ulice_Morg_characters
+		(*
+			-> char_espane_book_Ubijstva_Na_Ulice_Morg;;
+			-> char_adol_f_book_Ubijstva_Na_Ulice_Morg;;
+			-> char_kamilla_book_Ubijstva_Na_Ulice_Morg;;
+	 	*);;
+
+char_espane_book_Ubijstva_Na_Ulice_Morg
+<- char;
+=> nrel_main_idtf:
+	[ Эспанэ ]
+		(* <- lang_ru;; *);;
+
+char_adol_f_book_Ubijstva_Na_Ulice_Morg
+<- char;
+=> nrel_main_idtf:
+	[ Адольф ]
+		(* <- lang_ru;; *);;
+
+char_kamilla_book_Ubijstva_Na_Ulice_Morg
+<- char;
+=> nrel_main_idtf:
+	[ Камилла ]
+		(* <- lang_ru;; *);;
+
+book_Ubijstva_Na_Ulice_Morg
+=> nrel_locales:
+	.book_Ubijstva_Na_Ulice_Morg_locales
+		(*
+			-> locale_mirnyj_book_Ubijstva_Na_Ulice_Morg;;
+			-> locale_parij_book_Ubijstva_Na_Ulice_Morg;;
+			-> locale_to_book_Ubijstva_Na_Ulice_Morg;;
+			-> locale_borneo_book_Ubijstva_Na_Ulice_Morg;;
+	 	*);;
+
+locale_mirnyj_book_Ubijstva_Na_Ulice_Morg
+<- locale;
+=> nrel_main_idtf:
+	[ Мирный ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Ubijstva_Na_Ulice_Morg
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Ubijstva_Na_Ulice_Morg
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_borneo_book_Ubijstva_Na_Ulice_Morg
+<- locale;
+=> nrel_main_idtf:
+	[ Борнео ]
+		(* <- lang_ru;; *);;
+

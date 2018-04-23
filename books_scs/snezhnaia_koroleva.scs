@@ -1,0 +1,78 @@
+book_Snezhnaia_Koroleva
+<- book;
+=> nrel_author;
+	author_Andersen;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Снежная Королева]
+		(* <- lang_ru;; *);;
+
+book_Snezhnaia_Koroleva
+=> nrel_characters:
+	.book_Snezhnaia_Koroleva_characters
+		(*
+			-> char_gerd_book_Snezhnaia_Koroleva;;
+			-> char_laplandij_book_Snezhnaia_Koroleva;;
+			-> char_gerda_book_Snezhnaia_Koroleva;;
+			-> char_kaj_book_Snezhnaia_Koroleva;;
+	 	*);;
+
+char_gerd_book_Snezhnaia_Koroleva
+<- char;
+=> nrel_main_idtf:
+	[ Герд ]
+		(* <- lang_ru;; *);;
+
+char_laplandij_book_Snezhnaia_Koroleva
+<- char;
+=> nrel_main_idtf:
+	[ Лапландий ]
+		(* <- lang_ru;; *);;
+
+char_gerda_book_Snezhnaia_Koroleva
+<- char;
+=> nrel_main_idtf:
+	[ Герда ]
+		(* <- lang_ru;; *);;
+
+char_kaj_book_Snezhnaia_Koroleva
+<- char;
+=> nrel_main_idtf:
+	[ Кай ]
+		(* <- lang_ru;; *);;
+
+book_Snezhnaia_Koroleva
+=> nrel_locales:
+	.book_Snezhnaia_Koroleva_locales
+		(*
+			-> locale_kotoryj_book_Snezhnaia_Koroleva;;
+			-> locale_car_book_Snezhnaia_Koroleva;;
+			-> locale_laplandij_book_Snezhnaia_Koroleva;;
+			-> locale_para_book_Snezhnaia_Koroleva;;
+	 	*);;
+
+locale_kotoryj_book_Snezhnaia_Koroleva
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Snezhnaia_Koroleva
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_laplandij_book_Snezhnaia_Koroleva
+<- locale;
+=> nrel_main_idtf:
+	[ Лапландий ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Snezhnaia_Koroleva
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

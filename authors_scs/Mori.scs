@@ -1,0 +1,16 @@
+author_Mori
+<- person;
+=> nrel_main_idtf:
+	[Огай Мори]
+		(* <- lang_ru;; *);;
+
+author_Mori
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Mori.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

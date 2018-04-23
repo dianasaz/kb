@@ -1,0 +1,357 @@
+book_Tartak
+<- book;
+=> nrel_author;
+	author_Ptashnikov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тартак]
+		(* <- lang_ru;; *);;
+
+book_Tartak
+=> nrel_characters:
+	.book_Tartak_characters
+		(*
+			-> char_vand__book_Tartak;;
+			-> char_dolginov_book_Tartak;;
+			-> char_ivan_book_Tartak;;
+			-> char_tarej_book_Tartak;;
+			-> char_nasta_book_Tartak;;
+			-> char_tartak_book_Tartak;;
+			-> char_alesa_sergejhin_book_Tartak;;
+			-> char_mahorkin_book_Tartak;;
+			-> char_voloda_book_Tartak;;
+			-> char_bulancik_book_Tartak;;
+			-> char_alesa_book_Tartak;;
+			-> char_nastina_book_Tartak;;
+			-> char_bogancikov_book_Tartak;;
+			-> char_voloda_panok_book_Tartak;;
+			-> char_uzuk_book_Tartak;;
+			-> char_mironova_book_Tartak;;
+			-> char_pilip_book_Tartak;;
+			-> char_verka_book_Tartak;;
+			-> char_bogancik_book_Tartak;;
+			-> char_dal_va_book_Tartak;;
+			-> char_tana_book_Tartak;;
+			-> char_panka_book_Tartak;;
+			-> char_ales_book_Tartak;;
+			-> char_boris_book_Tartak;;
+			-> char_suhov_book_Tartak;;
+	 	*);;
+
+char_vand__book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Вандь ]
+		(* <- lang_ru;; *);;
+
+char_dolginov_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Долгинов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_tarej_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Тарей ]
+		(* <- lang_ru;; *);;
+
+char_nasta_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Настя ]
+		(* <- lang_ru;; *);;
+
+char_tartak_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Тартак ]
+		(* <- lang_ru;; *);;
+
+char_alesa_sergejhin_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Алёша Сергейхин ]
+		(* <- lang_ru;; *);;
+
+char_mahorkin_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Махоркин ]
+		(* <- lang_ru;; *);;
+
+char_voloda_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Володя ]
+		(* <- lang_ru;; *);;
+
+char_bulancik_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Буланчик ]
+		(* <- lang_ru;; *);;
+
+char_alesa_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Алёша ]
+		(* <- lang_ru;; *);;
+
+char_nastina_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Настина ]
+		(* <- lang_ru;; *);;
+
+char_bogancikov_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Боганчиков ]
+		(* <- lang_ru;; *);;
+
+char_voloda_panok_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Володя Панок ]
+		(* <- lang_ru;; *);;
+
+char_uzuk_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Юзюк ]
+		(* <- lang_ru;; *);;
+
+char_mironova_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Миронова ]
+		(* <- lang_ru;; *);;
+
+char_pilip_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Пилип ]
+		(* <- lang_ru;; *);;
+
+char_verka_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Верка ]
+		(* <- lang_ru;; *);;
+
+char_bogancik_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Боганчик ]
+		(* <- lang_ru;; *);;
+
+char_dal_va_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Дальва ]
+		(* <- lang_ru;; *);;
+
+char_tana_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Таня ]
+		(* <- lang_ru;; *);;
+
+char_panka_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Панка ]
+		(* <- lang_ru;; *);;
+
+char_ales_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Алеш ]
+		(* <- lang_ru;; *);;
+
+char_boris_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Борис ]
+		(* <- lang_ru;; *);;
+
+char_suhov_book_Tartak
+<- char;
+=> nrel_main_idtf:
+	[ Сухов ]
+		(* <- lang_ru;; *);;
+
+book_Tartak
+=> nrel_locales:
+	.book_Tartak_locales
+		(*
+			-> locale_begoml__book_Tartak;;
+			-> locale_karman_book_Tartak;;
+			-> locale_anukova_book_Tartak;;
+			-> locale_dvojnoj_ram_book_Tartak;;
+			-> locale_doksizy_book_Tartak;;
+			-> locale_ee_kuda_book_Tartak;;
+			-> locale_tana_book_Tartak;;
+			-> locale_krasnyj_book_Tartak;;
+			-> locale_boris_book_Tartak;;
+			-> locale_jeltyj_kraj_book_Tartak;;
+			-> locale_krasnoe_book_Tartak;;
+			-> locale_krajsk_book_Tartak;;
+			-> locale_krasnaa_book_Tartak;;
+			-> locale_tol_book_Tartak;;
+			-> locale_minsk_book_Tartak;;
+			-> locale_ludvinovo_book_Tartak;;
+			-> locale_kuda_book_Tartak;;
+			-> locale_samyj_krasnyj_book_Tartak;;
+			-> locale_lesna_book_Tartak;;
+			-> locale_to_book_Tartak;;
+			-> locale_ud_book_Tartak;;
+	 	*);;
+
+locale_begoml__book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Бегомль ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_anukova_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Янукова ]
+		(* <- lang_ru;; *);;
+
+locale_dvojnoj_ram_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Двойной Рам ]
+		(* <- lang_ru;; *);;
+
+locale_doksizy_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Докшицы ]
+		(* <- lang_ru;; *);;
+
+locale_ee_kuda_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Её Куда ]
+		(* <- lang_ru;; *);;
+
+locale_tana_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Тана ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_boris_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Борис ]
+		(* <- lang_ru;; *);;
+
+locale_jeltyj_kraj_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Жёлтый Край ]
+		(* <- lang_ru;; *);;
+
+locale_krasnoe_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Красное ]
+		(* <- lang_ru;; *);;
+
+locale_krajsk_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Крайск ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_tol_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Тол ]
+		(* <- lang_ru;; *);;
+
+locale_minsk_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Минск ]
+		(* <- lang_ru;; *);;
+
+locale_ludvinovo_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Людвиново ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_krasnyj_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Красный ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_ud_book_Tartak
+<- locale;
+=> nrel_main_idtf:
+	[ Уд ]
+		(* <- lang_ru;; *);;
+
+book_Tartak
+=> nrel_dates:
+	.book_Tartak_dates
+		(*
+			-> date_1944_book_Tartak;;
+	 	*);;
+
+date_1944_book_Tartak
+<- date;
+=> nrel_main_idtf:
+	[ 1944 ]
+		(* <- lang_ru;; *);;
+

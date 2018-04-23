@@ -1,0 +1,119 @@
+book_Polkovniku_Nikto_Ne_Pishet
+<- book;
+=> nrel_author;
+	author_Markes;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Полковнику Никто Не Пишет]
+		(* <- lang_ru;; *);;
+
+book_Polkovniku_Nikto_Ne_Pishet
+=> nrel_characters:
+	.book_Polkovniku_Nikto_Ne_Pishet_characters
+		(*
+			-> char_don_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> char_sabas_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> char_agustina_book_Polkovniku_Nikto_Ne_Pishet;;
+	 	*);;
+
+char_don_book_Polkovniku_Nikto_Ne_Pishet
+<- char;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+char_sabas_book_Polkovniku_Nikto_Ne_Pishet
+<- char;
+=> nrel_main_idtf:
+	[ Сабас ]
+		(* <- lang_ru;; *);;
+
+char_agustina_book_Polkovniku_Nikto_Ne_Pishet
+<- char;
+=> nrel_main_idtf:
+	[ Агустина ]
+		(* <- lang_ru;; *);;
+
+book_Polkovniku_Nikto_Ne_Pishet
+=> nrel_locales:
+	.book_Polkovniku_Nikto_Ne_Pishet_locales
+		(*
+			-> locale_kolumbia_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_karman_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_anhel__book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_sabas_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_kuma_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_gorodok_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_don_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_evropa_book_Polkovniku_Nikto_Ne_Pishet;;
+			-> locale_provinzial_nyj_gorodok_book_Polkovniku_Nikto_Ne_Pishet;;
+	 	*);;
+
+locale_kolumbia_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Колумбия ]
+		(* <- lang_ru;; *);;
+
+locale_karman_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_anhel__book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Анхель ]
+		(* <- lang_ru;; *);;
+
+locale_sabas_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Сабас ]
+		(* <- lang_ru;; *);;
+
+locale_kuma_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Кума ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_don_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Дон ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_provinzial_nyj_gorodok_book_Polkovniku_Nikto_Ne_Pishet
+<- locale;
+=> nrel_main_idtf:
+	[ Провинциальный Городок ]
+		(* <- lang_ru;; *);;
+
+book_Polkovniku_Nikto_Ne_Pishet
+=> nrel_dates:
+	.book_Polkovniku_Nikto_Ne_Pishet_dates
+		(*
+			-> date_1956_book_Polkovniku_Nikto_Ne_Pishet;;
+	 	*);;
+
+date_1956_book_Polkovniku_Nikto_Ne_Pishet
+<- date;
+=> nrel_main_idtf:
+	[ 1956 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,183 @@
+book_Gamlet
+<- book;
+=> nrel_author;
+	author_Shekspir;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Гамлет, Принц Датский]
+		(* <- lang_ru;; *);;
+
+book_Gamlet
+=> nrel_characters:
+	.book_Gamlet_characters
+		(*
+			-> char_bernard_book_Gamlet;;
+			-> char_rozenkranz_book_Gamlet;;
+			-> char_zveta_book_Gamlet;;
+			-> char_laerta_book_Gamlet;;
+			-> char_vittenberg_book_Gamlet;;
+			-> char_priam_book_Gamlet;;
+			-> char_gonzago_book_Gamlet;;
+			-> char_makedonskij_book_Gamlet;;
+			-> char_aleksandr_book_Gamlet;;
+			-> char_ofelia_book_Gamlet;;
+			-> char_gamlet_book_Gamlet;;
+			-> char_ozrik_book_Gamlet;;
+	 	*);;
+
+char_bernard_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Бернард ]
+		(* <- lang_ru;; *);;
+
+char_rozenkranz_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Розенкранц ]
+		(* <- lang_ru;; *);;
+
+char_zveta_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Цвета ]
+		(* <- lang_ru;; *);;
+
+char_laerta_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Лаэрта ]
+		(* <- lang_ru;; *);;
+
+char_vittenberg_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Виттенберг ]
+		(* <- lang_ru;; *);;
+
+char_priam_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Приам ]
+		(* <- lang_ru;; *);;
+
+char_gonzago_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Гонзаго ]
+		(* <- lang_ru;; *);;
+
+char_makedonskij_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Македонский ]
+		(* <- lang_ru;; *);;
+
+char_aleksandr_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Александр ]
+		(* <- lang_ru;; *);;
+
+char_ofelia_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Офелия ]
+		(* <- lang_ru;; *);;
+
+char_gamlet_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Гамлет ]
+		(* <- lang_ru;; *);;
+
+char_ozrik_book_Gamlet
+<- char;
+=> nrel_main_idtf:
+	[ Озрик ]
+		(* <- lang_ru;; *);;
+
+book_Gamlet
+=> nrel_locales:
+	.book_Gamlet_locales
+		(*
+			-> locale_gorazio_book_Gamlet;;
+			-> locale_groznyj_book_Gamlet;;
+			-> locale_bezvestnyj_kraj_book_Gamlet;;
+			-> locale_belena_book_Gamlet;;
+			-> locale_kotoryj_book_Gamlet;;
+			-> locale_kuda_book_Gamlet;;
+			-> locale_dania_book_Gamlet;;
+			-> locale_parij_book_Gamlet;;
+			-> locale_to_book_Gamlet;;
+			-> locale_anglia_book_Gamlet;;
+			-> locale_pol_sa_book_Gamlet;;
+	 	*);;
+
+locale_gorazio_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Горацио ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_bezvestnyj_kraj_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Безвестный Край ]
+		(* <- lang_ru;; *);;
+
+locale_belena_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Белена ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_dania_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Дания ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Gamlet
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+

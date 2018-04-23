@@ -1,0 +1,16 @@
+author_Rodari
+<- person;
+=> nrel_main_idtf:
+	[Джанни Родари]
+		(* <- lang_ru;; *);;
+
+author_Rodari
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Rodari.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

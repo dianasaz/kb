@@ -1,0 +1,16 @@
+author_Korotkevich
+<- person;
+=> nrel_main_idtf:
+	[Владимир Короткевич]
+		(* <- lang_ru;; *);;
+
+author_Korotkevich
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Korotkevich.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

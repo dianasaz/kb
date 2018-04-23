@@ -1,0 +1,218 @@
+book_Poiushchie_V_Ternovnike
+<- book;
+=> nrel_author;
+	author_Makkalou;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Поющие В Терновнике]
+		(* <- lang_ru;; *);;
+
+book_Poiushchie_V_Ternovnike
+=> nrel_characters:
+	.book_Poiushchie_V_Ternovnike_characters
+		(*
+			-> char_fiona_book_Poiushchie_V_Ternovnike;;
+			-> char_brikassar_book_Poiushchie_V_Ternovnike;;
+			-> char_padrik_book_Poiushchie_V_Ternovnike;;
+			-> char_ral_f_book_Poiushchie_V_Ternovnike;;
+			-> char_peddi_book_Poiushchie_V_Ternovnike;;
+			-> char_lion_book_Poiushchie_V_Ternovnike;;
+			-> char_karson_book_Poiushchie_V_Ternovnike;;
+			-> char_djastin_book_Poiushchie_V_Ternovnike;;
+			-> char_frenk_book_Poiushchie_V_Ternovnike;;
+			-> char_majkl_karson_book_Poiushchie_V_Ternovnike;;
+			-> char_mussolini_book_Poiushchie_V_Ternovnike;;
+			-> char_meri_book_Poiushchie_V_Ternovnike;;
+			-> char_den_book_Poiushchie_V_Ternovnike;;
+			-> char_megga_book_Poiushchie_V_Ternovnike;;
+			-> char_stuart_book_Poiushchie_V_Ternovnike;;
+			-> char_kliri_book_Poiushchie_V_Ternovnike;;
+	 	*);;
+
+char_fiona_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Фиона ]
+		(* <- lang_ru;; *);;
+
+char_brikassar_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Брикассар ]
+		(* <- lang_ru;; *);;
+
+char_padrik_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Падрик ]
+		(* <- lang_ru;; *);;
+
+char_ral_f_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Ральф ]
+		(* <- lang_ru;; *);;
+
+char_peddi_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Пэдди ]
+		(* <- lang_ru;; *);;
+
+char_lion_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+char_karson_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Карсон ]
+		(* <- lang_ru;; *);;
+
+char_djastin_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Джастин ]
+		(* <- lang_ru;; *);;
+
+char_frenk_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Фрэнк ]
+		(* <- lang_ru;; *);;
+
+char_majkl_karson_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Майкл Карсон ]
+		(* <- lang_ru;; *);;
+
+char_mussolini_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Муссолини ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Мэри ]
+		(* <- lang_ru;; *);;
+
+char_den_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Дэн ]
+		(* <- lang_ru;; *);;
+
+char_megga_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Мэгга ]
+		(* <- lang_ru;; *);;
+
+char_stuart_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Стюарт ]
+		(* <- lang_ru;; *);;
+
+char_kliri_book_Poiushchie_V_Ternovnike
+<- char;
+=> nrel_main_idtf:
+	[ Клири ]
+		(* <- lang_ru;; *);;
+
+book_Poiushchie_V_Ternovnike
+=> nrel_locales:
+	.book_Poiushchie_V_Ternovnike_locales
+		(*
+			-> locale_suprujeskaa_para_book_Poiushchie_V_Ternovnike;;
+			-> locale_vatikan_book_Poiushchie_V_Ternovnike;;
+			-> locale_avstralia_book_Poiushchie_V_Ternovnike;;
+			-> locale_krit_book_Poiushchie_V_Ternovnike;;
+			-> locale_nil_book_Poiushchie_V_Ternovnike;;
+			-> locale_evropa_book_Poiushchie_V_Ternovnike;;
+			-> locale_san_book_Poiushchie_V_Ternovnike;;
+			-> locale_london_book_Poiushchie_V_Ternovnike;;
+			-> locale_lion_book_Poiushchie_V_Ternovnike;;
+			-> locale_novaa_zelandia_book_Poiushchie_V_Ternovnike;;
+			-> locale_rim_book_Poiushchie_V_Ternovnike;;
+			-> locale_para_book_Poiushchie_V_Ternovnike;;
+	 	*);;
+
+locale_suprujeskaa_para_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Супружеская Пара ]
+		(* <- lang_ru;; *);;
+
+locale_vatikan_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Ватикан ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_krit_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Крит ]
+		(* <- lang_ru;; *);;
+
+locale_nil_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Нил ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_san_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Сан ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_lion_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_zelandia_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Зеландия ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Poiushchie_V_Ternovnike
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

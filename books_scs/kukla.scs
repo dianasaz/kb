@@ -1,0 +1,294 @@
+book_Kukla
+<- book;
+=> nrel_author;
+	author_Prus;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кукла]
+		(* <- lang_ru;; *);;
+
+book_Kukla
+=> nrel_characters:
+	.book_Kukla_characters
+		(*
+			-> char_elena_book_Kukla;;
+			-> char_starskij_book_Kukla;;
+			-> char_stanislav_petrovic_book_Kukla;;
+			-> char_izabella_lenzkaa_book_Kukla;;
+			-> char_elene_stavskaa_book_Kukla;;
+			-> char_pani_book_Kukla;;
+			-> char_vokul_skij_book_Kukla;;
+			-> char_tomas_lenzkij_book_Kukla;;
+			-> char_stavskaa_book_Kukla;;
+			-> char_tomas_book_Kukla;;
+			-> char_stanislav_vokul_skij_book_Kukla;;
+			-> char_suman_book_Kukla;;
+			-> char_zaslavskaa_book_Kukla;;
+			-> char_malgojata_book_Kukla;;
+			-> char_zaslavskij_book_Kukla;;
+	 	*);;
+
+char_elena_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Элена ]
+		(* <- lang_ru;; *);;
+
+char_starskij_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Старский ]
+		(* <- lang_ru;; *);;
+
+char_stanislav_petrovic_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Станислав Петрович ]
+		(* <- lang_ru;; *);;
+
+char_izabella_lenzkaa_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Изабелла Ленцкая ]
+		(* <- lang_ru;; *);;
+
+char_elene_stavskaa_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Элене Ставская ]
+		(* <- lang_ru;; *);;
+
+char_pani_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Пани ]
+		(* <- lang_ru;; *);;
+
+char_vokul_skij_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Вокульский ]
+		(* <- lang_ru;; *);;
+
+char_tomas_lenzkij_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Томаш Ленцкий ]
+		(* <- lang_ru;; *);;
+
+char_stavskaa_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Ставская ]
+		(* <- lang_ru;; *);;
+
+char_tomas_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Томаш ]
+		(* <- lang_ru;; *);;
+
+char_stanislav_vokul_skij_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Станислав Вокульский ]
+		(* <- lang_ru;; *);;
+
+char_suman_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Шуман ]
+		(* <- lang_ru;; *);;
+
+char_zaslavskaa_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Заславская ]
+		(* <- lang_ru;; *);;
+
+char_malgojata_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Малгожата ]
+		(* <- lang_ru;; *);;
+
+char_zaslavskij_book_Kukla
+<- char;
+=> nrel_main_idtf:
+	[ Заславский ]
+		(* <- lang_ru;; *);;
+
+book_Kukla
+=> nrel_locales:
+	.book_Kukla_locales
+		(*
+			-> locale_sibir__book_Kukla;;
+			-> locale_ohozkoma_book_Kukla;;
+			-> locale_suzina_book_Kukla;;
+			-> locale_suzin_book_Kukla;;
+			-> locale_pol_sa_book_Kukla;;
+			-> locale_russko_book_Kukla;;
+			-> locale_krakov_book_Kukla;;
+			-> locale_irkutsk_book_Kukla;;
+			-> locale_krasnyj_book_Kukla;;
+			-> locale_litva_book_Kukla;;
+			-> locale_vokul_skij_book_Kukla;;
+			-> locale_velikoe_book_Kukla;;
+			-> locale_vengria_book_Kukla;;
+			-> locale_parij_book_Kukla;;
+			-> locale_vostok_book_Kukla;;
+			-> locale_rossia_book_Kukla;;
+			-> locale_kuda_book_Kukla;;
+			-> locale_to_book_Kukla;;
+			-> locale_jezkoma_book_Kukla;;
+			-> locale_para_book_Kukla;;
+			-> locale_varsava_book_Kukla;;
+	 	*);;
+
+locale_sibir__book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_ohozkoma_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Охоцкома ]
+		(* <- lang_ru;; *);;
+
+locale_suzina_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Сузина ]
+		(* <- lang_ru;; *);;
+
+locale_suzin_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Сузин ]
+		(* <- lang_ru;; *);;
+
+locale_pol_sa_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Польша ]
+		(* <- lang_ru;; *);;
+
+locale_russko_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Русско ]
+		(* <- lang_ru;; *);;
+
+locale_krakov_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Краков ]
+		(* <- lang_ru;; *);;
+
+locale_irkutsk_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Иркутск ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_litva_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Литва ]
+		(* <- lang_ru;; *);;
+
+locale_vokul_skij_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Вокульский ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_vengria_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Венгрия ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_vostok_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Восток ]
+		(* <- lang_ru;; *);;
+
+locale_rossia_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Россия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_jezkoma_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Жецкома ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_varsava_book_Kukla
+<- locale;
+=> nrel_main_idtf:
+	[ Варшава ]
+		(* <- lang_ru;; *);;
+
+book_Kukla
+=> nrel_dates:
+	.book_Kukla_dates
+		(*
+			-> date_1878_book_Kukla;;
+			-> date_1849_book_Kukla;;
+	 	*);;
+
+date_1878_book_Kukla
+<- date;
+=> nrel_main_idtf:
+	[ 1878 ]
+		(* <- lang_ru;; *);;
+
+date_1849_book_Kukla
+<- date;
+=> nrel_main_idtf:
+	[ 1849 ]
+		(* <- lang_ru;; *);;
+

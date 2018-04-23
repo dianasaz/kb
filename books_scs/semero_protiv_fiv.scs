@@ -1,0 +1,134 @@
+book_Semero_Protiv_Fiv
+<- book;
+=> nrel_author;
+	author_Esxil;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Семеро Против Фив]
+		(* <- lang_ru;; *);;
+
+book_Semero_Protiv_Fiv
+=> nrel_characters:
+	.book_Semero_Protiv_Fiv_characters
+		(*
+			-> char_polinik_book_Semero_Protiv_Fiv;;
+			-> char_argos_book_Semero_Protiv_Fiv;;
+			-> char_edip_book_Semero_Protiv_Fiv;;
+			-> char_laij_book_Semero_Protiv_Fiv;;
+			-> char_antigona_book_Semero_Protiv_Fiv;;
+			-> char_kapanej_book_Semero_Protiv_Fiv;;
+			-> char_eteokla_book_Semero_Protiv_Fiv;;
+			-> char_edipov_book_Semero_Protiv_Fiv;;
+			-> char_amfiaraj_book_Semero_Protiv_Fiv;;
+	 	*);;
+
+char_polinik_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Полиник ]
+		(* <- lang_ru;; *);;
+
+char_argos_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Аргос ]
+		(* <- lang_ru;; *);;
+
+char_edip_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Эдип ]
+		(* <- lang_ru;; *);;
+
+char_laij_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Лаий ]
+		(* <- lang_ru;; *);;
+
+char_antigona_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Антигона ]
+		(* <- lang_ru;; *);;
+
+char_kapanej_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Капаней ]
+		(* <- lang_ru;; *);;
+
+char_eteokla_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Этеокла ]
+		(* <- lang_ru;; *);;
+
+char_edipov_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Эдипов ]
+		(* <- lang_ru;; *);;
+
+char_amfiaraj_book_Semero_Protiv_Fiv
+<- char;
+=> nrel_main_idtf:
+	[ Амфиарай ]
+		(* <- lang_ru;; *);;
+
+book_Semero_Protiv_Fiv
+=> nrel_locales:
+	.book_Semero_Protiv_Fiv_locales
+		(*
+			-> locale_semivratnyj_fivy_book_Semero_Protiv_Fiv;;
+			-> locale_ujnaa_grezia_book_Semero_Protiv_Fiv;;
+			-> locale_srednaa_grezia_book_Semero_Protiv_Fiv;;
+			-> locale_jemen_book_Semero_Protiv_Fiv;;
+			-> locale_mificeskaa_grezia_book_Semero_Protiv_Fiv;;
+			-> locale_to_book_Semero_Protiv_Fiv;;
+			-> locale_fivy_book_Semero_Protiv_Fiv;;
+	 	*);;
+
+locale_semivratnyj_fivy_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Семивратный Фивы ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_grezia_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Греция ]
+		(* <- lang_ru;; *);;
+
+locale_srednaa_grezia_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Средняя Греция ]
+		(* <- lang_ru;; *);;
+
+locale_jemen_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Йемен ]
+		(* <- lang_ru;; *);;
+
+locale_mificeskaa_grezia_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Мифическая Греция ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_fivy_book_Semero_Protiv_Fiv
+<- locale;
+=> nrel_main_idtf:
+	[ Фивы ]
+		(* <- lang_ru;; *);;
+

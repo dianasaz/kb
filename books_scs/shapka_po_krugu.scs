@@ -1,0 +1,162 @@
+book_Shapka_Po_Krugu
+<- book;
+=> nrel_author;
+	author_Louson;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Шапка По Кругу]
+		(* <- lang_ru;; *);;
+
+book_Shapka_Po_Krugu
+=> nrel_characters:
+	.book_Shapka_Po_Krugu_characters
+		(*
+			-> char_bob_book_Shapka_Po_Krugu;;
+			-> char_bob_beker_book_Shapka_Po_Krugu;;
+			-> char_smit_book_Shapka_Po_Krugu;;
+			-> char_djek_book_Shapka_Po_Krugu;;
+			-> char_strigal__book_Shapka_Po_Krugu;;
+			-> char_endi_m_book_Shapka_Po_Krugu;;
+			-> char_neda_book_Shapka_Po_Krugu;;
+			-> char_genri_louson_book_Shapka_Po_Krugu;;
+			-> char_endi_book_Shapka_Po_Krugu;;
+			-> char_bill_book_Shapka_Po_Krugu;;
+	 	*);;
+
+char_bob_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Боб ]
+		(* <- lang_ru;; *);;
+
+char_bob_beker_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Боб Бэкер ]
+		(* <- lang_ru;; *);;
+
+char_smit_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Смит ]
+		(* <- lang_ru;; *);;
+
+char_djek_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Джек ]
+		(* <- lang_ru;; *);;
+
+char_strigal__book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Стригаль ]
+		(* <- lang_ru;; *);;
+
+char_endi_m_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Энди М ]
+		(* <- lang_ru;; *);;
+
+char_neda_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Неда ]
+		(* <- lang_ru;; *);;
+
+char_genri_louson_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Генри Лоусон ]
+		(* <- lang_ru;; *);;
+
+char_endi_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Энди ]
+		(* <- lang_ru;; *);;
+
+char_bill_book_Shapka_Po_Krugu
+<- char;
+=> nrel_main_idtf:
+	[ Билл ]
+		(* <- lang_ru;; *);;
+
+book_Shapka_Po_Krugu
+=> nrel_locales:
+	.book_Shapka_Po_Krugu_locales
+		(*
+			-> locale_sidnej_book_Shapka_Po_Krugu;;
+			-> locale_rasskaz_book_Shapka_Po_Krugu;;
+			-> locale_kotoryj_book_Shapka_Po_Krugu;;
+			-> locale_avstralia_book_Shapka_Po_Krugu;;
+			-> locale_brasersa_book_Shapka_Po_Krugu;;
+			-> locale_mal_gataun_book_Shapka_Po_Krugu;;
+			-> locale_strigal__book_Shapka_Po_Krugu;;
+			-> locale_viktoria_book_Shapka_Po_Krugu;;
+			-> locale_brummi_book_Shapka_Po_Krugu;;
+			-> locale_kapustnaa_pal_ma_book_Shapka_Po_Krugu;;
+	 	*);;
+
+locale_sidnej_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Сидней ]
+		(* <- lang_ru;; *);;
+
+locale_rasskaz_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Рассказ ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_avstralia_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Австралия ]
+		(* <- lang_ru;; *);;
+
+locale_brasersa_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Брасерса ]
+		(* <- lang_ru;; *);;
+
+locale_mal_gataun_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Мальгатаун ]
+		(* <- lang_ru;; *);;
+
+locale_strigal__book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Стригаль ]
+		(* <- lang_ru;; *);;
+
+locale_viktoria_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Виктория ]
+		(* <- lang_ru;; *);;
+
+locale_brummi_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Брумми ]
+		(* <- lang_ru;; *);;
+
+locale_kapustnaa_pal_ma_book_Shapka_Po_Krugu
+<- locale;
+=> nrel_main_idtf:
+	[ Капустная Пальма ]
+		(* <- lang_ru;; *);;
+

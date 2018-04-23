@@ -1,0 +1,16 @@
+author_Murakami
+<- person;
+=> nrel_main_idtf:
+	[Харуки Мураками]
+		(* <- lang_ru;; *);;
+
+author_Murakami
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Murakami.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

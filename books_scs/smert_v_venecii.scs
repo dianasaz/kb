@@ -1,0 +1,127 @@
+book_Smert_V_Venecii
+<- book;
+=> nrel_author;
+	author_Tomasmann;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Смерть В Венеции]
+		(* <- lang_ru;; *);;
+
+book_Smert_V_Venecii
+=> nrel_characters:
+	.book_Smert_V_Venecii_characters
+		(*
+			-> char_tadzio_book_Smert_V_Venecii;;
+			-> char_gustav_asenbah_book_Smert_V_Venecii;;
+			-> char_gustav_book_Smert_V_Venecii;;
+			-> char_asenbah_book_Smert_V_Venecii;;
+			-> char_pol_book_Smert_V_Venecii;;
+			-> char_tadeus_book_Smert_V_Venecii;;
+			-> char_fridrih_prusskij_book_Smert_V_Venecii;;
+	 	*);;
+
+char_tadzio_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Тадзио ]
+		(* <- lang_ru;; *);;
+
+char_gustav_asenbah_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Густав Ашенбах ]
+		(* <- lang_ru;; *);;
+
+char_gustav_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Густав ]
+		(* <- lang_ru;; *);;
+
+char_asenbah_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Ашенбах ]
+		(* <- lang_ru;; *);;
+
+char_pol_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Пол ]
+		(* <- lang_ru;; *);;
+
+char_tadeus_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Тадеуш ]
+		(* <- lang_ru;; *);;
+
+char_fridrih_prusskij_book_Smert_V_Venecii
+<- char;
+=> nrel_main_idtf:
+	[ Фридрих Прусский ]
+		(* <- lang_ru;; *);;
+
+book_Smert_V_Venecii
+=> nrel_locales:
+	.book_Smert_V_Venecii_locales
+		(*
+			-> locale_dalekij_kraj_book_Smert_V_Venecii;;
+			-> locale_vidnyj_book_Smert_V_Venecii;;
+			-> locale_prekrasnaa_venezia_book_Smert_V_Venecii;;
+			-> locale_evropa_book_Smert_V_Venecii;;
+			-> locale_to_book_Smert_V_Venecii;;
+			-> locale_triest_book_Smert_V_Venecii;;
+			-> locale_venezia_book_Smert_V_Venecii;;
+			-> locale_munhen_book_Smert_V_Venecii;;
+	 	*);;
+
+locale_dalekij_kraj_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Далёкий Край ]
+		(* <- lang_ru;; *);;
+
+locale_vidnyj_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Видный ]
+		(* <- lang_ru;; *);;
+
+locale_prekrasnaa_venezia_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Прекрасная Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_triest_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Триест ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_munhen_book_Smert_V_Venecii
+<- locale;
+=> nrel_main_idtf:
+	[ Мюнхен ]
+		(* <- lang_ru;; *);;
+

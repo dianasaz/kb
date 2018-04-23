@@ -1,0 +1,189 @@
+book_Mashenka
+<- book;
+=> nrel_author;
+	author_Nabokov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Машенька]
+		(* <- lang_ru;; *);;
+
+book_Mashenka
+=> nrel_characters:
+	.book_Mashenka_characters
+		(*
+			-> char_anton_sergeevic_podtagin_book_Mashenka;;
+			-> char_lev_glebovic_ganin_book_Mashenka;;
+			-> char_masen_ka_book_Mashenka;;
+			-> char_alferov_book_Mashenka;;
+			-> char_aleksej_ivanovic_alferov_book_Mashenka;;
+			-> char_ludmila_book_Mashenka;;
+			-> char_podtagin_book_Mashenka;;
+			-> char_kolin_book_Mashenka;;
+			-> char_ganin_book_Mashenka;;
+			-> char_ganin_berlin_book_Mashenka;;
+			-> char_klara_book_Mashenka;;
+	 	*);;
+
+char_anton_sergeevic_podtagin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Антон Сергеевич Подтягин ]
+		(* <- lang_ru;; *);;
+
+char_lev_glebovic_ganin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Лев Глебович Ганин ]
+		(* <- lang_ru;; *);;
+
+char_masen_ka_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Машенька ]
+		(* <- lang_ru;; *);;
+
+char_alferov_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Алферов ]
+		(* <- lang_ru;; *);;
+
+char_aleksej_ivanovic_alferov_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Алексей Иванович Алферов ]
+		(* <- lang_ru;; *);;
+
+char_ludmila_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Людмила ]
+		(* <- lang_ru;; *);;
+
+char_podtagin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Подтягин ]
+		(* <- lang_ru;; *);;
+
+char_kolin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Колин ]
+		(* <- lang_ru;; *);;
+
+char_ganin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Ганин ]
+		(* <- lang_ru;; *);;
+
+char_ganin_berlin_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Ганин Берлин ]
+		(* <- lang_ru;; *);;
+
+char_klara_book_Mashenka
+<- char;
+=> nrel_main_idtf:
+	[ Клара ]
+		(* <- lang_ru;; *);;
+
+book_Mashenka
+=> nrel_locales:
+	.book_Mashenka_locales
+		(*
+			-> locale_voskresenskij_book_Mashenka;;
+			-> locale_alta_book_Mashenka;;
+			-> locale_zapad_book_Mashenka;;
+			-> locale_berlin_book_Mashenka;;
+			-> locale_moskva_book_Mashenka;;
+			-> locale_kastanovaa_kosa_book_Mashenka;;
+			-> locale_malorossia_book_Mashenka;;
+			-> locale_parij_book_Mashenka;;
+			-> locale_voskresensk_book_Mashenka;;
+			-> locale_germania_book_Mashenka;;
+			-> locale_peterburg_book_Mashenka;;
+	 	*);;
+
+locale_voskresenskij_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Воскресенский ]
+		(* <- lang_ru;; *);;
+
+locale_alta_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Ялта ]
+		(* <- lang_ru;; *);;
+
+locale_zapad_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Запад ]
+		(* <- lang_ru;; *);;
+
+locale_berlin_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Берлин ]
+		(* <- lang_ru;; *);;
+
+locale_moskva_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Москва ]
+		(* <- lang_ru;; *);;
+
+locale_kastanovaa_kosa_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Каштановая Коса ]
+		(* <- lang_ru;; *);;
+
+locale_malorossia_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Малороссия ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_voskresensk_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Воскресенск ]
+		(* <- lang_ru;; *);;
+
+locale_germania_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Германия ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Mashenka
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+
+book_Mashenka
+=> nrel_dates:
+	.book_Mashenka_dates
+		(*
+			-> date_1924_book_Mashenka;;
+	 	*);;
+
+date_1924_book_Mashenka
+<- date;
+=> nrel_main_idtf:
+	[ 1924 ]
+		(* <- lang_ru;; *);;
+

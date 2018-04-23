@@ -1,0 +1,252 @@
+book_Roksana
+<- book;
+=> nrel_author;
+	author_Defo;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Счастливая Куртизанка, Или Роксана]
+		(* <- lang_ru;; *);;
+
+book_Roksana
+=> nrel_characters:
+	.book_Roksana_characters
+		(*
+			-> char_roksana_book_Roksana;;
+			-> char_s_uzen_book_Roksana;;
+			-> char_defo_book_Roksana;;
+			-> char_karl_book_Roksana;;
+			-> char_vil_gel_m_book_Roksana;;
+			-> char_georg_book_Roksana;;
+			-> char_akov_book_Roksana;;
+			-> char_robert_klejton_book_Roksana;;
+			-> char_anne_book_Roksana;;
+	 	*);;
+
+char_roksana_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Роксана ]
+		(* <- lang_ru;; *);;
+
+char_s_uzen_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Сьюзен ]
+		(* <- lang_ru;; *);;
+
+char_defo_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Дефо ]
+		(* <- lang_ru;; *);;
+
+char_karl_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Карл ]
+		(* <- lang_ru;; *);;
+
+char_vil_gel_m_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Вильгельм ]
+		(* <- lang_ru;; *);;
+
+char_georg_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Георг ]
+		(* <- lang_ru;; *);;
+
+char_akov_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Яков ]
+		(* <- lang_ru;; *);;
+
+char_robert_klejton_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Роберт Клейтон ]
+		(* <- lang_ru;; *);;
+
+char_anne_book_Roksana
+<- char;
+=> nrel_main_idtf:
+	[ Анне ]
+		(* <- lang_ru;; *);;
+
+book_Roksana
+=> nrel_locales:
+	.book_Roksana_locales
+		(*
+			-> locale_versal__book_Roksana;;
+			-> locale_gollandia_book_Roksana;;
+			-> locale_venezia_book_Roksana;;
+			-> locale_franzia_book_Roksana;;
+			-> locale_grinvic_book_Roksana;;
+			-> locale_kensington_book_Roksana;;
+			-> locale_car_book_Roksana;;
+			-> locale_anglia_book_Roksana;;
+			-> locale_rotterdam_book_Roksana;;
+			-> locale_smertnyj_odr_book_Roksana;;
+			-> locale_klejton_book_Roksana;;
+			-> locale_skoma_book_Roksana;;
+			-> locale_novaa_anglia_book_Roksana;;
+			-> locale_parij_book_Roksana;;
+			-> locale_london_book_Roksana;;
+			-> locale_razoblacitel_nyj_pafos_book_Roksana;;
+			-> locale_nea_book_Roksana;;
+			-> locale_italia_book_Roksana;;
+			-> locale_kuda_book_Roksana;;
+			-> locale_fesenebel_nyj_rajon_book_Roksana;;
+			-> locale_to_book_Roksana;;
+	 	*);;
+
+locale_versal__book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Версаль ]
+		(* <- lang_ru;; *);;
+
+locale_gollandia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Голландия ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_grinvic_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Гринвич ]
+		(* <- lang_ru;; *);;
+
+locale_kensington_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Кенсингтон ]
+		(* <- lang_ru;; *);;
+
+locale_car_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Чар ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_rotterdam_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Роттердам ]
+		(* <- lang_ru;; *);;
+
+locale_smertnyj_odr_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Смертный Одр ]
+		(* <- lang_ru;; *);;
+
+locale_klejton_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Клейтон ]
+		(* <- lang_ru;; *);;
+
+locale_skoma_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Скома ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_anglia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Англия ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_razoblacitel_nyj_pafos_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Разоблачительный Пафос ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_fesenebel_nyj_rajon_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ Фешенебельный Район ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Roksana
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+book_Roksana
+=> nrel_dates:
+	.book_Roksana_dates
+		(*
+			-> date_1745_book_Roksana;;
+			-> date_1683_book_Roksana;;
+	 	*);;
+
+date_1745_book_Roksana
+<- date;
+=> nrel_main_idtf:
+	[ 1745 ]
+		(* <- lang_ru;; *);;
+
+date_1683_book_Roksana
+<- date;
+=> nrel_main_idtf:
+	[ 1683 ]
+		(* <- lang_ru;; *);;
+

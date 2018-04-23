@@ -1,0 +1,16 @@
+author_Gofman
+<- person;
+=> nrel_main_idtf:
+	[Эрнст Теодор Амадей Гофман]
+		(* <- lang_ru;; *);;
+
+author_Gofman
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Gofman.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

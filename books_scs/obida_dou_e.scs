@@ -1,0 +1,57 @@
+book_Obida_Dou_E
+<- book;
+=> nrel_author;
+	author_Guan_Hancin;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тронувшая Небо И Землю Обида Доу Э]
+		(* <- lang_ru;; *);;
+
+book_Obida_Dou_E
+=> nrel_characters:
+	.book_Obida_Dou_E_characters
+		(*
+			-> char_cjan_book_Obida_Dou_E;;
+			-> char_tan_cjan_book_Obida_Dou_E;;
+			-> char_sajla_book_Obida_Dou_E;;
+			-> char_zaj_book_Obida_Dou_E;;
+	 	*);;
+
+char_cjan_book_Obida_Dou_E
+<- char;
+=> nrel_main_idtf:
+	[ Чжан ]
+		(* <- lang_ru;; *);;
+
+char_tan_cjan_book_Obida_Dou_E
+<- char;
+=> nrel_main_idtf:
+	[ Тяньчжан ]
+		(* <- lang_ru;; *);;
+
+char_sajla_book_Obida_Dou_E
+<- char;
+=> nrel_main_idtf:
+	[ Сайла ]
+		(* <- lang_ru;; *);;
+
+char_zaj_book_Obida_Dou_E
+<- char;
+=> nrel_main_idtf:
+	[ Цай ]
+		(* <- lang_ru;; *);;
+
+book_Obida_Dou_E
+=> nrel_locales:
+	.book_Obida_Dou_E_locales
+		(*
+			-> locale_to_book_Obida_Dou_E;;
+	 	*);;
+
+locale_to_book_Obida_Dou_E
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

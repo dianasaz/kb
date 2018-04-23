@@ -1,0 +1,23 @@
+book_Toska
+<- book;
+=> nrel_author;
+	author_Chehov;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Тоска]
+		(* <- lang_ru;; *);;
+
+book_Toska
+=> nrel_characters:
+	.book_Toska_characters
+		(*
+			-> char_iona_book_Toska;;
+	 	*);;
+
+char_iona_book_Toska
+<- char;
+=> nrel_main_idtf:
+	[ Иона ]
+		(* <- lang_ru;; *);;
+

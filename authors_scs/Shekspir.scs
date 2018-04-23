@@ -1,0 +1,16 @@
+author_Shekspir
+<- person;
+=> nrel_main_idtf:
+	[Уильям Шекспир]
+		(* <- lang_ru;; *);;
+
+author_Shekspir
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Shekspir.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

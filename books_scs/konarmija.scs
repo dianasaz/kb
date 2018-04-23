@@ -1,0 +1,309 @@
+book_Konarmija
+<- book;
+=> nrel_author;
+	author_Babel;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Конармия]
+		(* <- lang_ru;; *);;
+
+book_Konarmija
+=> nrel_characters:
+	.book_Konarmija_characters
+		(*
+			-> char_kurduk_book_Konarmija;;
+			-> char_matvej_book_Konarmija;;
+			-> char_afon_kaa_book_Konarmija;;
+			-> char_balmaseva_book_Konarmija;;
+			-> char_fedor_timofeic_book_Konarmija;;
+			-> char_maria_book_Konarmija;;
+			-> char_spinoza_book_Konarmija;;
+			-> char_vasa_book_Konarmija;;
+			-> char_babel__book_Konarmija;;
+			-> char_afon_kij_book_Konarmija;;
+			-> char_lutov_book_Konarmija;;
+			-> char_vos_miletov_book_Konarmija;;
+			-> char_nikitinskij_book_Konarmija;;
+			-> char_magdalina_book_Konarmija;;
+			-> char_brazlavskij_book_Konarmija;;
+			-> char_trunov_book_Konarmija;;
+			-> char_franzisk_book_Konarmija;;
+			-> char_denikin_book_Konarmija;;
+			-> char_il_a_book_Konarmija;;
+			-> char_iisus_book_Konarmija;;
+			-> char_galizia_book_Konarmija;;
+			-> char_S_budennyj_book_Konarmija;;
+			-> char_bida_afon_ka_book_Konarmija;;
+			-> char_savizkij_book_Konarmija;;
+			-> char_dolgusov_book_Konarmija;;
+			-> char_pavla_book_Konarmija;;
+			-> char_vasilij_book_Konarmija;;
+			-> char_debora_book_Konarmija;;
+			-> char_andruska_book_Konarmija;;
+	 	*);;
+
+char_kurduk_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Курдюк ]
+		(* <- lang_ru;; *);;
+
+char_matvej_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Матвей ]
+		(* <- lang_ru;; *);;
+
+char_afon_kaa_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Афонькая ]
+		(* <- lang_ru;; *);;
+
+char_balmaseva_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Балмашева ]
+		(* <- lang_ru;; *);;
+
+char_fedor_timofeic_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Фёдор Тимофеич ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_spinoza_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Спиноза ]
+		(* <- lang_ru;; *);;
+
+char_vasa_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Вася ]
+		(* <- lang_ru;; *);;
+
+char_babel__book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Бабель ]
+		(* <- lang_ru;; *);;
+
+char_afon_kij_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Афонький ]
+		(* <- lang_ru;; *);;
+
+char_lutov_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Лютов ]
+		(* <- lang_ru;; *);;
+
+char_vos_miletov_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Восьмилетов ]
+		(* <- lang_ru;; *);;
+
+char_nikitinskij_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Никитинский ]
+		(* <- lang_ru;; *);;
+
+char_magdalina_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Магдалина ]
+		(* <- lang_ru;; *);;
+
+char_brazlavskij_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Брацлавский ]
+		(* <- lang_ru;; *);;
+
+char_trunov_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Трунов ]
+		(* <- lang_ru;; *);;
+
+char_franzisk_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Франциск ]
+		(* <- lang_ru;; *);;
+
+char_denikin_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Деникин ]
+		(* <- lang_ru;; *);;
+
+char_il_a_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Илья ]
+		(* <- lang_ru;; *);;
+
+char_iisus_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Иисус ]
+		(* <- lang_ru;; *);;
+
+char_galizia_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Галиция ]
+		(* <- lang_ru;; *);;
+
+char_S_budennyj_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ С Буденный ]
+		(* <- lang_ru;; *);;
+
+char_bida_afon_ka_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Бида Афонька ]
+		(* <- lang_ru;; *);;
+
+char_savizkij_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Савицкий ]
+		(* <- lang_ru;; *);;
+
+char_dolgusov_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Долгушов ]
+		(* <- lang_ru;; *);;
+
+char_pavla_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Павля ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Василий ]
+		(* <- lang_ru;; *);;
+
+char_debora_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Дебора ]
+		(* <- lang_ru;; *);;
+
+char_andruska_book_Konarmija
+<- char;
+=> nrel_main_idtf:
+	[ Андрюшка ]
+		(* <- lang_ru;; *);;
+
+book_Konarmija
+=> nrel_locales:
+	.book_Konarmija_locales
+		(*
+			-> locale_krasnyh_book_Konarmija;;
+			-> locale_groznyj_book_Konarmija;;
+			-> locale_krasnaa_book_Konarmija;;
+			-> locale_kotoryj_book_Konarmija;;
+			-> locale_velikoe_book_Konarmija;;
+			-> locale_krasnyj_book_Konarmija;;
+			-> locale_berdicev_book_Konarmija;;
+			-> locale_cujaa_sabla_book_Konarmija;;
+			-> locale_palestina_book_Konarmija;;
+			-> locale_zapadnaa_ukraina_book_Konarmija;;
+			-> locale_berestecko_book_Konarmija;;
+			-> locale_nacstab_book_Konarmija;;
+	 	*);;
+
+locale_krasnyh_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Красных ]
+		(* <- lang_ru;; *);;
+
+locale_groznyj_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Грозный ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Красная ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_berdicev_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Бердичев ]
+		(* <- lang_ru;; *);;
+
+locale_cujaa_sabla_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Чужая Сабля ]
+		(* <- lang_ru;; *);;
+
+locale_palestina_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Палестина ]
+		(* <- lang_ru;; *);;
+
+locale_zapadnaa_ukraina_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Западная Украина ]
+		(* <- lang_ru;; *);;
+
+locale_berestecko_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Берестечко ]
+		(* <- lang_ru;; *);;
+
+locale_nacstab_book_Konarmija
+<- locale;
+=> nrel_main_idtf:
+	[ Начштаб ]
+		(* <- lang_ru;; *);;
+

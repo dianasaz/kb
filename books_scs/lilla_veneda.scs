@@ -1,0 +1,72 @@
+book_Lilla_Veneda
+<- book;
+=> nrel_author;
+	author_Slovackij;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Лилла Венеда]
+		(* <- lang_ru;; *);;
+
+book_Lilla_Veneda
+=> nrel_characters:
+	.book_Lilla_Veneda_characters
+		(*
+			-> char_gval_bert_book_Lilla_Veneda;;
+			-> char_sal_mon_leha_book_Lilla_Veneda;;
+			-> char_slaz_book_Lilla_Veneda;;
+			-> char_leh_book_Lilla_Veneda;;
+			-> char_sal_mona_book_Lilla_Veneda;;
+			-> char_leha_book_Lilla_Veneda;;
+			-> char_roza_book_Lilla_Veneda;;
+			-> char_lilla_book_Lilla_Veneda;;
+	 	*);;
+
+char_gval_bert_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Гвальберт ]
+		(* <- lang_ru;; *);;
+
+char_sal_mon_leha_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Сальмон Лёха ]
+		(* <- lang_ru;; *);;
+
+char_slaz_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Сляз ]
+		(* <- lang_ru;; *);;
+
+char_leh_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Лех ]
+		(* <- lang_ru;; *);;
+
+char_sal_mona_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Сальмона ]
+		(* <- lang_ru;; *);;
+
+char_leha_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Лёха ]
+		(* <- lang_ru;; *);;
+
+char_roza_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Роза ]
+		(* <- lang_ru;; *);;
+
+char_lilla_book_Lilla_Veneda
+<- char;
+=> nrel_main_idtf:
+	[ Лилла ]
+		(* <- lang_ru;; *);;
+

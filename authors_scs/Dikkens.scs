@@ -1,0 +1,16 @@
+author_Dikkens
+<- person;
+=> nrel_main_idtf:
+	[Чарльз Диккенс]
+		(* <- lang_ru;; *);;
+
+author_Dikkens
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Dikkens.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

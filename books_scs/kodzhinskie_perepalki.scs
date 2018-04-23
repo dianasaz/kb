@@ -1,0 +1,134 @@
+book_Kodzhinskie_Perepalki
+<- book;
+=> nrel_author;
+	author_Goldoni;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кьоджинские Перепалки]
+		(* <- lang_ru;; *);;
+
+book_Kodzhinskie_Perepalki
+=> nrel_characters:
+	.book_Kodzhinskie_Perepalki_characters
+		(*
+			-> char_lucetta_book_Kodzhinskie_Perepalki;;
+			-> char_orsetta_book_Kodzhinskie_Perepalki;;
+			-> char_toni_book_Kodzhinskie_Perepalki;;
+			-> char_beppo_book_Kodzhinskie_Perepalki;;
+			-> char_kekka_book_Kodzhinskie_Perepalki;;
+			-> char_tit_book_Kodzhinskie_Perepalki;;
+			-> char_nana_book_Kodzhinskie_Perepalki;;
+	 	*);;
+
+char_lucetta_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Лучетта ]
+		(* <- lang_ru;; *);;
+
+char_orsetta_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Орсетта ]
+		(* <- lang_ru;; *);;
+
+char_toni_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Тони ]
+		(* <- lang_ru;; *);;
+
+char_beppo_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Беппо ]
+		(* <- lang_ru;; *);;
+
+char_kekka_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Кекка ]
+		(* <- lang_ru;; *);;
+
+char_tit_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Тит ]
+		(* <- lang_ru;; *);;
+
+char_nana_book_Kodzhinskie_Perepalki
+<- char;
+=> nrel_main_idtf:
+	[ Нана ]
+		(* <- lang_ru;; *);;
+
+book_Kodzhinskie_Perepalki
+=> nrel_locales:
+	.book_Kodzhinskie_Perepalki_locales
+		(*
+			-> locale_velikodusnyj_isidoro_book_Kodzhinskie_Perepalki;;
+			-> locale_padron_book_Kodzhinskie_Perepalki;;
+			-> locale_sam_isidoro_book_Kodzhinskie_Perepalki;;
+			-> locale_vtoroj_isidoro_book_Kodzhinskie_Perepalki;;
+			-> locale_isidoro_book_Kodzhinskie_Perepalki;;
+			-> locale_nea_book_Kodzhinskie_Perepalki;;
+			-> locale_venezia_book_Kodzhinskie_Perepalki;;
+			-> locale_para_book_Kodzhinskie_Perepalki;;
+			-> locale_ludski_book_Kodzhinskie_Perepalki;;
+	 	*);;
+
+locale_velikodusnyj_isidoro_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Великодушный Исидоро ]
+		(* <- lang_ru;; *);;
+
+locale_padron_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Падрон ]
+		(* <- lang_ru;; *);;
+
+locale_sam_isidoro_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Исидоро ]
+		(* <- lang_ru;; *);;
+
+locale_vtoroj_isidoro_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Второй Исидоро ]
+		(* <- lang_ru;; *);;
+
+locale_isidoro_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Исидоро ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_venezia_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Венеция ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+
+locale_ludski_book_Kodzhinskie_Perepalki
+<- locale;
+=> nrel_main_idtf:
+	[ Людски ]
+		(* <- lang_ru;; *);;
+

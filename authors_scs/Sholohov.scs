@@ -1,0 +1,16 @@
+author_Sholohov
+<- person;
+=> nrel_main_idtf:
+	[Михаил Шолохов]
+		(* <- lang_ru;; *);;
+
+author_Sholohov
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Sholohov.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

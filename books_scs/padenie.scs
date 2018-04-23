@@ -1,0 +1,78 @@
+book_Padenie
+<- book;
+=> nrel_author;
+	author_Kamju;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Падение]
+		(* <- lang_ru;; *);;
+
+book_Padenie
+=> nrel_characters:
+	.book_Padenie_characters
+		(*
+			-> char_klemans_book_Padenie;;
+			-> char_jan_book_Padenie;;
+	 	*);;
+
+char_klemans_book_Padenie
+<- char;
+=> nrel_main_idtf:
+	[ Клеманс ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Padenie
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+book_Padenie
+=> nrel_locales:
+	.book_Padenie_locales
+		(*
+			-> locale_parij_book_Padenie;;
+			-> locale_to_book_Padenie;;
+			-> locale_amsterdam_book_Padenie;;
+			-> locale_sena_book_Padenie;;
+			-> locale_ejk_book_Padenie;;
+			-> locale_mehiko_book_Padenie;;
+	 	*);;
+
+locale_parij_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_amsterdam_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ Амстердам ]
+		(* <- lang_ru;; *);;
+
+locale_sena_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ Сена ]
+		(* <- lang_ru;; *);;
+
+locale_ejk_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ Эйк ]
+		(* <- lang_ru;; *);;
+
+locale_mehiko_book_Padenie
+<- locale;
+=> nrel_main_idtf:
+	[ Мехико ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,141 @@
+book_Parfjumer
+<- book;
+=> nrel_author;
+	author_Zjuskind;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Парфюмер. История Одного Убийцы]
+		(* <- lang_ru;; *);;
+
+book_Parfjumer
+=> nrel_characters:
+	.book_Parfjumer_characters
+		(*
+			-> char_grenovavsij_book_Parfjumer;;
+			-> char_grenuusij_book_Parfjumer;;
+			-> char_gajar_book_Parfjumer;;
+			-> char_jan_book_Parfjumer;;
+			-> char_laura_risa_book_Parfjumer;;
+			-> char_arnul_fi_book_Parfjumer;;
+			-> char_tajad_book_Parfjumer;;
+			-> char_grenuj_batist_book_Parfjumer;;
+			-> char_risa_book_Parfjumer;;
+			-> char_laura_book_Parfjumer;;
+	 	*);;
+
+char_grenovavsij_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Греновавший ]
+		(* <- lang_ru;; *);;
+
+char_grenuusij_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Гренующий ]
+		(* <- lang_ru;; *);;
+
+char_gajar_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Гайяр ]
+		(* <- lang_ru;; *);;
+
+char_jan_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Жан ]
+		(* <- lang_ru;; *);;
+
+char_laura_risa_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Лаура Риша ]
+		(* <- lang_ru;; *);;
+
+char_arnul_fi_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Арнульфи ]
+		(* <- lang_ru;; *);;
+
+char_tajad_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Тайад ]
+		(* <- lang_ru;; *);;
+
+char_grenuj_batist_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Гренуй Батист ]
+		(* <- lang_ru;; *);;
+
+char_risa_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Риша ]
+		(* <- lang_ru;; *);;
+
+char_laura_book_Parfjumer
+<- char;
+=> nrel_main_idtf:
+	[ Лаура ]
+		(* <- lang_ru;; *);;
+
+book_Parfjumer
+=> nrel_locales:
+	.book_Parfjumer_locales
+		(*
+			-> locale_franzia_book_Parfjumer;;
+			-> locale_bal_dina_book_Parfjumer;;
+			-> locale_velikoe_book_Parfjumer;;
+			-> locale_grenuusij_book_Parfjumer;;
+			-> locale_parij_book_Parfjumer;;
+			-> locale_to_book_Parfjumer;;
+			-> locale_risa_book_Parfjumer;;
+	 	*);;
+
+locale_franzia_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_bal_dina_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Бальдиня ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_grenuusij_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Гренующий ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_risa_book_Parfjumer
+<- locale;
+=> nrel_main_idtf:
+	[ Риша ]
+		(* <- lang_ru;; *);;
+

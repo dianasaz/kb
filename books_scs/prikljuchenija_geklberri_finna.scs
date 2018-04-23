@@ -1,0 +1,281 @@
+book_Prikljuchenija_Geklberri_Finna
+<- book;
+=> nrel_author;
+	author_Tven;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Приключения Гекльберри Финна]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Geklberri_Finna
+=> nrel_characters:
+	.book_Prikljuchenija_Geklberri_Finna_characters
+		(*
+			-> char_ludovik_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_pitersberg_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_sid_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_sekspir_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_salli_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_djim_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_tom_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_gek_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_felpsovyj_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_seperdson_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_duglas_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_grendjeford_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_maria_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_djekson_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_garvi_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_meri_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_uotson_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_polli_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_uil_am_book_Prikljuchenija_Geklberri_Finna;;
+			-> char_piter_book_Prikljuchenija_Geklberri_Finna;;
+	 	*);;
+
+char_ludovik_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Людовик ]
+		(* <- lang_ru;; *);;
+
+char_pitersberg_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Питерсберг ]
+		(* <- lang_ru;; *);;
+
+char_sid_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Сид ]
+		(* <- lang_ru;; *);;
+
+char_sekspir_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Шекспир ]
+		(* <- lang_ru;; *);;
+
+char_salli_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Салли ]
+		(* <- lang_ru;; *);;
+
+char_djim_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Джим ]
+		(* <- lang_ru;; *);;
+
+char_tom_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Том ]
+		(* <- lang_ru;; *);;
+
+char_gek_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Гек ]
+		(* <- lang_ru;; *);;
+
+char_felpsovyj_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Фелпсовый ]
+		(* <- lang_ru;; *);;
+
+char_seperdson_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Шепердсон ]
+		(* <- lang_ru;; *);;
+
+char_duglas_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Дуглас ]
+		(* <- lang_ru;; *);;
+
+char_grendjeford_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Грэнджефорд ]
+		(* <- lang_ru;; *);;
+
+char_maria_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Мария ]
+		(* <- lang_ru;; *);;
+
+char_djekson_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Джексон ]
+		(* <- lang_ru;; *);;
+
+char_garvi_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Гарви ]
+		(* <- lang_ru;; *);;
+
+char_meri_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Мэри ]
+		(* <- lang_ru;; *);;
+
+char_uotson_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Уотсон ]
+		(* <- lang_ru;; *);;
+
+char_polli_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Полли ]
+		(* <- lang_ru;; *);;
+
+char_uil_am_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Уильям ]
+		(* <- lang_ru;; *);;
+
+char_piter_book_Prikljuchenija_Geklberri_Finna
+<- char;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+book_Prikljuchenija_Geklberri_Finna
+=> nrel_locales:
+	.book_Prikljuchenija_Geklberri_Finna_locales
+		(*
+			-> locale_kair_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_piter_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_grendjerford_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_franzia_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_blijajsij_gorodok_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_kuda_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_stat_illinojs_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_lesna_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_tom_sojer_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_sam_tot_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_gorodok_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_missisipi_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_anglia_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_sofia_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_seperdsonomivsij_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_severnyj_stat_book_Prikljuchenija_Geklberri_Finna;;
+			-> locale_gorod_kair_book_Prikljuchenija_Geklberri_Finna;;
+	 	*);;
+
+locale_kair_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Каир ]
+		(* <- lang_ru;; *);;
+
+locale_piter_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Питер ]
+		(* <- lang_ru;; *);;
+
+locale_grendjerford_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Грэнджерфорд ]
+		(* <- lang_ru;; *);;
+
+locale_franzia_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Франция ]
+		(* <- lang_ru;; *);;
+
+locale_blijajsij_gorodok_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Ближайший Городок ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_stat_illinojs_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Штат Иллинойс ]
+		(* <- lang_ru;; *);;
+
+locale_lesna_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Лесна ]
+		(* <- lang_ru;; *);;
+
+locale_tom_sojer_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Том Сойер ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_gorodok_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Городок ]
+		(* <- lang_ru;; *);;
+
+locale_missisipi_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Миссисипи ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_sofia_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ София ]
+		(* <- lang_ru;; *);;
+
+locale_seperdsonomivsij_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Шепердсономивший ]
+		(* <- lang_ru;; *);;
+
+locale_severnyj_stat_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Северный Штат ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_kair_book_Prikljuchenija_Geklberri_Finna
+<- locale;
+=> nrel_main_idtf:
+	[ Город Каир ]
+		(* <- lang_ru;; *);;
+

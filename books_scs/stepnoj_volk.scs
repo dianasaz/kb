@@ -1,0 +1,127 @@
+book_Stepnoj_Volk
+<- book;
+=> nrel_author;
+	author_Gesse;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Степной Волк]
+		(* <- lang_ru;; *);;
+
+book_Stepnoj_Volk
+=> nrel_characters:
+	.book_Stepnoj_Volk_characters
+		(*
+			-> char_val_purgiev_book_Stepnoj_Volk;;
+			-> char_pablo_book_Stepnoj_Volk;;
+			-> char_garri_galler_book_Stepnoj_Volk;;
+			-> char_gallera_book_Stepnoj_Volk;;
+			-> char_gete_book_Stepnoj_Volk;;
+			-> char_dostoevskij_book_Stepnoj_Volk;;
+			-> char_roman_book_Stepnoj_Volk;;
+			-> char_germin_book_Stepnoj_Volk;;
+			-> char_garri_book_Stepnoj_Volk;;
+			-> char_mozart_book_Stepnoj_Volk;;
+	 	*);;
+
+char_val_purgiev_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Вальпургиев ]
+		(* <- lang_ru;; *);;
+
+char_pablo_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Пабло ]
+		(* <- lang_ru;; *);;
+
+char_garri_galler_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Гарри Галлер ]
+		(* <- lang_ru;; *);;
+
+char_gallera_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Галлера ]
+		(* <- lang_ru;; *);;
+
+char_gete_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Гете ]
+		(* <- lang_ru;; *);;
+
+char_dostoevskij_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Достоевский ]
+		(* <- lang_ru;; *);;
+
+char_roman_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Роман ]
+		(* <- lang_ru;; *);;
+
+char_germin_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Гермин ]
+		(* <- lang_ru;; *);;
+
+char_garri_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Гарри ]
+		(* <- lang_ru;; *);;
+
+char_mozart_book_Stepnoj_Volk
+<- char;
+=> nrel_main_idtf:
+	[ Моцарт ]
+		(* <- lang_ru;; *);;
+
+book_Stepnoj_Volk
+=> nrel_locales:
+	.book_Stepnoj_Volk_locales
+		(*
+			-> locale_kotoryj_book_Stepnoj_Volk;;
+			-> locale_cernyj_orel_book_Stepnoj_Volk;;
+			-> locale_kuda_book_Stepnoj_Volk;;
+			-> locale_velikoe_book_Stepnoj_Volk;;
+			-> locale_to_book_Stepnoj_Volk;;
+	 	*);;
+
+locale_kotoryj_book_Stepnoj_Volk
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_cernyj_orel_book_Stepnoj_Volk
+<- locale;
+=> nrel_main_idtf:
+	[ Чёрный Орёл ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Stepnoj_Volk
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Stepnoj_Volk
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Stepnoj_Volk
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+

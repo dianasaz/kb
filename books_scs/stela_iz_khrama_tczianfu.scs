@@ -1,0 +1,92 @@
+book_Stela_Iz_Khrama_Tczianfu
+<- book;
+=> nrel_author;
+	author_Ma_Chzhijuan;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[В Полночь Гром Поражает Стелу Из Храма Цзяньфу]
+		(* <- lang_ru;; *);;
+
+book_Stela_Iz_Khrama_Tczianfu
+=> nrel_characters:
+	.book_Stela_Iz_Khrama_Tczianfu_characters
+		(*
+			-> char_zzan_f_book_Stela_Iz_Khrama_Tczianfu;;
+			-> char_cjun_book_Stela_Iz_Khrama_Tczianfu;;
+			-> char_loan_book_Stela_Iz_Khrama_Tczianfu;;
+			-> char_fana_book_Stela_Iz_Khrama_Tczianfu;;
+			-> char_cjan_book_Stela_Iz_Khrama_Tczianfu;;
+			-> char_loan_book_Stela_Iz_Khrama_Tczianfu;;
+	 	*);;
+
+char_zzan_f_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Цзяньф ]
+		(* <- lang_ru;; *);;
+
+char_cjun_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Чжун ]
+		(* <- lang_ru;; *);;
+
+char_loan_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+char_fana_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Фаня ]
+		(* <- lang_ru;; *);;
+
+char_cjan_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Чжан ]
+		(* <- lang_ru;; *);;
+
+char_loan_book_Stela_Iz_Khrama_Tczianfu
+<- char;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+book_Stela_Iz_Khrama_Tczianfu
+=> nrel_locales:
+	.book_Stela_Iz_Khrama_Tczianfu_locales
+		(*
+			-> locale_suna_book_Stela_Iz_Khrama_Tczianfu;;
+			-> locale_loan_book_Stela_Iz_Khrama_Tczianfu;;
+			-> locale_huancjou_book_Stela_Iz_Khrama_Tczianfu;;
+			-> locale_ancjou_book_Stela_Iz_Khrama_Tczianfu;;
+	 	*);;
+
+locale_suna_book_Stela_Iz_Khrama_Tczianfu
+<- locale;
+=> nrel_main_idtf:
+	[ Суна ]
+		(* <- lang_ru;; *);;
+
+locale_loan_book_Stela_Iz_Khrama_Tczianfu
+<- locale;
+=> nrel_main_idtf:
+	[ Лоян ]
+		(* <- lang_ru;; *);;
+
+locale_huancjou_book_Stela_Iz_Khrama_Tczianfu
+<- locale;
+=> nrel_main_idtf:
+	[ Хуанчжоу ]
+		(* <- lang_ru;; *);;
+
+locale_ancjou_book_Stela_Iz_Khrama_Tczianfu
+<- locale;
+=> nrel_main_idtf:
+	[ Янчжоу ]
+		(* <- lang_ru;; *);;
+

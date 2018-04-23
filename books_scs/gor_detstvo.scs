@@ -1,0 +1,217 @@
+book_Gor_Detstvo
+<- book;
+=> nrel_author;
+	author_Gorkii;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Детство]
+		(* <- lang_ru;; *);;
+
+book_Gor_Detstvo
+=> nrel_characters:
+	.book_Gor_Detstvo_characters
+		(*
+			-> char_akulin_book_Gor_Detstvo;;
+			-> char_ivanovna_akulina_book_Gor_Detstvo;;
+			-> char_maksimov_book_Gor_Detstvo;;
+			-> char_ivan_book_Gor_Detstvo;;
+			-> char_nikolaj_book_Gor_Detstvo;;
+			-> char_vasilij_vasil_ic_kasirin_book_Gor_Detstvo;;
+			-> char_alesa_book_Gor_Detstvo;;
+			-> char_ovsannikov_book_Gor_Detstvo;;
+			-> char_evgenij_book_Gor_Detstvo;;
+			-> char_peskov_book_Gor_Detstvo;;
+			-> char_alesa_peskov_book_Gor_Detstvo;;
+			-> char_varvara_book_Gor_Detstvo;;
+			-> char_akulina_ivanovna_kasirina_book_Gor_Detstvo;;
+			-> char_mihajlo_book_Gor_Detstvo;;
+			-> char_akov_book_Gor_Detstvo;;
+	 	*);;
+
+char_akulin_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Акулин ]
+		(* <- lang_ru;; *);;
+
+char_ivanovna_akulina_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Ивановна Акулина ]
+		(* <- lang_ru;; *);;
+
+char_maksimov_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Максимов ]
+		(* <- lang_ru;; *);;
+
+char_ivan_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Иван ]
+		(* <- lang_ru;; *);;
+
+char_nikolaj_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Николай ]
+		(* <- lang_ru;; *);;
+
+char_vasilij_vasil_ic_kasirin_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Василий Васильич Каширин ]
+		(* <- lang_ru;; *);;
+
+char_alesa_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Алёша ]
+		(* <- lang_ru;; *);;
+
+char_ovsannikov_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Овсянников ]
+		(* <- lang_ru;; *);;
+
+char_evgenij_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Евгений ]
+		(* <- lang_ru;; *);;
+
+char_peskov_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Пешков ]
+		(* <- lang_ru;; *);;
+
+char_alesa_peskov_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Алёша Пешков ]
+		(* <- lang_ru;; *);;
+
+char_varvara_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Варвара ]
+		(* <- lang_ru;; *);;
+
+char_akulina_ivanovna_kasirina_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Акулина Ивановна Каширина ]
+		(* <- lang_ru;; *);;
+
+char_mihajlo_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Михайло ]
+		(* <- lang_ru;; *);;
+
+char_akov_book_Gor_Detstvo
+<- char;
+=> nrel_main_idtf:
+	[ Яков ]
+		(* <- lang_ru;; *);;
+
+book_Gor_Detstvo
+=> nrel_locales:
+	.book_Gor_Detstvo_locales
+		(*
+			-> locale_babuskin_book_Gor_Detstvo;;
+			-> locale_varvarinoe_book_Gor_Detstvo;;
+			-> locale_nijnij_novgorod_book_Gor_Detstvo;;
+			-> locale_sibir__book_Gor_Detstvo;;
+			-> locale_velikoe_book_Gor_Detstvo;;
+			-> locale_kuda_book_Gor_Detstvo;;
+			-> locale_volga_book_Gor_Detstvo;;
+			-> locale_to_book_Gor_Detstvo;;
+			-> locale_oka_book_Gor_Detstvo;;
+			-> locale_kasirina_book_Gor_Detstvo;;
+			-> locale_medvediza_book_Gor_Detstvo;;
+	 	*);;
+
+locale_babuskin_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Бабушкин ]
+		(* <- lang_ru;; *);;
+
+locale_varvarinoe_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Варвариное ]
+		(* <- lang_ru;; *);;
+
+locale_nijnij_novgorod_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Нижний Новгород ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_volga_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Волга ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_oka_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Ока ]
+		(* <- lang_ru;; *);;
+
+locale_kasirina_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Каширина ]
+		(* <- lang_ru;; *);;
+
+locale_medvediza_book_Gor_Detstvo
+<- locale;
+=> nrel_main_idtf:
+	[ Медведица ]
+		(* <- lang_ru;; *);;
+
+book_Gor_Detstvo
+=> nrel_dates:
+	.book_Gor_Detstvo_dates
+		(*
+			-> date_1913_book_Gor_Detstvo;;
+	 	*);;
+
+date_1913_book_Gor_Detstvo
+<- date;
+=> nrel_main_idtf:
+	[ 1913 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,273 @@
+book_Pjatnadcatiletnij_Kapitan
+<- book;
+=> nrel_author;
+	author_Vern;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Пятнадцатилетний Капитан]
+		(* <- lang_ru;; *);;
+
+book_Pjatnadcatiletnij_Kapitan
+=> nrel_characters:
+	.book_Pjatnadcatiletnij_Kapitan_characters
+		(*
+			-> char_send_dik_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_dik_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_djek_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_dik_send_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_to_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_okleanda_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_benedikt_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_ueldon_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_ostin_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_muani_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_nana_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_gula_book_Pjatnadcatiletnij_Kapitan;;
+			-> char_djejms_book_Pjatnadcatiletnij_Kapitan;;
+	 	*);;
+
+char_send_dik_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Сенд Дик ]
+		(* <- lang_ru;; *);;
+
+char_dik_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Дик ]
+		(* <- lang_ru;; *);;
+
+char_djek_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Джек ]
+		(* <- lang_ru;; *);;
+
+char_dik_send_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Дик Сенд ]
+		(* <- lang_ru;; *);;
+
+char_to_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+char_okleanda_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Оклеанда ]
+		(* <- lang_ru;; *);;
+
+char_benedikt_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Бенедикт ]
+		(* <- lang_ru;; *);;
+
+char_ueldon_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Уэлдон ]
+		(* <- lang_ru;; *);;
+
+char_ostin_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Остин ]
+		(* <- lang_ru;; *);;
+
+char_muani_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Муани ]
+		(* <- lang_ru;; *);;
+
+char_nana_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Нана ]
+		(* <- lang_ru;; *);;
+
+char_gula_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Гуля ]
+		(* <- lang_ru;; *);;
+
+char_djejms_book_Pjatnadcatiletnij_Kapitan
+<- char;
+=> nrel_main_idtf:
+	[ Джеймс ]
+		(* <- lang_ru;; *);;
+
+book_Pjatnadcatiletnij_Kapitan
+=> nrel_locales:
+	.book_Pjatnadcatiletnij_Kapitan_locales
+		(*
+			-> locale_send_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_muani_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_ssa_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_kvanza_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_samyj_negoro_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_bolivia_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_kotoryj_negoro_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_kalifornia_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_portugalia_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_to_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_negoro_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_amerika_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_afrika_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_novaa_zelandia_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_ueldon_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_val_paraiso_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_ujnaa_amerika_book_Pjatnadcatiletnij_Kapitan;;
+			-> locale_angola_book_Pjatnadcatiletnij_Kapitan;;
+	 	*);;
+
+locale_send_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Сенд ]
+		(* <- lang_ru;; *);;
+
+locale_muani_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Муани ]
+		(* <- lang_ru;; *);;
+
+locale_ssa_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Сша ]
+		(* <- lang_ru;; *);;
+
+locale_kvanza_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Кванза ]
+		(* <- lang_ru;; *);;
+
+locale_samyj_negoro_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Самый Негоро ]
+		(* <- lang_ru;; *);;
+
+locale_bolivia_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Боливия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_negoro_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Который Негоро ]
+		(* <- lang_ru;; *);;
+
+locale_kalifornia_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Калифорния ]
+		(* <- lang_ru;; *);;
+
+locale_portugalia_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Португалия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_negoro_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Негоро ]
+		(* <- lang_ru;; *);;
+
+locale_amerika_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Америка ]
+		(* <- lang_ru;; *);;
+
+locale_afrika_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Африка ]
+		(* <- lang_ru;; *);;
+
+locale_novaa_zelandia_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Новая Зеландия ]
+		(* <- lang_ru;; *);;
+
+locale_ueldon_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Уэлдон ]
+		(* <- lang_ru;; *);;
+
+locale_val_paraiso_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Вальпараисо ]
+		(* <- lang_ru;; *);;
+
+locale_ujnaa_amerika_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Южная Америка ]
+		(* <- lang_ru;; *);;
+
+locale_angola_book_Pjatnadcatiletnij_Kapitan
+<- locale;
+=> nrel_main_idtf:
+	[ Ангола ]
+		(* <- lang_ru;; *);;
+
+book_Pjatnadcatiletnij_Kapitan
+=> nrel_dates:
+	.book_Pjatnadcatiletnij_Kapitan_dates
+		(*
+			-> date_8_25_book_Pjatnadcatiletnij_Kapitan;;
+			-> date_1873_1_29_book_Pjatnadcatiletnij_Kapitan;;
+			-> date_1871_12_book_Pjatnadcatiletnij_Kapitan;;
+			-> date_1877_11_15_book_Pjatnadcatiletnij_Kapitan;;
+	 	*);;
+
+date_8_25_book_Pjatnadcatiletnij_Kapitan
+<- date;
+=> nrel_main_idtf:
+	[ 8 25 ]
+		(* <- lang_ru;; *);;
+
+date_1873_1_29_book_Pjatnadcatiletnij_Kapitan
+<- date;
+=> nrel_main_idtf:
+	[ 1873 1 29 ]
+		(* <- lang_ru;; *);;
+
+date_1871_12_book_Pjatnadcatiletnij_Kapitan
+<- date;
+=> nrel_main_idtf:
+	[ 1871 12 ]
+		(* <- lang_ru;; *);;
+
+date_1877_11_15_book_Pjatnadcatiletnij_Kapitan
+<- date;
+=> nrel_main_idtf:
+	[ 1877 11 15 ]
+		(* <- lang_ru;; *);;
+

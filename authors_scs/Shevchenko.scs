@@ -1,0 +1,16 @@
+author_Shevchenko
+<- person;
+=> nrel_main_idtf:
+	[Тарас Шевченко]
+		(* <- lang_ru;; *);;
+
+author_Shevchenko
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Shevchenko.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

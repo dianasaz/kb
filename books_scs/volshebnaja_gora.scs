@@ -1,0 +1,162 @@
+book_Volshebnaja_Gora
+<- book;
+=> nrel_author;
+	author_Tomasmann;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Волшебная Гора]
+		(* <- lang_ru;; *);;
+
+book_Volshebnaja_Gora
+=> nrel_characters:
+	.book_Volshebnaja_Gora_characters
+		(*
+			-> char_ioahim_book_Volshebnaja_Gora;;
+			-> char_elli_brand_book_Volshebnaja_Gora;;
+			-> char_berens_book_Volshebnaja_Gora;;
+			-> char_zimsena_book_Volshebnaja_Gora;;
+			-> char_gans_book_Volshebnaja_Gora;;
+			-> char_klavdij_book_Volshebnaja_Gora;;
+			-> char_lodovikoe_book_Volshebnaja_Gora;;
+	 	*);;
+
+char_ioahim_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Иоахим ]
+		(* <- lang_ru;; *);;
+
+char_elli_brand_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Элли Бранд ]
+		(* <- lang_ru;; *);;
+
+char_berens_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Беренс ]
+		(* <- lang_ru;; *);;
+
+char_zimsena_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Цимсена ]
+		(* <- lang_ru;; *);;
+
+char_gans_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Ганс ]
+		(* <- lang_ru;; *);;
+
+char_klavdij_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Клавдий ]
+		(* <- lang_ru;; *);;
+
+char_lodovikoe_book_Volshebnaja_Gora
+<- char;
+=> nrel_main_idtf:
+	[ Лодовикое ]
+		(* <- lang_ru;; *);;
+
+book_Volshebnaja_Gora
+=> nrel_locales:
+	.book_Volshebnaja_Gora_locales
+		(*
+			-> locale_kastorp_book_Volshebnaja_Gora;;
+			-> locale_berggof_book_Volshebnaja_Gora;;
+			-> locale_velikoe_book_Volshebnaja_Gora;;
+			-> locale_vengria_book_Volshebnaja_Gora;;
+			-> locale_venera_book_Volshebnaja_Gora;;
+			-> locale_to_book_Volshebnaja_Gora;;
+			-> locale_sosa_book_Volshebnaja_Gora;;
+			-> locale_gerzel_berg_book_Volshebnaja_Gora;;
+			-> locale_zimsena_book_Volshebnaja_Gora;;
+			-> locale_berens_book_Volshebnaja_Gora;;
+			-> locale_evropa_book_Volshebnaja_Gora;;
+			-> locale_gamburg_book_Volshebnaja_Gora;;
+			-> locale_svejzaria_book_Volshebnaja_Gora;;
+	 	*);;
+
+locale_kastorp_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Касторп ]
+		(* <- lang_ru;; *);;
+
+locale_berggof_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Берггоф ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_vengria_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Венгрия ]
+		(* <- lang_ru;; *);;
+
+locale_venera_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Венера ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_sosa_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Шоша ]
+		(* <- lang_ru;; *);;
+
+locale_gerzel_berg_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Герзельберг ]
+		(* <- lang_ru;; *);;
+
+locale_zimsena_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Цимсена ]
+		(* <- lang_ru;; *);;
+
+locale_berens_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Беренс ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_gamburg_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Гамбург ]
+		(* <- lang_ru;; *);;
+
+locale_svejzaria_book_Volshebnaja_Gora
+<- locale;
+=> nrel_main_idtf:
+	[ Швейцария ]
+		(* <- lang_ru;; *);;
+

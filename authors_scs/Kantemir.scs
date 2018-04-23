@@ -1,0 +1,16 @@
+author_Kantemir
+<- person;
+=> nrel_main_idtf:
+	[Антиох Кантемир]
+		(* <- lang_ru;; *);;
+
+author_Kantemir
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Kantemir.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

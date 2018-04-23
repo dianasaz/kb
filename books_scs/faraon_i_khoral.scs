@@ -1,0 +1,10 @@
+book_Faraon_I_Khoral
+<- book;
+=> nrel_author;
+	author_Genri;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Фараон И Хорал]
+		(* <- lang_ru;; *);;
+

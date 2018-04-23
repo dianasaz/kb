@@ -1,0 +1,16 @@
+author_Aristofan
+<- person;
+=> nrel_main_idtf:
+	[Аристофан]
+		(* <- lang_ru;; *);;
+
+author_Aristofan
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Aristofan.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

@@ -1,0 +1,336 @@
+book_Kristin_Doch_Lavransa
+<- book;
+=> nrel_author;
+	author_Unset;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Кристин, Дочь Лавранса]
+		(* <- lang_ru;; *);;
+
+book_Kristin_Doch_Lavransa
+=> nrel_characters:
+	.book_Kristin_Doch_Lavransa_characters
+		(*
+			-> char_kristin_book_Kristin_Doch_Lavransa;;
+			-> char_b_erpol_f_book_Kristin_Doch_Lavransa;;
+			-> char_erlend_book_Kristin_Doch_Lavransa;;
+			-> char_arne_book_Kristin_Doch_Lavransa;;
+			-> char_darra_book_Kristin_Doch_Lavransa;;
+			-> char_gurd_book_Kristin_Doch_Lavransa;;
+			-> char_brunhil_da_book_Kristin_Doch_Lavransa;;
+			-> char_nikulaus_book_Kristin_Doch_Lavransa;;
+			-> char_margreta_book_Kristin_Doch_Lavransa;;
+			-> char_ul_va_book_Kristin_Doch_Lavransa;;
+			-> char_simon_book_Kristin_Doch_Lavransa;;
+			-> char_ul_vhil_da_book_Kristin_Doch_Lavransa;;
+			-> char_andres_book_Kristin_Doch_Lavransa;;
+			-> char_b_ergul_f_book_Kristin_Doch_Lavransa;;
+			-> char_ivar_book_Kristin_Doch_Lavransa;;
+			-> char_oshil_da_book_Kristin_Doch_Lavransa;;
+			-> char_ragnfrid_book_Kristin_Doch_Lavransa;;
+			-> char_lavrans_book_Kristin_Doch_Lavransa;;
+			-> char_ufrid_book_Kristin_Doch_Lavransa;;
+			-> char_munana_book_Kristin_Doch_Lavransa;;
+			-> char_edvin_book_Kristin_Doch_Lavransa;;
+			-> char_elina_book_Kristin_Doch_Lavransa;;
+	 	*);;
+
+char_kristin_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Кристин ]
+		(* <- lang_ru;; *);;
+
+char_b_erpol_f_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Бьерпольф ]
+		(* <- lang_ru;; *);;
+
+char_erlend_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Эрленд ]
+		(* <- lang_ru;; *);;
+
+char_arne_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Арне ]
+		(* <- lang_ru;; *);;
+
+char_darra_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Дарра ]
+		(* <- lang_ru;; *);;
+
+char_gurd_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Гюрд ]
+		(* <- lang_ru;; *);;
+
+char_brunhil_da_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Брюнхильда ]
+		(* <- lang_ru;; *);;
+
+char_nikulaus_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Никулаус ]
+		(* <- lang_ru;; *);;
+
+char_margreta_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Маргрета ]
+		(* <- lang_ru;; *);;
+
+char_ul_va_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Ульва ]
+		(* <- lang_ru;; *);;
+
+char_simon_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Симон ]
+		(* <- lang_ru;; *);;
+
+char_ul_vhil_da_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Ульвхильда ]
+		(* <- lang_ru;; *);;
+
+char_andres_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Андрес ]
+		(* <- lang_ru;; *);;
+
+char_b_ergul_f_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Бьергюльф ]
+		(* <- lang_ru;; *);;
+
+char_ivar_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Ивар ]
+		(* <- lang_ru;; *);;
+
+char_oshil_da_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Осхильда ]
+		(* <- lang_ru;; *);;
+
+char_ragnfrid_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Рагнфрид ]
+		(* <- lang_ru;; *);;
+
+char_lavrans_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Лавранс ]
+		(* <- lang_ru;; *);;
+
+char_ufrid_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Юфрид ]
+		(* <- lang_ru;; *);;
+
+char_munana_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Мюнана ]
+		(* <- lang_ru;; *);;
+
+char_edvin_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Эдвин ]
+		(* <- lang_ru;; *);;
+
+char_elina_book_Kristin_Doch_Lavransa
+<- char;
+=> nrel_main_idtf:
+	[ Элина ]
+		(* <- lang_ru;; *);;
+
+book_Kristin_Doch_Lavransa
+=> nrel_locales:
+	.book_Kristin_Doch_Lavransa_locales
+		(*
+			-> locale_krohotnyj_nikulaus_book_Kristin_Doch_Lavransa;;
+			-> locale_ramborg_book_Kristin_Doch_Lavransa;;
+			-> locale_lagmana_book_Kristin_Doch_Lavransa;;
+			-> locale_nikulaus_book_Kristin_Doch_Lavransa;;
+			-> locale_bentejn_book_Kristin_Doch_Lavransa;;
+			-> locale_breda_book_Kristin_Doch_Lavransa;;
+			-> locale_zdesnij_kraj_book_Kristin_Doch_Lavransa;;
+			-> locale_ingeb_erg_book_Kristin_Doch_Lavransa;;
+			-> locale_norvegia_book_Kristin_Doch_Lavransa;;
+			-> locale_magnus_book_Kristin_Doch_Lavransa;;
+			-> locale_sam_tot_book_Kristin_Doch_Lavransa;;
+			-> locale_oslo_book_Kristin_Doch_Lavransa;;
+			-> locale_svezia_book_Kristin_Doch_Lavransa;;
+			-> locale_evropa_book_Kristin_Doch_Lavransa;;
+			-> locale_to_book_Kristin_Doch_Lavransa;;
+			-> locale_cujoj_kraj_book_Kristin_Doch_Lavransa;;
+			-> locale_nea_book_Kristin_Doch_Lavransa;;
+			-> locale_sunniva_book_Kristin_Doch_Lavransa;;
+			-> locale_skula_book_Kristin_Doch_Lavransa;;
+			-> locale_prekrasnaa_para_book_Kristin_Doch_Lavransa;;
+	 	*);;
+
+locale_krohotnyj_nikulaus_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Крохотный Никулаус ]
+		(* <- lang_ru;; *);;
+
+locale_ramborg_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Рамборг ]
+		(* <- lang_ru;; *);;
+
+locale_lagmana_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Лагмана ]
+		(* <- lang_ru;; *);;
+
+locale_nikulaus_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Никулаус ]
+		(* <- lang_ru;; *);;
+
+locale_bentejn_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Бентейн ]
+		(* <- lang_ru;; *);;
+
+locale_breda_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Бреда ]
+		(* <- lang_ru;; *);;
+
+locale_zdesnij_kraj_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Здешний Край ]
+		(* <- lang_ru;; *);;
+
+locale_ingeb_erg_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Ингебьерг ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_magnus_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Магнус ]
+		(* <- lang_ru;; *);;
+
+locale_sam_tot_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Сам Тот ]
+		(* <- lang_ru;; *);;
+
+locale_oslo_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Осло ]
+		(* <- lang_ru;; *);;
+
+locale_svezia_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Швеция ]
+		(* <- lang_ru;; *);;
+
+locale_evropa_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Европа ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_cujoj_kraj_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Чужой Край ]
+		(* <- lang_ru;; *);;
+
+locale_nea_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Нея ]
+		(* <- lang_ru;; *);;
+
+locale_sunniva_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Сюннива ]
+		(* <- lang_ru;; *);;
+
+locale_skula_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Скюла ]
+		(* <- lang_ru;; *);;
+
+locale_prekrasnaa_para_book_Kristin_Doch_Lavransa
+<- locale;
+=> nrel_main_idtf:
+	[ Прекрасная Пара ]
+		(* <- lang_ru;; *);;
+
+book_Kristin_Doch_Lavransa
+=> nrel_dates:
+	.book_Kristin_Doch_Lavransa_dates
+		(*
+			-> date_1332_1_book_Kristin_Doch_Lavransa;;
+			-> date_1349_book_Kristin_Doch_Lavransa;;
+	 	*);;
+
+date_1332_1_book_Kristin_Doch_Lavransa
+<- date;
+=> nrel_main_idtf:
+	[ 1332 1 ]
+		(* <- lang_ru;; *);;
+
+date_1349_book_Kristin_Doch_Lavransa
+<- date;
+=> nrel_main_idtf:
+	[ 1349 ]
+		(* <- lang_ru;; *);;
+

@@ -1,0 +1,211 @@
+book_Prestuplenie
+<- book;
+=> nrel_author;
+	author_Dostoevsky;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Преступление И Наказание]
+		(* <- lang_ru;; *);;
+
+book_Prestuplenie
+=> nrel_characters:
+	.book_Prestuplenie_characters
+		(*
+			-> char_lizaveta_book_Prestuplenie;;
+			-> char_svidrigajlov_book_Prestuplenie;;
+			-> char_sona_book_Prestuplenie;;
+			-> char_raskol_nikov_book_Prestuplenie;;
+			-> char_lazar__book_Prestuplenie;;
+			-> char_siller_book_Prestuplenie;;
+			-> char_raskol_nik_book_Prestuplenie;;
+			-> char_razumihin_book_Prestuplenie;;
+			-> char_alena_ivanovna_book_Prestuplenie;;
+			-> char_porfirij_book_Prestuplenie;;
+			-> char_sonina_book_Prestuplenie;;
+			-> char_rodion_book_Prestuplenie;;
+			-> char_porfirij_petrovic_book_Prestuplenie;;
+			-> char_duna_book_Prestuplenie;;
+			-> char_rodion_romanovic_raskol_nikov_book_Prestuplenie;;
+			-> char_katerina_ivanovna_book_Prestuplenie;;
+			-> char_hristos_book_Prestuplenie;;
+	 	*);;
+
+char_lizaveta_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Лизавета ]
+		(* <- lang_ru;; *);;
+
+char_svidrigajlov_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Свидригайлов ]
+		(* <- lang_ru;; *);;
+
+char_sona_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Соня ]
+		(* <- lang_ru;; *);;
+
+char_raskol_nikov_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Раскольников ]
+		(* <- lang_ru;; *);;
+
+char_lazar__book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Лазарь ]
+		(* <- lang_ru;; *);;
+
+char_siller_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Шиллер ]
+		(* <- lang_ru;; *);;
+
+char_raskol_nik_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Раскольник ]
+		(* <- lang_ru;; *);;
+
+char_razumihin_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Разумихин ]
+		(* <- lang_ru;; *);;
+
+char_alena_ivanovna_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Алёна Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_porfirij_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Порфирий ]
+		(* <- lang_ru;; *);;
+
+char_sonina_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Сонина ]
+		(* <- lang_ru;; *);;
+
+char_rodion_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Родион ]
+		(* <- lang_ru;; *);;
+
+char_porfirij_petrovic_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Порфирий Петрович ]
+		(* <- lang_ru;; *);;
+
+char_duna_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Дуня ]
+		(* <- lang_ru;; *);;
+
+char_rodion_romanovic_raskol_nikov_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Родион Романович Раскольников ]
+		(* <- lang_ru;; *);;
+
+char_katerina_ivanovna_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Катерина Ивановна ]
+		(* <- lang_ru;; *);;
+
+char_hristos_book_Prestuplenie
+<- char;
+=> nrel_main_idtf:
+	[ Христос ]
+		(* <- lang_ru;; *);;
+
+book_Prestuplenie
+=> nrel_locales:
+	.book_Prestuplenie_locales
+		(*
+			-> locale_karman_book_Prestuplenie;;
+			-> locale_tulon_book_Prestuplenie;;
+			-> locale_sibir__book_Prestuplenie;;
+			-> locale_kuda_book_Prestuplenie;;
+			-> locale_bednyj_rajon_book_Prestuplenie;;
+			-> locale_parij_book_Prestuplenie;;
+			-> locale_to_book_Prestuplenie;;
+			-> locale_katorjnyj_ostrog_book_Prestuplenie;;
+			-> locale_egipet_book_Prestuplenie;;
+			-> locale_peterburg_book_Prestuplenie;;
+	 	*);;
+
+locale_karman_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Карман ]
+		(* <- lang_ru;; *);;
+
+locale_tulon_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Тулон ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_bednyj_rajon_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Бедный Район ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_katorjnyj_ostrog_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Каторжный Острог ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_peterburg_book_Prestuplenie
+<- locale;
+=> nrel_main_idtf:
+	[ Петербург ]
+		(* <- lang_ru;; *);;
+

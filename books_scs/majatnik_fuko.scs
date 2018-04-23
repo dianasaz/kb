@@ -1,0 +1,169 @@
+book_Majatnik_Fuko
+<- book;
+=> nrel_author;
+	author_Eko;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Маятник Фуко]
+		(* <- lang_ru;; *);;
+
+book_Majatnik_Fuko
+=> nrel_characters:
+	.book_Majatnik_Fuko_characters
+		(*
+			-> char_garamon_book_Majatnik_Fuko;;
+			-> char_jermen_book_Majatnik_Fuko;;
+			-> char_maatnik_book_Majatnik_Fuko;;
+			-> char_al_e_book_Majatnik_Fuko;;
+			-> char_fuko_book_Majatnik_Fuko;;
+			-> char_marks_book_Majatnik_Fuko;;
+			-> char_lia_book_Majatnik_Fuko;;
+			-> char_bel_bo_book_Majatnik_Fuko;;
+	 	*);;
+
+char_garamon_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Гарамон ]
+		(* <- lang_ru;; *);;
+
+char_jermen_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Жермен ]
+		(* <- lang_ru;; *);;
+
+char_maatnik_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Маятник ]
+		(* <- lang_ru;; *);;
+
+char_al_e_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Алье ]
+		(* <- lang_ru;; *);;
+
+char_fuko_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Фуко ]
+		(* <- lang_ru;; *);;
+
+char_marks_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Маркс ]
+		(* <- lang_ru;; *);;
+
+char_lia_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Лия ]
+		(* <- lang_ru;; *);;
+
+char_bel_bo_book_Majatnik_Fuko
+<- char;
+=> nrel_main_idtf:
+	[ Бельбо ]
+		(* <- lang_ru;; *);;
+
+book_Majatnik_Fuko
+=> nrel_locales:
+	.book_Majatnik_Fuko_locales
+		(*
+			-> locale_milan_book_Majatnik_Fuko;;
+			-> locale_manuzio_book_Majatnik_Fuko;;
+			-> locale_asassina_book_Majatnik_Fuko;;
+			-> locale_brazilia_book_Majatnik_Fuko;;
+			-> locale_italia_book_Majatnik_Fuko;;
+			-> locale_kotoryj_book_Majatnik_Fuko;;
+			-> locale_kuda_book_Majatnik_Fuko;;
+			-> locale_diotallevi_book_Majatnik_Fuko;;
+			-> locale_amparoe_book_Majatnik_Fuko;;
+			-> locale_pafos_book_Majatnik_Fuko;;
+			-> locale_parij_book_Majatnik_Fuko;;
+			-> locale_saturn_book_Majatnik_Fuko;;
+			-> locale_samanskij_book_Majatnik_Fuko;;
+	 	*);;
+
+locale_milan_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Милан ]
+		(* <- lang_ru;; *);;
+
+locale_manuzio_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Мануцио ]
+		(* <- lang_ru;; *);;
+
+locale_asassina_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Асассина ]
+		(* <- lang_ru;; *);;
+
+locale_brazilia_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Бразилия ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_diotallevi_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Диоталлеви ]
+		(* <- lang_ru;; *);;
+
+locale_amparoe_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Ампарое ]
+		(* <- lang_ru;; *);;
+
+locale_pafos_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Пафос ]
+		(* <- lang_ru;; *);;
+
+locale_parij_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Париж ]
+		(* <- lang_ru;; *);;
+
+locale_saturn_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Сатурн ]
+		(* <- lang_ru;; *);;
+
+locale_samanskij_book_Majatnik_Fuko
+<- locale;
+=> nrel_main_idtf:
+	[ Шаманский ]
+		(* <- lang_ru;; *);;
+

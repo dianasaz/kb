@@ -1,0 +1,92 @@
+book_Viktorija
+<- book;
+=> nrel_author;
+	author_Gamsun;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Виктория]
+		(* <- lang_ru;; *);;
+
+book_Viktorija
+=> nrel_characters:
+	.book_Viktorija_characters
+		(*
+			-> char_uhannesa_book_Viktorija;;
+			-> char_ditlefoma_book_Viktorija;;
+			-> char_uhannes_book_Viktorija;;
+			-> char_otto_book_Viktorija;;
+			-> char_kamilla_book_Viktorija;;
+	 	*);;
+
+char_uhannesa_book_Viktorija
+<- char;
+=> nrel_main_idtf:
+	[ Юханнеса ]
+		(* <- lang_ru;; *);;
+
+char_ditlefoma_book_Viktorija
+<- char;
+=> nrel_main_idtf:
+	[ Дитлефома ]
+		(* <- lang_ru;; *);;
+
+char_uhannes_book_Viktorija
+<- char;
+=> nrel_main_idtf:
+	[ Юханнес ]
+		(* <- lang_ru;; *);;
+
+char_otto_book_Viktorija
+<- char;
+=> nrel_main_idtf:
+	[ Отто ]
+		(* <- lang_ru;; *);;
+
+char_kamilla_book_Viktorija
+<- char;
+=> nrel_main_idtf:
+	[ Камилла ]
+		(* <- lang_ru;; *);;
+
+book_Viktorija
+=> nrel_locales:
+	.book_Viktorija_locales
+		(*
+			-> locale_sejer_book_Viktorija;;
+			-> locale_kotoryj_book_Viktorija;;
+			-> locale_norvegia_book_Viktorija;;
+			-> locale_to_book_Viktorija;;
+			-> locale_viktoria_book_Viktorija;;
+	 	*);;
+
+locale_sejer_book_Viktorija
+<- locale;
+=> nrel_main_idtf:
+	[ Сейер ]
+		(* <- lang_ru;; *);;
+
+locale_kotoryj_book_Viktorija
+<- locale;
+=> nrel_main_idtf:
+	[ Который ]
+		(* <- lang_ru;; *);;
+
+locale_norvegia_book_Viktorija
+<- locale;
+=> nrel_main_idtf:
+	[ Норвегия ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Viktorija
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_viktoria_book_Viktorija
+<- locale;
+=> nrel_main_idtf:
+	[ Виктория ]
+		(* <- lang_ru;; *);;
+

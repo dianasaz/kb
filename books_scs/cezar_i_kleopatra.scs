@@ -1,0 +1,155 @@
+book_Cezar_I_Kleopatra
+<- book;
+=> nrel_author;
+	author_Shou;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Цезарь И Клеопатра]
+		(* <- lang_ru;; *);;
+
+book_Cezar_I_Kleopatra
+=> nrel_characters:
+	.book_Cezar_I_Kleopatra_characters
+		(*
+			-> char_rufia_book_Cezar_I_Kleopatra;;
+			-> char_kleopatra_book_Cezar_I_Kleopatra;;
+			-> char_antonia_marka_book_Cezar_I_Kleopatra;;
+			-> char_pompej_book_Cezar_I_Kleopatra;;
+			-> char_ftatatit_book_Cezar_I_Kleopatra;;
+			-> char_apollodora_book_Cezar_I_Kleopatra;;
+			-> char_dionis_book_Cezar_I_Kleopatra;;
+			-> char_ulij_zezar__book_Cezar_I_Kleopatra;;
+			-> char_ptolemej_book_Cezar_I_Kleopatra;;
+			-> char_septimia_luzia_book_Cezar_I_Kleopatra;;
+			-> char_rufij_book_Cezar_I_Kleopatra;;
+			-> char_ahilla_book_Cezar_I_Kleopatra;;
+			-> char_nil_book_Cezar_I_Kleopatra;;
+	 	*);;
+
+char_rufia_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Руфия ]
+		(* <- lang_ru;; *);;
+
+char_kleopatra_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Клеопатра ]
+		(* <- lang_ru;; *);;
+
+char_antonia_marka_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Антония Марка ]
+		(* <- lang_ru;; *);;
+
+char_pompej_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Помпей ]
+		(* <- lang_ru;; *);;
+
+char_ftatatit_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Фтататит ]
+		(* <- lang_ru;; *);;
+
+char_apollodora_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Аполлодора ]
+		(* <- lang_ru;; *);;
+
+char_dionis_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Дионис ]
+		(* <- lang_ru;; *);;
+
+char_ulij_zezar__book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Юлий Цезарь ]
+		(* <- lang_ru;; *);;
+
+char_ptolemej_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Птолемей ]
+		(* <- lang_ru;; *);;
+
+char_septimia_luzia_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Септимия Луция ]
+		(* <- lang_ru;; *);;
+
+char_rufij_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Руфий ]
+		(* <- lang_ru;; *);;
+
+char_ahilla_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Ахилла ]
+		(* <- lang_ru;; *);;
+
+char_nil_book_Cezar_I_Kleopatra
+<- char;
+=> nrel_main_idtf:
+	[ Нил ]
+		(* <- lang_ru;; *);;
+
+book_Cezar_I_Kleopatra
+=> nrel_locales:
+	.book_Cezar_I_Kleopatra_locales
+		(*
+			-> locale_britana_book_Cezar_I_Kleopatra;;
+			-> locale_nil_book_Cezar_I_Kleopatra;;
+			-> locale_to_book_Cezar_I_Kleopatra;;
+			-> locale_gorod_aleksandria_book_Cezar_I_Kleopatra;;
+			-> locale_egipet_book_Cezar_I_Kleopatra;;
+			-> locale_rim_book_Cezar_I_Kleopatra;;
+	 	*);;
+
+locale_britana_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ Британа ]
+		(* <- lang_ru;; *);;
+
+locale_nil_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ Нил ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_gorod_aleksandria_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ Город Александрия ]
+		(* <- lang_ru;; *);;
+
+locale_egipet_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ Египет ]
+		(* <- lang_ru;; *);;
+
+locale_rim_book_Cezar_I_Kleopatra
+<- locale;
+=> nrel_main_idtf:
+	[ Рим ]
+		(* <- lang_ru;; *);;
+

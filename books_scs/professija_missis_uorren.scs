@@ -1,0 +1,204 @@
+book_Professija_Missis_Uorren
+<- book;
+=> nrel_author;
+	author_Shou;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Профессия Миссис Уоррен]
+		(* <- lang_ru;; *);;
+
+book_Professija_Missis_Uorren
+=> nrel_characters:
+	.book_Professija_Missis_Uorren_characters
+		(*
+			-> char_frenk_gardner_book_Professija_Missis_Uorren;;
+			-> char_krofts_book_Professija_Missis_Uorren;;
+			-> char_sem_gardner_book_Professija_Missis_Uorren;;
+			-> char_lejn_book_Professija_Missis_Uorren;;
+			-> char_djordj_krofts_book_Professija_Missis_Uorren;;
+			-> char_semuel__gardner_book_Professija_Missis_Uorren;;
+			-> char_frenk_book_Professija_Missis_Uorren;;
+			-> char_gardner_book_Professija_Missis_Uorren;;
+			-> char_uorren_book_Professija_Missis_Uorren;;
+			-> char_prepodobnyj_book_Professija_Missis_Uorren;;
+			-> char_kroftom_book_Professija_Missis_Uorren;;
+	 	*);;
+
+char_frenk_gardner_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Фрэнк Гарднер ]
+		(* <- lang_ru;; *);;
+
+char_krofts_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Крофтс ]
+		(* <- lang_ru;; *);;
+
+char_sem_gardner_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Сэм Гарднер ]
+		(* <- lang_ru;; *);;
+
+char_lejn_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Лейн ]
+		(* <- lang_ru;; *);;
+
+char_djordj_krofts_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Джордж Крофтс ]
+		(* <- lang_ru;; *);;
+
+char_semuel__gardner_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Сэмюэль Гарднер ]
+		(* <- lang_ru;; *);;
+
+char_frenk_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Фрэнк ]
+		(* <- lang_ru;; *);;
+
+char_gardner_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Гарднер ]
+		(* <- lang_ru;; *);;
+
+char_uorren_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Уоррен ]
+		(* <- lang_ru;; *);;
+
+char_prepodobnyj_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Преподобный ]
+		(* <- lang_ru;; *);;
+
+char_kroftom_book_Professija_Missis_Uorren
+<- char;
+=> nrel_main_idtf:
+	[ Крофтом ]
+		(* <- lang_ru;; *);;
+
+book_Professija_Missis_Uorren
+=> nrel_locales:
+	.book_Professija_Missis_Uorren_locales
+		(*
+			-> locale_ostend_book_Professija_Missis_Uorren;;
+			-> locale_censer__book_Professija_Missis_Uorren;;
+			-> locale_vidnyj_book_Professija_Missis_Uorren;;
+			-> locale_canser__book_Professija_Missis_Uorren;;
+			-> locale_italia_book_Professija_Missis_Uorren;;
+			-> locale_brussel__book_Professija_Missis_Uorren;;
+			-> locale_frejzer_book_Professija_Missis_Uorren;;
+			-> locale_kembridj_book_Professija_Missis_Uorren;;
+			-> locale_vena_book_Professija_Missis_Uorren;;
+			-> locale_london_book_Professija_Missis_Uorren;;
+			-> locale_to_book_Professija_Missis_Uorren;;
+			-> locale_vivi_book_Professija_Missis_Uorren;;
+			-> locale_budapest_book_Professija_Missis_Uorren;;
+			-> locale_surrej_book_Professija_Missis_Uorren;;
+			-> locale_para_book_Professija_Missis_Uorren;;
+	 	*);;
+
+locale_ostend_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Остенд ]
+		(* <- lang_ru;; *);;
+
+locale_censer__book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Ченсерь ]
+		(* <- lang_ru;; *);;
+
+locale_vidnyj_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Видный ]
+		(* <- lang_ru;; *);;
+
+locale_canser__book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Чансерь ]
+		(* <- lang_ru;; *);;
+
+locale_italia_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Италия ]
+		(* <- lang_ru;; *);;
+
+locale_brussel__book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Брюссель ]
+		(* <- lang_ru;; *);;
+
+locale_frejzer_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Фрейзер ]
+		(* <- lang_ru;; *);;
+
+locale_kembridj_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Кембридж ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_london_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Лондон ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_vivi_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Виви ]
+		(* <- lang_ru;; *);;
+
+locale_budapest_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Будапешт ]
+		(* <- lang_ru;; *);;
+
+locale_surrej_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Суррей ]
+		(* <- lang_ru;; *);;
+
+locale_para_book_Professija_Missis_Uorren
+<- locale;
+=> nrel_main_idtf:
+	[ Пара ]
+		(* <- lang_ru;; *);;
+

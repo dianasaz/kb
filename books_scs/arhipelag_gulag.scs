@@ -1,0 +1,322 @@
+book_Arhipelag_Gulag
+<- book;
+=> nrel_author;
+	author_Solzhenitsyn;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Архипелаг Гулаг]
+		(* <- lang_ru;; *);;
+
+book_Arhipelag_Gulag
+=> nrel_characters:
+	.book_Arhipelag_Gulag_characters
+		(*
+			-> char_aleksandr_soljenizyn_book_Arhipelag_Gulag;;
+			-> char_soljenizyn_book_Arhipelag_Gulag;;
+			-> char_stalin_book_Arhipelag_Gulag;;
+			-> char_lenin_book_Arhipelag_Gulag;;
+	 	*);;
+
+char_aleksandr_soljenizyn_book_Arhipelag_Gulag
+<- char;
+=> nrel_main_idtf:
+	[ Александр Солженицын ]
+		(* <- lang_ru;; *);;
+
+char_soljenizyn_book_Arhipelag_Gulag
+<- char;
+=> nrel_main_idtf:
+	[ Солженицын ]
+		(* <- lang_ru;; *);;
+
+char_stalin_book_Arhipelag_Gulag
+<- char;
+=> nrel_main_idtf:
+	[ Сталин ]
+		(* <- lang_ru;; *);;
+
+char_lenin_book_Arhipelag_Gulag
+<- char;
+=> nrel_main_idtf:
+	[ Ленин ]
+		(* <- lang_ru;; *);;
+
+book_Arhipelag_Gulag
+=> nrel_locales:
+	.book_Arhipelag_Gulag_locales
+		(*
+			-> locale_usa_book_Arhipelag_Gulag;;
+			-> locale_sibir__book_Arhipelag_Gulag;;
+			-> locale_terekskij_rajon_book_Arhipelag_Gulag;;
+			-> locale_kirov_book_Arhipelag_Gulag;;
+			-> locale_krasnaa_presna_book_Arhipelag_Gulag;;
+			-> locale_srednaa_azia_book_Arhipelag_Gulag;;
+			-> locale_noril_sk_book_Arhipelag_Gulag;;
+			-> locale_magadan_book_Arhipelag_Gulag;;
+			-> locale_samooka_book_Arhipelag_Gulag;;
+			-> locale_krasnyj_book_Arhipelag_Gulag;;
+			-> locale_dennom_book_Arhipelag_Gulag;;
+			-> locale_kotlovka_book_Arhipelag_Gulag;;
+			-> locale_novyj_ierusalim_book_Arhipelag_Gulag;;
+			-> locale_velikoe_book_Arhipelag_Gulag;;
+			-> locale_dal_nij_vostok_book_Arhipelag_Gulag;;
+			-> locale_sahta_book_Arhipelag_Gulag;;
+			-> locale_kazahstan_book_Arhipelag_Gulag;;
+			-> locale_burepolomskij_book_Arhipelag_Gulag;;
+			-> locale_kuda_book_Arhipelag_Gulag;;
+			-> locale_to_book_Arhipelag_Gulag;;
+			-> locale_rur_book_Arhipelag_Gulag;;
+	 	*);;
+
+locale_usa_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Уса ]
+		(* <- lang_ru;; *);;
+
+locale_sibir__book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Сибирь ]
+		(* <- lang_ru;; *);;
+
+locale_terekskij_rajon_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Терекский Район ]
+		(* <- lang_ru;; *);;
+
+locale_kirov_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Киров ]
+		(* <- lang_ru;; *);;
+
+locale_krasnaa_presna_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Красная Пресня ]
+		(* <- lang_ru;; *);;
+
+locale_srednaa_azia_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Средняя Азия ]
+		(* <- lang_ru;; *);;
+
+locale_noril_sk_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Норильск ]
+		(* <- lang_ru;; *);;
+
+locale_magadan_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Магадан ]
+		(* <- lang_ru;; *);;
+
+locale_samooka_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Самоока ]
+		(* <- lang_ru;; *);;
+
+locale_krasnyj_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Красный ]
+		(* <- lang_ru;; *);;
+
+locale_dennom_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Дённом ]
+		(* <- lang_ru;; *);;
+
+locale_kotlovka_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Котловка ]
+		(* <- lang_ru;; *);;
+
+locale_novyj_ierusalim_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Новый Иерусалим ]
+		(* <- lang_ru;; *);;
+
+locale_velikoe_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Великое ]
+		(* <- lang_ru;; *);;
+
+locale_dal_nij_vostok_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Дальний Восток ]
+		(* <- lang_ru;; *);;
+
+locale_sahta_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Шахта ]
+		(* <- lang_ru;; *);;
+
+locale_kazahstan_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Казахстан ]
+		(* <- lang_ru;; *);;
+
+locale_burepolomskij_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Буреполомский ]
+		(* <- lang_ru;; *);;
+
+locale_kuda_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_to_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ То ]
+		(* <- lang_ru;; *);;
+
+locale_rur_book_Arhipelag_Gulag
+<- locale;
+=> nrel_main_idtf:
+	[ Рур ]
+		(* <- lang_ru;; *);;
+
+book_Arhipelag_Gulag
+=> nrel_dates:
+	.book_Arhipelag_Gulag_dates
+		(*
+			-> date_1918_book_Arhipelag_Gulag;;
+			-> date_1937_book_Arhipelag_Gulag;;
+			-> date_1950_book_Arhipelag_Gulag;;
+			-> date_1946_book_Arhipelag_Gulag;;
+			-> date_1945_8_14_book_Arhipelag_Gulag;;
+			-> date_1933_book_Arhipelag_Gulag;;
+			-> date_1942_book_Arhipelag_Gulag;;
+			-> date_1931_book_Arhipelag_Gulag;;
+			-> date_1948_book_Arhipelag_Gulag;;
+			-> date_1923_book_Arhipelag_Gulag;;
+			-> date_1930_book_Arhipelag_Gulag;;
+			-> date_1917_book_Arhipelag_Gulag;;
+			-> date_1954_book_Arhipelag_Gulag;;
+			-> date_1945_book_Arhipelag_Gulag;;
+			-> date_1952_book_Arhipelag_Gulag;;
+			-> date_1947_book_Arhipelag_Gulag;;
+			-> date_1943_4_17_book_Arhipelag_Gulag;;
+	 	*);;
+
+date_1918_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1918 ]
+		(* <- lang_ru;; *);;
+
+date_1937_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1937 ]
+		(* <- lang_ru;; *);;
+
+date_1950_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1950 ]
+		(* <- lang_ru;; *);;
+
+date_1946_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1946 ]
+		(* <- lang_ru;; *);;
+
+date_1945_8_14_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1945 8 14 ]
+		(* <- lang_ru;; *);;
+
+date_1933_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1933 ]
+		(* <- lang_ru;; *);;
+
+date_1942_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1942 ]
+		(* <- lang_ru;; *);;
+
+date_1931_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1931 ]
+		(* <- lang_ru;; *);;
+
+date_1948_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1948 ]
+		(* <- lang_ru;; *);;
+
+date_1923_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1923 ]
+		(* <- lang_ru;; *);;
+
+date_1930_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1930 ]
+		(* <- lang_ru;; *);;
+
+date_1917_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1917 ]
+		(* <- lang_ru;; *);;
+
+date_1954_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1954 ]
+		(* <- lang_ru;; *);;
+
+date_1945_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1945 ]
+		(* <- lang_ru;; *);;
+
+date_1952_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1952 ]
+		(* <- lang_ru;; *);;
+
+date_1947_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1947 ]
+		(* <- lang_ru;; *);;
+
+date_1943_4_17_book_Arhipelag_Gulag
+<- date;
+=> nrel_main_idtf:
+	[ 1943 4 17 ]
+		(* <- lang_ru;; *);;
+

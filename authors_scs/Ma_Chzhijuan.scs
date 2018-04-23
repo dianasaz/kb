@@ -1,0 +1,16 @@
+author_Ma_Chzhijuan
+<- person;
+=> nrel_main_idtf:
+	[Ма Чжиюань]
+		(* <- lang_ru;; *);;
+
+author_Ma_Chzhijuan
+<- rrel_key_sc_element: ...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->rrel_example: "file://images/Ma_Chzhijuan.jpg"
+					(* => nrel_format: format_jpg;; *);;
+			*);;
+	*);;

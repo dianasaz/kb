@@ -1,0 +1,85 @@
+book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- book;
+=> nrel_author;
+	author_Cvejg;
+=> nrel_language:
+	lang_ru;
+=> nrel_main_idtf:
+	[Двадцать Четыре Часа Из Жизни Женщины]
+		(* <- lang_ru;; *);;
+
+book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+=> nrel_characters:
+	.book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny_characters
+		(*
+			-> char_anrieta_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> char_lion_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+	 	*);;
+
+char_anrieta_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- char;
+=> nrel_main_idtf:
+	[ Анриэта ]
+		(* <- lang_ru;; *);;
+
+char_lion_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- char;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+=> nrel_locales:
+	.book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny_locales
+		(*
+			-> locale_kuda_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_vena_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_lion_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_sotlandia_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_anglia_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_riv_era_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+			-> locale_nizza_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny;;
+	 	*);;
+
+locale_kuda_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Куда ]
+		(* <- lang_ru;; *);;
+
+locale_vena_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Вена ]
+		(* <- lang_ru;; *);;
+
+locale_lion_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Лион ]
+		(* <- lang_ru;; *);;
+
+locale_sotlandia_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Шотландия ]
+		(* <- lang_ru;; *);;
+
+locale_anglia_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Англия ]
+		(* <- lang_ru;; *);;
+
+locale_riv_era_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Ривьера ]
+		(* <- lang_ru;; *);;
+
+locale_nizza_book_Dvadcat_Chetyre_Chasa_Iz_Zhizni_Zhencshiny
+<- locale;
+=> nrel_main_idtf:
+	[ Ницца ]
+		(* <- lang_ru;; *);;
+
